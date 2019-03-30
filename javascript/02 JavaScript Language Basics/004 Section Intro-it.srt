@@ -1,0 +1,56 @@
+1
+00:00:01,230 --> 00:00:06,270
+Benvenuto nella prima sezione del corso e in questa sezione imparerai le
+
+2
+00:00:06,360 --> 00:00:07,790
+basi del linguaggio JavaScript.
+
+3
+00:00:08,040 --> 00:00:09,240
+Cose come variabili.
+
+4
+00:00:09,240 --> 00:00:15,510
+I tipi di dati funzionano con matrici di oggetti e molte altre cose che fanno parte del collegamento JavaScript
+
+5
+00:00:15,510 --> 00:00:20,070
+e la parte migliore  che in realt non stai imparando solo javascript ma
+
+6
+00:00:20,160 --> 00:00:23,010
+allo stesso tempo i fondamenti della programmazione in generale.
+
+7
+00:00:23,010 --> 00:00:27,310
+Ora, pi avanti nel corso, torneremo su molti di questi fondamenti.
+
+8
+00:00:27,540 --> 00:00:33,300
+Ma per ora voglio solo avere una rapida panoramica di come funziona la lingua e sporcarti le mani con un
+
+9
+00:00:33,450 --> 00:00:34,430
+po 'di codice.
+
+10
+00:00:34,740 --> 00:00:39,720
+Quindi questa parte del corso non riguarda davvero il fare apparire le cose belle in un browser o qualcosa
+
+11
+00:00:39,720 --> 00:00:40,340
+del genere.
+
+12
+00:00:40,470 --> 00:00:46,170
+In questo momento vogliamo solo concentrarci sul linguaggio javascript e poi il resto verr dopo.
+
+13
+00:00:46,170 --> 00:00:46,670
+Tutto ok.
+
+14
+00:00:46,740 --> 00:00:49,450
+Quindi iniziamo questo viaggio adesso.
+

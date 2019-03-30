@@ -1,0 +1,56 @@
+1
+00:00:01,230 --> 00:00:06,270
+Bienvenido a la primera seccin del curso y en esta seccin aprender los conceptos
+
+2
+00:00:06,360 --> 00:00:07,790
+bsicos del lenguaje JavaScript.
+
+3
+00:00:08,040 --> 00:00:09,240
+Cosas como variables
+
+4
+00:00:09,240 --> 00:00:15,510
+Los tipos de datos funcionan con matrices de objetos y muchas otras cosas que forman parte de la vinculacin de JavaScript,
+
+5
+00:00:15,510 --> 00:00:20,070
+y la mejor parte es que en realidad no solo aprender javascript, sino que, al
+
+6
+00:00:20,160 --> 00:00:23,010
+mismo tiempo, los fundamentos de la programacin en general.
+
+7
+00:00:23,010 --> 00:00:27,310
+Ahora ms adelante en el curso, volveremos a muchos de estos fundamentos.
+
+8
+00:00:27,540 --> 00:00:33,300
+Pero por ahora solo quiero que obtengas una visin general rpida de cmo funciona el lenguaje y ensuciarte las manos
+
+9
+00:00:33,450 --> 00:00:34,430
+con algunos cdigos.
+
+10
+00:00:34,740 --> 00:00:39,720
+Por lo tanto, esta parte del curso no se trata de hacer que las cosas se vean bonitas en un navegador ni
+
+11
+00:00:39,720 --> 00:00:40,340
+nada de eso.
+
+12
+00:00:40,470 --> 00:00:46,170
+En este momento solo queremos enfocarnos en el lenguaje javascript en s mismo y luego el resto vendr despus.
+
+13
+00:00:46,170 --> 00:00:46,670
+Todo bien.
+
+14
+00:00:46,740 --> 00:00:49,450
+As que comencemos este viaje en este momento.
+

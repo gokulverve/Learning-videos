@@ -1,0 +1,92 @@
+1
+00:00:01,160 --> 00:00:03,650
+<v ->Welcome to the first section of the course.</v>
+
+2
+00:00:03,650 --> 00:00:05,170
+And in this section you're gonna learn
+
+3
+00:00:05,170 --> 00:00:07,970
+the very basics of the Javascript language.
+
+4
+00:00:07,970 --> 00:00:10,670
+Things like variables, data types, functions,
+
+5
+00:00:10,670 --> 00:00:13,220
+objects, erase, and many other things
+
+6
+00:00:13,220 --> 00:00:15,340
+that are part of the Javascript language.
+
+7
+00:00:15,340 --> 00:00:17,030
+And the best part is that you're actually
+
+8
+00:00:17,030 --> 00:00:19,040
+not just gonna learn Javascript itself
+
+9
+00:00:19,040 --> 00:00:21,550
+but at the same time the fundamentals of programming
+
+10
+00:00:21,550 --> 00:00:22,960
+in general.
+
+11
+00:00:22,960 --> 00:00:25,800
+Now later in the course we're actually gonna come back
+
+12
+00:00:25,800 --> 00:00:27,520
+to many of these fundamentals.
+
+13
+00:00:27,520 --> 00:00:30,238
+But for now, I just want you to get a quick overview
+
+14
+00:00:30,238 --> 00:00:33,400
+of how the language works and get your hands dirty
+
+15
+00:00:33,400 --> 00:00:34,680
+with some coding.
+
+16
+00:00:34,680 --> 00:00:37,100
+So this part of the course is really not about
+
+17
+00:00:37,100 --> 00:00:38,990
+making things look pretty in a browser
+
+18
+00:00:38,990 --> 00:00:40,410
+or anything like that.
+
+19
+00:00:40,410 --> 00:00:42,370
+Right now we just wanna focus on
+
+20
+00:00:42,370 --> 00:00:44,830
+the Javascript language itself and then the rest
+
+21
+00:00:44,830 --> 00:00:46,090
+will come later.
+
+22
+00:00:46,090 --> 00:00:46,923
+All right.
+
+23
+00:00:46,923 --> 00:00:49,053
+So let's go start this journey right now.
+

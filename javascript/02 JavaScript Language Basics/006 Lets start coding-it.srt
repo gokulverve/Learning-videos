@@ -1,0 +1,400 @@
+1
+00:00:01,240 --> 00:00:07,960
+In realt non scriviamo la nostra prima riga di quote javascript e qui sono nelle parentesi dell'editor di testo.
+
+2
+00:00:08,140 --> 00:00:13,150
+Debbie  appena stato creato nell'ultima lezione e spero che tu lo abbia gi scaricato per avviare un
+
+3
+00:00:13,150 --> 00:00:13,980
+file dal corso.
+
+4
+00:00:13,990 --> 00:00:18,050
+Li ho gi qui sul mio desktop quindi  qui in questa cartella.
+
+5
+00:00:18,490 --> 00:00:21,400
+E vedi che qui devo indicizzare quell'et al mio file.
+
+6
+00:00:21,790 --> 00:00:22,400
+OK.
+
+7
+00:00:22,720 --> 00:00:28,510
+E quindi tornare al parentesi di testo che l'editor di testo deve solo fare per iniziare e il tuo progetto  quello
+
+8
+00:00:28,510 --> 00:00:31,630
+di premere questo pulsante qui e quindi fare clic su Apri cartella.
+
+9
+00:00:32,590 --> 00:00:36,330
+E cos la cartella che voglio come cartella del mio progetto  qui.
+
+10
+00:00:36,580 --> 00:00:37,060
+OK.
+
+11
+00:00:37,150 --> 00:00:39,630
+E quindi ora tutto ci che devo fare  aprire.
+
+12
+00:00:39,880 --> 00:00:43,700
+E ora questa  la cartella del prodotto e si apre alle tue idee.
+
+13
+00:00:43,780 --> 00:00:44,860
+Mendes in
+
+14
+00:00:44,880 --> 00:00:46,150
+H. M. l file.
+
+15
+00:00:46,150 --> 00:00:52,940
+Quindi vedi che questa  solo una struttura ASML molto scortese senza alcun javascript in questo punto.
+
+16
+00:00:53,230 --> 00:00:55,150
+E quindi ora aggiungiamo alcuni.
+
+17
+00:00:55,190 --> 00:01:01,370
+Ora ci sono due modi in cui possiamo aggiungere uno script a un sito Web e il primo  quello con gli
+
+18
+00:01:01,630 --> 00:01:07,530
+script inline e il secondo  quello di aggiungere un file javascript esterno nel quale possiamo quindi aggiungere tutto il nostro
+
+19
+00:01:07,530 --> 00:01:08,080
+codice Javascript.
+
+20
+00:01:08,280 --> 00:01:10,640
+E iniziamo con lo script Inlight.
+
+21
+00:01:10,710 --> 00:01:10,980
+OK.
+
+22
+00:01:10,990 --> 00:01:13,200
+E quindi tutto quello che dobbiamo fare  scrivere
+
+23
+00:01:18,570 --> 00:01:23,760
+uno script dargli un po 'di spazio e poi qui possiamo scrivere la nostra prima riga di javascript in quello che
+
+24
+00:01:23,760 --> 00:01:24,400
+faremo ora.
+
+25
+00:01:24,450 --> 00:01:28,810
+Quindi, semplicemente, stampa sulla console di sviluppo di javascript del testo moka.
+
+26
+00:01:28,830 --> 00:01:38,430
+E quindi tutto ci che dobbiamo fare  scrivere la console su quel log e poi un po 'di testo e scriveremo Hello world.
+
+27
+00:01:38,610 --> 00:01:43,770
+E questo  un testo standard che stampiamo ogni volta che stiamo imparando una nuova lingua o come iniziare
+
+28
+00:01:43,770 --> 00:01:45,610
+una nuova app o qualcosa del genere.
+
+29
+00:01:45,840 --> 00:01:46,980
+OK  tutto mondo ciao.
+
+30
+00:01:47,130 --> 00:01:51,340
+Vedrai quest'anno per tutto il tempo in cui stai cercando tutorial sul Web o qualcosa del genere.
+
+31
+00:01:51,680 --> 00:01:52,340
+OK.
+
+32
+00:01:52,710 --> 00:01:58,860
+E poi per finire la riga dobbiamo sempre aggiungere un punto e virgola come questo e quindi lasciaci qui o
+
+33
+00:01:58,860 --> 00:02:00,830
+la prima riga del codice javascript qui.
+
+34
+00:02:00,990 --> 00:02:06,850
+Quindi non c' niente di speciale che tutto ci che fa  guardare alla console degli sviluppatori questo testo mondiale.
+
+35
+00:02:07,080 --> 00:02:10,690
+Ok, allora diamo una cassaforte e aprila nel browser.
+
+36
+00:02:11,040 --> 00:02:16,650
+Ho installato il plugin di una parentesi per salvare automaticamente il file ogni volta che lascio l'app
+
+37
+00:02:16,650 --> 00:02:17,850
+e si chiama autosave.
+
+38
+00:02:18,030 --> 00:02:20,810
+E quindi non devo sempre salvare il file manualmente.
+
+39
+00:02:20,950 --> 00:02:25,740
+OK, quindi ora me ne vado e poi apro questa cartella.
+
+40
+00:02:25,740 --> 00:02:29,730
+Fai doppio clic sul file e poi si aprir proprio nel browser.
+
+41
+00:02:30,240 --> 00:02:35,580
+Quindi sul lato sinistro in un editor di codice scriviamo ovviamente il nostro codice e poi
+
+42
+00:02:35,580 --> 00:02:41,460
+in un browser sul lato destro avremo o risultati e per vedere effettivamente questi risultati dobbiamo aprirci
+
+43
+00:02:41,470 --> 00:02:44,830
+o con lo sviluppatore javascript. E puoi farlo premendo l'opzione di comando J.
+
+44
+00:02:45,060 --> 00:02:49,380
+O controlla fino a Jay sulla scorciatoia da tastiera come questa.
+
+45
+00:02:49,380 --> 00:02:54,540
+Oppure puoi anche fare clic con il pulsante destro del mouse per ispezionarlo e quindi accedere alla console in questo modo.
+
+46
+00:02:54,600 --> 00:02:55,260
+E qui lo vedi.
+
+47
+00:02:55,290 --> 00:03:00,180
+Abbiamo gi stampato il nostro Hello World sulla console degli sviluppatori e sul sito di questo sito
+
+48
+00:03:00,220 --> 00:03:03,240
+ presente l'indice del contratto deaded L sulla riga 13.
+
+49
+00:03:03,240 --> 00:03:05,630
+Quindi esattamente questa linea che abbiamo per te.
+
+50
+00:03:05,940 --> 00:03:06,570
+Cos fantastico.
+
+51
+00:03:06,600 --> 00:03:07,170
+Funziona.
+
+52
+00:03:07,230 --> 00:03:08,890
+Quindi, ancora niente di veramente pi elaborato.
+
+53
+00:03:08,910 --> 00:03:13,890
+Tutto ci che facciamo  bloccare un po 'di testo nella console e questo  ci che faremo qui in tutta
+
+54
+00:03:13,890 --> 00:03:14,270
+la sezione.
+
+55
+00:03:14,310 --> 00:03:18,600
+Quindi registreremo del testo tutto il tempo sulla console perch non
+
+56
+00:03:18,600 --> 00:03:21,240
+stiamo facendo nulla qui nel browser stesso.
+
+57
+00:03:21,240 --> 00:03:24,980
+Quindi nessun vero sito Web perch  qualcosa su cui ci occuperemo in seguito.
+
+58
+00:03:25,110 --> 00:03:30,340
+Per ora stiamo semplicemente imparando a raddoppiare la lingua e quindi l'apprendimento di alcuni valori qui per
+
+59
+00:03:30,360 --> 00:03:33,600
+la console degli sviluppatori  perfetto per questo tipo di applicazione.
+
+60
+00:03:33,860 --> 00:03:34,320
+OK.
+
+61
+00:03:34,380 --> 00:03:36,500
+Ecco come facciamo script inline qui.
+
+62
+00:03:36,510 --> 00:03:40,850
+Ora impariamo come aggiungere uno script o un sito esterno.
+
+63
+00:03:41,070 --> 00:03:41,550
+OK.
+
+64
+00:03:41,730 --> 00:03:49,000
+Quindi, prima di tutto, ovviamente, creiamo nel tuo file e io lo chiamo dati script s.
+
+65
+00:03:49,350 --> 00:03:51,840
+E ora facciamo lo stesso codice qui.
+
+66
+00:03:52,050 --> 00:03:53,980
+Quindi cancella quel registro.
+
+67
+00:03:55,870 --> 00:04:03,110
+Ma poi ciao mondo di nuovo e sto usando tre di questi punti esclamativi qui solo in modo che sia un tipo
+
+68
+00:04:03,710 --> 00:04:05,580
+diverso di textarea rispetto a prima.
+
+69
+00:04:05,720 --> 00:04:06,500
+OK.
+
+70
+00:04:06,840 --> 00:04:09,810
+Dan chiede un altro file HDMI.
+
+71
+00:04:09,950 --> 00:04:12,950
+Ovviamente possiamo cancellare questo codice qui.
+
+72
+00:04:13,970 --> 00:04:16,850
+Lasciamo la sceneggiatura perch ne abbiamo ancora bisogno.
+
+73
+00:04:17,000 --> 00:04:20,580
+Ma ora quello che facciamo  definire l'attributo source.
+
+74
+00:04:20,660 --> 00:04:23,240
+Quindi scriviamo la fonte e poi i dati degli script.
+
+75
+00:04:23,320 --> 00:04:23,840
+S.
+
+76
+00:04:23,990 --> 00:04:24,450
+OK.
+
+77
+00:04:24,560 --> 00:04:29,430
+E cos ora fuori dal file di script e o H. M. S. il file  collegato tramite no.
+
+78
+00:04:29,470 --> 00:04:34,760
+Se lo script fosse come in un'altra cartella come ad esempio javascript o G-S,
+
+79
+00:04:34,760 --> 00:04:37,650
+dovremmo scrivere come lo script di Julias slash.
+
+80
+00:04:37,670 --> 00:04:39,180
+S, ma non  questo il caso.
+
+81
+00:04:39,190 --> 00:04:41,190
+E quindi liberiamoci di quello.
+
+82
+00:04:41,270 --> 00:04:46,640
+E quindi  gi tutto ci che dobbiamo fare per aggiungere uno script esterno o un sito web come questo.
+
+83
+00:04:46,640 --> 00:04:52,640
+Quindi  tornato qui ricaricare e ora abbiamo di nuovo il mondo di Herrell ma con o tre punti esclamativi
+
+84
+00:04:52,930 --> 00:04:56,730
+che poi vedi anche che viene dallo script yes sulla linea 1.
+
+85
+00:04:57,810 --> 00:05:01,520
+E questo  esattamente questo testo che abbiamo qui.
+
+86
+00:05:01,860 --> 00:05:02,410
+OK.
+
+87
+00:05:02,460 --> 00:05:07,740
+E da ora in poi useremo la descrizione o il file di Jay qui perch  sempre meglio avere il codice
+
+88
+00:05:07,740 --> 00:05:08,780
+in un file esterno.
+
+89
+00:05:09,090 --> 00:05:13,800
+Quindi il vantaggio dello script inline che abbiamo prima  che non dobbiamo caricare un file
+
+90
+00:05:13,800 --> 00:05:18,870
+aggiuntivo, ma  ancora meglio avere tutto in un file esterno perch ci permette di mantenere piacevolmente
+
+91
+00:05:19,290 --> 00:05:22,270
+HTML e in javascript separarlo in file diversi .
+
+92
+00:05:22,390 --> 00:05:22,650
+OK.
+
+93
+00:05:22,650 --> 00:05:25,840
+E cos  quello che faremo durante il resto del corso.
+
+94
+00:05:26,110 --> 00:05:26,540
+Va bene.
+
+95
+00:05:26,550 --> 00:05:28,550
+Ed  gi per questa lezione.
+
+96
+00:05:28,650 --> 00:05:33,540
+Quindi impari la differenza tra script inline ed esterni e hai scritto la tua
+
+97
+00:05:33,540 --> 00:05:37,480
+prima riga di javascript dove abbiamo registrato questo testo qui alla console.
+
+98
+00:05:37,740 --> 00:05:42,480
+E con questo detto non passiamo insieme al prossimo settore dove imparerai cosa
+
+99
+00:05:42,600 --> 00:05:43,590
+ realmente javascript.
+
+100
+00:05:43,710 --> 00:05:45,400
+Quindi, ci vediamo l in un secondo.
+

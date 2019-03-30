@@ -1,0 +1,400 @@
+1
+00:00:01,240 --> 00:00:07,960
+En realidad, no escribamos nuestra primera lnea de citas javascript y aqu estoy en mis corchetes editor de texto.
+
+2
+00:00:08,140 --> 00:00:13,150
+Debbie acaba de configurar la ltima conferencia y espero que ya la descargues para comenzar un
+
+3
+00:00:13,150 --> 00:00:13,980
+archivo del curso.
+
+4
+00:00:13,990 --> 00:00:18,050
+Ya los tengo aqu en mi escritorio, as que est en esta carpeta aqu.
+
+5
+00:00:18,490 --> 00:00:21,400
+Y ves que aqu tengo que indexar esa edad a mi archivo.
+
+6
+00:00:21,790 --> 00:00:22,400
+DE ACUERDO.
+
+7
+00:00:22,720 --> 00:00:28,510
+Y volviendo al parntesis, el editor de texto solo tiene que hacer para comenzar y su proyecto es presionar
+
+8
+00:00:28,510 --> 00:00:31,630
+este botn aqu y luego hacer clic en abrir carpeta.
+
+9
+00:00:32,590 --> 00:00:36,330
+Y entonces la carpeta que quiero como mi carpeta de proyecto es esta aqu.
+
+10
+00:00:36,580 --> 00:00:37,060
+DE ACUERDO.
+
+11
+00:00:37,150 --> 00:00:39,630
+Y ahora todo lo que tengo que hacer es abrir.
+
+12
+00:00:39,880 --> 00:00:43,700
+Y ahora esta es la carpeta del producto y est abierta a tus ideas.
+
+13
+00:00:43,780 --> 00:00:44,860
+Mendes en.
+
+14
+00:00:44,880 --> 00:00:46,150
+H. METRO. l archivo.
+
+15
+00:00:46,150 --> 00:00:52,940
+Entonces ves que esta es solo una estructura ASML muy simple sin ningn javascript en este punto.
+
+16
+00:00:53,230 --> 00:00:55,150
+Y ahora agreguemos algo.
+
+17
+00:00:55,190 --> 00:01:01,370
+Ahora hay dos maneras en que podemos agregar un script a un sitio web y la primera es con scripts en
+
+18
+00:01:01,630 --> 00:01:07,530
+lnea y el segundo consiste en agregar un archivo javascript externo en el que luego podemos agregar todo nuestro cdigo
+
+19
+00:01:07,530 --> 00:01:08,080
+JavaScript.
+
+20
+00:01:08,280 --> 00:01:10,640
+Y comencemos con el script inlight.
+
+21
+00:01:10,710 --> 00:01:10,980
+DE ACUERDO.
+
+22
+00:01:10,990 --> 00:01:13,200
+Entonces, todo lo que tenemos que hacer es escribir
+
+23
+00:01:18,570 --> 00:01:23,760
+un guin, darle un poco de espacio y luego, aqu, escribir nuestra primera lnea de javascript en lo que vamos a
+
+24
+00:01:23,760 --> 00:01:24,400
+hacer ahora.
+
+25
+00:01:24,450 --> 00:01:28,810
+As que simplemente imprima en la consola del desarrollador de javascript algo de texto moka.
+
+26
+00:01:28,830 --> 00:01:38,430
+Entonces, todo lo que tenemos que hacer es escribir en la consola ese registro y luego algo de texto y escribiremos Hola mundo.
+
+27
+00:01:38,610 --> 00:01:43,770
+Y este es un tipo de texto estndar que imprimimos cada vez que estamos aprendiendo un nuevo idioma o como
+
+28
+00:01:43,770 --> 00:01:45,610
+comenzar una nueva aplicacin o algo as.
+
+29
+00:01:45,840 --> 00:01:46,980
+OK, todo es hola mundo.
+
+30
+00:01:47,130 --> 00:01:51,340
+Ver este ao todo el tiempo cuando busque tutoriales en la web o algo as.
+
+31
+00:01:51,680 --> 00:01:52,340
+DE ACUERDO.
+
+32
+00:01:52,710 --> 00:01:58,860
+Y luego, para terminar la lnea, siempre tenemos que agregar un punto y coma como este, as que djenos o
+
+33
+00:01:58,860 --> 00:02:00,830
+la primera lnea del cdigo javascript aqu.
+
+34
+00:02:00,990 --> 00:02:06,850
+Por lo tanto, no hay nada realmente lujoso que todo lo que hace es buscar en la consola del desarrollador este texto de Hello World.
+
+35
+00:02:07,080 --> 00:02:10,690
+Ok, entonces le damos una caja fuerte y la abrimos en el navegador.
+
+36
+00:02:11,040 --> 00:02:16,650
+He instalado el complemento de un parntesis para guardar automticamente el archivo cada vez que salgo de la aplicacin
+
+37
+00:02:16,650 --> 00:02:17,850
+y se llama autosave.
+
+38
+00:02:18,030 --> 00:02:20,810
+Y entonces no siempre tengo que guardar el archivo manualmente.
+
+39
+00:02:20,950 --> 00:02:25,740
+OK, entonces me voy a ir ahora aqu y luego abrir esta carpeta.
+
+40
+00:02:25,740 --> 00:02:29,730
+Haga doble clic en el archivo y luego se abrir directamente en el navegador.
+
+41
+00:02:30,240 --> 00:02:35,580
+Entonces en el lado izquierdo en un editor de cdigo escribimos nuestro cdigo de curso y
+
+42
+00:02:35,580 --> 00:02:41,460
+luego en un navegador en el lado derecho tendremos o resultados y para ver realmente estos resultados debemos
+
+43
+00:02:41,470 --> 00:02:44,830
+abrir o javascript developer con. Y puedes hacerlo presionando la opcin de comando J.
+
+44
+00:02:45,060 --> 00:02:49,380
+O controle a Jay en su atajo de teclado de esta manera.
+
+45
+00:02:49,380 --> 00:02:54,540
+O tambin puede hacer clic con el botn derecho en la inspeccin y luego llegar a la consola de esta manera.
+
+46
+00:02:54,600 --> 00:02:55,260
+Y aqu lo ves.
+
+47
+00:02:55,290 --> 00:03:00,180
+Ya tenemos nuestro Hello World impreso en la consola de desarrollador y usted ve en este sitio aqu
+
+48
+00:03:00,220 --> 00:03:03,240
+el ndice de contrato pendiente que L en la lnea 13.
+
+49
+00:03:03,240 --> 00:03:05,630
+Entonces exactamente esta lnea que tenemos para ti.
+
+50
+00:03:05,940 --> 00:03:06,570
+Tan estupendo.
+
+51
+00:03:06,600 --> 00:03:07,170
+Funciona.
+
+52
+00:03:07,230 --> 00:03:08,890
+As que de nuevo nada realmente ms elegante.
+
+53
+00:03:08,910 --> 00:03:13,890
+Todo lo que hacemos es bloquear algo de texto en la consola y eso es lo que vamos a hacer aqu en toda
+
+54
+00:03:13,890 --> 00:03:14,270
+la seccin.
+
+55
+00:03:14,310 --> 00:03:18,600
+As que vamos a registrar algo de texto todo el tiempo en la consola
+
+56
+00:03:18,600 --> 00:03:21,240
+porque no estamos haciendo nada aqu en el navegador.
+
+57
+00:03:21,240 --> 00:03:24,980
+Entonces no hay un sitio web real porque eso es algo de lo que nos ocuparemos ms adelante.
+
+58
+00:03:25,110 --> 00:03:30,340
+Por ahora, estamos aprendiendo a duplicar el lenguaje, por lo que aprender algunos valores aqu en la
+
+59
+00:03:30,360 --> 00:03:33,600
+consola de desarrollador es perfecto para ese tipo de aplicacin.
+
+60
+00:03:33,860 --> 00:03:34,320
+DE ACUERDO.
+
+61
+00:03:34,380 --> 00:03:36,500
+As que as es como hacemos los scripts en lnea aqu.
+
+62
+00:03:36,510 --> 00:03:40,850
+Ahora aprendamos cmo agregar un script externo a un sitio.
+
+63
+00:03:41,070 --> 00:03:41,550
+DE ACUERDO.
+
+64
+00:03:41,730 --> 00:03:49,000
+Entonces, primero, por supuesto, creamos en su archivo y lo llamo datos de script, s.
+
+65
+00:03:49,350 --> 00:03:51,840
+Y ahora vamos al mismo cdigo aqu.
+
+66
+00:03:52,050 --> 00:03:53,980
+As que cancela ese registro.
+
+67
+00:03:55,870 --> 00:04:03,110
+Pero luego, hola mundo otra vez y estoy usando tres de estos signos de admiracin aqu solo para que sea un tipo diferente
+
+68
+00:04:03,710 --> 00:04:05,580
+de rea de texto que antes.
+
+69
+00:04:05,720 --> 00:04:06,500
+DE ACUERDO.
+
+70
+00:04:06,840 --> 00:04:09,810
+Dan pidiendo un archivo HDMI adicional.
+
+71
+00:04:09,950 --> 00:04:12,950
+Ahora podemos borrar este cdigo aqu.
+
+72
+00:04:13,970 --> 00:04:16,850
+Dejamos el script porque an lo necesitamos.
+
+73
+00:04:17,000 --> 00:04:20,580
+Pero ahora lo que hacemos es definir el atributo fuente.
+
+74
+00:04:20,660 --> 00:04:23,240
+Entonces, escribimos datos de fuente y luego de script.
+
+75
+00:04:23,320 --> 00:04:23,840
+S.
+
+76
+00:04:23,990 --> 00:04:24,450
+DE ACUERDO.
+
+77
+00:04:24,560 --> 00:04:29,430
+Y entonces ahora fuera del archivo de script y / o H. METRO. S. archivo estn vinculados a travs de no.
+
+78
+00:04:29,470 --> 00:04:34,760
+Si el script fuera como en otra carpeta como, por ejemplo, javascript o G-S,
+
+79
+00:04:34,760 --> 00:04:37,650
+tendramos que escribir como Julias slash script.
+
+80
+00:04:37,670 --> 00:04:39,180
+S, pero ese no es el caso aqu.
+
+81
+00:04:39,190 --> 00:04:41,190
+Y entonces, deshagmonos de eso.
+
+82
+00:04:41,270 --> 00:04:46,640
+Y eso es todo lo que tenemos que hacer para agregar un script externo o un sitio web como este.
+
+83
+00:04:46,640 --> 00:04:52,640
+As que eso ha vuelto a cargar aqu y ahora tenemos el mundo de Herrell otra vez pero con o tres signos de
+
+84
+00:04:52,930 --> 00:04:56,730
+exclamacin que luego tambin ves que viene del script s en la lnea 1.
+
+85
+00:04:57,810 --> 00:05:01,520
+Y ese es exactamente el texto que tenemos aqu.
+
+86
+00:05:01,860 --> 00:05:02,410
+DE ACUERDO.
+
+87
+00:05:02,460 --> 00:05:07,740
+Y a partir de ahora utilizaremos el archivo descript o Jay aqu porque siempre es mejor tener que codificar
+
+88
+00:05:07,740 --> 00:05:08,780
+en un archivo externo.
+
+89
+00:05:09,090 --> 00:05:13,800
+Entonces, la ventaja de la secuencia de comandos en lnea que tenamos antes es que no tenemos
+
+90
+00:05:13,800 --> 00:05:18,870
+que cargar un archivo adicional, pero an es mejor tener todo en un archivo externo porque nos permite mantener
+
+91
+00:05:19,290 --> 00:05:22,270
+bien el HTML y separarlo por separado en archivos diferentes. .
+
+92
+00:05:22,390 --> 00:05:22,650
+DE ACUERDO.
+
+93
+00:05:22,650 --> 00:05:25,840
+Y eso es lo que haremos durante el resto del curso.
+
+94
+00:05:26,110 --> 00:05:26,540
+Bueno.
+
+95
+00:05:26,550 --> 00:05:28,550
+Y ya es para esta conferencia.
+
+96
+00:05:28,650 --> 00:05:33,540
+Entonces aprendes la diferencia entre los scripts en lnea y los externos y escribes tu
+
+97
+00:05:33,540 --> 00:05:37,480
+primera lnea de javascript donde registramos este texto aqu en la consola.
+
+98
+00:05:37,740 --> 00:05:42,480
+Y dicho esto, no avancemos juntos al siguiente sector donde aprender qu es
+
+99
+00:05:42,600 --> 00:05:43,590
+javascript en realidad.
+
+100
+00:05:43,710 --> 00:05:45,400
+Entonces de verte all en un segundo.
+
