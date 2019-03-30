@@ -1,0 +1,1196 @@
+1
+00:00:01,120 --> 00:00:03,290
+Jonas: Bien, aqu va mi solucin
+
+2
+00:00:03,290 --> 00:00:05,730
+para la primera parte del desafo de
+
+3
+00:00:05,730 --> 00:00:07,570
+codificacin que acabo de mostrarte.
+
+4
+00:00:07,570 --> 00:00:09,833
+Entonces, empiezo por crear el objeto
+
+5
+00:00:10,850 --> 00:00:12,950
+John, establezco el objeto literal nuevamente,
+
+6
+00:00:12,950 --> 00:00:15,093
+luego el nombre completo, John Smith.
+
+7
+00:00:21,290 --> 00:00:22,910
+Y luego una serie de
+
+8
+00:00:22,910 --> 00:00:25,490
+facturas, tal como dice en las instrucciones.
+
+9
+00:00:25,490 --> 00:00:30,490
+Y los recibos son de 124, 48, 268, 180 y 42 dlares.
+
+10
+00:00:36,120 --> 00:00:38,080
+De acuerdo, y esa es toda la informacin que necesitamos.
+
+11
+00:00:38,080 --> 00:00:40,780
+Ahora ya estamos listos para
+
+12
+00:00:40,780 --> 00:00:45,780
+escribir nuestra funcin calcTips, o mtodo que debera decir.
+
+13
+00:00:46,650 --> 00:00:49,210
+Entonces, funciona sin ningn
+
+14
+00:00:49,210 --> 00:00:50,840
+argumento, como antes.
+
+15
+00:00:50,840 --> 00:00:53,780
+Y entonces, este desafo aqu es en
+
+16
+00:00:53,780 --> 00:00:55,590
+realidad un poco similar al
+
+17
+00:00:55,590 --> 00:00:57,680
+anterior donde calculamos los IMC
+
+18
+00:00:57,680 --> 00:00:59,170
+para John y Mark.
+
+19
+00:00:59,170 --> 00:01:00,730
+La nica diferencia es que
+
+20
+00:01:00,730 --> 00:01:02,120
+esta vez tambin necesitamos
+
+21
+00:01:02,120 --> 00:01:04,960
+algunos bucles y eso agrega un nuevo nivel
+
+22
+00:01:04,960 --> 00:01:06,550
+de complejidad a este funcionamiento.
+
+23
+00:01:06,550 --> 00:01:08,940
+Muy bien, entonces, recuerdas cmo dije
+
+24
+00:01:08,940 --> 00:01:11,680
+que deberas comenzar con un conjunto vaco
+
+25
+00:01:11,680 --> 00:01:14,680
+para las sugerencias y los valores finales?
+
+26
+00:01:14,680 --> 00:01:16,800
+Y mientras puedas hacer
+
+27
+00:01:16,800 --> 00:01:18,810
+eso, puedes hacerlo as.
+
+28
+00:01:18,810 --> 00:01:22,810
+Entonces, consejos, y luego aqu, una matriz vaca, pero pens que
+
+29
+00:01:22,810 --> 00:01:24,670
+sera un poco ms limpio
+
+30
+00:01:24,670 --> 00:01:26,410
+comenzar sin una lgrima y,
+
+31
+00:01:26,410 --> 00:01:29,100
+en cambio, tan pronto como ejecutemos la
+
+32
+00:01:29,100 --> 00:01:32,470
+funcin, agregaremos estas matrices vacas a nuestro objeto.
+
+33
+00:01:32,470 --> 00:01:34,980
+De acuerdo, entonces, cmo hacemos eso?
+
+34
+00:01:34,980 --> 00:01:38,140
+Bueno, solo decimos que este punto
+
+35
+00:01:39,130 --> 00:01:41,500
+es igual a una matriz
+
+36
+00:01:41,500 --> 00:01:45,320
+vaca, y que este valor final tambin
+
+37
+00:01:46,830 --> 00:01:48,730
+es una matriz vaca.
+
+38
+00:01:48,730 --> 00:01:51,060
+De acuerdo, entonces le doy los mismos nombres
+
+39
+00:01:51,060 --> 00:01:52,920
+que tena en la calculadora de consejos.
+
+40
+00:01:52,920 --> 00:01:54,500
+Entonces, consejos ser la
+
+41
+00:01:54,500 --> 00:01:56,500
+matriz con los cinco consejos.
+
+42
+00:01:56,500 --> 00:01:57,990
+Por lo tanto, uno para cada
+
+43
+00:01:57,990 --> 00:02:00,710
+uno de estos proyectos de ley, y luego los valores
+
+44
+00:02:00,710 --> 00:02:02,160
+finales es el conjunto donde
+
+45
+00:02:02,160 --> 00:02:04,530
+tendremos la suma de cada sugerencia con cada factura.
+
+46
+00:02:04,530 --> 00:02:06,900
+De acuerdo, entonces ahora tenemos que recorrer
+
+47
+00:02:06,900 --> 00:02:08,410
+las facturas para calcular la
+
+48
+00:02:08,410 --> 00:02:10,810
+propina para cada uno de estos valores.
+
+49
+00:02:10,810 --> 00:02:12,560
+De acuerdo, entonces, por supuesto, vamos
+
+50
+00:02:12,560 --> 00:02:16,150
+a usar los cuatro bucles, como aprendimos en la ltima conferencia.
+
+51
+00:02:16,150 --> 00:02:20,520
+Cuatro, y reiniciando en I cero, y vamos
+
+52
+00:02:20,520 --> 00:02:22,970
+hasta alcanzar la longitud del
+
+53
+00:02:22,970 --> 00:02:24,630
+conjunto de facturas.
+
+54
+00:02:24,630 --> 00:02:27,320
+Entonces, una vez ms, es exactamente lo mismo que
+
+55
+00:02:27,320 --> 00:02:28,830
+hicimos en la ltima conferencia.
+
+56
+00:02:28,830 --> 00:02:29,970
+De acuerdo, entonces solo
+
+57
+00:02:29,970 --> 00:02:31,720
+estamos aplicando lo que acabamos de aprender.
+
+58
+00:02:31,720 --> 00:02:33,500
+Entonces, dnde estn estas cuentas?
+
+59
+00:02:33,500 --> 00:02:36,420
+Bueno, es en este punto facturas y
+
+60
+00:02:36,420 --> 00:02:38,210
+luego punto de longitud.
+
+61
+00:02:38,210 --> 00:02:40,770
+Y entonces, aqu ves algo por
+
+62
+00:02:40,770 --> 00:02:43,150
+primera vez, que son dos puntos.
+
+63
+00:02:43,150 --> 00:02:46,010
+De acuerdo, y en realidad el punto es un operador.
+
+64
+00:02:46,010 --> 00:02:48,330
+Entonces, vayamos a nuestra tabla de precedencia
+
+65
+00:02:48,330 --> 00:02:49,740
+de operadores que todava
+
+66
+00:02:49,740 --> 00:02:51,690
+est abierta aqu, y aqu tiene
+
+67
+00:02:51,690 --> 00:02:54,050
+este operador que se llama acceso de miembro.
+
+68
+00:02:54,050 --> 00:02:55,710
+De acuerdo, y vemos
+
+69
+00:02:55,710 --> 00:02:58,810
+que este se ejecuta de izquierda a derecha.
+
+70
+00:02:58,810 --> 00:03:01,760
+Muy bien, y esta es la razn por la cual esto funciona.
+
+71
+00:03:01,760 --> 00:03:03,070
+Entonces, aqu est el primero.
+
+72
+00:03:03,070 --> 00:03:04,400
+Entonces, el primer punto.
+
+73
+00:03:04,400 --> 00:03:06,200
+Y entonces este punto de facturas
+
+74
+00:03:06,200 --> 00:03:08,320
+es la primera parte que se ejecutar.
+
+75
+00:03:08,320 --> 00:03:09,690
+Y entonces, esto aqu
+
+76
+00:03:09,690 --> 00:03:11,800
+ser bsicamente reemplazado con esta matriz.
+
+77
+00:03:11,800 --> 00:03:14,137
+Y as, terminamos teniendo esta matriz aqu
+
+78
+00:03:14,137 --> 00:03:17,450
+y luego despus de eso, retenemos la propiedad de longitud,
+
+79
+00:03:17,450 --> 00:03:19,400
+esta aqu, de esa matriz.
+
+80
+00:03:19,400 --> 00:03:21,320
+De acuerdo, entonces, si fuera al revs, si
+
+81
+00:03:21,320 --> 00:03:23,013
+comenzramos a leer de esta manera aqu,
+
+82
+00:03:23,013 --> 00:03:24,430
+entonces no funcionara en absoluto porque
+
+83
+00:03:24,430 --> 00:03:27,330
+la longitud del punto de las facturas sera algo as.
+
+84
+00:03:27,330 --> 00:03:28,163
+Entonces, no existira
+
+85
+00:03:28,163 --> 00:03:30,720
+porque todo lo que existe es este punto.
+
+86
+00:03:30,720 --> 00:03:32,120
+Y entonces, por supuesto,
+
+87
+00:03:32,120 --> 00:03:34,170
+tiene mucho sentido que comencemos bsicamente
+
+88
+00:03:34,170 --> 00:03:37,170
+a leer que comenzamos a ejecutar de izquierda a derecha.
+
+89
+00:03:37,170 --> 00:03:38,910
+Entonces, eso fue solo un pequeo detalle, pero
+
+90
+00:03:38,910 --> 00:03:40,240
+creo que es importante entender realmente
+
+91
+00:03:40,240 --> 00:03:41,810
+por qu estas cosas realmente funcionan de
+
+92
+00:03:41,810 --> 00:03:43,420
+la manera en que lo hacen.
+
+93
+00:03:43,420 --> 00:03:45,210
+De acuerdo, espero que ests de acuerdo con eso.
+
+94
+00:03:45,210 --> 00:03:46,823
+Entonces, yo ms ms.
+
+95
+00:03:48,710 --> 00:03:50,340
+De acuerdo, tiene sentido.
+
+96
+00:03:50,340 --> 00:03:52,170
+As que, de nuevo, vamos hasta
+
+97
+00:03:52,170 --> 00:03:55,020
+llegar a la longitud de la matriz de compilaciones.
+
+98
+00:03:55,020 --> 00:03:56,330
+Que es seis en este caso.
+
+99
+00:03:56,330 --> 00:04:00,200
+Entonces, lo ejecutamos para 0123 y cuatro.
+
+100
+00:04:00,200 --> 00:04:02,720
+De acuerdo, entonces la duracin no es seis, son cinco.
+
+101
+00:04:02,720 --> 00:04:05,310
+Creo que dije seis, pero por supuesto son las cinco.
+
+102
+00:04:05,310 --> 00:04:08,310
+Bien, entonces, qu vamos a hacer en cada duracin?
+
+103
+00:04:08,310 --> 00:04:09,590
+Bueno, al igual que
+
+104
+00:04:09,590 --> 00:04:11,510
+antes, vamos a determinar el porcentaje
+
+105
+00:04:11,510 --> 00:04:13,470
+basado en las reglas de propina.
+
+106
+00:04:13,470 --> 00:04:15,270
+Est bien, as que vamos a escribir eso aqu.
+
+107
+00:04:20,710 --> 00:04:22,370
+De acuerdo, y as que
+
+108
+00:04:22,370 --> 00:04:24,620
+en realidad, me gustara agregar estos
+
+109
+00:04:24,620 --> 00:04:26,940
+comentarios aqu para poder entenderlo de
+
+110
+00:04:26,940 --> 00:04:29,040
+antemano, antes de escribir el cdigo.
+
+111
+00:04:29,040 --> 00:04:30,710
+Entonces, determinamos el porcentaje
+
+112
+00:04:30,710 --> 00:04:32,770
+y luego agregamos el resultado
+
+113
+00:04:35,330 --> 00:04:36,833
+a las matrices correspondientes.
+
+114
+00:04:40,220 --> 00:04:42,420
+Entonces, esta es la misma cosa que hicimos antes.
+
+115
+00:04:42,420 --> 00:04:44,900
+Entonces, definimos el porcentaje
+
+116
+00:04:46,760 --> 00:04:49,070
+sin especificarlo realmente.
+
+117
+00:04:49,070 --> 00:04:50,640
+Entonces, declaramos la variable aqu,
+
+118
+00:04:50,640 --> 00:04:52,080
+pero no la definimos.
+
+119
+00:04:52,080 --> 00:04:54,273
+Y lo hacemos basndonos en la factura.
+
+120
+00:04:55,490 --> 00:05:00,490
+Entonces, si la factura es menos de 50, recuerda.
+
+121
+00:05:00,900 --> 00:05:03,053
+Entonces, esa es la regla que tenemos aqu.
+
+122
+00:05:04,320 --> 00:05:06,550
+Entonces, si la factura es menos de 50,
+
+123
+00:05:06,550 --> 00:05:08,430
+entonces la propina es del 20
+
+124
+00:05:08,430 --> 00:05:11,130
+por ciento, es del 15 por ciento si est
+
+125
+00:05:11,130 --> 00:05:13,870
+entre 50 y 200 dlares, y es del 10
+
+126
+00:05:13,870 --> 00:05:16,180
+por ciento si es ms de 200 dlares.
+
+127
+00:05:16,180 --> 00:05:17,200
+Muy bien, y
+
+128
+00:05:17,200 --> 00:05:20,160
+entonces, vamos a traducir eso aqu en el cdigo.
+
+129
+00:05:20,160 --> 00:05:23,100
+De acuerdo, y en realidad, el proyecto de ley
+
+130
+00:05:23,100 --> 00:05:24,960
+no es algo que hayamos definido.
+
+131
+00:05:24,960 --> 00:05:26,100
+Lo siento por eso.
+
+132
+00:05:26,100 --> 00:05:28,060
+Entonces, no es un proyecto de ley,
+
+133
+00:05:28,060 --> 00:05:29,480
+sino que, qu tenemos aqu?
+
+134
+00:05:29,480 --> 00:05:33,730
+Tenemos estas facturas de puntos, agregue a la posicin actual.
+
+135
+00:05:33,730 --> 00:05:35,430
+De acuerdo, entonces quizs esto
+
+136
+00:05:35,430 --> 00:05:37,690
+empiece a ser un poco confuso.
+
+137
+00:05:37,690 --> 00:05:39,500
+De acuerdo, y lo entiendo totalmente.
+
+138
+00:05:39,500 --> 00:05:41,100
+Y de hecho lo mencion
+
+139
+00:05:41,100 --> 00:05:43,810
+antes, ese era el objetivo de este desafo.
+
+140
+00:05:43,810 --> 00:05:45,250
+No debe confundirte, sino
+
+141
+00:05:45,250 --> 00:05:48,000
+hacerte pensar un poco sobre cmo funcionan
+
+142
+00:05:48,000 --> 00:05:48,890
+las cosas.
+
+143
+00:05:48,890 --> 00:05:51,270
+Entonces, cmo podemos resolver este tipo de problemas?
+
+144
+00:05:51,270 --> 00:05:53,570
+De acuerdo, entonces este punto de facturas
+
+145
+00:05:53,570 --> 00:05:55,750
+es nuestra matriz con las facturas.
+
+146
+00:05:55,750 --> 00:05:57,820
+Correcto, y lo que hacemos aqu
+
+147
+00:05:57,820 --> 00:06:00,220
+con el bucle, es recorrer exactamente esa matriz.
+
+148
+00:06:00,220 --> 00:06:01,630
+Entonces, solo tiene
+
+149
+00:06:01,630 --> 00:06:04,250
+sentido que accedamos a la posicin
+
+150
+00:06:04,250 --> 00:06:08,150
+actual de esta matriz usando la variable de contador actual.
+
+151
+00:06:08,150 --> 00:06:09,950
+De acuerdo, y eso es siempre yo,
+
+152
+00:06:09,950 --> 00:06:11,860
+tal como lo aprendimos en la ltima conferencia.
+
+153
+00:06:11,860 --> 00:06:13,870
+Bien, entonces, definamos el
+
+154
+00:06:13,870 --> 00:06:17,260
+porcentaje para este valor de factura, y
+
+155
+00:06:17,260 --> 00:06:19,120
+ese ser el punto dos.
+
+156
+00:06:19,120 --> 00:06:21,330
+De acuerdo, entonces, 20 por ciento.
+
+157
+00:06:23,080 --> 00:06:26,763
+Luego, ms, y de hecho agarro este aqu.
+
+158
+00:06:29,910 --> 00:06:33,523
+Entonces, si es ms grande o igual a
+
+159
+00:06:34,840 --> 00:06:39,200
+50, y al mismo tiempo debera ser menos de 200.
+
+160
+00:06:39,200 --> 00:06:40,930
+Correcto, para que permanezca
+
+161
+00:06:40,930 --> 00:06:42,883
+exactamente entre 50 y 200.
+
+162
+00:06:44,020 --> 00:06:44,880
+Entonces, en este
+
+163
+00:06:44,880 --> 00:06:47,723
+caso, el porcentaje va a ser el punto 15.
+
+164
+00:06:48,760 --> 00:06:51,023
+Y finalmente, en todos los dems
+
+165
+00:06:52,060 --> 00:06:55,143
+casos, el porcentaje va a ser el punto uno.
+
+166
+00:06:56,400 --> 00:06:57,850
+De acuerdo, ahora como ven
+
+167
+00:06:57,850 --> 00:06:59,970
+aqu, tenemos un montn de cdigo duplicado aqu.
+
+168
+00:06:59,970 --> 00:07:03,380
+Entonces, este punto factura y luego yo, lo
+
+169
+00:07:03,380 --> 00:07:05,570
+hemos repetido aqu tres veces.
+
+170
+00:07:05,570 --> 00:07:07,410
+Y entonces realmente creemos
+
+171
+00:07:07,410 --> 00:07:09,470
+una variable separada para eso.
+
+172
+00:07:09,470 --> 00:07:10,870
+Entonces, llamemos a esa nica factura.
+
+173
+00:07:13,330 --> 00:07:15,390
+De acuerdo, y antes de hacer
+
+174
+00:07:15,390 --> 00:07:17,310
+algo aqu simplemente creamos una
+
+175
+00:07:17,310 --> 00:07:20,410
+variable donde almacenamos el valor actual de la factura.
+
+176
+00:07:20,410 --> 00:07:22,070
+De acuerdo, entonces podemos seguir
+
+177
+00:07:22,070 --> 00:07:23,980
+adelante y reemplazar todo esto aqu.
+
+178
+00:07:23,980 --> 00:07:25,450
+Y entonces, eso es un poco mejor.
+
+179
+00:07:25,450 --> 00:07:27,450
+Entonces, en lugar de repetir el
+
+180
+00:07:27,450 --> 00:07:30,050
+mismo cdigo varias veces, simplemente almacenamos el
+
+181
+00:07:30,050 --> 00:07:31,600
+valor y una variable.
+
+182
+00:07:31,600 --> 00:07:33,760
+De acuerdo, entonces eso es mucho mejor.
+
+183
+00:07:33,760 --> 00:07:36,320
+De acuerdo, entonces para cada una de
+
+184
+00:07:36,320 --> 00:07:38,660
+las facturas ahora hemos descubierto el porcentaje.
+
+185
+00:07:38,660 --> 00:07:39,660
+Entonces, todo lo
+
+186
+00:07:39,660 --> 00:07:41,640
+que tenemos que hacer ahora es editar
+
+187
+00:07:41,640 --> 00:07:43,810
+las sugerencias y la matriz de valores finales.
+
+188
+00:07:43,810 --> 00:07:47,660
+Por lo tanto, este punto puntas en la posicin actual.
+
+189
+00:07:47,660 --> 00:07:49,013
+Recuerde, ese soy yo
+
+190
+00:07:50,500 --> 00:07:52,170
+Bueno, y ahora es muy simple.
+
+191
+00:07:52,170 --> 00:07:54,550
+Es la variable de factura que definimos antes.
+
+192
+00:07:54,550 --> 00:07:56,833
+Entonces, este punto factura en la posicin
+
+193
+00:07:57,970 --> 00:07:59,720
+actual, multiplicado por el porcentaje.
+
+194
+00:07:59,720 --> 00:08:02,020
+Y entonces, esta parte aqu es exactamente la
+
+195
+00:08:02,020 --> 00:08:04,710
+misma que en la primera, en la versin ms simple
+
+196
+00:08:04,710 --> 00:08:06,393
+de nuestra calculadora de propinas, verdad?
+
+197
+00:08:07,430 --> 00:08:10,810
+Y ahora, finalmente, estos valores finales de punto, agregar
+
+198
+00:08:10,810 --> 00:08:13,130
+a la posicin actual, sern la
+
+199
+00:08:13,130 --> 00:08:16,320
+cuenta ms las puntas de este punto en
+
+200
+00:08:16,320 --> 00:08:17,270
+la posicin actual.
+
+201
+00:08:17,270 --> 00:08:19,210
+O, de hecho, podemos hacer esto aqu.
+
+202
+00:08:19,210 --> 00:08:20,060
+Entonces es lo mismo
+
+203
+00:08:21,900 --> 00:08:23,000
+De acuerdo, entonces tenemos
+
+204
+00:08:23,000 --> 00:08:25,650
+la factura, ms la factura multiplicada por el porcentaje.
+
+205
+00:08:25,650 --> 00:08:28,830
+Bien, y eso es en realidad.
+
+206
+00:08:28,830 --> 00:08:31,600
+Entonces, esa es nuestra calculadora de propinas
+
+207
+00:08:31,600 --> 00:08:32,970
+que, al mismo
+
+208
+00:08:32,970 --> 00:08:34,850
+tiempo, calcular los consejos para
+
+209
+00:08:34,850 --> 00:08:36,290
+las cinco facturas.
+
+210
+00:08:36,290 --> 00:08:38,820
+Bien, vamos a probarlo.
+
+211
+00:08:38,820 --> 00:08:41,033
+Entonces, John dot calcTips, y luego
+
+212
+00:08:42,744 --> 00:08:44,520
+inicie sesin en la consola.
+
+213
+00:08:44,520 --> 00:08:47,253
+Registro de puntos de consola, John.
+
+214
+00:08:49,180 --> 00:08:52,740
+Muy bien, oh tenemos un error de
+
+215
+00:08:52,740 --> 00:08:55,370
+sintaxis aqu en la lnea 674.
+
+216
+00:08:55,370 --> 00:08:56,730
+Entonces, dnde est eso?
+
+217
+00:08:56,730 --> 00:08:59,560
+Y de hecho, me estoy perdiendo el si aqu.
+
+218
+00:08:59,560 --> 00:09:01,000
+Entonces, ms si.
+
+219
+00:09:01,000 --> 00:09:02,970
+Probablemente, ya lo viste cuando viniste.
+
+220
+00:09:02,970 --> 00:09:05,360
+Entonces, lo siento por ese error.
+
+221
+00:09:05,360 --> 00:09:07,740
+Y entonces, ahora tenemos el objeto aqu.
+
+222
+00:09:07,740 --> 00:09:10,660
+Y aqu, tenemos nuestras cuentas.
+
+223
+00:09:10,660 --> 00:09:12,210
+Tenemos nuestros valores finales,
+
+224
+00:09:12,210 --> 00:09:13,460
+y tenemos nuestros consejos.
+
+225
+00:09:13,460 --> 00:09:15,150
+Entonces, todo est aqu ahora.
+
+226
+00:09:15,150 --> 00:09:18,172
+Bueno, entonces, tenemos 18 puntos seis, nueve puntos seis,
+
+227
+00:09:18,172 --> 00:09:19,363
+26 punto ocho,
+
+228
+00:09:20,334 --> 00:09:21,940
+27 y ocho punto cuatro.
+
+229
+00:09:21,940 --> 00:09:24,940
+Y esto, si editamos estas facturas, dar
+
+230
+00:09:24,940 --> 00:09:26,973
+como resultado estos valores finales
+
+231
+00:09:26,973 --> 00:09:28,360
+que tenemos aqu.
+
+232
+00:09:28,360 --> 00:09:31,950
+Entonces, por ejemplo, este 180 ms el 27, es
+
+233
+00:09:31,950 --> 00:09:35,400
+207 y eso es exactamente lo que vemos aqu.
+
+234
+00:09:35,400 --> 00:09:39,220
+Correcto, entonces, significa que en realidad est funcionando.
+
+235
+00:09:39,220 --> 00:09:40,470
+Entonces, la primera parte
+
+236
+00:09:40,470 --> 00:09:42,220
+de un desafo est completa, creo.
+
+237
+00:09:42,220 --> 00:09:43,690
+Vamos a ver.
+
+238
+00:09:43,690 --> 00:09:46,130
+Entonces, agregue el mtodo y debera incluir el ciclo.
+
+239
+00:09:46,130 --> 00:09:49,100
+Agregue como salida, cree estas dos matrices.
+
+240
+00:09:49,100 --> 00:09:51,200
+De acuerdo, entonces la primera parte est terminada.
+
+241
+00:09:51,200 --> 00:09:52,290
+Echemos un vistazo
+
+242
+00:09:52,290 --> 00:09:54,020
+de nuevo, porque aqu hay
+
+243
+00:09:54,020 --> 00:09:57,000
+un montn de cdigo, y este es de lejos
+
+244
+00:09:57,000 --> 00:09:58,560
+el cdigo ms complicado que
+
+245
+00:09:58,560 --> 00:10:00,600
+hemos escrito hasta este punto del curso.
+
+246
+00:10:00,600 --> 00:10:02,880
+Entonces, la parte ms difcil de
+
+247
+00:10:02,880 --> 00:10:04,833
+entender es el hecho de
+
+248
+00:10:04,833 --> 00:10:06,550
+que dentro de este mtodo
+
+249
+00:10:06,550 --> 00:10:09,090
+aqu, este mtodo de puntales, tenemos este
+
+250
+00:10:09,090 --> 00:10:12,370
+ciclo que calcula los cinco consejos, todo al mismo tiempo.
+
+251
+00:10:12,370 --> 00:10:14,370
+Uno despus del otro, pero automticamente.
+
+252
+00:10:14,370 --> 00:10:15,550
+Entonces, esa es exactamente la
+
+253
+00:10:15,550 --> 00:10:17,100
+razn por la que usamos el ciclo.
+
+254
+00:10:17,100 --> 00:10:19,430
+De acuerdo, entonces tenamos que
+
+255
+00:10:19,430 --> 00:10:23,140
+tener este tipo de confusin como este punto.
+
+256
+00:10:23,140 --> 00:10:26,130
+Donde primero leemos el conjunto de facturas, desde el
+
+257
+00:10:26,130 --> 00:10:27,360
+objeto actual, y luego
+
+258
+00:10:27,360 --> 00:10:28,280
+desde all, obtenemos
+
+259
+00:10:28,280 --> 00:10:29,430
+la longitud.
+
+260
+00:10:29,430 --> 00:10:33,900
+Bien, y luego aqu tenemos la cuenta actual.
+
+261
+00:10:33,900 --> 00:10:35,130
+Por lo tanto, el
+
+262
+00:10:35,130 --> 00:10:36,960
+valor actual, y a partir de
+
+263
+00:10:36,960 --> 00:10:39,890
+ah, bueno, bsicamente lo mismo es el resto es el
+
+264
+00:10:39,890 --> 00:10:41,660
+mismo que hicimos en el otro desafo.
+
+265
+00:10:41,660 --> 00:10:43,860
+De acuerdo, entonces otra particularidad fue
+
+266
+00:10:43,860 --> 00:10:46,690
+que tuvimos que crear estos arreglos vacos aqu
+
+267
+00:10:46,690 --> 00:10:48,380
+para que luego podamos llenarlos.
+
+268
+00:10:48,380 --> 00:10:51,050
+Y tal vez pensaste que podramos hacerlo as.
+
+269
+00:10:51,050 --> 00:10:56,050
+Entonces, estas puntas de punto, es igual a estos valores finales de punto, es
+
+270
+00:10:57,130 --> 00:10:59,040
+igual a una matriz vaca.
+
+271
+00:10:59,040 --> 00:11:01,060
+Entonces, quizs intente hacerlo todo en una lnea,
+
+272
+00:11:01,060 --> 00:11:02,580
+pero eso no va a funcionar.
+
+273
+00:11:02,580 --> 00:11:04,330
+Entonces, esto aqu no funcionar
+
+274
+00:11:04,330 --> 00:11:06,030
+porque lo que esto significar,
+
+275
+00:11:06,030 --> 00:11:09,210
+es que estas dos matrices sern las mismas.
+
+276
+00:11:09,210 --> 00:11:10,940
+Entonces, en este caso, si lo
+
+277
+00:11:10,940 --> 00:11:13,850
+hizo as, si luego agreg algo a la matriz de consejos.
+
+278
+00:11:13,850 --> 00:11:15,470
+Entonces, este aqu, entonces, tambin
+
+279
+00:11:15,470 --> 00:11:18,170
+se habra agregado automticamente a los valores finales
+
+280
+00:11:18,170 --> 00:11:20,570
+porque de hecho seran el mismo conjunto.
+
+281
+00:11:20,570 --> 00:11:22,090
+Muy bien, y no te
+
+282
+00:11:22,090 --> 00:11:23,580
+preocupes si eso te
+
+283
+00:11:23,580 --> 00:11:24,580
+suena un poco
+
+284
+00:11:24,580 --> 00:11:26,750
+confuso en este punto, porque ms adelante,
+
+285
+00:11:26,750 --> 00:11:29,200
+de nuevo, aprenderemos por qu es as.
+
+286
+00:11:29,200 --> 00:11:30,600
+Entonces, lo que quiero que
+
+287
+00:11:30,600 --> 00:11:31,830
+hagas ahora es despus de
+
+288
+00:11:31,830 --> 00:11:34,690
+este video, echa un vistazo profundo de nuevo a este mtodo
+
+289
+00:11:34,690 --> 00:11:37,290
+aqu y especialmente, por supuesto, a este mtodo aqu.
+
+290
+00:11:37,290 --> 00:11:39,250
+Trate de descubrir por qu todo funciona
+
+291
+00:11:39,250 --> 00:11:40,860
+de la manera que lo hace
+
+292
+00:11:40,860 --> 00:11:43,730
+aqu, y solo avance si realmente tiene sentido para usted.
+
+293
+00:11:43,730 --> 00:11:46,820
+De acuerdo, esta fue la primera parte de la solucin.
+
+294
+00:11:46,820 --> 00:11:47,770
+Ahora, en
+
+295
+00:11:47,770 --> 00:11:50,870
+el siguiente video, resolver esta segunda parte.
+
+296
+00:11:50,870 --> 00:11:53,080
+Est bien, entonces lo dejo para un video
+
+297
+00:11:53,080 --> 00:11:55,510
+diferente para que primero puedas revisar esto otra vez
+
+298
+00:11:55,510 --> 00:11:56,760
+y asegurarte de que entiendes
+
+299
+00:11:56,760 --> 00:11:58,453
+al 100% lo que est sucediendo aqu.
+

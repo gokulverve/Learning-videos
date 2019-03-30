@@ -1,0 +1,652 @@
+1
+00:00:01,247 --> 00:00:03,350
+Jonas: Bienvenidos a la prxima
+
+2
+00:00:03,350 --> 00:00:06,379
+conferencia, y esta es muy importante, porque en
+
+3
+00:00:06,379 --> 00:00:10,198
+esta vamos a empezar a tomar decisiones usando el cdigo.
+
+4
+00:00:10,198 --> 00:00:13,150
+As que JavaScript, al igual que la mayora de
+
+5
+00:00:13,150 --> 00:00:16,042
+los otros lenguajes de programacin que existen, tiene un
+
+6
+00:00:16,042 --> 00:00:18,668
+par de estructuras de control que son caractersticas
+
+7
+00:00:18,668 --> 00:00:20,597
+que nos permiten ejecutar solo ciertas
+
+8
+00:00:20,597 --> 00:00:23,376
+partes de nuestro cdigo, o ejecutar partes varias veces.
+
+9
+00:00:23,376 --> 00:00:25,789
+La primera estructura de control de la
+
+10
+00:00:25,789 --> 00:00:28,862
+que hablaremos es la declaracin 'if / else' es, de
+
+11
+00:00:28,862 --> 00:00:33,308
+que es un condicional que bsicamente nos permite tomar decisiones usando cdigo. Ahora, creemos una variable que no usamos antes, que
+
+12
+00:00:33,308 --> 00:00:35,742
+Djame mostrarte cmo funciona eso. es para el estado civil.
+
+13
+00:00:35,742 --> 00:00:38,586
+Primero, traigamos algunas de nuestras variables. Entonces, "civilStatus", y por lo tanto, este
+
+14
+00:00:38,586 --> 00:00:40,836
+Entonces, digamos nombre. nuevo, 'John'. bsicamente dice si ests casado, soltero,
+
+15
+00:00:42,235 --> 00:00:43,985
+divorciado o algo as.
+
+16
+00:00:44,997 --> 00:00:47,909
+Digamos que John es 'soltero', por lo que no est casado.
+
+17
+00:00:47,909 --> 00:00:50,477
+Ahora lo que queremos hacer aqu es registrar una
+
+18
+00:00:50,477 --> 00:00:53,689
+cadena en la consola, ya sea que est casado o no.
+
+19
+00:00:53,689 --> 00:00:56,442
+Para eso, podemos usar una declaracin 'if
+
+20
+00:00:56,442 --> 00:00:57,902
+/ else' para tomar
+
+21
+00:00:57,902 --> 00:01:02,902
+decisiones: escribimos 'if', y luego abrimos parntesis, luego aqu tenemos que escribir
+
+22
+00:01:03,453 --> 00:01:05,190
+una condicin lgica, por
+
+23
+00:01:05,190 --> 00:01:09,897
+lo que algo que devuelve un booleano 'verdadero' o valor 'falso'
+
+24
+00:01:09,897 --> 00:01:12,143
+Eso es algo que
+
+25
+00:01:12,143 --> 00:01:15,991
+hicimos antes, as que por ejemplo, este aqu.
+
+26
+00:01:15,991 --> 00:01:17,992
+Esto devolver un valor 'verdadero' o 'falso',
+
+27
+00:01:17,992 --> 00:01:20,327
+por lo que es una condicin lgica perfecta.
+
+28
+00:01:20,327 --> 00:01:23,808
+Ahora, en este caso, no queremos una comparacin mayor en comparacin
+
+29
+00:01:23,808 --> 00:01:25,825
+con la que le mostr, sino
+
+30
+00:01:25,825 --> 00:01:27,671
+que queremos un operador de igualdad.
+
+31
+00:01:27,671 --> 00:01:30,031
+Bsicamente, lo que queremos hacer es Entonces, esta condicin aqu volver 'verdadera' si el
+
+32
+00:01:30,031 --> 00:01:33,018
+probar si el estado civil es 'casado'. estado civil es 'casado' y 'falso' si no lo es.
+
+33
+00:01:33,018 --> 00:01:34,747
+Djame mostrarte cmo hacer eso. Esto aqu, de nuevo, es como
+
+34
+00:01:34,747 --> 00:01:37,381
+Podemos decir que el estado civil es igual. 'casado'. un operador lgico que devuelve "verdadero" o "falso".
+
+35
+00:01:37,381 --> 00:01:39,970
+Tambin est la versin con solo dos iguales, pero
+
+36
+00:01:39,970 --> 00:01:42,251
+hablemos de eso un poco ms tarde.
+
+37
+00:01:42,251 --> 00:01:44,926
+De nuevo, esto aqu probar si el
+
+38
+00:01:44,926 --> 00:01:47,045
+estado civil est "casado" o no.
+
+39
+00:01:47,045 --> 00:01:49,795
+Luego, abrimos llaves, y luego este
+
+40
+00:01:52,095 --> 00:01:53,178
+es el est 'Si el
+
+41
+00:01:54,136 --> 00:01:56,937
+bloque, el bloque 'si', y aqu estado civil est' casado ', entonces
+
+42
+00:01:56,937 --> 00:02:01,937
+podemos escribir nuestras instrucciones, bsicamente; en este caso, nuestra 'consola'. log () ', y lo que queremos este texto aqu se registrar en la consola y, de
+
+43
+00:02:02,131 --> 00:02:04,907
+registrar en la consola lo contrario, no pasar nada.
+
+44
+00:02:04,907 --> 00:02:06,704
+es' firstName. casada! As que vamos a volver a cargarlo y, de hecho, no pasa nada.
+
+45
+00:02:06,704 --> 00:02:09,193
+Eso es porque ahora mismo, esto
+
+46
+00:02:09,193 --> 00:02:13,089
+resulta ser 'falso' porque el estado civil es en
+
+47
+00:02:13,089 --> 00:02:15,320
+realidad 'nico' y no 'casado'.
+
+48
+00:02:15,320 --> 00:02:17,925
+Esto es diferente, as que cuando tenemos
+
+49
+00:02:17,925 --> 00:02:21,644
+'falso', bueno, entonces este fragmento de cdigo no se ejecuta.
+
+50
+00:02:21,644 --> 00:02:24,776
+Vamos a cambiarlo aqu por 'casado' por un segundo solo
+
+51
+00:02:24,776 --> 00:02:27,501
+para ver si funciona bien, y lo es.
+
+52
+00:02:27,501 --> 00:02:31,064
+Ahora dice 'John est casado! ', porque el estado
+
+53
+00:02:31,064 --> 00:02:34,241
+civil es exactamente lo mismo que' casado 'aqu.
+
+54
+00:02:34,241 --> 00:02:35,324
+De todos modos, volvamos
+
+55
+00:02:38,666 --> 00:02:39,916
+a 'soltero',
+
+56
+00:02:41,961 --> 00:02:45,121
+porque ahora quiero mostrarte la parte 'else' de la declaracin 'if / else'.
+
+57
+00:02:45,121 --> 00:02:46,754
+Solo podemos tener la parte
+
+58
+00:02:46,754 --> 00:02:49,516
+'si', pero tambin podemos agregar una declaracin 'else'. con suerte se
+
+59
+00:02:49,516 --> 00:02:52,695
+Entonces, podemos decir 'else', luego tenemos el bloque 'else' aqu. Eso, por supuesto, significa que l no est casado en este punto.
+
+60
+00:02:52,695 --> 00:02:55,240
+Lo que hace es que, si esto no es 'verdadero' Vamos a probarlo, y tengamos en cuenta que aqu
+
+61
+00:02:55,240 --> 00:02:57,561
+aqu, entonces si es 'falso', entonces ejecutar el bloque 'else'. prueba 'single', por lo que esta parte no
+
+62
+00:02:57,561 --> 00:03:00,110
+Probmoslo. casar pronto. se ejecutar aqu, porque esto aqu es falso, y
+
+63
+00:03:00,110 --> 00:03:02,877
+eso significa que vamos a ir directamente al bloque 'else',
+
+64
+00:03:02,877 --> 00:03:05,673
+entonces este texto aqu debe registrarse en la consola.
+
+65
+00:03:05,673 --> 00:03:09,172
+Comprubalo, (toma aliento) y s funciona. y establezcamoslo en 'falso',
+
+66
+00:03:09,172 --> 00:03:13,348
+Entonces, 'John se casar pronto'. y entonces probemos qu sucede
+
+67
+00:03:13,348 --> 00:03:16,363
+Ahora, digamos Entonces, en lugar de esta prueba
+
+68
+00:03:16,363 --> 00:03:19,863
+que ya tenemos una variable booleana. aqu podramos poner 'isMarried', y luego podramos poner iguales 'verdaderos', pero esa parte
+
+69
+00:03:20,754 --> 00:03:22,663
+Podemos tener una variable llamada 'isMarried'. en ese caso. en realidad no es realmente necesaria, porque
+
+70
+00:03:22,663 --> 00:03:24,112
+lo que necesitamos aqu en
+
+71
+00:03:24,112 --> 00:03:26,852
+esta condicin es 'verdadero' o 'falso' valor, pero esta variable
+
+72
+00:03:26,852 --> 00:03:28,845
+'isMarried' ya es un booleano; ahora est
+
+73
+00:03:28,845 --> 00:03:31,962
+configurado en 'falso', pero tambin podramos establecerlo en 'verdadero', as que hagmoslo.
+
+74
+00:03:31,962 --> 00:03:35,914
+De nuevo, lo que queremos aqu es un valor
+
+75
+00:03:35,914 --> 00:03:39,469
+verdadero / falso, pero 'isMarried' ya es 'verdadero', ya
+
+76
+00:03:39,469 --> 00:03:44,469
+es un booleano, por lo que esta parte ni siquiera es necesaria.
+
+77
+00:03:44,523 --> 00:03:46,190
+Tiene sentido?
+
+78
+00:03:51,757 --> 00:03:54,174
+Aqu, solo necesitamos un valor verdadero
+
+79
+00:03:56,865 --> 00:04:01,621
+/ falso, nuevamente, as que no es necesario escribir el 'verdadero'.
+
+80
+00:04:01,621 --> 00:04:04,298
+Probemos eso, y ahora dice 'John est casado! 'aqu, viniendo de la lnea
+
+81
+00:04:04,298 --> 00:04:07,335
+173, as que este aqu.
+
+82
+00:04:07,335 --> 00:04:09,965
+Por supuesto, este de aqu sigue
+
+83
+00:04:09,965 --> 00:04:12,126
+viniendo de esta declaracin 'if
+
+84
+00:04:12,126 --> 00:04:15,804
+/ else' de donde decimos que el estado
+
+85
+00:04:15,804 --> 00:04:18,444
+civil es 'soltero' y no 'casado'.
+
+86
+00:04:18,444 --> 00:04:20,898
+Este es solo otro ejemplo en el que quera mostrarte que
+
+87
+00:04:20,898 --> 00:04:22,086
+en realidad es suficiente pasar
+
+88
+00:04:22,086 --> 00:04:24,068
+un valor "verdadero" o "falso" aqu en esta condicin.
+
+89
+00:04:24,068 --> 00:04:27,735
+Espero que tenga sentido, y que ahora haya aprendido
+
+90
+00:04:30,785 --> 00:04:34,002
+cmo podemos tomar decisiones usando el cdigo. 'ms alto que
+
+91
+00:04:34,002 --> 00:04:36,585
+Por supuesto, podramos hacer cosas mucho Repasemos rpidamente lo que hicimos aqu.
+
+92
+00:04:39,026 --> 00:04:41,161
+ms difciles y mucho ms Entonces, estamos probando si el IMC de Mark es mayor que el de John.
+
+93
+00:04:41,161 --> 00:04:45,481
+complejas en estos bloques, el bloque 'if' o el bloque 'else'. que BMIJohn 'than, John's', y por Esto aqu, por supuesto, como ya sabe, devolver un valor 'verdadero'
+
+94
+00:04:45,481 --> 00:04:49,140
+Ahora, para terminar esta conferencia, traigamos el Bueno, en este caso, queremos imprimir algo en la consola, y Copimoslo, y aqu es al revs. el de Mark'. o 'falso', y eso es exactamente lo que necesitamos
+
+95
+00:04:49,140 --> 00:04:51,668
+cdigo de nuestro desafo de si no, entonces queremos registrar algo ms. en una declaracin 'if / else'.
+
+96
+00:04:51,668 --> 00:04:54,784
+codificacin que codificamos antes, y bsicamente En este caso, tenemos por supuesto 'Mark's', En este caso, se registrar en la consola 'El IMC de
+
+97
+00:04:54,784 --> 00:04:57,818
+escribamos algo mejor para la consola. BMIMark '. y ahora, la cadena de escape. supuesto, escapar. Mark es ms alto que el de John', y si
+
+98
+00:04:57,818 --> 00:05:01,532
+Lo que hicimos aqu es simplemente registrar esta cadena aqu, no es as, entonces, si esto aqu es 'falso', entonces el IMC de
+
+99
+00:05:01,532 --> 00:05:04,365
+luego junto con este valor verdadero / falso. John debe ser ms alto que el de Mark, y
+
+100
+00:05:04,365 --> 00:05:07,474
+Esa no es realmente la mejor solucin, verdad, entonces eso es exactamente lo que registramos en la consola
+
+101
+00:05:07,474 --> 00:05:10,737
+simplemente imprimir verdadero / falso en la consola? es escribir es mayor. Ahora solo para probarlo, decimos 'El IMC de Mark es ms
+
+102
+00:05:10,737 --> 00:05:12,414
+Ahora que conoce la declaracin 'if alto que el de John'.
+
+103
+00:05:12,414 --> 00:05:14,641
+/ else', podemos hacer mucho mejor que esto, verdad? Falta la 's', pero eso realmente no importa, y solo para
+
+104
+00:05:14,641 --> 00:05:16,707
+Lo que podemos hacer, en lugar de probar el otro escenario, aumentemos rpidamente esta masa aqu, as
+
+105
+00:05:16,707 --> 00:05:19,495
+todo esto, comencemos en realidad. 'si. que ahora John debera ser ms grande,
+
+106
+00:05:19,495 --> 00:05:22,646
+y de hecho, ahora 'el IMC de John es ms alto que el de Mark'.
+
+107
+00:05:22,646 --> 00:05:25,722
+Volvindolo, y ahora, de nuevo, Mark sera ms
+
+108
+00:05:25,722 --> 00:05:27,749
+alto, y de hecho est funcionando.
+
+109
+00:05:27,749 --> 00:05:29,370
+Ahora sabes cmo tomar decisiones con cdigo.
+
+110
+00:05:29,370 --> 00:05:31,483
+Eso es asombroso, pero esto es solo
+
+111
+00:05:31,483 --> 00:05:34,270
+los fundamentos de los condicionales y la toma de
+
+112
+00:05:34,270 --> 00:05:37,650
+decisiones con cdigo, por lo que hay mucho ms por aprender.
+
+113
+00:05:37,650 --> 00:05:40,455
+Estn atentos para los prximos videos!
+
+114
+00:05:40,455 --> 00:05:43,137
+&nbsp;
+
+115
+00:05:43,137 --> 00:05:46,329
+&nbsp;
+
+116
+00:05:46,329 --> 00:05:48,743
+&nbsp;
+
+117
+00:05:48,743 --> 00:05:51,365
+&nbsp;
+
+118
+00:05:51,365 --> 00:05:54,359
+&nbsp;
+
+119
+00:05:54,359 --> 00:05:56,742
+&nbsp;
+
+120
+00:05:56,742 --> 00:05:59,856
+&nbsp;
+
+121
+00:05:59,856 --> 00:06:03,520
+&nbsp;
+
+122
+00:06:03,520 --> 00:06:06,687
+&nbsp;
+
+123
+00:06:09,602 --> 00:06:12,805
+&nbsp;
+
+124
+00:06:12,805 --> 00:06:16,286
+&nbsp;
+
+125
+00:06:16,286 --> 00:06:18,413
+&nbsp;
+
+126
+00:06:18,413 --> 00:06:21,228
+&nbsp;
+
+127
+00:06:21,228 --> 00:06:23,040
+&nbsp;
+
+128
+00:06:23,040 --> 00:06:26,722
+&nbsp;
+
+129
+00:06:26,722 --> 00:06:28,532
+&nbsp;
+
+130
+00:06:28,532 --> 00:06:31,199
+&nbsp;
+
+131
+00:06:32,381 --> 00:06:34,131
+&nbsp;
+
+132
+00:06:35,556 --> 00:06:37,556
+&nbsp;
+
+133
+00:06:38,905 --> 00:06:40,322
+&nbsp;
+
+134
+00:06:41,830 --> 00:06:45,344
+&nbsp;
+
+135
+00:06:45,344 --> 00:06:49,261
+&nbsp;
+
+136
+00:06:54,421 --> 00:06:57,611
+&nbsp;
+
+137
+00:06:57,611 --> 00:07:00,028
+&nbsp;
+
+138
+00:07:05,423 --> 00:07:09,006
+&nbsp;
+
+139
+00:07:12,244 --> 00:07:16,827
+&nbsp;
+
+140
+00:07:18,916 --> 00:07:20,916
+&nbsp;
+
+141
+00:07:22,811 --> 00:07:25,930
+&nbsp;
+
+142
+00:07:25,930 --> 00:07:30,779
+&nbsp;
+
+143
+00:07:30,779 --> 00:07:32,655
+&nbsp;
+
+144
+00:07:32,655 --> 00:07:35,618
+&nbsp;
+
+145
+00:07:35,618 --> 00:07:38,035
+&nbsp;
+
+146
+00:07:38,035 --> 00:07:40,410
+&nbsp;
+
+147
+00:07:40,410 --> 00:07:43,955
+&nbsp;
+
+148
+00:07:43,955 --> 00:07:46,264
+&nbsp;
+
+149
+00:07:46,264 --> 00:07:48,775
+&nbsp;
+
+150
+00:07:48,775 --> 00:07:52,984
+&nbsp;
+
+151
+00:07:52,984 --> 00:07:56,107
+&nbsp;
+
+152
+00:07:56,107 --> 00:07:59,264
+&nbsp;
+
+153
+00:07:59,264 --> 00:08:01,451
+&nbsp;
+
+154
+00:08:01,451 --> 00:08:04,700
+&nbsp;
+
+155
+00:08:04,700 --> 00:08:08,583
+&nbsp;
+
+156
+00:08:08,583 --> 00:08:12,833
+&nbsp;
+
+157
+00:08:14,496 --> 00:08:16,140
+&nbsp;
+
+158
+00:08:16,140 --> 00:08:19,771
+&nbsp;
+
+159
+00:08:19,771 --> 00:08:22,606
+&nbsp;
+
+160
+00:08:22,606 --> 00:08:25,230
+&nbsp;
+
+161
+00:08:25,230 --> 00:08:28,375
+&nbsp;
+
+162
+00:08:28,375 --> 00:08:31,111
+&nbsp;
+
+163
+00:08:31,111 --> 00:08:33,694
+&nbsp;
+

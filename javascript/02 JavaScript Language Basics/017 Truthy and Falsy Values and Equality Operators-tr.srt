@@ -1,0 +1,716 @@
+1
+00:00:01,282 --> 00:00:03,705
+Jonas: Bir sonraki byk konuya gemeden
+
+2
+00:00:03,705 --> 00:00:06,003
+nce, gerei ve falsi deerleri
+
+3
+00:00:06,003 --> 00:00:08,553
+denilen bir eyi hzlca renmemiz gerekiyor.
+
+4
+00:00:08,553 --> 00:00:11,718
+Yani, JavaScript'te, bir falsi deeri, if
+
+5
+00:00:11,718 --> 00:00:14,210
+/ else deyiminde deerlendirildiinde
+
+6
+00:00:14,210 --> 00:00:16,878
+yanl kabul edilen bir deerdir.
+
+7
+00:00:16,878 --> 00:00:19,114
+Javascript'te bulunan deerler, tanmlanmam, sfr, sfr, bo
+
+8
+00:00:19,114 --> 00:00:19,947
+dizeler ve "say
+
+9
+00:00:19,947 --> 00:00:20,780
+deil" deerleridir.
+
+10
+00:00:25,467 --> 00:00:28,961
+Bunu senin iin yazaym tamam m?
+
+11
+00:00:28,961 --> 00:00:30,519
+Yani falsy
+
+12
+00:00:30,519 --> 00:00:31,852
+deerler, tanmsz,
+
+13
+00:00:33,491 --> 00:00:35,324
+bo, sfr, bo
+
+14
+00:00:37,466 --> 00:00:40,729
+dizgelerdir ve bir say deildir.
+
+15
+00:00:40,729 --> 00:00:42,409
+Burada bundan bahsetmedik,
+
+16
+00:00:42,409 --> 00:00:45,191
+ancak daha sonra buradaki rneklerini greceksiniz.
+
+17
+00:00:45,191 --> 00:00:47,855
+Tamam, bu nedenle, bu be farkl
+
+18
+00:00:47,855 --> 00:00:50,520
+deerin tm, doru / yanl bir
+
+19
+00:00:50,520 --> 00:00:52,758
+durumda deerlendirildiinde false deerine dntrlecektir.
+
+20
+00:00:52,758 --> 00:00:54,940
+Bu yzden onlara falsi diyoruz.
+
+21
+00:00:54,940 --> 00:00:56,112
+Tam olarak yanl
+
+22
+00:00:56,112 --> 00:00:58,972
+deildirler, ancak eer / else durumunda deerlendirildiinde
+
+23
+00:00:58,972 --> 00:01:00,654
+yanl olduklar ortaya kacaktr.
+
+24
+00:01:00,654 --> 00:01:03,321
+imdi de gerek deerlere sahibiz.
+
+25
+00:01:06,413 --> 00:01:08,087
+Ve tabi ki
+
+26
+00:01:08,087 --> 00:01:10,414
+gerek deerler, if / else
+
+27
+00:01:10,414 --> 00:01:13,592
+deyiminde deerlendirildiinde doru olarak kabul edilen deerlerdir.
+
+28
+00:01:13,592 --> 00:01:18,092
+Yani temel olarak, hepsi falsy olmayan deerler.
+
+29
+00:01:19,661 --> 00:01:22,007
+Tamam, imdi bunun nasl altn
+
+30
+00:01:22,007 --> 00:01:24,590
+gstermek iin bir rnee bakalm.
+
+31
+00:01:25,461 --> 00:01:28,091
+Hadi bir ykseklik deikeni tanmlayalm, diyelim.
+
+32
+00:01:28,091 --> 00:01:29,823
+Ve aslnda onu tanmlamayacaz, bu
+
+33
+00:01:29,823 --> 00:01:31,351
+yzden sadece burada ilan ediyoruz.
+
+34
+00:01:31,351 --> 00:01:34,339
+Ve imdi bir if / else ifadesi yazalm.
+
+35
+00:01:34,339 --> 00:01:36,339
+Yani ykseklik diyebiliriz ve
+
+36
+00:01:39,569 --> 00:01:41,902
+sonra konsola giri yapalm.
+
+37
+00:01:45,196 --> 00:01:47,860
+Deiken tanmlanmtr. Deiken
+
+38
+00:01:47,860 --> 00:01:48,777
+Ve baka. tanmlanmamtr. Yani, burada ne olduunu grelim.
+
+39
+00:01:54,442 --> 00:01:57,359
+Ve burada yazdmz ey,
+
+40
+00:02:00,191 --> 00:02:02,967
+deikenin tanmlanmam olmasdr.
+
+41
+00:02:02,967 --> 00:02:04,590
+Peki bu neden oluyor?
+
+42
+00:02:04,590 --> 00:02:06,902
+Buradaki deikeni burada ykseklik olarak ilan
+
+43
+00:02:06,902 --> 00:02:08,712
+ettik, ama onu tanmlamadk.
+
+44
+00:02:08,712 --> 00:02:11,951
+Yani zaten tanmsz olduunu biliyorsunuz.
+
+45
+00:02:11,951 --> 00:02:13,577
+Ve biz de tanmsz bir fel deeri olduunu biliyoruz, deil mi?
+
+46
+00:02:13,577 --> 00:02:16,054
+Yani burada ykseklik
+
+47
+00:02:16,054 --> 00:02:20,013
+dediimizde, burada bu ykseklik yanlla dntrlr.
+
+48
+00:02:20,013 --> 00:02:22,493
+Bu nedenle, baka bir
+
+49
+00:02:22,493 --> 00:02:25,414
+bloa girdik ve daha sonra
+
+50
+00:02:25,414 --> 00:02:27,620
+deikenin henz tanmlanmadn yazdracaz.
+
+51
+00:02:27,620 --> 00:02:29,573
+Bu, bir deikenin tanmlanm olup olmadn
+
+52
+00:02:29,573 --> 00:02:31,322
+test etmenin ok kullanl bir yoludur.
+
+53
+00:02:31,322 --> 00:02:33,096
+imdi bir deer tanmladmz syleyelim. imdi
+
+54
+00:02:33,096 --> 00:02:36,734
+Yani 23 diyelim. ne olduunu izle? Elbette, deiken imdi tanmlanmtr.
+
+55
+00:02:36,734 --> 00:02:40,240
+Bunun nedeni, herhangi bir fel deeri olmayan her eyin
+
+56
+00:02:40,240 --> 00:02:41,740
+gerek bir deer olmasdr.
+
+57
+00:02:42,640 --> 00:02:45,271
+Bir deiken mevcut olduunda, bunun
+
+58
+00:02:45,271 --> 00:02:48,531
+zaten doruya dntrleceini ve dolaysyla eer blok
+
+59
+00:02:48,531 --> 00:02:49,976
+girildiini zaten biliyoruz.
+
+60
+00:02:49,976 --> 00:02:53,058
+Yani, bir deiken gerekten varsa, test
+
+61
+00:02:53,058 --> 00:02:55,900
+etmenin ok kullanl bir yolu.
+
+62
+00:02:55,900 --> 00:02:58,602
+imdi burada aklda tutulmas gereken tek Bu sfrn ayn zamanda nasl bir falsi deerine
+
+63
+00:02:58,602 --> 00:03:01,532
+bir ey var, o da bu. sahip olduuna dikkat edin, ancak ykseklik elbette sfr olabilir.
+
+64
+00:03:01,532 --> 00:03:04,856
+O zaman burada sfra ayarlayalm.
+
+65
+00:03:04,856 --> 00:03:06,887
+Deiken aslnda tanmlanm deil mi?
+
+66
+00:03:06,887 --> 00:03:09,099
+Yani burada bir deere sahibiz, tanmsz deil.
+
+67
+00:03:09,099 --> 00:03:10,139
+Ama imdi
+
+68
+00:03:10,139 --> 00:03:13,671
+bunu yeniden yklersek, hala deikenin tanmlanmadn syler.
+
+69
+00:03:13,671 --> 00:03:15,593
+Bu, elbette, kanmak istediimiz bir durum.
+
+70
+00:03:15,593 --> 00:03:16,982
+Yani bu burada sadece
+
+71
+00:03:16,982 --> 00:03:19,623
+ykseklik olamaz, ama ayn zamanda deiken sfr
+
+72
+00:03:19,623 --> 00:03:21,773
+ise, deikenin de tanmlandn sylemeliyiz.
+
+73
+00:03:21,773 --> 00:03:24,985
+Bunu yapmak iin ya
+
+74
+00:03:24,985 --> 00:03:27,835
+da operatr kullanabileceimizi unutmayn.
+
+75
+00:03:27,835 --> 00:03:31,000
+Bu yzden daha nce ve operatr daha nce
+
+76
+00:03:31,000 --> 00:03:33,940
+kullandk, fakat ayn zamanda operatr hakknda da konutuk.
+
+77
+00:03:33,940 --> 00:03:36,717
+Yani syleyebiliriz,
+
+78
+00:03:36,717 --> 00:03:40,024
+ya da
+
+79
+00:03:40,024 --> 00:03:42,464
+ykseklik sfra
+
+80
+00:03:42,464 --> 00:03:43,654
+eittir.
+
+81
+00:03:43,654 --> 00:03:45,980
+Yani bu sorunu zecektir.
+
+82
+00:03:45,980 --> 00:03:48,503
+Bu, bir deikenin tanmlanp tanmlanmadn kontrol etmek iin JavaScript'te olduka
+
+83
+00:03:48,503 --> 00:03:49,422
+yaygn bir modeldir.
+
+84
+00:03:49,422 --> 00:03:50,255
+Yani deikenin mevcut olup
+
+85
+00:03:51,198 --> 00:03:52,956
+olmadn ya da sfra eit olup olmadn kontrol ederiz.
+
+86
+00:03:52,956 --> 00:03:54,123
+Sonra burada blok varsa aslnda girilir.
+
+87
+00:03:54,972 --> 00:03:56,738
+Tamam, imdi tekrar
+
+88
+00:03:56,738 --> 00:03:59,585
+kontrol edelim, imdi deikenin tanmlandn gryoruz.
+
+89
+00:03:59,585 --> 00:04:01,825
+Unutmayn ki, tm bu koullarn doru olmas
+
+90
+00:04:01,825 --> 00:04:03,978
+iin bunlardan sadece birinin doru olmas gerekir.
+
+91
+00:04:03,978 --> 00:04:05,755
+Yani bu durumda imdi
+
+92
+00:04:05,755 --> 00:04:08,981
+ykseklik sfrdr, ve bu yzden burada yanllara dntrlecektir.
+
+93
+00:04:08,981 --> 00:04:10,773
+Ancak, sfr olan bir
+
+94
+00:04:10,773 --> 00:04:13,770
+ykseklie sahip deiliz, ki bu elbette
+
+95
+00:04:13,770 --> 00:04:16,886
+ki dorudur, nk bu durumda ykseklik sfrdr.
+
+96
+00:04:16,886 --> 00:04:19,896
+Yani yanl ve
+
+97
+00:04:19,896 --> 00:04:22,703
+doru, doru sonulanacak.
+
+98
+00:04:22,703 --> 00:04:25,701
+Bu nedenle, buradaki kod satr sonra yrtlr.
+
+99
+00:04:25,701 --> 00:04:28,391
+Tamam, imdi bu burada herhangi bir numarayla
+
+100
+00:04:28,391 --> 00:04:29,737
+ve ayrca dizelerle alacak.
+
+101
+00:04:29,737 --> 00:04:31,878
+rnein 20 diyelim.
+
+102
+00:04:31,878 --> 00:04:33,984
+Ve bunun hala doru olduunu gryorsun,
+
+103
+00:04:33,984 --> 00:04:35,826
+nk hala ilk bloa girdi.
+
+104
+00:04:35,826 --> 00:04:38,965
+Ama bo bir ipimiz varsa, burada grdmz gibi ayn
+
+105
+00:04:38,965 --> 00:04:41,727
+zamanda bir fel deeri olduunu da unutmayn.
+
+106
+00:04:41,727 --> 00:04:43,560
+Yani bo bir dize
+
+107
+00:04:44,968 --> 00:04:47,385
+ile imdi deikenin tekrar tanmlanmadn sylyor.
+
+108
+00:04:49,457 --> 00:04:50,756
+Yani, bu tr bir anlam ifade eder, deil mi?
+
+109
+00:04:50,756 --> 00:04:52,601
+nk aslnda, orada gerekten bir ey
+
+110
+00:04:52,601 --> 00:04:54,171
+yok, sadece bo bir ip gibi.
+
+111
+00:04:54,171 --> 00:04:56,628
+Yani bunlar, falsi ve doruluk
+
+112
+00:04:56,628 --> 00:05:00,014
+deerleridir ve bir deikenin gerekten tanmlanm olup
+
+113
+00:05:00,014 --> 00:05:02,037
+olmadn kontrol etmenin kullanl yoludur.
+
+114
+00:05:02,037 --> 00:05:04,095
+imdi bitirmek iin, iki
+
+115
+00:05:04,095 --> 00:05:06,238
+farkl eitlik operatr hakknda konualm.
+
+116
+00:05:06,238 --> 00:05:08,041
+Bu yzden her zaman bu l eit operatr kullandk, doru mu?
+
+117
+00:05:08,041 --> 00:05:11,076
+Bu, sk eitlik karlatrmalar iin olandr.
+
+118
+00:05:11,076 --> 00:05:12,707
+Ama ayn zamanda eit, Ve fark udur ki,
+
+119
+00:05:12,707 --> 00:05:15,557
+eit, bu yzden bu operatr burada. bu bir zorlama yazmaktadr, Yani her iki
+
+120
+00:05:15,557 --> 00:05:17,407
+deikenin veri trlerinin elemesi gerekmez.
+
+121
+00:05:17,407 --> 00:05:19,565
+Bunu sana pratikte gstereyim.
+
+122
+00:05:19,565 --> 00:05:23,506
+Yani, sadece burada yorum yapmak iin,
+
+123
+00:05:23,506 --> 00:05:26,495
+ve imdi yksekliin 23'e Yani imdi burada
+
+124
+00:05:26,495 --> 00:05:28,945
+eit olup olmadn syleyelim. bir dizgimiz var. O zaman, eit bir operatrle bask
+
+125
+00:05:28,945 --> 00:05:30,745
+konsola giri yapalm. yapar. Ne olduunu kontrol edelim.
+
+126
+00:05:30,745 --> 00:05:33,542
+Bunu yapmadan nce, bunu 23'e geri getirelim.
+
+127
+00:05:33,542 --> 00:05:35,256
+Burada yaptmz ey,
+
+128
+00:05:35,256 --> 00:05:39,193
+23 olan ykseklii 23 olan bir
+
+129
+00:05:39,193 --> 00:05:43,026
+say ile kat olmayan bir eitlik
+
+130
+00:05:44,643 --> 00:05:47,315
+operatr ile karlatrmaktr.
+
+131
+00:05:47,315 --> 00:05:48,148
+Yani sadece iki eittir.
+
+132
+00:05:51,050 --> 00:05:52,050
+una bir bakalm.
+
+133
+00:05:53,265 --> 00:05:55,553
+Ve bylece bunun aslnda doru olduunu
+
+134
+00:05:55,553 --> 00:05:58,636
+gryorsunuz, bu yzden ilk nce bloa giriyoruz.
+
+135
+00:06:00,537 --> 00:06:02,787
+Grdnz gibi, eit eit operatr zorlama yazyor.
+
+136
+00:06:05,360 --> 00:06:07,276
+Bunun anlam, bu operatr burada
+
+137
+00:06:07,276 --> 00:06:09,562
+kullandmz zaman, JavaScript'in 23'lk bir dizgiyi
+
+138
+00:06:09,562 --> 00:06:13,047
+bir sayya dntrd ve daha sonra 23'lk say ile
+
+139
+00:06:13,047 --> 00:06:14,511
+ayn olduunu sylemesidir.
+
+140
+00:06:14,511 --> 00:06:16,499
+Buraya tekrar bir gz atalm.
+
+141
+00:06:16,499 --> 00:06:19,172
+Yani, 23 ve sonra dize 23.
+
+142
+00:06:19,172 --> 00:06:22,920
+Ve bunun doru olduunu syleyecektir.
+
+143
+00:06:22,920 --> 00:06:25,313
+Tam olarak burada gzlemlediimiz ey.
+
+144
+00:06:25,313 --> 00:06:27,307
+Yine, JavaScript, temel olarak
+
+145
+00:06:27,307 --> 00:06:30,831
+bu dizgiyi bir sayya dntrmek anlamna
+
+146
+00:06:30,831 --> 00:06:33,222
+gelen basky yazar ve
+
+147
+00:06:33,222 --> 00:06:36,851
+daha sonra saylar karlatrr ve sonra
+
+148
+00:06:36,851 --> 00:06:38,940
+elbette ayndr, deil mi?
+
+149
+00:06:38,940 --> 00:06:40,790
+imdi bunun yerine,
+
+150
+00:06:40,790 --> 00:06:43,864
+sk eitlik operatrn  eit
+
+151
+00:06:43,864 --> 00:06:47,351
+iaretle kullanrsak, o zaman tip basks yapmayacaktr.
+
+152
+00:06:47,351 --> 00:06:49,541
+Bu nedenle, imdi ne olacan dnyorsunuz?
+
+153
+00:06:49,541 --> 00:06:52,463
+Evet gerekten, imdi yanl olduunu
+
+154
+00:06:52,463 --> 00:06:55,594
+sylyor, nk aslnda iki farkl ey.
+
+155
+00:06:55,594 --> 00:06:58,402
+Yani saymz 23 ve ipin 23' var.
+
+156
+00:06:58,402 --> 00:07:00,422
+Ve onlar farkl eylerdir, aslnda,
+
+157
+00:07:00,422 --> 00:07:02,209
+onlarn ayn olmamasn istiyoruz, tamam.
+
+158
+00:07:02,209 --> 00:07:04,192
+Ve eer yleyse, burada  eittir iyi
+
+159
+00:07:04,192 --> 00:07:06,358
+bir ansmz vard, tabii ki bu operasyonu grmeyeceiz.
+
+160
+00:07:06,358 --> 00:07:08,718
+Bu gnl konsola gremeyiz nk yanl.
+
+161
+00:07:08,718 --> 00:07:11,358
+Tamam, bu yzden sk eitlik operatr
+
+162
+00:07:11,358 --> 00:07:12,946
+nasl alr ve beklenmedik
+
+163
+00:07:12,946 --> 00:07:15,352
+durumlar ve hatalar nlemek iin, her
+
+164
+00:07:15,352 --> 00:07:18,249
+zaman l eit, yani sk eitlik operatr
+
+165
+00:07:18,249 --> 00:07:20,532
+kullanmak iin kesinlikle en iyi uygulamadr.
+
+166
+00:07:20,532 --> 00:07:23,023
+te bu yzden bu operatr her zaman
+
+167
+00:07:23,023 --> 00:07:25,614
+kullanyorum,  eittir ve sadece iki eittir.
+
+168
+00:07:25,614 --> 00:07:26,991
+&nbsp;
+
+169
+00:07:26,991 --> 00:07:30,382
+&nbsp;
+
+170
+00:07:30,382 --> 00:07:33,749
+&nbsp;
+
+171
+00:07:33,749 --> 00:07:36,970
+&nbsp;
+
+172
+00:07:36,970 --> 00:07:40,494
+&nbsp;
+
+173
+00:07:40,494 --> 00:07:44,782
+&nbsp;
+
+174
+00:07:44,782 --> 00:07:46,477
+&nbsp;
+
+175
+00:07:46,477 --> 00:07:48,489
+&nbsp;
+
+176
+00:07:48,489 --> 00:07:50,421
+&nbsp;
+
+177
+00:07:50,421 --> 00:07:53,953
+&nbsp;
+
+178
+00:07:53,953 --> 00:07:56,517
+&nbsp;
+
+179
+00:07:56,517 --> 00:08:00,850
+&nbsp;
+

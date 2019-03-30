@@ -1,0 +1,648 @@
+1
+00:00:01,340 --> 00:00:02,280
+Istruttore: ora che
+
+2
+00:00:02,280 --> 00:00:04,720
+hai familiarit con i fondamenti della lingua Javascript,
+
+3
+00:00:04,720 --> 00:00:05,970
+e prima di andare
+
+4
+00:00:05,970 --> 00:00:08,370
+avanti, dobbiamo parlare rapidamente delle versioni di Javascript.
+
+5
+00:00:08,370 --> 00:00:09,203
+Va bene?
+
+6
+00:00:09,203 --> 00:00:10,990
+Ora probabilmente avrei parlato di
+
+7
+00:00:10,990 --> 00:00:12,560
+questo all'inizio del corso.
+
+8
+00:00:12,560 --> 00:00:14,530
+Ma volevo solo che tu scrivessi del
+
+9
+00:00:14,530 --> 00:00:16,100
+codice il pi velocemente possibile.
+
+10
+00:00:16,100 --> 00:00:18,200
+Ad ogni modo,  molto importante
+
+11
+00:00:18,200 --> 00:00:20,780
+parlare di versioni Javascript, perch  qualcosa
+
+12
+00:00:20,780 --> 00:00:22,860
+di cui ogni sviluppatore Javascript moderno
+
+13
+00:00:22,860 --> 00:00:24,070
+dovrebbe essere a conoscenza.
+
+14
+00:00:24,070 --> 00:00:25,930
+E anche perch vedrai questi
+
+15
+00:00:25,930 --> 00:00:28,800
+argomenti venire sempre nella community degli sviluppatori.
+
+16
+00:00:28,800 --> 00:00:31,350
+Quindi vuoi essere in grado di capire cosa sta succedendo.
+
+17
+00:00:32,360 --> 00:00:33,540
+Quindi, per
+
+18
+00:00:33,540 --> 00:00:35,540
+farlo, parliamo molto brevemente
+
+19
+00:00:35,540 --> 00:00:37,500
+della storia di Javascript.
+
+20
+00:00:37,500 --> 00:00:39,560
+Quindi, Javascript  stato rilasciato per
+
+21
+00:00:39,560 --> 00:00:42,030
+la prima volta e chiamato LiveScript nel 1995.
+
+22
+00:00:42,030 --> 00:00:43,800
+Quindi, tanto tempo fa.
+
+23
+00:00:43,800 --> 00:00:46,173
+Ma il nome  stato quindi cambiato molto
+
+24
+00:00:46,173 --> 00:00:47,210
+rapidamente in JavaScript.
+
+25
+00:00:47,210 --> 00:00:49,030
+La ragione del cambiamento era solo
+
+26
+00:00:49,030 --> 00:00:51,260
+quella di attirare sviluppatori di un'altra lingua.
+
+27
+00:00:51,260 --> 00:00:53,100
+All'epoca era molto popolare,
+
+28
+00:00:53,100 --> 00:00:54,470
+ed  Java.
+
+29
+00:00:54,470 --> 00:00:56,520
+Quindi Java in Javascript era solo
+
+30
+00:00:56,520 --> 00:00:58,140
+per motivi di marcatura, davvero.
+
+31
+00:00:58,140 --> 00:01:00,760
+Perch il linguaggio stesso non ha quasi nulla a
+
+32
+00:01:00,760 --> 00:01:01,830
+che fare con Java.
+
+33
+00:01:01,830 --> 00:01:04,930
+Alcuni principianti pensano che sia cos, ma no.
+
+34
+00:01:04,930 --> 00:01:06,580
+Javascript e Java sono
+
+35
+00:01:06,580 --> 00:01:09,100
+in realt due lingue completamente diverse.
+
+36
+00:01:09,100 --> 00:01:11,630
+Ora, un anno dopo, la lingua 
+
+37
+00:01:11,630 --> 00:01:14,090
+stata presentata ad un'organizzazione chiamata Ecma International
+
+38
+00:01:14,090 --> 00:01:15,930
+per creare un nuovo standard.
+
+39
+00:01:15,930 --> 00:01:18,450
+E cos EcmaScript One, o ES1,
+
+40
+00:01:18,450 --> 00:01:21,630
+divenne la prima versione del linguaggio Javascript.
+
+41
+00:01:21,630 --> 00:01:24,630
+Nel mondo reale, di solito usiamo il termine EcmaScript
+
+42
+00:01:24,630 --> 00:01:26,110
+per fare riferimento allo
+
+43
+00:01:26,110 --> 00:01:27,860
+standard mentre Javascript  usato
+
+44
+00:01:27,860 --> 00:01:29,720
+quando parliamo della lingua nella pratica.
+
+45
+00:01:29,720 --> 00:01:32,220
+Ora, avanti veloce al 2009.
+
+46
+00:01:32,220 --> 00:01:35,240
+ES5  stato rilasciato con molte nuove funzionalit.
+
+47
+00:01:35,240 --> 00:01:37,620
+Tuttavia, ci sono voluti molti anni prima
+
+48
+00:01:37,620 --> 00:01:39,740
+che i browser implementassero tutti questi cambiamenti.
+
+49
+00:01:39,740 --> 00:01:42,940
+E infine, la tanto attesa nuova versione ES6,
+
+50
+00:01:42,940 --> 00:01:45,260
+ stata lanciata a giugno 2015.
+
+51
+00:01:45,260 --> 00:01:47,710
+Ed  stato il pi grande aggiornamento della lingua
+
+52
+00:01:47,710 --> 00:01:49,740
+di sempre, con un sacco di nuove funzionalit.
+
+53
+00:01:49,740 --> 00:01:51,140
+Questa era, o 
+
+54
+00:01:51,140 --> 00:01:53,350
+ancora, una vera dea per Javascript
+
+55
+00:01:53,350 --> 00:01:55,260
+e per l'intera comunit di sviluppatori.
+
+56
+00:01:55,260 --> 00:01:58,710
+Ora vedrete ES6 chiamato ES2015, che in realt
+
+57
+00:01:58,710 --> 00:02:00,620
+ il nome ufficiale.
+
+58
+00:02:00,620 --> 00:02:03,090
+Ma la maggior parte delle persone lo chiama ES6.
+
+59
+00:02:03,090 --> 00:02:05,570
+Questo  quello che far anche io qui.
+
+60
+00:02:05,570 --> 00:02:09,170
+In realt, la ragione per cui ES6 si chiama ES2015 
+
+61
+00:02:09,170 --> 00:02:13,010
+che nel 2015 siamo passati a un ciclo annuale di rilascio.
+
+62
+00:02:13,010 --> 00:02:15,030
+Quindi, una nuova versione del linguaggio
+
+63
+00:02:15,030 --> 00:02:16,700
+ ora disponibile ogni anno,
+
+64
+00:02:16,700 --> 00:02:19,060
+con solo poche nuove funzionalit all'anno,
+
+65
+00:02:19,060 --> 00:02:21,320
+invece di spedire una nuova enorme
+
+66
+00:02:21,320 --> 00:02:22,830
+versione ogni due anni.
+
+67
+00:02:22,830 --> 00:02:25,000
+In questo modo,  molto pi facile per
+
+68
+00:02:25,000 --> 00:02:25,900
+tutti rimanere aggiornati.
+
+69
+00:02:25,900 --> 00:02:28,863
+Va bene? Quindi  molto pi facile per noi sviluppatori come questo.
+
+70
+00:02:29,863 --> 00:02:33,260
+Cos nel 2016  stato rilasciato ES2016 o ES7.
+
+71
+00:02:33,260 --> 00:02:36,763
+ES2017 nel 2017 e, in questo
+
+72
+00:02:37,763 --> 00:02:39,960
+modo, continuer nel futuro.
+
+73
+00:02:39,960 --> 00:02:42,030
+Che aspetto ha Javascript oggi
+
+74
+00:02:42,030 --> 00:02:44,920
+e quale versione dovrebbe e possiamo usare?
+
+75
+00:02:44,920 --> 00:02:47,060
+Quindi, in primo luogo, ES5 , ovviamente,
+
+76
+00:02:47,060 --> 00:02:49,250
+pienamente supportato in tutti i browser oggi.
+
+77
+00:02:49,250 --> 00:02:51,820
+Quindi  quello che  sicuro da usare.
+
+78
+00:02:51,820 --> 00:02:55,380
+Ora sulle versioni pi recenti, ES6, ES7 ed ES8, a
+
+79
+00:02:55,380 --> 00:02:57,830
+partire dalla met del 2018, sono tutti
+
+80
+00:02:57,830 --> 00:03:00,760
+abbastanza ben supportati in tutti i browser moderni.
+
+81
+00:03:00,760 --> 00:03:01,910
+Ma il problema 
+
+82
+00:03:01,910 --> 00:03:04,190
+che non possiamo semplicemente presumere che i
+
+83
+00:03:04,190 --> 00:03:05,610
+nostri utenti utilizzino questi
+
+84
+00:03:05,610 --> 00:03:07,270
+browser moderni, almeno non tutti.
+
+85
+00:03:07,270 --> 00:03:08,700
+I vecchi browser, ovviamente,
+
+86
+00:03:08,700 --> 00:03:11,180
+non capiranno affatto la sintassi ES6.
+
+87
+00:03:11,180 --> 00:03:14,560
+E n ES7 e ES8, e cos via e cos via.
+
+88
+00:03:14,560 --> 00:03:17,500
+Quindi questi vecchi browser sono un grosso problema per noi.
+
+89
+00:03:17,500 --> 00:03:19,620
+Ora, la soluzione a questo
+
+90
+00:03:19,620 --> 00:03:22,250
+problema  di convertire sostanzialmente queste
+
+91
+00:03:22,250 --> 00:03:25,550
+versioni Javascript moderne in ES5, usando un processo
+
+92
+00:03:25,550 --> 00:03:27,230
+chiamato transpiling e anche polyfilling.
+
+93
+00:03:27,230 --> 00:03:28,660
+Ti insegner come farlo
+
+94
+00:03:28,660 --> 00:03:31,310
+entro la fine del corso, ok?
+
+95
+00:03:31,310 --> 00:03:32,220
+Se vuoi essere
+
+96
+00:03:32,220 --> 00:03:34,520
+aggiornato con quali funzionalit sono attualmente supportate
+
+97
+00:03:34,520 --> 00:03:36,580
+in quale browser, puoi semplicemente controllare
+
+98
+00:03:36,580 --> 00:03:38,760
+la tabella di compatibilit ES6 e
+
+99
+00:03:38,760 --> 00:03:41,570
+il link  nella mia pagina delle risorse.
+
+100
+00:03:41,570 --> 00:03:43,690
+Successivamente, ci sono le versioni
+
+101
+00:03:43,690 --> 00:03:47,360
+future del linguaggio, come ES9, ES10 e cos via.
+
+102
+00:03:47,360 --> 00:03:48,720
+Queste versioni future,
+
+103
+00:03:48,720 --> 00:03:51,140
+insieme, sono molte volte chiamate ESNext.
+
+104
+00:03:51,140 --> 00:03:53,360
+Ora alcune funzionalit di queste versioni
+
+105
+00:03:53,360 --> 00:03:56,300
+future sono gi state implementate in alcuni browser.
+
+106
+00:03:56,300 --> 00:03:58,250
+Quindi potresti usarli trasponendo e
+
+107
+00:03:58,250 --> 00:04:00,540
+polifando il tuo codice oggi.
+
+108
+00:04:00,540 --> 00:04:02,600
+Ma ad essere onesti, non ti consiglierei
+
+109
+00:04:02,600 --> 00:04:04,070
+di farlo a questo punto.
+
+110
+00:04:04,070 --> 00:04:07,660
+Perch ritengo che ES6, ES7 ed ES8 siano abbastanza potenti
+
+111
+00:04:07,660 --> 00:04:09,960
+da portare l'esperienza di sviluppo di
+
+112
+00:04:09,960 --> 00:04:12,960
+Javascript ad un livello completamente nuovo, come vedremo
+
+113
+00:04:12,960 --> 00:04:14,790
+un po 'pi avanti nel corso.
+
+114
+00:04:14,790 --> 00:04:15,623
+Tutto ok?
+
+115
+00:04:16,510 --> 00:04:18,490
+Quindi, in questo corso, inizieremo
+
+116
+00:04:18,490 --> 00:04:20,730
+utilizzando ES5 nella prima parte del
+
+117
+00:04:20,730 --> 00:04:22,550
+corso, quindi passeremo a ES6
+
+118
+00:04:22,550 --> 00:04:25,800
+Plus, quindi ES6, ES7 ed ES8, nella seconda parte
+
+119
+00:04:25,800 --> 00:04:26,633
+del corso.
+
+120
+00:04:26,633 --> 00:04:28,243
+Va bene?
+
+121
+00:04:28,243 --> 00:04:29,300
+Quindi ecco ora che funzioner.
+
+122
+00:04:29,300 --> 00:04:31,740
+Quindi abbiamo gi parlato dei principi
+
+123
+00:04:31,740 --> 00:04:34,930
+Javascript utilizzando ES5, e continueremo a utilizzare ES5
+
+124
+00:04:34,930 --> 00:04:36,930
+per guardare dietro le quinte
+
+125
+00:04:36,930 --> 00:04:38,700
+di Javascript, fare alcune
+
+126
+00:04:38,700 --> 00:04:40,980
+manipolazioni DOM, imparare tutto su aggiornamenti
+
+127
+00:04:40,980 --> 00:04:43,970
+e funzioni e programmare un enorme progetto reale.
+
+128
+00:04:43,970 --> 00:04:46,270
+Da l, inizieremo quindi a utilizzare ES6,
+
+129
+00:04:46,270 --> 00:04:48,640
+con una panoramica delle novit nella lingua.
+
+130
+00:04:48,640 --> 00:04:51,130
+Quindi parleremo di Javascript asincrono, configurazioni
+
+131
+00:04:51,130 --> 00:04:52,700
+di sviluppo moderne e
+
+132
+00:04:52,700 --> 00:04:54,640
+codificheremo un'app per il mondo
+
+133
+00:04:54,640 --> 00:04:55,740
+reale ancora pi
+
+134
+00:04:55,740 --> 00:04:59,080
+grande e pi fredda, utilizzando ES6, ES7 ed ES8.
+
+135
+00:04:59,080 --> 00:05:00,060
+Tutto ok?
+
+136
+00:05:00,060 --> 00:05:02,220
+Ora, alcune persone non capiscono perch mi
+
+137
+00:05:02,220 --> 00:05:04,880
+sia anche preoccupato di mostrarti ES5 in questo corso.
+
+138
+00:05:04,880 --> 00:05:07,360
+E in realt mi hanno criticato per averlo fatto.
+
+139
+00:05:07,360 --> 00:05:09,800
+Quindi ecco alcuni motivi che spero
+
+140
+00:05:09,800 --> 00:05:11,240
+abbiano senso per te.
+
+141
+00:05:11,240 --> 00:05:14,730
+Quindi credo davvero che nel 2018, e anche nel 2019, sia
+
+142
+00:05:14,730 --> 00:05:16,020
+ancora una buona idea
+
+143
+00:05:16,020 --> 00:05:18,770
+apprendere i fondamenti di Javascript in ES5, e poi
+
+144
+00:05:18,770 --> 00:05:21,380
+passare a versioni Javascript pi recenti da l.
+
+145
+00:05:21,380 --> 00:05:23,530
+Semplicemente perch dovrai sempre
+
+146
+00:05:23,530 --> 00:05:25,693
+capire ES5 in futuro.
+
+147
+00:05:25,693 --> 00:05:27,540
+Questo perch molti tutorial e
+
+148
+00:05:27,540 --> 00:05:29,650
+codici di esempio che troverai online
+
+149
+00:05:29,650 --> 00:05:32,150
+sono ancora scritti in ES5 oggi.
+
+150
+00:05:32,150 --> 00:05:35,070
+Inoltre, come sviluppatore, a volte dovrai lavorare
+
+151
+00:05:35,070 --> 00:05:37,660
+su codebase meno recenti, che saranno sicuramente
+
+152
+00:05:37,660 --> 00:05:40,350
+scritti in ES5 o anche pi vecchi.
+
+153
+00:05:40,350 --> 00:05:42,470
+Tutto sommato, credo solo che sarai
+
+154
+00:05:42,470 --> 00:05:44,620
+uno sviluppatore migliore se inizi a
+
+155
+00:05:44,620 --> 00:05:46,090
+capire come funziona ES5.
+
+156
+00:05:46,090 --> 00:05:49,140
+E solo allora passare a ES6 o pi recente.
+
+157
+00:05:49,140 --> 00:05:51,140
+Perch ES6 ha alcune astrazioni, come
+
+158
+00:05:51,140 --> 00:05:53,160
+le classi, che nascondono il modo
+
+159
+00:05:53,160 --> 00:05:55,780
+in cui la lingua funziona effettivamente dietro le quinte.
+
+160
+00:05:55,780 --> 00:05:56,613
+Tutto ok?
+
+161
+00:05:56,613 --> 00:05:58,660
+Quindi spero che questo abbia un senso per te.
+
+162
+00:05:58,660 --> 00:06:01,343
+Quindi passiamo ora alla sezione successiva.
+

@@ -1,0 +1,1196 @@
+1
+00:00:01,120 --> 00:00:03,290
+Jonas: Tudo bem, aqui vai a minha
+
+2
+00:00:03,290 --> 00:00:05,730
+soluo para a primeira parte do desafio de
+
+3
+00:00:05,730 --> 00:00:07,570
+codificao que acabei de mostrar a voc.
+
+4
+00:00:07,570 --> 00:00:09,833
+Ento, comeo criando o objeto John, defino
+
+5
+00:00:10,850 --> 00:00:12,950
+o literal do objeto novamente e,
+
+6
+00:00:12,950 --> 00:00:15,093
+em seguida, o nome completo, John Smith.
+
+7
+00:00:21,290 --> 00:00:22,910
+E, em seguida, uma matriz
+
+8
+00:00:22,910 --> 00:00:25,490
+das contas, assim como diz as instrues.
+
+9
+00:00:25,490 --> 00:00:30,490
+E as contas so 124, 48, 268, 180 e 42 dlares.
+
+10
+00:00:36,120 --> 00:00:38,080
+Ok, e so todos os dados de que precisamos.
+
+11
+00:00:38,080 --> 00:00:40,780
+Agora j estamos prontos para
+
+12
+00:00:40,780 --> 00:00:45,780
+escrever nossa funo calcTips, ou mtodo que devo dizer.
+
+13
+00:00:46,650 --> 00:00:49,210
+Ento, funcione sem nenhum
+
+14
+00:00:49,210 --> 00:00:50,840
+argumento, como antes.
+
+15
+00:00:50,840 --> 00:00:53,780
+E assim, esse desafio aqui  um
+
+16
+00:00:53,780 --> 00:00:55,590
+pouco parecido com o
+
+17
+00:00:55,590 --> 00:00:57,680
+anterior, onde calculamos os IMCs
+
+18
+00:00:57,680 --> 00:00:59,170
+para John e Mark.
+
+19
+00:00:59,170 --> 00:01:00,730
+A nica diferena  que,
+
+20
+00:01:00,730 --> 00:01:02,120
+desta vez, tambm precisamos
+
+21
+00:01:02,120 --> 00:01:04,960
+de alguns loops e isso adiciona um novo nvel
+
+22
+00:01:04,960 --> 00:01:06,550
+de complexidade a esse funcionamento.
+
+23
+00:01:06,550 --> 00:01:08,940
+Tudo bem, ento, lembre-se de como eu
+
+24
+00:01:08,940 --> 00:01:11,680
+disse que voc deveria comear com uma matriz
+
+25
+00:01:11,680 --> 00:01:14,680
+vazia para as duas dicas e os valores finais?
+
+26
+00:01:14,680 --> 00:01:16,800
+E enquanto voc pode fazer
+
+27
+00:01:16,800 --> 00:01:18,810
+isso, voc pode fazer assim.
+
+28
+00:01:18,810 --> 00:01:22,810
+Ento, dicas, e depois aqui, uma matriz vazia, mas eu achei
+
+29
+00:01:22,810 --> 00:01:24,670
+que seria um pouco mais
+
+30
+00:01:24,670 --> 00:01:26,410
+limpo comear sem uma lgrima
+
+31
+00:01:26,410 --> 00:01:29,100
+e, em vez disso, assim que executamos
+
+32
+00:01:29,100 --> 00:01:32,470
+a funo, adicionamos essas matrizes vazias ao nosso objeto.
+
+33
+00:01:32,470 --> 00:01:34,980
+Ok, ento, como fazemos isso?
+
+34
+00:01:34,980 --> 00:01:38,140
+Bem, ns apenas dizemos que este ponto
+
+35
+00:01:39,130 --> 00:01:41,500
+ igual a um array
+
+36
+00:01:41,500 --> 00:01:45,320
+vazio, e ento tambm este ponto final 
+
+37
+00:01:46,830 --> 00:01:48,730
+tambm um array vazio.
+
+38
+00:01:48,730 --> 00:01:51,060
+Ok, ento estou dando os mesmos nomes que
+
+39
+00:01:51,060 --> 00:01:52,920
+fiz na outra calculadora de gorjetas.
+
+40
+00:01:52,920 --> 00:01:54,500
+Ento, dicas sero o
+
+41
+00:01:54,500 --> 00:01:56,500
+array com todas as cinco dicas.
+
+42
+00:01:56,500 --> 00:01:57,990
+Ento, um para cada uma
+
+43
+00:01:57,990 --> 00:02:00,710
+dessas contas e, em seguida, os valores finais so
+
+44
+00:02:00,710 --> 00:02:02,160
+a matriz onde teremos a
+
+45
+00:02:02,160 --> 00:02:04,530
+soma de cada ponta com cada fatura.
+
+46
+00:02:04,530 --> 00:02:06,900
+Ok, agora temos que percorrer as
+
+47
+00:02:06,900 --> 00:02:08,410
+contas para calcular a
+
+48
+00:02:08,410 --> 00:02:10,810
+dica para cada um desses valores.
+
+49
+00:02:10,810 --> 00:02:12,560
+Ok, e assim, claro, vamos
+
+50
+00:02:12,560 --> 00:02:16,150
+usar o loop de quatro, como aprendemos na ltima palestra.
+
+51
+00:02:16,150 --> 00:02:20,520
+Quatro, e reiniciando no zero, e vamos at
+
+52
+00:02:20,520 --> 00:02:22,970
+chegar ao tamanho do
+
+53
+00:02:22,970 --> 00:02:24,630
+array de contas.
+
+54
+00:02:24,630 --> 00:02:27,320
+Ento, mais uma vez,  exatamente a mesma coisa
+
+55
+00:02:27,320 --> 00:02:28,830
+que fizemos na ltima palestra.
+
+56
+00:02:28,830 --> 00:02:29,970
+Ok, ento estamos apenas
+
+57
+00:02:29,970 --> 00:02:31,720
+aplicando o que acabamos de aprender antes.
+
+58
+00:02:31,720 --> 00:02:33,500
+Ento, onde esto essas contas?
+
+59
+00:02:33,500 --> 00:02:36,420
+Bem,  neste ponto e depois
+
+60
+00:02:36,420 --> 00:02:38,210
+no comprimento do ponto.
+
+61
+00:02:38,210 --> 00:02:40,770
+E assim, aqui voc v algo pela
+
+62
+00:02:40,770 --> 00:02:43,150
+primeira vez, que  dois pontos.
+
+63
+00:02:43,150 --> 00:02:46,010
+Ok, e na verdade o ponto  um operador.
+
+64
+00:02:46,010 --> 00:02:48,330
+Ento, vamos para nossa tabela de precedncia de
+
+65
+00:02:48,330 --> 00:02:49,740
+operadores que ainda est aberta
+
+66
+00:02:49,740 --> 00:02:51,690
+aqui, e aqui voc tem esse operador
+
+67
+00:02:51,690 --> 00:02:54,050
+que  chamado de acesso de membro.
+
+68
+00:02:54,050 --> 00:02:55,710
+Ok, e vemos que
+
+69
+00:02:55,710 --> 00:02:58,810
+este  executado da esquerda para a direita.
+
+70
+00:02:58,810 --> 00:03:01,760
+Tudo bem, e  por isso que isso funciona.
+
+71
+00:03:01,760 --> 00:03:03,070
+Ento, aqui est o primeiro.
+
+72
+00:03:03,070 --> 00:03:04,400
+Ento, o primeiro ponto.
+
+73
+00:03:04,400 --> 00:03:06,200
+E assim, este ponto 
+
+74
+00:03:06,200 --> 00:03:08,320
+a primeira parte que ser executada.
+
+75
+00:03:08,320 --> 00:03:09,690
+E assim, isso aqui
+
+76
+00:03:09,690 --> 00:03:11,800
+ser basicamente substitudo por esse array.
+
+77
+00:03:11,800 --> 00:03:14,137
+E assim, acabamos tendo esse array
+
+78
+00:03:14,137 --> 00:03:17,450
+aqui e depois disso, retemos a propriedade length,
+
+79
+00:03:17,450 --> 00:03:19,400
+essa aqui, desse array.
+
+80
+00:03:19,400 --> 00:03:21,320
+Ok, ento, se fosse o contrrio, se
+
+81
+00:03:21,320 --> 00:03:23,013
+comessemos a ler dessa maneira aqui,
+
+82
+00:03:23,013 --> 00:03:24,430
+ento no funcionaria de maneira
+
+83
+00:03:24,430 --> 00:03:27,330
+alguma, porque o comprimento dos pontos de contas seria algo annimo.
+
+84
+00:03:27,330 --> 00:03:28,163
+Ento, isso no
+
+85
+00:03:28,163 --> 00:03:30,720
+existiria porque tudo o que existe  esse ponto de contas.
+
+86
+00:03:30,720 --> 00:03:32,120
+E assim,  claro que
+
+87
+00:03:32,120 --> 00:03:34,170
+faz muito sentido comearmos a ler basicamente
+
+88
+00:03:34,170 --> 00:03:37,170
+que comeamos a executar da esquerda para a direita.
+
+89
+00:03:37,170 --> 00:03:38,910
+Ento, isso foi apenas um pequeno
+
+90
+00:03:38,910 --> 00:03:40,240
+detalhe, mas acho que 
+
+91
+00:03:40,240 --> 00:03:41,810
+importante realmente entender por que essas
+
+92
+00:03:41,810 --> 00:03:43,420
+coisas realmente funcionam como funcionam.
+
+93
+00:03:43,420 --> 00:03:45,210
+Ok, espero que voc concorde com isso.
+
+94
+00:03:45,210 --> 00:03:46,823
+Ento, eu mais mais.
+
+95
+00:03:48,710 --> 00:03:50,340
+Tudo bem, faz sentido.
+
+96
+00:03:50,340 --> 00:03:52,170
+Ento, novamente, estamos indo at
+
+97
+00:03:52,170 --> 00:03:55,020
+chegarmos ao tamanho do array de builds.
+
+98
+00:03:55,020 --> 00:03:56,330
+Qual  seis neste caso.
+
+99
+00:03:56,330 --> 00:04:00,200
+Ento, ns o executamos para 0123 e quatro.
+
+100
+00:04:00,200 --> 00:04:02,720
+Ok, ento o comprimento no  seis, so cinco.
+
+101
+00:04:02,720 --> 00:04:05,310
+Acho que falei seis, mas  claro que so cinco.
+
+102
+00:04:05,310 --> 00:04:08,310
+Tudo bem, ento o que vamos fazer em cada durao?
+
+103
+00:04:08,310 --> 00:04:09,590
+Bem, assim como
+
+104
+00:04:09,590 --> 00:04:11,510
+antes, vamos determinar a porcentagem
+
+105
+00:04:11,510 --> 00:04:13,470
+com base nas regras de gorjeta.
+
+106
+00:04:13,470 --> 00:04:15,270
+Ok, ento vamos escrever isso aqui embaixo.
+
+107
+00:04:20,710 --> 00:04:22,370
+Ok, ento, na verdade,
+
+108
+00:04:22,370 --> 00:04:24,620
+eu gostaria de adicionar esses comentrios
+
+109
+00:04:24,620 --> 00:04:26,940
+aqui para descobrir de antemo, antes
+
+110
+00:04:26,940 --> 00:04:29,040
+de realmente escrever o cdigo.
+
+111
+00:04:29,040 --> 00:04:30,710
+Assim, determinamos a porcentagem
+
+112
+00:04:30,710 --> 00:04:32,770
+e, em seguida, adicionamos o
+
+113
+00:04:35,330 --> 00:04:36,833
+resultado aos arrays correspondentes.
+
+114
+00:04:40,220 --> 00:04:42,420
+Ento, essa  a mesma coisa que fizemos antes.
+
+115
+00:04:42,420 --> 00:04:44,900
+Ento, ns definimos a
+
+116
+00:04:46,760 --> 00:04:49,070
+porcentagem sem realmente especific-la.
+
+117
+00:04:49,070 --> 00:04:50,640
+Ento, apenas declaramos a varivel
+
+118
+00:04:50,640 --> 00:04:52,080
+aqui, mas no a definimos.
+
+119
+00:04:52,080 --> 00:04:54,273
+E fazemos isso com base na conta.
+
+120
+00:04:55,490 --> 00:05:00,490
+Ento, se a conta for menor que 50, lembre-se.
+
+121
+00:05:00,900 --> 00:05:03,053
+Ento, essa  a regra que temos aqui em cima.
+
+122
+00:05:04,320 --> 00:05:06,550
+Ento, se a conta 
+
+123
+00:05:06,550 --> 00:05:08,430
+menor que 50, a gorjeta
+
+124
+00:05:08,430 --> 00:05:11,130
+ 20%,  15% se estiver entre
+
+125
+00:05:11,130 --> 00:05:13,870
+50 e 200 dlares, e 10% se
+
+126
+00:05:13,870 --> 00:05:16,180
+for mais de 200 dlares.
+
+127
+00:05:16,180 --> 00:05:17,200
+Tudo bem, e
+
+128
+00:05:17,200 --> 00:05:20,160
+assim, vamos traduzir isso aqui em cdigo.
+
+129
+00:05:20,160 --> 00:05:23,100
+Ok, e, na verdade, o projeto de lei
+
+130
+00:05:23,100 --> 00:05:24,960
+no  algo que definimos.
+
+131
+00:05:24,960 --> 00:05:26,100
+Ento, desculpe por isso.
+
+132
+00:05:26,100 --> 00:05:28,060
+Ento, no  projeto de lei, mas em
+
+133
+00:05:28,060 --> 00:05:29,480
+vez disso, o que temos aqui?
+
+134
+00:05:29,480 --> 00:05:33,730
+Ns temos este ponto de contas, adicionar  posio atual.
+
+135
+00:05:33,730 --> 00:05:35,430
+Ok, ento talvez isso esteja
+
+136
+00:05:35,430 --> 00:05:37,690
+comeando a ficar um pouco confuso.
+
+137
+00:05:37,690 --> 00:05:39,500
+Ok, e eu entendo totalmente isso.
+
+138
+00:05:39,500 --> 00:05:41,100
+E eu realmente mencionei
+
+139
+00:05:41,100 --> 00:05:43,810
+antes, esse era o objetivo desse desafio.
+
+140
+00:05:43,810 --> 00:05:45,250
+No para ser confuso para
+
+141
+00:05:45,250 --> 00:05:48,000
+voc, mas para fazer voc pensar um pouco sobre como
+
+142
+00:05:48,000 --> 00:05:48,890
+as coisas funcionam.
+
+143
+00:05:48,890 --> 00:05:51,270
+Ento, como podemos resolver esse tipo de problema?
+
+144
+00:05:51,270 --> 00:05:53,570
+Ok, ento este ponto de contas 
+
+145
+00:05:53,570 --> 00:05:55,750
+a nossa matriz com as contas.
+
+146
+00:05:55,750 --> 00:05:57,820
+Certo, e o que fazemos aqui com o
+
+147
+00:05:57,820 --> 00:06:00,220
+loop,  fazer um loop exatamente atravs desse array.
+
+148
+00:06:00,220 --> 00:06:01,630
+E assim, s faz
+
+149
+00:06:01,630 --> 00:06:04,250
+sentido que, em seguida, acessar a posio
+
+150
+00:06:04,250 --> 00:06:08,150
+atual desta matriz usando a varivel do contador atual.
+
+151
+00:06:08,150 --> 00:06:09,950
+Ok, e  sempre assim,
+
+152
+00:06:09,950 --> 00:06:11,860
+assim como aprendemos na ltima aula.
+
+153
+00:06:11,860 --> 00:06:13,870
+Tudo bem, e agora vamos
+
+154
+00:06:13,870 --> 00:06:17,260
+definir a porcentagem desse valor de faturamento, e
+
+155
+00:06:17,260 --> 00:06:19,120
+esse ser o segundo ponto.
+
+156
+00:06:19,120 --> 00:06:21,330
+Ok, ento, 20 por cento.
+
+157
+00:06:23,080 --> 00:06:26,763
+Ento mais, e eu realmente pego este aqui.
+
+158
+00:06:29,910 --> 00:06:33,523
+Ento, se for maior ou igual a 50,
+
+159
+00:06:34,840 --> 00:06:39,200
+e ao mesmo tempo deve ser menor que 200.
+
+160
+00:06:39,200 --> 00:06:40,930
+Certo, para que fique
+
+161
+00:06:40,930 --> 00:06:42,883
+exatamente entre 50 e 200.
+
+162
+00:06:44,020 --> 00:06:44,880
+Ento, nesse
+
+163
+00:06:44,880 --> 00:06:47,723
+caso, o percentual ser o 15.
+
+164
+00:06:48,760 --> 00:06:51,023
+E finalmente, em todos os
+
+165
+00:06:52,060 --> 00:06:55,143
+outros casos, o percentual ser o primeiro.
+
+166
+00:06:56,400 --> 00:06:57,850
+Ok, agora, como voc
+
+167
+00:06:57,850 --> 00:06:59,970
+v aqui, temos muitos cdigos duplicados aqui.
+
+168
+00:06:59,970 --> 00:07:03,380
+Ento, este ponto fatura e depois eu,
+
+169
+00:07:03,380 --> 00:07:05,570
+repetimos aqui trs vezes.
+
+170
+00:07:05,570 --> 00:07:07,410
+Ento, vamos criar uma
+
+171
+00:07:07,410 --> 00:07:09,470
+varivel separada para isso.
+
+172
+00:07:09,470 --> 00:07:10,870
+Ento, vamos chamar essa conta.
+
+173
+00:07:13,330 --> 00:07:15,390
+Ok, e antes de fazer qualquer
+
+174
+00:07:15,390 --> 00:07:17,310
+coisa aqui, simplesmente criamos uma
+
+175
+00:07:17,310 --> 00:07:20,410
+varivel onde armazenamos o valor atual da conta.
+
+176
+00:07:20,410 --> 00:07:22,070
+Tudo bem, agora podemos ir em
+
+177
+00:07:22,070 --> 00:07:23,980
+frente e substituir tudo isso aqui.
+
+178
+00:07:23,980 --> 00:07:25,450
+E isso  um pouco melhor.
+
+179
+00:07:25,450 --> 00:07:27,450
+Ento, em vez de repetir o
+
+180
+00:07:27,450 --> 00:07:30,050
+mesmo cdigo vrias vezes, apenas armazenamos o
+
+181
+00:07:30,050 --> 00:07:31,600
+valor e uma varivel.
+
+182
+00:07:31,600 --> 00:07:33,760
+Ok, isso  muito melhor.
+
+183
+00:07:33,760 --> 00:07:36,320
+Ok, ento para cada uma das
+
+184
+00:07:36,320 --> 00:07:38,660
+contas ns descobrimos agora a porcentagem.
+
+185
+00:07:38,660 --> 00:07:39,660
+Ento, tudo o
+
+186
+00:07:39,660 --> 00:07:41,640
+que temos a fazer agora  editar
+
+187
+00:07:41,640 --> 00:07:43,810
+as dicas e a matriz dos valores finais.
+
+188
+00:07:43,810 --> 00:07:47,660
+Ento, este ponto derruba na posio atual.
+
+189
+00:07:47,660 --> 00:07:49,013
+Lembre-se, sou eu.
+
+190
+00:07:50,500 --> 00:07:52,170
+Bem, e agora  muito simples.
+
+191
+00:07:52,170 --> 00:07:54,550
+ a varivel de fatura que definimos anteriormente.
+
+192
+00:07:54,550 --> 00:07:56,833
+Ento, este ponto fatura na posio
+
+193
+00:07:57,970 --> 00:07:59,720
+atual, vezes a porcentagem.
+
+194
+00:07:59,720 --> 00:08:02,020
+E assim, essa parte aqui  exatamente
+
+195
+00:08:02,020 --> 00:08:04,710
+igual  primeira, na verso mais simples da
+
+196
+00:08:04,710 --> 00:08:06,393
+nossa calculadora de gorjetas, certo?
+
+197
+00:08:07,430 --> 00:08:10,810
+E agora, finalmente, os valores finais deste ponto,
+
+198
+00:08:10,810 --> 00:08:13,130
+somados  posio atual, sero
+
+199
+00:08:13,130 --> 00:08:16,320
+a nota mais as pontas deste ponto
+
+200
+00:08:16,320 --> 00:08:17,270
+na posio atual.
+
+201
+00:08:17,270 --> 00:08:19,210
+Ou, na verdade, podemos fazer isso aqui.
+
+202
+00:08:19,210 --> 00:08:20,060
+Ento  o mesmo.
+
+203
+00:08:21,900 --> 00:08:23,000
+Ok, ento temos
+
+204
+00:08:23,000 --> 00:08:25,650
+a conta, mais a fatura vezes a porcentagem.
+
+205
+00:08:25,650 --> 00:08:28,830
+Tudo bem, e  isso.
+
+206
+00:08:28,830 --> 00:08:31,600
+Ento, essa  a nossa calculadora de
+
+207
+00:08:31,600 --> 00:08:32,970
+dicas que, ao mesmo
+
+208
+00:08:32,970 --> 00:08:34,850
+tempo, calcula as dicas para
+
+209
+00:08:34,850 --> 00:08:36,290
+todas as cinco contas.
+
+210
+00:08:36,290 --> 00:08:38,820
+Tudo bem, vamos realmente tentar isso.
+
+211
+00:08:38,820 --> 00:08:41,033
+Ento, John dot calcTips e, em
+
+212
+00:08:42,744 --> 00:08:44,520
+seguida, vamos entrar no console.
+
+213
+00:08:44,520 --> 00:08:47,253
+Log de pontos do console, John.
+
+214
+00:08:49,180 --> 00:08:52,740
+Tudo bem, oh, temos algum erro de
+
+215
+00:08:52,740 --> 00:08:55,370
+sintaxe aqui na linha 674.
+
+216
+00:08:55,370 --> 00:08:56,730
+Ento, onde  isso?
+
+217
+00:08:56,730 --> 00:08:59,560
+E, de fato, estou sentindo falta do se aqui.
+
+218
+00:08:59,560 --> 00:09:01,000
+Ento, mais se.
+
+219
+00:09:01,000 --> 00:09:02,970
+Provavelmente, voc j viu isso quando vem.
+
+220
+00:09:02,970 --> 00:09:05,360
+Ento, sinto muito por esse erro.
+
+221
+00:09:05,360 --> 00:09:07,740
+E ento, agora temos o objeto aqui.
+
+222
+00:09:07,740 --> 00:09:10,660
+E aqui temos nossas contas.
+
+223
+00:09:10,660 --> 00:09:12,210
+Ns temos nossos valores finais
+
+224
+00:09:12,210 --> 00:09:13,460
+e temos nossas dicas.
+
+225
+00:09:13,460 --> 00:09:15,150
+Ento, est tudo aqui agora.
+
+226
+00:09:15,150 --> 00:09:18,172
+Ok, ento temos 18 pontos seis, nove pontos seis,
+
+227
+00:09:18,172 --> 00:09:19,363
+26 pontos oito,
+
+228
+00:09:20,334 --> 00:09:21,940
+27 e oito pontos quatro.
+
+229
+00:09:21,940 --> 00:09:24,940
+E isso, se editarmos essas contas,
+
+230
+00:09:24,940 --> 00:09:26,973
+resultar nos valores finais
+
+231
+00:09:26,973 --> 00:09:28,360
+que temos aqui.
+
+232
+00:09:28,360 --> 00:09:31,950
+Ento, por exemplo, este 180 mais o 27, 
+
+233
+00:09:31,950 --> 00:09:35,400
+207 e  exatamente o que vemos aqui.
+
+234
+00:09:35,400 --> 00:09:39,220
+Certo, isso significa que est realmente funcionando.
+
+235
+00:09:39,220 --> 00:09:40,470
+Ento, a primeira parte de
+
+236
+00:09:40,470 --> 00:09:42,220
+um desafio est concluda, eu acho.
+
+237
+00:09:42,220 --> 00:09:43,690
+Vamos dar uma olhada.
+
+238
+00:09:43,690 --> 00:09:46,130
+Portanto, adicione o mtodo e inclua o loop.
+
+239
+00:09:46,130 --> 00:09:49,100
+Adicione como sada, crie esses dois arrays.
+
+240
+00:09:49,100 --> 00:09:51,200
+Ok, ento a primeira parte est terminada.
+
+241
+00:09:51,200 --> 00:09:52,290
+Vamos dar uma
+
+242
+00:09:52,290 --> 00:09:54,020
+olhada nisso novamente, porque 
+
+243
+00:09:54,020 --> 00:09:57,000
+um monte de cdigo aqui, e este  de
+
+244
+00:09:57,000 --> 00:09:58,560
+longe o cdigo mais complicado
+
+245
+00:09:58,560 --> 00:10:00,600
+que escrevemos at este ponto do curso.
+
+246
+00:10:00,600 --> 00:10:02,880
+Ento, a parte mais difcil de
+
+247
+00:10:02,880 --> 00:10:04,833
+entender  o fato de
+
+248
+00:10:04,833 --> 00:10:06,550
+que dentro desse mtodo aqui
+
+249
+00:10:06,550 --> 00:10:09,090
+o mtodo calcTips, ns temos esse loop
+
+250
+00:10:09,090 --> 00:10:12,370
+que calcula todas as cinco dicas basicamente ao mesmo tempo.
+
+251
+00:10:12,370 --> 00:10:14,370
+Um aps o outro, mas automaticamente.
+
+252
+00:10:14,370 --> 00:10:15,550
+Ento, essa  exatamente a
+
+253
+00:10:15,550 --> 00:10:17,100
+razo pela qual usamos o loop.
+
+254
+00:10:17,100 --> 00:10:19,430
+Ok, e ento ns tivemos que
+
+255
+00:10:19,430 --> 00:10:23,140
+ter esse tipo de confuso como esse ponto de notas.
+
+256
+00:10:23,140 --> 00:10:26,130
+Onde primeiro lemos a matriz de contas, a partir
+
+257
+00:10:26,130 --> 00:10:27,360
+do objeto atual e,
+
+258
+00:10:27,360 --> 00:10:28,280
+a partir da,
+
+259
+00:10:28,280 --> 00:10:29,430
+obtemos o tamanho.
+
+260
+00:10:29,430 --> 00:10:33,900
+Tudo bem, e ento aqui chegamos a conta atual.
+
+261
+00:10:33,900 --> 00:10:35,130
+Ento, o valor
+
+262
+00:10:35,130 --> 00:10:36,960
+atual, e de l, basicamente,
+
+263
+00:10:36,960 --> 00:10:39,890
+o mesmo  ento o resto  o
+
+264
+00:10:39,890 --> 00:10:41,660
+mesmo que fizemos no outro desafio.
+
+265
+00:10:41,660 --> 00:10:43,860
+Ok, ento outra particularidade era que
+
+266
+00:10:43,860 --> 00:10:46,690
+ns tnhamos que criar esses arrays vazios aqui
+
+267
+00:10:46,690 --> 00:10:48,380
+para que pudssemos preench-los.
+
+268
+00:10:48,380 --> 00:10:51,050
+E talvez voc tenha pensado que poderamos fazer assim.
+
+269
+00:10:51,050 --> 00:10:56,050
+Ento, este ponto,  igual a este ponto,  igual
+
+270
+00:10:57,130 --> 00:10:59,040
+a um array vazio.
+
+271
+00:10:59,040 --> 00:11:01,060
+Ento, talvez tente fazer tudo em uma
+
+272
+00:11:01,060 --> 00:11:02,580
+linha, mas isso no vai funcionar.
+
+273
+00:11:02,580 --> 00:11:04,330
+Ento, isso aqui no vai
+
+274
+00:11:04,330 --> 00:11:06,030
+funcionar porque o que isso
+
+275
+00:11:06,030 --> 00:11:09,210
+vai significar  que esses dois arrays sero os mesmos.
+
+276
+00:11:09,210 --> 00:11:10,940
+Ento, neste caso, se voc fez
+
+277
+00:11:10,940 --> 00:11:13,850
+assim, se voc adicionou alguma coisa ao array de dicas.
+
+278
+00:11:13,850 --> 00:11:15,470
+Ento, este aqui, ento voc
+
+279
+00:11:15,470 --> 00:11:18,170
+tambm teria adicionado automaticamente aos valores finais, porque
+
+280
+00:11:18,170 --> 00:11:20,570
+eles seriam de fato o mesmo array.
+
+281
+00:11:20,570 --> 00:11:22,090
+Tudo bem, e no
+
+282
+00:11:22,090 --> 00:11:23,580
+se preocupe se isso
+
+283
+00:11:23,580 --> 00:11:24,580
+soa um pouco
+
+284
+00:11:24,580 --> 00:11:26,750
+confuso para voc neste ponto, porque
+
+285
+00:11:26,750 --> 00:11:29,200
+mais tarde, novamente, aprenderemos por que  assim.
+
+286
+00:11:29,200 --> 00:11:30,600
+Ento, o que eu quero
+
+287
+00:11:30,600 --> 00:11:31,830
+que voc faa agora
+
+288
+00:11:31,830 --> 00:11:34,690
+ depois desse vdeo, d uma olhada novamente neste mtodo
+
+289
+00:11:34,690 --> 00:11:37,290
+aqui e especialmente,  claro, neste mtodo aqui.
+
+290
+00:11:37,290 --> 00:11:39,250
+Tente descobrir por que tudo funciona da
+
+291
+00:11:39,250 --> 00:11:40,860
+maneira que faz aqui, e s
+
+292
+00:11:40,860 --> 00:11:43,730
+siga em frente se realmente fizer sentido para voc.
+
+293
+00:11:43,730 --> 00:11:46,820
+Ok, esta foi a primeira parte da soluo.
+
+294
+00:11:46,820 --> 00:11:47,770
+Agora, no
+
+295
+00:11:47,770 --> 00:11:50,870
+prximo vdeo, vou resolver essa segunda parte.
+
+296
+00:11:50,870 --> 00:11:53,080
+Ok, ento eu estou deixando isso para um
+
+297
+00:11:53,080 --> 00:11:55,510
+vdeo diferente, para que voc possa passar por
+
+298
+00:11:55,510 --> 00:11:56,760
+isso novamente e ter
+
+299
+00:11:56,760 --> 00:11:58,453
+100% do que est acontecendo aqui.
+

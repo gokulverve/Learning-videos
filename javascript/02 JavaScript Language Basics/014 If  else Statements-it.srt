@@ -1,0 +1,652 @@
+1
+00:00:01,247 --> 00:00:03,350
+Jonas: Bentornato alla prossima lezione,
+
+2
+00:00:03,350 --> 00:00:06,379
+e questo  molto importante, perch in
+
+3
+00:00:06,379 --> 00:00:10,198
+questo inizieremo a prendere decisioni usando il codice.
+
+4
+00:00:10,198 --> 00:00:13,150
+Quindi JavaScript, cos come la maggior parte degli altri
+
+5
+00:00:13,150 --> 00:00:16,042
+linguaggi di programmazione, ha un paio di strutture di
+
+6
+00:00:16,042 --> 00:00:18,668
+controllo che sono caratteristiche che ci permettono di
+
+7
+00:00:18,668 --> 00:00:20,597
+eseguire solo alcune parti del nostro
+
+8
+00:00:20,597 --> 00:00:23,376
+codice o di eseguire parti pi volte.
+
+9
+00:00:23,376 --> 00:00:25,789
+La prima struttura di controllo di cui
+
+10
+00:00:25,789 --> 00:00:28,862
+parleremo  l'istruzione "if / else" che  , ancora,
+
+11
+00:00:28,862 --> 00:00:33,308
+un condizionale che fondamentalmente ci consente di prendere decisioni usando il codice. Ora, creiamo una variabile che non abbiamo usato prima, che
+
+12
+00:00:33,308 --> 00:00:35,742
+Lascia che ti mostri come funziona.  per lo stato civile.
+
+13
+00:00:35,742 --> 00:00:38,586
+Innanzitutto, riportiamo alcune delle nostre variabili. Quindi, "civilStatus", e quindi questo sostanzialmente dice
+
+14
+00:00:38,586 --> 00:00:40,836
+Quindi, diciamo il nome. "Giovanni". se sei sposato, o single, o
+
+15
+00:00:42,235 --> 00:00:43,985
+divorziato o qualcosa del genere.
+
+16
+00:00:44,997 --> 00:00:47,909
+Diciamo solo che John  un "single", quindi non  sposato.
+
+17
+00:00:47,909 --> 00:00:50,477
+Ora quello che vogliamo fare qui  registrare una
+
+18
+00:00:50,477 --> 00:00:53,689
+stringa sulla console, indipendentemente dal fatto che sia sposato o meno.
+
+19
+00:00:53,689 --> 00:00:56,442
+Per questo, possiamo prendere una decisione "if
+
+20
+00:00:56,442 --> 00:00:57,902
+/ else" per
+
+21
+00:00:57,902 --> 00:01:02,902
+prendere le decisioni: scriviamo "if", e quindi apriamo una parentesi, quindi qui
+
+22
+00:01:03,453 --> 00:01:05,190
+dobbiamo scrivere una condizione
+
+23
+00:01:05,190 --> 00:01:09,897
+logica, quindi qualcosa che restituisce un "vero" booleano o valore 'falso'.
+
+24
+00:01:09,897 --> 00:01:12,143
+ qualcosa come abbiamo
+
+25
+00:01:12,143 --> 00:01:15,991
+fatto prima, quindi per esempio, questo qui.
+
+26
+00:01:15,991 --> 00:01:17,992
+Ci restituir un valore 'true' o
+
+27
+00:01:17,992 --> 00:01:20,327
+'false', quindi  una condizione logica perfetta.
+
+28
+00:01:20,327 --> 00:01:23,808
+Ora, in questo caso non vogliamo un confronto pi grande rispetto
+
+29
+00:01:23,808 --> 00:01:25,825
+a quello che ti ho mostrato, ma
+
+30
+00:01:25,825 --> 00:01:27,671
+invece vogliamo un operatore di uguaglianza.
+
+31
+00:01:27,671 --> 00:01:30,031
+Fondamentalmente, quello che vogliamo fare  Quindi, questa condizione qui torner "vera" se lo
+
+32
+00:01:30,031 --> 00:01:33,018
+verificare se lo stato civile  "sposato". stato civile  "sposato" e "falso" se non lo .
+
+33
+00:01:33,018 --> 00:01:34,747
+Lascia che ti mostri come farlo. Questo qui, di nuovo,  come
+
+34
+00:01:34,747 --> 00:01:37,381
+Possiamo dire che lo stato civile  uguale a 'sposato'. un operatore logico che restituisce "vero" o "falso".
+
+35
+00:01:37,381 --> 00:01:39,970
+C' anche la versione con solo due uguali,
+
+36
+00:01:39,970 --> 00:01:42,251
+ma ne parliamo un po 'pi tardi.
+
+37
+00:01:42,251 --> 00:01:44,926
+Ancora una volta, questo qui metter alla prova se
+
+38
+00:01:44,926 --> 00:01:47,045
+lo stato civile  "sposato" o no.
+
+39
+00:01:47,045 --> 00:01:49,795
+Quindi, apriamo le parentesi graffe, e questo
+
+40
+00:01:52,095 --> 00:01:53,178
+qui  il  "Se lo
+
+41
+00:01:54,136 --> 00:01:56,937
+blocco, il blocco "se", e qui possiamo stato civile " sposato ",
+
+42
+00:01:56,937 --> 00:02:01,937
+ora scrivere le nostre istruzioni, in sostanza; in questo caso, la nostra 'console'. log () ', e quello che questo testo verr registrato nella console e, in caso
+
+43
+00:02:02,131 --> 00:02:04,907
+vogliamo registrare nella contrario, non accadr nulla.
+
+44
+00:02:04,907 --> 00:02:06,704
+console ' firstName. sposato! Ricaricalo e, in effetti, non succede nulla.
+
+45
+00:02:06,704 --> 00:02:09,193
+Questo perch proprio ora, questo qui
+
+46
+00:02:09,193 --> 00:02:13,089
+risulta essere "falso" perch lo stato civile  in
+
+47
+00:02:13,089 --> 00:02:15,320
+realt "singolo" e non "sposato".
+
+48
+00:02:15,320 --> 00:02:17,925
+Questo  diverso, quindi quando abbiamo 'false',
+
+49
+00:02:17,925 --> 00:02:21,644
+beh, allora questo pezzo di codice non viene eseguito.
+
+50
+00:02:21,644 --> 00:02:24,776
+Cambiamolo qui per "sposato" per un secondo solo per
+
+51
+00:02:24,776 --> 00:02:27,501
+vedere se funziona bene, e lo .
+
+52
+00:02:27,501 --> 00:02:31,064
+Ora dice "John  sposato! ', perch lo stato civile
+
+53
+00:02:31,064 --> 00:02:34,241
+ esattamente la stessa cosa di' sposato 'qui.
+
+54
+00:02:34,241 --> 00:02:35,324
+In ogni caso, cambiamo
+
+55
+00:02:38,666 --> 00:02:39,916
+"single", perch
+
+56
+00:02:41,961 --> 00:02:45,121
+ora voglio mostrarti la parte "else" dell'istruzione "if / else".
+
+57
+00:02:45,121 --> 00:02:46,754
+Possiamo avere solo la parte
+
+58
+00:02:46,754 --> 00:02:49,516
+"se", ma possiamo anche aggiungere una dichiarazione "altro". spero si
+
+59
+00:02:49,516 --> 00:02:52,695
+Quindi, possiamo dire 'else', quindi qui abbiamo il blocco 'else'. Questo, ovviamente, significa che non  sposato a questo punto.
+
+60
+00:02:52,695 --> 00:02:55,240
+Quello che fa  che, se qui non  Facciamo un test, e teniamo presente che qui
+
+61
+00:02:55,240 --> 00:02:57,561
+"vero", quindi se  "falso", eseguir il blocco "else". test 'single', e quindi questa parte qui
+
+62
+00:02:57,561 --> 00:03:00,110
+Proviamoci. sposi presto. non verr eseguita, perch qui  falso, e
+
+63
+00:03:00,110 --> 00:03:02,877
+questo significa che salterai direttamente al blocco 'else', quindi
+
+64
+00:03:02,877 --> 00:03:05,673
+questo testo qui dovrebbe essere registrato alla console.
+
+65
+00:03:05,673 --> 00:03:09,172
+Dai un'occhiata, (fa un respiro) e s funziona. e impostiamolo su 'false',
+
+66
+00:03:09,172 --> 00:03:13,348
+Quindi, "spero che John sposi presto". quindi testiamo cosa succede in
+
+67
+00:03:13,348 --> 00:03:16,363
+Ora, diciamo Quindi, invece di questo test qui
+
+68
+00:03:16,363 --> 00:03:19,863
+che abbiamo gi una variabile booleana. potremmo inserire 'isMarried', e quindi potremmo mettere 'true' uguali, ma quella parte non
+
+69
+00:03:20,754 --> 00:03:22,663
+Possiamo avere una variabile chiamata 'isMarried'. quel caso.  realmente necessaria, perch ci di cui
+
+70
+00:03:22,663 --> 00:03:24,112
+abbiamo bisogno qui in questa
+
+71
+00:03:24,112 --> 00:03:26,852
+condizione  un 'vero' o 'falso' valore, ma questa variabile
+
+72
+00:03:26,852 --> 00:03:28,845
+'isMarried'  gi un booleano; in questo
+
+73
+00:03:28,845 --> 00:03:31,962
+momento  impostato su 'false', ma potremmo anche impostarlo su 'true', quindi facciamolo.
+
+74
+00:03:31,962 --> 00:03:35,914
+Di nuovo, ci che vogliamo qui  un valore
+
+75
+00:03:35,914 --> 00:03:39,469
+vero / falso, ma 'isMarried'  gi 'vero',
+
+76
+00:03:39,469 --> 00:03:44,469
+ gi un booleano, quindi questa parte non  nemmeno necessaria.
+
+77
+00:03:44,523 --> 00:03:46,190
+Ha senso?
+
+78
+00:03:51,757 --> 00:03:54,174
+Qui, abbiamo solo bisogno di un valore
+
+79
+00:03:56,865 --> 00:04:01,621
+vero / falso, di nuovo, quindi non c' bisogno di scrivere il 'vero'.
+
+80
+00:04:01,621 --> 00:04:04,298
+Facciamo un test, e ora dice "John  sposato! 'qui, provenendo dalla linea
+
+81
+00:04:04,298 --> 00:04:07,335
+173, quindi questo qui.
+
+82
+00:04:07,335 --> 00:04:09,965
+Naturalmente, questo qui viene ancora da
+
+83
+00:04:09,965 --> 00:04:12,126
+questa affermazione "se / else"
+
+84
+00:04:12,126 --> 00:04:15,804
+di prima, in cui diciamo che lo stato
+
+85
+00:04:15,804 --> 00:04:18,444
+civile  "single" e non "sposato".
+
+86
+00:04:18,444 --> 00:04:20,898
+Questo qui  solo un altro esempio in cui volevo mostrarti che
+
+87
+00:04:20,898 --> 00:04:22,086
+in realt  abbastanza per passare
+
+88
+00:04:22,086 --> 00:04:24,068
+un valore 'vero' o 'falso' qui in questa condizione.
+
+89
+00:04:24,068 --> 00:04:27,735
+Spero che abbia senso, e che ora tu abbia
+
+90
+00:04:30,785 --> 00:04:34,002
+imparato come possiamo prendere decisioni usando il codice. 'superiore a
+
+91
+00:04:34,002 --> 00:04:36,585
+Certo, potremmo fare cose molto pi Ricapitoliamo rapidamente quello che abbiamo fatto qui.
+
+92
+00:04:39,026 --> 00:04:41,161
+difficili e molto pi complesse Quindi, stiamo testando se il BMI di Mark  maggiore di quello di John.
+
+93
+00:04:41,161 --> 00:04:45,481
+in questi blocchi, il blocco "se" o il blocco "altro". di BMIJohn 'than, John's' e, naturalmente, Questo qui, naturalmente, come gi sapete, restituir un valore "vero" o
+
+94
+00:04:45,481 --> 00:04:49,140
+Ora, per concludere questa lezione, riportiamo il codice Bene in questo caso vogliamo stampare qualcosa sulla console, Copiamo, e cos qui  il contrario. quello di Mark'. "falso", e questo  esattamente ci di cui abbiamo
+
+95
+00:04:49,140 --> 00:04:51,668
+della nostra sfida di codifica e se no, allora vogliamo registrare qualcos'altro. bisogno in un'istruzione "if / else".
+
+96
+00:04:51,668 --> 00:04:54,784
+che abbiamo codificato prima, e in pratica In questo caso, abbiamo ovviamente "Mark's", In questo caso, acceder alla console "L'IMC di Mark
+
+97
+00:04:54,784 --> 00:04:57,818
+scriviamo qualcosa di meglio sulla console. BMIMark  '. e ora, la stringa di escape. in fuga.  pi alto di quello di John", e se
+
+98
+00:04:57,818 --> 00:05:01,532
+Quello che abbiamo fatto qui  semplicemente registrare questa stringa qui, non lo , quindi se questo  "falso", ovviamente l'IMC di
+
+99
+00:05:01,532 --> 00:05:04,365
+quindi insieme con questo valore vero / falso. John deve essere pi alto di quello di
+
+100
+00:05:04,365 --> 00:05:07,474
+Non  proprio la soluzione migliore, giusto, Mark, quindi  esattamente cos cosa registriamo alla console.
+
+101
+00:05:07,474 --> 00:05:10,737
+per stampare solo true / false sulla console?  scrivere pi grande. Ora, per provarlo, diciamo "L'IMC di Mark  pi
+
+102
+00:05:10,737 --> 00:05:12,414
+Ora che conosci la frase 'if alto di quello di John".
+
+103
+00:05:12,414 --> 00:05:14,641
+/ else', possiamo fare molto meglio di questo, giusto? Manca la "s", ma questo non ha molta importanza, e
+
+104
+00:05:14,641 --> 00:05:16,707
+Cosa possiamo fare, invece di tutto solo per testare l'altro scenario aumentiamo rapidamente questa massa
+
+105
+00:05:16,707 --> 00:05:19,495
+questo, commentiamo in realt. 'se' qui, e cos ora John dovrebbe
+
+106
+00:05:19,495 --> 00:05:22,646
+essere pi grande, e in effetti ora 'John's BMI  pi alto di Mark'.
+
+107
+00:05:22,646 --> 00:05:25,722
+Rimettendolo, e cos ora ancora Mark's sarebbe pi
+
+108
+00:05:25,722 --> 00:05:27,749
+alto, e in effetti sta funzionando.
+
+109
+00:05:27,749 --> 00:05:29,370
+Ora sai come prendere le decisioni con il codice.
+
+110
+00:05:29,370 --> 00:05:31,483
+ fantastico, ma questo  solo
+
+111
+00:05:31,483 --> 00:05:34,270
+il fondamento dei condizionali e delle decisioni
+
+112
+00:05:34,270 --> 00:05:37,650
+con il codice, quindi c' ancora molto da imparare.
+
+113
+00:05:37,650 --> 00:05:40,455
+Restate sintonizzati per i prossimi video!
+
+114
+00:05:40,455 --> 00:05:43,137
+&nbsp;
+
+115
+00:05:43,137 --> 00:05:46,329
+&nbsp;
+
+116
+00:05:46,329 --> 00:05:48,743
+&nbsp;
+
+117
+00:05:48,743 --> 00:05:51,365
+&nbsp;
+
+118
+00:05:51,365 --> 00:05:54,359
+&nbsp;
+
+119
+00:05:54,359 --> 00:05:56,742
+&nbsp;
+
+120
+00:05:56,742 --> 00:05:59,856
+&nbsp;
+
+121
+00:05:59,856 --> 00:06:03,520
+&nbsp;
+
+122
+00:06:03,520 --> 00:06:06,687
+&nbsp;
+
+123
+00:06:09,602 --> 00:06:12,805
+&nbsp;
+
+124
+00:06:12,805 --> 00:06:16,286
+&nbsp;
+
+125
+00:06:16,286 --> 00:06:18,413
+&nbsp;
+
+126
+00:06:18,413 --> 00:06:21,228
+&nbsp;
+
+127
+00:06:21,228 --> 00:06:23,040
+&nbsp;
+
+128
+00:06:23,040 --> 00:06:26,722
+&nbsp;
+
+129
+00:06:26,722 --> 00:06:28,532
+&nbsp;
+
+130
+00:06:28,532 --> 00:06:31,199
+&nbsp;
+
+131
+00:06:32,381 --> 00:06:34,131
+&nbsp;
+
+132
+00:06:35,556 --> 00:06:37,556
+&nbsp;
+
+133
+00:06:38,905 --> 00:06:40,322
+&nbsp;
+
+134
+00:06:41,830 --> 00:06:45,344
+&nbsp;
+
+135
+00:06:45,344 --> 00:06:49,261
+&nbsp;
+
+136
+00:06:54,421 --> 00:06:57,611
+&nbsp;
+
+137
+00:06:57,611 --> 00:07:00,028
+&nbsp;
+
+138
+00:07:05,423 --> 00:07:09,006
+&nbsp;
+
+139
+00:07:12,244 --> 00:07:16,827
+&nbsp;
+
+140
+00:07:18,916 --> 00:07:20,916
+&nbsp;
+
+141
+00:07:22,811 --> 00:07:25,930
+&nbsp;
+
+142
+00:07:25,930 --> 00:07:30,779
+&nbsp;
+
+143
+00:07:30,779 --> 00:07:32,655
+&nbsp;
+
+144
+00:07:32,655 --> 00:07:35,618
+&nbsp;
+
+145
+00:07:35,618 --> 00:07:38,035
+&nbsp;
+
+146
+00:07:38,035 --> 00:07:40,410
+&nbsp;
+
+147
+00:07:40,410 --> 00:07:43,955
+&nbsp;
+
+148
+00:07:43,955 --> 00:07:46,264
+&nbsp;
+
+149
+00:07:46,264 --> 00:07:48,775
+&nbsp;
+
+150
+00:07:48,775 --> 00:07:52,984
+&nbsp;
+
+151
+00:07:52,984 --> 00:07:56,107
+&nbsp;
+
+152
+00:07:56,107 --> 00:07:59,264
+&nbsp;
+
+153
+00:07:59,264 --> 00:08:01,451
+&nbsp;
+
+154
+00:08:01,451 --> 00:08:04,700
+&nbsp;
+
+155
+00:08:04,700 --> 00:08:08,583
+&nbsp;
+
+156
+00:08:08,583 --> 00:08:12,833
+&nbsp;
+
+157
+00:08:14,496 --> 00:08:16,140
+&nbsp;
+
+158
+00:08:16,140 --> 00:08:19,771
+&nbsp;
+
+159
+00:08:19,771 --> 00:08:22,606
+&nbsp;
+
+160
+00:08:22,606 --> 00:08:25,230
+&nbsp;
+
+161
+00:08:25,230 --> 00:08:28,375
+&nbsp;
+
+162
+00:08:28,375 --> 00:08:31,111
+&nbsp;
+
+163
+00:08:31,111 --> 00:08:33,694
+&nbsp;
+

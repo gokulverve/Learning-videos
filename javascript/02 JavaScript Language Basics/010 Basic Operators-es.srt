@@ -1,0 +1,520 @@
+1
+00:00:01,180 --> 00:00:04,860
+Conozcamos sobre algunos operadores bsicos de JavaScript.
+
+2
+00:00:05,070 --> 00:00:10,860
+As que aqu ya cre como el ttulo de esta conferencia y tambin coment el cdigo aqu de The
+
+3
+00:00:10,860 --> 00:00:11,510
+Last Lecture.
+
+4
+00:00:11,610 --> 00:00:12,090
+DE ACUERDO.
+
+5
+00:00:12,210 --> 00:00:17,580
+As que en realidad podramos hacerlo este ao en diferentes archivos, como un archivo por cada conferencia,
+
+6
+00:00:17,580 --> 00:00:21,560
+pero prefiero simplemente mantener todo simple aqu todo en un solo archivo.
+
+7
+00:00:21,600 --> 00:00:27,600
+Ahora, para los operadores, pueden ser, por ejemplo, simples operadores matemticos que ya conocemos como ms
+
+8
+00:00:27,750 --> 00:00:32,330
+y menos y veces y, adems, tiene un par de otros operadores.
+
+9
+00:00:32,390 --> 00:00:33,710
+Y tambin voy a mostrarte.
+
+10
+00:00:34,080 --> 00:00:39,390
+Entonces, en trminos simples, los operadores son como funciones que estn escritas de manera especial en javascript y en caso
+
+11
+00:00:39,390 --> 00:00:41,420
+de que se pregunte qu funciones son.
+
+12
+00:00:41,490 --> 00:00:46,890
+No se preocupe de nuevo hablaremos de esto un poco ms tarde, pero por ahora echemos un vistazo
+
+13
+00:00:46,890 --> 00:00:49,920
+a algunos operadores matemticos y cmo podemos usarlos en Javascript.
+
+14
+00:00:49,920 --> 00:00:54,150
+As que calculemos en qu ao naci John y eso es muy simple.
+
+15
+00:00:56,290 --> 00:00:58,180
+As que vamos a llamarlo un ao John.
+
+16
+00:00:58,840 --> 00:01:03,020
+Y entonces tenemos 20:18 que es el ao actual menos la edad de John.
+
+17
+00:01:03,070 --> 00:01:03,810
+Derecha.
+
+18
+00:01:03,820 --> 00:01:06,730
+Y recuerda que solamos declararlo como veintiocho.
+
+19
+00:01:06,930 --> 00:01:08,280
+As que usemos lo mismo aqu.
+
+20
+00:01:08,720 --> 00:01:15,220
+Y es todo lo que podemos hacer y registrarlo para cancelar.
+
+21
+00:01:15,230 --> 00:01:17,070
+As que echemos un vistazo a eso.
+
+22
+00:01:17,300 --> 00:01:18,830
+Y de hecho a 19:19.
+
+23
+00:01:18,920 --> 00:01:19,370
+DE ACUERDO.
+
+24
+00:01:19,460 --> 00:01:26,120
+As que este ao D-minus es un operador matemtico en javascript y eso no es lo mismo para,
+
+25
+00:01:26,120 --> 00:01:29,510
+digamos, para alguien ms como el amigo de John.
+
+26
+00:01:30,260 --> 00:01:31,950
+Digamos que se llama Mark.
+
+27
+00:01:32,300 --> 00:01:35,560
+Y entonces 20:18 menos 33.
+
+28
+00:01:35,560 --> 00:01:40,360
+Entonces Mark tiene 33 aos y veo que estamos empezando a repetir algunos de los valores.
+
+29
+00:01:40,430 --> 00:01:44,510
+Entonces, por ejemplo 2018 aqu lo estamos usando varias veces.
+
+30
+00:01:44,570 --> 00:01:47,030
+Entonces, declaremos como una variable separada.
+
+31
+00:01:47,030 --> 00:01:49,180
+Entonces para eso estn las variables.
+
+32
+00:01:49,390 --> 00:01:49,890
+DE ACUERDO.
+
+33
+00:01:50,030 --> 00:01:55,420
+Entonces podemos decir que var year es 2018.
+
+34
+00:01:55,670 --> 00:02:02,850
+Y ahora, en lugar de tener que reducir este ao 2018, podemos pasar un ao en estos dos lugares.
+
+35
+00:02:03,210 --> 00:02:04,020
+Bueno.
+
+36
+00:02:04,130 --> 00:02:05,790
+As que echemos un vistazo a eso.
+
+37
+00:02:05,900 --> 00:02:08,710
+Y, por supuesto, todava coloca el mismo nmero exacto.
+
+38
+00:02:08,870 --> 00:02:14,220
+Pero si quisieras cambiar a tu ahora digamos hasta 2020 Bueno, entonces no tendramos que cambiarlo aqu
+
+39
+00:02:14,270 --> 00:02:16,720
+en estos dos lugares como lo hicimos antes.
+
+40
+00:02:16,730 --> 00:02:21,530
+Entonces, antes de que quisieras cambiar el ao, tendras que cambiarlo aqu y aqu, y eso es
+
+41
+00:02:21,530 --> 00:02:23,630
+algo que siempre queremos evitar en la programacin.
+
+42
+00:02:23,630 --> 00:02:28,830
+Y as definimos este ao en un solo lugar y luego se usa en estos dos lugares.
+
+43
+00:02:29,090 --> 00:02:29,710
+Bueno.
+
+44
+00:02:29,720 --> 00:02:35,500
+Y en realidad eso tambin declara todas estas variables aqu en la misma lnea como te lo indiqu.
+
+45
+00:02:35,560 --> 00:02:42,700
+Entonces ao, ao marcado y ao terminado.
+
+46
+00:02:43,250 --> 00:02:43,680
+Bueno.
+
+47
+00:02:43,700 --> 00:02:45,470
+Y luego quita estos vars de aqu.
+
+48
+00:02:45,470 --> 00:02:47,410
+As que esto se ve un poco mejor.
+
+49
+00:02:47,840 --> 00:02:49,870
+Entonces ese es solo un operador menos aqu.
+
+50
+00:02:50,120 --> 00:02:54,210
+Pero, por supuesto, podemos hacer todo tipo de matemtica aqu.
+
+51
+00:02:55,010 --> 00:02:59,490
+Entonces, por ejemplo, podemos multiplicaciones.
+
+52
+00:02:59,720 --> 00:03:03,280
+Entonces digamos que queramos agregar dos aos aqu.
+
+53
+00:03:03,420 --> 00:03:05,930
+Y ahora no est definido.
+
+54
+00:03:06,030 --> 00:03:08,820
+As que esto por supuesto no es ahora, pero es ao.
+
+55
+00:03:09,150 --> 00:03:15,000
+Bueno, en realidad esto debera llamarse ahora porque ahora es al ao actual 2018.
+
+56
+00:03:15,330 --> 00:03:22,080
+Entonces, lo que queremos aqu es que lo llamen ahora y tambin aqu y aqu.
+
+57
+00:03:22,140 --> 00:03:22,700
+Todo bien.
+
+58
+00:03:22,840 --> 00:03:28,440
+Entonces, echemos un vistazo a lo que sucede entonces y de hecho parece 20:20 a la consola,
+
+59
+00:03:28,470 --> 00:03:30,930
+que es 2018 ms 2, por supuesto.
+
+60
+00:03:30,930 --> 00:03:33,110
+Tambin podemos multiplicar.
+
+61
+00:03:33,200 --> 00:03:35,980
+Entonces digamos Ahora veces 2.
+
+62
+00:03:36,590 --> 00:03:40,720
+Y, por supuesto, tambin podemos dividir, por lo que se divide por 10 aqu.
+
+63
+00:03:40,880 --> 00:03:47,390
+Est bien mirando todos los contras. salvaje y, por supuesto, vemos que esto es 2018 veces tambin y
+
+64
+00:03:47,390 --> 00:03:49,190
+esto es 2018 ao dividido por 10.
+
+65
+00:03:49,190 --> 00:03:51,620
+Y as terminamos con es como el nmero decimal aqu.
+
+66
+00:03:51,770 --> 00:03:52,430
+Bueno.
+
+67
+00:03:53,060 --> 00:03:56,930
+Entonces estos son los operadores matemticos que usamos aqu.
+
+68
+00:03:57,260 --> 00:04:04,710
+As que agreguemos un comentario aqu diciendo que s que voy a mostrar algunos operadores lgicos, as que vamos
+
+69
+00:04:04,710 --> 00:04:06,270
+a escribirlo aqu tambin.
+
+70
+00:04:07,950 --> 00:04:13,740
+Entonces, digamos que queremos comparar la edad de Mark y el hecho y averiguar si, por ejemplo,
+
+71
+00:04:13,950 --> 00:04:18,610
+John es mayor que Mark, y as sucesivamente, podemos usar un operador lgico.
+
+72
+00:04:18,630 --> 00:04:23,630
+Entonces, antes que nada, vamos a definir estas edades aqu como diferentes variables.
+
+73
+00:04:24,630 --> 00:04:31,400
+As que John tiene 28 aos y Mark tiene 33 aos.
+
+74
+00:04:31,980 --> 00:04:36,910
+Y por supuesto aqu usamos la edad de John y luego aqu la edad de Mark.
+
+75
+00:04:37,380 --> 00:04:49,460
+As que vamos a crear una nueva variable aqu llamada var Don alder y luego diremos un John mayor
+
+76
+00:04:49,720 --> 00:04:50,660
+que Mark.
+
+77
+00:04:51,140 --> 00:04:51,750
+DE ACUERDO.
+
+78
+00:04:52,010 --> 00:04:59,840
+Y luego, por supuesto, tenemos que enviar un cable al cnsul aqu para ver nuestro resultado.
+
+79
+00:05:00,000 --> 00:05:02,300
+Entonces, echemos un vistazo a lo que sucede ahora.
+
+80
+00:05:02,650 --> 00:05:05,770
+Y vemos que nuestros resultados son este Boullion y es falso.
+
+81
+00:05:05,800 --> 00:05:06,340
+DE ACUERDO.
+
+82
+00:05:06,460 --> 00:05:14,850
+Entonces, lo que esto significa es que John, que tiene 28 aos, es por supuesto menor que H Mark's 33.
+
+83
+00:05:14,890 --> 00:05:20,020
+Y, bsicamente, aqu preguntamos si John es mayor que H Mark.
+
+84
+00:05:20,140 --> 00:05:22,590
+Y el resultado de eso es falso.
+
+85
+00:05:22,660 --> 00:05:26,500
+OK, entonces la variable ms antigua de John resulta ser falsa.
+
+86
+00:05:26,500 --> 00:05:27,960
+Ahora si fuera al revs.
+
+87
+00:05:28,180 --> 00:05:32,000
+Si le preguntamos a HJN menos de una marca.
+
+88
+00:05:32,140 --> 00:05:34,930
+Bueno, entonces debera ser al revs.
+
+89
+00:05:34,930 --> 00:05:42,600
+Y as que s, de hecho ahora es cierto nuevamente porque la edad Mark es 33, que es ms de 28.
+
+90
+00:05:42,650 --> 00:05:48,790
+Y entonces tenemos una forma de crear bsicamente una variable booleana utilizando uno de los operadores lgicos que acabo
+
+91
+00:05:49,060 --> 00:05:51,360
+de mostrarte y hay muchos ms muertos.
+
+92
+00:05:51,370 --> 00:05:53,420
+Vamos a explorar un poco ms adelante en el curso.
+
+93
+00:05:53,470 --> 00:05:59,520
+Y en realidad en esta seccin en un par de reas, los operadores matemticos aqu son bastante sencillos.
+
+94
+00:05:59,710 --> 00:06:05,260
+Los operadores lgicos de Dandy que tambin son muy importantes, como ver ms adelante durante el curso
+
+95
+00:06:05,260 --> 00:06:09,190
+y luego, antes de irnos, tambin quiero mostrarle el tipo de operador
+
+96
+00:06:11,730 --> 00:06:15,570
+OPERATOR OK y este operador es un poco diferente que los otros.
+
+97
+00:06:15,780 --> 00:06:22,380
+Entonces, los que se usaron hasta este punto siempre requieren dos cosas para comparar o agregar
+
+98
+00:06:22,410 --> 00:06:23,310
+o multiplicar.
+
+99
+00:06:23,370 --> 00:06:29,810
+Entonces ahora los tiempos 2 o ahora divididos entre 10 u 8 no duran 10 marcas H.
+
+100
+00:06:29,940 --> 00:06:35,280
+Entonces siempre tuvimos dos operandos pero con el tipo de OPERADOR Solo tenemos uno.
+
+101
+00:06:35,280 --> 00:06:36,370
+Djame mostrrtelo.
+
+102
+00:06:36,640 --> 00:06:38,600
+Y entonces miremos a la consola.
+
+103
+00:06:38,730 --> 00:06:46,640
+El resultado de usar el tipo de operador en, digamos, la variable anterior OK.
+
+104
+00:06:46,720 --> 00:06:51,120
+Y bsicamente, lo que esto har es decirnos el tipo de esta variable.
+
+105
+00:06:51,130 --> 00:06:57,220
+Y as que de hecho conseguimos Boullion y eso es porque obviamente esta es una variable booleana.
+
+106
+00:06:57,250 --> 00:07:00,020
+As que vimos una lgrima, ya que volvi a ser cierto.
+
+107
+00:07:00,150 --> 00:07:06,150
+Y como aprendi en una de las ltimas letras, un valor verdadero o falso es siempre un derecho booleano.
+
+108
+00:07:06,160 --> 00:07:08,570
+Recuerda eso.
+
+109
+00:07:08,590 --> 00:07:10,110
+Entonces, probemos.
+
+110
+00:07:10,150 --> 00:07:12,160
+Tuvimos algunas otras cosas aqu.
+
+111
+00:07:12,850 --> 00:07:17,690
+As que un tipo de digamos que ha hecho y este debera ser un nmero.
+
+112
+00:07:17,980 --> 00:07:26,060
+Y de hecho, es en realidad que ahora est en todo menos en una cadena.
+
+113
+00:07:26,300 --> 00:07:27,510
+Y no tenemos ninguno aqu.
+
+114
+00:07:27,660 --> 00:07:30,050
+As que vamos a escribirlo nosotros mismos.
+
+115
+00:07:30,050 --> 00:07:32,940
+Marcus mayor que John, por ejemplo.
+
+116
+00:07:33,260 --> 00:07:36,550
+Y tambin probemos algo ms.
+
+117
+00:07:36,620 --> 00:07:40,480
+Entonces, declaremos una variable aleatoria aqu y no la definamos.
+
+118
+00:07:40,670 --> 00:07:44,340
+Y luego echemos un vistazo al tipo de consola de esto.
+
+119
+00:07:44,390 --> 00:07:47,560
+Entonces, qu esperas que sea ese tipo de x?
+
+120
+00:07:48,490 --> 00:07:49,540
+Entonces probemos.
+
+121
+00:07:49,780 --> 00:07:53,310
+Y espero que sepas que ser desafiante.
+
+122
+00:07:53,740 --> 00:07:54,000
+DE ACUERDO.
+
+123
+00:07:54,010 --> 00:08:00,130
+Entonces eso tiene sentido porque de hecho no definimos ningn valor para la variable x.
+
+124
+00:08:00,250 --> 00:08:02,970
+Y el que est delante de usted, por supuesto, es cadena.
+
+125
+00:08:03,130 --> 00:08:08,350
+As que esto puede no parecerle un gran problema aqu en este operador, pero en realidad ver
+
+126
+00:08:08,350 --> 00:08:12,800
+que lo usaremos este ao en el futuro y tambin ms adelante en esta seccin.
+
+127
+00:08:13,090 --> 00:08:13,700
+DE ACUERDO.
+
+128
+00:08:13,720 --> 00:08:19,770
+As que estos son los conceptos bsicos de los operadores de JavaScript, sin embargo, Leichter seguiremos trabajando con los operadores.
+
+129
+00:08:19,780 --> 00:08:22,720
+Vamos a mostrarte un poco ms, digamos cosas avanzadas.
+
+130
+00:08:22,840 --> 00:08:25,500
+As que no esperes y ven conmigo al prximo video.
+

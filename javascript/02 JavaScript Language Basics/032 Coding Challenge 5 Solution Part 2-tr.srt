@@ -1,0 +1,844 @@
+1
+00:00:01,240 --> 00:00:03,540
+Anlatc: Ve sonunda, ite zmmn
+
+2
+00:00:03,540 --> 00:00:04,790
+ikinci ksm.
+
+3
+00:00:04,790 --> 00:00:07,630
+Ve bu byk calcTips yntemini ieren
+
+4
+00:00:07,630 --> 00:00:10,990
+John nesnesini oluturduktan sonra kaldk, tamam m?
+
+5
+00:00:10,990 --> 00:00:13,930
+imdi Mark iin, bu her ey ok
+
+6
+00:00:13,930 --> 00:00:15,305
+benzer olacak ve Ve sonra
+
+7
+00:00:15,305 --> 00:00:17,880
+ben de bu objeye gidip kopyalayacam. baz deiiklikler yapn. Tabii ki, isim John deil,
+
+8
+00:00:19,190 --> 00:00:21,283
+Mark ve Mark Miller.
+
+9
+00:00:22,490 --> 00:00:25,770
+O zaman bu 77 $, 475 dolar, tamam m?
+
+10
+00:00:25,770 --> 00:00:28,250
+Ve 110 ve son olarak, 45.
+
+11
+00:00:28,250 --> 00:00:33,250
+Bylece sadece drt restorana gitti.
+
+12
+00:00:34,306 --> 00:00:38,190
+Sonra burada, CalcTips'te, deitirmemiz gereken her
+
+13
+00:00:38,190 --> 00:00:41,180
+ey bu devrilme kurallar
+
+14
+00:00:41,180 --> 00:00:43,000
+gibi, tamam m?
+
+15
+00:00:43,000 --> 00:00:45,110
+yleyse Mark'n bunu nasl yaptn grelim.
+
+16
+00:00:45,110 --> 00:00:47,500
+Bu yzden, fatura 100 $
+
+17
+00:00:47,500 --> 00:00:50,620
+'dan az olduunda% 20, 100 ve 300
+
+18
+00:00:50,620 --> 00:00:54,730
+arasndaysa% 10 ve 300'den fazla ise 25 deerini atmay sevdi.
+
+19
+00:00:54,730 --> 00:00:57,317
+Bunu kodumuza evirelim.
+
+20
+00:00:57,317 --> 00:00:59,923
+Yani burada 100, 100'den az,%
+
+21
+00:01:00,980 --> 00:01:03,070
+20 veya 100'den az.
+
+22
+00:01:03,070 --> 00:01:07,140
+Tamam?
+
+23
+00:01:07,140 --> 00:01:08,840
+Daha sonra 100 ile 300
+
+24
+00:01:08,840 --> 00:01:09,673
+arasndaysa, bir ipucu
+
+25
+00:01:09,673 --> 00:01:13,770
+olarak% 10 verir ve eer 300'den daha bykse, o zaman 25 verir.
+
+26
+00:01:13,770 --> 00:01:18,770
+Muhtemelen ok ssl bir restoranda olduu iin daha fazla
+
+27
+00:01:19,290 --> 00:01:20,940
+ipucu vermesi gerekiyor.
+
+28
+00:01:20,940 --> 00:01:23,370
+(glyor) Byle
+
+29
+00:01:23,370 --> 00:01:25,531
+bir ey.
+
+30
+00:01:25,531 --> 00:01:26,364
+Tamam, bu Mark nesnesi ve zaten bitti.
+
+31
+00:01:26,364 --> 00:01:27,197
+Bu yzden
+
+32
+00:01:27,197 --> 00:01:32,083
+burada Mark iin hesaplamay yapalm ve daha sonra hem John hem de Mark' konsola kaydedelim.
+
+33
+00:01:33,020 --> 00:01:38,020
+O zaman bir kontrol edelim.
+
+34
+00:01:38,480 --> 00:01:41,543
+Gerekten, burada bizim ipularmz ve son deerlerimiz var, tamam m?
+
+35
+00:01:43,440 --> 00:01:45,880
+Yani bu ie yarad.
+
+36
+00:01:45,880 --> 00:01:50,250
+Zaten imdi Mark ve John iin tamamen uygulanan
+
+37
+00:01:50,250 --> 00:01:51,330
+devrilme var.
+
+38
+00:01:51,330 --> 00:01:54,930
+imdi bir sonraki admn ne olduuna bir gz atalm
+
+39
+00:01:54,930 --> 00:01:57,540
+ve verilen bir ipucu dizisinin ortalamasn hesaplamak
+
+40
+00:01:57,540 --> 00:02:00,800
+iin bir fonksiyon yaratmak ve tabii ki, bu
+
+41
+00:02:00,800 --> 00:02:04,230
+hesap makinesini kullanarak her bir aile iin ortalamay hesaplamak.
+
+42
+00:02:04,230 --> 00:02:06,470
+Son olarak, en yksek ipularn
+
+43
+00:02:06,470 --> 00:02:09,940
+ortalama olarak deyen ailelerin konsoluna giri yapabiliriz.
+
+44
+00:02:09,940 --> 00:02:11,610
+Peki?
+
+45
+00:02:11,610 --> 00:02:15,220
+O zaman bir fonksiyon yaratalm ve bu nesneden sonra
+
+46
+00:02:15,220 --> 00:02:16,053
+burada yapacam.
+
+47
+00:02:16,053 --> 00:02:17,230
+Yani, calcAverage ilevi.
+
+48
+00:02:17,230 --> 00:02:20,120
+Bir ipucu dizisi alacak tamam m?
+
+49
+00:02:20,120 --> 00:02:22,493
+imdi sana bir ipucu olarak sylediimi yapacam.
+
+50
+00:02:25,920 --> 00:02:29,440
+Bu yzden sfr olarak balayacak olan toplam
+
+51
+00:02:29,440 --> 00:02:32,910
+adnda bir deikenle balayacam, tamam m?
+
+52
+00:02:32,910 --> 00:02:36,530
+Yani balangta, elbette, ya da toplam, sfrdr.
+
+53
+00:02:36,530 --> 00:02:38,650
+imdi yapmak zorunda olduumuz
+
+54
+00:02:38,650 --> 00:02:42,100
+ey, ipularnn zerinden gemektir ve daha sonra
+
+55
+00:02:42,100 --> 00:02:45,500
+her bir yinelemede, mevcut eyi toplama eklemektir.
+
+56
+00:02:45,500 --> 00:02:46,880
+Bunu uygulayalm.
+
+57
+00:02:46,880 --> 00:02:49,343
+Yani nce ve bir kez
+
+58
+00:02:50,360 --> 00:02:51,900
+daha sfrda I Ve
+
+59
+00:02:51,900 --> 00:02:55,630
+denilen bir deikenle balarz, ben uzunluun ularndan daha azyla. sonra biz artyoruz. Yani bu olduka standart.
+
+60
+00:02:55,630 --> 00:02:58,700
+Gryorsunuz, bu noktada, temelde
+
+61
+00:02:58,700 --> 00:03:03,310
+her zaman ayn, deil mi?
+
+62
+00:03:05,330 --> 00:03:06,820
+imdi, yaptmz ey, toplamn geerli toplama,
+
+63
+00:03:06,820 --> 00:03:08,070
+ayrca ipularna ve mevcut konumunuza
+
+64
+00:03:08,070 --> 00:03:09,010
+eit olmas gerektiini sylyoruz.
+
+65
+00:03:09,010 --> 00:03:11,920
+Tamam?
+
+66
+00:03:11,920 --> 00:03:15,690
+Mantkl olmak?
+
+67
+00:03:15,690 --> 00:03:19,210
+yleyse, iki, alt
+
+68
+00:03:19,210 --> 00:03:22,923
+ve drde dizildiini syleyelim.
+
+69
+00:03:24,230 --> 00:03:25,063
+Peki?
+
+70
+00:03:25,063 --> 00:03:25,896
+Yani balangta toplammz
+
+71
+00:03:25,896 --> 00:03:27,370
+sfr olacak ve sonra dngye gireceiz.
+
+72
+00:03:27,370 --> 00:03:31,150
+Bu noktada, toplamn sfr olduunu, art iki ve sfr
+
+73
+00:03:31,150 --> 00:03:31,983
+sfr art
+
+74
+00:03:31,983 --> 00:03:34,360
+iki olan geerli enin var.
+
+75
+00:03:34,360 --> 00:03:36,400
+Yani yeni toplam iki olacak.
+
+76
+00:03:36,400 --> 00:03:39,080
+yleyse buraya yazalm.
+
+77
+00:03:39,080 --> 00:03:40,550
+Elbette sfr ile balyoruz.
+
+78
+00:03:40,550 --> 00:03:44,050
+Bundan sonra, iki tane var, yani bir sonraki
+
+79
+00:03:44,050 --> 00:03:46,520
+iterasyon, burada toplamda iki tane var,
+
+80
+00:03:46,520 --> 00:03:49,120
+sonra da dngnn mevcut elementi alt.
+
+81
+00:03:49,120 --> 00:03:51,380
+Yani buradaki bu, deil mi?
+
+82
+00:03:51,380 --> 00:03:54,780
+Yani alt art iki, sonra sekiz, tamam m?
+
+83
+00:03:54,780 --> 00:03:57,820
+Bu deikenlerin toplam sekiz, tamam m?
+
+84
+00:03:57,820 --> 00:03:59,190
+Daha sonra, bir sonraki
+
+85
+00:03:59,190 --> 00:04:00,580
+yineleme toplam sekiz ve
+
+86
+00:04:00,580 --> 00:04:04,290
+sekiz art drtl olan dizinin o andaki esi en sonunda 12 olacaktr.
+
+87
+00:04:04,290 --> 00:04:07,990
+Tamam?
+
+88
+00:04:07,990 --> 00:04:10,840
+Bu kadar.
+
+89
+00:04:10,840 --> 00:04:13,070
+Tm dizi boyunca gittik ve tm bu
+
+90
+00:04:13,070 --> 00:04:15,433
+unsurlar birlikte dzenledik ve sonunda, bu  bir
+
+91
+00:04:16,630 --> 00:04:17,670
+araya getirmenin sonucu
+
+92
+00:04:17,670 --> 00:04:18,700
+olan 12 ile bittik.
+
+93
+00:04:18,700 --> 00:04:21,130
+Tamam?
+
+94
+00:04:21,130 --> 00:04:22,870
+Bu, bu ilevin nasl
+
+95
+00:04:22,870 --> 00:04:25,910
+altn gstermek iin sadece bir rnektir.
+
+96
+00:04:25,910 --> 00:04:28,420
+Tamam, sonunda, tek yapmamz gereken, toplam dizideki
+
+97
+00:04:28,420 --> 00:04:29,720
+eler tarafndan blnmesidir.
+
+98
+00:04:29,720 --> 00:04:31,820
+Yani ipular. uzunluu.
+
+99
+00:04:31,820 --> 00:04:33,443
+Tamam?
+
+100
+00:04:35,850 --> 00:04:38,521
+rnein, daha nce sahip
+
+101
+00:04:38,521 --> 00:04:43,330
+olduumuz dizide,  e ve ipular vard. uzunluk  olur.
+
+102
+00:04:43,330 --> 00:04:45,213
+Ortalama, daha sonra drt olacak
+
+103
+00:04:46,310 --> 00:04:47,143
+ekilde e bl 12 olacakt.
+
+104
+00:04:47,143 --> 00:04:49,060
+Tamam?
+
+105
+00:04:49,060 --> 00:04:53,120
+Yani, bu ortalamalar nasl hesaplarsnz.
+
+106
+00:04:53,120 --> 00:04:55,710
+Artk nesnelerimiz var, calcAverage fonksiyonumuz var ve
+
+107
+00:04:55,710 --> 00:04:57,330
+imdi tm hesaplamalar yapalm.
+
+108
+00:04:57,330 --> 00:04:58,163
+Buradaki ipularn
+
+109
+00:04:58,163 --> 00:05:00,068
+zaten hesapladk, sonra onlar doru olduklarndan
+
+110
+00:05:00,068 --> 00:05:03,855
+emin olmak iin konsoldan giri yaptk, sonra da ortalamay da hesaplayabiliriz.
+
+111
+00:05:03,855 --> 00:05:05,955
+Burada yapacamz ey, aslnda ortalamay
+
+112
+00:05:08,350 --> 00:05:10,320
+hesaplamak ve daha sonra onlar
+
+113
+00:05:10,320 --> 00:05:12,660
+nesnenin iinde saklamak, tamam m?
+
+114
+00:05:12,660 --> 00:05:16,744
+John diyeceim. John kullanarak calcAverage
+
+115
+00:05:16,744 --> 00:05:19,120
+ortalamasdr. ipular, tamam m?
+
+116
+00:05:19,120 --> 00:05:21,430
+Ve neden John. ipucu?
+
+117
+00:05:21,430 --> 00:05:23,860
+Eh, nk bu tm ipularnn
+
+118
+00:05:23,860 --> 00:05:28,703
+sakland dizidir, deil mi?
+
+119
+00:05:30,280 --> 00:05:33,810
+Yani burada tanmladmz dizi budur.
+
+120
+00:05:33,810 --> 00:05:35,500
+Yani bu nokta ipular, tamam m?
+
+121
+00:05:35,500 --> 00:05:38,460
+Bu yzden bunu calcAverage fonksiyonuna yatarz,
+
+122
+00:05:38,460 --> 00:05:40,330
+bu da ortalamay dndrr
+
+123
+00:05:40,330 --> 00:05:43,430
+ve bunu John nesnesindeki ortalama zellie kaydederiz.
+
+124
+00:05:43,430 --> 00:05:45,855
+imdi sorabilirsin, neden bu calcAverage'
+
+125
+00:05:45,855 --> 00:05:48,780
+her bir nesneye bir yntem olarak eklemedik?
+
+126
+00:05:48,780 --> 00:05:51,080
+Eh, biz bunu yapmadk nk
+
+127
+00:05:51,080 --> 00:05:54,090
+bu kod tekrarlanacakt, bu yzden her
+
+128
+00:05:54,090 --> 00:05:56,480
+ikisinde de ayn kodu almalyz.
+
+129
+00:05:56,480 --> 00:06:00,110
+Temel olarak ayn kodla kendimizi tekrarlyoruz ve bu
+
+130
+00:06:00,110 --> 00:06:01,970
+iyi deil, tamam m?
+
+131
+00:06:01,970 --> 00:06:05,800
+yleyse, bu ilev olarak, onu darda brakmak en iyisidir, sonra onu
+
+132
+00:06:05,800 --> 00:06:07,449
+dardan hesaplayn ve sonra sadece
+
+133
+00:06:07,449 --> 00:06:09,405
+temelde her bir nesneye ekleyin.
+
+134
+00:06:09,405 --> 00:06:12,950
+Bunu John'la yapyoruz ve sonra
+
+135
+00:06:12,950 --> 00:06:15,180
+Mark ile yapacaz.
+
+136
+00:06:15,180 --> 00:06:17,706
+Pekala, hadi bu konsol gnln
+
+137
+00:06:17,706 --> 00:06:22,040
+bundan sonra yapalm, bylece yeni eklenen ortalamalar da
+
+138
+00:06:22,040 --> 00:06:23,480
+grebiliriz, tamam m?
+
+139
+00:06:23,480 --> 00:06:26,460
+imdi bunu deneyelim ve bekle, nerede o?
+
+140
+00:06:26,460 --> 00:06:29,320
+te!
+
+141
+00:06:29,320 --> 00:06:31,220
+te balyoruz.
+
+142
+00:06:31,220 --> 00:06:33,710
+te n ortalamas
+
+143
+00:06:33,710 --> 00:06:38,050
+ya da aslnda drt denen ipucu.
+
+144
+00:06:38,050 --> 00:06:38,883
+Burada bu deerlere sahibiz ve bunlarn ortalamas 18'dir.
+
+145
+00:06:38,883 --> 00:06:39,716
+Mark sz
+
+146
+00:06:39,716 --> 00:06:40,885
+konusu olduunda, bunlar
+
+147
+00:06:40,885 --> 00:06:43,540
+drt ipucu ve bunun ortalamas 38,
+
+148
+00:06:43,540 --> 00:06:47,283
+ki bu da bu byk ipucu nedeniyle 118 dolar.
+
+149
+00:06:48,920 --> 00:06:52,490
+Peki.
+
+150
+00:06:52,490 --> 00:06:54,720
+Bunlar ortalamalar iin hesaplamalar ve imdi tek
+
+151
+00:06:54,720 --> 00:06:56,510
+yapmamz gereken gerekten konsolu yapmak. log.
+
+152
+00:06:56,510 --> 00:07:01,120
+Yani eer John. ortalama, Mark'tan daha byktr. ortalama o zaman syleyebiliriz,
+
+153
+00:07:01,120 --> 00:07:01,953
+konsol. Tabii ki gnln, John. Alntdan
+
+154
+00:07:02,830 --> 00:07:05,490
+kamak iin FullName, imdi ka.
+
+155
+00:07:05,490 --> 00:07:09,823
+John'un ailesi, ortalama ve imdi ortalama ipucu
+
+156
+00:07:11,920 --> 00:07:16,920
+ile daha yksek ipucu der.
+
+157
+00:07:21,890 --> 00:07:26,890
+(tklanyor)
+
+158
+00:07:30,980 --> 00:07:34,280
+Tamam. Mark ortalama John'dan
+
+159
+00:07:34,280 --> 00:07:39,280
+Eer baka bir yol varsa, sadece kopyalayalm. burada, Mark. daha byktr. ortalama, o zaman, elbette,
+
+160
+00:07:43,820 --> 00:07:46,200
+dier yoldan.
+
+161
+00:07:46,200 --> 00:07:48,450
+aretle ve burada da iaretle.
+
+162
+00:07:50,780 --> 00:07:51,613
+Peki.
+
+163
+00:07:51,613 --> 00:07:54,460
+Bu bizim nihai sonucumuz olmal ve Mark Miller'n
+
+164
+00:07:58,370 --> 00:08:02,488
+ailesi ortalama 38 $ ile daha
+
+165
+00:08:02,488 --> 00:08:05,030
+yksek ipucu dyor.
+
+166
+00:08:05,030 --> 00:08:07,503
+Tamam?
+
+167
+00:08:10,652 --> 00:08:13,740
+Sadece bunu test etmek iin, bunu 110'dan, ya da aslnda,
+
+168
+00:08:13,740 --> 00:08:14,730
+buradaki burada azaltalm.
+
+169
+00:08:14,730 --> 00:08:17,990
+475'ten be dolara ykselelim.
+
+170
+00:08:17,990 --> 00:08:19,970
+Yani ortalama o zaman azalmal ve
+
+171
+00:08:19,970 --> 00:08:22,900
+bylece evet, imdi John Smith ailesi, 18 puanla daha
+
+172
+00:08:22,900 --> 00:08:23,733
+yksek ipularn der.
+
+173
+00:08:23,733 --> 00:08:26,270
+Peki.
+
+174
+00:08:26,270 --> 00:08:29,240
+Bu, daha byk ve belki biraz daha
+
+175
+00:08:29,240 --> 00:08:32,823
+zor ve kafa kartrc bir soruna zmdr, ancak
+
+176
+00:08:33,870 --> 00:08:36,600
+umarm bunu beenmisinizdir ve en azndan
+
+177
+00:08:36,600 --> 00:08:39,020
+bunun bir paras olabileceinizi umuyorum.
+
+178
+00:08:39,020 --> 00:08:40,360
+Anlamadm, tamam m?
+
+179
+00:08:40,360 --> 00:08:41,390
+Yani bu yine sorun deil.
+
+180
+00:08:41,390 --> 00:08:44,400
+Bu konuda kt hissetmemelisin.
+
+181
+00:08:44,400 --> 00:08:47,900
+En nemli yan, burada denemeniz ve zorluu zmek
+
+182
+00:08:47,900 --> 00:08:49,300
+iin zaman ayrmanzdr.
+
+183
+00:08:49,300 --> 00:08:51,700
+Bu noktada nemli olan gerekten bu.
+
+184
+00:08:51,700 --> 00:08:54,300
+Burada ciddiyim tamam m?
+
+185
+00:08:54,300 --> 00:08:56,170
+Bu gerekten en nemli olan ey.
+
+186
+00:08:56,170 --> 00:08:57,540
+Her neyse, imdi
+
+187
+00:08:57,540 --> 00:08:59,740
+ilk JavaScript giriiyle iiniz bitti.
+
+188
+00:08:59,740 --> 00:09:02,820
+Bunu kurs iin imdiye kadar
+
+189
+00:09:02,820 --> 00:09:05,270
+yaptnz iin tebrik ederim.
+
+190
+00:09:05,270 --> 00:09:07,020
+Bu zaten ok byk bir baar.
+
+191
+00:09:07,020 --> 00:09:09,820
+imdi, baz JavaScript kurslar bu noktada
+
+192
+00:09:09,820 --> 00:09:12,140
+durur ve kendi banza JavaScript
+
+193
+00:09:12,140 --> 00:09:14,070
+yazacak kadar bilginiz olduunu dnrsnz.
+
+194
+00:09:14,070 --> 00:09:16,100
+Ama tabi ki gereklerden ok uzak.
+
+195
+00:09:16,100 --> 00:09:16,940
+imdi beni yanl
+
+196
+00:09:16,940 --> 00:09:19,290
+anlamayn, imdiye kadar ok ey rendiniz tamam m?
+
+197
+00:09:19,290 --> 00:09:21,730
+Ama biz gerekten yeni balyoruz,
+
+198
+00:09:21,730 --> 00:09:23,740
+sonraki blmlerin hepsinde bir
+
+199
+00:09:23,740 --> 00:09:25,350
+sr harika ierik geliyor.
+
+200
+00:09:25,350 --> 00:09:28,340
+Bu blmde, aslnda sadece JavaScript srmleri olan bir
+
+201
+00:09:28,340 --> 00:09:29,240
+video daha var,
+
+202
+00:09:29,240 --> 00:09:31,744
+o yzden bunu karmamaya dikkat edin, nk
+
+203
+00:09:31,744 --> 00:09:33,880
+bu tr eyleri bilmek de nemlidir.
+
+204
+00:09:33,880 --> 00:09:35,990
+Kodlama ile ilgili deil, ama hala nemli, tamam m?
+
+205
+00:09:35,990 --> 00:09:38,340
+Bu yzden u anda buna bir gz attnz umuyorum.
+
+206
+00:09:38,340 --> 00:09:40,220
+&nbsp;
+
+207
+00:09:40,220 --> 00:09:43,330
+&nbsp;
+
+208
+00:09:43,330 --> 00:09:45,770
+&nbsp;
+
+209
+00:09:45,770 --> 00:09:48,070
+&nbsp;
+
+210
+00:09:48,070 --> 00:09:50,630
+&nbsp;
+
+211
+00:09:50,630 --> 00:09:53,343
+&nbsp;
+

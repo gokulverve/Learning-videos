@@ -1,0 +1,268 @@
+1
+00:00:01,450 --> 00:00:04,090
+Yani zaten bir satr veya iki Javascript alnt.
+
+2
+00:00:04,240 --> 00:00:07,180
+Ama aslnda tam olarak javascript nedir.
+
+3
+00:00:07,180 --> 00:00:09,600
+te bu videoda bakacamz ey bu.
+
+4
+00:00:09,730 --> 00:00:13,190
+Ve bylece bu derste, kursun geri kalan iin sahneyi ayarlayacaz.
+
+5
+00:00:13,360 --> 00:00:16,160
+Ve bu yzden sonuna kadar bunu takip etmeniz ok nemli.
+
+6
+00:00:16,270 --> 00:00:16,830
+Tamam.
+
+7
+00:00:17,870 --> 00:00:24,640
+Dallas'ta bitirmek iin hafif apraz platformlu nesne tabanl bir bilgisayar programlama dili.
+
+8
+00:00:24,650 --> 00:00:26,800
+imdi bu biraz fazla doru geliyor.
+
+9
+00:00:26,960 --> 00:00:27,710
+Ama endielenme.
+
+10
+00:00:27,770 --> 00:00:29,680
+Kulaa ho gelenlerden daha basit.
+
+11
+00:00:29,990 --> 00:00:35,260
+Bu nedenle, hafiflik, bilgisayarn ok fazla bellek tketmedii ve nispeten basit bir szdizimine
+
+12
+00:00:35,260 --> 00:00:37,870
+ve zelliklere sahip olduu anlamna gelir.
+
+13
+00:00:38,210 --> 00:00:43,370
+apraz platform, dilin sadece web gelitirme iin deil, birden ok platformda ve sistemde kullanlabilecei
+
+14
+00:00:43,370 --> 00:00:44,180
+anlamna gelir.
+
+15
+00:00:44,330 --> 00:00:50,210
+Sonunda nesne ynelimi, nesnelere dayanan l dilin l anlamna gelir ve biz de
+
+16
+00:00:50,210 --> 00:00:52,200
+tm bunlar kurs boyunca kefedeceiz.
+
+17
+00:00:52,490 --> 00:00:58,310
+imdi, HCM El NTSA ile birlikte bildiiniz gibi, JavaScript'in  temel
+
+18
+00:00:58,400 --> 00:01:04,880
+teknolojiden biri olduunu ve bununla ilgili olarak u ana kadar hangi geliimin atlandn
+
+19
+00:01:04,940 --> 00:01:10,190
+geleneksel olarak sadece tarayc ortamnda kullanyoruz. Bir istemci taraf dili.
+
+20
+00:01:10,340 --> 00:01:16,700
+Ancak daha yeni bir teknoloji sayesinde yeni bir teknoloji sayesinde gelitiriciler artk javascript'i
+
+21
+00:01:16,700 --> 00:01:22,670
+sunucu tarafnda da kullanabiliyorlar ama kendisi iin byk bir konudur ve bu
+
+22
+00:01:22,850 --> 00:01:23,950
+derste bunu kapsamayacaz.
+
+23
+00:01:24,020 --> 00:01:28,910
+Balangta bahsettiim gibi, bu ders dilin iini ve daha geleneksel bir ekilde
+
+24
+00:01:28,910 --> 00:01:31,140
+bir taraycda nasl kullanacan kapsamaktadr.
+
+25
+00:01:31,300 --> 00:01:36,590
+Tamam yleyse javascript, modern web gelitirmeyi mmkn klan eydir.
+
+26
+00:01:36,620 --> 00:01:42,170
+Sadece daha basit web sitelerine dinamik efektler ve etkileimler eklememize izin veriyor, ayn
+
+27
+00:01:42,170 --> 00:01:48,050
+zamanda etkileimde bulunabileceimiz karmak modern web uygulamalar gelitirmemize izin veriyor ve neredeyse her
+
+28
+00:01:48,050 --> 00:01:51,880
+gn bilgisayarlarmz ve telefonlarmz kullanabileceimiz uygulamalar gibi hissediyorum. .
+
+29
+00:01:51,980 --> 00:01:57,320
+imdi burada bahsetmek istediim baka bir ey de, gnmzde farkl mimarileri uygulayan ve
+
+30
+00:01:57,340 --> 00:02:02,420
+gelitiricilerin karmak uygulamalar her zamankinden daha kolay ve hzl bir ekilde gelitirmelerine
+
+31
+00:02:02,420 --> 00:02:05,840
+yardmc olan ktphanelerde ve erevelerde ok sayda i var.
+
+32
+00:02:06,120 --> 00:02:12,350
+Bu yzden son derece popler olan tepki veya asal ya da J Querrey gibi eylerden bahsediyorum ve
+
+33
+00:02:12,350 --> 00:02:14,120
+eminim ki onlar zaten duymusunuzdur.
+
+34
+00:02:14,120 --> 00:02:20,260
+u anki ey, yzde 100'nn javascript temelli ve dolaysyla bunlar kullanmadan nce.
+
+35
+00:02:20,330 --> 00:02:23,600
+Gelitiriciler aslnda javascript'te gerekten iyi olmal.
+
+36
+00:02:23,600 --> 00:02:27,240
+Dilin kendisini gerekten anlayabilmeleri gerekiyor.
+
+37
+00:02:27,260 --> 00:02:30,440
+Bu tam olarak sylemin size yardm etmek istedii yer.
+
+38
+00:02:31,130 --> 00:02:36,920
+Bu yzden HCM L ile birlikte bahsettim. A. JavaScript olarak Web'in temel teknolojilerinden biridir.
+
+39
+00:02:37,030 --> 00:02:42,770
+Ve bu yzden biraz daha derine gidelim ve javascript'in web gelitirmedeki roln konualm.
+
+40
+00:02:42,770 --> 00:02:49,130
+Bu yzden HCM LCS es ve Javascript birlikte gzel etkileimli ve dinamik web siteleri veya web uygulamalar
+
+41
+00:02:49,220 --> 00:02:50,890
+oluturmak iin birlikte alr.
+
+42
+00:02:50,930 --> 00:02:56,870
+imdi HMO sayfa metin ieriinden sorumludur, resimlerin dmeler ve bir web sayfasnda
+
+43
+00:02:56,870 --> 00:03:00,590
+grdnz tm ierik her zaman HMO'da yazlr.
+
+44
+00:03:00,650 --> 00:03:04,780
+DENNS Evet tabi ki bu ieriin sunumundan sorumludur.
+
+45
+00:03:04,970 --> 00:03:10,730
+Temel olarak, stil ve web sayfasndaki eleri yerletirmek iin ve son olarak
+
+46
+00:03:10,820 --> 00:03:16,310
+javascript, gelitiricilerin ieriin veya C S S'nin etkileimli efekt maniplasyonu ve
+
+47
+00:03:16,310 --> 00:03:22,000
+ok daha fazlas gibi grntye dinamik eklemelerine izin veren gerek programlama dilidir.
+
+48
+00:03:22,040 --> 00:03:24,830
+Yani yine H. M. ierikten sorumludur.
+
+49
+00:03:24,970 --> 00:03:25,190
+Evet.
+
+50
+00:03:25,190 --> 00:03:32,360
+Web sitelerine gerek programlama yeteneklerini eklemek iin sunum ve Javascript gelince.
+
+51
+00:03:32,390 --> 00:03:37,730
+Her teknolojinin roln kolayca grselletirmenin bir baka yolu da, bunlar ismin hedefleri ve daha da
+
+52
+00:03:37,850 --> 00:03:38,910
+kts haline getirmektir.
+
+53
+00:03:39,200 --> 00:03:46,310
+yleyse bu gibi dnce deneylerinde, transeksel isimler bir p elemannn bir paragraf olduunu sylemeyi sever.
+
+54
+00:03:46,400 --> 00:03:49,080
+Yani paragraf burada isim evet.
+
+55
+00:03:49,130 --> 00:03:56,240
+S-10'un amac, nk paragraf metninin krmz olduunu syleyen ad ve
+
+56
+00:03:56,300 --> 00:03:57,450
+nesneyi tanmlamaktr.
+
+57
+00:03:57,590 --> 00:04:02,240
+Sonunda Javascript paragraf saklamak gibi bir fiildir.
+
+58
+00:04:02,240 --> 00:04:03,960
+Ve burada bir eyler yapyoruz.
+
+59
+00:04:04,070 --> 00:04:05,360
+Ve bylece bir fiilimiz var.
+
+60
+00:04:05,600 --> 00:04:06,060
+TAMAM.
+
+61
+00:04:06,110 --> 00:04:07,310
+Bu mantkl m.
+
+62
+00:04:07,310 --> 00:04:12,780
+Ve bu yzden web gelitirmede javascript'in rol ve sadece bitirmeden nce deil.
+
+63
+00:04:12,950 --> 00:04:17,270
+Dilin dolarlarnn farkl srmleri olduunu hemen belirtmek isterim ama u
+
+64
+00:04:17,270 --> 00:04:21,370
+anda buna gitmeyeceim ve bunun yerine blmn sonuna geleceim.
+
+65
+00:04:21,440 --> 00:04:24,960
+Tamam, imdilik sadece kodlamay mmkn olduunca hzl balatman istiyorum.
+
+66
+00:04:25,040 --> 00:04:28,730
+Ve bylece sonraki birka derste S-5 adnda bir versiyon kullanacaz.
+
+67
+00:04:28,850 --> 00:04:32,990
+Ancak yine bu blmn sonunda, bununla ilgili ok nemli bir video var.
+

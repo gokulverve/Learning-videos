@@ -1,0 +1,856 @@
+1
+00:00:01,110 --> 00:00:06,000
+En este video, aprender sobre el concepto fundamental de variables.
+
+2
+00:00:06,240 --> 00:00:10,940
+Entonces, las variables son un concepto fundamental de cada lenguaje de programacin en el mundo.
+
+3
+00:00:11,190 --> 00:00:13,530
+Pero lo que realmente es una variable.
+
+4
+00:00:13,740 --> 00:00:19,680
+Bueno, podemos decir que una variable es como un contenedor en el que podemos almacenar un valor para usarlo una
+
+5
+00:00:19,770 --> 00:00:21,740
+y otra vez en nuestro cdigo.
+
+6
+00:00:21,930 --> 00:00:25,700
+En lugar de tener que escribir devala cada vez que quiera usarlo.
+
+7
+00:00:25,860 --> 00:00:26,450
+DE ACUERDO.
+
+8
+00:00:26,760 --> 00:00:28,670
+As que vamos a deshacernos de este cdigo aqu.
+
+9
+00:00:29,070 --> 00:00:32,960
+Y entonces djame mostrarte cmo declarar una variable por primera vez.
+
+10
+00:00:33,270 --> 00:00:39,880
+As que tenemos que usar la palabra marquee y danda el nombre de la variable y voy a
+
+11
+00:00:40,100 --> 00:00:46,060
+llamar a este primer nombre, luego igual y luego el valor que queremos asignar a una variable.
+
+12
+00:00:46,130 --> 00:00:50,660
+En este caso, no queremos asignar una cadena de texto llamada John.
+
+13
+00:00:50,990 --> 00:00:51,390
+DE ACUERDO.
+
+14
+00:00:51,430 --> 00:00:54,220
+Y luego de nuevo o un punto y coma en eso.
+
+15
+00:00:54,250 --> 00:00:57,970
+Y as con esto, simplemente declaramos nuestra primera variable.
+
+16
+00:00:57,970 --> 00:01:04,290
+Entonces, el nombre de la variable aqu es primer nombre y el valor que asignamos a esa variable es John.
+
+17
+00:01:04,630 --> 00:01:10,810
+Entonces, puede pensar en esta variable, esta variable de primer nombre, aqu, como una pieza de memoria en su
+
+18
+00:01:11,110 --> 00:01:14,460
+computadora en la que se almacena esta cadena de John aqu.
+
+19
+00:01:14,470 --> 00:01:17,630
+As que uso estas citas aqu para declarar este texto aqu.
+
+20
+00:01:17,650 --> 00:01:18,810
+Entonces la cuerda.
+
+21
+00:01:18,960 --> 00:01:19,520
+DE ACUERDO.
+
+22
+00:01:19,780 --> 00:01:24,790
+Tambin podra usar las comillas dobles como esta, pero creo que es un poco ms moderno
+
+23
+00:01:24,790 --> 00:01:26,340
+simplemente usar estas comillas simples.
+
+24
+00:01:26,350 --> 00:01:26,890
+Todo bien.
+
+25
+00:01:26,890 --> 00:01:28,020
+As que dej en claro un texto.
+
+26
+00:01:28,030 --> 00:01:30,780
+Usualmente usamos solo comillas simples como esta.
+
+27
+00:01:30,900 --> 00:01:31,570
+Todo bien.
+
+28
+00:01:31,720 --> 00:01:36,770
+Entonces a lo largo de la seccin aqu usar variables sobre personas para todos los ejemplos.
+
+29
+00:01:36,820 --> 00:01:41,540
+As que cosas como nombres o trabajos o edad o algo as.
+
+30
+00:01:41,560 --> 00:01:50,030
+As que algo para encontrar personas que vuelvan a hacer un registro de consulado en Oregon a Lucknow es simplemente la
+
+31
+00:01:50,090 --> 00:01:51,580
+primera variable de nombre.
+
+32
+00:01:51,620 --> 00:01:52,660
+Todo bien.
+
+33
+00:01:53,000 --> 00:01:56,010
+Entonces, qu crees que suceder cuando volvamos a cargar o page.
+
+34
+00:01:56,060 --> 00:01:56,820
+No.
+
+35
+00:01:57,170 --> 00:01:58,720
+As que echemos un vistazo a eso.
+
+36
+00:01:58,910 --> 00:02:05,170
+Y, de hecho, ves que John se conect con nuestro cnsul y eso es porque le asignamos a John
+
+37
+00:02:05,390 --> 00:02:10,710
+esta variable y luego Javascript puede recuperar el valor de esta variable que hemos declarado como Job.
+
+38
+00:02:10,910 --> 00:02:15,320
+Y entonces nuestro primer nombre aqu es efectivamente el mismo que John McKay.
+
+39
+00:02:15,450 --> 00:02:16,720
+Entonces eso tiene sentido.
+
+40
+00:02:17,090 --> 00:02:21,560
+As que declara otra y otra vez tenemos que usar var.
+
+41
+00:02:21,780 --> 00:02:24,770
+Y ahora digamos que el apellido es igual.
+
+42
+00:02:24,770 --> 00:02:29,840
+Entonces otra vez uso estas citas y luego digamos que es Smith.
+
+43
+00:02:29,940 --> 00:02:35,460
+As que John Smith, as que ese es el apellido y vamos a declarar otro llamado H.
+
+44
+00:02:35,550 --> 00:02:42,750
+Entonces, digamos que John tiene 28 aos y se ve que ahora ya no es una cadena como la que
+
+45
+00:02:42,750 --> 00:02:45,110
+tenamos aqu, pero ahora es un nmero.
+
+46
+00:02:45,220 --> 00:02:47,870
+Y eso significa que es un tipo de datos diferente.
+
+47
+00:02:47,880 --> 00:02:51,180
+OK, entonces aqu tenemos el texto, pero aqu tenemos los nmeros OK.
+
+48
+00:02:51,210 --> 00:02:56,910
+Y ahora este es un buen momento para hablar sobre diferentes tipos de datos en Javascript.
+
+49
+00:02:56,910 --> 00:03:04,650
+Por lo tanto, en javascript existen 5 tipos de datos diferentes. Number string boolean undefined y null, y hasta ahora ya hemos
+
+50
+00:03:04,650 --> 00:03:06,970
+visto el nmero y la cadena.
+
+51
+00:03:07,080 --> 00:03:13,170
+En este momento, el tipo de datos primitivos solo significa que no es para objetos a diferencia de la mayora de las cosas en Javascript.
+
+52
+00:03:13,170 --> 00:03:17,530
+Por lo tanto, son simples tipos de datos primitivos no objeto.
+
+53
+00:03:17,550 --> 00:03:24,390
+Primero, tenemos nmeros de nuevo y los nmeros de Javascript son siempre nmeros de punto flotante, lo que significa
+
+54
+00:03:24,390 --> 00:03:29,970
+que siempre tienen decimales, incluso si a veces no los vemos o incluso no los definimos.
+
+55
+00:03:29,970 --> 00:03:33,320
+Entonces, por ejemplo, 5 es como tener cinco puntos cero.
+
+56
+00:03:33,320 --> 00:03:33,860
+Todo bien.
+
+57
+00:03:33,990 --> 00:03:38,910
+Y en otros lenguajes de programacin muchas veces no funciona as y tiene diferentes tipos
+
+58
+00:03:38,910 --> 00:03:42,360
+de datos para enteros y decimales pero no en Javascript.
+
+59
+00:03:42,360 --> 00:03:47,010
+As que aqu todos los nmeros son simplemente nmeros flotantes, incluso si parecen enteros.
+
+60
+00:03:47,010 --> 00:03:53,190
+A continuacin, tenemos cadenas que son simplemente una secuencia de caracteres, por lo que solo se utilizan para impuestos como
+
+61
+00:03:53,420 --> 00:03:54,210
+lo hicimos nosotros.
+
+62
+00:03:54,300 --> 00:03:57,700
+Y ejemplo antes con el apellido y el nombre.
+
+63
+00:03:57,720 --> 00:04:03,930
+A continuacin, el tipo de datos booleanos es un tipo de datos lgicos que solo puede tomar uno de los valores lgicos.
+
+64
+00:04:03,930 --> 00:04:05,210
+Verdadero o falso.
+
+65
+00:04:05,430 --> 00:04:09,600
+Entonces, para hacerlo simple, un booleano siempre es verdadero o falso.
+
+66
+00:04:09,600 --> 00:04:10,070
+DE ACUERDO.
+
+67
+00:04:10,260 --> 00:04:12,400
+Y veremos por qu esto es muy importante.
+
+68
+00:04:12,450 --> 00:04:14,470
+En los prximos nctares.
+
+69
+00:04:14,520 --> 00:04:14,980
+Todo bien.
+
+70
+00:04:15,030 --> 00:04:17,660
+Y el siguiente es un poco ms difcil de entender.
+
+71
+00:04:17,670 --> 00:04:23,430
+As que bsicamente no definido es el tipo de datos que se asigna automticamente a una variable que no tiene
+
+72
+00:04:23,550 --> 00:04:27,220
+un valor que suena un poco ms complicado de lo que realmente es.
+
+73
+00:04:27,270 --> 00:04:32,850
+Y no se preocupe, les mostrar eso un poco ms tarde, pero lo que importa ahora
+
+74
+00:04:32,850 --> 00:04:36,260
+es que bsicamente no definido significa que no existe.
+
+75
+00:04:36,300 --> 00:04:37,050
+Todo bien.
+
+76
+00:04:37,290 --> 00:04:43,000
+Y finalmente hay otro tipo de datos que es bastante similar a undefined y no lo es.
+
+77
+00:04:43,110 --> 00:04:45,460
+Entonces ahora tambin significa inexistente.
+
+78
+00:04:45,540 --> 00:04:47,580
+Pero es un poco ms especfico.
+
+79
+00:04:47,610 --> 00:04:50,470
+Y nuevamente tomaremos ms sobre esto tambin ms adelante.
+
+80
+00:04:50,760 --> 00:04:56,220
+Ahora, antes de continuar, hay algo muy importante que sealar aqu, que es que Javascript tiene
+
+81
+00:04:56,220 --> 00:04:57,980
+una funcin llamada tipado dinmico.
+
+82
+00:04:58,250 --> 00:05:03,960
+Y esto significa que no tenemos que definir manualmente un tipo de datos de una variable y como en muchos
+
+83
+00:05:03,960 --> 00:05:05,250
+otros lenguajes de programacin.
+
+84
+00:05:05,280 --> 00:05:10,890
+As que, bsicamente, JavaScript calcula automticamente si una variable es una cadena o un nmero o si no est definida
+
+85
+00:05:10,920 --> 00:05:16,010
+o es booleana y luego asigna ese tipo de datos a la variable sin que tengamos que hacer nada.
+
+86
+00:05:16,140 --> 00:05:16,760
+DE ACUERDO.
+
+87
+00:05:16,800 --> 00:05:22,110
+Y si luego asigna otro valor a la misma variable pero con otro tipo de datos, javascript
+
+88
+00:05:22,200 --> 00:05:25,460
+tambin cambiar automticamente a un tipo de datos de la variable.
+
+89
+00:05:25,470 --> 00:05:30,720
+Por lo tanto, esto puede ser muy til y ahorrarnos tiempo de codificacin, pero tambin puede ser fuente de
+
+90
+00:05:30,720 --> 00:05:34,210
+algunos libros difciles de encontrar, lo que significa errores en nuestro cdigo.
+
+91
+00:05:34,350 --> 00:05:34,850
+DE ACUERDO.
+
+92
+00:05:34,950 --> 00:05:38,810
+Entonces siempre debemos tener cuidado con lo que hacemos con nuestras variables.
+
+93
+00:05:38,820 --> 00:05:39,850
+Est bien y eso es todo.
+
+94
+00:05:39,900 --> 00:05:45,330
+As que eso es No ver estas cosas en accin de nuevo y volver a nuestro cdigo para mostrarle el
+
+95
+00:05:45,330 --> 00:05:46,440
+tipo de datos booleanos.
+
+96
+00:05:46,590 --> 00:05:49,770
+Vamos a crear una variable aqu llamada Full h.
+
+97
+00:05:50,020 --> 00:05:55,250
+As que nuestro h completo y luego decir.
+
+98
+00:05:55,900 --> 00:05:58,910
+Y recuerda que los booleanos solo pueden ser verdaderos o falsos.
+
+99
+00:05:58,960 --> 00:06:02,170
+Y entonces aqu podemos simplemente decir verdadero o falso.
+
+100
+00:06:02,410 --> 00:06:05,910
+Ok, entonces, por supuesto, tambin pude haber escrito falso, pero en este caso.
+
+101
+00:06:05,980 --> 00:06:15,430
+Bueno, John es, por supuesto, un 8 completo, donde es 28 8, as que no echemos un vistazo al CONTO cuando bloqueemos esta variable
+
+102
+00:06:15,580 --> 00:06:22,440
+aqu tan lleno del punto y coma y luego lo recarguemos y entonces veamos que es cierto.
+
+103
+00:06:22,690 --> 00:06:23,310
+DE ACUERDO.
+
+104
+00:06:23,530 --> 00:06:25,540
+Por lo tanto, tambin aparece en un color ligeramente diferente aqu.
+
+105
+00:06:25,540 --> 00:06:26,440
+Este es azul
+
+106
+00:06:26,620 --> 00:06:29,790
+Y para John cadena aqu es negro.
+
+107
+00:06:29,800 --> 00:06:30,510
+Todo bien.
+
+108
+00:06:30,730 --> 00:06:32,500
+Entonces aqu tambin se ve un poco diferente.
+
+109
+00:06:32,500 --> 00:06:34,410
+Entonces, por supuesto, no est entre comillas.
+
+110
+00:06:34,570 --> 00:06:38,690
+Simplemente escribimos as porque es una palabra clave javascript reservada.
+
+111
+00:06:38,850 --> 00:06:39,400
+DE ACUERDO.
+
+112
+00:06:39,550 --> 00:06:44,390
+Ahora, antes de continuar en esta conferencia, quiero hablar rpidamente sobre estos nombres de variables aqu.
+
+113
+00:06:44,540 --> 00:06:45,000
+DE ACUERDO.
+
+114
+00:06:45,160 --> 00:06:51,040
+Por lo tanto, es una buena prctica dar siempre nombres significativos a las variables en lugar de
+
+115
+00:06:51,040 --> 00:06:55,860
+simplemente escribir algo como X o ABC, o algo as, nunca deberamos hacer eso.
+
+116
+00:06:55,870 --> 00:06:59,620
+Siempre debemos decir en nuestras variables lo que realmente queremos.
+
+117
+00:06:59,760 --> 00:07:00,090
+DE ACUERDO.
+
+118
+00:07:00,100 --> 00:07:02,890
+O qu significa realmente la variable.
+
+119
+00:07:02,890 --> 00:07:05,410
+Entonces en este caso aqu tenemos a John y ese es un primer nombre.
+
+120
+00:07:05,410 --> 00:07:09,930
+Y as llamamos a esta variable nombre y no solo una secuencia aleatoria de caracteres.
+
+121
+00:07:10,030 --> 00:07:14,140
+OK y lo mismo por supuesto para la edad del apellido y la edad completa.
+
+122
+00:07:14,260 --> 00:07:20,620
+Y, de nuevo, esa es una buena prctica, por supuesto, funcionara igual si decimos, por ejemplo, en un
+
+123
+00:07:20,620 --> 00:07:26,020
+a aqu si ahora lo registramos en la consola, entonces, por supuesto, John todava est aqu.
+
+124
+00:07:26,270 --> 00:07:30,420
+Pero nuevamente queremos que nuestros nombres de variables aqu realmente tengan algn significado.
+
+125
+00:07:30,650 --> 00:07:36,500
+Entonces esta forma de escribir el nombre de la variable con esta primera palabra aqu y luego el nombre donde
+
+126
+00:07:36,530 --> 00:07:38,680
+los separ con una letra mayscula aqu.
+
+127
+00:07:38,750 --> 00:07:41,180
+Esa es la notacin de caso de coma.
+
+128
+00:07:41,300 --> 00:07:41,700
+DE ACUERDO.
+
+129
+00:07:41,870 --> 00:07:43,220
+Entonces podramos haberlo hecho as.
+
+130
+00:07:43,400 --> 00:07:49,670
+As que el primer nombre en general, pero luego sera difcil encontrar dnde comienza la segunda palabra.
+
+131
+00:07:49,730 --> 00:07:55,520
+Tambin podramos haberlo hecho con un guin bajo, pero en javascript es una especie de convencin utilizar la
+
+132
+00:07:55,520 --> 00:07:57,610
+notacin del caso Kembla de esta manera.
+
+133
+00:07:57,680 --> 00:07:57,960
+DE ACUERDO.
+
+134
+00:07:57,970 --> 00:08:02,930
+Entonces comenzamos con una letra pequea al principio y luego cuando tenemos un segundo tablero y luego
+
+135
+00:08:02,930 --> 00:08:04,620
+uno comienza con una letra mayscula.
+
+136
+00:08:04,790 --> 00:08:08,540
+En el caso de H. R. por ejemplo, ese no es el caso porque solo tenemos una palabra.
+
+137
+00:08:08,660 --> 00:08:12,550
+Pero luego aqu de nuevo en H completo tenemos la segunda tabla aqu que est en mayscula.
+
+138
+00:08:12,710 --> 00:08:13,760
+Todo bien.
+
+139
+00:08:13,760 --> 00:08:17,030
+Entonces, eso no se trata de la funcionalidad javascript en s misma.
+
+140
+00:08:17,030 --> 00:08:19,940
+Eso es ms una convencin de programacin y una mejor prctica.
+
+141
+00:08:20,260 --> 00:08:21,560
+OK seguir adelante.
+
+142
+00:08:21,560 --> 00:08:25,570
+Vamos a definir otro ms y este voy a llamar trabajo.
+
+143
+00:08:25,730 --> 00:08:29,630
+Ahora la diferencia aqu es que no voy a asignar nada a esta variable.
+
+144
+00:08:29,660 --> 00:08:33,740
+Ok, as puedo declarar una variable pero no asignarle un valor.
+
+145
+00:08:34,120 --> 00:08:40,610
+Y entonces, veamos qu sucede cuando ahora miramos esta variable y podemos adivinar qu va a
+
+146
+00:08:40,610 --> 00:08:41,530
+pasar aqu.
+
+147
+00:08:41,840 --> 00:08:47,960
+Espero que puedas y, de hecho, lo que vemos aqu ahora no est definido viniendo de un guin que pidieron en
+
+148
+00:08:47,960 --> 00:08:48,800
+la lnea 11.
+
+149
+00:08:48,980 --> 00:08:54,590
+Entonces, esta lnea aqu imprime indefinida al cnsul y recuerda que cuando te mostr esa diapositiva, mencion
+
+150
+00:08:54,590 --> 00:08:56,720
+que los medios no definidos no existen.
+
+151
+00:08:56,750 --> 00:08:57,910
+Y ese es el caso.
+
+152
+00:08:58,220 --> 00:09:02,440
+Entonces declaramos la variable pero no le diseamos ningn valor.
+
+153
+00:09:02,510 --> 00:09:05,030
+Y entonces, por lo tanto, Dopp simplemente no est definido.
+
+154
+00:09:05,060 --> 00:09:06,810
+Y entonces eso es lo que vemos en una estafa. Luego podemos continuar y asignarle algo.
+
+155
+00:09:06,980 --> 00:09:10,530
+Entonces ese es un trabajo es maestro.
+
+156
+00:09:10,580 --> 00:09:15,580
+Y si lo hacemos para causar Lague nuevamente y simplemente copiemos aqu.
+
+157
+00:09:16,050 --> 00:09:19,380
+Bueno, entonces deberamos ver al maestro.
+
+158
+00:09:19,800 --> 00:09:22,780
+Y aqu vamos.
+
+159
+00:09:22,790 --> 00:09:23,940
+As que de 9:14 viene el maestro despus de que lo hayamos declarado aqu en esta lnea de arriba.
+
+160
+00:09:23,940 --> 00:09:29,800
+DE ACUERDO.
+
+161
+00:09:30,090 --> 00:09:30,590
+As que tenemos cadenas aqu tenemos nmeros tenemos un booleano y tambin tenemos el indefinido aqu.
+
+162
+00:09:30,840 --> 00:09:38,210
+Y estos cuatro son los tipos de datos ms importantes que quera mostrarte.
+
+163
+00:09:38,400 --> 00:09:41,860
+Ahora, para terminar esta conferencia muy rpido, quiero
+
+164
+00:09:42,060 --> 00:09:46,890
+mostrarte algunas reglas que debemos tener en cuenta cuando nombramos o variables.
+
+165
+00:09:46,890 --> 00:09:48,790
+As que ya habl sobre las mejores prcticas al nombrarlas.
+
+166
+00:09:48,960 --> 00:09:52,410
+Entonces, qu es lo que este saneamiento qumico y yo explicamos antes?
+
+167
+00:09:52,590 --> 00:09:55,020
+Pero esa no era realmente una regla que fuera ms una buena prctica.
+
+168
+00:09:55,080 --> 00:09:58,130
+Pero en realidad tambin hay algunas reglas que
+
+169
+00:09:58,260 --> 00:10:03,600
+debemos tener en cuenta, pero no se preocupen, en realidad son muy simples.
+
+170
+00:10:03,600 --> 00:10:04,530
+Todo lo que debe
+
+171
+00:10:04,530 --> 00:10:09,990
+saber es que las variables no pueden comenzar sino nmeros o smbolos a excepcin del signo de dlar o un guin bajo.
+
+172
+00:10:10,350 --> 00:10:12,030
+OK, intentemos romper algunas
+
+173
+00:10:12,040 --> 00:10:19,500
+de estas reglas para ver qu sucede hasta ahora y voy a comenzar una variable con un tres.
+
+174
+00:10:19,650 --> 00:10:20,520
+Entonces con un nmero.
+
+175
+00:10:20,520 --> 00:10:23,570
+Intentemos decir que tres aos equivalen a tres y luego volvemos a cargar los contras. Y ahora ves que obtenemos un error aqu en la lnea 16 y,
+
+176
+00:10:23,840 --> 00:10:28,740
+por lo tanto, esto no est aqu todava y otra vez porque no podemos comenzar un nombre de variable con un nmero.
+
+177
+00:10:28,790 --> 00:10:35,390
+Derecha.
+
+178
+00:10:35,420 --> 00:10:37,910
+As que te estoy mostrando esto muerto en caso de que empieces a nombrar tus propias variables.
+
+179
+00:10:37,980 --> 00:10:38,460
+No te topas con estos errores y luego no puedes entender lo que significa este ao.
+
+180
+00:10:38,600 --> 00:10:42,050
+As que siempre cudate y usa estas reglas.
+
+181
+00:10:42,050 --> 00:10:46,000
+Y les muestro aqu ahora, si quisieran arreglar este ao, tendran que comenzar con un
+
+182
+00:10:46,130 --> 00:10:48,980
+nmero o con un signo de dlar o un guin bajo.
+
+183
+00:10:49,010 --> 00:10:53,930
+DE ACUERDO.
+
+184
+00:10:54,350 --> 00:10:56,640
+Entonces estos son los nicos smbolos que pueden aparecer en un nombre de variable aqu en Javascript.
+
+185
+00:10:56,800 --> 00:10:57,160
+Entonces, por ejemplo, con el guin bajo tambin funcionara bien con el signo de dlar.
+
+186
+00:10:57,200 --> 00:11:00,870
+Pero tan pronto como empiezo a poner algo como esto bien, nuevamente obtenemos el error aqu.
+
+187
+00:11:01,070 --> 00:11:08,420
+DE ACUERDO.
+
+188
+00:11:08,420 --> 00:11:14,790
+Y lo mismo sucede realmente si utilizo el smbolo en medio de un nombre de variable, como John slash mark, por ejemplo, John y Mark, y ver que este ao no va a funcionar
+
+189
+00:11:14,900 --> 00:11:15,370
+de nuevo.
+
+190
+00:11:15,620 --> 00:11:21,800
+DE ACUERDO.
+
+191
+00:11:22,280 --> 00:11:32,330
+Entonces tenemos un error aqu en la lnea 17 ahora.
+
+192
+00:11:32,670 --> 00:11:32,970
+Ahora, por supuesto, pero quiero el error ahora en la lnea 18.
+
+193
+00:11:32,980 --> 00:11:35,750
+As que echemos un vistazo a eso.
+
+194
+00:11:35,870 --> 00:11:39,130
+Y, por supuesto, dice token inesperado que es solo uno.
+
+195
+00:11:39,130 --> 00:11:40,280
+Entonces, en este caso, por supuesto, usaramos la notacin de caso de camello aqu para hacerlo mucho mejor.
+
+196
+00:11:40,360 --> 00:11:44,420
+Y ahora ya no tenemos ningn error aqu.
+
+197
+00:11:44,440 --> 00:11:49,400
+As que esa fue la primera regla que todos los nombres de variables deben comenzar con un
+
+198
+00:11:49,570 --> 00:11:52,250
+guin bajo, un signo de dlar o una letra
+
+199
+00:11:52,360 --> 00:11:58,870
+aqu y luego la segunda y ltima regla es que no podemos usar palabras clave de JavaScript reservadas como nombres de variables.
+
+200
+00:11:58,870 --> 00:12:05,620
+As que algo como la funcin, por ejemplo, no va a funcionar, por lo que la funcin es igual a 23, por ejemplo.
+
+201
+00:12:05,860 --> 00:12:07,920
+Y esto no funcionar realmente.
+
+202
+00:12:08,040 --> 00:12:14,760
+Entonces ves una funcin de token inesperada.
+
+203
+00:12:14,760 --> 00:12:17,640
+Tampoco podemos usar algo como delete, que tambin es una palabra clave
+
+204
+00:12:17,640 --> 00:12:20,780
+reservada, y aqu encontrars muchas de estas palabras clave a lo largo del curso.
+
+205
+00:12:20,850 --> 00:12:25,980
+Pero ahora mismo, sepa que cualquiera de estas palabras clave que vamos a usar ms tarde algo as como, por ejemplo, no podr
+
+206
+00:12:25,980 --> 00:12:28,350
+usarlas como nombres de variables, por lo que los nombres
+
+207
+00:12:28,650 --> 00:12:34,080
+de variables realmente deben ser o tener palabras compuestas y no las palabras que javascript ya usa en su idioma y / o derecho.
+
+208
+00:12:34,080 --> 00:12:40,380
+Eso es todo lo que hay que saber sobre los fundamentos de las variables y los tipos de datos.
+
+209
+00:12:40,380 --> 00:12:45,580
+As que eso ya es un gran paso adelante y un concepto muy importante en
+
+210
+00:12:45,600 --> 00:12:50,400
+cualquier lenguaje de programacin. Todas las palabras del siguiente video vamos a sumergirnos
+
+211
+00:12:50,460 --> 00:12:55,160
+un poco ms en las variables y hacer algunas cosas ms con ellas.
+
+212
+00:12:55,160 --> 00:13:00,240
+As que estad atentos para el prximo video.
+
+213
+00:13:00,240 --> 00:13:00,960
+&nbsp;
+
+214
+00:13:00,960 --> 00:13:03,420
+&nbsp;
+

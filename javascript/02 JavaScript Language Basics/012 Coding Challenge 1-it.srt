@@ -1,0 +1,216 @@
+1
+00:00:01,230 --> 00:00:03,440
+Istruttore: benvenuto alla tua prima sfida
+
+2
+00:00:03,440 --> 00:00:05,120
+di coding in questo corso.
+
+3
+00:00:05,120 --> 00:00:07,860
+E quindi questa  la sfida che voglio che tu prenda.
+
+4
+00:00:07,860 --> 00:00:10,420
+Quindi Mark e John stanno cercando di confrontare
+
+5
+00:00:10,420 --> 00:00:11,794
+i loro indici di
+
+6
+00:00:11,794 --> 00:00:15,900
+massa corporea, che  calcolato dividendo la massa per l'altezza al quadrato.
+
+7
+00:00:15,900 --> 00:00:16,733
+Va bene?
+
+8
+00:00:16,733 --> 00:00:18,255
+Quindi questa formula qui.
+
+9
+00:00:18,255 --> 00:00:20,420
+E per calcolare il quadrato di
+
+10
+00:00:20,420 --> 00:00:22,880
+un numero, devi semplicemente moltiplicarlo da solo.
+
+11
+00:00:22,880 --> 00:00:25,160
+E cos la formula finale diventa
+
+12
+00:00:25,160 --> 00:00:27,980
+massa divisa per altezza, altezza e altezza.
+
+13
+00:00:27,980 --> 00:00:28,813
+Va bene?
+
+14
+00:00:28,813 --> 00:00:31,550
+E qui, nota che l'altezza deve essere in
+
+15
+00:00:31,550 --> 00:00:33,420
+metri e la massa in chilogrammi.
+
+16
+00:00:33,420 --> 00:00:34,253
+Tutto ok?
+
+17
+00:00:34,253 --> 00:00:36,420
+Ora il primo passo da completare
+
+18
+00:00:36,420 --> 00:00:39,336
+ memorizzare la massa e le altezze di Mark
+
+19
+00:00:39,336 --> 00:00:41,080
+e John in diverse variabili.
+
+20
+00:00:41,080 --> 00:00:41,913
+Va bene?
+
+21
+00:00:41,913 --> 00:00:43,530
+Quindi, proprio come abbiamo fatto tutto questo
+
+22
+00:00:43,530 --> 00:00:44,770
+tempo fino a questo punto.
+
+23
+00:00:44,770 --> 00:00:47,830
+Successivamente, calcola entrambi i loro BMI, quindi crea
+
+24
+00:00:47,830 --> 00:00:50,340
+una variabile booleana contenente informazioni su
+
+25
+00:00:50,340 --> 00:00:53,690
+se Mark ha un BMI pi alto di John.
+
+26
+00:00:53,690 --> 00:00:56,400
+E cos di nuovo, lo abbiamo fatto prima.
+
+27
+00:00:56,400 --> 00:00:58,803
+E infine,  possibile stampare una stringa sulla console dicendo qualcosa come "L'indice
+
+28
+00:00:58,803 --> 00:01:02,780
+BMI di Mark  pi alto di quello di John? "E poi il booleano
+
+29
+00:01:02,780 --> 00:01:05,170
+che hai creato, o che
+
+30
+00:01:05,170 --> 00:01:07,480
+hai calcolato nel passaggio tre.
+
+31
+00:01:07,480 --> 00:01:08,313
+Va bene?
+
+32
+00:01:08,313 --> 00:01:09,300
+Cos vero o falso.
+
+33
+00:01:09,300 --> 00:01:11,640
+E quindi questo , ancora una volta, molto simile
+
+34
+00:01:11,640 --> 00:01:14,420
+a qualcosa che abbiamo fatto prima, e quindi questo non dovrebbe
+
+35
+00:01:14,420 --> 00:01:16,550
+essere un grosso problema per te, si spera.
+
+36
+00:01:16,550 --> 00:01:17,970
+Ora se trovi qualche problema
+
+37
+00:01:17,970 --> 00:01:19,420
+qui, se non riesci a
+
+38
+00:01:19,420 --> 00:01:21,720
+risolverlo veramente, non  assolutamente un problema qui, ok?
+
+39
+00:01:21,720 --> 00:01:25,650
+Quindi non abbatterti se non sei in grado di completare al
+
+40
+00:01:25,650 --> 00:01:26,560
+100% questo.
+
+41
+00:01:26,560 --> 00:01:28,530
+Quindi ognuno ha diverse velocit di apprendimento
+
+42
+00:01:28,530 --> 00:01:29,660
+e stili di apprendimento,
+
+43
+00:01:29,660 --> 00:01:32,940
+quindi  davvero ok se non sei in grado di farlo
+
+44
+00:01:32,940 --> 00:01:34,540
+al 100% da solo qui.
+
+45
+00:01:34,540 --> 00:01:35,373
+Va bene?
+
+46
+00:01:35,373 --> 00:01:37,762
+Quindi, se hai bisogno di cercare qualcosa che
+
+47
+00:01:37,762 --> 00:01:40,140
+abbiamo fatto prima, non  un grosso problema,
+
+48
+00:01:40,140 --> 00:01:42,810
+ma dovresti davvero cercare di ricordare le cose che
+
+49
+00:01:42,810 --> 00:01:45,330
+abbiamo fatto prima e usarle per risolvere questa sfida.
+
+50
+00:01:45,330 --> 00:01:46,163
+Va bene?
+
+51
+00:01:46,163 --> 00:01:48,810
+Ad ogni modo, la soluzione a questo 
+
+52
+00:01:48,810 --> 00:01:51,460
+nel prossimo video, dove ti mostrer come lo farei.
+
+53
+00:01:51,460 --> 00:01:53,860
+Quindi buona fortuna con questo, e ci vediamo nel
+
+54
+00:01:53,860 --> 00:01:55,910
+video dopo aver completato questa sfida di codifica.
+

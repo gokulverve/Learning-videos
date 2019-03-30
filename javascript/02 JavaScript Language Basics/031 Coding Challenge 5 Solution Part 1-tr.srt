@@ -1,0 +1,1196 @@
+1
+00:00:01,120 --> 00:00:03,290
+Jonas: Pekala, ite size
+
+2
+00:00:03,290 --> 00:00:05,730
+gsterdiim kodlama sorununun ilk
+
+3
+00:00:05,730 --> 00:00:07,570
+ksm iin zmm.
+
+4
+00:00:07,570 --> 00:00:09,833
+Bylece, John nesnesini oluturarak, nesne
+
+5
+00:00:10,850 --> 00:00:12,950
+nesnesini yeniden ayarlamaya baladm, sonra
+
+6
+00:00:12,950 --> 00:00:15,093
+tam ad John Smith.
+
+7
+00:00:21,290 --> 00:00:22,910
+Ve sonra, talimatlarda
+
+8
+00:00:22,910 --> 00:00:25,490
+syledii gibi bir dizi fatura.
+
+9
+00:00:25,490 --> 00:00:30,490
+Ve faturalar 124, 48, 268, 180 ve 42 dolar.
+
+10
+00:00:36,120 --> 00:00:38,080
+Tamam, ihtiyacmz olan tm veriler bu.
+
+11
+00:00:38,080 --> 00:00:40,780
+imdi calcTips ilevimizi
+
+12
+00:00:40,780 --> 00:00:45,780
+veya sylemem gereken yntemi yazmaya hazrz.
+
+13
+00:00:46,650 --> 00:00:49,210
+Yani, daha nce olduu gibi herhangi
+
+14
+00:00:49,210 --> 00:00:50,840
+bir argman olmadan alr.
+
+15
+00:00:50,840 --> 00:00:53,780
+Ve buradaki bu meydan okuma,
+
+16
+00:00:53,780 --> 00:00:55,590
+aslnda, John ve
+
+17
+00:00:55,590 --> 00:00:57,680
+Mark iin BMI'lar hesapladmzdan
+
+18
+00:00:57,680 --> 00:00:59,170
+biraz daha benzer.
+
+19
+00:00:59,170 --> 00:01:00,730
+Tek fark u ki,
+
+20
+00:01:00,730 --> 00:01:02,120
+bu sefer de baz
+
+21
+00:01:02,120 --> 00:01:04,960
+dnglere ihtiyacmz var ve bu da bu ileve
+
+22
+00:01:04,960 --> 00:01:06,550
+yeni bir karmaklk katyor.
+
+23
+00:01:06,550 --> 00:01:08,940
+Tamam, peki, hem ipular hem
+
+24
+00:01:08,940 --> 00:01:11,680
+de son deerler iin bo bir
+
+25
+00:01:11,680 --> 00:01:14,680
+diziyle balaman gerektiini nasl sylediimi hatrladn m?
+
+26
+00:01:14,680 --> 00:01:16,800
+Ve bunu yapabiliyorken,
+
+27
+00:01:16,800 --> 00:01:18,810
+bunu byle yapabilirsin.
+
+28
+00:01:18,810 --> 00:01:22,810
+yleyse, ipular, ve burada, bo bir dizi, ama
+
+29
+00:01:22,810 --> 00:01:24,670
+bunun, gzya olmadan balamak
+
+30
+00:01:24,670 --> 00:01:26,410
+iin biraz daha temiz
+
+31
+00:01:26,410 --> 00:01:29,100
+olacan dndm ve bunun yerine, fonksiyonu
+
+32
+00:01:29,100 --> 00:01:32,470
+altrdmzda, bu bo dizileri nesnelere ekliyoruz.
+
+33
+00:01:32,470 --> 00:01:34,980
+Tamam, bunu nasl yapacaz?
+
+34
+00:01:34,980 --> 00:01:38,140
+Peki, bu nokta ularnn bo bir
+
+35
+00:01:39,130 --> 00:01:41,500
+diziye eit olduunu syledik,
+
+36
+00:01:41,500 --> 00:01:45,320
+ve sonra bu nokta son deerleri de
+
+37
+00:01:46,830 --> 00:01:48,730
+bo bir dizidir.
+
+38
+00:01:48,730 --> 00:01:51,060
+Tamam, ben dier u hesap makinesinde
+
+39
+00:01:51,060 --> 00:01:52,920
+yaptm gibi ayn isimleri veriyorum.
+
+40
+00:01:52,920 --> 00:01:54,500
+Yani, ipular tm be
+
+41
+00:01:54,500 --> 00:01:56,500
+ipular ile dizi olacak.
+
+42
+00:01:56,500 --> 00:01:57,990
+Yani, bu faturalarn her
+
+43
+00:01:57,990 --> 00:02:00,710
+biri iin bir, ve son deerler,
+
+44
+00:02:00,710 --> 00:02:02,160
+her bir faturada
+
+45
+00:02:02,160 --> 00:02:04,530
+her bir bahsin toplamn alacamz dizidir.
+
+46
+00:02:04,530 --> 00:02:06,900
+Tamam, imdi bu deerlerin
+
+47
+00:02:06,900 --> 00:02:08,410
+her birinin ipucunu
+
+48
+00:02:08,410 --> 00:02:10,810
+hesaplamak iin faturalara girmeliyiz.
+
+49
+00:02:10,810 --> 00:02:12,560
+Tamam, tabii ki,
+
+50
+00:02:12,560 --> 00:02:16,150
+son derste rendiimiz gibi, drt dngy kullanacaz.
+
+51
+00:02:16,150 --> 00:02:20,520
+Drdncs ve sfrdan balayarak, faturalar
+
+52
+00:02:20,520 --> 00:02:22,970
+dizisinin uzunluuna ulaana
+
+53
+00:02:22,970 --> 00:02:24,630
+kadar gidiyoruz.
+
+54
+00:02:24,630 --> 00:02:27,320
+Yani, bir kez daha, son derste
+
+55
+00:02:27,320 --> 00:02:28,830
+yaptmz gibi ayn ey.
+
+56
+00:02:28,830 --> 00:02:29,970
+Tamam, sadece
+
+57
+00:02:29,970 --> 00:02:31,720
+daha nce rendiklerimizi uyguluyoruz.
+
+58
+00:02:31,720 --> 00:02:33,500
+Peki, bu fatura nerede?
+
+59
+00:02:33,500 --> 00:02:36,420
+ey, bu nokta faturalarnda ve
+
+60
+00:02:36,420 --> 00:02:38,210
+sonra nokta uzunluu.
+
+61
+00:02:38,210 --> 00:02:40,770
+Ve bylece, burada ilk kez bir
+
+62
+00:02:40,770 --> 00:02:43,150
+ey gryorsunuz, ki bu iki nokta.
+
+63
+00:02:43,150 --> 00:02:46,010
+Tamam, aslnda nokta bir operatrdr.
+
+64
+00:02:46,010 --> 00:02:48,330
+yleyse, hala burada alm olan
+
+65
+00:02:48,330 --> 00:02:49,740
+operatr ncelii tablosuna
+
+66
+00:02:49,740 --> 00:02:51,690
+gidelim ve burada ye
+
+67
+00:02:51,690 --> 00:02:54,050
+eriim denilen bu operatr var.
+
+68
+00:02:54,050 --> 00:02:55,710
+Tamam, bunun bir
+
+69
+00:02:55,710 --> 00:02:58,810
+soldan saa doru yrtldn gryoruz.
+
+70
+00:02:58,810 --> 00:03:01,760
+Tamam, ite bu yzden bu yzden.
+
+71
+00:03:01,760 --> 00:03:03,070
+Yani, ilk olan bu.
+
+72
+00:03:03,070 --> 00:03:04,400
+Yani, ilk nokta.
+
+73
+00:03:04,400 --> 00:03:06,200
+Ve bylece bu nokta
+
+74
+00:03:06,200 --> 00:03:08,320
+faturalar idam edilecek ilk blmdr.
+
+75
+00:03:08,320 --> 00:03:09,690
+Ve bylece, bu
+
+76
+00:03:09,690 --> 00:03:11,800
+temelde bu dizi ile deitirilecektir.
+
+77
+00:03:11,800 --> 00:03:14,137
+Ve bylece, bu diziye burada
+
+78
+00:03:14,137 --> 00:03:17,450
+sahip oluyoruz ve ondan sonra, uzunluk dizisini
+
+79
+00:03:17,450 --> 00:03:19,400
+burada, bu dizide, burada tutuyoruz.
+
+80
+00:03:19,400 --> 00:03:21,320
+Tamam, yleyse, eer baka bir yol
+
+81
+00:03:21,320 --> 00:03:23,013
+olsayd, eer buraya bu ekilde
+
+82
+00:03:23,013 --> 00:03:24,430
+okumaya balasaydk, o zaman
+
+83
+00:03:24,430 --> 00:03:27,330
+ie yaramazd nk faturalarn nokta uzunluu anonim bir ey olurdu.
+
+84
+00:03:27,330 --> 00:03:28,163
+Yani, varolmaz
+
+85
+00:03:28,163 --> 00:03:30,720
+nk hepsi var olan bu nokta faturalardr.
+
+86
+00:03:30,720 --> 00:03:32,120
+Ve tabii ki,
+
+87
+00:03:32,120 --> 00:03:34,170
+temelde okumaya baladmzdan, soldan
+
+88
+00:03:34,170 --> 00:03:37,170
+saa doru almaya baladmza ok anlam veriyoruz.
+
+89
+00:03:37,170 --> 00:03:38,910
+Yani, bu sadece kk bir
+
+90
+00:03:38,910 --> 00:03:40,240
+detayd, ama bence bu
+
+91
+00:03:40,240 --> 00:03:41,810
+eylerin neden byle altn
+
+92
+00:03:41,810 --> 00:03:43,420
+gerekten anlamak ok nemli.
+
+93
+00:03:43,420 --> 00:03:45,210
+Tamam, umarm buna katlrsn.
+
+94
+00:03:45,210 --> 00:03:46,823
+Yani art art.
+
+95
+00:03:48,710 --> 00:03:50,340
+Tamam, mantkl.
+
+96
+00:03:50,340 --> 00:03:52,170
+Bylece tekrar, dizi
+
+97
+00:03:52,170 --> 00:03:55,020
+dizisinin uzunluuna ulancaya kadar gidiyoruz.
+
+98
+00:03:55,020 --> 00:03:56,330
+Bu durumda alt olan.
+
+99
+00:03:56,330 --> 00:04:00,200
+Yani, biz 0123 ve 4 iin yrtrz.
+
+100
+00:04:00,200 --> 00:04:02,720
+Tamam, bu yzden uzunluk alt deil, be.
+
+101
+00:04:02,720 --> 00:04:05,310
+Sanrm alt dedim ama tabii ki be.
+
+102
+00:04:05,310 --> 00:04:08,310
+Tamam, her seferinde ne yapacaz?
+
+103
+00:04:08,310 --> 00:04:09,590
+Daha nce
+
+104
+00:04:09,590 --> 00:04:11,510
+olduu gibi, devrilme
+
+105
+00:04:11,510 --> 00:04:13,470
+kurallarna gre yzdeyi belirleyeceiz.
+
+106
+00:04:13,470 --> 00:04:15,270
+Tamam, hadi buraya yazalm.
+
+107
+00:04:20,710 --> 00:04:22,370
+Tamam, aslnda ben
+
+108
+00:04:22,370 --> 00:04:24,620
+gerekten bu kodu yazmadan
+
+109
+00:04:24,620 --> 00:04:26,940
+nce bu yorumlar buraya
+
+110
+00:04:26,940 --> 00:04:29,040
+eklemek istiyorum.
+
+111
+00:04:29,040 --> 00:04:30,710
+Bylece, yzdeyi belirledik
+
+112
+00:04:30,710 --> 00:04:32,770
+ve sonucu ilgili
+
+113
+00:04:35,330 --> 00:04:36,833
+dizilere ekledik.
+
+114
+00:04:40,220 --> 00:04:42,420
+Yani, bu daha nce yaptmz ayn ey.
+
+115
+00:04:42,420 --> 00:04:44,900
+Yani, yzdesini aslnda
+
+116
+00:04:46,760 --> 00:04:49,070
+belirtmeden tanmlarz.
+
+117
+00:04:49,070 --> 00:04:50,640
+Bu yzden, sadece buradaki deikeni
+
+118
+00:04:50,640 --> 00:04:52,080
+ilan ediyoruz ama tanmlamyoruz.
+
+119
+00:04:52,080 --> 00:04:54,273
+Ve bunu faturaya gre yapyoruz.
+
+120
+00:04:55,490 --> 00:05:00,490
+Yani, fatura 50'den az ise, unutmayn.
+
+121
+00:05:00,900 --> 00:05:03,053
+Yani, burada olduumuz kural bu.
+
+122
+00:05:04,320 --> 00:05:06,550
+Yani, fatura 50'den az
+
+123
+00:05:06,550 --> 00:05:08,430
+ise, ipucu yzde
+
+124
+00:05:08,430 --> 00:05:11,130
+20, 50 ila 200 dolar
+
+125
+00:05:11,130 --> 00:05:13,870
+arasndaysa yzde 15, ve 200
+
+126
+00:05:13,870 --> 00:05:16,180
+dolardan fazla ise yzde 10'dur.
+
+127
+00:05:16,180 --> 00:05:17,200
+Pekala, bunu
+
+128
+00:05:17,200 --> 00:05:20,160
+burada kod haline evireceiz.
+
+129
+00:05:20,160 --> 00:05:23,100
+Tamam, aslnda fatura, tanmladmz
+
+130
+00:05:23,100 --> 00:05:24,960
+bir ey deil.
+
+131
+00:05:24,960 --> 00:05:26,100
+Bunun iin ok zgnm.
+
+132
+00:05:26,100 --> 00:05:28,060
+Yani, fatura deil, bunun yerine
+
+133
+00:05:28,060 --> 00:05:29,480
+burada neyimiz var?
+
+134
+00:05:29,480 --> 00:05:33,730
+Bu nokta faturalar var, mevcut pozisyona ekle.
+
+135
+00:05:33,730 --> 00:05:35,430
+Tamam, belki bu
+
+136
+00:05:35,430 --> 00:05:37,690
+biraz kafa kartrc olmaya balyor.
+
+137
+00:05:37,690 --> 00:05:39,500
+Tamam, bunu anlyorum.
+
+138
+00:05:39,500 --> 00:05:41,100
+Daha nce de
+
+139
+00:05:41,100 --> 00:05:43,810
+bahsettiim gibi, bu zorluun amacyd.
+
+140
+00:05:43,810 --> 00:05:45,250
+Kafanz kartrmamak, ama
+
+141
+00:05:45,250 --> 00:05:48,000
+ilerin nasl yrdn biraz dnmek
+
+142
+00:05:48,000 --> 00:05:48,890
+iin.
+
+143
+00:05:48,890 --> 00:05:51,270
+Peki, bu tr sorunlar nasl zebiliriz?
+
+144
+00:05:51,270 --> 00:05:53,570
+Tamam, bu nokta faturalar
+
+145
+00:05:53,570 --> 00:05:55,750
+bizim faturalarmzla dizimiz.
+
+146
+00:05:55,750 --> 00:05:57,820
+Doru, ve burada dng ile ne
+
+147
+00:05:57,820 --> 00:06:00,220
+yaptmz, tam olarak bu diziden gemektir.
+
+148
+00:06:00,220 --> 00:06:01,630
+Ve bylece,
+
+149
+00:06:01,630 --> 00:06:04,250
+bu dizinin mevcut pozisyonuna
+
+150
+00:06:04,250 --> 00:06:08,150
+mevcut saya deikenini kullanarak erimemiz mantkldr.
+
+151
+00:06:08,150 --> 00:06:09,950
+Tamam, ve bu her zaman,
+
+152
+00:06:09,950 --> 00:06:11,860
+tpk son derste rendiimiz gibi.
+
+153
+00:06:11,860 --> 00:06:13,870
+Tamam, ve imdi, imdi
+
+154
+00:06:13,870 --> 00:06:17,260
+bu fatura deerinin yzdesini tanmlayalm ve bu
+
+155
+00:06:17,260 --> 00:06:19,120
+iki nokta olacak.
+
+156
+00:06:19,120 --> 00:06:21,330
+Tamam, yzde 20.
+
+157
+00:06:23,080 --> 00:06:26,763
+yleyse, ve aslnda bunu burada yakalarm.
+
+158
+00:06:29,910 --> 00:06:33,523
+Yani, daha byk veya eit 50
+
+159
+00:06:34,840 --> 00:06:39,200
+ise ve ayn zamanda 200'den az olmaldr.
+
+160
+00:06:39,200 --> 00:06:40,930
+Doru, bu yzden tam olarak
+
+161
+00:06:40,930 --> 00:06:42,883
+50 ile 200 arasnda kalyor.
+
+162
+00:06:44,020 --> 00:06:44,880
+Yani, bu
+
+163
+00:06:44,880 --> 00:06:47,723
+durumda, yzde 15 noktas olacak.
+
+164
+00:06:48,760 --> 00:06:51,023
+Ve son olarak, tm
+
+165
+00:06:52,060 --> 00:06:55,143
+dier durumlarda, yzde bir nokta olacak.
+
+166
+00:06:56,400 --> 00:06:57,850
+Tamam, imdi burada grdnz
+
+167
+00:06:57,850 --> 00:06:59,970
+gibi burada ok fazla kod var.
+
+168
+00:06:59,970 --> 00:07:03,380
+Yani, bu nokta faturalar ve sonra ben
+
+169
+00:07:03,380 --> 00:07:05,570
+ kez burada tekrar ettik.
+
+170
+00:07:05,570 --> 00:07:07,410
+Ve bylece aslnda bunun
+
+171
+00:07:07,410 --> 00:07:09,470
+iin ayr bir deiken oluturalm.
+
+172
+00:07:09,470 --> 00:07:10,870
+Yani, o bir faturay arr.
+
+173
+00:07:13,330 --> 00:07:15,390
+Tamam, ve burada bir
+
+174
+00:07:15,390 --> 00:07:17,310
+ey yapmadan nce, sadece
+
+175
+00:07:17,310 --> 00:07:20,410
+mevcut fatura deerini sakladmz bir deiken oluturuyoruz.
+
+176
+00:07:20,410 --> 00:07:22,070
+Tamam, imdi devam edebiliriz
+
+177
+00:07:22,070 --> 00:07:23,980
+ve bunlarn hepsini burada deitirebiliriz.
+
+178
+00:07:23,980 --> 00:07:25,450
+Ve bylece, bu biraz daha iyi.
+
+179
+00:07:25,450 --> 00:07:27,450
+Yani, ayn kodu birden ok
+
+180
+00:07:27,450 --> 00:07:30,050
+kez tekrarlamak yerine, sadece deeri ve
+
+181
+00:07:30,050 --> 00:07:31,600
+bir deikeni saklarz.
+
+182
+00:07:31,600 --> 00:07:33,760
+Tamam, bu daha iyi.
+
+183
+00:07:33,760 --> 00:07:36,320
+Tamam, yleyse, faturalarn her biri
+
+184
+00:07:36,320 --> 00:07:38,660
+iin imdi yzde yzn bulduk.
+
+185
+00:07:38,660 --> 00:07:39,660
+Yani, imdi
+
+186
+00:07:39,660 --> 00:07:41,640
+yapmamz gereken tek ey ipularn
+
+187
+00:07:41,640 --> 00:07:43,810
+ve son deerler dizisini dzenlemek.
+
+188
+00:07:43,810 --> 00:07:47,660
+Yani, bu nokta u anki pozisyonda ipular.
+
+189
+00:07:47,660 --> 00:07:49,013
+Unutma, o benim.
+
+190
+00:07:50,500 --> 00:07:52,170
+Ve imdi ok basit.
+
+191
+00:07:52,170 --> 00:07:54,550
+Daha nce tanmladmz fatura deikeni.
+
+192
+00:07:54,550 --> 00:07:56,833
+Yani, bu nokta mevcut pozisyonda
+
+193
+00:07:57,970 --> 00:07:59,720
+faturalar, yzdelik zamanlar.
+
+194
+00:07:59,720 --> 00:08:02,020
+Ve bylece, buradaki blm ilk olarak,
+
+195
+00:08:02,020 --> 00:08:04,710
+u hesaplaycmzn daha basit bir srmnde tam
+
+196
+00:08:04,710 --> 00:08:06,393
+olarak ayndr, deil mi?
+
+197
+00:08:07,430 --> 00:08:10,810
+Ve imdi nihayet, bu nokta son
+
+198
+00:08:10,810 --> 00:08:13,130
+deerleri, mevcut pozisyona ekleyiniz,
+
+199
+00:08:13,130 --> 00:08:16,320
+fatura art mevcut noktadaki bu nokta
+
+200
+00:08:16,320 --> 00:08:17,270
+ipular olacaktr.
+
+201
+00:08:17,270 --> 00:08:19,210
+Ya da aslnda, bunu burada yapabiliriz.
+
+202
+00:08:19,210 --> 00:08:20,060
+Yani ayn.
+
+203
+00:08:21,900 --> 00:08:23,000
+Tamam, bu
+
+204
+00:08:23,000 --> 00:08:25,650
+yzden faturamz var, art fatura yzdesi.
+
+205
+00:08:25,650 --> 00:08:28,830
+Tamam, bu yzden aslnda.
+
+206
+00:08:28,830 --> 00:08:31,600
+Yani, bu ayn zamanda, be faturalarn
+
+207
+00:08:31,600 --> 00:08:32,970
+tm iin ipular
+
+208
+00:08:32,970 --> 00:08:34,850
+hesaplamak olacak bizim ipular
+
+209
+00:08:34,850 --> 00:08:36,290
+hesap makinesi.
+
+210
+00:08:36,290 --> 00:08:38,820
+Tamam, hadi bunu deneyelim.
+
+211
+00:08:38,820 --> 00:08:41,033
+Yani, John dot calcTips ve
+
+212
+00:08:42,744 --> 00:08:44,520
+sonra konsola giri yapalm.
+
+213
+00:08:44,520 --> 00:08:47,253
+Konsol nokta gnl, John.
+
+214
+00:08:49,180 --> 00:08:52,740
+Tamam, burada 674 satrnda baz
+
+215
+00:08:52,740 --> 00:08:55,370
+szdizimi hatas var.
+
+216
+00:08:55,370 --> 00:08:56,730
+Peki, bu nerede?
+
+217
+00:08:56,730 --> 00:08:59,560
+Ve gerekten de, eer buradaysam eksik.
+
+218
+00:08:59,560 --> 00:09:01,000
+Yani, eer yleyse.
+
+219
+00:09:01,000 --> 00:09:02,970
+Muhtemelen, geldiinde bunu zaten grdnz.
+
+220
+00:09:02,970 --> 00:09:05,360
+Yani, bu hata iin zr dilerim.
+
+221
+00:09:05,360 --> 00:09:07,740
+Ve imdi, imdi burada nesneye sahibiz.
+
+222
+00:09:07,740 --> 00:09:10,660
+Ve burada faturalarmz var.
+
+223
+00:09:10,660 --> 00:09:12,210
+Son deerlerimiz var
+
+224
+00:09:12,210 --> 00:09:13,460
+ve ipularmz var.
+
+225
+00:09:13,460 --> 00:09:15,150
+Yani, imdi hepsi burada.
+
+226
+00:09:15,150 --> 00:09:18,172
+Tamam, 18 nokta alt, dokuz nokta alt, 26
+
+227
+00:09:18,172 --> 00:09:19,363
+nokta sekiz, 27
+
+228
+00:09:20,334 --> 00:09:21,940
+ve sekiz puan drt var.
+
+229
+00:09:21,940 --> 00:09:24,940
+Ve bu, eer bu faturalar dzenlersek, o
+
+230
+00:09:24,940 --> 00:09:26,973
+zaman burada sahip olduumuz bu
+
+231
+00:09:26,973 --> 00:09:28,360
+son deerlerle sonulanr.
+
+232
+00:09:28,360 --> 00:09:31,950
+Yani, rnein, bu 180 art 27, 207
+
+233
+00:09:31,950 --> 00:09:35,400
+ve burada grdmz tam olarak budur.
+
+234
+00:09:35,400 --> 00:09:39,220
+Doru, demek oluyor ki aslnda alyor.
+
+235
+00:09:39,220 --> 00:09:40,470
+Yani, bir meydan
+
+236
+00:09:40,470 --> 00:09:42,220
+okuma ilk ksm tamamland dnyorum.
+
+237
+00:09:42,220 --> 00:09:43,690
+Hadi bir bakalm.
+
+238
+00:09:43,690 --> 00:09:46,130
+Yani, yntemi ekleyin ve dngy iermelidir.
+
+239
+00:09:46,130 --> 00:09:49,100
+Bir kt olarak ekleyin, bu iki diziyi oluturun.
+
+240
+00:09:49,100 --> 00:09:51,200
+Tamam, ilk blm bitti.
+
+241
+00:09:51,200 --> 00:09:52,290
+Tekrar bir
+
+242
+00:09:52,290 --> 00:09:54,020
+gz atalm, nk burada
+
+243
+00:09:54,020 --> 00:09:57,000
+olduka fazla kod var ve bu,
+
+244
+00:09:57,000 --> 00:09:58,560
+derste bu noktaya
+
+245
+00:09:58,560 --> 00:10:00,600
+kadar yazdmz en karmak kod.
+
+246
+00:10:00,600 --> 00:10:02,880
+Bu yzden, muhtemelen en
+
+247
+00:10:02,880 --> 00:10:04,833
+kavramann paras, bu yntemin
+
+248
+00:10:04,833 --> 00:10:06,550
+iinde bu calcTips
+
+249
+00:10:06,550 --> 00:10:09,090
+ynteminin, be ipucunun tmn temelde
+
+250
+00:10:09,090 --> 00:10:12,370
+ayn anda hesaplayan bu dngye sahip olduudur.
+
+251
+00:10:12,370 --> 00:10:14,370
+Biri dierinden sonra, ama otomatik olarak.
+
+252
+00:10:14,370 --> 00:10:15,550
+Yani, tam da
+
+253
+00:10:15,550 --> 00:10:17,100
+bu yzden bu dngy kullandk.
+
+254
+00:10:17,100 --> 00:10:19,430
+Tamam, bu tr kafa kartrc
+
+255
+00:10:19,430 --> 00:10:23,140
+gibi olmalyd, bu nokta faturalar nokta uzunluu.
+
+256
+00:10:23,140 --> 00:10:26,130
+Fatura dizisini ilk okuduumuz yerde, imdiki
+
+257
+00:10:26,130 --> 00:10:27,360
+nesneyi ve
+
+258
+00:10:27,360 --> 00:10:28,280
+oradan da
+
+259
+00:10:28,280 --> 00:10:29,430
+uzunluu alrz.
+
+260
+00:10:29,430 --> 00:10:33,900
+Tamam, o zaman imdiki faturay alyoruz.
+
+261
+00:10:33,900 --> 00:10:35,130
+yleyse, imdiki
+
+262
+00:10:35,130 --> 00:10:36,960
+deer ve oradan, temelde
+
+263
+00:10:36,960 --> 00:10:39,890
+ayn olan geri kalan ksm dier
+
+264
+00:10:39,890 --> 00:10:41,660
+zorlukta yaptmzn aynsdr.
+
+265
+00:10:41,660 --> 00:10:43,860
+Tamam, o zaman baka bir
+
+266
+00:10:43,860 --> 00:10:46,690
+zellik, bu bo dizileri burada oluturmamz
+
+267
+00:10:46,690 --> 00:10:48,380
+gerektiiydi, bylece onlar dolduruyoruz.
+
+268
+00:10:48,380 --> 00:10:51,050
+Ve belki bunu byle yapabileceimizi dndn.
+
+269
+00:10:51,050 --> 00:10:56,050
+Yani, bu nokta ipular, bu nokta final deerlerine eittir,
+
+270
+00:10:57,130 --> 00:10:59,040
+bo bir diziye eittir.
+
+271
+00:10:59,040 --> 00:11:01,060
+Yani, belki hepsini tek bir izgide yapmaya
+
+272
+00:11:01,060 --> 00:11:02,580
+aln, ama bu ie yaramayacak.
+
+273
+00:11:02,580 --> 00:11:04,330
+Yani, bu ie yaramayacaktr
+
+274
+00:11:04,330 --> 00:11:06,030
+nk bu ne anlama
+
+275
+00:11:06,030 --> 00:11:09,210
+geliyor, bu iki dizinin ayn olacadr.
+
+276
+00:11:09,210 --> 00:11:10,940
+Bu durumda, eer byle
+
+277
+00:11:10,940 --> 00:11:13,850
+yapmsanz, ipucu dizisine bir ey eklediyseniz.
+
+278
+00:11:13,850 --> 00:11:15,470
+Yani, buradaki bu, o
+
+279
+00:11:15,470 --> 00:11:18,170
+zaman siz de otomatik olarak son deerlere
+
+280
+00:11:18,170 --> 00:11:20,570
+ekleyeceksin nk onlar aslnda ayn dizide olurdu.
+
+281
+00:11:20,570 --> 00:11:22,090
+Pekala, ve bu
+
+282
+00:11:22,090 --> 00:11:23,580
+noktada size biraz
+
+283
+00:11:23,580 --> 00:11:24,580
+kafa kartrc
+
+284
+00:11:24,580 --> 00:11:26,750
+geliyorsa endielenmeyin, nk daha sonra
+
+285
+00:11:26,750 --> 00:11:29,200
+tekrar neden bu ekilde olduunu reneceiz.
+
+286
+00:11:29,200 --> 00:11:30,600
+Yani, imdi yapmanz
+
+287
+00:11:30,600 --> 00:11:31,830
+gereken ey bu
+
+288
+00:11:31,830 --> 00:11:34,690
+videodan sonra, buradaki ve zellikle de elbette
+
+289
+00:11:34,690 --> 00:11:37,290
+bu yntemde bu ynteme daha yakndan bakalm.
+
+290
+00:11:37,290 --> 00:11:39,250
+Hereyin neden burada olduu gibi
+
+291
+00:11:39,250 --> 00:11:40,860
+altn anlamaya aln ve
+
+292
+00:11:40,860 --> 00:11:43,730
+sadece sizin iin anlaml olup olmadna bakn.
+
+293
+00:11:43,730 --> 00:11:46,820
+Tamam, bu zmn ilk ksmyd.
+
+294
+00:11:46,820 --> 00:11:47,770
+imdi, bir
+
+295
+00:11:47,770 --> 00:11:50,870
+sonraki videoda, bu ikinci ksm zeceim.
+
+296
+00:11:50,870 --> 00:11:53,080
+Tamam, bunu farkl bir video iin
+
+297
+00:11:53,080 --> 00:11:55,510
+brakyorum, bylece bunu bir daha gzden geirebilir
+
+298
+00:11:55,510 --> 00:11:56,760
+ve burada neler
+
+299
+00:11:56,760 --> 00:11:58,453
+olup bittiini anladnzdan emin olun.
+

@@ -1,0 +1,500 @@
+1
+00:00:01,130 --> 00:00:02,710
+Jonas: Ento aqui vai a
+
+2
+00:00:02,710 --> 00:00:05,340
+minha soluo para o desafio de codificao nmero dois.
+
+3
+00:00:05,340 --> 00:00:08,163
+Ento, vamos comear calculando as pontuaes mdias.
+
+4
+00:00:09,090 --> 00:00:13,867
+Ento var scoreJohn  igual a, e ns temos os
+
+5
+00:00:18,370 --> 00:00:23,370
+pontos, ento 89 mais 120 mais 103 dividido por trs.
+
+6
+00:00:27,860 --> 00:00:32,860
+Ento var scoreMike  igual a 116 mais
+
+7
+00:00:37,070 --> 00:00:41,113
+94 mais 123 dividido por trs novamente.
+
+8
+00:00:42,160 --> 00:00:44,260
+Agora vamos simplesmente registr-los no console.
+
+9
+00:00:46,681 --> 00:00:48,703
+scoreJohn e scoreMike e aqui vamos ns.
+
+10
+00:00:52,030 --> 00:00:54,630
+Ento, a pontuao mdia para John 104 e Mike 111.
+
+11
+00:00:56,155 --> 00:00:58,040
+Ento, Mike  claramente o vencedor
+
+12
+00:00:58,040 --> 00:01:00,830
+aqui, e agora vamos registrar isso no console.
+
+13
+00:01:00,830 --> 00:01:02,340
+Ok, e ento o que vamos
+
+14
+00:01:02,340 --> 00:01:04,643
+fazer aqui , claro, uma declarao if else.
+
+15
+00:01:05,520 --> 00:01:10,520
+Ento d um pouco de espao aqui, e agora se
+
+16
+00:01:12,220 --> 00:01:17,220
+scoreJohn for maior que scoreMike, ento entre no console do
+
+17
+00:01:21,090 --> 00:01:26,090
+John, agora precisamos escapar dessa citao aqui, ento o time
+
+18
+00:01:26,970 --> 00:01:31,920
+de John vence com, e agora vamos incluir tambm a
+
+19
+00:01:31,920 --> 00:01:33,740
+pontuao aqui como eu
+
+20
+00:01:33,740 --> 00:01:38,110
+mencionado nas instrues, assim pontos de scoreJohn.
+
+21
+00:01:41,960 --> 00:01:46,090
+Tudo bem, e se, se for o
+
+22
+00:01:46,090 --> 00:01:48,650
+contrrio, basicamente, scoreMike 
+
+23
+00:01:49,750 --> 00:01:53,287
+maior que scoreJohn, ento vamos logar
+
+24
+00:01:57,670 --> 00:02:01,440
+que o time de Mike vence.
+
+25
+00:02:01,440 --> 00:02:06,190
+Ento aqui tambm precisamos usar a pontuao de Mike, ok?
+
+26
+00:02:06,190 --> 00:02:08,930
+E ento, e essa  a situao em que
+
+27
+00:02:08,930 --> 00:02:12,230
+h um empate, ento se a pontuao de John no for
+
+28
+00:02:12,230 --> 00:02:14,630
+maior do que a pontuao de Mike e
+
+29
+00:02:14,630 --> 00:02:17,300
+Mike tambm no  maior que John, ento significa
+
+30
+00:02:17,300 --> 00:02:19,240
+que eles tm a mesma pontuao, ok?
+
+31
+00:02:19,240 --> 00:02:21,580
+E assim est aqui neste outro bloco, e
+
+32
+00:02:21,580 --> 00:02:24,280
+assim, aqui, podemos simplesmente registrar que existe um empate.
+
+33
+00:02:30,390 --> 00:02:33,440
+Ento vamos testar, e ento sim, o
+
+34
+00:02:33,440 --> 00:02:36,110
+time de Mike vence com 111 pontos.
+
+35
+00:02:36,110 --> 00:02:41,030
+Vamos agora aumentar isso aqui, digamos para 129,
+
+36
+00:02:41,030 --> 00:02:44,200
+e agora provavelmente John ganha.
+
+37
+00:02:44,200 --> 00:02:47,290
+E sim, aqui vamos ns, ento agora o time de John ganha.
+
+38
+00:02:47,290 --> 00:02:51,980
+Agora vamos tentar ter um empate aqui.
+
+39
+00:02:51,980 --> 00:02:56,980
+Ento, ns tivemos 89 antes, vamos coloc-lo em 95, e precisamos de
+
+40
+00:02:58,010 --> 00:03:02,123
+mais alguns pontos aqui, ento vamos aumentar para 115.
+
+41
+00:03:04,030 --> 00:03:06,873
+Isso foi um pouco demais, talvez 112.
+
+42
+00:03:08,940 --> 00:03:10,823
+E agora estamos quase l, eu acho.
+
+43
+00:03:12,010 --> 00:03:15,750
+Sim, ento agora eles tm a mesma pontuao, ento ambos tm 111, e agora
+
+44
+00:03:15,750 --> 00:03:18,480
+vemos que h um empate, e  claro que nenhuma
+
+45
+00:03:18,480 --> 00:03:21,860
+dessas situaes se aplica, porque a pontuao de John no  maior
+
+46
+00:03:21,860 --> 00:03:24,300
+que a de Mike e a de Mike no
+
+47
+00:03:24,300 --> 00:03:26,980
+ maior do que a pontuao de Joo, e 
+
+48
+00:03:26,980 --> 00:03:28,570
+claro que temos um empate.
+
+49
+00:03:28,570 --> 00:03:29,980
+Ento essa  a parte mais fcil.
+
+50
+00:03:29,980 --> 00:03:33,330
+Agora vamos tambm adicionar Mary ao jogo.
+
+51
+00:03:33,330 --> 00:03:38,330
+Ento var scoreMary  igual, e vamos pegar os pontos dela.
+
+52
+00:03:42,770 --> 00:03:47,203
+Ento 97, 134 e 105.
+
+53
+00:03:48,950 --> 00:03:52,550
+Isso deve ser uma vrgula, obviamente, e agora,
+
+54
+00:03:52,550 --> 00:03:56,790
+isso deve ser mais sinais claro, desculpe por isso.
+
+55
+00:03:56,790 --> 00:04:00,803
+Ento ns adicionamos todos eles juntos e depois dividimos por trs.
+
+56
+00:04:05,330 --> 00:04:08,060
+Tambm registre-o no console apenas para ter certeza.
+
+57
+00:04:08,060 --> 00:04:11,750
+Ento ela tem 112, vamos colocar de
+
+58
+00:04:11,750 --> 00:04:16,750
+volta o que tnhamos inicialmente, ento eram 89, e agora
+
+59
+00:04:17,330 --> 00:04:20,090
+temos essas trs pontuaes diferentes, certo?
+
+60
+00:04:20,090 --> 00:04:23,210
+Ento vamos nos livrar dessa parte, e
+
+61
+00:04:23,210 --> 00:04:27,300
+eu no vou deletar, vou comentar, e tudo bem.
+
+62
+00:04:27,300 --> 00:04:29,720
+Ento, como John pode ganhar o jogo?
+
+63
+00:04:29,720 --> 00:04:32,410
+Basicamente ele tem que ter mais pontos do que
+
+64
+00:04:32,410 --> 00:04:35,550
+o Mike e tambm mais pontos do que o Mary, certo?
+
+65
+00:04:35,550 --> 00:04:38,440
+E  isso que temos que traduzir em cdigo agora.
+
+66
+00:04:38,440 --> 00:04:42,607
+Portanto, uma declarao if else, e temos que
+
+67
+00:04:42,607 --> 00:04:47,607
+dizer que scoreJohn deve ser maior que scoreMike e
+
+68
+00:04:49,649 --> 00:04:52,820
+scoreJohn deve ser maior que scoreMary.
+
+69
+00:04:52,820 --> 00:04:54,310
+Ok e  isso.
+
+70
+00:04:54,310 --> 00:04:55,870
+Ento isso faz sentido?
+
+71
+00:04:55,870 --> 00:04:59,370
+Esse  um timo caso de uso do operador e aqui.
+
+72
+00:04:59,370 --> 00:05:02,360
+E funciona assim porque precisamos que isso seja
+
+73
+00:05:02,360 --> 00:05:06,320
+verdade e, ao mesmo tempo, precisamos que isso seja verdade.
+
+74
+00:05:06,320 --> 00:05:07,890
+Ento, a pontuao de John
+
+75
+00:05:07,890 --> 00:05:11,720
+precisa ser maior do que a de Mary e a de Mike, certo?
+
+76
+00:05:11,720 --> 00:05:14,750
+E assim, apenas nesse caso, vamos querer imprimir
+
+77
+00:05:14,750 --> 00:05:17,820
+que o time de John vence o jogo.
+
+78
+00:05:17,820 --> 00:05:21,010
+E a partir daqui,  realmente bastante simples.
+
+79
+00:05:21,010 --> 00:05:23,490
+Ento, uma vez que entendemos como a lgica funciona,
+
+80
+00:05:23,490 --> 00:05:27,210
+tudo o que temos a fazer  fazer o mesmo com os outros jogadores.
+
+81
+00:05:27,210 --> 00:05:29,900
+Ento, como Mike ganha o jogo?
+
+82
+00:05:29,900 --> 00:05:32,900
+Bem, claro que ele tem que ter
+
+83
+00:05:32,900 --> 00:05:36,010
+uma pontuao maior do que os outros dois,
+
+84
+00:05:36,010 --> 00:05:40,293
+ento o scoreMike precisa ser maior que o scoreJohn e,
+
+85
+00:05:41,934 --> 00:05:44,808
+ao mesmo tempo, marcarMike, e o que
+
+86
+00:05:44,808 --> 00:05:47,558
+aconteceu aqui, marcarMike maior que o scoreMary.
+
+87
+00:05:52,012 --> 00:05:56,679
+Ento, John, e aqui temos Mike, e claro, scoreMike.
+
+88
+00:05:57,520 --> 00:06:00,823
+E finalmente o mesmo para Maria.
+
+89
+00:06:03,450 --> 00:06:07,917
+Ento scoreMary precisa ser maior que
+
+90
+00:06:08,770 --> 00:06:13,263
+scoreJohn e scoreMary maior que scoreMike.
+
+91
+00:06:17,217 --> 00:06:20,993
+E agora dizemos que a equipe de Mary vence e aqui a pontuao de Mrio.
+
+92
+00:06:26,840 --> 00:06:30,430
+Tudo bem, agora e as outras situaes?
+
+93
+00:06:30,430 --> 00:06:33,700
+Bem, vamos usar um outro
+
+94
+00:06:33,700 --> 00:06:38,563
+aqui e dizer que h um empate, ok?
+
+95
+00:06:43,830 --> 00:06:45,520
+Ento isso realmente no cobre todas
+
+96
+00:06:45,520 --> 00:06:48,030
+as situaes diferentes aqui, mas isso no  grande coisa.
+
+97
+00:06:48,030 --> 00:06:50,060
+Ento, para este pequeno exemplo, tudo bem.
+
+98
+00:06:50,060 --> 00:06:53,230
+Imagine que Mary e John tivessem a mesma pontuao, mas
+
+99
+00:06:53,230 --> 00:06:56,960
+uma pontuao maior do que Mike, ento os dois teriam um empate,
+
+100
+00:06:56,960 --> 00:06:59,170
+mas ainda teriam mais pontos do que
+
+101
+00:06:59,170 --> 00:07:02,260
+Mike, e essa  uma das situaes em que entraremos
+
+102
+00:07:02,260 --> 00:07:05,530
+nesse outro bloco e mostrar que h um empate, ok?
+
+103
+00:07:05,530 --> 00:07:09,500
+Ento, essas trs situaes aqui s funcionam para um vencedor claro, tudo bem,
+
+104
+00:07:09,500 --> 00:07:11,500
+mas, novamente, isso no  grande coisa.
+
+105
+00:07:11,500 --> 00:07:14,030
+Ns no precisamos cobrir todas as situaes aqui.
+
+106
+00:07:14,030 --> 00:07:16,650
+Ento, esses so os mais importantes,  claro,
+
+107
+00:07:16,650 --> 00:07:19,820
+onde podemos definir qual deles  o vencedor claro.
+
+108
+00:07:19,820 --> 00:07:22,190
+Ento, vamos tentar agora e, de
+
+109
+00:07:22,190 --> 00:07:25,600
+fato, a equipe de Mary vence com 112 pontos.
+
+110
+00:07:25,600 --> 00:07:28,010
+Vamos adicionar alguns pontos aqui ao
+
+111
+00:07:28,010 --> 00:07:30,650
+Mike, e se somarmos trs pontos, ele
+
+112
+00:07:30,650 --> 00:07:34,690
+ter a mesma pontuao que o Mary, ento vamos coloc-lo em
+
+113
+00:07:34,690 --> 00:07:37,690
+19 aqui, e agora eles tm 112, e
+
+114
+00:07:37,690 --> 00:07:40,840
+assim vemos que h um empate, to perfeito.
+
+115
+00:07:40,840 --> 00:07:43,570
+E se agora aumentarmos ainda mais, digamos 29,
+
+116
+00:07:43,570 --> 00:07:48,260
+bem,  claro que a equipe de Mike tem mais pontos, e agora, finalmente,
+
+117
+00:07:48,260 --> 00:07:50,820
+vamos adicionar mais alguns pontos aqui para John,
+
+118
+00:07:50,820 --> 00:07:53,120
+s para testar que todos os trs
+
+119
+00:07:53,120 --> 00:07:55,180
+casos funcionam, e de fato, agora
+
+120
+00:07:55,180 --> 00:07:58,130
+ele tem mais pontos e  declarado vencedor.
+
+121
+00:07:58,130 --> 00:07:59,620
+timo, ento  isso.
+
+122
+00:07:59,620 --> 00:08:02,460
+Espero que voc tenha percebido e agora voc
+
+123
+00:08:02,460 --> 00:08:05,850
+est realmente pronto para finalmente passar para a prxima parte
+
+124
+00:08:05,850 --> 00:08:09,080
+desta seo de introduo, que  o tpico extremamente importante
+
+125
+00:08:09,080 --> 00:08:12,123
+das funes, ento junte-se a mim no prximo vdeo.
+

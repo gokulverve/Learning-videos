@@ -1,0 +1,652 @@
+1
+00:00:01,247 --> 00:00:03,350
+Jonas: Bir sonraki derse
+
+2
+00:00:03,350 --> 00:00:06,379
+tekrar hogeldiniz, ve bu ok nemli
+
+3
+00:00:06,379 --> 00:00:10,198
+bir ey, nk buda kod kullanarak karar almaya balayacaz.
+
+4
+00:00:10,198 --> 00:00:13,150
+Bu yzden JavaScript'in yan sra dier
+
+5
+00:00:13,150 --> 00:00:16,042
+programlama dillerinin ounda, kodumuzun sadece belirli
+
+6
+00:00:16,042 --> 00:00:18,668
+blmlerini yrtmemize veya paralar birden
+
+7
+00:00:18,668 --> 00:00:20,597
+ok kez yrtmemize olanak
+
+8
+00:00:20,597 --> 00:00:23,376
+tanyan birka kontrol yaps vardr.
+
+9
+00:00:23,376 --> 00:00:25,789
+Konuacamz ilk kontrol yaps,
+
+10
+00:00:25,789 --> 00:00:28,862
+temelde kod kullanarak karar almamza izin yine,
+
+11
+00:00:28,862 --> 00:00:33,308
+veren bir koul olan 'if / else' ifadesidir. imdi, daha nce kullanmadmz bir deiken yaratalm, ki
+
+12
+00:00:33,308 --> 00:00:35,742
+Nasl altn gstereyim. bu medeni durum iin.
+
+13
+00:00:35,742 --> 00:00:38,586
+lk olarak, baz deikenlerimizi geri getirelim. Yani, "civilStatus", ve bu temelde evli, bekar
+
+14
+00:00:38,586 --> 00:00:40,836
+Yani, ilk isim diyelim. 'John'. ya da boanm ya da bunun
+
+15
+00:00:42,235 --> 00:00:43,985
+gibi bir ey varsa diyor.
+
+16
+00:00:44,997 --> 00:00:47,909
+Sadece John'un bekar olduunu syleyelim, o yzden evli deil.
+
+17
+00:00:47,909 --> 00:00:50,477
+imdi burada yapmak istediimiz, ister evli
+
+18
+00:00:50,477 --> 00:00:53,689
+olsun ister olmasn konsola bir ip atmaktr.
+
+19
+00:00:53,689 --> 00:00:56,442
+Bunun iin bir 'if / else'
+
+20
+00:00:56,442 --> 00:00:57,902
+ifadesini kullanarak kararlar
+
+21
+00:00:57,902 --> 00:01:02,902
+alabiliriz: 'if' yazyoruz ve sonra parantez ayoruz, o zaman burada mantksal
+
+22
+00:01:03,453 --> 00:01:05,190
+bir durum yazmak zorundayz,
+
+23
+00:01:05,190 --> 00:01:09,897
+bu yzden bir Boole 'gerek' ya da 'yanl' deeri.
+
+24
+00:01:09,897 --> 00:01:12,143
+Daha nce yaptmz
+
+25
+00:01:12,143 --> 00:01:15,991
+gibi bir ey, mesela burada bu.
+
+26
+00:01:15,991 --> 00:01:17,992
+Bu 'gerek' veya 'yanl' bir deer
+
+27
+00:01:17,992 --> 00:01:20,327
+dndrecek, bu yzden mkemmel bir mantk koulu.
+
+28
+00:01:20,327 --> 00:01:23,808
+imdi, bu durumda size gsterdiim gibi daha kk bir
+
+29
+00:01:23,808 --> 00:01:25,825
+karlatrma yapmak istemiyoruz, bunun yerine
+
+30
+00:01:25,825 --> 00:01:27,671
+bir eitlik operatr istiyoruz.
+
+31
+00:01:27,671 --> 00:01:30,031
+Temel olarak, yapmak istediimiz ey Yani bu durum, eer medeni
+
+32
+00:01:30,031 --> 00:01:33,018
+medeni durumun evli olup olmadn test etmektir. durum evli ve yanl ise, doru dnecektir.
+
+33
+00:01:33,018 --> 00:01:34,747
+Bunu nasl yapacam gstereyim. Bu, yine, 'gerek' veya
+
+34
+00:01:34,747 --> 00:01:37,381
+Sivil durumun eit olduunu syleyebiliriz. 'evli'. 'yanl' dndren bir mantksal ile gibidir.
+
+35
+00:01:37,381 --> 00:01:39,970
+Ayn zamanda sadece iki eitlie sahip bir versiyon
+
+36
+00:01:39,970 --> 00:01:42,251
+var, ama birazdan sonra bunun hakknda konualm.
+
+37
+00:01:42,251 --> 00:01:44,926
+Yine bu, medeni durumun evli
+
+38
+00:01:44,926 --> 00:01:47,045
+olup olmadn test edecektir.
+
+39
+00:01:47,045 --> 00:01:49,795
+Daha sonra, kal ayralar ayoruz,
+
+40
+00:01:52,095 --> 00:01:53,178
+ve sonra Eer
+
+41
+00:01:54,136 --> 00:01:56,937
+ite bu blok, 'if' blou, ve medeni durum 'evli' ise,
+
+42
+00:01:56,937 --> 00:02:01,937
+burada imdi bizim talimatlarmz temelde yazabiliriz; bu durumda bizim konsolumuz. log () 've konsola giri buradaki metin konsola kaydedilir ve eer
+
+43
+00:02:02,131 --> 00:02:04,907
+yapmak istediimiz ey' deilse, hibir ey olmaz.
+
+44
+00:02:04,907 --> 00:02:06,704
+firstName '. evli! imdi tekrar ykleyelim ve aslnda hibir ey olmuyor.
+
+45
+00:02:06,704 --> 00:02:09,193
+nk u anda, bu
+
+46
+00:02:09,193 --> 00:02:13,089
+'yanl' oluyor nk sivil stat aslnda
+
+47
+00:02:13,089 --> 00:02:15,320
+'bekar' ve 'evli' deil.
+
+48
+00:02:15,320 --> 00:02:17,925
+Bu farkl, yani 'yanl'
+
+49
+00:02:17,925 --> 00:02:21,644
+olduunda, o zaman bu kod yrtmez.
+
+50
+00:02:21,644 --> 00:02:24,776
+Sadece iyi alp almadn grmek iin
+
+51
+00:02:24,776 --> 00:02:27,501
+burada bir kez 'evlenmek' iin deitirelim.
+
+52
+00:02:27,501 --> 00:02:31,064
+imdi diyor ki 'John evlidir! 'nk medeni durum,
+
+53
+00:02:31,064 --> 00:02:34,241
+burada' evli 'ile ayn eydir.
+
+54
+00:02:34,241 --> 00:02:35,324
+Her neyse, onu 'bekar'
+
+55
+00:02:38,666 --> 00:02:39,916
+olarak deitirelim,
+
+56
+00:02:41,961 --> 00:02:45,121
+nk imdi size 'if / else' ifadesinin 'else' ksmn gstermek istiyorum.
+
+57
+00:02:45,121 --> 00:02:46,754
+Sadece 'if' ksmna sahip
+
+58
+00:02:46,754 --> 00:02:49,516
+olabiliriz, ancak bir 'else' ifadesi de ekleyebiliriz. umarm yaknda
+
+59
+00:02:49,516 --> 00:02:52,695
+Yani, 'else' diyebiliriz, sonra burada 'else' bloumuz var. Bu, elbette, bu noktada evlenmedii anlamna gelir.
+
+60
+00:02:52,695 --> 00:02:55,240
+Bunun anlam udur; eer bu 'gerek' deilse, eer Bunu test edelim ve burada burada 'bekar'
+
+61
+00:02:55,240 --> 00:02:57,561
+'yanl' ise, o zaman 'baka' blounu yrtr. testini yapalm, ve burada bu ksm
+
+62
+00:02:57,561 --> 00:03:00,110
+Haydi test edelim. evlenecek. idam edilmeyecek, nk burada bu yanltr, ve
+
+63
+00:03:00,110 --> 00:03:02,877
+bu da 'dier' bloa doru atlayacamz anlamna
+
+64
+00:03:02,877 --> 00:03:05,673
+gelir, bu yzden buradaki metin konsola kaydedilmelidir.
+
+65
+00:03:05,673 --> 00:03:09,172
+una bak, (bir nefes alr) ve evet ie yaryor. ve hadi onu 'yanl' olarak
+
+66
+00:03:09,172 --> 00:03:13,348
+Yani, 'John yaknda mitle evlenecek'. ayarlayalm ve hadi bu durumda ne
+
+67
+00:03:13,348 --> 00:03:16,363
+imdi, aslnda Dolaysyla, bu test yerine burada
+
+68
+00:03:16,363 --> 00:03:19,863
+aslnda bir Boole deikeni olduunu syleyelim. 'isMarried' yazabilirdik ve sonra eittir 'gerek' koyabilirdik, ama bu ksm aslnda
+
+69
+00:03:20,754 --> 00:03:22,663
+'IsMarried' adnda bir deikenimiz olabilir. olduunu test edelim. gerekten gerekli deil nk bu durumda
+
+70
+00:03:22,663 --> 00:03:24,112
+burada ihtiyacmz olan ey 'gerek'
+
+71
+00:03:24,112 --> 00:03:26,852
+veya 'yanl' deer, ama bu 'isMarried' deikeni zaten bir
+
+72
+00:03:26,852 --> 00:03:28,845
+Boole'dir; u anda 'yanl' olarak ayarland,
+
+73
+00:03:28,845 --> 00:03:31,962
+ama biz onu 'doru' olarak da ayarlayabiliriz, hadi bunu yapalm.
+
+74
+00:03:31,962 --> 00:03:35,914
+Yine, burada istediimiz doru / yanl bir
+
+75
+00:03:35,914 --> 00:03:39,469
+deerdir, ama 'isMarried' zaten 'doru', zaten
+
+76
+00:03:39,469 --> 00:03:44,469
+bir Boole'dur, bu yzden bu ksm bile gerekli deildir.
+
+77
+00:03:44,523 --> 00:03:46,190
+bu mantkl m?
+
+78
+00:03:51,757 --> 00:03:54,174
+Burada, sadece doru / yanl
+
+79
+00:03:56,865 --> 00:04:01,621
+bir deere ihtiyacmz var, yani 'doru' yazmaya gerek yok.
+
+80
+00:04:01,621 --> 00:04:04,298
+Bunu test edelim, imdi diyor 'John evli! 'Burada, 173 izgisinden
+
+81
+00:04:04,298 --> 00:04:07,335
+geliyor, bu yzden burada.
+
+82
+00:04:07,335 --> 00:04:09,965
+Tabii ki, buradaki bu
+
+83
+00:04:09,965 --> 00:04:12,126
+hala, eer 'medeni durumun'
+
+84
+00:04:12,126 --> 00:04:15,804
+bekar 've' evli 'olmadn sylediimiz yerdeki'
+
+85
+00:04:15,804 --> 00:04:18,444
+if / else 'ifadesinden geliyor.
+
+86
+00:04:18,444 --> 00:04:20,898
+Bu, size burada 'gerek' ya da 'yanl' bir deeri
+
+87
+00:04:20,898 --> 00:04:22,086
+bu artlara geirmenin gerekten
+
+88
+00:04:22,086 --> 00:04:24,068
+yeterli olduunu gstermek istediim bir baka rnektir.
+
+89
+00:04:24,068 --> 00:04:27,735
+Umarm bu mantkldr ve kod
+
+90
+00:04:30,785 --> 00:04:34,002
+kullanarak kararlar nasl alabileceimizi rendiniz. Mark'tan
+
+91
+00:04:34,002 --> 00:04:36,585
+Elbette, bu bloklara, 'if' blouna Burada yaptmz eyi abucak zetleyelim.
+
+92
+00:04:39,026 --> 00:04:41,161
+ya da 'else' blouna Yani, Mark'n BMI'snn John'unkinden daha byk olup olmadn test ediyoruz.
+
+93
+00:04:41,161 --> 00:04:45,481
+ok daha zor ve ok daha karmak eyler yapabiliriz. BMIJohn 'John'un' ve tabii Bu, elbette, bildiiniz gibi, 'doru' ya da 'yanl' bir
+
+94
+00:04:45,481 --> 00:04:49,140
+imdi, bu konumay bitirmek iin, daha Bu durumda, konsola bir ey yazdrmak istiyoruz ve eer Hadi kopyalayalm, ite burada baka bir yol var. daha yksek. deer dndrecek ve bu, 'if / else' ifadesinde
+
+95
+00:04:49,140 --> 00:04:51,668
+nce kodladmz kodlama sorunumuzdan deilse, baka bir eyi de kaydetmek istiyoruz. tam olarak ihtiyacmz olan eydir.
+
+96
+00:04:51,668 --> 00:04:54,784
+kodu geri getirelim ve temelde Bu durumda, elbette 'Mark'n' ve Bu durumda, daha sonra 'Mark'n BMI's John'unkinden daha
+
+97
+00:04:54,784 --> 00:04:57,818
+konsola daha iyi bir eyler yazalm. BMIMark 'dan. imdi ka dizisine sahibiz. ki kamak. yksektir' konsoluna giri yapacak ve eer deilse,
+
+98
+00:04:57,818 --> 00:05:01,532
+Burada yaptmz ey, bu dizeyi burada, sonra bu doru eer bu burada 'false' ise, o zaman tabii ki
+
+99
+00:05:01,532 --> 00:05:04,365
+/ yanl deerle birlikte gnle kaydetmektir. John'un BMI's Mark'nkinden daha yksek olmaldr, ve
+
+100
+00:05:04,365 --> 00:05:07,474
+Bu gerekten en iyi zm deil, doru, o zaman tam olarak budur konsola ne yazyoruz?
+
+101
+00:05:07,474 --> 00:05:10,737
+sadece konsol iin doru / yanl yazdrmak iin? 'yazmak. daha byktr. imdi sadece test etmek iin 'Mark'n BMI's
+
+102
+00:05:10,737 --> 00:05:12,414
+imdi 'if / else' ifadesini John'unkinden daha yksek' diyoruz.
+
+103
+00:05:12,414 --> 00:05:14,641
+biliyorsunuz, bundan daha iyisini yapabiliriz, deil mi? '' '' Eksik, ama bu gerekten nemli deil, ve
+
+104
+00:05:14,641 --> 00:05:16,707
+Tm bunlara ramen, ne yapabiliriz, dier senaryoyu test etmek iin burada bu ktleyi
+
+105
+00:05:16,707 --> 00:05:19,495
+aslnda yorum yapalm. hzla artralm, ve imdi John'un
+
+106
+00:05:19,495 --> 00:05:22,646
+daha byk olmas gerekiyor, ve aslnda, imdi 'John'un BMI's Mark'nkinden daha yksek.
+
+107
+00:05:22,646 --> 00:05:25,722
+Onu geri koymak, ve imdi tekrar Mark'n daha
+
+108
+00:05:25,722 --> 00:05:27,749
+yksek olmas ve aslnda ie yaryor.
+
+109
+00:05:27,749 --> 00:05:29,370
+Artk kodla nasl karar alacanz biliyorsunuz.
+
+110
+00:05:29,370 --> 00:05:31,483
+Bu harika, ama bu
+
+111
+00:05:31,483 --> 00:05:34,270
+gerekten artl koullarn ve kodla karar
+
+112
+00:05:34,270 --> 00:05:37,650
+almann temelleri, yani renecek ok ey var.
+
+113
+00:05:37,650 --> 00:05:40,455
+Bir sonraki video iin bizi izlemeye devam edin!
+
+114
+00:05:40,455 --> 00:05:43,137
+&nbsp;
+
+115
+00:05:43,137 --> 00:05:46,329
+&nbsp;
+
+116
+00:05:46,329 --> 00:05:48,743
+&nbsp;
+
+117
+00:05:48,743 --> 00:05:51,365
+&nbsp;
+
+118
+00:05:51,365 --> 00:05:54,359
+&nbsp;
+
+119
+00:05:54,359 --> 00:05:56,742
+&nbsp;
+
+120
+00:05:56,742 --> 00:05:59,856
+&nbsp;
+
+121
+00:05:59,856 --> 00:06:03,520
+&nbsp;
+
+122
+00:06:03,520 --> 00:06:06,687
+&nbsp;
+
+123
+00:06:09,602 --> 00:06:12,805
+&nbsp;
+
+124
+00:06:12,805 --> 00:06:16,286
+&nbsp;
+
+125
+00:06:16,286 --> 00:06:18,413
+&nbsp;
+
+126
+00:06:18,413 --> 00:06:21,228
+&nbsp;
+
+127
+00:06:21,228 --> 00:06:23,040
+&nbsp;
+
+128
+00:06:23,040 --> 00:06:26,722
+&nbsp;
+
+129
+00:06:26,722 --> 00:06:28,532
+&nbsp;
+
+130
+00:06:28,532 --> 00:06:31,199
+&nbsp;
+
+131
+00:06:32,381 --> 00:06:34,131
+&nbsp;
+
+132
+00:06:35,556 --> 00:06:37,556
+&nbsp;
+
+133
+00:06:38,905 --> 00:06:40,322
+&nbsp;
+
+134
+00:06:41,830 --> 00:06:45,344
+&nbsp;
+
+135
+00:06:45,344 --> 00:06:49,261
+&nbsp;
+
+136
+00:06:54,421 --> 00:06:57,611
+&nbsp;
+
+137
+00:06:57,611 --> 00:07:00,028
+&nbsp;
+
+138
+00:07:05,423 --> 00:07:09,006
+&nbsp;
+
+139
+00:07:12,244 --> 00:07:16,827
+&nbsp;
+
+140
+00:07:18,916 --> 00:07:20,916
+&nbsp;
+
+141
+00:07:22,811 --> 00:07:25,930
+&nbsp;
+
+142
+00:07:25,930 --> 00:07:30,779
+&nbsp;
+
+143
+00:07:30,779 --> 00:07:32,655
+&nbsp;
+
+144
+00:07:32,655 --> 00:07:35,618
+&nbsp;
+
+145
+00:07:35,618 --> 00:07:38,035
+&nbsp;
+
+146
+00:07:38,035 --> 00:07:40,410
+&nbsp;
+
+147
+00:07:40,410 --> 00:07:43,955
+&nbsp;
+
+148
+00:07:43,955 --> 00:07:46,264
+&nbsp;
+
+149
+00:07:46,264 --> 00:07:48,775
+&nbsp;
+
+150
+00:07:48,775 --> 00:07:52,984
+&nbsp;
+
+151
+00:07:52,984 --> 00:07:56,107
+&nbsp;
+
+152
+00:07:56,107 --> 00:07:59,264
+&nbsp;
+
+153
+00:07:59,264 --> 00:08:01,451
+&nbsp;
+
+154
+00:08:01,451 --> 00:08:04,700
+&nbsp;
+
+155
+00:08:04,700 --> 00:08:08,583
+&nbsp;
+
+156
+00:08:08,583 --> 00:08:12,833
+&nbsp;
+
+157
+00:08:14,496 --> 00:08:16,140
+&nbsp;
+
+158
+00:08:16,140 --> 00:08:19,771
+&nbsp;
+
+159
+00:08:19,771 --> 00:08:22,606
+&nbsp;
+
+160
+00:08:22,606 --> 00:08:25,230
+&nbsp;
+
+161
+00:08:25,230 --> 00:08:28,375
+&nbsp;
+
+162
+00:08:28,375 --> 00:08:31,111
+&nbsp;
+
+163
+00:08:31,111 --> 00:08:33,694
+&nbsp;
+

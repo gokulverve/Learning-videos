@@ -1,0 +1,500 @@
+1
+00:00:01,130 --> 00:00:02,710
+Jonas: te burada
+
+2
+00:00:02,710 --> 00:00:05,340
+zmmn ikinci numara kodlama zmm.
+
+3
+00:00:05,340 --> 00:00:08,163
+Yani ortalama puanlar hesaplayarak balayalm.
+
+4
+00:00:09,090 --> 00:00:13,867
+Yani var scoreJohn eittir ve puanlarmz var,
+
+5
+00:00:18,370 --> 00:00:23,370
+yani 89 art 120 art 103 e blnd.
+
+6
+00:00:27,860 --> 00:00:32,860
+Daha sonra var scoreMike, 116 art 94
+
+7
+00:00:37,070 --> 00:00:41,113
+art 123'e eittir, tekrar e blnr.
+
+8
+00:00:42,160 --> 00:00:44,260
+imdi bunlar sadece konsola kaydedelim.
+
+9
+00:00:46,681 --> 00:00:48,703
+SkorJohn ve skorMike ve ite balyoruz.
+
+10
+00:00:52,030 --> 00:00:54,630
+Yani John 104 ve Mike 111 iin ortalama skor.
+
+11
+00:00:56,155 --> 00:00:58,040
+Bu yzden Mike kesinlikle kazanan
+
+12
+00:00:58,040 --> 00:01:00,830
+oldu, ve imdi de bunu konsola kaydedelim.
+
+13
+00:01:00,830 --> 00:01:02,340
+Tamam, ve burada yapacamz
+
+14
+00:01:02,340 --> 00:01:04,643
+ey elbette bir baka ifade.
+
+15
+00:01:05,520 --> 00:01:10,520
+Buraya biraz yer an, ve eer skorJohn skordan
+
+16
+00:01:12,220 --> 00:01:17,220
+daha bykse, o zaman John'un u anda bu
+
+17
+00:01:21,090 --> 00:01:26,090
+alntdan kamas gerektiine dair konsola giri yapalm, bylece
+
+18
+00:01:26,970 --> 00:01:31,920
+John'un takm kazanr, ve imdi de skoru burada
+
+19
+00:01:31,920 --> 00:01:33,740
+da dahil edelim.
+
+20
+00:01:33,740 --> 00:01:38,110
+talimatlarda belirtilen, bu yzden puanJohn noktalar.
+
+21
+00:01:41,960 --> 00:01:46,090
+Tamam, ve eer, eer temelde baka bir
+
+22
+00:01:46,090 --> 00:01:48,650
+yol buysa, bu yzden
+
+23
+00:01:49,750 --> 00:01:53,287
+skorMike, skorJohn'dan daha bykse, o zaman
+
+24
+00:01:57,670 --> 00:02:01,440
+Mike'n takmnn kazand gnlk kayd yapalm.
+
+25
+00:02:01,440 --> 00:02:06,190
+O zaman burada Mike skorunu da kullanmalyz, tamam m?
+
+26
+00:02:06,190 --> 00:02:08,930
+Ve sonra, ve bu bir beraberliin olduu
+
+27
+00:02:08,930 --> 00:02:12,230
+durumdur, bu yzden eer John'un puan Mike'dan daha byk
+
+28
+00:02:12,230 --> 00:02:14,630
+deilse ve Mike'n puan da John'dan
+
+29
+00:02:14,630 --> 00:02:17,300
+daha byk deilse, o zaman ayn skora
+
+30
+00:02:17,300 --> 00:02:19,240
+sahip olduklar anlamna gelir, tamam m?
+
+31
+00:02:19,240 --> 00:02:21,580
+Ve ite burada bu dier blokta,
+
+32
+00:02:21,580 --> 00:02:24,280
+ve burada sadece bir ekili olduunu kaydedebiliriz.
+
+33
+00:02:30,390 --> 00:02:33,440
+Haydi test edelim, ve evet,
+
+34
+00:02:33,440 --> 00:02:36,110
+Mike'n takm 111 puanla kazand.
+
+35
+00:02:36,110 --> 00:02:41,030
+imdi bunu burada artralm, diyelim ki 129'a, ve
+
+36
+00:02:41,030 --> 00:02:44,200
+imdi de muhtemelen John kazanr.
+
+37
+00:02:44,200 --> 00:02:47,290
+Ve evet, ite balyoruz, imdi John'un takm kazanyor.
+
+38
+00:02:47,290 --> 00:02:51,980
+imdi burada bir kravat bulmaya alalm.
+
+39
+00:02:51,980 --> 00:02:56,980
+Yani daha nce 89 tane vard, hadi 95'e verelim, ve burada daha
+
+40
+00:02:58,010 --> 00:03:02,123
+fazla noktaya ihtiyacmz var, bu yzden bunu 115'e kartalm.
+
+41
+00:03:04,030 --> 00:03:06,873
+Bu biraz fazla oldu, belki 112.
+
+42
+00:03:08,940 --> 00:03:10,823
+Ve imdi neredeyse oradayz sanrm.
+
+43
+00:03:12,010 --> 00:03:15,750
+Evet, imdi ayn skorlara sahipler, bu yzden her ikisi de 111
+
+44
+00:03:15,750 --> 00:03:18,480
+var, ve imdi bir ekili olduunu gryoruz, ve
+
+45
+00:03:18,480 --> 00:03:21,860
+tabii ki buradaki durumlarn hibiri geerli deil, nk John'un puan
+
+46
+00:03:21,860 --> 00:03:24,300
+Mike'n skorundan daha byk deil ve Mike'n
+
+47
+00:03:24,300 --> 00:03:26,980
+puan John'un skorundan daha byk deil, ve elbette
+
+48
+00:03:26,980 --> 00:03:28,570
+bir beraberliimiz var.
+
+49
+00:03:28,570 --> 00:03:29,980
+Yani bu daha kolay ksm.
+
+50
+00:03:29,980 --> 00:03:33,330
+imdi de Mary'yi oyuna ekleyelim.
+
+51
+00:03:33,330 --> 00:03:38,330
+Yani var scoreMary eittir ve onun puanlarn alalm.
+
+52
+00:03:42,770 --> 00:03:47,203
+Yani 97, 134 ve 105.
+
+53
+00:03:48,950 --> 00:03:52,550
+Bu, ak bir ekilde bir virgl olmalyd
+
+54
+00:03:52,550 --> 00:03:56,790
+ve imdi, bunun iin elbette zc iaretler olmal.
+
+55
+00:03:56,790 --> 00:04:00,803
+Bu yzden hepsini bir araya toplayp e bleriz.
+
+56
+00:04:05,330 --> 00:04:08,060
+Ayrca emin olmak iin sadece konsola giri yapn.
+
+57
+00:04:08,060 --> 00:04:11,750
+Yani, 112'si var, en bata ne yaptmz
+
+58
+00:04:11,750 --> 00:04:16,750
+geri alalm, bu yzden 89, ve imdi bu  farkl
+
+59
+00:04:17,330 --> 00:04:20,090
+puana sahip olduk, tamam m?
+
+60
+00:04:20,090 --> 00:04:23,210
+yleyse bu ksmdan kurtulalm ve
+
+61
+00:04:23,210 --> 00:04:27,300
+onu silmeyeceim, sadece yorum yapacam ve tamam.
+
+62
+00:04:27,300 --> 00:04:29,720
+John oyunu nasl kazanabilir?
+
+63
+00:04:29,720 --> 00:04:32,410
+Temel olarak Mike'dan daha fazla ve
+
+64
+00:04:32,410 --> 00:04:35,550
+Mary'den daha fazla puan almal, deil mi?
+
+65
+00:04:35,550 --> 00:04:38,440
+Ve bu yzden imdi kodlara tercme etmek zorundayz.
+
+66
+00:04:38,440 --> 00:04:42,607
+Yani bir baka ifade varsa, ve skorJohn'un
+
+67
+00:04:42,607 --> 00:04:47,607
+scoreMike'den daha byk olmas gerektiini ve skorJohn'un scoreMary'den
+
+68
+00:04:49,649 --> 00:04:52,820
+daha byk olmas gerektiini sylemeliyiz.
+
+69
+00:04:52,820 --> 00:04:54,310
+Tamam. Bu kadar m.
+
+70
+00:04:54,310 --> 00:04:55,870
+Yani bu mantkl m?
+
+71
+00:04:55,870 --> 00:04:59,370
+Bu, ilecin harika bir kullanm rneidir.
+
+72
+00:04:59,370 --> 00:05:02,360
+Ve bu ekilde alyor nk biz bunun doru olmas
+
+73
+00:05:02,360 --> 00:05:06,320
+iin buna ihtiyacmz var ve ayn zamanda bunun doru olmasna ihtiyacmz var.
+
+74
+00:05:06,320 --> 00:05:07,890
+Yani John'un skorunun hem
+
+75
+00:05:07,890 --> 00:05:11,720
+Mary hem de Mike'dan daha byk olmas gerekiyor, tamam m?
+
+76
+00:05:11,720 --> 00:05:14,750
+Ve sadece bu durumda, John'un
+
+77
+00:05:14,750 --> 00:05:17,820
+takmnn oyunu kazanacan yazdrmak isteyeceiz.
+
+78
+00:05:17,820 --> 00:05:21,010
+Ve sonra buradan, aslnda olduka basit.
+
+79
+00:05:21,010 --> 00:05:23,490
+Bylece, mantn nasl altn anladktan sonra,
+
+80
+00:05:23,490 --> 00:05:27,210
+tek yapmamz gereken, dier oyuncular iin ayn eyi yapmaktr.
+
+81
+00:05:27,210 --> 00:05:29,900
+Mike oyunu nasl kazanr?
+
+82
+00:05:29,900 --> 00:05:32,900
+Tabii ki dier ikiden daha byk
+
+83
+00:05:32,900 --> 00:05:36,010
+bir puana sahip olmal, bu yzden
+
+84
+00:05:36,010 --> 00:05:40,293
+skorMike'n skordan daha byk olmas gerekiyor ve ayn
+
+85
+00:05:41,934 --> 00:05:44,808
+zamanda, skor puanlar ve burada ne
+
+86
+00:05:44,808 --> 00:05:47,558
+oldu, SkorMary'den daha byk skorlar.
+
+87
+00:05:52,012 --> 00:05:56,679
+yleyse John, ite Mike ve tabii ki de skorumuz var.
+
+88
+00:05:57,520 --> 00:06:00,823
+Ve sonunda Mary iin de ayns.
+
+89
+00:06:03,450 --> 00:06:07,917
+Yani, scoreMary'nin skorJohn'dan daha byk olmas
+
+90
+00:06:08,770 --> 00:06:13,263
+ve scoreMike'n scoreMike'den daha byk olmas gerekir.
+
+91
+00:06:17,217 --> 00:06:20,993
+Ve imdi diyoruz ki Mary'nin takm kazanr ve burada skoruMary.
+
+92
+00:06:26,840 --> 00:06:30,430
+Tamam, imdi dier durumlardan ne haber?
+
+93
+00:06:30,430 --> 00:06:33,700
+Hadi burada baka bir tane
+
+94
+00:06:33,700 --> 00:06:38,563
+kullanalm ve bir beraberlik olduunu syle, tamam m?
+
+95
+00:06:43,830 --> 00:06:45,520
+Bu, buradaki tm farkl durumlar
+
+96
+00:06:45,520 --> 00:06:48,030
+kapsamyor, ama bu byk bir sorun deil.
+
+97
+00:06:48,030 --> 00:06:50,060
+Yani bu kk rnek iin sorun deil.
+
+98
+00:06:50,060 --> 00:06:53,230
+Mary ve John'un ayn puan aldklarn, ama Mike'dan daha
+
+99
+00:06:53,230 --> 00:06:56,960
+byk bir skoru olduunu hayal edin, bu yzden ikisi de bir
+
+100
+00:06:56,960 --> 00:06:59,170
+kravat olurdu, ama yine de Mike'dan
+
+101
+00:06:59,170 --> 00:07:02,260
+daha fazla puan alacakt, ve bu da bu bloa
+
+102
+00:07:02,260 --> 00:07:05,530
+gireceimiz durumlardan biri. ve bir beraberlik olduunu gster, tamam m?
+
+103
+00:07:05,530 --> 00:07:09,500
+Yani buradaki  durum, sadece ak bir kazanan iin alyor, tamam, ama yine
+
+104
+00:07:09,500 --> 00:07:11,500
+de bu byk bir anlama deil.
+
+105
+00:07:11,500 --> 00:07:14,030
+Burada her durumu ele almamz gerekmiyor.
+
+106
+00:07:14,030 --> 00:07:16,650
+Yani bunlar hangisinin en ak
+
+107
+00:07:16,650 --> 00:07:19,820
+galeri olduunu tanmlayabileceimiz daha nemli.
+
+108
+00:07:19,820 --> 00:07:22,190
+imdi deneyelim, ve
+
+109
+00:07:22,190 --> 00:07:25,600
+Mary'nin takm 112 puanla kazand.
+
+110
+00:07:25,600 --> 00:07:28,010
+Mike'a biraz puan ekleyelim, ve eer
+
+111
+00:07:28,010 --> 00:07:30,650
+ puan eklersek, o zaman Mary
+
+112
+00:07:30,650 --> 00:07:34,690
+ile ayn puana sahip olacak, o zaman 19'a getirelim, ve
+
+113
+00:07:34,690 --> 00:07:37,690
+imdi ikisi de 112'ye sahip, ve biz
+
+114
+00:07:37,690 --> 00:07:40,840
+de bir beraberlik olduunu gryoruz, ok mkemmel.
+
+115
+00:07:40,840 --> 00:07:43,570
+Ve imdi bunu daha da arttrrsak,
+
+116
+00:07:43,570 --> 00:07:48,260
+29 diyelim ki, tabii ki Mike'n takm en fazla puana sahip
+
+117
+00:07:48,260 --> 00:07:50,820
+ve imdi nihayetinde bu  davann
+
+118
+00:07:50,820 --> 00:07:53,120
+alp almadn test etmek iin
+
+119
+00:07:53,120 --> 00:07:55,180
+John'a daha fazla puan ekleyelim.
+
+120
+00:07:55,180 --> 00:07:58,130
+En ok puan vardr ve kazanan ilan edilir.
+
+121
+00:07:58,130 --> 00:07:59,620
+Harika, yani bu kadar.
+
+122
+00:07:59,620 --> 00:08:02,460
+Umarm bunu anlarsnz ve bu yzden
+
+123
+00:08:02,460 --> 00:08:05,850
+imdi son derece nemli olan bu giri
+
+124
+00:08:05,850 --> 00:08:09,080
+blmnn bir sonraki blmne gemeye gerekten hazrsnz,
+
+125
+00:08:09,080 --> 00:08:12,123
+bu yzden bir sonraki videoda bana katln.
+

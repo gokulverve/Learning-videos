@@ -1,0 +1,500 @@
+1
+00:00:01,130 --> 00:00:02,710
+Jonas: As que aqu va
+
+2
+00:00:02,710 --> 00:00:05,340
+mi solucin para codificar el desafo nmero dos.
+
+3
+00:00:05,340 --> 00:00:08,163
+Comencemos por calcular los puntajes promedio.
+
+4
+00:00:09,090 --> 00:00:13,867
+As que var scoreJohn es igual a, y tenemos los
+
+5
+00:00:18,370 --> 00:00:23,370
+puntos, entonces 89 ms 120 ms 103 dividido por tres.
+
+6
+00:00:27,860 --> 00:00:32,860
+Entonces var scoreMike es igual a 116 ms 94
+
+7
+00:00:37,070 --> 00:00:41,113
+ms 123 dividido por tres de nuevo.
+
+8
+00:00:42,160 --> 00:00:44,260
+Ahora simplemente registremos esto en la consola.
+
+9
+00:00:46,681 --> 00:00:48,703
+scoreJohn y scoreMike y aqu vamos.
+
+10
+00:00:52,030 --> 00:00:54,630
+Entonces, el puntaje promedio para John 104, y para Mike 111.
+
+11
+00:00:56,155 --> 00:00:58,040
+As que Mike es claramente el ganador
+
+12
+00:00:58,040 --> 00:01:00,830
+aqu, as que vamos a registrar eso en la consola.
+
+13
+00:01:00,830 --> 00:01:02,340
+Est bien, y entonces lo que vamos
+
+14
+00:01:02,340 --> 00:01:04,643
+a hacer aqu es, por supuesto, una declaracin if else.
+
+15
+00:01:05,520 --> 00:01:10,520
+As que dale un poco de espacio aqu, y ahora si
+
+16
+00:01:12,220 --> 00:01:17,220
+ScoreJohn es mayor que ScoreMike, entonces registrate en la consola que
+
+17
+00:01:21,090 --> 00:01:26,090
+John's, ahora tenemos que escapar de esta cita aqu, para que
+
+18
+00:01:26,970 --> 00:01:31,920
+el equipo de John gane, y ahora vamos a incluir
+
+19
+00:01:31,920 --> 00:01:33,740
+el puntaje aqu. mencionado
+
+20
+00:01:33,740 --> 00:01:38,110
+en las instrucciones, por lo que puntaJohn seala.
+
+21
+00:01:41,960 --> 00:01:46,090
+De acuerdo, y si, si es al
+
+22
+00:01:46,090 --> 00:01:48,650
+revs bsicamente, entonces scoreMike es
+
+23
+00:01:49,750 --> 00:01:53,287
+mayor que ScoreJohn, entonces vamos a
+
+24
+00:01:57,670 --> 00:02:01,440
+registrar que el equipo de Mike gana.
+
+25
+00:02:01,440 --> 00:02:06,190
+Entonces aqu tambin necesitamos usar el puntaje de Mike, de acuerdo?
+
+26
+00:02:06,190 --> 00:02:08,930
+Y luego, y esa es la situacin en la que
+
+27
+00:02:08,930 --> 00:02:12,230
+hay un empate, as que si el puntaje de John no es
+
+28
+00:02:12,230 --> 00:02:14,630
+mayor que el puntaje de Mike y Mike
+
+29
+00:02:14,630 --> 00:02:17,300
+tampoco es mayor que el de John, entonces significa
+
+30
+00:02:17,300 --> 00:02:19,240
+que tienen el mismo puntaje, de acuerdo?
+
+31
+00:02:19,240 --> 00:02:21,580
+Y eso est aqu en este bloque ms,
+
+32
+00:02:21,580 --> 00:02:24,280
+y aqu podemos simplemente registrar que hay un sorteo.
+
+33
+00:02:30,390 --> 00:02:33,440
+As que vamos a probarlo, y as que s,
+
+34
+00:02:33,440 --> 00:02:36,110
+el equipo de Mike gana con 111 puntos.
+
+35
+00:02:36,110 --> 00:02:41,030
+Aumentemos esto aqu, digamos a 129, y
+
+36
+00:02:41,030 --> 00:02:44,200
+entonces ahora probablemente John gane.
+
+37
+00:02:44,200 --> 00:02:47,290
+Y s, aqu vamos, entonces ahora gana el equipo de John.
+
+38
+00:02:47,290 --> 00:02:51,980
+Ahora intentemos empatar aqu.
+
+39
+00:02:51,980 --> 00:02:56,980
+As que tuvimos 89 antes, pongmoslo en 95, y necesitamos
+
+40
+00:02:58,010 --> 00:03:02,123
+ms puntos aqu, as que aumentemos esto a 115.
+
+41
+00:03:04,030 --> 00:03:06,873
+Eso fue un poco demasiado, 112 tal vez.
+
+42
+00:03:08,940 --> 00:03:10,823
+Y ahora estamos casi all, supongo.
+
+43
+00:03:12,010 --> 00:03:15,750
+S, ahora tienen los mismos puntajes, as que ambos tienen 111, y ahora vemos
+
+44
+00:03:15,750 --> 00:03:18,480
+que hay un sorteo, y por supuesto no se aplica
+
+45
+00:03:18,480 --> 00:03:21,860
+ninguna de estas situaciones, porque el puntaje de John no es mayor
+
+46
+00:03:21,860 --> 00:03:24,300
+que el puntaje de Mike, y el puntaje de
+
+47
+00:03:24,300 --> 00:03:26,980
+Mike no es mayor que el puntaje de John, y
+
+48
+00:03:26,980 --> 00:03:28,570
+por supuesto tenemos un sorteo.
+
+49
+00:03:28,570 --> 00:03:29,980
+Entonces esa es la parte ms fcil.
+
+50
+00:03:29,980 --> 00:03:33,330
+Ahora agreguemos a Mary al juego.
+
+51
+00:03:33,330 --> 00:03:38,330
+As que var scoreMary es igual, y vamos a obtener sus puntos.
+
+52
+00:03:42,770 --> 00:03:47,203
+Entonces 97, 134 y 105.
+
+53
+00:03:48,950 --> 00:03:52,550
+Esto debera ser una coma, obviamente, y ahora,
+
+54
+00:03:52,550 --> 00:03:56,790
+esto debera ser ms signos, por supuesto, perdn por eso.
+
+55
+00:03:56,790 --> 00:04:00,803
+As que los sumamos a todos y luego los dividimos por tres.
+
+56
+00:04:05,330 --> 00:04:08,060
+Tambin inicie sesin en la consola solo para asegurarse.
+
+57
+00:04:08,060 --> 00:04:11,750
+As que ella tiene 112, volvamos a
+
+58
+00:04:11,750 --> 00:04:16,750
+lo que tenamos inicialmente, entonces era 89, y ahora tenemos
+
+59
+00:04:17,330 --> 00:04:20,090
+estos tres puntajes diferentes, est bien?
+
+60
+00:04:20,090 --> 00:04:23,210
+As que deshagmonos de esta parte, y
+
+61
+00:04:23,210 --> 00:04:27,300
+no voy a eliminarla, solo la comentar, y est bien.
+
+62
+00:04:27,300 --> 00:04:29,720
+Entonces, cmo puede John ganar el juego?
+
+63
+00:04:29,720 --> 00:04:32,410
+Bsicamente tiene que tener ms puntos que
+
+64
+00:04:32,410 --> 00:04:35,550
+Mike y tambin ms puntos que Mary, verdad?
+
+65
+00:04:35,550 --> 00:04:38,440
+Y entonces eso es lo que tenemos que traducir en cdigo ahora.
+
+66
+00:04:38,440 --> 00:04:42,607
+Entonces una declaracin if else, y tenemos que
+
+67
+00:04:42,607 --> 00:04:47,607
+decir que scoreJohn debera ser mayor que scoreMike y
+
+68
+00:04:49,649 --> 00:04:52,820
+scoreJohn debera ser mayor que scoreMary.
+
+69
+00:04:52,820 --> 00:04:54,310
+De acuerdo y eso es todo.
+
+70
+00:04:54,310 --> 00:04:55,870
+Eso tiene sentido?
+
+71
+00:04:55,870 --> 00:04:59,370
+Ese es un gran caso de uso del operador y aqu.
+
+72
+00:04:59,370 --> 00:05:02,360
+Y funciona as porque necesitamos que esto sea
+
+73
+00:05:02,360 --> 00:05:06,320
+cierto y, al mismo tiempo, necesitamos que esto sea cierto.
+
+74
+00:05:06,320 --> 00:05:07,890
+Entonces, el puntaje de John
+
+75
+00:05:07,890 --> 00:05:11,720
+debe ser mayor que el de Mary y el de Mike, est bien?
+
+76
+00:05:11,720 --> 00:05:14,750
+Entonces, solo en ese caso, querremos imprimir
+
+77
+00:05:14,750 --> 00:05:17,820
+que el equipo de John gana el juego.
+
+78
+00:05:17,820 --> 00:05:21,010
+Y luego desde aqu, en realidad es bastante sencillo.
+
+79
+00:05:21,010 --> 00:05:23,490
+Entonces, una vez que entendemos cmo funciona la lgica,
+
+80
+00:05:23,490 --> 00:05:27,210
+todo lo que tenemos que hacer es hacer lo mismo con los otros jugadores.
+
+81
+00:05:27,210 --> 00:05:29,900
+Entonces, cmo Mike gana el juego?
+
+82
+00:05:29,900 --> 00:05:32,900
+Bueno, por supuesto, tiene que tener un
+
+83
+00:05:32,900 --> 00:05:36,010
+puntaje mayor que los otros dos, por lo
+
+84
+00:05:36,010 --> 00:05:40,293
+que ScoreMike debe ser mayor que el puntaje de John
+
+85
+00:05:41,934 --> 00:05:44,808
+y, al mismo tiempo, puntajeMike, y lo
+
+86
+00:05:44,808 --> 00:05:47,558
+que sucedi aqu, puntajeMike mayor que puntuacinMary.
+
+87
+00:05:52,012 --> 00:05:56,679
+Entonces John, y aqu tenemos a Mike, y por supuesto a ScoreMike.
+
+88
+00:05:57,520 --> 00:06:00,823
+Y finalmente, lo mismo para Mary.
+
+89
+00:06:03,450 --> 00:06:07,917
+Entonces, ScoreMary necesita ser ms grande que
+
+90
+00:06:08,770 --> 00:06:13,263
+ScoreJohn, y ScoreMary es mayor que ScoreMike.
+
+91
+00:06:17,217 --> 00:06:20,993
+Y ahora decimos que el equipo de Mary gana y aqu el scoreMary.
+
+92
+00:06:26,840 --> 00:06:30,430
+Bien, y las otras situaciones?
+
+93
+00:06:30,430 --> 00:06:33,700
+Bueno, usemos otro aqu y
+
+94
+00:06:33,700 --> 00:06:38,563
+digamos que hay un sorteo, est bien?
+
+95
+00:06:43,830 --> 00:06:45,520
+Entonces esto realmente no cubre todas
+
+96
+00:06:45,520 --> 00:06:48,030
+las diferentes situaciones aqu, pero eso no es gran cosa.
+
+97
+00:06:48,030 --> 00:06:50,060
+Entonces, para este pequeo ejemplo, est bien.
+
+98
+00:06:50,060 --> 00:06:53,230
+Imagine que Mary y John tenan el mismo puntaje, pero un
+
+99
+00:06:53,230 --> 00:06:56,960
+puntaje mayor que Mike, por lo que los dos tendran un empate, pero
+
+100
+00:06:56,960 --> 00:06:59,170
+an as tendran ms puntos que Mike, y
+
+101
+00:06:59,170 --> 00:07:02,260
+esa es una de las situaciones en las que entraremos en
+
+102
+00:07:02,260 --> 00:07:05,530
+este bloque y mostrar que hay un sorteo, de acuerdo?
+
+103
+00:07:05,530 --> 00:07:09,500
+Entonces estas tres situaciones aqu solo funcionan para un ganador claro, est bien, pero una
+
+104
+00:07:09,500 --> 00:07:11,500
+vez ms eso no es gran cosa.
+
+105
+00:07:11,500 --> 00:07:14,030
+No necesitamos cubrir cada situacin aqu.
+
+106
+00:07:14,030 --> 00:07:16,650
+As que estos son los ms importantes, por
+
+107
+00:07:16,650 --> 00:07:19,820
+supuesto, donde podemos definir cul es el claro ganador.
+
+108
+00:07:19,820 --> 00:07:22,190
+As que probemos ahora, y de
+
+109
+00:07:22,190 --> 00:07:25,600
+hecho el equipo de Mary gana con 112 puntos.
+
+110
+00:07:25,600 --> 00:07:28,010
+Agreguemos algunos puntos aqu a Mike,
+
+111
+00:07:28,010 --> 00:07:30,650
+y si sumamos tres puntos, entonces tendr
+
+112
+00:07:30,650 --> 00:07:34,690
+el mismo puntaje que Mary, as que pongmoslo a 19
+
+113
+00:07:34,690 --> 00:07:37,690
+aqu, y ahora tienen ambos 112, y
+
+114
+00:07:37,690 --> 00:07:40,840
+entonces vemos que hay un empate, tan perfecto.
+
+115
+00:07:40,840 --> 00:07:43,570
+Y si ahora aumentamos esto an ms, digamos 29,
+
+116
+00:07:43,570 --> 00:07:48,260
+entonces, por supuesto, el equipo de Mike tiene la mayor cantidad de puntos, y ahora
+
+117
+00:07:48,260 --> 00:07:50,820
+finalmente agreguemos algunos puntos ms a John, solo
+
+118
+00:07:50,820 --> 00:07:53,120
+para probar que los tres casos funcionan,
+
+119
+00:07:53,120 --> 00:07:55,180
+y de hecho, ahora l tiene
+
+120
+00:07:55,180 --> 00:07:58,130
+la mayor cantidad de puntos y es declarado ganador.
+
+121
+00:07:58,130 --> 00:07:59,620
+Genial, eso es todo.
+
+122
+00:07:59,620 --> 00:08:02,460
+Espero que lo hayas descifrado, as que ahora ests
+
+123
+00:08:02,460 --> 00:08:05,850
+realmente listo para pasar a la siguiente parte de esta seccin
+
+124
+00:08:05,850 --> 00:08:09,080
+de introduccin, que es el tema de las funciones ms
+
+125
+00:08:09,080 --> 00:08:12,123
+importante, as que nete a m en el siguiente video.
+

@@ -1,0 +1,912 @@
+1
+00:00:00,890 --> 00:00:07,320
+Hey bu derste, operatrler ve operatr ncelikleri hakknda konumaya devam edeceiz.
+
+2
+00:00:07,340 --> 00:00:13,430
+yleyse, rnein, John'un sadece doduu yla gre tam bir ya olup olmadn hesaplamak
+
+3
+00:00:13,520 --> 00:00:14,480
+istediimizi varsayalm.
+
+4
+00:00:14,840 --> 00:00:17,010
+yleyse ilk nce birka deikene deinelim.
+
+5
+00:00:17,300 --> 00:00:19,790
+imdi, 2018, Don
+
+6
+00:00:22,710 --> 00:00:30,990
+dodu 1989 yl oldu ve sonra biz de ya deikeni iin tanmlamak.
+
+7
+00:00:31,970 --> 00:00:35,370
+Ve bu resmen tam yata olduunuz yanz.
+
+8
+00:00:35,420 --> 00:00:39,050
+Yani Avrupann ounda 18de belki Uda. S. 21.
+
+9
+00:00:39,050 --> 00:00:42,540
+Emin deilim ama bu rnek iin 18 kullanalm.
+
+10
+00:00:42,710 --> 00:00:43,220
+TAMAM.
+
+11
+00:00:43,400 --> 00:00:49,040
+Ve biz de bunu yapabiliriz, ya hesaplamak ve daha sonra burada bir ekiple karlatrmak ve tabiki
+
+12
+00:00:49,130 --> 00:00:50,380
+eittir iareti eksik.
+
+13
+00:00:50,660 --> 00:00:54,860
+Ve yapmak istediim, bu hesaplamann tmn tek bir satrda yapmaktr.
+
+14
+00:00:55,150 --> 00:00:55,820
+TAMAM.
+
+15
+00:00:55,940 --> 00:01:05,300
+Yani ubuk sekiz dolu ve imdi eksi yl John'a eit.
+
+16
+00:01:05,360 --> 00:01:11,720
+Ve yan hesaplayacak ve daha sonra tam yana eit veya daha byk olup olmadn test edecek.
+
+17
+00:01:12,350 --> 00:01:12,770
+TAMAM.
+
+18
+00:01:12,890 --> 00:01:14,180
+Yani mantkl deil.
+
+19
+00:01:14,450 --> 00:01:17,830
+O zaman una bir bakalm ve bunun neden ie yaradn anlamaya alalm.
+
+20
+00:01:17,930 --> 00:01:20,240
+Yani aslnda iki operatrmz olduunu greceksiniz.
+
+21
+00:01:20,270 --> 00:01:25,450
+Kklerimiz var ve bu mantksal olarak hepsi bir satrda daha byk veya eit bir operatr.
+
+22
+00:01:25,460 --> 00:01:26,390
+Yani hepsi burada.
+
+23
+00:01:26,550 --> 00:01:30,590
+imdi, dabbas'n, hangi operatrn ilk nce hangi operatr altrdn bilmesi mmkn.
+
+24
+00:01:30,650 --> 00:01:33,950
+nk bu sene ilkinin gerekletirileceini hayal edin.
+
+25
+00:01:34,130 --> 00:01:39,620
+Bu yzden, eer John'unuz, gerek ya da yanl bir deer dndrecek daha byk ya da eit yata olup
+
+26
+00:01:39,860 --> 00:01:43,350
+olmadn sorar ve imdi bu doru ya da yanl deeri karrdk.
+
+27
+00:01:43,350 --> 00:01:45,290
+Ve bu nemli bir ey olmaz.
+
+28
+00:01:45,290 --> 00:01:48,050
+Yani istediimiz bu deildi.
+
+29
+00:01:48,050 --> 00:01:50,970
+Bunun yerine istediimiz ey, bu yl iin ilk nce idam edilmek.
+
+30
+00:01:51,050 --> 00:01:55,670
+imdi eksi John'un yl ve o yala tam o yan karlatrmak istiyoruz.
+
+31
+00:01:55,850 --> 00:02:03,820
+Yani bu yl ie yaryor ve bunu gerekten test edelim ve neden bir saniye iinde size gstereceim.
+
+32
+00:02:04,490 --> 00:02:04,970
+TAMAM.
+
+33
+00:02:05,240 --> 00:02:07,500
+Yani bu aslnda doru dner.
+
+34
+00:02:07,670 --> 00:02:09,500
+Ve elbette John tam bir ya.
+
+35
+00:02:09,560 --> 00:02:13,300
+Yani 2018'de 1989'da dodu, 29 yanda.
+
+36
+00:02:13,370 --> 00:02:17,400
+Ve elbette, bunun neden burada olduunu anlayabilmek iin imdi tam ada.
+
+37
+00:02:17,480 --> 00:02:23,730
+lk olarak hangi operatrn yrtld anlamna gelen operatr ilemlerini dnmeliyiz.
+
+38
+00:02:23,840 --> 00:02:29,750
+Ve bu yzden buraya kaynak sayfama gelirseniz, alntlar Kahramanlar Dare'nin operatr
+
+39
+00:02:29,750 --> 00:02:33,800
+sezonlarn bulacanz javascript blmnde kaynaklar aa kaydrmaya balarlar.
+
+40
+00:02:34,130 --> 00:02:34,500
+TAMAM.
+
+41
+00:02:34,640 --> 00:02:37,660
+O zaman bu balanty aalm ve burada bitelim.
+
+42
+00:02:37,670 --> 00:02:40,070
+Operatr ilem masasna sahibiz.
+
+43
+00:02:40,340 --> 00:02:45,770
+Ve burada grdmz ey, listenin banda bulunan operatrlerin dierlerinden nce yrtlecek
+
+44
+00:02:45,890 --> 00:02:46,630
+olmasdr.
+
+45
+00:02:46,640 --> 00:02:51,800
+Yani, en yksek geliri olann bu gruplandrmay prensler ile kullandn gryorsunuz ve size
+
+46
+00:02:51,800 --> 00:02:53,440
+bir saniye iinde gstereceim.
+
+47
+00:02:53,630 --> 00:03:01,040
+Ama burada ilgilendiimiz ey ya da art gerekte ya da eksi operatr, sadece bu ya da mantksal
+
+48
+00:03:01,130 --> 00:03:04,070
+operatrn daha byk ya da eit olduu.
+
+49
+00:03:04,070 --> 00:03:05,010
+Yani bu burada.
+
+50
+00:03:05,150 --> 00:03:10,630
+Tablodan grebildiimiz ey, D-eksi operatrnn 16'lk bir gelire sahip olmasdr.
+
+51
+00:03:10,760 --> 00:03:16,640
+Tamam, buradaki deere sahip olan ey, yalnzca 11 olan byk veya eit operatrden
+
+52
+00:03:16,670 --> 00:03:19,190
+daha byk olan deerde ilerlemektir.
+
+53
+00:03:19,190 --> 00:03:22,780
+Ve bunun anlam, bu eksi yln nce idam edilecei anlamna geliyor.
+
+54
+00:03:22,790 --> 00:03:27,020
+Ve tm bunlar nce idam edilir ve sonra burada bir sonula sonulanrz.
+
+55
+00:03:27,140 --> 00:03:33,500
+Yani bu durumda 29 olacak ve daha sonra sadece 29'dan sonra sadece 11 ile daha dk bir
+
+56
+00:03:33,500 --> 00:03:37,260
+ncelie sahip olan bu operatr ile tam ya ile karlatrlacaktr.
+
+57
+00:03:37,430 --> 00:03:37,970
+Tamam.
+
+58
+00:03:38,360 --> 00:03:42,900
+Ve bundan sonra, bu durumda yl yanl olacak bir sonula sonulanrz.
+
+59
+00:03:43,150 --> 00:03:45,250
+Yani bu aslnda burada.
+
+60
+00:03:45,350 --> 00:03:46,660
+Aslnda bu doru.
+
+61
+00:03:46,730 --> 00:03:50,670
+Ve imdi tam olarak var var h eittir tam eittir.
+
+62
+00:03:51,110 --> 00:03:54,690
+Ve sonra size gstermek istediim ey, eit operatrn kendisi.
+
+63
+00:03:54,890 --> 00:03:55,770
+Ve nerede.
+
+64
+00:03:55,790 --> 00:03:56,570
+te burada.
+
+65
+00:03:56,600 --> 00:04:01,100
+Bu nedenle, atanan operatr, ayn zamanda bir operatrn kendisidir.
+
+66
+00:04:01,100 --> 00:04:04,560
+Ve sizlere son derslerden birinde bahsettim ve imdi mantkl.
+
+67
+00:04:04,790 --> 00:04:05,110
+Tamam.
+
+68
+00:04:05,150 --> 00:04:10,680
+Grdnz gibi, eit operatr, en dk gelirin en dk veya hemen hemen hemen hemen hemen bir tanesidir.
+
+69
+00:04:10,820 --> 00:04:16,010
+Ve bu tamamen mantkldr nk elbette devin son adm olarak gereklemesini istiyoruz.
+
+70
+00:04:16,010 --> 00:04:22,070
+Bu yzden dier tm operatrler bu durumda almalarn tamamladktan sonra madencilerimiz ve / veya daha
+
+71
+00:04:22,070 --> 00:04:26,190
+sonra OPERATR Onlar imdi ilerini yaptk ve gerek bir sonula sonulandk.
+
+72
+00:04:26,360 --> 00:04:30,500
+Ve son bir adm olarak, o zaman tam ya deikeni atanr.
+
+73
+00:04:30,500 --> 00:04:31,140
+Tamam.
+
+74
+00:04:31,140 --> 00:04:32,270
+Bu mantkl m.
+
+75
+00:04:32,270 --> 00:04:36,170
+Yani aslnda biz sadece 2 operatrmz deil, mz var.
+
+76
+00:04:36,230 --> 00:04:39,750
+Uygulanan ilk ey bu ve budur.
+
+77
+00:04:39,860 --> 00:04:42,570
+Sonunda grevlendirme operatr.
+
+78
+00:04:42,570 --> 00:04:43,340
+Tamam.
+
+79
+00:04:43,370 --> 00:04:48,410
+Ve bir eylerin alp almadn veya operatrlerin alt dzeni bilmemiz
+
+80
+00:04:48,410 --> 00:04:54,750
+gerektiinde, bu tabloya her zaman danabilirim. Bu yzden jiroskop blmnn altndaki kaynaklar sayfamda
+
+81
+00:04:54,750 --> 00:04:55,570
+sanza koyuyorum.
+
+82
+00:04:56,000 --> 00:04:56,450
+Tamam.
+
+83
+00:04:56,630 --> 00:05:02,260
+Bu yzden, John'un ve arkadann ortalama yan hesaplamak istediimiz baka bir rnee bakmayalm.
+
+84
+00:05:02,320 --> 00:05:09,700
+Diyelim ki John yanda, gerekten hesaplamamtk, sadece burada hesapladk.
+
+85
+00:05:10,240 --> 00:05:12,120
+Yani aslnda bu yl byd.
+
+86
+00:05:12,430 --> 00:05:15,050
+Yani imdi eksi John.
+
+87
+00:05:15,370 --> 00:05:20,790
+Ve sonra Mark'n ya ve bu, burada herhangi bir hesaplama olmakszn otuz be olduunu sylemek.
+
+88
+00:05:20,980 --> 00:05:28,500
+Ve bylece ortalama temelde toplam hesaplamak ve sonra 2 ile blmek olacaktr.
+
+89
+00:05:28,510 --> 00:05:32,820
+Ya Don art ya Mark.
+
+90
+00:05:32,810 --> 00:05:34,520
+kiye bln.
+
+91
+00:05:34,690 --> 00:05:36,160
+Ama bu gerekten doru deil.
+
+92
+00:05:36,160 --> 00:05:36,610
+Sa.
+
+93
+00:05:36,640 --> 00:05:40,080
+Ve biliyorsun ki matematik dersinde muhtemelen okulda olduunu biliyorsun.
+
+94
+00:05:40,150 --> 00:05:42,680
+Ve bylece biliyorsun ki buradaki operatr blyor.
+
+95
+00:05:42,760 --> 00:05:45,470
+Mevsimlerimiz olacak ya da D-plus geldi.
+
+96
+00:05:45,680 --> 00:05:52,390
+Bu dorulanm ve javascript iinde de yle alr ve burada grebilirsiniz.
+
+97
+00:05:52,690 --> 00:05:57,770
+Dolaysyla, buradaki blnmenin daha yksek bir emsali var ya da 13'n ekinden 14' var.
+
+98
+00:05:57,970 --> 00:06:03,490
+Ve aslnda buradaki rnek hakknda konutuumuzda, yanllkla burada bu operatr kullandm, bu da birim
+
+99
+00:06:03,490 --> 00:06:05,650
+art ama ben bunu burada kastettim.
+
+100
+00:06:05,710 --> 00:06:11,730
+Yani bu ekleme operatr ama tabii ki daha yksek prosedrlere sahip ve daha byk McCay bitti,
+
+101
+00:06:11,800 --> 00:06:12,850
+gerekten nemli deil.
+
+102
+00:06:12,860 --> 00:06:18,830
+Bu yl veya funerary plus operatrnn kullanlmas farkl bir operatrdr.
+
+103
+00:06:18,940 --> 00:06:24,610
+Ancak ilemler asndan bu mantksal operatrden hala daha yksek.
+
+104
+00:06:24,670 --> 00:06:30,760
+Her neyse, burada yapmamz gereken ey, bunu yine matematik dersinde rendiiniz gibi
+
+105
+00:06:30,820 --> 00:06:32,350
+parantezlerle birlikte gruplamaktr.
+
+106
+00:06:32,440 --> 00:06:38,340
+Ve bylece bu mantkldr nk burada en yksek srarla gruplamaya vardmz grrz.
+
+107
+00:06:38,500 --> 00:06:40,810
+Tamam, bu parantez kullanyor.
+
+108
+00:06:40,930 --> 00:06:48,020
+Ve eer bunu iyi yaparsak, o zaman buradaki operasyon en yksek bakanlara sahiptir.
+
+109
+00:06:48,160 --> 00:06:51,150
+Bu yzden nce John ve Mark'n yan ekliyoruz.
+
+110
+00:06:51,280 --> 00:06:58,420
+Ve ancak o zaman, ortalama ya oluturmak iin ikiye blebiliriz.
+
+111
+00:06:58,480 --> 00:07:00,690
+O zaman konsola bir gz atalm.
+
+112
+00:07:02,740 --> 00:07:05,090
+Sadece her eyin doru ekilde altndan emin olmak iin.
+
+113
+00:07:05,170 --> 00:07:07,500
+Ve gerekten de 32.
+
+114
+00:07:07,660 --> 00:07:08,540
+Ve bu yzden.
+
+115
+00:07:08,650 --> 00:07:10,920
+Ve hemen konsolda burada yapalm.
+
+116
+00:07:10,960 --> 00:07:16,030
+Otuz be art 29 ve 64 ve 64 ikiye blnr.
+
+117
+00:07:16,240 --> 00:07:16,890
+Evet tabi ki.
+
+118
+00:07:16,900 --> 00:07:18,220
+Otuz iki.
+
+119
+00:07:18,220 --> 00:07:20,200
+Yani hesaplama burada doru.
+
+120
+00:07:20,200 --> 00:07:21,580
+Burada sadece baz
+
+121
+00:07:25,570 --> 00:07:28,140
+yorumlar ekleyelim, bu yzden bu oklu operatrler.
+
+122
+00:07:28,570 --> 00:07:31,330
+Ve burada gruplayoruz.
+
+123
+00:07:31,490 --> 00:07:40,210
+Ve imdi gruplama ve oklu devler ile daha fazla rnek yapalm.
+
+124
+00:07:40,950 --> 00:07:46,230
+yleyse, ayn anda birden ok deikene atamak istediimiz bir deeriniz olduunu ve Javascript'te bu
+
+125
+00:07:46,230 --> 00:07:47,960
+tamamen mmkn olduunu syleyelim.
+
+126
+00:07:48,240 --> 00:07:51,590
+Ve bylece iki deiken x ve y oluturalm.
+
+127
+00:07:51,890 --> 00:07:56,490
+Ve imdi, burada gerekten anlaml bir isimle deikenler yaratmyorum ama bu problem deil.
+
+128
+00:07:56,490 --> 00:07:59,140
+Bu sadece matematiksel ilemler yapyoruz.
+
+129
+00:07:59,190 --> 00:07:59,790
+TAMAM.
+
+130
+00:07:59,980 --> 00:08:07,890
+Ve imdi sadece X eittir diyerek balayalm ve sadece matematik ilemleri burada eksi alt
+
+131
+00:08:08,970 --> 00:08:12,760
+iin  art be art on diyelim.
+
+132
+00:08:12,760 --> 00:08:13,100
+TAMAM.
+
+133
+00:08:13,170 --> 00:08:14,900
+Yani sadece byle bir ey.
+
+134
+00:08:14,940 --> 00:08:17,700
+Ve biz zaten burada hangi ncelie sahip olacan zaten biliyoruz.
+
+135
+00:08:17,700 --> 00:08:18,660
+Sa.
+
+136
+00:08:18,660 --> 00:08:22,480
+Yani gruplamann prosedrleri var ve bu da 8 olacak.
+
+137
+00:08:22,530 --> 00:08:24,300
+Ve ben de tam buradaym.
+
+138
+00:08:24,300 --> 00:08:29,790
+lk admdan sonra, sekiz eksi altda sekiz kez var.
+
+139
+00:08:29,970 --> 00:08:33,570
+Daha sonra bir sonraki adm bu arpm doru olacaktr.
+
+140
+00:08:33,570 --> 00:08:40,800
+Yani sekiz kere drd otuz 32 ve alt ve sonunda ortadan kayboldu ve yirmi alt oldu.
+
+141
+00:08:40,920 --> 00:08:41,540
+TAMAM.
+
+142
+00:08:41,880 --> 00:08:43,630
+Yani X 26 olacak.
+
+143
+00:08:43,650 --> 00:08:51,110
+Ve bu, sadece emin olmak iin ve burada olduu gibi, danana bakt.
+
+144
+00:08:51,130 --> 00:08:54,110
+Dolaysyla bu hesaplamann sonucu 26'dr.
+
+145
+00:08:54,370 --> 00:08:59,850
+Ve daha nce olduu gibi, tm bu operasyonlar gerekletirdikten sonra devini yapt.
+
+146
+00:09:00,040 --> 00:09:06,730
+imdi bunu X ve Y'ye ayn anda atamak istiyorsanz, X basite X'e
+
+147
+00:09:06,730 --> 00:09:10,400
+eittir ve sonra bu tm hesaplamaya eittir.
+
+148
+00:09:10,450 --> 00:09:13,270
+imdi buradaki soru aslnda neden alyor.
+
+149
+00:09:13,270 --> 00:09:17,890
+Burada bu izgiyi okuduumu ve x'in Y'ye eit olduunu grrz.
+
+150
+00:09:18,030 --> 00:09:20,320
+Ve bylece bu noktada neden hala tanmlanmamtr.
+
+151
+00:09:20,350 --> 00:09:24,100
+Doru nk bu satrdan nce bunun iin herhangi bir deer tanmlamadk.
+
+152
+00:09:24,100 --> 00:09:30,610
+Ve bylece x'in bu noktada undefined olaca mantkl olurdu, ama deil.
+
+153
+00:09:30,650 --> 00:09:32,010
+Buna gerekten bir bakalm.
+
+154
+00:09:32,230 --> 00:09:36,760
+Ve bu, daha nce iki eyi ayn anda kilitlemek iin yapmadmz bir eydir, bu
+
+155
+00:09:36,760 --> 00:09:41,400
+yzden iptal gnl diyemez ve sonra x ve sonra virgl ve sonra baka bir deiken.
+
+156
+00:09:41,830 --> 00:09:44,020
+Ve bylece 26 ve 26 gryoruz.
+
+157
+00:09:44,050 --> 00:09:47,270
+Yani, konsol kilidi ile ayn anda iki sonu.
+
+158
+00:09:47,320 --> 00:09:52,470
+Ve burada grdmz ey, 26'nn mantksal olmayan, undefine olmaddr.
+
+159
+00:09:52,570 --> 00:09:55,870
+Bu yzden tekrar neden bu noktada undefined nk.
+
+160
+00:09:55,870 --> 00:10:02,110
+Ve eer X'in, undefined olan bir eye eit olduunu sylersek, o zaman X ayn zamanda bir neofit olmaldr, ama yle
+
+161
+00:10:02,110 --> 00:10:02,550
+deil.
+
+162
+00:10:02,740 --> 00:10:05,120
+Ve bylece bunun neden olduuna bir bakalm.
+
+163
+00:10:05,350 --> 00:10:08,610
+Ve sana yine burada masaya gsterebilirim.
+
+164
+00:10:08,650 --> 00:10:13,540
+Bu yzden burada daha nce konutuumuz iki bakanmz var ama ayn zamanda birliktelik var.
+
+165
+00:10:13,690 --> 00:10:18,390
+Ve bunun basit anlam, operasyonun yrtld yn.
+
+166
+00:10:18,400 --> 00:10:25,710
+Yani buraya, rnein arpmaya ya da saa braktmz ilaveye gelirsek.
+
+167
+00:10:25,720 --> 00:10:26,050
+TAMAM.
+
+168
+00:10:26,080 --> 00:10:34,780
+Yani bunun anlam, rnein iki art drt art be olsaydk, eer bir yorum olarak eklemi olsaydk, bunu
+
+169
+00:10:34,780 --> 00:10:37,060
+soldan sa tarafa yapard.
+
+170
+00:10:37,060 --> 00:10:41,890
+Yani bizim iin iki art drt olan alt ve alt art be ile 11 arasnda.
+
+171
+00:10:42,130 --> 00:10:44,680
+Ama dier tarafta alan baz operatrler var.
+
+172
+00:10:44,830 --> 00:10:50,140
+Sadan sola doru olan ve dev operatr bunlardan biri.
+
+173
+00:10:50,140 --> 00:10:54,320
+te burada, grevlendirme ve atama almalarmz sadan sola doru.
+
+174
+00:10:54,400 --> 00:10:56,370
+Tamam, bu yzden baka bir yol var.
+
+175
+00:10:56,390 --> 00:11:01,900
+Ve ite bu yzden bu kod paras aslnda ie yaramaktadr, nk burada 26 sonuca
+
+176
+00:11:01,980 --> 00:11:05,500
+varyoruz ve daha sonra grevler sadan sola doru alyor.
+
+177
+00:11:05,500 --> 00:11:11,950
+Yani X eit Y yaparak balamyor, ama Y eit 26 diyerek balyor.
+
+178
+00:11:12,070 --> 00:11:15,260
+Ve ancak o zaman X, 26'ya eittir.
+
+179
+00:11:15,430 --> 00:11:15,840
+TAMAM.
+
+180
+00:11:15,910 --> 00:11:16,940
+Bu mantkl m.
+
+181
+00:11:17,260 --> 00:11:23,460
+yleyse tekrar atanma operatr soldan saa deil sadan sola doru alr.
+
+182
+00:11:23,530 --> 00:11:29,470
+Ve bylece burada 26'lk bir sonula sonulanrz ve sonra Dennis Y'ye atand ve sonra yine l
+
+183
+00:11:29,620 --> 00:11:35,170
+olarak tekrar x'e atanr ve bu nedenle her iki deikende de 26 ile sonulanrz.
+
+184
+00:11:35,410 --> 00:11:35,990
+TAMAM.
+
+185
+00:11:36,190 --> 00:11:38,030
+Yani duyarllk var.
+
+186
+00:11:38,080 --> 00:11:40,330
+Gstermek istediim masann ikinci ksm var.
+
+187
+00:11:40,390 --> 00:11:44,840
+Bu yzden sadece bakanlar aklda tutmak zorunda deil, ayn zamanda duyarll da.
+
+188
+00:11:44,840 --> 00:11:45,590
+Tamam.
+
+189
+00:11:45,720 --> 00:11:49,060
+Ve imdi sadece bu konumay bitirmek iin size biraz daha fazla operatr gstermek
+
+190
+00:11:51,740 --> 00:11:53,850
+istiyorum, o zaman diyelim ki xx yapmak istedik.
+
+191
+00:11:53,930 --> 00:11:59,100
+Yani X gibi bir ey x kere 2 doru eittir.
+
+192
+00:11:59,210 --> 00:12:00,860
+Yani bu x'in iki kat olur.
+
+193
+00:12:00,920 --> 00:12:04,040
+Ama gryorsunuz ki, biz aslnda burada X'i tekrarlyoruz.
+
+194
+00:12:04,220 --> 00:12:11,360
+Ve bylece javascript'te, bunu basite X basite arpma anlamna gelen biraz daha basit hale getirmenin
+
+195
+00:12:11,720 --> 00:12:12,890
+bir yolu var.
+
+196
+00:12:13,100 --> 00:12:13,440
+TAMAM.
+
+197
+00:12:13,490 --> 00:12:15,950
+Ve bylece bu ayn ey.
+
+198
+00:12:15,950 --> 00:12:22,110
+Yani bunun anlam, temelde x kez 2 yapmamz gerektirecek, bizde X kez bu yl yaptmz gibi
+
+199
+00:12:22,120 --> 00:12:23,190
+yazmamza gerek kalmadan.
+
+200
+00:12:23,300 --> 00:12:23,750
+TAMAM.
+
+201
+00:12:23,850 --> 00:12:26,310
+O zaman sonuca bakalm.
+
+202
+00:12:30,790 --> 00:12:38,200
+Ve 52, aslnda, X daha nce X idi ve ayn ey art eksi ya da arpmak iin
+
+203
+00:12:38,200 --> 00:12:38,830
+alacakt.
+
+204
+00:12:39,040 --> 00:12:42,380
+Yani X art eit 10 diyebiliriz.
+
+205
+00:12:42,460 --> 00:12:45,090
+Ve bunun ne olacan dnyorsunuz.
+
+206
+00:12:46,540 --> 00:12:50,290
+Ve umarm 62 sanrm haklsn.
+
+207
+00:12:50,320 --> 00:12:53,800
+yleyse, bu 52'den nce art 10'un sonucudur.
+
+208
+00:12:53,890 --> 00:12:58,270
+Yani krmz X eittir x art 10 ile ayn eydir.
+
+209
+00:12:58,270 --> 00:13:01,600
+Pekala, bu da hayatmz biraz kolaylatryor.
+
+210
+00:13:01,870 --> 00:13:07,930
+Ve bu ileler, atamalar blmnde onlar burada gryorlar, nk aslnda atama
+
+211
+00:13:07,960 --> 00:13:11,540
+operatrleri normal atama operatr gibi grnyorlar.
+
+212
+00:13:11,740 --> 00:13:16,540
+Ve sadece size gstermek istediim son ey deil.
+
+213
+00:13:16,540 --> 00:13:23,010
+yleyse X eittir x art yazmak yerine yapabileceimiz ey bu ekilde yazmak olacaktr.
+
+214
+00:13:23,050 --> 00:13:27,240
+Bylece X art 1'e eit yapabiliriz.
+
+215
+00:13:27,340 --> 00:13:33,320
+Ancak sadece bir tane eklemek istiyorsak ve daha basite X art plus yazmak istiyorsak daha da basit bir yol var.
+
+216
+00:13:33,430 --> 00:13:38,900
+Ve bylece bu operatr, bu operatr kullandmz deikene sadece bir birim ekler.
+
+217
+00:13:38,980 --> 00:13:39,590
+TAMAM.
+
+218
+00:13:39,790 --> 00:13:41,460
+Yani burada hepsi ayn ey.
+
+219
+00:13:41,560 --> 00:13:46,450
+Ama tabi ki bu, yazmas en kolay ve en ok kimsedir.
+
+220
+00:13:46,450 --> 00:13:50,960
+Yani sadece size gerekten altn kantlamak iin bunu konsola da bakalm.
+
+221
+00:13:50,980 --> 00:13:55,830
+Ve tabii ki 63 ve ayn ekilde eksi eksi ile alr.
+
+222
+00:13:55,930 --> 00:13:59,150
+Ve imdi ok doru 61 fikir olmal.
+
+223
+00:13:59,260 --> 00:14:00,280
+Gerekten yle.
+
+224
+00:14:00,680 --> 00:14:02,740
+Yani almak iin ok ey vard.
+
+225
+00:14:02,770 --> 00:14:07,940
+Bu noktaya kadar, deiken veri trleri ve operatrler hakknda her eyi reneceksiniz.
+
+226
+00:14:07,960 --> 00:14:11,020
+Bu yzden umarm elenmenizin senin iin anlaml olduunu umuyorum.
+
+227
+00:14:11,080 --> 00:14:16,600
+Ve bylece bir sonraki videoda sizin iin sahip olduklar elenceli ve kk bir meydan okuma iin
+
+228
+00:14:16,750 --> 00:14:19,960
+tm bu yeni becerileri uygulamaya koyabileceiniz bir kodlama sorunu geliyor.
+

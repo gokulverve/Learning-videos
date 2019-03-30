@@ -1,0 +1,844 @@
+1
+00:00:01,020 --> 00:00:03,610
+Istruttore: passiamo ora al livello successivo
+
+2
+00:00:03,610 --> 00:00:05,970
+e apprendiamo la logica booleana.
+
+3
+00:00:05,970 --> 00:00:09,050
+E, in questo piccolo esempio, vogliamo accedere alla
+
+4
+00:00:09,050 --> 00:00:12,960
+console, a seconda dell'et di John, se  un ragazzo,
+
+5
+00:00:12,960 --> 00:00:15,840
+un adolescente, un giovane o un uomo, okay.
+
+6
+00:00:15,840 --> 00:00:19,240
+E, quindi, ricominciamo, definendo il primo nome
+
+7
+00:00:22,300 --> 00:00:24,730
+come John, e poi l'et.
+
+8
+00:00:24,730 --> 00:00:27,840
+E iniziamo qui con 16, per esempio.
+
+9
+00:00:27,840 --> 00:00:30,840
+Bene, quindi usiamo la nostra dichiarazione if else.
+
+10
+00:00:30,840 --> 00:00:33,910
+E possiamo dire che se John ha meno
+
+11
+00:00:33,910 --> 00:00:38,130
+di 13 anni, beh, allora,  un ragazzo, va bene.
+
+12
+00:00:38,130 --> 00:00:42,700
+Quindi console. log firstName +  un ragazzo, va bene.
+
+13
+00:00:50,970 --> 00:00:52,713
+E poi possiamo dire altro,
+
+14
+00:00:54,900 --> 00:00:57,203
+e basta copiare questa riga di codice
+
+15
+00:00:58,750 --> 00:01:00,053
+qui,  un uomo.
+
+16
+00:01:01,340 --> 00:01:04,280
+Va bene, cos copre il ragazzo e l'uomo.
+
+17
+00:01:04,280 --> 00:01:07,130
+Ma come decidiamo in realt se  un
+
+18
+00:01:07,130 --> 00:01:08,760
+adolescente o un giovane?
+
+19
+00:01:08,760 --> 00:01:11,250
+Abbiamo bisogno di altre opzioni qui, giusto?
+
+20
+00:01:11,250 --> 00:01:13,620
+E possiamo farlo con JavaScript.
+
+21
+00:01:13,620 --> 00:01:16,380
+Quindi, invece di avere il blocco if e else,
+
+22
+00:01:16,380 --> 00:01:18,610
+possiamo anche avere un altro se block.
+
+23
+00:01:18,610 --> 00:01:20,260
+Ok, allora ti faccio vedere questo.
+
+24
+00:01:21,360 --> 00:01:25,203
+Quindi qui possiamo avere altro, e poi un nuovo if.
+
+25
+00:01:28,240 --> 00:01:29,930
+Quindi riportiamolo qui.
+
+26
+00:01:29,930 --> 00:01:32,670
+E quindi, qui possiamo mettere un altro testo.
+
+27
+00:01:32,670 --> 00:01:35,200
+E, in realt, abbiamo bisogno di aggiungere una nuova condizione qui.
+
+28
+00:01:35,200 --> 00:01:37,240
+E quindi cosa vogliamo avere qui?
+
+29
+00:01:37,240 --> 00:01:39,640
+Quindi, in primo luogo, inseriamo qui il risultato, in realt,
+
+30
+00:01:39,640 --> 00:01:42,210
+in modo da sapere di cosa stiamo parlando in questo punto.
+
+31
+00:01:42,210 --> 00:01:43,960
+Quindi diciamo che  un adolescente.
+
+32
+00:01:45,510 --> 00:01:47,250
+E, quindi, l'adolescente in pratica
+
+33
+00:01:47,250 --> 00:01:50,550
+significa che ha tra 13 e 20 anni, giusto?
+
+34
+00:01:50,550 --> 00:01:52,700
+Quindi scriviamolo qui come commento.
+
+35
+00:01:53,750 --> 00:01:58,240
+Tra il 13 e il 20.
+
+36
+00:01:58,240 --> 00:02:01,560
+Bene, come scriviamo una condizione logica
+
+37
+00:02:01,560 --> 00:02:03,530
+per esprimere esattamente questo?
+
+38
+00:02:03,530 --> 00:02:08,040
+Quindi, come si dice che l'et dovrebbe essere tra 13 e 20?
+
+39
+00:02:08,040 --> 00:02:10,160
+Beh,  un po 'difficile, vero?
+
+40
+00:02:10,160 --> 00:02:12,540
+Quindi pensiamoci un po 'di pi.
+
+41
+00:02:12,540 --> 00:02:15,660
+Quindi tra 13 e 20, ci che
+
+42
+00:02:15,660 --> 00:02:20,660
+significa in realt  che l'et  maggiore o uguale, 13, giusto?
+
+43
+00:02:21,200 --> 00:02:25,403
+E, allo stesso tempo,  anche meno di 20.
+
+44
+00:02:26,700 --> 00:02:30,900
+Giusto, quindi, di nuovo, avere un'et compresa tra 13 e
+
+45
+00:02:30,900 --> 00:02:34,850
+20 dovrebbe significare che l'et  uguale o superiore a
+
+46
+00:02:34,850 --> 00:02:36,810
+13, e inferiore a 20.
+
+47
+00:02:36,810 --> 00:02:40,610
+Quindi queste due condizioni qui allo stesso tempo, okay.
+
+48
+00:02:40,610 --> 00:02:43,230
+E quindi quello di cui abbiamo bisogno  un operatore per questo.
+
+49
+00:02:43,230 --> 00:02:47,210
+E, quindi, in realt, in JavaScript,  un operatore finale.
+
+50
+00:02:47,210 --> 00:02:49,880
+E per imparare come funziona quell'operatore
+
+51
+00:02:49,880 --> 00:02:52,213
+finale, dobbiamo parlare della logica booleana.
+
+52
+00:02:53,290 --> 00:02:54,950
+Quindi, in senso molto ampio,
+
+53
+00:02:54,950 --> 00:02:57,660
+la logica booleana  una branca dell'informatica che
+
+54
+00:02:57,660 --> 00:02:59,800
+si occupa di valori veri e falsi.
+
+55
+00:02:59,800 --> 00:03:02,550
+Ed  in realt qualcosa di abbastanza importante nella codifica.
+
+56
+00:03:02,550 --> 00:03:05,980
+E quindi dovresti assicurarti di capire davvero questa parte.
+
+57
+00:03:05,980 --> 00:03:06,840
+Tutto apposto?
+
+58
+00:03:06,840 --> 00:03:09,150
+Ora ci sono diversi operatori logici che
+
+59
+00:03:09,150 --> 00:03:11,170
+si occupano di valori veri e falsi.
+
+60
+00:03:11,170 --> 00:03:12,420
+Ma i pi
+
+61
+00:03:12,420 --> 00:03:15,490
+importanti sono gli operatori NOT, AND e OR.
+
+62
+00:03:15,490 --> 00:03:17,940
+Quindi iniziamo guardando l'operatore AND.
+
+63
+00:03:17,940 --> 00:03:20,710
+E qui abbiamo un tavolo chiamato una tabella
+
+64
+00:03:20,710 --> 00:03:24,140
+di verit, che ci permette di vedere il risultato dell'operatore.
+
+65
+00:03:24,140 --> 00:03:26,600
+Quindi l'operatore AND funziona cos.
+
+66
+00:03:26,600 --> 00:03:29,730
+Supponiamo di avere due variabili, A e B.
+
+67
+00:03:29,730 --> 00:03:33,810
+Solo se la variabile A e la variabile B sono
+
+68
+00:03:33,810 --> 00:03:37,690
+entrambe vere, l'espressione A e B diventeranno vere, okay.
+
+69
+00:03:37,690 --> 00:03:40,830
+In tutti gli altri casi, il risultato sar falso.
+
+70
+00:03:40,830 --> 00:03:43,150
+Ed  per questo che si chiama operatore AND.
+
+71
+00:03:43,150 --> 00:03:46,120
+Perch A e B devono essere entrambi vere
+
+72
+00:03:46,120 --> 00:03:48,800
+in modo che anche il risultato sia vero.
+
+73
+00:03:48,800 --> 00:03:50,870
+Quindi se A o B
+
+74
+00:03:50,870 --> 00:03:54,730
+ falso, beh, allora anche A e B diventeranno falsi.
+
+75
+00:03:54,730 --> 00:03:57,480
+E lo stesso vale se ci sono pi di due variabili.
+
+76
+00:03:57,480 --> 00:03:59,540
+Solo se tutte le variabili
+
+77
+00:03:59,540 --> 00:04:02,500
+sono vere, anche l'espressione AND diventer vera.
+
+78
+00:04:02,500 --> 00:04:04,900
+Bene, e ora la seconda tabella di
+
+79
+00:04:04,900 --> 00:04:06,740
+verit  per l'operatore OR.
+
+80
+00:04:06,740 --> 00:04:09,230
+E qui le cose funzionano in modo un po 'diverso.
+
+81
+00:04:09,230 --> 00:04:10,730
+Quindi, con l'operatore OR,
+
+82
+00:04:10,730 --> 00:04:13,720
+ sufficiente che una delle variabili sia vera per
+
+83
+00:04:13,720 --> 00:04:16,540
+far s che A o B diventino realt.
+
+84
+00:04:16,540 --> 00:04:18,750
+E, ancora, questo ha senso, giusto?
+
+85
+00:04:18,750 --> 00:04:20,420
+Quindi  chiamato l'operatore
+
+86
+00:04:20,420 --> 00:04:23,690
+OR perch solo A o B devono essere
+
+87
+00:04:23,690 --> 00:04:26,310
+veri affinch l'espressione finale sia vera.
+
+88
+00:04:26,310 --> 00:04:30,170
+Il risultato sar falso solo se entrambe le variabili sono false.
+
+89
+00:04:30,170 --> 00:04:33,130
+E possiamo vederlo qui nella tabella della verit, giusto?
+
+90
+00:04:33,130 --> 00:04:33,963
+E, ancora una
+
+91
+00:04:33,963 --> 00:04:36,760
+volta, funziona allo stesso modo con pi variabili.
+
+92
+00:04:36,760 --> 00:04:39,350
+Quindi  sufficiente che una variabile sia vera
+
+93
+00:04:39,350 --> 00:04:41,720
+per rendere vero anche il risultato finale,
+
+94
+00:04:41,720 --> 00:04:45,400
+se ci sono come 3, 4, 5 o anche dieci variabili booleane.
+
+95
+00:04:45,400 --> 00:04:48,080
+Ecco come funziona l'operatore AND e true.
+
+96
+00:04:48,080 --> 00:04:51,130
+E poi, finalmente, c' anche l'operatore NOT.
+
+97
+00:04:51,130 --> 00:04:52,810
+E questo  davvero semplice.
+
+98
+00:04:52,810 --> 00:04:54,330
+Tutto ci che fa  invertire
+
+99
+00:04:54,330 --> 00:04:56,600
+il valore vero o falso di una variabile.
+
+100
+00:04:56,600 --> 00:05:00,230
+Quindi se la variabile A  vera, allora NON A  falso.
+
+101
+00:05:00,230 --> 00:05:03,580
+E se A  falso, beh, allora NOT A  vero.
+
+102
+00:05:03,580 --> 00:05:04,860
+Quindi, facile, giusto?
+
+103
+00:05:04,860 --> 00:05:06,863
+Vediamo ora un paio di esempi.
+
+104
+00:05:07,850 --> 00:05:10,600
+Quindi iniziamo definendo una variabile chiamata age.
+
+105
+00:05:10,600 --> 00:05:13,400
+Quindi abbiamo un'et maggiore o uguale a 20,
+
+106
+00:05:13,400 --> 00:05:17,150
+che , ovviamente, falsa, perch 16  inferiore a 20.
+
+107
+00:05:17,150 --> 00:05:21,030
+Poi abbiamo meno di 30 anni, il che, ovviamente,  vero.
+
+108
+00:05:21,030 --> 00:05:23,450
+E, infine, abbiamo l'operatore NOT.
+
+109
+00:05:23,450 --> 00:05:26,650
+Quindi sappiamo che l'et inferiore a 30  vera.
+
+110
+00:05:26,650 --> 00:05:29,540
+E sappiamo che l'operatore NOT inverte il valore.
+
+111
+00:05:29,540 --> 00:05:33,360
+Quindi NON avere meno di 30 anni , ovviamente, falso.
+
+112
+00:05:33,360 --> 00:05:34,800
+Ha senso, giusto?
+
+113
+00:05:34,800 --> 00:05:36,460
+Ok, quindi la prossima espressione.
+
+114
+00:05:36,460 --> 00:05:38,470
+Sappiamo gi che la prima parte,
+
+115
+00:05:38,470 --> 00:05:41,300
+maggiore o uguale a 20 anni,  falsa.
+
+116
+00:05:41,300 --> 00:05:45,020
+E sappiamo anche che l'et inferiore a 30  vera.
+
+117
+00:05:45,020 --> 00:05:47,690
+Quindi, qui, abbiamo il falso e il vero.
+
+118
+00:05:47,690 --> 00:05:49,560
+Quindi puoi indovinare il risultato?
+
+119
+00:05:49,560 --> 00:05:53,200
+ vero,  falso, perch non sono entrambi veri.
+
+120
+00:05:53,200 --> 00:05:54,100
+Va bene?
+
+121
+00:05:54,100 --> 00:05:56,160
+Ora la prossima espressione  simile.
+
+122
+00:05:56,160 --> 00:05:58,780
+Ma abbiamo l'operatore OR qui.
+
+123
+00:05:58,780 --> 00:06:00,920
+Quindi  ora vero o falso.
+
+124
+00:06:00,920 --> 00:06:03,080
+Quindi quale sar il risultato questa volta?
+
+125
+00:06:03,080 --> 00:06:04,790
+Bene, ora  vero.
+
+126
+00:06:04,790 --> 00:06:06,300
+Perch, con l'operatore OR, 
+
+127
+00:06:06,300 --> 00:06:08,610
+sufficiente che uno di essi sia vero.
+
+128
+00:06:08,610 --> 00:06:10,210
+Quindi spero che abbia senso.
+
+129
+00:06:10,210 --> 00:06:11,570
+E cos ora possiamo tornare
+
+130
+00:06:11,570 --> 00:06:14,380
+indietro e usare quello che abbiamo appena imparato nel codice.
+
+131
+00:06:14,380 --> 00:06:17,450
+Ok, e ora che conosciamo gli operatori AND e OR,
+
+132
+00:06:17,450 --> 00:06:20,360
+in realt abbiamo un modo di scrivere l'espressione di
+
+133
+00:06:20,360 --> 00:06:21,440
+cui abbiamo bisogno qui.
+
+134
+00:06:21,440 --> 00:06:23,800
+Quindi quello che vogliamo qui 
+
+135
+00:06:23,800 --> 00:06:27,430
+che l'et sia maggiore o uguale a 13.
+
+136
+00:06:27,430 --> 00:06:29,240
+E questo  con l'operatore
+
+137
+00:06:29,240 --> 00:06:31,910
+AND, come hai visto prima, scriviamo cos.
+
+138
+00:06:31,910 --> 00:06:35,080
+E quindi vogliamo un'et maggiore o uguale a 13.
+
+139
+00:06:35,080 --> 00:06:39,450
+E, allo stesso tempo, l'et per essere meno di 20.
+
+140
+00:06:39,450 --> 00:06:41,140
+Ok, e questo  tutto ci di cui abbiamo bisogno.
+
+141
+00:06:41,140 --> 00:06:42,720
+Questa  la nostra espressione qui.
+
+142
+00:06:42,720 --> 00:06:45,210
+O, fondamentalmente, la nostra condizione di test.
+
+143
+00:06:45,210 --> 00:06:48,700
+Quindi diciamo che l'et  16 anni, cos come  adesso.
+
+144
+00:06:48,700 --> 00:06:50,660
+Quindi, se ora cariciamo questo, beh,
+
+145
+00:06:50,660 --> 00:06:53,810
+allora ci colleghiamo alla console, John  un adolescente.
+
+146
+00:06:53,810 --> 00:06:55,520
+E cos funziona davvero.
+
+147
+00:06:55,520 --> 00:06:57,402
+Quindi, adesso, l'et  16 anni.
+
+148
+00:06:57,402 --> 00:07:00,670
+E cos l'et , infatti, maggiore di 13.
+
+149
+00:07:00,670 --> 00:07:02,320
+Quindi questa parte qui  vera.
+
+150
+00:07:02,320 --> 00:07:06,640
+Allora anche l'et  meno di 20, quindi  anche vero.
+
+151
+00:07:06,640 --> 00:07:10,220
+E cos vero e vero diventa vero, come abbiamo appena appreso.
+
+152
+00:07:10,220 --> 00:07:13,330
+E quindi questo blocco qui viene eseguito.
+
+153
+00:07:13,330 --> 00:07:14,690
+Ora parliamo rapidamente della
+
+154
+00:07:14,690 --> 00:07:16,740
+precedenza di questo operatore qui, mentre
+
+155
+00:07:16,740 --> 00:07:19,120
+deve essere inferiore alla precedenza di
+
+156
+00:07:19,120 --> 00:07:20,380
+questo qui, giusto?
+
+157
+00:07:20,380 --> 00:07:23,240
+Perch, ovviamente, prima vogliamo che questo sia eseguito per
+
+158
+00:07:23,240 --> 00:07:25,480
+finire con il valore vero o falso.
+
+159
+00:07:25,480 --> 00:07:26,980
+E poi questo qui.
+
+160
+00:07:26,980 --> 00:07:29,210
+E, solo dopo, vogliamo combinare
+
+161
+00:07:29,210 --> 00:07:32,470
+questi due valori falsi usando questo operatore qui.
+
+162
+00:07:32,470 --> 00:07:34,610
+E cos, ovviamente, l'operatore AND e
+
+163
+00:07:34,610 --> 00:07:36,560
+OR, devono avere una precedenza
+
+164
+00:07:36,560 --> 00:07:39,500
+inferiore rispetto a questi operatori di confronto, giusto?
+
+165
+00:07:39,500 --> 00:07:41,483
+Quindi controlliamo se  effettivamente vero.
+
+166
+00:07:42,740 --> 00:07:44,470
+E, infatti, lo .
+
+167
+00:07:44,470 --> 00:07:47,020
+Quindi i Logical AND e OR hanno
+
+168
+00:07:47,020 --> 00:07:50,830
+una precedenza inferiore di 6 e 5 rispetto a questi
+
+169
+00:07:50,830 --> 00:07:53,300
+confronti, come Less, e Less Than
+
+170
+00:07:53,300 --> 00:07:55,140
+Equal, Greater, e, oh, yeah,
+
+171
+00:07:55,140 --> 00:07:57,790
+tutti questi operatori di confronto qui.
+
+172
+00:07:57,790 --> 00:07:59,230
+Quindi hanno una precedenza
+
+173
+00:07:59,230 --> 00:08:04,230
+pi alta ed  per questo che funziona nel modo in cui funziona qui, okay.
+
+174
+00:08:04,260 --> 00:08:05,710
+E ora solo un ultimo passo.
+
+175
+00:08:05,710 --> 00:08:07,490
+Perch vogliamo un ragazzo, un
+
+176
+00:08:07,490 --> 00:08:12,170
+adolescente, e vogliamo anche un giovane tra i 20 e i 30 anni, okay.
+
+177
+00:08:12,170 --> 00:08:14,373
+Quindi creiamo un nuovo altro se qui.
+
+178
+00:08:16,560 --> 00:08:19,673
+Ecco le condizioni e apri un nuovo blocco.
+
+179
+00:08:23,700 --> 00:08:25,510
+Quindi un giovane uomo.
+
+180
+00:08:25,510 --> 00:08:28,010
+E cosa vogliamo che l'et sia adesso?
+
+181
+00:08:28,010 --> 00:08:32,310
+Bene, vogliamo che sia maggiore o uguale a 20.
+
+182
+00:08:32,310 --> 00:08:37,310
+E, allo stesso tempo, saranno meno di 30, okay.
+
+183
+00:08:37,570 --> 00:08:39,710
+E se non avessimo messo questo segno di uguale
+
+184
+00:08:39,710 --> 00:08:42,760
+qui, beh, allora il 20 non sarebbe coperto da nessuna parte, giusto.
+
+185
+00:08:42,760 --> 00:08:44,560
+Quindi portiamolo qui.
+
+186
+00:08:44,560 --> 00:08:47,090
+E vai a 20, quindi imposta l'et a 20.
+
+187
+00:08:47,090 --> 00:08:49,020
+E vediamo cosa succede allora.
+
+188
+00:08:49,020 --> 00:08:51,110
+Quindi ora dice che John  un uomo.
+
+189
+00:08:51,110 --> 00:08:53,910
+Ok, e questo perch questo 20 qui non 
+
+190
+00:08:53,910 --> 00:08:56,180
+incluso, n in questa condizione n in questa.
+
+191
+00:08:56,180 --> 00:08:58,530
+Quindi qui ce ne sono meno di 20
+
+192
+00:08:58,530 --> 00:09:00,490
+e qui  maggiore di 20.
+
+193
+00:09:00,490 --> 00:09:02,240
+Ma da nessuna parte c' il segno di uguale.
+
+194
+00:09:02,240 --> 00:09:05,670
+Ed ecco perch dobbiamo includerlo qui, ok.
+
+195
+00:09:05,670 --> 00:09:07,200
+Potremmo anche averlo incluso qui.
+
+196
+00:09:07,200 --> 00:09:09,080
+Ma mentre qualcuno che ha 20
+
+197
+00:09:09,080 --> 00:09:10,820
+anni non  pi un adolescente,
+
+198
+00:09:10,820 --> 00:09:13,160
+e quindi includiamo questo uguale a iscriversi qui.
+
+199
+00:09:13,160 --> 00:09:14,490
+E se lo
+
+200
+00:09:14,490 --> 00:09:16,800
+ricarichiamo ora, beh, allora dir giovanotto.
+
+201
+00:09:16,800 --> 00:09:18,913
+Ok, e questo ha funzionato e basta.
+
+202
+00:09:20,090 --> 00:09:22,950
+Bene, e penso che sia abbastanza per questa lezione.
+
+203
+00:09:22,950 --> 00:09:24,810
+Quindi hai imparato tutto sulla
+
+204
+00:09:24,810 --> 00:09:27,780
+logica booleana e sugli operatori AND, OR e NOT.
+
+205
+00:09:27,780 --> 00:09:31,060
+E, inoltre, che possiamo aggiungere questi altri se blocchi qui
+
+206
+00:09:31,060 --> 00:09:33,220
+alle nostre dichiarazioni if else, okay.
+
+207
+00:09:33,220 --> 00:09:36,720
+Quindi possiamo avere pi, diciamo, se le altre affermazioni
+
+208
+00:09:36,720 --> 00:09:39,330
+sono tutte in un costrutto, come questo.
+
+209
+00:09:39,330 --> 00:09:41,710
+Ok, assicurati di aver capito tutto questo.
+
+210
+00:09:41,710 --> 00:09:45,080
+Se necessario, puoi forse rivedere parti della lezione,
+
+211
+00:09:45,080 --> 00:09:47,380
+quindi passiamo al prossimo video.
+

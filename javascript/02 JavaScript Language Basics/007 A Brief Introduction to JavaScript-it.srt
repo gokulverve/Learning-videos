@@ -1,0 +1,268 @@
+1
+00:00:01,450 --> 00:00:04,090
+Quindi hai gi citato una riga o due di Javascript.
+
+2
+00:00:04,240 --> 00:00:07,180
+Ma cosa  esattamente javascript in realt.
+
+3
+00:00:07,180 --> 00:00:09,600
+Bene, questo  ci che vedremo in questo video.
+
+4
+00:00:09,730 --> 00:00:13,190
+E cos in questa conferenza prepareremo il terreno per il resto del corso.
+
+5
+00:00:13,360 --> 00:00:16,160
+E quindi  davvero importante seguirlo fino alla fine.
+
+6
+00:00:16,270 --> 00:00:16,830
+Tutto ok.
+
+7
+00:00:17,870 --> 00:00:24,640
+Quindi, per finire a Dallas  un linguaggio di programmazione per computer orientato agli oggetti multipiattaforma leggero.
+
+8
+00:00:24,650 --> 00:00:26,800
+Ora suona un po 'troppo giusto.
+
+9
+00:00:26,960 --> 00:00:27,710
+Ma non preoccuparti.
+
+10
+00:00:27,770 --> 00:00:29,680
+ pi semplice di come sembra.
+
+11
+00:00:29,990 --> 00:00:35,260
+Cos leggero significa solo che il linguaggio non consuma molta memoria del computer e che
+
+12
+00:00:35,260 --> 00:00:37,870
+ha una sintassi e caratteristiche relativamente semplici.
+
+13
+00:00:38,210 --> 00:00:43,370
+La multipiattaforma significa che il linguaggio pu essere utilizzato su pi piattaforme e sistemi non solo per
+
+14
+00:00:43,370 --> 00:00:44,180
+lo sviluppo web.
+
+15
+00:00:44,330 --> 00:00:50,210
+E infine object oriented significa dead language dead basato su oggetti e lo
+
+16
+00:00:50,210 --> 00:00:52,200
+esploreremo durante il corso.
+
+17
+00:00:52,490 --> 00:00:58,310
+Ora come gi sapete insieme a HCM El NTSA come JavaScript  una delle tre tecnologie di base
+
+18
+00:00:58,400 --> 00:01:04,880
+dello sviluppo web e pi su questo in un secondo finora ci che lo sviluppo viene saltato  stato tradizionalmente
+
+19
+00:01:04,940 --> 00:01:10,190
+utilizzato solo nell'ambiente del browser, il che significa che era solo una lingua lato client.
+
+20
+00:01:10,340 --> 00:01:16,700
+Tuttavia, pi recentemente grazie a una nuova tecnologia chiamata non come gli sviluppatori sono ora in grado di utilizzare
+
+21
+00:01:16,700 --> 00:01:22,670
+effettivamente javascript anche dal lato server, ma  un argomento molto importante per se stesso e non lo
+
+22
+00:01:22,850 --> 00:01:23,950
+riguarderemo in questo corso.
+
+23
+00:01:24,020 --> 00:01:28,910
+Quindi, come ho detto all'inizio, questo corso copre il lavoro del linguaggio stesso e come usarlo in
+
+24
+00:01:28,910 --> 00:01:31,140
+un browser che  un modo pi tradizionale.
+
+25
+00:01:31,300 --> 00:01:36,590
+OK quindi riassunto javascript  ci che ha reso possibile lo sviluppo web moderno.
+
+26
+00:01:36,620 --> 00:01:42,170
+Ci consente non solo di aggiungere effetti dinamici e interattivit a siti Web pi semplici, ma ci
+
+27
+00:01:42,170 --> 00:01:48,050
+consente anche di sviluppare complesse applicazioni Web moderne con cui possiamo interagire e sembra quasi che le app
+
+28
+00:01:48,050 --> 00:01:51,880
+morte possano utilizzare i nostri computer e telefoni ogni giorno .
+
+29
+00:01:51,980 --> 00:01:57,320
+Ora qualcos'altro che ritengo importante menzionare qui  che oggi ci sono molti lavori nelle
+
+30
+00:01:57,340 --> 00:02:02,420
+librerie e nei framework che implementano diverse architetture e aiutano gli sviluppatori a creare
+
+31
+00:02:02,420 --> 00:02:05,840
+applicazioni complesse pi facilmente e pi velocemente che mai.
+
+32
+00:02:06,120 --> 00:02:12,350
+Quindi sto parlando di cose come reagire o angolare o anche di J Querrey che sono tutte estremamente popolari e sono sicuro
+
+33
+00:02:12,350 --> 00:02:14,120
+che ne hai gi sentito parlare.
+
+34
+00:02:14,120 --> 00:02:20,260
+In questo momento la cosa  che sono tutti al 100% basati su javascript e quindi prima di usarli.
+
+35
+00:02:20,330 --> 00:02:23,600
+Gli sviluppatori in realt devono essere veramente bravi in javascript.
+
+36
+00:02:23,600 --> 00:02:27,240
+Devono essere veramente in grado di capire la lingua stessa.
+
+37
+00:02:27,260 --> 00:02:30,440
+ esattamente dove il discorso vuole aiutarti.
+
+38
+00:02:31,130 --> 00:02:36,920
+Cos ho detto che insieme a HCM L. UN.  come JavaScript  una delle tecnologie di base del Web.
+
+39
+00:02:37,030 --> 00:02:42,770
+E quindi approfondiamoci un po 'e parliamo del ruolo di javascript nello sviluppo web.
+
+40
+00:02:42,770 --> 00:02:49,130
+Cos HCM LCS e Javascript lavorano tutti insieme per creare bellissimi siti web interattivi e
+
+41
+00:02:49,220 --> 00:02:50,890
+dinamici o applicazioni web.
+
+42
+00:02:50,930 --> 00:02:56,870
+Ora l'HMO  responsabile per il contenuto della pagina del testo delle immagini le immagini, i pulsanti e tutto il
+
+43
+00:02:56,870 --> 00:03:00,590
+contenuto che vedi in una pagina web sono sempre scritte in HMO.
+
+44
+00:03:00,650 --> 00:03:04,780
+DENNIS S, ovviamente,  responsabile della presentazione di quel contenuto.
+
+45
+00:03:04,970 --> 00:03:10,730
+Quindi, fondamentalmente per lo styling e la disposizione degli elementi sulla pagina web e infine javascript
+
+46
+00:03:10,820 --> 00:03:16,310
+ il vero linguaggio di programmazione che consente agli sviluppatori di aggiungere dinamiche all'immagine come
+
+47
+00:03:16,310 --> 00:03:22,000
+la manipolazione degli effetti interattivi del contenuto o del C S S e molto altro ancora.
+
+48
+00:03:22,040 --> 00:03:24,830
+Quindi ancora H. M.  responsabile per il contenuto.
+
+49
+00:03:24,970 --> 00:03:25,190
+S.
+
+50
+00:03:25,190 --> 00:03:32,360
+Per quanto riguarda la presentazione e Javascript per aggiungere funzionalit di programmazione reali ai siti Web ora.
+
+51
+00:03:32,390 --> 00:03:37,730
+Un altro modo per visualizzare facilmente il ruolo di ciascuna tecnologia  metterli in termini di obiettivi di
+
+52
+00:03:37,850 --> 00:03:38,910
+nome e peggio.
+
+53
+00:03:39,200 --> 00:03:46,310
+Quindi, in questo pensiero analogo, esperimenti come shemale fa dire ai sostantivi che un elemento p  un paragrafo.
+
+54
+00:03:46,400 --> 00:03:49,080
+Quindi il paragrafo qui  il sostantivo s.
+
+55
+00:03:49,130 --> 00:03:56,240
+L'S-10  l'obiettivo perch descrive il sostantivo come dire che il testo del paragrafo  rosso e
+
+56
+00:03:56,300 --> 00:03:57,450
+quindi c' l'obiettivo.
+
+57
+00:03:57,590 --> 00:04:02,240
+E poi finalmente Javascript  un verbo come dire nascondere il paragrafo.
+
+58
+00:04:02,240 --> 00:04:03,960
+E quindi stiamo facendo qualcosa qui.
+
+59
+00:04:04,070 --> 00:04:05,360
+E cos abbiamo un verbo.
+
+60
+00:04:05,600 --> 00:04:06,060
+OK.
+
+61
+00:04:06,110 --> 00:04:07,310
+Ha senso.
+
+62
+00:04:07,310 --> 00:04:12,780
+E cos questo  il ruolo di javascript nello sviluppo web e non solo prima che finiamo.
+
+63
+00:04:12,950 --> 00:04:17,270
+Voglio menzionare rapidamente che esistono diverse versioni dei dollari del linguaggio, ma non ho intenzione
+
+64
+00:04:17,270 --> 00:04:21,370
+di entrare in questo momento e invece lo lascer per la fine della sezione.
+
+65
+00:04:21,440 --> 00:04:24,960
+OK per ora voglio solo che tu inizi a programmare il pi velocemente possibile.
+
+66
+00:04:25,040 --> 00:04:28,730
+E quindi useremo una versione chiamata S-5 nel prossimo paio di conferenze.
+
+67
+00:04:28,850 --> 00:04:32,990
+Ma di nuovo alla fine di questa sezione c' un intero video molto importante su questo.
+

@@ -1,0 +1,1244 @@
+1
+00:00:01,379 --> 00:00:02,580
+Jonas: Bu karar almak
+
+2
+00:00:02,580 --> 00:00:06,798
+videoda, JavaScript ile karar almann baz yollarna bakacaz. iin baka bir ifade, ancak bunu yapmann daha
+
+3
+00:00:06,798 --> 00:00:08,881
+Yani eer sen hakknda bir eyler rendin. fazla yolu var.
+
+4
+00:00:08,881 --> 00:00:10,714
+Ve bylece bakacamz
+
+5
+00:00:10,714 --> 00:00:13,021
+ilk ey l operatrdr.
+
+6
+00:00:13,021 --> 00:00:14,423
+Hangi koullu operatr olarak else hepsi
+
+7
+00:00:14,423 --> 00:00:16,687
+da adlandrlr ve temel olarak bir Bunun nasl altna bir bakalm.
+
+8
+00:00:16,687 --> 00:00:19,105
+if gibi yazmamza izin veren bir operatrdr. bir satrda ifade eder. Ve yine, ilk adm deikeni buraya geri getiriyorum.
+
+9
+00:00:19,105 --> 00:00:21,546
+(yazarak) Sonra da
+
+10
+00:00:21,546 --> 00:00:25,516
+16 yan ayarlayacaz.
+
+11
+00:00:25,516 --> 00:00:27,138
+Ve imdi, konsere
+
+12
+00:00:27,138 --> 00:00:30,531
+giri yapmak iin, John'a bir bira
+
+13
+00:00:30,531 --> 00:00:32,614
+ierse ya da yana
+
+14
+00:00:34,107 --> 00:00:38,304
+bal olarak meyve suyu ierse, l operatr kullanalm.
+
+15
+00:00:38,304 --> 00:00:40,262
+Tamam?
+
+16
+00:00:40,262 --> 00:00:42,153
+Diyelim ki, 18 yana eit ya
+
+17
+00:00:42,153 --> 00:00:45,164
+da daha byk yata diyelim ki, bu imeye balayabileceiniz yasal
+
+18
+00:00:45,164 --> 00:00:47,582
+ya, en azndan Avrupa'da, belki de U'da deil. S.
+
+19
+00:00:47,582 --> 00:00:48,415
+Tamam? Yani burada kouluyla balyoruz.
+
+20
+00:00:48,415 --> 00:00:52,482
+Sonra soru iaretini kullanrz.
+
+21
+00:00:52,482 --> 00:00:55,762
+Ve sonra, temel olarak, bu koul doruysa ne baka bir
+
+22
+00:00:55,762 --> 00:00:58,035
+olmasn istediimizi yazyoruz. Bu durumda,
+
+23
+00:00:58,035 --> 00:01:01,479
+Yani bu, eer if blounda olduu gibi. ifade. konsola, konsol nokta
+
+24
+00:01:01,479 --> 00:01:03,334
+gnlne, (yazarak) ecekler
+
+25
+00:01:03,334 --> 00:01:05,477
+birasna giri yapmak istiyoruz.
+
+26
+00:01:05,477 --> 00:01:07,589
+Tamam, ilk blm budur.
+
+27
+00:01:07,589 --> 00:01:11,050
+Ve imdi baka blou da yazmalyz, tamam m?
+
+28
+00:01:11,050 --> 00:01:12,284
+Ve bylece, biz kolonunu kullanrz ve
+
+29
+00:01:12,284 --> 00:01:13,909
+sonra, aslnda devam edelim ve bu ksm buraya kopyalayalm.
+
+30
+00:01:13,909 --> 00:01:15,992
+(Fare tklamas) ecek
+
+31
+00:01:21,028 --> 00:01:22,208
+suyu.
+
+32
+00:01:22,208 --> 00:01:23,975
+Tamam, aslnda bu.
+
+33
+00:01:23,975 --> 00:01:27,043
+Yani bu l operatrdr.
+
+34
+00:01:27,043 --> 00:01:29,450
+Ve l olarak adlandrld iin l denir.
+
+35
+00:01:29,450 --> 00:01:32,845
+Yani, temelde operatrle etkileime giren  para.
+
+36
+00:01:32,845 --> 00:01:35,428
+Bu yzden, nce koulu aldk, sonra burada, burada
+
+37
+00:01:37,179 --> 00:01:38,262
+blok var m,
+
+38
+00:01:39,274 --> 00:01:40,850
+temelde, ve sonra dier blok.
+
+39
+00:01:40,850 --> 00:01:42,525
+Yani imdi alrsa test edelim.
+
+40
+00:01:42,525 --> 00:01:45,442
+Ve aslnda, imdi diyor ki, John suyu ier.
+
+41
+00:01:45,442 --> 00:01:48,815
+Ve bu 18 yandan daha gen olduu iin.
+
+42
+00:01:48,815 --> 00:01:50,682
+Eer onu 22'ye ayarlayalm
+
+43
+00:01:50,682 --> 00:01:53,242
+diyelim, diyecek ki, John bira ier.
+
+44
+00:01:53,242 --> 00:01:55,276
+Tamam, baka bir rnee
+
+45
+00:01:55,276 --> 00:01:57,409
+bakalm, nk daha iyi
+
+46
+00:01:57,409 --> 00:02:00,364
+yapabilir ve l operatr kullanarak deikenlere
+
+47
+00:02:00,364 --> 00:02:03,200
+deerleri ok basit bir ekilde atayabiliriz.
+
+48
+00:02:03,200 --> 00:02:06,295
+yleyse, John'un iebilecei eyi syleyerek bir
+
+49
+00:02:06,295 --> 00:02:08,203
+deiken bulmak istediimizi syleyelim.
+
+50
+00:02:08,203 --> 00:02:10,652
+Yani var ielim diyelim, ve imdi
+
+51
+00:02:10,652 --> 00:02:12,531
+artl operatr burada kullanabiliriz.
+
+52
+00:02:12,531 --> 00:02:14,411
+Yani 18 yandan byk veya eittir.
+
+53
+00:02:14,411 --> 00:02:17,327
+Sonra bir soru iareti.
+
+54
+00:02:17,327 --> 00:02:18,950
+Yani temel olarak bu bir soru sormaktr.
+
+55
+00:02:18,950 --> 00:02:22,260
+Peki, John 18'den daha byk veya eittir?
+
+56
+00:02:22,260 --> 00:02:25,312
+Ve eer yleyse, o zaman bira diyebiliriz.
+
+57
+00:02:25,312 --> 00:02:27,730
+Ve eer deilse, o zaman suyu diyebiliriz.
+
+58
+00:02:27,730 --> 00:02:30,397
+Ve bu kadar.
+
+59
+00:02:31,922 --> 00:02:32,879
+Bu temelde burada tm
+
+60
+00:02:32,879 --> 00:02:34,528
+kodun sonucu, ya 18'den bykse veya eitse
+
+61
+00:02:34,528 --> 00:02:36,682
+bira olacak ve eer olmasa da meyve suyu olacak.
+
+62
+00:02:36,682 --> 00:02:40,099
+Ve bu sonu daha sonra iki deikenine atanacaktr.
+
+63
+00:02:42,397 --> 00:02:46,023
+Tamam?
+
+64
+00:02:46,023 --> 00:02:47,090
+Yine, bu yine
+
+65
+00:02:47,090 --> 00:02:49,641
+burada bir operatrdr ve bu nedenle operatr her
+
+66
+00:02:49,641 --> 00:02:53,723
+zaman dier operatrlerden herhangi biriyle grdmz gibi bir sonuca sahiptir, tamam m?
+
+67
+00:02:53,723 --> 00:02:56,019
+Ve bylece bu operatr,
+
+68
+00:02:56,019 --> 00:03:00,096
+bu l operatr, grevlendirmeden nce, tabii ki yrtlr.
+
+69
+00:03:00,096 --> 00:03:00,929
+Hatrlamak? Bu da bir operatr.
+
+70
+00:03:00,929 --> 00:03:02,886
+Ve ilk olarak, sonu olarak
+
+71
+00:03:02,886 --> 00:03:05,387
+ya bira ya da meyve suyu
+
+72
+00:03:05,387 --> 00:03:08,548
+ierecek olan bu blm yrtyoruz ve daha
+
+73
+00:03:08,548 --> 00:03:10,913
+sonra bu iecek deikenine atanacaktr.
+
+74
+00:03:10,913 --> 00:03:14,042
+Ve imdi hereyin tekrar altndan emin olmak iin imdi
+
+75
+00:03:14,042 --> 00:03:16,167
+konsola giri yapalm.
+
+76
+00:03:16,167 --> 00:03:18,036
+(fare tklamas) Ve
+
+77
+00:03:18,036 --> 00:03:21,377
+gerekten de bira diyor.
+
+78
+00:03:21,377 --> 00:03:23,095
+(Fare tklamas) 14
+
+79
+00:03:23,095 --> 00:03:25,371
+Tabi ki meyve suyu iecektir.
+
+80
+00:03:25,371 --> 00:03:26,761
+imdi, ncl operatr baka
+
+81
+00:03:26,761 --> 00:03:29,469
+olmadan yapmamz gerekenleri karlatrmak iin, yleyse yazmak zorundaydk, (yazarak),
+
+82
+00:03:29,469 --> 00:03:32,873
+ayn eyi bir ifa ile yazalm. bir ifade. var (yazarak) ikiye eittir bira,
+
+83
+00:03:32,873 --> 00:03:35,100
+bu durumda, ve
+
+84
+00:03:35,100 --> 00:03:37,546
+sonra da fii
+
+85
+00:03:37,546 --> 00:03:40,341
+(yazarak) ve sonra suyu
+
+86
+00:03:40,341 --> 00:03:41,723
+burada.
+
+87
+00:03:41,723 --> 00:03:44,060
+Tamam?
+
+88
+00:03:44,060 --> 00:03:46,861
+Ve bu, burada bunu kullanmann alternatifi olabilir.
+
+89
+00:03:46,861 --> 00:03:48,347
+Peki sizce daha iyi grnyor?
+
+90
+00:03:48,347 --> 00:03:50,430
+Akas l operatr, doru mu?
+
+91
+00:03:52,805 --> 00:03:57,805
+En azndan ben byle bir ey yazmay tercih ederim, nk basit bir
+
+92
+00:04:00,317 --> 00:04:01,628
+duruma gre bir
+
+93
+00:04:01,628 --> 00:04:03,711
+deere sadece bir deer atamak
+
+94
+00:04:05,082 --> 00:04:06,749
+kadar basit bir ey
+
+95
+00:04:08,461 --> 00:04:09,300
+isterim diye, tamam.
+
+96
+00:04:09,300 --> 00:04:12,620
+Tabii ki, olduka karmak bir karar iin
+
+97
+00:04:12,620 --> 00:04:14,530
+l bir operatr yapamazsnz,
+
+98
+00:04:14,530 --> 00:04:17,386
+ancak byle basit bir eyimiz olmas Bunun gibi baka
+
+99
+00:04:17,386 --> 00:04:18,666
+durumunda, eer bir Bu yzden bu ksm burada
+
+100
+00:04:18,666 --> 00:04:20,616
+eyi kullanmak zorunda kalmamak mkemmeldir. bir ifade. aklamama izin verin, bylece bunun ayn olduunu biliyorsunuz.
+
+101
+00:04:20,616 --> 00:04:22,860
+Ve tamam.
+
+102
+00:04:22,860 --> 00:04:25,002
+Bu yzden, l operatr hakknda, koullu
+
+103
+00:04:25,002 --> 00:04:27,362
+yazmann alternatif bir yolu olarak konutuk
+
+104
+00:04:27,362 --> 00:04:29,595
+ama aslnda daha da fazlas var. else cmlesi, burada birden fazla
+
+105
+00:04:29,595 --> 00:04:31,893
+Ve bu anahtar ifadesi. baka blmmz varsa, temel olarak,
+
+106
+00:04:31,893 --> 00:04:34,525
+Ve bu byk bir ey gibi. ve daha kolay anlalr bir szdizimi
+
+107
+00:04:34,525 --> 00:04:36,618
+ile deitirebiliriz, tamam m?
+
+108
+00:04:36,618 --> 00:04:38,526
+imdi kendimin
+
+109
+00:04:38,526 --> 00:04:39,695
+byk bir hayran
+
+110
+00:04:39,695 --> 00:04:42,873
+deilim, ancak web'deki reticiler iin arama yaptnzda bunu
+
+111
+00:04:42,873 --> 00:04:44,092
+greceksiniz ve bu
+
+112
+00:04:44,092 --> 00:04:46,103
+yzden anahtar deyimini de bilmeniz nemlidir.
+
+113
+00:04:46,103 --> 00:04:48,512
+Bu yzden balamadan nce baz yorumlar ekleyelim.
+
+114
+00:04:48,512 --> 00:04:50,248
+(yazarak) Yani,
+
+115
+00:04:50,248 --> 00:04:52,208
+l operatr ve
+
+116
+00:04:52,208 --> 00:04:54,423
+daha
+
+117
+00:04:54,423 --> 00:04:57,389
+sonra, anahtar ifadesini yazarak.
+
+118
+00:04:57,389 --> 00:04:59,066
+Tamam, ite ilk nce burada bir i tanmlayalm.
+
+119
+00:04:59,066 --> 00:05:01,199
+(yazarak) Ve John'un bir
+
+120
+00:05:01,199 --> 00:05:02,702
+retmen olduunu syleyelim.
+
+121
+00:05:02,702 --> 00:05:04,145
+Ve imdi anahtar deyimini kullanabiliriz.
+
+122
+00:05:04,145 --> 00:05:06,448
+Bize biraz daha yer a. Peki.
+
+123
+00:05:06,448 --> 00:05:07,941
+Bu yzden gei yapalm ve burada bu
+
+124
+00:05:07,941 --> 00:05:09,721
+parantezler arasnda, istediimiz eyi, ne deerlendirmek istediimizi koyarz.
+
+125
+00:05:09,721 --> 00:05:11,788
+Tamam, bu tm anahtar ifadesini
+
+126
+00:05:11,788 --> 00:05:13,871
+grdkten sonra ok daha mantkl olacak.
+
+127
+00:05:15,121 --> 00:05:17,672
+yleyse imdilik sadece ii yazalm, o zaman
+
+128
+00:05:17,672 --> 00:05:19,755
+bunun neden byle altn anlayacaksnz.
+
+129
+00:05:20,743 --> 00:05:22,998
+Yani ii esas olarak deitiriyoruz.
+
+130
+00:05:22,998 --> 00:05:25,802
+Ve sonra, birka vaka cmlesi ekleyebiliriz.
+
+131
+00:05:25,802 --> 00:05:27,885
+yleyse durum diyoruz ve
+
+132
+00:05:28,739 --> 00:05:30,676
+sonra, rnein, (yazarak) diyebiliriz.
+
+133
+00:05:30,676 --> 00:05:33,055
+Ardndan kolon ve sonra sradaki
+
+134
+00:05:33,055 --> 00:05:36,222
+srada olmasn istediimizi sylyoruz.
+
+135
+00:05:37,537 --> 00:05:40,307
+Yani bu
+
+136
+00:05:40,307 --> 00:05:43,937
+durumda, ilk yazarak
+
+137
+00:05:43,937 --> 00:05:45,876
+(yazarak) diyelim,
+
+138
+00:05:45,876 --> 00:05:48,366
+(yazarak) ocuklara
+
+139
+00:05:48,366 --> 00:05:50,833
+kod yazmay retir.
+
+140
+00:05:50,833 --> 00:05:53,263
+Yani, bir retmen byle yapar. Diyelimki.
+
+141
+00:05:53,263 --> 00:05:55,111
+Yani, eer i retmene
+
+142
+00:05:55,111 --> 00:05:58,493
+eit ise, o zaman bu kod burada yaplacaktr.
+
+143
+00:05:58,493 --> 00:06:00,838
+Peki?
+
+144
+00:06:00,838 --> 00:06:03,458
+Bir ift daha ekleyelim.
+
+145
+00:06:03,458 --> 00:06:05,470
+yleyse ofr, hadi diyelim, ve
+
+146
+00:06:05,470 --> 00:06:07,714
+imdi bu kod parasn burada alacam.
+
+147
+00:06:07,714 --> 00:06:09,615
+Bir srcnn Lizbon'da bir Uber kullandn varsayalm.
+
+148
+00:06:09,615 --> 00:06:11,698
+Ve bu, anahtar ifadesinin
+
+149
+00:06:12,552 --> 00:06:14,236
+temel ilevidir, tamam m?
+
+150
+00:06:14,236 --> 00:06:16,319
+Bylece birka tane daha fazla vaka ekleyebiliriz.
+
+151
+00:06:17,406 --> 00:06:19,873
+Diyelim ki tasarmcy (yazarak)
+
+152
+00:06:19,873 --> 00:06:23,002
+ve daha sonra
+
+153
+00:06:23,002 --> 00:06:26,082
+konsol nokta gnlmz de istiyoruz.
+
+154
+00:06:26,082 --> 00:06:28,499
+Diyelim ki, (yazarak) gzel web siteleri tasarlyor.
+
+155
+00:06:28,499 --> 00:06:29,332
+Peki.
+
+156
+00:06:29,332 --> 00:06:30,720
+Yani burada yaptmz ey,
+
+157
+00:06:30,720 --> 00:06:33,689
+ii bu farkl durumlarn her biriyle karlatrmaktr.
+
+158
+00:06:33,689 --> 00:06:37,582
+Yani i retmen ise, o zaman yapn.
+
+159
+00:06:37,582 --> 00:06:41,249
+ src ise, bunu yapn.
+
+160
+00:06:42,230 --> 00:06:44,525
+ tasarmcysa, o zaman, bunu yap.
+
+161
+00:06:44,525 --> 00:06:47,379
+imdi, burada yapmamz gereken de
+
+162
+00:06:47,379 --> 00:06:49,484
+bir break ifadesi eklemektir.
+
+163
+00:06:49,484 --> 00:06:51,445
+Yani burada bir mola vermek zorundayz, nk
+
+164
+00:06:51,445 --> 00:06:53,452
+aksi halde bu sonraki durumlar deerlendirmeye devam edecektir.
+
+165
+00:06:53,452 --> 00:06:55,356
+Tamam, iin retmeni
+
+166
+00:06:55,356 --> 00:07:00,356
+olsa bile, bu dier durumlar deerlendirmeye devam edecektir.
+
+167
+00:07:01,759 --> 00:07:02,592
+Temel olarak onlara bakmaya devam
+
+168
+00:07:02,592 --> 00:07:04,104
+edecek ve onlarn da doru olup olmadklarn grecek.
+
+169
+00:07:04,104 --> 00:07:07,822
+Ama biz bunun olmasn istemiyoruz ve bu nedenle,
+
+170
+00:07:07,822 --> 00:07:09,988
+yrtmek istediimiz bu bloun sonunda
+
+171
+00:07:09,988 --> 00:07:12,080
+aradaki anahtar kelimesini kullanmamz gerekiyor.
+
+172
+00:07:12,080 --> 00:07:14,446
+(yazarak) Yani,
+
+173
+00:07:14,446 --> 00:07:16,121
+kr. Ve burada, ayrca (yazarak) krn.
+
+174
+00:07:16,121 --> 00:07:18,393
+imdi, bunlarn hibiri geerli deilse, bir varsaylan ekleyebiliriz.
+
+175
+00:07:18,393 --> 00:07:20,851
+Tamam, tek yapmamz gereken varsaylan sylemek.
+
+176
+00:07:20,851 --> 00:07:23,396
+Ve sonra bu durumda ne olduunu tanmlayn.
+
+177
+00:07:23,396 --> 00:07:25,388
+yleyse, bu durumda, hadi,
+
+178
+00:07:25,388 --> 00:07:28,730
+sadece John'un baka bir ey yaptn syleyelim.
+
+179
+00:07:28,730 --> 00:07:30,531
+Ve sonra, burada, elbette, krlmaya ihtiyacmz yok
+
+180
+00:07:30,531 --> 00:07:32,014
+nk zaten zaten buradaki son dava.
+
+181
+00:07:32,014 --> 00:07:33,423
+Tamam? else ifadesi, eer i
+
+182
+00:07:33,423 --> 00:07:35,172
+Yani, eer bunlardan else retmene eitse, o zaman
+
+183
+00:07:35,172 --> 00:07:38,701
+hibiri geerli deilse, bu, eer, eer, cmlesi, yani bunu yapn, eer ofrse, o zaman bunu burada yapn,
+
+184
+00:07:38,701 --> 00:07:39,849
+eer, eer. eer. tasarmcysa, bunu yapn.
+
+185
+00:07:39,849 --> 00:07:43,944
+Ve sonra, bunu yapn. Sa? baka
+
+186
+00:07:43,944 --> 00:07:47,523
+Ve bylece buradaki varsaylan deer, Peki? yleyse deneyelim.
+
+187
+00:07:47,523 --> 00:07:50,625
+esasen bir sondaki bizim sonumuzdur. bir ifade. Ve aslnda, imdi, John'un ocuklara nasl
+
+188
+00:07:50,625 --> 00:07:54,070
+kod yazlacan rettii iin, o bir retmendir.
+
+189
+00:07:54,070 --> 00:07:55,858
+imdi bir ofr olduunu
+
+190
+00:07:55,858 --> 00:07:59,632
+sylersek, tabii ki Lizbon'da bir Uber sryor.
+
+191
+00:07:59,632 --> 00:08:01,426
+imdi onun polis olduunu ve imdi bunlarn
+
+192
+00:08:01,426 --> 00:08:03,875
+hibirinin geerli olmadn syleyelim, ve sonu olarak, John'un baka bir
+
+193
+00:08:03,875 --> 00:08:04,708
+ey yapmas gerekiyor.
+
+194
+00:08:04,708 --> 00:08:05,970
+Harika.
+
+195
+00:08:05,970 --> 00:08:07,930
+imdi de, yrtmek istediimiz ayn kod paras iin birden
+
+196
+00:08:07,930 --> 00:08:09,552
+fazla durum cmlesi olabilir.
+
+197
+00:08:09,552 --> 00:08:11,251
+rnein, eer
+
+198
+00:08:11,251 --> 00:08:13,923
+bu kodu burada altrmak istiyorsanz, eer i
+
+199
+00:08:13,923 --> 00:08:16,370
+bir retmense, ya da eitmen diyelim,
+
+200
+00:08:16,370 --> 00:08:19,003
+o zaman burada baka bir durum ekleyebiliriz.
+
+201
+00:08:19,003 --> 00:08:21,503
+yleyse, (yazarak) eitmen,
+
+202
+00:08:22,352 --> 00:08:24,103
+ve sonra bu kod
+
+203
+00:08:24,103 --> 00:08:26,784
+paras, eitmen deyince
+
+204
+00:08:26,784 --> 00:08:28,999
+de idam edilecektir.
+
+205
+00:08:28,999 --> 00:08:30,758
+Sadece bitirmek iin, bunu deneyelim.
+
+206
+00:08:30,758 --> 00:08:34,260
+Ve evet, yle olmas gerektii gibi burada da alyor. baka
+
+207
+00:08:34,260 --> 00:08:36,435
+Yani bu yine burada, rnein, buna benzer bir
+
+208
+00:08:36,435 --> 00:08:40,449
+byk bir deitirmenin basit bir yolu. bir ifade. ey, eer buna sahip olduumuz yerde, ve
+
+209
+00:08:40,449 --> 00:08:43,274
+sonra, eer yleyse, ve sonra.
+
+210
+00:08:43,274 --> 00:08:46,524
+Ya da daha uzun olabilir ve bazen bir anahtar ifadesi, bu
+
+211
+00:08:46,524 --> 00:08:48,525
+gibi tm bloklarn sahip olmasndan biraz daha
+
+212
+00:08:48,525 --> 00:08:49,358
+temiz grnr.
+
+213
+00:08:49,358 --> 00:08:51,352
+Tamam?
+
+214
+00:08:51,352 --> 00:08:53,973
+Ve aslnda, zerinde altmz iin, aslnda Burada bir anahtara sahip olursunuz,
+
+215
+00:08:53,973 --> 00:08:55,871
+devam edelim, bu kod nk bu aslnda biraz
+
+216
+00:08:55,871 --> 00:08:58,219
+parasn kopyalayn ve bunu deitirmeye aln. farkl bir ekilde alacak ve
+
+217
+00:08:58,219 --> 00:09:00,393
+bu da bunun nasl
+
+218
+00:09:00,393 --> 00:09:03,856
+ileyebileceini gstermek iin harika bir frsat.
+
+219
+00:09:03,856 --> 00:09:05,168
+Bu yzden size burada
+
+220
+00:09:05,168 --> 00:09:06,945
+gsterdiim ilk anahtar, basite bir
+
+221
+00:09:06,945 --> 00:09:10,096
+deikeni deitirir ve tm bu durumlar bu deikenle karlatrr.
+
+222
+00:09:10,096 --> 00:09:13,512
+Fakat burada bu say aralklarna sahibiz ve bu
+
+223
+00:09:13,512 --> 00:09:16,826
+yzden biraz farkl alyor ve bu yzden burada
+
+224
+00:09:16,826 --> 00:09:20,207
+da bunu yapmak iin harika bir altrma.
+
+225
+00:09:20,207 --> 00:09:22,137
+Yani, onu evirmek iin temelde bir anahtar ifadesine.
+
+226
+00:09:22,137 --> 00:09:25,298
+Yani bu durumda deimek istediimiz dorudur.
+
+227
+00:09:25,298 --> 00:09:27,167
+Tamam, temel olarak aadaki ifadelerin
+
+228
+00:09:27,167 --> 00:09:28,732
+her birini karlatrmak istiyoruz,
+
+229
+00:09:28,732 --> 00:09:31,231
+bir saniye iinde buraya konacaz, doru. aralklarla baka
+
+230
+00:09:31,231 --> 00:09:32,560
+Ve bu, sadece Yani, ilk durumumuz, vaka, ya, 13'ten az olacak.
+
+231
+00:09:32,560 --> 00:09:35,405
+anahtarn almasn yapmak iin bir hile. bir deyim. Ve, bu durumda, daha sonra bu
+
+232
+00:09:35,405 --> 00:09:37,997
+paray konsola kaydedecek ve daha sonra
+
+233
+00:09:37,997 --> 00:09:38,830
+krmay unutma.
+
+234
+00:09:38,830 --> 00:09:40,760
+(yazarak) Tamam, o zaman bir sonraki
+
+235
+00:09:40,760 --> 00:09:42,674
+durum budur, ve aslnda devam edelim
+
+236
+00:09:42,674 --> 00:09:45,809
+ve kopyalayalm, nk zaten bu
+
+237
+00:09:45,809 --> 00:09:47,446
+noktada nasl altn biliyoruz ve
+
+238
+00:09:47,446 --> 00:09:49,242
+sonra bunu konsolda gnle yazyoruz.
+
+239
+00:09:49,242 --> 00:09:50,482
+yleyse, John bir gen ve sonra da onun dna kalm.
+
+240
+00:09:50,482 --> 00:09:52,656
+O zaman buradaki kodu tamamlayalm ve
+
+241
+00:09:52,656 --> 00:09:54,789
+daha yakndan inceleyip nasl altn grelim.
+
+242
+00:09:54,789 --> 00:09:56,975
+Tamam?
+
+243
+00:09:56,975 --> 00:09:59,981
+Dolaysyla, bu durumda, bu blm konsolunuza kaydetmek, sonra
+
+244
+00:09:59,981 --> 00:10:01,912
+da bunun dnda brakmak istiyoruz.
+
+245
+00:10:01,912 --> 00:10:03,485
+Ve imdi nihayet, burada baka bir paramz var.
+
+246
+00:10:03,485 --> 00:10:06,158
+Ve bylece dier ksm iin,
+
+247
+00:10:06,158 --> 00:10:09,804
+daha nce olduu gibi, varsaylan olarak kullanacaz.
+
+248
+00:10:09,804 --> 00:10:13,513
+yleyse varsaylan olarak, John'un bir erkek olduunu syleyin.
+
+249
+00:10:13,513 --> 00:10:15,261
+Peki? Ve bylece aslnda bu.
+
+250
+00:10:15,261 --> 00:10:17,089
+Bylece bundan kurtulabiliriz ve bu
+
+251
+00:10:17,089 --> 00:10:19,446
+yzden onu buraya anahtar deyimine evirdik.
+
+252
+00:10:19,446 --> 00:10:22,270
+Yani imdi bu artlarn tamamn burada, temel olarak,
+
+253
+00:10:22,270 --> 00:10:24,492
+daha nce olduu
+
+254
+00:10:24,492 --> 00:10:28,825
+gibi dizge olarak deil, buradaki durumda, ve bu, anahtar deyimini kullanmann daha
+
+255
+00:10:31,521 --> 00:10:33,688
+olaan bir durumudur, tamam m?
+
+256
+00:10:33,688 --> 00:10:35,944
+Yani, bir deikenle karlatrmak istediimiz
+
+257
+00:10:35,944 --> 00:10:38,250
+bir dizgeye sahip olduumuz yer.
+
+258
+00:10:38,250 --> 00:10:40,504
+Buradaki durumda, burada temel olarak bu mantksal
+
+259
+00:10:40,504 --> 00:10:42,324
+ifadeler var, bu doru ya da
+
+260
+00:10:42,324 --> 00:10:43,806
+yanl olarak ortaya kacak.
+
+261
+00:10:43,806 --> 00:10:47,281
+Ve mesela, eer bu burada doruysa,
+
+262
+00:10:47,281 --> 00:10:50,074
+eer ya 13 ile 20
+
+263
+00:10:50,074 --> 00:10:54,921
+arasndaysa, o zaman bu burada dorudur ve dierlerinin
+
+264
+00:10:54,921 --> 00:10:56,729
+hepsi yanltr.
+
+265
+00:10:56,729 --> 00:11:00,562
+Ve doru deitirdiimizi hatrlayn.
+
+266
+00:11:01,706 --> 00:11:02,705
+Ve bylece doru
+
+267
+00:11:02,705 --> 00:11:05,455
+olan durum o zaman idam edilecek olan olacaktr.
+
+268
+00:11:07,110 --> 00:11:11,402
+Tamam, hadi bunu deneyelim.
+
+269
+00:11:11,402 --> 00:11:13,961
+Ve dndm ya deil, aslnda 14 olarak tanmlanyor.
+
+270
+00:11:13,961 --> 00:11:15,375
+Hadi tekrar buraya koyalm.
+
+271
+00:11:15,375 --> 00:11:18,792
+Bunu test etmek iin yukar ve aa gitmek zorunda deiliz.
+
+272
+00:11:19,627 --> 00:11:23,377
+Yani imdi onun 10 olduunu ve hadi kontrol edelim diyelim.
+
+273
+00:11:26,871 --> 00:11:28,656
+Yani John bir erkek. Harika.
+
+274
+00:11:28,656 --> 00:11:30,194
+17'ye deitir, imdi o bir gen.
+
+275
+00:11:30,194 --> 00:11:34,256
+imdi 22, gen bir adam.
+
+276
+00:11:34,256 --> 00:11:37,142
+(fare tklamas)
+
+277
+00:11:37,142 --> 00:11:41,130
+Ve bir adam.
+
+278
+00:11:41,130 --> 00:11:43,441
+Yani bunlarn hepsi imdi alyor.
+
+279
+00:11:43,441 --> 00:11:45,459
+Yani bunlar anahtar deyimlerini kullanmann eer varsa
+
+280
+00:11:45,459 --> 00:11:47,307
+iki yolu ve eer uzun bakalar ile
+
+281
+00:11:47,307 --> 00:11:49,948
+bir sre varsa, yine yararl olabilirler. baka bir ifade. Yani bu burada biraz daha temiz grnebilir. Peki.
+
+282
+00:11:49,948 --> 00:11:52,206
+Bu yzden artl kod else ifadesi,
+
+283
+00:11:52,206 --> 00:11:54,105
+yazabileceimiz  yol var. l operatr
+
+284
+00:11:54,105 --> 00:11:56,743
+Yani eer yleyse. ve anahtar deyimi.
+
+285
+00:11:56,743 --> 00:11:59,031
+&nbsp;
+
+286
+00:11:59,031 --> 00:12:01,129
+&nbsp;
+
+287
+00:12:01,129 --> 00:12:02,760
+&nbsp;
+
+288
+00:12:02,760 --> 00:12:04,546
+&nbsp;
+
+289
+00:12:04,546 --> 00:12:06,683
+&nbsp;
+
+290
+00:12:06,683 --> 00:12:08,319
+&nbsp;
+
+291
+00:12:08,319 --> 00:12:10,794
+&nbsp;
+
+292
+00:12:10,794 --> 00:12:12,205
+&nbsp;
+
+293
+00:12:12,205 --> 00:12:17,141
+&nbsp;
+
+294
+00:12:17,141 --> 00:12:18,593
+&nbsp;
+
+295
+00:12:18,593 --> 00:12:20,767
+&nbsp;
+
+296
+00:12:20,767 --> 00:12:24,280
+&nbsp;
+
+297
+00:12:24,280 --> 00:12:26,280
+&nbsp;
+
+298
+00:12:27,167 --> 00:12:31,020
+&nbsp;
+
+299
+00:12:31,020 --> 00:12:33,187
+&nbsp;
+
+300
+00:12:34,060 --> 00:12:36,484
+&nbsp;
+
+301
+00:12:36,484 --> 00:12:37,398
+&nbsp;
+
+302
+00:12:37,398 --> 00:12:39,509
+&nbsp;
+
+303
+00:12:39,509 --> 00:12:42,170
+&nbsp;
+
+304
+00:12:42,170 --> 00:12:43,708
+&nbsp;
+
+305
+00:12:43,708 --> 00:12:46,047
+&nbsp;
+
+306
+00:12:46,047 --> 00:12:47,925
+&nbsp;
+
+307
+00:12:47,925 --> 00:12:50,823
+&nbsp;
+
+308
+00:12:50,823 --> 00:12:52,785
+&nbsp;
+
+309
+00:12:52,785 --> 00:12:54,823
+&nbsp;
+
+310
+00:12:54,823 --> 00:12:57,059
+&nbsp;
+
+311
+00:12:57,059 --> 00:12:59,142
+&nbsp;
+

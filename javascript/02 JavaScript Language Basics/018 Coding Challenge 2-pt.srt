@@ -1,0 +1,204 @@
+1
+00:00:01,886 --> 00:00:04,023
+Jonas: Ento, depois de aprender tudo
+
+2
+00:00:04,023 --> 00:00:06,403
+sobre condicionais e verdadeiros valores falsos em
+
+3
+00:00:06,403 --> 00:00:09,596
+JavaScript, agora  hora de outro desafio de codificao.
+
+4
+00:00:09,596 --> 00:00:12,202
+Ento, vamos dizer que John e Mike jogam
+
+5
+00:00:12,202 --> 00:00:13,805
+basquete, mas em equipes diferentes.
+
+6
+00:00:13,805 --> 00:00:15,221
+E nos ltimos trs
+
+7
+00:00:15,221 --> 00:00:19,064
+jogos, o time de John marcou 89, 120 e 103 pontos.
+
+8
+00:00:19,064 --> 00:00:23,731
+E o time de Mike marcou 116, 94 e 123 pontos, ok.
+
+9
+00:00:24,567 --> 00:00:26,744
+O que eu quero que voc faa,
+
+10
+00:00:26,744 --> 00:00:29,275
+ calcular a pontuao mdia de cada equipe
+
+11
+00:00:29,275 --> 00:00:32,485
+e, em seguida, decidir qual time vence, em mdia, aquele
+
+12
+00:00:32,485 --> 00:00:34,354
+que tiver a pontuao mdia mais
+
+13
+00:00:34,354 --> 00:00:36,914
+alta e, em seguida, imprimir o vencedor no console.
+
+14
+00:00:36,914 --> 00:00:39,300
+E quando voc imprimir esse vencedor no
+
+15
+00:00:39,300 --> 00:00:41,465
+console, inclua tambm a pontuao mdia.
+
+16
+00:00:41,465 --> 00:00:44,426
+Ok, ento j calculamos as mdias antes, ento tudo
+
+17
+00:00:44,426 --> 00:00:46,858
+o que temos a fazer  somar
+
+18
+00:00:46,858 --> 00:00:49,244
+os valores e dividir por trs neste
+
+19
+00:00:49,244 --> 00:00:51,537
+caso, porque temos trs resultados aqui, ok.
+
+20
+00:00:51,537 --> 00:00:53,156
+E o que eu tambm
+
+21
+00:00:53,156 --> 00:00:56,715
+queria fazer  alterar as pontuaes para mostrar os vencedores diferentes.
+
+22
+00:00:56,715 --> 00:00:59,124
+E aqui, no se esquea de levar
+
+23
+00:00:59,124 --> 00:01:01,359
+em conta que pode haver um empate.
+
+24
+00:01:01,359 --> 00:01:04,644
+Ento, isso significa que h a mesma pontuao mdia.
+
+25
+00:01:04,644 --> 00:01:06,461
+E assim, na sua declarao, voc
+
+26
+00:01:06,461 --> 00:01:08,656
+ter que manter isso em mente, ok?
+
+27
+00:01:08,656 --> 00:01:11,808
+Agora, depois de terminar isso, voc pode lev-lo para o prximo
+
+28
+00:01:11,808 --> 00:01:13,625
+nvel e adicionar um pouco mais.
+
+29
+00:01:13,625 --> 00:01:16,399
+E neste caso, Mary tambm joga basquete
+
+30
+00:01:16,399 --> 00:01:20,316
+e sua equipe marcou 97, 134 e 105 pontos.
+
+31
+00:01:21,937 --> 00:01:24,277
+E como antes, quero que voc registre
+
+32
+00:01:24,277 --> 00:01:25,955
+o vencedor mdio no consule.
+
+33
+00:01:25,955 --> 00:01:27,417
+Ento, o que voc vai ter
+
+34
+00:01:27,417 --> 00:01:29,188
+que fazer aqui,  verificar se um
+
+35
+00:01:29,188 --> 00:01:31,754
+dos jogadores tem uma pontuao maior do que os outros dois.
+
+36
+00:01:31,754 --> 00:01:33,315
+Ok, para fazer isso
+
+37
+00:01:33,315 --> 00:01:35,399
+voc provavelmente precisar do operador
+
+38
+00:01:35,399 --> 00:01:37,454
+final para tomar essa deciso.
+
+39
+00:01:37,454 --> 00:01:39,225
+Ok, e se voc no pode
+
+40
+00:01:39,225 --> 00:01:41,605
+resolver isso, ento  absolutamente nenhum problema.
+
+41
+00:01:41,605 --> 00:01:43,642
+Voc pode apenas assistir a soluo
+
+42
+00:01:43,642 --> 00:01:45,982
+e ver como eu fao isso l.
+
+43
+00:01:45,982 --> 00:01:48,217
+Ok, a coisa mais importante  que
+
+44
+00:01:48,217 --> 00:01:50,986
+voc pode fazer esses dois nmeros um e trs.
+
+45
+00:01:50,986 --> 00:01:53,348
+Ok, e se voc quiser lev-lo para o prximo
+
+46
+00:01:53,348 --> 00:01:55,363
+nvel aqui com o nmero quatro, ento isso
+
+47
+00:01:55,363 --> 00:01:57,499
+tambm  um timo complemento para esse desafio, ok.
+
+48
+00:01:57,499 --> 00:01:59,089
+Portanto, dedique alguns minutos
+
+49
+00:01:59,089 --> 00:02:01,586
+aqui, talvez meia hora, e tente realmente
+
+50
+00:02:01,586 --> 00:02:02,642
+completar esse desafio.
+
+51
+00:02:02,642 --> 00:02:07,309
+E ento eu vou te ver no prximo vdeo com uma soluo.
+

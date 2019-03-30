@@ -1,0 +1,412 @@
+1
+00:00:01,250 --> 00:00:03,897
+Jonas: Bu blmn en son ve
+
+2
+00:00:03,897 --> 00:00:07,449
+en heyecan verici kodlama sorununa tekrar hogeldiniz.
+
+3
+00:00:07,449 --> 00:00:09,087
+Yani, baka bir meydan
+
+4
+00:00:09,087 --> 00:00:11,342
+okumada oluturduumuz bahi hesaplaycsn hatrlayn.
+
+5
+00:00:11,342 --> 00:00:13,568
+imdi bu noktaya kadar rendiimiz
+
+6
+00:00:13,568 --> 00:00:16,725
+her eyi kullanarak daha gelimi bir srm oluturalm.
+
+7
+00:00:16,725 --> 00:00:18,656
+Bu sefer, John ve
+
+8
+00:00:18,656 --> 00:00:20,801
+ailesi be farkl restorana gittiler.
+
+9
+00:00:20,801 --> 00:00:25,218
+Faturalar 124, 48, 268, 180 ve 42 dolard.
+
+10
+00:00:26,946 --> 00:00:28,894
+Ve yine, John 50 dolardan
+
+11
+00:00:28,894 --> 00:00:31,650
+az olduu zaman, faturann yzde 20'sini, 50
+
+12
+00:00:31,650 --> 00:00:34,840
+ila 200 arasndaysa yzde 50'yi ve fatura 200
+
+13
+00:00:34,840 --> 00:00:38,242
+$ 'dan fazla ise yzde 10'u vermeyi seviyor.
+
+14
+00:00:38,242 --> 00:00:39,075
+Peki?
+
+15
+00:00:39,075 --> 00:00:40,902
+Yani, bu kez nesneleri kullanarak
+
+16
+00:00:40,902 --> 00:00:43,861
+bir ipucu hesap makinesi ve dngler uygulayn.
+
+17
+00:00:43,861 --> 00:00:46,013
+te size yardmc olmak iin
+
+18
+00:00:46,013 --> 00:00:47,385
+bunu yapmak iin admlar.
+
+19
+00:00:47,385 --> 00:00:49,274
+Bu nedenle, nce fatura deerleri
+
+20
+00:00:49,274 --> 00:00:51,507
+iin bir dizi ile bir nesne oluturun.
+
+21
+00:00:51,507 --> 00:00:54,040
+Sonra, ipucu hesaplamak iin bir yntem ekleyin
+
+22
+00:00:54,040 --> 00:00:56,588
+ve bu yntem tabii ki, tm denmi
+
+23
+00:00:56,588 --> 00:00:58,924
+faturalar zerinde yineleme ve ipucu hesaplamalar
+
+24
+00:00:58,924 --> 00:01:01,091
+yapmak iin bir dng ierir.
+
+25
+00:01:01,091 --> 00:01:04,382
+Daha sonra, bir kt olarak, tekrar iki dizi oluturmanz gerekir.
+
+26
+00:01:04,382 --> 00:01:06,604
+Tm denen ipularn ieren
+
+27
+00:01:06,604 --> 00:01:10,100
+bir ve iki, son denen tutar ieren.
+
+28
+00:01:10,100 --> 00:01:13,056
+Yani yine, fatura art ipucu. Peki?
+
+29
+00:01:13,056 --> 00:01:14,973
+Ve size burada vermem
+
+30
+00:01:14,973 --> 00:01:18,247
+gereken bir ipucu, zellik olarak iki
+
+31
+00:01:18,247 --> 00:01:21,652
+bo diziyle balayp, bunlar dng iinde doldurabilmenizdir.
+
+32
+00:01:21,652 --> 00:01:22,485
+Tamam?
+
+33
+00:01:22,485 --> 00:01:24,993
+Yani bo bir dizi buradaki gibidir.
+
+34
+00:01:24,993 --> 00:01:26,853
+Ve iki bo diziyle balayabilirsin,
+
+35
+00:01:26,853 --> 00:01:29,901
+bir tane sadece bir numara iin, yani tm
+
+36
+00:01:29,901 --> 00:01:33,140
+ipularn, ve sonra iki, tm son denen miktarlar iin.
+
+37
+00:01:33,140 --> 00:01:35,874
+Bu ikisi ile bo diziler olarak
+
+38
+00:01:35,874 --> 00:01:38,626
+balayn ve bir dng iinde onlar doldurabilirsiniz.
+
+39
+00:01:38,626 --> 00:01:39,459
+Peki?
+
+40
+00:01:39,459 --> 00:01:41,168
+Yani bu zaten ok i,
+
+41
+00:01:41,168 --> 00:01:44,665
+ama bundan sonra, senin iin bir adm ikiye bile sahibim.
+
+42
+00:01:44,665 --> 00:01:48,099
+Yani, hatta bir sonraki seviyeye almak iin.
+
+43
+00:01:48,099 --> 00:01:51,390
+Ve Mark'n ailesi de tatile kt.
+
+44
+00:01:51,390 --> 00:01:54,572
+Ve drt farkl restorana gidiyorlar.
+
+45
+00:01:54,572 --> 00:01:56,246
+Ve dedikleri fatura 77,
+
+46
+00:01:56,246 --> 00:01:58,663
+375, 110 ve 45 dolard.
+
+47
+00:02:01,854 --> 00:02:03,561
+Ve Mark, devrilme sz konusu
+
+48
+00:02:03,561 --> 00:02:05,359
+olduunda biraz farkl kurallara sahip.
+
+49
+00:02:05,359 --> 00:02:07,096
+Bu yzden fatura 100
+
+50
+00:02:07,096 --> 00:02:09,270
+$ 'dan daha az olursa, fatura
+
+51
+00:02:09,270 --> 00:02:13,060
+yzde 100 ve 300 dolar arasndaysa yzde 10, fatura ise
+
+52
+00:02:13,060 --> 00:02:17,040
+300 dolardan daha fazla ise yzde 20 bahi vermeyi seviyor.
+
+53
+00:02:17,040 --> 00:02:17,873
+Tamam?
+
+54
+00:02:17,873 --> 00:02:20,047
+Yani yine, bu pek anlaml deil,
+
+55
+00:02:20,047 --> 00:02:23,179
+ama yine de, biraz daha heyecanl hale getirmek
+
+56
+00:02:23,179 --> 00:02:25,178
+ve bu iki devrilme ilevini
+
+57
+00:02:25,178 --> 00:02:28,177
+her bir kii iin farkl hale getirmek iin.
+
+58
+00:02:28,177 --> 00:02:29,010
+Tamam?
+
+59
+00:02:29,010 --> 00:02:30,269
+Bu yzden, daha nce
+
+60
+00:02:30,269 --> 00:02:33,114
+olduu gibi ayn ilevsellii uygulamanz istiyorum, ancak bu
+
+61
+00:02:33,114 --> 00:02:34,890
+sefer, Mark'n devrilme kurallarn kullanarak.
+
+62
+00:02:34,890 --> 00:02:38,019
+Sonra bir fonksiyon yarat ve ben bir yntem demek istemiyorum.
+
+63
+00:02:38,019 --> 00:02:40,152
+Yani, verilen bir ipucu dizisinin
+
+64
+00:02:40,152 --> 00:02:43,455
+ortalamasn hesaplamak iin bir d fonksiyon gibi.
+
+65
+00:02:43,455 --> 00:02:45,264
+Ve burada sana baka bir ipucu
+
+66
+00:02:45,264 --> 00:02:46,367
+vermeliyim, nk bu noktaya
+
+67
+00:02:46,367 --> 00:02:48,311
+kadar, hi byle bir ey yapmadk.
+
+68
+00:02:48,311 --> 00:02:51,237
+Tamam, bylece ortalamay hesaplamak iin size bir ipucu vereceim.
+
+69
+00:02:51,237 --> 00:02:53,631
+Ve bu, dizi zerinde dng
+
+70
+00:02:53,631 --> 00:02:56,467
+yapmalsnz ve her yinelemede, geerli toplam
+
+71
+00:02:56,467 --> 00:02:59,050
+sfrdan balayan bir deikende saklayn.
+
+72
+00:02:59,050 --> 00:03:00,960
+Ardndan dizinin toplamna sahip olduktan
+
+73
+00:03:00,960 --> 00:03:02,280
+sonra, onu sadece
+
+74
+00:03:02,280 --> 00:03:04,312
+iindeki elemanlarn saysna gre blersiniz.
+
+75
+00:03:04,312 --> 00:03:07,326
+Tamam? Yani, ortalamalar hesaplama forml budur.
+
+76
+00:03:07,326 --> 00:03:09,006
+Yani eer bu senin
+
+77
+00:03:09,006 --> 00:03:13,046
+iin biraz zorsa, o zaman belki beinci noktadan sonra durabilirsin.
+
+78
+00:03:13,046 --> 00:03:13,879
+Tamam?
+
+79
+00:03:13,879 --> 00:03:15,831
+Ama, ortalamay hesaplamak iin
+
+80
+00:03:15,831 --> 00:03:17,641
+denemeni isterim, tamam m?
+
+81
+00:03:17,641 --> 00:03:20,006
+Yani burada yedi numara var,
+
+82
+00:03:20,006 --> 00:03:21,295
+yani altda yarattn
+
+83
+00:03:21,295 --> 00:03:22,883
+ilevi aslnda her iki
+
+84
+00:03:22,883 --> 00:03:25,463
+aile iin ortalama hesaplamak iin kullanyorsun.
+
+85
+00:03:25,463 --> 00:03:27,016
+Ve sonra, ailenin en
+
+86
+00:03:27,016 --> 00:03:30,328
+yksek ipularn ortalama olarak deyen konsola giri yapacaksnz.
+
+87
+00:03:30,328 --> 00:03:31,161
+Peki?
+
+88
+00:03:31,161 --> 00:03:33,054
+Yani, yine, bu biraz zor
+
+89
+00:03:33,054 --> 00:03:36,536
+olabilir, bu yzden, sorun deil, bunu baarmaya almak iin bir
+
+90
+00:03:36,536 --> 00:03:39,135
+saat veya daha fazla zaman alabilirsin, tamam m?
+
+91
+00:03:39,135 --> 00:03:40,782
+renme srecinizin byle bir
+
+92
+00:03:40,782 --> 00:03:42,530
+eyden gemesi gerekten ok
+
+93
+00:03:42,530 --> 00:03:44,488
+nemli, bence biraz daha zor
+
+94
+00:03:44,488 --> 00:03:46,045
+hatta, gerekten ok kolay
+
+95
+00:03:46,045 --> 00:03:47,730
+olmak yerine denemek zorundasnz.
+
+96
+00:03:47,730 --> 00:03:50,567
+nk o zaman gerekten hibir ey renmiyorsun, tamam m?
+
+97
+00:03:50,567 --> 00:03:52,172
+yleyse, gerekten bunu amak iin bir
+
+98
+00:03:52,172 --> 00:03:54,102
+saat ya da benzeri bir ey yapn
+
+99
+00:03:54,102 --> 00:03:55,633
+ve gerekten bu sorunlar zmeye aln.
+
+100
+00:03:55,633 --> 00:03:57,788
+Peki? Hzl olmana gerek yok.
+
+101
+00:03:57,788 --> 00:03:59,447
+Daha sonra, anlayamayacanz
+
+102
+00:03:59,447 --> 00:04:01,103
+baz blmler varsa,
+
+103
+00:04:01,103 --> 00:04:05,520
+sorun deil, bir sonraki videoda zmme gz atabilirsiniz.
+

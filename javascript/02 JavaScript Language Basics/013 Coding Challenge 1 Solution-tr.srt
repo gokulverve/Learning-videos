@@ -1,0 +1,324 @@
+1
+00:00:01,311 --> 00:00:03,285
+Jonas: Yani, burada kodlama
+
+2
+00:00:03,285 --> 00:00:04,975
+sorununa zmm gider.
+
+3
+00:00:04,975 --> 00:00:07,388
+Deikenleri tanmlayarak balyoruz; yani Diyelim ki, yetmi sekiz; Burada istediiniz herhangi
+
+4
+00:00:07,388 --> 00:00:09,721
+var, kitle-Mark, eittir. bir sayy kullanabilirsiniz, bu yzden kitlelerin
+
+5
+00:00:12,496 --> 00:00:14,394
+ve yksekliklerin ne olduunu tanmlamadm,
+
+6
+00:00:14,394 --> 00:00:16,226
+sadece kilogramda olmalar gerektiini unutmayn. Yani, ktle Markmz
+
+7
+00:00:16,226 --> 00:00:19,588
+Bize biraz daha yer aalm. var, o zaman boy-Mark'mz var, bir-altm
+
+8
+00:00:19,588 --> 00:00:23,971
+dokuz metre diyelim; yle deil, uzun boylu deil.
+
+9
+00:00:23,971 --> 00:00:26,233
+Tamam, bu deikenlerin hepsini
+
+10
+00:00:26,233 --> 00:00:30,233
+tek bir satrda bildirebiliriz, ama imdi bunu yapmayacam.
+
+11
+00:00:33,987 --> 00:00:36,654
+Onlar birbiri ardna ilan edeceim.
+
+12
+00:00:38,125 --> 00:00:40,364
+Yani, Mark ve imdi John; Doksan
+
+13
+00:00:40,364 --> 00:00:42,966
+iki kilogram, ve sonra ykseklik, ve bu
+
+14
+00:00:42,966 --> 00:00:45,104
+yzden bir numaral adm, bence.
+
+15
+00:00:45,104 --> 00:00:49,551
+imdi sradaki adm, hem BMI'lerini hesaplayn.
+
+16
+00:00:49,551 --> 00:00:53,218
+Ve bylece, BMI-Mark, Mark'n ktlesinin
+
+17
+00:00:55,837 --> 00:00:57,504
+boyunun karesiyle blnmesidir.
+
+18
+00:01:05,044 --> 00:01:08,236
+Bu yzden boy-Mark zamanlar ykseklii-Mark tekrar
+
+19
+00:01:08,236 --> 00:01:11,208
+ve sonra vcut kitle indeksi-John, bu
+
+20
+00:01:11,208 --> 00:01:13,791
+yzden ktle-John, ykseklik-John ykseklik-John blnm.
+
+21
+00:01:20,626 --> 00:01:24,381
+Yani. Bu iki numaral admd ve imdi Mark'n
+
+22
+00:01:24,381 --> 00:01:27,631
+John'dan daha yksek bir BMI olup
+
+23
+00:01:30,674 --> 00:01:34,341
+olmadn belirlemek iin bir boole yaratmak isteyeceiz.
+
+24
+00:01:38,032 --> 00:01:41,449
+Yani, var, Mark-yksek-BMI, ve tek yapmamz gereken
+
+25
+00:01:43,636 --> 00:01:46,831
+BMI-Mark, BMI-John'dan daha byk.
+
+26
+00:01:46,831 --> 00:01:48,909
+Yani, bu bizim boolean deikenimiz
+
+27
+00:01:48,909 --> 00:01:51,826
+olmal ve imdi konsola giri yapabiliriz.
+
+28
+00:01:53,097 --> 00:01:57,264
+Yani, Mark-Mark'tr ve imdi "Mark" yazmak iin sadece
+
+29
+00:02:00,365 --> 00:02:03,282
+bir trnak iareti yazamayz, nk
+
+30
+00:02:07,191 --> 00:02:09,139
+bu dizenin dnda olurdu.
+
+31
+00:02:09,139 --> 00:02:12,222
+Bu, dizenin balangcna iaret eder, ve bu,
+
+32
+00:02:15,419 --> 00:02:18,452
+dizenin sonu, ama hala burada "Mark" kelimesini
+
+33
+00:02:18,452 --> 00:02:22,517
+sylemek iin sembolmz var ve yapmak zorunda olduumuz ey bu
+
+34
+00:02:22,517 --> 00:02:25,214
+trnak iaretinden kurtulmak ve Bunu bu
+
+35
+00:02:25,214 --> 00:02:27,289
+ters eik izgi ekleyerek yapn.
+
+36
+00:02:27,289 --> 00:02:28,745
+Tamam? Yani buna kamak denir.
+
+37
+00:02:28,745 --> 00:02:31,067
+Ve bu programlamada da olduka yaygn bir ey.
+
+38
+00:02:31,067 --> 00:02:35,226
+Yani, "Mark'n BMI's John'unkinden daha yksek;" ve imdi tekrar
+
+39
+00:02:35,226 --> 00:02:38,248
+kamalyz ve sonra bu dizgiyi kapatmalyz.
+
+40
+00:02:38,248 --> 00:02:40,907
+Yani dizgimiz
+
+41
+00:02:40,907 --> 00:02:44,389
+"Mark'un BMI's John'unkinden daha yksek;" Aslnda
+
+42
+00:02:44,389 --> 00:02:47,639
+soruyu sormak istiyoruz ve sonra "art"
+
+43
+00:02:50,970 --> 00:02:55,970
+diyoruz ve imdi bunun bir operatr olduunu biliyorsunuz
+
+44
+00:02:56,332 --> 00:03:00,333
+ve bu yzden temel olarak dizeleri ekliyoruz.
+
+45
+00:03:00,333 --> 00:03:01,952
+Ve sonra Mark-yksek-BMI, bu doru ya
+
+46
+00:03:01,952 --> 00:03:03,389
+da yanl olup olmadn gstermelidir.
+
+47
+00:03:03,389 --> 00:03:05,220
+yleyse ykleyelim; ve Mark'n BMI's John'unkinden daha m yksek?
+
+48
+00:03:05,220 --> 00:03:08,939
+Ve doru sylyor. Ve aslnda bu iki BMI'yu konsola
+
+49
+00:03:08,939 --> 00:03:11,297
+da kaydedelim, bylece her
+
+50
+00:03:11,297 --> 00:03:14,630
+eyin doru alp almadndan emin olalm.
+
+51
+00:03:15,743 --> 00:03:19,821
+Bylece konsol nokta gnl, ve iki kez konsolda ayn
+
+52
+00:03:19,821 --> 00:03:21,984
+anda, sadece
+
+53
+00:03:21,984 --> 00:03:24,187
+virgl ekleyerek burada aslnda giri yapabilirsiniz.
+
+54
+00:03:24,187 --> 00:03:28,217
+Tamam, Mark ve John, ve birincisinin yirmi
+
+55
+00:03:28,217 --> 00:03:31,780
+yedi olduunu gryoruz, bu yzden Mark
+
+56
+00:03:31,780 --> 00:03:34,322
+yirmi yedi, John yirmi drt.
+
+57
+00:03:34,322 --> 00:03:36,537
+Ve Mark'n BMI's John'unkinden daha
+
+58
+00:03:36,537 --> 00:03:39,704
+yksek; ve tabi ki, evet, bu doru.
+
+59
+00:03:41,497 --> 00:03:44,342
+nk, elbette, bu, gerek olarak geri dnecektir,
+
+60
+00:03:44,342 --> 00:03:46,173
+bu yzden bize, Mark-yksek-BMI'ye
+
+61
+00:03:46,173 --> 00:03:48,173
+atanacak olan doru sonucunu verecektir.
+
+62
+00:03:48,173 --> 00:03:50,000
+Tamam. Yani bu meydan okuma iin zm.
+
+63
+00:03:50,000 --> 00:03:53,556
+Elbette, zm ayn olduu srece bunu
+
+64
+00:03:53,556 --> 00:03:55,627
+farkl bir ekilde yapabilirdiniz.
+
+65
+00:03:55,627 --> 00:03:58,253
+Programlamada, birok kez, sadece tek bir doru
+
+66
+00:03:58,253 --> 00:04:01,456
+zm yoktur, ayn sorunu
+
+67
+00:04:01,456 --> 00:04:03,367
+zmek iin birok yol vardr.
+
+68
+00:04:03,367 --> 00:04:05,312
+Tamam? Ve bilmeniz gereken ok
+
+69
+00:04:05,312 --> 00:04:07,117
+nemli bir ey ve
+
+70
+00:04:07,117 --> 00:04:09,499
+programlama yaparken daima aklnzda bulundurmanz gerekir.
+
+71
+00:04:09,499 --> 00:04:12,082
+Yani bir problemi zmek iin doru bir yol
+
+72
+00:04:12,082 --> 00:04:14,240
+yok, her zaman
+
+73
+00:04:14,240 --> 00:04:16,471
+ok, birok yol var, ve eer bunu
+
+74
+00:04:16,471 --> 00:04:18,349
+farkl bir ekilde zdyseniz, bu hala
+
+75
+00:04:18,349 --> 00:04:20,895
+doru, o zaman kesinlikle geerli, ve farkl bir
+
+76
+00:04:20,895 --> 00:04:22,877
+yol bulmanz harika. bunu yolumdan zyorum.
+
+77
+00:04:22,877 --> 00:04:25,024
+Ve bylece, evet, imdi bir sonraki videoya geelim.
+
+78
+00:04:25,024 --> 00:04:27,986
+&nbsp;
+
+79
+00:04:27,986 --> 00:04:30,345
+&nbsp;
+
+80
+00:04:30,345 --> 00:04:32,183
+&nbsp;
+
+81
+00:04:32,183 --> 00:04:36,350
+&nbsp;
+

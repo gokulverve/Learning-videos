@@ -1,0 +1,520 @@
+1
+00:00:01,180 --> 00:00:04,860
+Birka temel javascript operatrn renelim.
+
+2
+00:00:05,070 --> 00:00:10,860
+Bu yzden burada zaten bu dersin bal gibi yarattm ve ayn zamanda The Last Lecture'un kodunu
+
+3
+00:00:10,860 --> 00:00:11,510
+da akladm.
+
+4
+00:00:11,610 --> 00:00:12,090
+TAMAM.
+
+5
+00:00:12,210 --> 00:00:17,580
+Bu yzden aslnda bu sene her ders iin bir dosya gibi farkl dosyalarda
+
+6
+00:00:17,580 --> 00:00:21,560
+yapabildik, ancak her eyi tek bir dosyada tutmay tercih ediyorum.
+
+7
+00:00:21,600 --> 00:00:27,600
+imdi, operatrler iin, rnein art ve eksi ve zamanlar gibi bildiimiz basit
+
+8
+00:00:27,750 --> 00:00:32,330
+matematik operatrleri olabilirler ve bunun yannda birka baka ileiniz var.
+
+9
+00:00:32,390 --> 00:00:33,710
+Ve ben de sana gstereceim.
+
+10
+00:00:34,080 --> 00:00:39,390
+Yani basit terimlerle operatrler javascriptte zel bir ekilde yazlm fonksiyonlar gibidir ve
+
+11
+00:00:39,390 --> 00:00:41,420
+hangi fonksiyonlarn olduunu merak ediyorsanz.
+
+12
+00:00:41,490 --> 00:00:46,890
+Tekrar endielenme, bunun hakknda biraz sonra konuacaz, ama imdilik baz matematik operatrlerine
+
+13
+00:00:46,890 --> 00:00:49,920
+ve bunlar Javascript'te nasl kullanabileceimize bakalm.
+
+14
+00:00:49,920 --> 00:00:54,150
+yleyse, John'un hangi ylda doduunu hesaplayalm ve bu ok basit.
+
+15
+00:00:56,290 --> 00:00:58,180
+O zaman bir yl John diyelim.
+
+16
+00:00:58,840 --> 00:01:03,020
+Ve u an 20:18 var, bu da imdiki yl John'un ya.
+
+17
+00:01:03,070 --> 00:01:03,810
+Sa.
+
+18
+00:01:03,820 --> 00:01:06,730
+Ve hatrladk ki onu yirmi sekiz olarak ilan ettik.
+
+19
+00:01:06,930 --> 00:01:08,280
+Yani ayn eyi burada kullanalm.
+
+20
+00:01:08,720 --> 00:01:15,220
+Ve yapabileceimiz bir ey ve iptal etmek iin giri yapmamz.
+
+21
+00:01:15,230 --> 00:01:17,070
+yleyse una bir bakalm.
+
+22
+00:01:17,300 --> 00:01:18,830
+Ve aslnda 19:19.
+
+23
+00:01:18,920 --> 00:01:19,370
+TAMAM.
+
+24
+00:01:19,460 --> 00:01:26,120
+D-eksi, bu yl javascript'te bir matematik operatrdr ve bu, John'un arkada gibi bir
+
+25
+00:01:26,120 --> 00:01:29,510
+bakas iin syleyelim ayn ey deildir.
+
+26
+00:01:30,260 --> 00:01:31,950
+Diyelim ki Mark deniyor.
+
+27
+00:01:32,300 --> 00:01:35,560
+Ve 20:18 eksi 33.
+
+28
+00:01:35,560 --> 00:01:40,360
+Mark 33 yanda ve baz deerleri tekrarlamaya baladmz gryorum.
+
+29
+00:01:40,430 --> 00:01:44,510
+yleyse, rnein 2018 iin, onu defalarca kullanyoruz.
+
+30
+00:01:44,570 --> 00:01:47,030
+Yani ayr bir deiken olarak ilan edelim.
+
+31
+00:01:47,030 --> 00:01:49,180
+Yani deikenler bunun iin.
+
+32
+00:01:49,390 --> 00:01:49,890
+TAMAM.
+
+33
+00:01:50,030 --> 00:01:55,420
+Yani var yl 2018 diyebiliriz.
+
+34
+00:01:55,670 --> 00:02:02,850
+Ve imdi bu 2018 yln azaltmak yerine, bu iki yerde bir yl sonra hakl olabiliriz.
+
+35
+00:02:03,210 --> 00:02:04,020
+Tamam.
+
+36
+00:02:04,130 --> 00:02:05,790
+yleyse una bir bakalm.
+
+37
+00:02:05,900 --> 00:02:08,710
+Ve elbette hala ayn sayy veriyor.
+
+38
+00:02:08,870 --> 00:02:14,220
+Ama eer imdi deitirmek istiyorsan, 2020'ye diyelim ki o zaman daha nce olduu gibi bu
+
+39
+00:02:14,270 --> 00:02:16,720
+iki yerde de onu deitirmek zorunda kalmayalm.
+
+40
+00:02:16,730 --> 00:02:21,530
+Bu yzden sen, sen, sen, sen deitirmek iin, hem burada hem de burada deitirmek zorunda kalmadan nce,
+
+41
+00:02:21,530 --> 00:02:23,630
+her zaman programlamada kanmak istediimiz bir ey.
+
+42
+00:02:23,630 --> 00:02:28,830
+Ve bu sene bir yerde tanmladk ve sonra bu iki yerde kullanld.
+
+43
+00:02:29,090 --> 00:02:29,710
+Tamam.
+
+44
+00:02:29,720 --> 00:02:35,500
+Ve aslnda bu da tm bu deikenleri burada size gsterdiim gibi ayn satrda ilan ediyor.
+
+45
+00:02:35,560 --> 00:02:42,700
+Yllar sonra Yl Yapld ve yl iareti.
+
+46
+00:02:43,250 --> 00:02:43,680
+Tamam.
+
+47
+00:02:43,700 --> 00:02:45,470
+Ve sonra bu varslar buradan kaldrn.
+
+48
+00:02:45,470 --> 00:02:47,410
+Yani bu sadece biraz daha iyi grnyor.
+
+49
+00:02:47,840 --> 00:02:49,870
+Yani bu sadece bir eksi operatrdr.
+
+50
+00:02:50,120 --> 00:02:54,210
+Ama elbette burada her trl matematii yapabiliriz.
+
+51
+00:02:55,010 --> 00:02:59,490
+Yani rnein oalabiliriz.
+
+52
+00:02:59,720 --> 00:03:03,280
+Diyelim ki burada iki yl eklemek istedik.
+
+53
+00:03:03,420 --> 00:03:05,930
+Ve imdi tanmlanmam.
+
+54
+00:03:06,030 --> 00:03:08,820
+Yani bu elbette deil, ama yl.
+
+55
+00:03:09,150 --> 00:03:15,000
+Aslnda bu imdi arlmaldr nk imdiki yl 2018'dir.
+
+56
+00:03:15,330 --> 00:03:22,080
+Yani burada istediimiz sadece imdi ve burada ve burada arlacak.
+
+57
+00:03:22,140 --> 00:03:22,700
+Tamam.
+
+58
+00:03:22,840 --> 00:03:28,440
+Ve sonra ne olacana bir bakalm ve gerekten de 2018 art 2
+
+59
+00:03:28,470 --> 00:03:30,930
+hakk olan konsola 20:20 grnyor.
+
+60
+00:03:30,930 --> 00:03:33,110
+Ayrca oaltabiliriz.
+
+61
+00:03:33,200 --> 00:03:35,980
+Yani imdi 2 kere diyelim.
+
+62
+00:03:36,590 --> 00:03:40,720
+Ve tabiiki de blebiliriz, bylece burada 10'a bleriz.
+
+63
+00:03:40,880 --> 00:03:47,390
+Tamam, tm eksilere bakyorum. vahi ve tabii ki bunun 2018 kez olduunu gryoruz ve
+
+64
+00:03:47,390 --> 00:03:49,190
+bu 2018 yl 10'a blnyor.
+
+65
+00:03:49,190 --> 00:03:51,620
+Ve sonu olarak burada ondalk say gibidir.
+
+66
+00:03:51,770 --> 00:03:52,430
+Tamam.
+
+67
+00:03:53,060 --> 00:03:56,930
+Bu yzden burada kullandmz matematik operatrleri.
+
+68
+00:03:57,260 --> 00:04:04,710
+Bu yzden bir mantksal ileler gstereceimi bildiimi syleyen bir yorum ekleyelim, o yzden
+
+69
+00:04:04,710 --> 00:04:06,270
+buraya da yazalm.
+
+70
+00:04:07,950 --> 00:04:13,740
+yleyse Mark'n yan karlatrmak ve John'un Mark'tan daha eski olmas ve mantksal
+
+71
+00:04:13,950 --> 00:04:18,610
+bir operatr kullanabilmemiz iin yaplmas gerekenleri anlamaya altmz varsayalm.
+
+72
+00:04:18,630 --> 00:04:23,630
+yleyse ilk nce bu yalar burada farkl deikenler olarak tanmlayalm.
+
+73
+00:04:24,630 --> 00:04:31,400
+Yani ya John 28 ve bir ya Mark 33.
+
+74
+00:04:31,980 --> 00:04:36,910
+Ve tabiki burada, ya John'u kullanyoruz ve sonra burada ya Mark' kullanyoruz.
+
+75
+00:04:37,380 --> 00:04:49,460
+Bu yzden, burada var Don alder adnda yeni bir deiken oluturalm ve daha sonra bir yan Mark'tan daha byk bir
+
+76
+00:04:49,720 --> 00:04:50,660
+John diyeceiz.
+
+77
+00:04:51,140 --> 00:04:51,750
+TAMAM.
+
+78
+00:04:52,010 --> 00:04:59,840
+Ve sonra elbette sonucumuzu grmek iin konsllere balanmamz gerekiyor.
+
+79
+00:05:00,000 --> 00:05:02,300
+Ve imdi ne olduuna bir bakalm.
+
+80
+00:05:02,650 --> 00:05:05,770
+Ve sonularmzn bu Boullion olduunu ve yanl olduunu gryoruz.
+
+81
+00:05:05,800 --> 00:05:06,340
+TAMAM.
+
+82
+00:05:06,460 --> 00:05:14,850
+Ve demek istediim, buradaki 28 yandaki John, tabi ki H Mark Wiz'in 33'nden daha azdr.
+
+83
+00:05:14,890 --> 00:05:20,020
+Ve temel olarak burada soruyu John'un H Mark'tan daha byk olduunu soruyoruz.
+
+84
+00:05:20,140 --> 00:05:22,590
+Ve bunun sonucu yanltr.
+
+85
+00:05:22,660 --> 00:05:26,500
+Tamam, ve John eski deiken burada yanl olduu ortaya kyor.
+
+86
+00:05:26,500 --> 00:05:27,960
+imdi baka bir yol olsayd.
+
+87
+00:05:28,180 --> 00:05:32,000
+HJN'den bir iaretten daha az talep edersek.
+
+88
+00:05:32,140 --> 00:05:34,930
+Peki o zaman baka bir ekilde olmal.
+
+89
+00:05:34,930 --> 00:05:42,600
+Ve evet, evet imdi tekrar dorudur, nk ya iareti 33'ten fazladr.
+
+90
+00:05:42,650 --> 00:05:48,790
+Ve imdi, basite, size sadece gsterdiim mantksal ilelerden birini kullanarak bir boole deikeni yaratmann bir yolu
+
+91
+00:05:49,060 --> 00:05:51,360
+var ve daha ok l var.
+
+92
+00:05:51,370 --> 00:05:53,420
+Derste biraz daha sonra kefedeceiz.
+
+93
+00:05:53,470 --> 00:05:59,520
+Ve aslnda bu blmde birka alanda, buradaki matematik operatrleri olduka basittir.
+
+94
+00:05:59,710 --> 00:06:05,260
+Dandy'nin kursu boyunca daha sonra greceiniz gibi ok nemli olan mantksal operatrler
+
+95
+00:06:05,260 --> 00:06:09,190
+de ayrlmadan nce size OPERATOR OK operatrnn trn
+
+96
+00:06:11,730 --> 00:06:15,570
+gstermek istiyorum ve bu operatr dierlerinden biraz farkl.
+
+97
+00:06:15,780 --> 00:06:22,380
+Bu noktaya kadar kullanlanlar her zaman karlatrmak, eklemek ya da oaltmak iin iki ey
+
+98
+00:06:22,410 --> 00:06:23,310
+gibi gerekliydi.
+
+99
+00:06:23,370 --> 00:06:29,810
+Yani imdi 2 kere veya imdi 10 veya 8'e blnm 10 H iareti gemez.
+
+100
+00:06:29,940 --> 00:06:35,280
+Yani biz her zaman iki ilenen vard ama OPERATR'n tr ile sadece bir tane var.
+
+101
+00:06:35,280 --> 00:06:36,370
+O zaman sana gstereyim.
+
+102
+00:06:36,640 --> 00:06:38,600
+Ve bylece konsola bakalm.
+
+103
+00:06:38,730 --> 00:06:46,640
+Operatrn trnn kullanlmasnn sonucu, eski deikeni OK yapalm.
+
+104
+00:06:46,720 --> 00:06:51,120
+Ve temelde bunun yapaca ey, bize bu deikenin trn anlatmaktr.
+
+105
+00:06:51,130 --> 00:06:57,220
+Ve gerekten de Boullion'u aldk ve nk akas bu bir boole deikeni.
+
+106
+00:06:57,250 --> 00:07:00,020
+Bu yzden doru olarak dnd zaman bir yrtk grdk.
+
+107
+00:07:00,150 --> 00:07:06,150
+Ve son harflerden birinde rendiiniz gibi Bir doru ya da yanl deer her zaman bir boole hakkdr.
+
+108
+00:07:06,160 --> 00:07:08,570
+Bunu hatrla.
+
+109
+00:07:08,590 --> 00:07:10,110
+yleyse deneyelim.
+
+110
+00:07:10,150 --> 00:07:12,160
+Burada baka eyler vard.
+
+111
+00:07:12,850 --> 00:07:17,690
+Yani bir tr ha hadi yapalm ve bu bir say olmal.
+
+112
+00:07:17,980 --> 00:07:26,060
+Ve aslnda bu aslnda bir dizedir.
+
+113
+00:07:26,300 --> 00:07:27,510
+Ve burada hi yok.
+
+114
+00:07:27,660 --> 00:07:30,050
+O zaman sadece kendimiz yazalm.
+
+115
+00:07:30,050 --> 00:07:32,940
+Marcus, John'dan daha yal.
+
+116
+00:07:33,260 --> 00:07:36,550
+Ve ayrca baka bir ey deneyelim.
+
+117
+00:07:36,620 --> 00:07:40,480
+Yani burada sadece rastgele bir deiken bildirelim ve tanmlamayz.
+
+118
+00:07:40,670 --> 00:07:44,340
+Ve sonra bunun konsol tipine bakalm.
+
+119
+00:07:44,390 --> 00:07:47,560
+Ve bylece bu tip x'in ne olacan dnyorsunuz.
+
+120
+00:07:48,490 --> 00:07:49,540
+yleyse test edelim.
+
+121
+00:07:49,780 --> 00:07:53,310
+Umarm bunun olacan ve meydan okuyacan biliyorsunuzdur.
+
+122
+00:07:53,740 --> 00:07:54,000
+TAMAM.
+
+123
+00:07:54,010 --> 00:08:00,130
+Yani bu mantkldr nk aslnda x deikeni iin herhangi bir deer tanmlamamtk.
+
+124
+00:08:00,250 --> 00:08:02,970
+Ve senden nceki siz dize.
+
+125
+00:08:03,130 --> 00:08:08,350
+Yani bu, bu operatrde sizin iin byk bir anlama gibi grnmeyebilir, ancak aslnda
+
+126
+00:08:08,350 --> 00:08:12,800
+bu yl gelecekte ve hatta daha sonra bu blmde kullanacamz greceksiniz.
+
+127
+00:08:13,090 --> 00:08:13,700
+TAMAM.
+
+128
+00:08:13,720 --> 00:08:19,770
+Bu yzden javascript operatrlerinin temelleri, yine de Leichter ile operatrler ile almaya devam edeceiz.
+
+129
+00:08:19,780 --> 00:08:22,720
+Size biraz daha fazla gsterelim, gelimi eyler diyelim.
+
+130
+00:08:22,840 --> 00:08:25,500
+Bu yzden beklemeyin ve bir sonraki videoya doru benimle gelmeyin.
+

@@ -1,0 +1,648 @@
+1
+00:00:01,340 --> 00:00:02,280
+Eitmen: Artk
+
+2
+00:00:02,280 --> 00:00:04,720
+Javascript dilinin temellerini biliyorsunuz ve devam
+
+3
+00:00:04,720 --> 00:00:05,970
+etmeden nce, Javascript
+
+4
+00:00:05,970 --> 00:00:08,370
+srmleri hakknda hzlca konumamz gerekiyor.
+
+5
+00:00:08,370 --> 00:00:09,203
+Tamam?
+
+6
+00:00:09,203 --> 00:00:10,990
+imdi bu konu hakknda
+
+7
+00:00:10,990 --> 00:00:12,560
+muhtemelen kurs balangcnda konuabilirdim.
+
+8
+00:00:12,560 --> 00:00:14,530
+Ama sadece baz kodlar
+
+9
+00:00:14,530 --> 00:00:16,100
+olabildiince hzl yazman istedim.
+
+10
+00:00:16,100 --> 00:00:18,200
+Her neyse, Javascript srmleri hakknda
+
+11
+00:00:18,200 --> 00:00:20,780
+konumak ok nemlidir, nk bu her
+
+12
+00:00:20,780 --> 00:00:22,860
+modern Javascript gelitiricisinin bilmesi gereken
+
+13
+00:00:22,860 --> 00:00:24,070
+bir ey.
+
+14
+00:00:24,070 --> 00:00:25,930
+Ve ayrca bu konular
+
+15
+00:00:25,930 --> 00:00:28,800
+gelitirici topluluuna her zaman geleceini greceksiniz.
+
+16
+00:00:28,800 --> 00:00:31,350
+Yani neler olduunu anlamak isteyeceksiniz.
+
+17
+00:00:32,360 --> 00:00:33,540
+Yani bunu
+
+18
+00:00:33,540 --> 00:00:35,540
+yapabilmek iin, sadece ksaca
+
+19
+00:00:35,540 --> 00:00:37,500
+Javascript'in tarihi hakknda konualm.
+
+20
+00:00:37,500 --> 00:00:39,560
+Yani, Javascript ilk olarak 1995
+
+21
+00:00:39,560 --> 00:00:42,030
+ylnda piyasaya srld ve LiveScript olarak adlandrld.
+
+22
+00:00:42,030 --> 00:00:43,800
+Yani, uzun zaman nce.
+
+23
+00:00:43,800 --> 00:00:46,173
+Ancak isim ok hzl bir ekilde
+
+24
+00:00:46,173 --> 00:00:47,210
+JavaScripte dnt.
+
+25
+00:00:47,210 --> 00:00:49,030
+Deiimin nedeni sadece baka
+
+26
+00:00:49,030 --> 00:00:51,260
+bir dilin gelitiricilerini ekmek oldu.
+
+27
+00:00:51,260 --> 00:00:53,100
+O zamanlar ok poplerdi
+
+28
+00:00:53,100 --> 00:00:54,470
+ve bu Java.
+
+29
+00:00:54,470 --> 00:00:56,520
+Yani Javascript'teki Java sadece
+
+30
+00:00:56,520 --> 00:00:58,140
+nedenleri iaretlemek iindi.
+
+31
+00:00:58,140 --> 00:01:00,760
+nk dilin Java ile neredeyse hibir
+
+32
+00:01:00,760 --> 00:01:01,830
+ilgisi yoktur.
+
+33
+00:01:01,830 --> 00:01:04,930
+Baz yeni balayanlar bunun byle olduunu dnyor, ama hayr.
+
+34
+00:01:04,930 --> 00:01:06,580
+Javascript ve Java
+
+35
+00:01:06,580 --> 00:01:09,100
+aslnda iki tamamen farkl dillerdir.
+
+36
+00:01:09,100 --> 00:01:11,630
+imdi, bir yl sonra dil, yeni
+
+37
+00:01:11,630 --> 00:01:14,090
+bir standart oluturmak iin Ecma International
+
+38
+00:01:14,090 --> 00:01:15,930
+adl bir kurulua gnderildi.
+
+39
+00:01:15,930 --> 00:01:18,450
+Ve bylece EcmaScript One veya
+
+40
+00:01:18,450 --> 00:01:21,630
+ES1, Javascript dilinin ilk versiyonu oldu.
+
+41
+00:01:21,630 --> 00:01:24,630
+Gerek dnyada, pratikte dil hakknda konutuumuzda
+
+42
+00:01:24,630 --> 00:01:26,110
+genellikle Javascript kullanlrken
+
+43
+00:01:26,110 --> 00:01:27,860
+standartlara bavurmak iin
+
+44
+00:01:27,860 --> 00:01:29,720
+EcmaScript terimini kullanrz.
+
+45
+00:01:29,720 --> 00:01:32,220
+imdi, 2009'a hzlca ilerleyin.
+
+46
+00:01:32,220 --> 00:01:35,240
+ES5 birok yeni zellik ile piyasaya srld.
+
+47
+00:01:35,240 --> 00:01:37,620
+Ancak, tm bu deiiklikleri uygulamak
+
+48
+00:01:37,620 --> 00:01:39,740
+iin tarayclar uzun yllar ald.
+
+49
+00:01:39,740 --> 00:01:42,940
+Son olarak, oktan beklenen yeni srm
+
+50
+00:01:42,940 --> 00:01:45,260
+ES6, Haziran 2015'te piyasaya srld.
+
+51
+00:01:45,260 --> 00:01:47,710
+Ve bu dilin en byk
+
+52
+00:01:47,710 --> 00:01:49,740
+gncellemesiydi, tonlarca yeni zellik.
+
+53
+00:01:49,740 --> 00:01:51,140
+Bu, Javascript iin ve
+
+54
+00:01:51,140 --> 00:01:53,350
+gelitirici topluluu iin gerekten byk bir
+
+55
+00:01:53,350 --> 00:01:55,260
+saduydu ya da hala yle.
+
+56
+00:01:55,260 --> 00:01:58,710
+Artk ES6'nn aslnda resmi ad
+
+57
+00:01:58,710 --> 00:02:00,620
+olan ES2015'i greceksiniz.
+
+58
+00:02:00,620 --> 00:02:03,090
+Ancak ou insan buna ES6 diyor.
+
+59
+00:02:03,090 --> 00:02:05,570
+Yani ben de burada yapacam ey bu.
+
+60
+00:02:05,570 --> 00:02:09,170
+Aslnda ES6'nn ES2015 olarak adlandrlmasnn nedeni,
+
+61
+00:02:09,170 --> 00:02:13,010
+2015 ylnda yllk bir srm dngsne getiimiz.
+
+62
+00:02:13,010 --> 00:02:15,030
+Bu nedenle, her yl
+
+63
+00:02:15,030 --> 00:02:16,700
+birka ylda yeni
+
+64
+00:02:16,700 --> 00:02:19,060
+bir versiyonun yerine ylda birka
+
+65
+00:02:19,060 --> 00:02:21,320
+yeni zellik ile dilin yeni
+
+66
+00:02:21,320 --> 00:02:22,830
+bir srm yaynlanyor.
+
+67
+00:02:22,830 --> 00:02:25,000
+Bylece, herkesin gncel kalmas ok
+
+68
+00:02:25,000 --> 00:02:25,900
+daha kolay.
+
+69
+00:02:25,900 --> 00:02:28,863
+Tamam? Bu yzden bizim gibi gelitiriciler iin ok daha kolay.
+
+70
+00:02:29,863 --> 00:02:33,260
+Yani 2016'da, ES2016 veya ES7, piyasaya srld.
+
+71
+00:02:33,260 --> 00:02:36,763
+2017'de ES2017, ve bunun gibi, gelecee
+
+72
+00:02:37,763 --> 00:02:39,960
+de devam edecek.
+
+73
+00:02:39,960 --> 00:02:42,030
+Peki, Javascript bugn nasl
+
+74
+00:02:42,030 --> 00:02:44,920
+grnyor ve hangi srm kullanmalyz?
+
+75
+00:02:44,920 --> 00:02:47,060
+lk olarak, ES5 elbette, bugn
+
+76
+00:02:47,060 --> 00:02:49,250
+tm tarayclarda tam olarak destekleniyor.
+
+77
+00:02:49,250 --> 00:02:51,820
+Yani, kullanlmas gvenli olan bu.
+
+78
+00:02:51,820 --> 00:02:55,380
+imdi, 2018 ortasndan itibaren ES6, ES7 ve ES8'in
+
+79
+00:02:55,380 --> 00:02:57,830
+daha yeni srmleri hakknda, tm
+
+80
+00:02:57,830 --> 00:03:00,760
+modern tarayclarda aslnda olduka iyi destekleniyorlar.
+
+81
+00:03:00,760 --> 00:03:01,910
+Fakat bununla
+
+82
+00:03:01,910 --> 00:03:04,190
+ilgili problem, kullanclarmzn en azndan
+
+83
+00:03:04,190 --> 00:03:05,610
+hepsinin deil, modern
+
+84
+00:03:05,610 --> 00:03:07,270
+tarayclarn kullandn dnmememizdir.
+
+85
+00:03:07,270 --> 00:03:08,700
+Eski tarayclar elbette
+
+86
+00:03:08,700 --> 00:03:11,180
+ES6 szdizimini hi anlayamayacaklar.
+
+87
+00:03:11,180 --> 00:03:14,560
+Ve ne ES7 ve ES8, vb.
+
+88
+00:03:14,560 --> 00:03:17,500
+Yani bu eski tarayclar bizim iin byk bir problem.
+
+89
+00:03:17,500 --> 00:03:19,620
+imdi, bu problemin zm temel
+
+90
+00:03:19,620 --> 00:03:22,250
+olarak bu modern Javascript srmlerini transpiling
+
+91
+00:03:22,250 --> 00:03:25,550
+ve ayn zamanda polifilling ad verilen bir
+
+92
+00:03:25,550 --> 00:03:27,230
+ilem kullanarak ES5'e dntrmektir.
+
+93
+00:03:27,230 --> 00:03:28,660
+Sana dersin sonunda
+
+94
+00:03:28,660 --> 00:03:31,310
+bunu nasl yapacan reteceim, tamam m?
+
+95
+00:03:31,310 --> 00:03:32,220
+Hangi taraycda
+
+96
+00:03:32,220 --> 00:03:34,520
+hangi zelliklerin desteklendiini renmek
+
+97
+00:03:34,520 --> 00:03:36,580
+istiyorsanz, ES6 uyumluluk
+
+98
+00:03:36,580 --> 00:03:38,760
+tablosuna gz atabilir ve
+
+99
+00:03:38,760 --> 00:03:41,570
+balant kaynak sayfamda olabilir.
+
+100
+00:03:41,570 --> 00:03:43,690
+Srada, ES9, ES10 ve
+
+101
+00:03:43,690 --> 00:03:47,360
+benzeri gibi dilin gelecekteki srmleri var.
+
+102
+00:03:47,360 --> 00:03:48,720
+Gelecekteki bu srmler
+
+103
+00:03:48,720 --> 00:03:51,140
+birlikte birok kez ESNext olarak adlandrlr.
+
+104
+00:03:51,140 --> 00:03:53,360
+imdi bu gelecek srmlerin baz
+
+105
+00:03:53,360 --> 00:03:56,300
+zellikleri aslnda baz tarayclarda zaten uygulanmaktadr.
+
+106
+00:03:56,300 --> 00:03:58,250
+Bylece kodunuzu bugn aktararak
+
+107
+00:03:58,250 --> 00:04:00,540
+ve polfilling yaparak kullanabilirsiniz.
+
+108
+00:04:00,540 --> 00:04:02,600
+Ama drst olmak gerekirse, bu noktada
+
+109
+00:04:02,600 --> 00:04:04,070
+bunu yapmanz kesinlikle tavsiye etmem.
+
+110
+00:04:04,070 --> 00:04:07,660
+nk ES6, ES7 ve ES8'in birlikte,
+
+111
+00:04:07,660 --> 00:04:09,960
+Javascript gelitirme deneyimini yeni
+
+112
+00:04:09,960 --> 00:04:12,960
+bir seviyeye getirecek kadar gl
+
+113
+00:04:12,960 --> 00:04:14,790
+olduuna inanyorum.
+
+114
+00:04:14,790 --> 00:04:15,623
+Tamam?
+
+115
+00:04:16,510 --> 00:04:18,490
+Bu nedenle, bu derste,
+
+116
+00:04:18,490 --> 00:04:20,730
+kursun ilk blmnde ES5'i kullanarak
+
+117
+00:04:20,730 --> 00:04:22,550
+balayacaz ve daha sonra
+
+118
+00:04:22,550 --> 00:04:25,800
+ES6 Plus'a, yani ES6, ES7 ve ES8'e
+
+119
+00:04:25,800 --> 00:04:26,633
+geeceiz.
+
+120
+00:04:26,633 --> 00:04:28,243
+Tamam?
+
+121
+00:04:28,243 --> 00:04:29,300
+te imdi burada ie yarayacak.
+
+122
+00:04:29,300 --> 00:04:31,740
+Bu yzden, ES5'i kullanarak Javascript
+
+123
+00:04:31,740 --> 00:04:34,930
+temellerini konutuk ve Javascript sahnelerine bakmak, baz
+
+124
+00:04:34,930 --> 00:04:36,930
+DOM manipulasyonlar yapmak, gncellemeler
+
+125
+00:04:36,930 --> 00:04:38,700
+ve fonksiyonlar hakknda her
+
+126
+00:04:38,700 --> 00:04:40,980
+eyi renmek ve devasa, gerek
+
+127
+00:04:40,980 --> 00:04:43,970
+bir projeyi kodlamak iin ES5 kullanmaya devam edeceiz.
+
+128
+00:04:43,970 --> 00:04:46,270
+Oradan, ES6'y kullanmaya balayacaz, dilde neyin
+
+129
+00:04:46,270 --> 00:04:48,640
+yeni olduuna dair bir genel bak.
+
+130
+00:04:48,640 --> 00:04:51,130
+Sonra asenkron Javascript, modern gelitirme kurulumlar
+
+131
+00:04:51,130 --> 00:04:52,700
+hakknda konuacaz ve ES6,
+
+132
+00:04:52,700 --> 00:04:54,640
+ES7 ve ES8 kullanan
+
+133
+00:04:54,640 --> 00:04:55,740
+daha byk ve
+
+134
+00:04:55,740 --> 00:04:59,080
+daha haval bir gerek dnya uygulamas kodlayacaz.
+
+135
+00:04:59,080 --> 00:05:00,060
+Tamam?
+
+136
+00:05:00,060 --> 00:05:02,220
+imdi, baz insanlar neden
+
+137
+00:05:02,220 --> 00:05:04,880
+bu derste size ES5'i gsterdiimi anlamyorlar.
+
+138
+00:05:04,880 --> 00:05:07,360
+Ve aslnda beni bunun iin eletirdi.
+
+139
+00:05:07,360 --> 00:05:09,800
+te size, sizin iin anlaml olacan
+
+140
+00:05:09,800 --> 00:05:11,240
+umduum birka sebep var.
+
+141
+00:05:11,240 --> 00:05:14,730
+Bu yzden 2018'de ve hatta 2019'da, ES5'te Javascript'in
+
+142
+00:05:14,730 --> 00:05:16,020
+temellerini renmek ve
+
+143
+00:05:16,020 --> 00:05:18,770
+daha sonra yeni Javascript srmlerine gemek
+
+144
+00:05:18,770 --> 00:05:21,380
+iyi bir fikir olduuna inanyorum.
+
+145
+00:05:21,380 --> 00:05:23,530
+Gelecekte daima ES5'i
+
+146
+00:05:23,530 --> 00:05:25,693
+anlamak zorunda olmanzdan dolay.
+
+147
+00:05:25,693 --> 00:05:27,540
+Bunun nedeni, evrimii bulabileceiniz
+
+148
+00:05:27,540 --> 00:05:29,650
+birok reticinin ve rnek
+
+149
+00:05:29,650 --> 00:05:32,150
+kodun bugn ES5'te yazlmasndan kaynaklanmaktadr.
+
+150
+00:05:32,150 --> 00:05:35,070
+Ayrca bir gelitirici olarak, bazen ES5
+
+151
+00:05:35,070 --> 00:05:37,660
+veya daha eski srmlerde yazlacak olan
+
+152
+00:05:37,660 --> 00:05:40,350
+eski kod blmleri zerinde almanz gerekecektir.
+
+153
+00:05:40,350 --> 00:05:42,470
+Sonu olarak, ES5'in nasl altn
+
+154
+00:05:42,470 --> 00:05:44,620
+anlamaya balarsanz daha iyi bir
+
+155
+00:05:44,620 --> 00:05:46,090
+gelitirici olacanza inanyorum.
+
+156
+00:05:46,090 --> 00:05:49,140
+Ve sonra sadece ES6'ya veya daha yeni bir noktaya gein.
+
+157
+00:05:49,140 --> 00:05:51,140
+ES6'nn snflar gibi baz soyutlamalar
+
+158
+00:05:51,140 --> 00:05:53,160
+olduu iin, bu tr dillerin
+
+159
+00:05:53,160 --> 00:05:55,780
+sahnenin gerisinde nasl altn gizler.
+
+160
+00:05:55,780 --> 00:05:56,613
+Tamam?
+
+161
+00:05:56,613 --> 00:05:58,660
+Bu yzden umarm bu size ok ey ifade eder.
+
+162
+00:05:58,660 --> 00:06:01,343
+Ve imdi imdi bir sonraki blme geelim.
+

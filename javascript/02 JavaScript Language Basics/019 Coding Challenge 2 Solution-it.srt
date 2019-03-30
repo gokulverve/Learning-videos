@@ -1,0 +1,500 @@
+1
+00:00:01,130 --> 00:00:02,710
+Jonas: Quindi ecco la mia
+
+2
+00:00:02,710 --> 00:00:05,340
+soluzione per la sfida di codifica numero due.
+
+3
+00:00:05,340 --> 00:00:08,163
+Quindi iniziamo calcolando i punteggi medi.
+
+4
+00:00:09,090 --> 00:00:13,867
+Quindi var scoreJohn  uguale a, e abbiamo i
+
+5
+00:00:18,370 --> 00:00:23,370
+punti, quindi 89 pi 120 pi 103 divisi per tre.
+
+6
+00:00:27,860 --> 00:00:32,860
+Quindi var scoreMike  uguale a 116 pi 94
+
+7
+00:00:37,070 --> 00:00:41,113
+pi 123 diviso per tre di nuovo.
+
+8
+00:00:42,160 --> 00:00:44,260
+Ora registriamo semplicemente questi nella console.
+
+9
+00:00:46,681 --> 00:00:48,703
+segna John e segna Mike ed eccoci qui.
+
+10
+00:00:52,030 --> 00:00:54,630
+Quindi il punteggio medio per John 104, e per Mike 111.
+
+11
+00:00:56,155 --> 00:00:58,040
+Quindi Mike  chiaramente il
+
+12
+00:00:58,040 --> 00:01:00,830
+vincitore qui, quindi cerchiamo di collegarlo alla console.
+
+13
+00:01:00,830 --> 00:01:02,340
+Ok, e quindi quello che
+
+14
+00:01:02,340 --> 00:01:04,643
+faremo qui , naturalmente, una dichiarazione if else.
+
+15
+00:01:05,520 --> 00:01:10,520
+Dagli un po 'di spazio qui, e ora se
+
+16
+00:01:12,220 --> 00:01:17,220
+scoreJohn  maggiore di scoreMike, allora accedi alla console
+
+17
+00:01:21,090 --> 00:01:26,090
+di John, ora dobbiamo sfuggire a questa citazione qui,
+
+18
+00:01:26,970 --> 00:01:31,920
+quindi la squadra di John vince, e ora includiamo
+
+19
+00:01:31,920 --> 00:01:33,740
+anche il punteggio
+
+20
+00:01:33,740 --> 00:01:38,110
+qui come menzionato nelle istruzioni, quindi punteggio punti John.
+
+21
+00:01:41,960 --> 00:01:46,090
+Va bene, e altro se, se  il
+
+22
+00:01:46,090 --> 00:01:48,650
+contrario, in pratica, quindi punteggioMike
+
+23
+00:01:49,750 --> 00:01:53,287
+ maggiore di scoreJohn, beh, allora, naturalmente,
+
+24
+00:01:57,670 --> 00:02:01,440
+registra che la squadra di Mike vince.
+
+25
+00:02:01,440 --> 00:02:06,190
+Poi qui abbiamo anche bisogno di usare il punteggio di Mike, ok?
+
+26
+00:02:06,190 --> 00:02:08,930
+E poi, e questa  la situazione in cui
+
+27
+00:02:08,930 --> 00:02:12,230
+c' un pareggio, quindi se il punteggio di John non 
+
+28
+00:02:12,230 --> 00:02:14,630
+maggiore di quello di Mike e Mike non
+
+29
+00:02:14,630 --> 00:02:17,300
+ anche maggiore di John, beh allora significa che
+
+30
+00:02:17,300 --> 00:02:19,240
+hanno lo stesso punteggio, ok?
+
+31
+00:02:19,240 --> 00:02:21,580
+E cos  qui in questo blocco, e
+
+32
+00:02:21,580 --> 00:02:24,280
+cos qui possiamo semplicemente registrare che c' un pareggio.
+
+33
+00:02:30,390 --> 00:02:33,440
+Quindi proviamo, e quindi s, la squadra
+
+34
+00:02:33,440 --> 00:02:36,110
+di Mike vince con 111 punti.
+
+35
+00:02:36,110 --> 00:02:41,030
+Ora aumentiamo questo qui, diciamo a 129, e
+
+36
+00:02:41,030 --> 00:02:44,200
+cos ora probabilmente John vince.
+
+37
+00:02:44,200 --> 00:02:47,290
+E s, qui andiamo, quindi vince la squadra di John.
+
+38
+00:02:47,290 --> 00:02:51,980
+Ora proviamo ad avere un pareggio qui.
+
+39
+00:02:51,980 --> 00:02:56,980
+Quindi prima avevamo 89, mettiamolo a 95, e abbiamo bisogno
+
+40
+00:02:58,010 --> 00:03:02,123
+di altri punti qui, quindi aumentiamo questo a 115.
+
+41
+00:03:04,030 --> 00:03:06,873
+Era un po 'troppo, forse il 112.
+
+42
+00:03:08,940 --> 00:03:10,823
+E ora siamo quasi arrivati, immagino.
+
+43
+00:03:12,010 --> 00:03:15,750
+S, cos ora hanno gli stessi punteggi, quindi entrambi hanno 111, quindi ora
+
+44
+00:03:15,750 --> 00:03:18,480
+vediamo che c' un pareggio, e quindi ovviamente nessuna di
+
+45
+00:03:18,480 --> 00:03:21,860
+queste situazioni si applica, perch il punteggio di John non  maggiore
+
+46
+00:03:21,860 --> 00:03:24,300
+del punteggio di Mike, e il punteggio di Mike
+
+47
+00:03:24,300 --> 00:03:26,980
+non  pi grande del punteggio di John, e
+
+48
+00:03:26,980 --> 00:03:28,570
+quindi ovviamente abbiamo un pareggio.
+
+49
+00:03:28,570 --> 00:03:29,980
+Questa  la parte pi facile.
+
+50
+00:03:29,980 --> 00:03:33,330
+Ora aggiungiamo anche Mary al gioco.
+
+51
+00:03:33,330 --> 00:03:38,330
+Quindi var scoreMary  uguale a, e prendiamo i suoi punti.
+
+52
+00:03:42,770 --> 00:03:47,203
+Quindi 97, 134 e 105.
+
+53
+00:03:48,950 --> 00:03:52,550
+Questa dovrebbe essere una virgola, ovviamente, e ora,
+
+54
+00:03:52,550 --> 00:03:56,790
+questo dovrebbe essere un segno positivo, mi dispiace per quello.
+
+55
+00:03:56,790 --> 00:04:00,803
+Quindi li sommiamo tutti e poi li dividiamo per tre.
+
+56
+00:04:05,330 --> 00:04:08,060
+Accedere anche alla console solo per assicurarsi.
+
+57
+00:04:08,060 --> 00:04:11,750
+Quindi lei ha il 112, rimettiamo quello
+
+58
+00:04:11,750 --> 00:04:16,750
+che avevamo inizialmente, quindi era 89, e cos ora abbiamo
+
+59
+00:04:17,330 --> 00:04:20,090
+questi tre punteggi diversi, va bene?
+
+60
+00:04:20,090 --> 00:04:23,210
+Quindi liberiamoci di questa parte, e io
+
+61
+00:04:23,210 --> 00:04:27,300
+non lo canceller, mi limiter a commentare, e va bene.
+
+62
+00:04:27,300 --> 00:04:29,720
+Quindi, come pu Giovanni vincere la partita?
+
+63
+00:04:29,720 --> 00:04:32,410
+Fondamentalmente deve avere pi punti di
+
+64
+00:04:32,410 --> 00:04:35,550
+Mike e anche pi punti di Mary, giusto?
+
+65
+00:04:35,550 --> 00:04:38,440
+E cos questo  ci che dobbiamo tradurre in codice ora.
+
+66
+00:04:38,440 --> 00:04:42,607
+Quindi una dichiarazione if else, e dobbiamo
+
+67
+00:04:42,607 --> 00:04:47,607
+dire che scoreJohn dovrebbe essere maggiore di scoreMike e
+
+68
+00:04:49,649 --> 00:04:52,820
+scoreJohn dovrebbe essere maggiore di scoreMary.
+
+69
+00:04:52,820 --> 00:04:54,310
+Okay e basta
+
+70
+00:04:54,310 --> 00:04:55,870
+Quindi ha senso?
+
+71
+00:04:55,870 --> 00:04:59,370
+Questo  un ottimo caso di utilizzo dell'operatore e qui.
+
+72
+00:04:59,370 --> 00:05:02,360
+E funziona cos perch abbiamo bisogno che questo sia
+
+73
+00:05:02,360 --> 00:05:06,320
+vero e allo stesso tempo abbiamo bisogno che questo sia vero.
+
+74
+00:05:06,320 --> 00:05:07,890
+Quindi il punteggio di John
+
+75
+00:05:07,890 --> 00:05:11,720
+deve essere maggiore di quello di Mary e Mike, va bene?
+
+76
+00:05:11,720 --> 00:05:14,750
+E quindi solo in quel caso vorremmo stampare
+
+77
+00:05:14,750 --> 00:05:17,820
+che la squadra di John vince il gioco.
+
+78
+00:05:17,820 --> 00:05:21,010
+E poi da qui, in realt  piuttosto semplice.
+
+79
+00:05:21,010 --> 00:05:23,490
+Quindi, una volta capito come funziona la logica,
+
+80
+00:05:23,490 --> 00:05:27,210
+tutto ci che dobbiamo fare  fare lo stesso per gli altri giocatori.
+
+81
+00:05:27,210 --> 00:05:29,900
+Quindi, come fa Mike a vincere il gioco?
+
+82
+00:05:29,900 --> 00:05:32,900
+Beh, certo, deve avere un punteggio
+
+83
+00:05:32,900 --> 00:05:36,010
+pi grande degli altri due, quindi punteggioMike
+
+84
+00:05:36,010 --> 00:05:40,293
+deve essere maggiore di scoreJohn e, allo stesso tempo,
+
+85
+00:05:41,934 --> 00:05:44,808
+punteggioMike, e quello che  successo
+
+86
+00:05:44,808 --> 00:05:47,558
+qui, punteggio Mike maggiore di scoreMary.
+
+87
+00:05:52,012 --> 00:05:56,679
+Quindi John, e qui abbiamo Mike, e ovviamente segnalo.
+
+88
+00:05:57,520 --> 00:06:00,823
+E infine lo stesso per Mary.
+
+89
+00:06:03,450 --> 00:06:07,917
+Quindi punteggioMary deve essere pi grande
+
+90
+00:06:08,770 --> 00:06:13,263
+di scoreJohn e scoreMary maggiore di scoreMike.
+
+91
+00:06:17,217 --> 00:06:20,993
+E ora diciamo che la squadra di Mary vince e qui il punteggio Maria.
+
+92
+00:06:26,840 --> 00:06:30,430
+Bene, ora che mi dici delle altre situazioni?
+
+93
+00:06:30,430 --> 00:06:33,700
+Bene, usiamo un altro qui
+
+94
+00:06:33,700 --> 00:06:38,563
+e diciamo che c' un pareggio, ok?
+
+95
+00:06:43,830 --> 00:06:45,520
+Quindi questo non copre davvero tutte
+
+96
+00:06:45,520 --> 00:06:48,030
+le diverse situazioni qui, ma non  un grosso problema.
+
+97
+00:06:48,030 --> 00:06:50,060
+Quindi, per questo piccolo esempio, va bene.
+
+98
+00:06:50,060 --> 00:06:53,230
+Immagina che Mary e John avessero entrambi lo stesso punteggio,
+
+99
+00:06:53,230 --> 00:06:56,960
+ma un punteggio maggiore di Mike, quindi entrambi avrebbero un pareggio, ma
+
+100
+00:06:56,960 --> 00:06:59,170
+avrebbero comunque pi punti di Mike, e
+
+101
+00:06:59,170 --> 00:07:02,260
+quindi questa  una delle situazioni in cui entreremo in
+
+102
+00:07:02,260 --> 00:07:05,530
+questo blocco e mostra che c' un pareggio, ok?
+
+103
+00:07:05,530 --> 00:07:09,500
+Quindi queste tre situazioni qui funzionano solo per un chiaro vincitore, va bene, ma ancora
+
+104
+00:07:09,500 --> 00:07:11,500
+una volta non  un grosso problema.
+
+105
+00:07:11,500 --> 00:07:14,030
+Non abbiamo bisogno di coprire ogni singola situazione qui.
+
+106
+00:07:14,030 --> 00:07:16,650
+Quindi questi sono i pi importanti, ovviamente,
+
+107
+00:07:16,650 --> 00:07:19,820
+dove possiamo definire quale  il chiaro vincitore.
+
+108
+00:07:19,820 --> 00:07:22,190
+Quindi proviamolo ora, e in effetti
+
+109
+00:07:22,190 --> 00:07:25,600
+la squadra di Mary vince con 112 punti.
+
+110
+00:07:25,600 --> 00:07:28,010
+Aggiungiamo alcuni punti qui a Mike,
+
+111
+00:07:28,010 --> 00:07:30,650
+e se aggiungiamo tre punti, allora
+
+112
+00:07:30,650 --> 00:07:34,690
+avr lo stesso punteggio di Mary, quindi mettiamolo a 19
+
+113
+00:07:34,690 --> 00:07:37,690
+qui, e ora hanno entrambi il 112,
+
+114
+00:07:37,690 --> 00:07:40,840
+quindi vediamo che c' un pareggio, cos perfetta.
+
+115
+00:07:40,840 --> 00:07:43,570
+E se ora aumentiamo ulteriormente, diciamo 29, beh,
+
+116
+00:07:43,570 --> 00:07:48,260
+ovviamente la squadra di Mike ha il maggior numero di punti, e ora finalmente
+
+117
+00:07:48,260 --> 00:07:50,820
+aggiungiamo alcuni punti qui a John, solo per
+
+118
+00:07:50,820 --> 00:07:53,120
+verificare che tutti e tre i casi
+
+119
+00:07:53,120 --> 00:07:55,180
+funzionino, e in effetti, ora lui
+
+120
+00:07:55,180 --> 00:07:58,130
+ha il maggior numero di punti e viene dichiarato vincitore.
+
+121
+00:07:58,130 --> 00:07:59,620
+Grande, quindi  cos.
+
+122
+00:07:59,620 --> 00:08:02,460
+Spero che tu l'abbia capito e cos ora
+
+123
+00:08:02,460 --> 00:08:05,850
+sei davvero pronto per passare finalmente alla parte successiva
+
+124
+00:08:05,850 --> 00:08:09,080
+di questa sezione di introduzione, che  l'argomento importantissimo
+
+125
+00:08:09,080 --> 00:08:12,123
+delle funzioni, quindi unisciti a me nel prossimo video.
+

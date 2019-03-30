@@ -1,0 +1,324 @@
+1
+00:00:01,311 --> 00:00:03,285
+Jonas: Ento, aqui vai a minha
+
+2
+00:00:03,285 --> 00:00:04,975
+soluo para o desafio de codificao.
+
+3
+00:00:04,975 --> 00:00:07,388
+Comeamos definindo as variveis; so Vamos dizer que  setenta e oito; e voc poderia
+
+4
+00:00:07,388 --> 00:00:09,721
+var, mass-Mark, igual a usar qualquer nmero que quisesse aqui, ento eu no defini
+
+5
+00:00:12,496 --> 00:00:14,394
+quais eram as massas e alturas, apenas lembre-se
+
+6
+00:00:14,394 --> 00:00:16,226
+que eles tm que estar em quilogramas. Ento, temos massa-Mark,
+
+7
+00:00:16,226 --> 00:00:19,588
+Vamos nos dar mais algum espao aqui. ento temos altura-Mark, digamos um-sessenta e
+
+8
+00:00:19,588 --> 00:00:23,971
+nove metros; ento no, no muito alto.
+
+9
+00:00:23,971 --> 00:00:26,233
+Ok, e poderamos declarar todas essas
+
+10
+00:00:26,233 --> 00:00:30,233
+variveis aqui em uma linha, mas no vou fazer isso agora.
+
+11
+00:00:33,987 --> 00:00:36,654
+Eu s vou declar-los um aps o outro.
+
+12
+00:00:38,125 --> 00:00:40,364
+Ento, Mark e agora John; noventa e
+
+13
+00:00:40,364 --> 00:00:42,966
+dois quilos, e depois a altura, e 
+
+14
+00:00:42,966 --> 00:00:45,104
+o passo nmero um, eu acho.
+
+15
+00:00:45,104 --> 00:00:49,551
+Agora prximo passo, calcule ambos os seus IMC.
+
+16
+00:00:49,551 --> 00:00:53,218
+E assim, o IMC-Mark  a massa de Mark dividida
+
+17
+00:00:55,837 --> 00:00:57,504
+pelo quadrado de sua altura.
+
+18
+00:01:05,044 --> 00:01:08,236
+Ento altura-Mark vezes altura-Mark novamente e, em
+
+19
+00:01:08,236 --> 00:01:11,208
+seguida, ndice de massa corporal-John, to
+
+20
+00:01:11,208 --> 00:01:13,791
+massa-John, dividido por altura-John vezes altura-John.
+
+21
+00:01:20,626 --> 00:01:24,381
+Assim. Esse foi o passo nmero dois, e agora vamos
+
+22
+00:01:24,381 --> 00:01:27,631
+querer criar um booleano, para determinar se o
+
+23
+00:01:30,674 --> 00:01:34,341
+Mark tem um IMC maior do que o John.
+
+24
+00:01:38,032 --> 00:01:41,449
+Ento, var, Mark-high-BMI, e tudo o que temos a fazer  o
+
+25
+00:01:43,636 --> 00:01:46,831
+BMI-Mark, maior que o BMI-John.
+
+26
+00:01:46,831 --> 00:01:48,909
+Ento, essa deve ser nossa
+
+27
+00:01:48,909 --> 00:01:51,826
+varivel booleana e agora podemos registr-la no console.
+
+28
+00:01:53,097 --> 00:01:57,264
+Ento,  Mark, e agora no podemos simplesmente escrever uma
+
+29
+00:02:00,365 --> 00:02:03,282
+aspa, para escrever "Mark", porque ento isso
+
+30
+00:02:07,191 --> 00:02:09,139
+seria fora da string.
+
+31
+00:02:09,139 --> 00:02:12,222
+Ento, isso marca o comeo da string, e isso,
+
+32
+00:02:15,419 --> 00:02:18,452
+o fim da string, mas ns ainda queremos ter
+
+33
+00:02:18,452 --> 00:02:22,517
+o smbolo aqui para dizer "Mark's", e ento o que ns temos
+
+34
+00:02:22,517 --> 00:02:25,214
+que fazer  escapar dessa aspa, e ns
+
+35
+00:02:25,214 --> 00:02:27,289
+faa isso adicionando essa barra invertida.
+
+36
+00:02:27,289 --> 00:02:28,745
+OK? Ento isso  chamado de escape.
+
+37
+00:02:28,745 --> 00:02:31,067
+E isso  algo muito comum em programao tambm.
+
+38
+00:02:31,067 --> 00:02:35,226
+Ento, "o IMC de Mark  maior que o de John"; e agora,
+
+39
+00:02:35,226 --> 00:02:38,248
+mais uma vez, precisamos escapar e depois fechar essa cadeia.
+
+40
+00:02:38,248 --> 00:02:40,907
+Ento, temos nossa
+
+41
+00:02:40,907 --> 00:02:44,389
+string "O IMC de Mark  maior que
+
+42
+00:02:44,389 --> 00:02:47,639
+o de John"; na verdade, queremos fazer
+
+43
+00:02:50,970 --> 00:02:55,970
+a pergunta e, em seguida, dizemos "mais", e agora voc sabe
+
+44
+00:02:56,332 --> 00:03:00,333
+que  um operador e, basicamente, adicionamos as sequncias juntas.
+
+45
+00:03:00,333 --> 00:03:01,952
+E ento Mark-higher-BMI, que, deve mostrar
+
+46
+00:03:01,952 --> 00:03:03,389
+se  verdadeiro ou falso.
+
+47
+00:03:03,389 --> 00:03:05,220
+Ento, vamos carreg-lo; e assim, o IMC de Mark  mais alto que o de John?
+
+48
+00:03:05,220 --> 00:03:08,939
+E isso diz verdade. E vamos tambm registrar esses dois IMCs
+
+49
+00:03:08,939 --> 00:03:11,297
+no console, para termos certeza
+
+50
+00:03:11,297 --> 00:03:14,630
+de que tudo est funcionando corretamente.
+
+51
+00:03:15,743 --> 00:03:19,821
+Portanto, console o log de pontos e lembre-se de que podemos registrar dois
+
+52
+00:03:19,821 --> 00:03:21,984
+valores no console ao
+
+53
+00:03:21,984 --> 00:03:24,187
+mesmo tempo, simplesmente adicionando a vrgula aqui.
+
+54
+00:03:24,187 --> 00:03:28,217
+Ok, ento, Marcos e Joo, e assim vemos que o primeiro
+
+55
+00:03:28,217 --> 00:03:31,780
+ vinte e sete, ento Marcos tem vinte e
+
+56
+00:03:31,780 --> 00:03:34,322
+sete anos e Joo vinte e quatro.
+
+57
+00:03:34,322 --> 00:03:36,537
+E assim o IMC de Mark 
+
+58
+00:03:36,537 --> 00:03:39,704
+mais alto que o de John; e claro, sim,  verdade.
+
+59
+00:03:41,497 --> 00:03:44,342
+Porque, claro, isso aqui retornar true, ento nos
+
+60
+00:03:44,342 --> 00:03:46,173
+dar o resultado de "true",
+
+61
+00:03:46,173 --> 00:03:48,173
+que ser atribudo a Mark-higher-BMI.
+
+62
+00:03:48,173 --> 00:03:50,000
+OK. Ento essa  a soluo para o desafio.
+
+63
+00:03:50,000 --> 00:03:53,556
+Claro, voc poderia ter feito isso de maneira diferente, desde
+
+64
+00:03:53,556 --> 00:03:55,627
+que a soluo seja a mesma.
+
+65
+00:03:55,627 --> 00:03:58,253
+Ento, na programao, muitas e muitas vezes, no h
+
+66
+00:03:58,253 --> 00:04:01,456
+apenas uma soluo correta, existem muitas,
+
+67
+00:04:01,456 --> 00:04:03,367
+muitas maneiras de resolver o mesmo problema.
+
+68
+00:04:03,367 --> 00:04:05,312
+OK? E isso  algo muito importante que
+
+69
+00:04:05,312 --> 00:04:07,117
+voc deve saber e que voc
+
+70
+00:04:07,117 --> 00:04:09,499
+deve ter em mente sempre quando estiver programando.
+
+71
+00:04:09,499 --> 00:04:12,082
+Portanto, no h uma maneira correta de resolver um problema,
+
+72
+00:04:12,082 --> 00:04:14,240
+h sempre muitas, muitas
+
+73
+00:04:14,240 --> 00:04:16,471
+maneiras, e se voc resolveu isso de uma maneira
+
+74
+00:04:16,471 --> 00:04:18,349
+diferente, o que ainda  correto, ento
+
+75
+00:04:18,349 --> 00:04:20,895
+ absolutamente vlido, e  timo que voc tenha encontrado
+
+76
+00:04:20,895 --> 00:04:22,877
+uma maneira diferente de Resolvendo isso do meu jeito.
+
+77
+00:04:22,877 --> 00:04:25,024
+E ento, sim, vamos agora passar para o prximo vdeo.
+
+78
+00:04:25,024 --> 00:04:27,986
+&nbsp;
+
+79
+00:04:27,986 --> 00:04:30,345
+&nbsp;
+
+80
+00:04:30,345 --> 00:04:32,183
+&nbsp;
+
+81
+00:04:32,183 --> 00:04:36,350
+&nbsp;
+

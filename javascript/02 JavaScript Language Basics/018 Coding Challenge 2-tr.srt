@@ -1,0 +1,204 @@
+1
+00:00:01,886 --> 00:00:04,023
+Jonas: yleyse, JavaScript'deki koullu ve gerek
+
+2
+00:00:04,023 --> 00:00:06,403
+yanl deerler hakknda her eyi rendikten
+
+3
+00:00:06,403 --> 00:00:09,596
+sonra, imdi baka bir kodlama zorluu iin zaman.
+
+4
+00:00:09,596 --> 00:00:12,202
+yleyse John ve Mike'n hem basketbol oynadklarn hem
+
+5
+00:00:12,202 --> 00:00:13,805
+de farkl takmlarda oynadklarn diyelim.
+
+6
+00:00:13,805 --> 00:00:15,221
+Ve son 
+
+7
+00:00:15,221 --> 00:00:19,064
+mata John'un takm 89, 120 ve 103 say att.
+
+8
+00:00:19,064 --> 00:00:23,731
+Ve Mike'n takm 116, 94 ve 123 say att, tamam.
+
+9
+00:00:24,567 --> 00:00:26,744
+Yapmam istediim ey, her takmn
+
+10
+00:00:26,744 --> 00:00:29,275
+ortalama skorunu hesaplamak, ardndan hangi takmn
+
+11
+00:00:29,275 --> 00:00:32,485
+ortalama kazanacana karar vermek, bylece en yksek
+
+12
+00:00:32,485 --> 00:00:34,354
+ortalama skora sahip olan
+
+13
+00:00:34,354 --> 00:00:36,914
+ve sonra da konsolu konsola yazdran.
+
+14
+00:00:36,914 --> 00:00:39,300
+Ve bu kazanan konsola yazdrdnzda, ayn
+
+15
+00:00:39,300 --> 00:00:41,465
+zamanda ortalama skoru da ekleyin.
+
+16
+00:00:41,465 --> 00:00:44,426
+Tamam, daha nce ortalamalar nceden hesapladk, bu
+
+17
+00:00:44,426 --> 00:00:46,858
+yzden tek yapmamz gereken deerleri toplamak
+
+18
+00:00:46,858 --> 00:00:49,244
+ve bu durumda  ile blmek,
+
+19
+00:00:49,244 --> 00:00:51,537
+nk burada  sonu var, tamam.
+
+20
+00:00:51,537 --> 00:00:53,156
+Ve sonra da
+
+21
+00:00:53,156 --> 00:00:56,715
+yapmak istediim, farkl kazananlar gstermek iin puanlar deitirmek.
+
+22
+00:00:56,715 --> 00:00:59,124
+Ve burada, dikkate almay
+
+23
+00:00:59,124 --> 00:01:01,359
+unutmayn, bir beraberlik olabilir.
+
+24
+00:01:01,359 --> 00:01:04,644
+Yani ayn ortalama puann olduu anlamna gelir.
+
+25
+00:01:04,644 --> 00:01:06,461
+Ve bylece fl ifadenizde bunu
+
+26
+00:01:06,461 --> 00:01:08,656
+gz nnde bulundurmanz gerekecek, tamam m?
+
+27
+00:01:08,656 --> 00:01:11,808
+imdi bunu bitirdikten sonra, bir sonraki seviyeye alabilir
+
+28
+00:01:11,808 --> 00:01:13,625
+ve biraz daha fazla ekleyebilirsiniz.
+
+29
+00:01:13,625 --> 00:01:16,399
+Ve bu durumda Mary de basketbol
+
+30
+00:01:16,399 --> 00:01:20,316
+oynar ve ekibi 97, 134 ve 105 say att.
+
+31
+00:01:21,937 --> 00:01:24,277
+Ve daha nce olduu gibi, ortalama
+
+32
+00:01:24,277 --> 00:01:25,955
+kazanan konsoloslua kaydetmeni istiyorum.
+
+33
+00:01:25,955 --> 00:01:27,417
+Yani burada ne yapmanz
+
+34
+00:01:27,417 --> 00:01:29,188
+gerekecek, oyunculardan birinin dier ikisinden
+
+35
+00:01:29,188 --> 00:01:31,754
+daha byk bir skoru olup olmadn kontrol et.
+
+36
+00:01:31,754 --> 00:01:33,315
+Tamam, bunu yapabilmek iin
+
+37
+00:01:33,315 --> 00:01:35,399
+muhtemelen bu karar almak iin
+
+38
+00:01:35,399 --> 00:01:37,454
+son operatre ihtiyacnz olacak.
+
+39
+00:01:37,454 --> 00:01:39,225
+Tamam, eer bunu zemezsen
+
+40
+00:01:39,225 --> 00:01:41,605
+o zaman kesinlikle sorun deil.
+
+41
+00:01:41,605 --> 00:01:43,642
+zm izleyebilir ve
+
+42
+00:01:43,642 --> 00:01:45,982
+orada nasl yaptm grebilirsiniz.
+
+43
+00:01:45,982 --> 00:01:48,217
+Pekala, en nemli ey, bu
+
+44
+00:01:48,217 --> 00:01:50,986
+numaray iki ve  olarak yapabilmeniz.
+
+45
+00:01:50,986 --> 00:01:53,348
+Tamam, eer drdnc srada bir sonraki seviyeye
+
+46
+00:01:53,348 --> 00:01:55,363
+tamak istiyorsan, o zaman bu meydan
+
+47
+00:01:55,363 --> 00:01:57,499
+okuma iin harika bir ek.
+
+48
+00:01:57,499 --> 00:01:59,089
+Bu yzden birka dakikalna belki
+
+49
+00:01:59,089 --> 00:02:01,586
+yarm saat alabilir ve bu meydan okumay
+
+50
+00:02:01,586 --> 00:02:02,642
+gerekten tamamlamaya aln.
+
+51
+00:02:02,642 --> 00:02:07,309
+Ve sonra bir sonraki videoda bir zmle greceim.
+

@@ -1,0 +1,844 @@
+1
+00:00:01,020 --> 00:00:03,610
+Eitmen: imdi bir sonraki seviyeye artl
+
+2
+00:00:03,610 --> 00:00:05,970
+olarak balayalm ve Boole mantn renelim.
+
+3
+00:00:05,970 --> 00:00:09,050
+Ve bu kk rnekte, Johns yana bal
+
+4
+00:00:09,050 --> 00:00:12,960
+olarak, bir ocuk, bir gen, gen bir erkek veya
+
+5
+00:00:12,960 --> 00:00:15,840
+bir erkekse, konsola giri yapmak istiyoruz.
+
+6
+00:00:15,840 --> 00:00:19,240
+Ve, yine, ilk ad John ve
+
+7
+00:00:22,300 --> 00:00:24,730
+sonra ya olarak tanmlayarak balayalm.
+
+8
+00:00:24,730 --> 00:00:27,840
+Ve rnein 16 ile burada balayalm.
+
+9
+00:00:27,840 --> 00:00:30,840
+Tamam, yani if ifademizi kullanrz.
+
+10
+00:00:30,840 --> 00:00:33,910
+Ve unu syleyebiliriz ki eer John
+
+11
+00:00:33,910 --> 00:00:38,130
+13 yandan kkse, o zaman, o bir ocuk, tamamdr.
+
+12
+00:00:38,130 --> 00:00:42,700
+Yani konsol. log firstName + bir ocuk, tamam.
+
+13
+00:00:50,970 --> 00:00:52,713
+Ve sonra baka bir ey
+
+14
+00:00:54,900 --> 00:00:57,203
+syleyebiliriz, ve bu kod satrn buraya
+
+15
+00:00:58,750 --> 00:01:00,053
+kopyalayalm, bir erkek.
+
+16
+00:01:01,340 --> 00:01:04,280
+Tamam, bu yzden ocuu ve adam kapsar.
+
+17
+00:01:04,280 --> 00:01:07,130
+Ama aslnda gen mi yoksa gen mi
+
+18
+00:01:07,130 --> 00:01:08,760
+olduuna nasl karar veririz?
+
+19
+00:01:08,760 --> 00:01:11,250
+Burada daha fazla seenee ihtiyacmz var, deil mi?
+
+20
+00:01:11,250 --> 00:01:13,620
+Ve biz bunu JavaScript ile yapabiliriz.
+
+21
+00:01:13,620 --> 00:01:16,380
+Yani eer sadece ve dier bloklar kullanmak yerine, eer
+
+22
+00:01:16,380 --> 00:01:18,610
+blok varsa baka bir tane de olabilir.
+
+23
+00:01:18,610 --> 00:01:20,260
+Tamam, sana gstereyim.
+
+24
+00:01:21,360 --> 00:01:25,203
+Yani burada baka yapabiliriz ve sonra yeni bir.
+
+25
+00:01:28,240 --> 00:01:29,930
+O zaman buraya geri koyalm.
+
+26
+00:01:29,930 --> 00:01:32,670
+Ve ite burada biraz daha metin koyabiliriz.
+
+27
+00:01:32,670 --> 00:01:35,200
+Ve aslnda, burada yeni bir koul eklememiz gerekiyor.
+
+28
+00:01:35,200 --> 00:01:37,240
+Peki burada ne olmak istiyoruz?
+
+29
+00:01:37,240 --> 00:01:39,640
+yleyse, sonuta buraya ilk gelelim,
+
+30
+00:01:39,640 --> 00:01:42,210
+aslnda, aslnda burada konutuumuz eyi biliyoruz.
+
+31
+00:01:42,210 --> 00:01:43,960
+Diyelim ki o bir gen.
+
+32
+00:01:45,510 --> 00:01:47,250
+Ve bu yzden, gen, temelde
+
+33
+00:01:47,250 --> 00:01:50,550
+13 ile 20 arasnda olduu anlamna geliyor, deil mi?
+
+34
+00:01:50,550 --> 00:01:52,700
+yleyse bunu bir yorum olarak yazalm.
+
+35
+00:01:53,750 --> 00:01:58,240
+13 ila 20 arasnda.
+
+36
+00:01:58,240 --> 00:02:01,560
+Peki, tam olarak bunu ifade etmek iin nasl
+
+37
+00:02:01,560 --> 00:02:03,530
+mantkl bir durum yazacaz?
+
+38
+00:02:03,530 --> 00:02:08,040
+Peki yan 13 ile 20 arasnda olmas gerektiini nasl syleyebiliriz?
+
+39
+00:02:08,040 --> 00:02:10,160
+Peki, bu zor bir ey, deil mi?
+
+40
+00:02:10,160 --> 00:02:12,540
+Bu yzden biraz daha dnelim.
+
+41
+00:02:12,540 --> 00:02:15,660
+Yani 13 ile 20 arasnda, bunun gerekten
+
+42
+00:02:15,660 --> 00:02:20,660
+anlam, yan daha byk veya eit olmas, 13, deil mi?
+
+43
+00:02:21,200 --> 00:02:25,403
+Ve ayn zamanda, ayn zamanda 20'den az.
+
+44
+00:02:26,700 --> 00:02:30,900
+Doru, yine, 13 ile 20 ya arasnda bir yan olmas,
+
+45
+00:02:30,900 --> 00:02:34,850
+yan 13'e eit veya ondan daha byk ve 20'den
+
+46
+00:02:34,850 --> 00:02:36,810
+kk olmas gerektii anlamna gelmelidir.
+
+47
+00:02:36,810 --> 00:02:40,610
+Yani buradaki iki koul ayn zamanda, tamam.
+
+48
+00:02:40,610 --> 00:02:43,230
+Ve ihtiyacmz olan ey bunun iin bir operatrdr.
+
+49
+00:02:43,230 --> 00:02:47,210
+Ve aslnda, aslnda, JavaScriptte bir son operatrdr.
+
+50
+00:02:47,210 --> 00:02:49,880
+Ve bu son operatrn nasl altn renmek
+
+51
+00:02:49,880 --> 00:02:52,213
+iin Boole mant hakknda konumamz gerekiyor.
+
+52
+00:02:53,290 --> 00:02:54,950
+Yani, ok geni anlamda,
+
+53
+00:02:54,950 --> 00:02:57,660
+Boole mant, gerek ve yanl deerler ile
+
+54
+00:02:57,660 --> 00:02:59,800
+uraan bir bilgisayar bilimi daldr.
+
+55
+00:02:59,800 --> 00:03:02,550
+Ve aslnda kodlamada olduka nemli bir ey.
+
+56
+00:03:02,550 --> 00:03:05,980
+Ve bu yzden bu blm gerekten anladnzdan emin olmalsnz.
+
+57
+00:03:05,980 --> 00:03:06,840
+Peki?
+
+58
+00:03:06,840 --> 00:03:09,150
+imdi doru ve yanl deerlerle
+
+59
+00:03:09,150 --> 00:03:11,170
+uraan birka mantksal ile var.
+
+60
+00:03:11,170 --> 00:03:12,420
+Ancak en
+
+61
+00:03:12,420 --> 00:03:15,490
+nemlileri NOT, AND ve OR ileleridir.
+
+62
+00:03:15,490 --> 00:03:17,940
+O zaman AND operatrne bakarak balayalm.
+
+63
+00:03:17,940 --> 00:03:20,710
+Ve burada, operatrn sonucunu grmemizi salayan
+
+64
+00:03:20,710 --> 00:03:24,140
+bir doruluk tablosu ad verilen bir masa var.
+
+65
+00:03:24,140 --> 00:03:26,600
+Bylece AND operatr byle alr.
+
+66
+00:03:26,600 --> 00:03:29,730
+A ve B olmak zere iki deikenin olduunu varsayalm.
+
+67
+00:03:29,730 --> 00:03:33,810
+Sadece deiken A ve deiken B her ikisi de
+
+68
+00:03:33,810 --> 00:03:37,690
+doruysa, A ve B ifadesi doru olur, tamam.
+
+69
+00:03:37,690 --> 00:03:40,830
+Dier tm durumlarda, sonu yanl olacaktr.
+
+70
+00:03:40,830 --> 00:03:43,150
+te bu yzden AND operatr deniyor.
+
+71
+00:03:43,150 --> 00:03:46,120
+nk sonularn doru olmas iin A ve
+
+72
+00:03:46,120 --> 00:03:48,800
+B'nin her ikisi de doru olmaldr.
+
+73
+00:03:48,800 --> 00:03:50,870
+Yani eer A ya da
+
+74
+00:03:50,870 --> 00:03:54,730
+B yanlsa, o zaman A ve B de yanl olur.
+
+75
+00:03:54,730 --> 00:03:57,480
+Ayn ey ikiden fazla deiken varsa geerlidir.
+
+76
+00:03:57,480 --> 00:03:59,540
+Sadece tm deikenler doruysa,
+
+77
+00:03:59,540 --> 00:04:02,500
+AND ifadesi de doru olacaktr.
+
+78
+00:04:02,500 --> 00:04:04,900
+Tamam, ve imdi ikinci doruluk
+
+79
+00:04:04,900 --> 00:04:06,740
+tablosu OR operatr iindir.
+
+80
+00:04:06,740 --> 00:04:09,230
+Ve ite iler biraz farkl.
+
+81
+00:04:09,230 --> 00:04:10,730
+Yani, OR operatryle,
+
+82
+00:04:10,730 --> 00:04:13,720
+A veya B'nin gerek olmas iin
+
+83
+00:04:13,720 --> 00:04:16,540
+deikenlerden birinin doru olmas yeterlidir.
+
+84
+00:04:16,540 --> 00:04:18,750
+Ve yine, bu mantkl, deil mi?
+
+85
+00:04:18,750 --> 00:04:20,420
+Bu yzden VEYA operatr
+
+86
+00:04:20,420 --> 00:04:23,690
+denir nk nihai ifadenin doru olmas iin yalnzca
+
+87
+00:04:23,690 --> 00:04:26,310
+A veya B'nin doru olmas gerekir.
+
+88
+00:04:26,310 --> 00:04:30,170
+Her iki deiken de yanlsa sonu yalnzca yanl olur.
+
+89
+00:04:30,170 --> 00:04:33,130
+Ve burada doruluk tablosunda grebiliriz, deil mi?
+
+90
+00:04:33,130 --> 00:04:33,963
+Ve bir
+
+91
+00:04:33,963 --> 00:04:36,760
+kez daha, birden ok deikenle ayn ekilde alr.
+
+92
+00:04:36,760 --> 00:04:39,350
+Yani, 3, 4, 5 ve hatta on
+
+93
+00:04:39,350 --> 00:04:41,720
+Boole deikeni varsa, nihai sonucun da
+
+94
+00:04:41,720 --> 00:04:45,400
+doru olmasn salamak iin bir deikenin doru olmas yeterlidir.
+
+95
+00:04:45,400 --> 00:04:48,080
+yleyse AND ve gerek operatr bu ekilde alr.
+
+96
+00:04:48,080 --> 00:04:51,130
+Ve sonra, son olarak, ayn zamanda NOT operatr var.
+
+97
+00:04:51,130 --> 00:04:52,810
+Ve bu gerekten ok basit.
+
+98
+00:04:52,810 --> 00:04:54,330
+Tek yapt, bir deikenin
+
+99
+00:04:54,330 --> 00:04:56,600
+doru veya yanl deerini tersine evirmektir.
+
+100
+00:04:56,600 --> 00:05:00,230
+Yani deiken A doruysa, o zaman NOT A yanltr.
+
+101
+00:05:00,230 --> 00:05:03,580
+Ve eer A yanl ise, o zaman A DEL de doru deil.
+
+102
+00:05:03,580 --> 00:05:04,860
+Yani, kolay, deil mi?
+
+103
+00:05:04,860 --> 00:05:06,863
+imdi birka rnee bakalm.
+
+104
+00:05:07,850 --> 00:05:10,600
+Bylece ya denen bir deiken tanmlayarak balyoruz.
+
+105
+00:05:10,600 --> 00:05:13,400
+Daha sonra, 20'den daha kk veya eit bir
+
+106
+00:05:13,400 --> 00:05:17,150
+ya var, ki bu elbette yanltr, nk 16, 20'den azdr.
+
+107
+00:05:17,150 --> 00:05:21,030
+yleyse 30 yan altndayz, ki bu elbette dorudur.
+
+108
+00:05:21,030 --> 00:05:23,450
+Son olarak, NOT operatrne sahibiz.
+
+109
+00:05:23,450 --> 00:05:26,650
+Yani 30 yan altndakilerin doru olduunu biliyoruz.
+
+110
+00:05:26,650 --> 00:05:29,540
+Ve biz DEL operatrnn deeri tersine evirdiini biliyoruz.
+
+111
+00:05:29,540 --> 00:05:33,360
+Yani 30 yandan kk olmamak elbette yanltr.
+
+112
+00:05:33,360 --> 00:05:34,800
+Mantkl, deil mi?
+
+113
+00:05:34,800 --> 00:05:36,460
+Tamam, sradaki ifade.
+
+114
+00:05:36,460 --> 00:05:38,470
+lk blmn, 20'den byk veya
+
+115
+00:05:38,470 --> 00:05:41,300
+eit olan yalarn yanl olduunu zaten biliyoruz.
+
+116
+00:05:41,300 --> 00:05:45,020
+Ayrca 30 yan altndakilerin doru olduunu da biliyoruz.
+
+117
+00:05:45,020 --> 00:05:47,690
+Yani, burada yanl ve doru var.
+
+118
+00:05:47,690 --> 00:05:49,560
+Yani sonucu tahmin edebilir misin?
+
+119
+00:05:49,560 --> 00:05:53,200
+Bu doru, yanl, nk ikisi de doru deil.
+
+120
+00:05:53,200 --> 00:05:54,100
+Tamam?
+
+121
+00:05:54,100 --> 00:05:56,160
+imdi bir sonraki ifade benzer.
+
+122
+00:05:56,160 --> 00:05:58,780
+Ama burada OR operatrmz var.
+
+123
+00:05:58,780 --> 00:06:00,920
+Yani imdi doru ya da yanl.
+
+124
+00:06:00,920 --> 00:06:03,080
+Peki sonu bu sefer ne olacak?
+
+125
+00:06:03,080 --> 00:06:04,790
+Tamam, imdi doru.
+
+126
+00:06:04,790 --> 00:06:06,300
+nk OR operatryle,
+
+127
+00:06:06,300 --> 00:06:08,610
+birinin doru olmas yeterlidir.
+
+128
+00:06:08,610 --> 00:06:10,210
+Umarm bu mantkldr.
+
+129
+00:06:10,210 --> 00:06:11,570
+Ve imdi
+
+130
+00:06:11,570 --> 00:06:14,380
+geri dnp kodda rendiklerimizi kullanabiliriz.
+
+131
+00:06:14,380 --> 00:06:17,450
+Tamam, imdi AND ve OR operatrlerini biliyoruz,
+
+132
+00:06:17,450 --> 00:06:20,360
+aslnda burada ihtiyacmz olan ifadeyi yazmann bir
+
+133
+00:06:20,360 --> 00:06:21,440
+yolu var.
+
+134
+00:06:21,440 --> 00:06:23,800
+yleyse burada istediimiz ya
+
+135
+00:06:23,800 --> 00:06:27,430
+13'e eit ya da eittir.
+
+136
+00:06:27,430 --> 00:06:29,240
+Ve, AND operatr ile,
+
+137
+00:06:29,240 --> 00:06:31,910
+daha nce grdnz gibi, byle yazyoruz.
+
+138
+00:06:31,910 --> 00:06:35,080
+Ve bylece 13 yandan byk ya da eit ya istiyoruz.
+
+139
+00:06:35,080 --> 00:06:39,450
+Ve ayn zamanda, yan 20'den az olmas.
+
+140
+00:06:39,450 --> 00:06:41,140
+Tamam, bu yzden ihtiyacmz olan ey bu.
+
+141
+00:06:41,140 --> 00:06:42,720
+Burada bizim ifademiz budur.
+
+142
+00:06:42,720 --> 00:06:45,210
+Veya temel olarak test koullarmz.
+
+143
+00:06:45,210 --> 00:06:48,700
+Diyelim ki ya 16, imdi olduu gibi.
+
+144
+00:06:48,700 --> 00:06:50,660
+Eer imdi bunu yklersek, o
+
+145
+00:06:50,660 --> 00:06:53,810
+zaman konsola giri yaparz, John bir gen.
+
+146
+00:06:53,810 --> 00:06:55,520
+Ve bylece aslnda alyor.
+
+147
+00:06:55,520 --> 00:06:57,402
+Yani, imdi, ya 16.
+
+148
+00:06:57,402 --> 00:07:00,670
+Ve ya, aslnda, 13'ten byktr.
+
+149
+00:07:00,670 --> 00:07:02,320
+Yani buradaki ksm dorudur.
+
+150
+00:07:02,320 --> 00:07:06,640
+Sonra ya da 20'den az, bu yzden bu da dorudur.
+
+151
+00:07:06,640 --> 00:07:10,220
+Ve ok doru ve doru, rendiimiz gibi, doruyu yapar.
+
+152
+00:07:10,220 --> 00:07:13,330
+Ve bylece bu blok burada yrtlr.
+
+153
+00:07:13,330 --> 00:07:14,690
+imdi bu operatrn
+
+154
+00:07:14,690 --> 00:07:16,740
+nceliinden bahsederken, buradakilerin nceliinden
+
+155
+00:07:16,740 --> 00:07:19,120
+daha dk olmak zorundadr,
+
+156
+00:07:19,120 --> 00:07:20,380
+deil mi?
+
+157
+00:07:20,380 --> 00:07:23,240
+nk, elbette, ncelikle bunun doru ya da yanl
+
+158
+00:07:23,240 --> 00:07:25,480
+deerle sonulanmak iin idam edilmesini istiyoruz.
+
+159
+00:07:25,480 --> 00:07:26,980
+Ve sonra bu burada.
+
+160
+00:07:26,980 --> 00:07:29,210
+Ve bundan sonra, bu iki
+
+161
+00:07:29,210 --> 00:07:32,470
+yanl deeri bu operatr kullanarak birletirmek istiyoruz.
+
+162
+00:07:32,470 --> 00:07:34,610
+Ve tabii ki, AND ve
+
+163
+00:07:34,610 --> 00:07:36,560
+OR operatr, bu karlatrma operatrlerinden
+
+164
+00:07:36,560 --> 00:07:39,500
+daha dk bir ncelie sahip olmallar, deil mi?
+
+165
+00:07:39,500 --> 00:07:41,483
+Bu gerekten doru olup olmadn kontrol edelim.
+
+166
+00:07:42,740 --> 00:07:44,470
+Ve aslnda yle.
+
+167
+00:07:44,470 --> 00:07:47,020
+Dolaysyla, Mantksal AND ve OR,
+
+168
+00:07:47,020 --> 00:07:50,830
+daha dk ve eit olmayan eitlik, daha
+
+169
+00:07:50,830 --> 00:07:53,300
+byk, ve evet gibi,
+
+170
+00:07:53,300 --> 00:07:55,140
+bu karlatrma operatrlerinden
+
+171
+00:07:55,140 --> 00:07:57,790
+daha dk bir ncelie sahiptirler.
+
+172
+00:07:57,790 --> 00:07:59,230
+Yani daha yksek
+
+173
+00:07:59,230 --> 00:08:04,230
+bir ncelie sahipler ve bu yzden burada alt ekilde alyor, tamam.
+
+174
+00:08:04,260 --> 00:08:05,710
+Ve imdi sadece son bir adm.
+
+175
+00:08:05,710 --> 00:08:07,490
+nk biz bir erkek istiyoruz,
+
+176
+00:08:07,490 --> 00:08:12,170
+gen ve biz de 20-30 ya aras gen bir erkek olmak istiyoruz, tamam.
+
+177
+00:08:12,170 --> 00:08:14,373
+yleyse burada yeni bir tane oluturalm.
+
+178
+00:08:16,560 --> 00:08:19,673
+te durum ve yeni bir blok an.
+
+179
+00:08:23,700 --> 00:08:25,510
+Yani gen bir adam.
+
+180
+00:08:25,510 --> 00:08:28,010
+Ve imdi yan ne olmasn istiyoruz?
+
+181
+00:08:28,010 --> 00:08:32,310
+Eh, 20'den byk veya eit olmasn istiyoruz.
+
+182
+00:08:32,310 --> 00:08:37,310
+Ve ayn zamanda, 30'dan az olacak, tamam.
+
+183
+00:08:37,570 --> 00:08:39,710
+Ve eer bu eitlikleri buraya koymazsak,
+
+184
+00:08:39,710 --> 00:08:42,760
+o zaman, 20, hibir yerde ele alnmaz, doru.
+
+185
+00:08:42,760 --> 00:08:44,560
+yleyse bunu buradan karalm.
+
+186
+00:08:44,560 --> 00:08:47,090
+Ve 20'ye git, bu yzden yan 20'ye ayarlayn.
+
+187
+00:08:47,090 --> 00:08:49,020
+Ve sonra ne olduunu grelim.
+
+188
+00:08:49,020 --> 00:08:51,110
+Yani imdi John bir erkek olduunu sylyor.
+
+189
+00:08:51,110 --> 00:08:53,910
+Tamam, ve ite bu 20 burada deil, ne
+
+190
+00:08:53,910 --> 00:08:56,180
+bu durumda ne de bu durumda.
+
+191
+00:08:56,180 --> 00:08:58,530
+Yani burada sadece 20'den az
+
+192
+00:08:58,530 --> 00:09:00,490
+ve ite 20'den byk.
+
+193
+00:09:00,490 --> 00:09:02,240
+Ama hibir yerde eittir iareti yoktur.
+
+194
+00:09:02,240 --> 00:09:05,670
+Ve ite bu yzden buraya dahil etmeliyiz, tamam.
+
+195
+00:09:05,670 --> 00:09:07,200
+Bunu da buraya ekleyebilirdik.
+
+196
+00:09:07,200 --> 00:09:09,080
+Fakat 20 yandan byk
+
+197
+00:09:09,080 --> 00:09:10,820
+biri artk bir gen
+
+198
+00:09:10,820 --> 00:09:13,160
+deilken, bu eitlii buraya ekledik.
+
+199
+00:09:13,160 --> 00:09:14,490
+Ve eer imdi yeniden
+
+200
+00:09:14,490 --> 00:09:16,800
+yklersek, o zaman gen adam diyecek.
+
+201
+00:09:16,800 --> 00:09:18,913
+Tamam, o yzden ie yarad.
+
+202
+00:09:20,090 --> 00:09:22,950
+Tamam, bu ders iin yeterli olduunu dnyorum.
+
+203
+00:09:22,950 --> 00:09:24,810
+Bylece, Boole mant ve AND,
+
+204
+00:09:24,810 --> 00:09:27,780
+OR ve NOT ileleri hakknda her eyi rendiniz.
+
+205
+00:09:27,780 --> 00:09:31,060
+Ayrca, eer bu ifadeleri, eer baka
+
+206
+00:09:31,060 --> 00:09:33,220
+ifadelerimize engellersek ekleyebiliriz, tamam.
+
+207
+00:09:33,220 --> 00:09:36,720
+yleyse, oumuz olabilir, diyelim ki, eer tek
+
+208
+00:09:36,720 --> 00:09:39,330
+bir kurguda ifadeler varsa, bunun gibi.
+
+209
+00:09:39,330 --> 00:09:41,710
+Tamam, tm bunlar anladndan emin ol.
+
+210
+00:09:41,710 --> 00:09:45,080
+Gerekirse, dersin blmlerini inceleyebilir ve
+
+211
+00:09:45,080 --> 00:09:47,380
+bir sonraki videoya geebiliriz.
+

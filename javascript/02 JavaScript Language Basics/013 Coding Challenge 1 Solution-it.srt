@@ -1,0 +1,324 @@
+1
+00:00:01,311 --> 00:00:03,285
+Jonas: Quindi, ecco la mia
+
+2
+00:00:03,285 --> 00:00:04,975
+soluzione alla sfida della codifica.
+
+3
+00:00:04,975 --> 00:00:07,388
+Iniziamo definendo le variabili; Diciamo che  settantotto; e potresti usare qualsiasi numero
+
+4
+00:00:07,388 --> 00:00:09,721
+cos var, massa-Mark, uguale. che volevi qui, quindi non ho definito quali
+
+5
+00:00:12,496 --> 00:00:14,394
+fossero le masse e le altezze, ma
+
+6
+00:00:14,394 --> 00:00:16,226
+ricorda che devono essere in chilogrammi. Quindi, abbiamo il
+
+7
+00:00:16,226 --> 00:00:19,588
+Diamoci un po 'di spazio qui. marchio di massa, quindi abbiamo l'altezza,
+
+8
+00:00:19,588 --> 00:00:23,971
+Mark, diciamo uno-sessantanove metri; quindi no, non proprio alto.
+
+9
+00:00:23,971 --> 00:00:26,233
+Ok, e potremmo dichiarare tutte queste
+
+10
+00:00:26,233 --> 00:00:30,233
+variabili qui in una riga, ma non lo far adesso.
+
+11
+00:00:33,987 --> 00:00:36,654
+Li dichiarer uno dopo l'altro.
+
+12
+00:00:38,125 --> 00:00:40,364
+Quindi, Mark e ora John; novantadue
+
+13
+00:00:40,364 --> 00:00:42,966
+chilogrammi, e poi l'altezza, e quindi questo
+
+14
+00:00:42,966 --> 00:00:45,104
+ il primo passo, penso.
+
+15
+00:00:45,104 --> 00:00:49,551
+Ora il prossimo passo, calcolare entrambi i loro BMI.
+
+16
+00:00:49,551 --> 00:00:53,218
+E cos, BMI-Mark  la massa di Mark divisa per
+
+17
+00:00:55,837 --> 00:00:57,504
+il quadrato della sua altezza.
+
+18
+00:01:05,044 --> 00:01:08,236
+Cos altezza-Mark tempo altezza-Mark ancora, e poi
+
+19
+00:01:08,236 --> 00:01:11,208
+indice di massa corporea-John, cos massa-John,
+
+20
+00:01:11,208 --> 00:01:13,791
+diviso per altezza-Giovanni altezza volte-Giovanni.
+
+21
+00:01:20,626 --> 00:01:24,381
+Cos. Quello era il passo numero due, e ora
+
+22
+00:01:24,381 --> 00:01:27,631
+vorremmo creare un booleano, per determinare se
+
+23
+00:01:30,674 --> 00:01:34,341
+Mark ha un BMI pi alto di John.
+
+24
+00:01:38,032 --> 00:01:41,449
+Quindi, var, Mark-higher-BMI, e quindi tutto ci che dobbiamo fare
+
+25
+00:01:43,636 --> 00:01:46,831
+ BMI-Mark, maggiore di BMI-John.
+
+26
+00:01:46,831 --> 00:01:48,909
+Quindi, questa dovrebbe essere la nostra
+
+27
+00:01:48,909 --> 00:01:51,826
+variabile booleana, e ora possiamo collegarla alla console.
+
+28
+00:01:53,097 --> 00:01:57,264
+Quindi, -Mark's, e ora non possiamo semplicemente scrivere una
+
+29
+00:02:00,365 --> 00:02:03,282
+virgoletta, per scrivere "Mark's" perch poi
+
+30
+00:02:07,191 --> 00:02:09,139
+sarebbe fuori dalla stringa.
+
+31
+00:02:09,139 --> 00:02:12,222
+Quindi, questo segna l'inizio della stringa, e questa,
+
+32
+00:02:15,419 --> 00:02:18,452
+la fine della stringa, ma vogliamo ancora avere
+
+33
+00:02:18,452 --> 00:02:22,517
+il simbolo qui per dire "Mark's", e quindi quello che dobbiamo
+
+34
+00:02:22,517 --> 00:02:25,214
+fare  sfuggire a questa virgoletta, e
+
+35
+00:02:25,214 --> 00:02:27,289
+noi fallo aggiungendo questo back-slash.
+
+36
+00:02:27,289 --> 00:02:28,745
+Va bene? Quindi si chiama fuga.
+
+37
+00:02:28,745 --> 00:02:31,067
+E questo  qualcosa di molto comune anche nella programmazione.
+
+38
+00:02:31,067 --> 00:02:35,226
+Quindi, "L'indice BMI di Mark  pi alto di quello di John"; e ora
+
+39
+00:02:35,226 --> 00:02:38,248
+di nuovo abbiamo bisogno di scappare, e poi chiudere quella stringa.
+
+40
+00:02:38,248 --> 00:02:40,907
+Quindi, abbiamo la
+
+41
+00:02:40,907 --> 00:02:44,389
+nostra stringa "L'indice BMI di Mark  pi
+
+42
+00:02:44,389 --> 00:02:47,639
+alto di quello di John"; in realt,
+
+43
+00:02:50,970 --> 00:02:55,970
+vogliamo porre la domanda, e poi diciamo "pi", e ora sai
+
+44
+00:02:56,332 --> 00:03:00,333
+che  un operatore, quindi aggiungiamo fondamentalmente le stringhe.
+
+45
+00:03:00,333 --> 00:03:01,952
+E poi Mark-higher-BMI, che, dovrebbe mostrare
+
+46
+00:03:01,952 --> 00:03:03,389
+se  vero o falso.
+
+47
+00:03:03,389 --> 00:03:05,220
+Quindi, cariciamolo; e quindi, il BMI di Mark  pi alto di quello di John?
+
+48
+00:03:05,220 --> 00:03:08,939
+E dice vero. E in realt registriamo anche questi due
+
+49
+00:03:08,939 --> 00:03:11,297
+BMI nella console, solo per
+
+50
+00:03:11,297 --> 00:03:14,630
+essere sicuri che tutto funzioni correttamente.
+
+51
+00:03:15,743 --> 00:03:19,821
+Quindi, il log dei punti della console e ricorda che possiamo effettivamente registrare
+
+52
+00:03:19,821 --> 00:03:21,984
+due valori nella
+
+53
+00:03:21,984 --> 00:03:24,187
+console contemporaneamente, semplicemente aggiungendo la virgola qui.
+
+54
+00:03:24,187 --> 00:03:28,217
+Ok, allora, Mark e John, e cos vediamo che
+
+55
+00:03:28,217 --> 00:03:31,780
+il primo ha ventisette, quindi Mark ha ventisette
+
+56
+00:03:31,780 --> 00:03:34,322
+anni e John ne ha ventiquattro.
+
+57
+00:03:34,322 --> 00:03:36,537
+E cos il BMI di Mark 
+
+58
+00:03:36,537 --> 00:03:39,704
+pi alto di quello di John; e, naturalmente, s,  vero.
+
+59
+00:03:41,497 --> 00:03:44,342
+Perch, naturalmente, questo qui torner vero, quindi ci
+
+60
+00:03:44,342 --> 00:03:46,173
+dar il risultato di "true",
+
+61
+00:03:46,173 --> 00:03:48,173
+che sar assegnato a Mark-higher-BMI.
+
+62
+00:03:48,173 --> 00:03:50,000
+Va bene. Questa  la soluzione alla sfida.
+
+63
+00:03:50,000 --> 00:03:53,556
+Certo, avresti potuto farlo diversamente, purch la
+
+64
+00:03:53,556 --> 00:03:55,627
+soluzione sia la stessa.
+
+65
+00:03:55,627 --> 00:03:58,253
+Quindi, nella programmazione, molte, molte volte, non c' solo
+
+66
+00:03:58,253 --> 00:04:01,456
+una soluzione corretta, ci sono molti,
+
+67
+00:04:01,456 --> 00:04:03,367
+molti modi per risolvere lo stesso problema.
+
+68
+00:04:03,367 --> 00:04:05,312
+Va bene? E questo  qualcosa di molto
+
+69
+00:04:05,312 --> 00:04:07,117
+importante che dovresti sapere, e che
+
+70
+00:04:07,117 --> 00:04:09,499
+dovresti tenere sempre presente quando stai programmando.
+
+71
+00:04:09,499 --> 00:04:12,082
+Quindi non esiste un modo corretto per risolvere un problema,
+
+72
+00:04:12,082 --> 00:04:14,240
+ci sono sempre molti,
+
+73
+00:04:14,240 --> 00:04:16,471
+molti modi, e quindi se lo risolvi in un
+
+74
+00:04:16,471 --> 00:04:18,349
+modo diverso, che  ancora corretto, allora
+
+75
+00:04:18,349 --> 00:04:20,895
+ assolutamente valido, ed  fantastico che tu abbia trovato
+
+76
+00:04:20,895 --> 00:04:22,877
+un modo diverso di risolvendo questo dal mio modo.
+
+77
+00:04:22,877 --> 00:04:25,024
+E quindi, s, passiamo ora al prossimo video.
+
+78
+00:04:25,024 --> 00:04:27,986
+&nbsp;
+
+79
+00:04:27,986 --> 00:04:30,345
+&nbsp;
+
+80
+00:04:30,345 --> 00:04:32,183
+&nbsp;
+
+81
+00:04:32,183 --> 00:04:36,350
+&nbsp;
+

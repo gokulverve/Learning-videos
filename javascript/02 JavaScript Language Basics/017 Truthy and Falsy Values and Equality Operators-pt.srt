@@ -1,0 +1,716 @@
+1
+00:00:01,282 --> 00:00:03,705
+Jonas: Antes de podermos passar para o
+
+2
+00:00:03,705 --> 00:00:06,003
+nosso prximo grande tpico, precisamos aprender rapidamente
+
+3
+00:00:06,003 --> 00:00:08,553
+sobre algo chamado valores verdadeiros e falsos.
+
+4
+00:00:08,553 --> 00:00:11,718
+Portanto, em JavaScript, um valor falso  um
+
+5
+00:00:11,718 --> 00:00:14,210
+valor considerado falso quando avaliado em
+
+6
+00:00:14,210 --> 00:00:16,878
+uma condio de instruo if / else.
+
+7
+00:00:16,878 --> 00:00:19,114
+E os valores que so falsos em JavaScript so valores
+
+8
+00:00:19,114 --> 00:00:19,947
+indefinidos, nulos, zero, vazios
+
+9
+00:00:19,947 --> 00:00:20,780
+e "no um nmero".
+
+10
+00:00:25,467 --> 00:00:28,961
+Deixe-me escrever isso para voc, tudo bem.
+
+11
+00:00:28,961 --> 00:00:30,519
+To falsamente valores,
+
+12
+00:00:30,519 --> 00:00:31,852
+eles so
+
+13
+00:00:33,491 --> 00:00:35,324
+undefined, null, zero,
+
+14
+00:00:37,466 --> 00:00:40,729
+strings vazias e no um nmero.
+
+15
+00:00:40,729 --> 00:00:42,409
+Ns no falamos sobre isso aqui
+
+16
+00:00:42,409 --> 00:00:45,191
+ainda, mas voc ver exemplos disso aqui mais adiante no curso.
+
+17
+00:00:45,191 --> 00:00:47,855
+Ok, ento todos esses cinco valores diferentes
+
+18
+00:00:47,855 --> 00:00:50,520
+sero convertidos para falso quando avaliados em
+
+19
+00:00:50,520 --> 00:00:52,758
+uma condio verdadeira / falsa.
+
+20
+00:00:52,758 --> 00:00:54,940
+Ento  por isso que os chamamos falsamente.
+
+21
+00:00:54,940 --> 00:00:56,112
+Eles no so
+
+22
+00:00:56,112 --> 00:00:58,972
+exatamente falsos, mas se revelaro falsos quando avaliados em
+
+23
+00:00:58,972 --> 00:01:00,654
+uma condio if / else.
+
+24
+00:01:00,654 --> 00:01:03,321
+Agora tambm temos valores verdadeiros.
+
+25
+00:01:06,413 --> 00:01:08,087
+E, claro, os valores verdadeiros
+
+26
+00:01:08,087 --> 00:01:10,414
+so todos os valores considerados verdadeiros quando
+
+27
+00:01:10,414 --> 00:01:13,592
+avaliados em uma condio de instruo if / else.
+
+28
+00:01:13,592 --> 00:01:18,092
+Ento, basicamente, so todos os valores que no so falsos.
+
+29
+00:01:19,661 --> 00:01:22,007
+Ok, ento vamos dar uma olhada em
+
+30
+00:01:22,007 --> 00:01:24,590
+um exemplo para demonstrar como isso funciona.
+
+31
+00:01:25,461 --> 00:01:28,091
+Vamos definir uma varivel de altura, digamos.
+
+32
+00:01:28,091 --> 00:01:29,823
+E ns no vamos realmente defini-lo,
+
+33
+00:01:29,823 --> 00:01:31,351
+ento apenas o declaramos aqui.
+
+34
+00:01:31,351 --> 00:01:34,339
+E agora vamos escrever uma declarao if / else.
+
+35
+00:01:34,339 --> 00:01:36,339
+Ento, podemos dizer se a altura
+
+36
+00:01:39,569 --> 00:01:41,902
+e, em seguida, faa o login no console.
+
+37
+00:01:45,196 --> 00:01:47,860
+A varivel  definida. A varivel no foi
+
+38
+00:01:47,860 --> 00:01:48,777
+E mais. definida. Ento, vamos ver o que acontece aqui.
+
+39
+00:01:54,442 --> 00:01:57,359
+E o que temos impresso aqui 
+
+40
+00:02:00,191 --> 00:02:02,967
+que a varivel no foi definida.
+
+41
+00:02:02,967 --> 00:02:04,590
+Ento, por que isso est acontecendo?
+
+42
+00:02:04,590 --> 00:02:06,902
+Bem, ns declaramos a varivel aqui como
+
+43
+00:02:06,902 --> 00:02:08,712
+height, mas no a definimos.
+
+44
+00:02:08,712 --> 00:02:11,951
+Ento voc j sabe que agora est indefinido.
+
+45
+00:02:11,951 --> 00:02:13,577
+E tambm sabemos que o indefinido  um valor falso, certo?
+
+46
+00:02:13,577 --> 00:02:16,054
+Ento, aqui quando dizemos se
+
+47
+00:02:16,054 --> 00:02:20,013
+altura, ento esta altura aqui  convertida em falsa.
+
+48
+00:02:20,013 --> 00:02:22,493
+Portanto, entramos no bloco else,
+
+49
+00:02:22,493 --> 00:02:25,414
+que ento mostra que a varivel
+
+50
+00:02:25,414 --> 00:02:27,620
+ainda no foi definida.
+
+51
+00:02:27,620 --> 00:02:29,573
+Esta  uma maneira muito prtica de testar
+
+52
+00:02:29,573 --> 00:02:31,322
+se uma varivel foi realmente definida ou no.
+
+53
+00:02:31,322 --> 00:02:33,096
+Agora digamos que realmente definimos um valor. Ento observe
+
+54
+00:02:33,096 --> 00:02:36,734
+Ento digamos 23. o que acontece agora? Claro, a varivel agora est definida.
+
+55
+00:02:36,734 --> 00:02:40,240
+Isso porque tudo o que no  um valor falso
+
+56
+00:02:40,240 --> 00:02:41,740
+ um valor absoluto.
+
+57
+00:02:42,640 --> 00:02:45,271
+Ns j sabemos que quando existe uma varivel,
+
+58
+00:02:45,271 --> 00:02:48,531
+bem, ento isso aqui ser convertido para true e, portanto,
+
+59
+00:02:48,531 --> 00:02:49,976
+o bloco if  inserido.
+
+60
+00:02:49,976 --> 00:02:53,058
+Ento, novamente, uma maneira muito prtica de
+
+61
+00:02:53,058 --> 00:02:55,900
+testar se uma varivel realmente existe.
+
+62
+00:02:55,900 --> 00:02:58,602
+Agora h apenas uma coisa para Observe como esse zero tambm tem um
+
+63
+00:02:58,602 --> 00:03:01,532
+manter em mente aqui, e  isso. valor falso, mas a altura pode ser zero.
+
+64
+00:03:01,532 --> 00:03:04,856
+Ento, vamos defini-lo para zero aqui.
+
+65
+00:03:04,856 --> 00:03:06,887
+A varivel est realmente definida agora, no ?
+
+66
+00:03:06,887 --> 00:03:09,099
+Ento ns temos um valor aqui, no  indefinido.
+
+67
+00:03:09,099 --> 00:03:10,139
+Mas se agora
+
+68
+00:03:10,139 --> 00:03:13,671
+recarregarmos isso, bem, ele ainda diz que a varivel no foi definida.
+
+69
+00:03:13,671 --> 00:03:15,593
+Essa , naturalmente, uma situao que queremos evitar.
+
+70
+00:03:15,593 --> 00:03:16,982
+Ento, isso aqui no pode ser
+
+71
+00:03:16,982 --> 00:03:19,623
+apenas altura, mas tambm temos que dizer que se a varivel
+
+72
+00:03:19,623 --> 00:03:21,773
+for zero, ento a varivel tambm  definida.
+
+73
+00:03:21,773 --> 00:03:24,985
+Lembre-se de que podemos usar o
+
+74
+00:03:24,985 --> 00:03:27,835
+operador or para fazer exatamente isso.
+
+75
+00:03:27,835 --> 00:03:31,000
+Ento j usamos o operador e antes,
+
+76
+00:03:31,000 --> 00:03:33,940
+mas tambm falamos sobre o operador ou.
+
+77
+00:03:33,940 --> 00:03:36,717
+Ento podemos dizer,
+
+78
+00:03:36,717 --> 00:03:40,024
+ou a altura
+
+79
+00:03:40,024 --> 00:03:42,464
+ igual a
+
+80
+00:03:42,464 --> 00:03:43,654
+zero.
+
+81
+00:03:43,654 --> 00:03:45,980
+Ento isso consertar o problema.
+
+82
+00:03:45,980 --> 00:03:48,503
+Este  um padro bastante comum em JavaScript, para verificar se
+
+83
+00:03:48,503 --> 00:03:49,422
+uma varivel est definida.
+
+84
+00:03:49,422 --> 00:03:50,255
+Ento, ns verificamos se
+
+85
+00:03:51,198 --> 00:03:52,956
+a varivel existe ou se  igual a zero.
+
+86
+00:03:52,956 --> 00:03:54,123
+Ento o bloco if aqui  de fato inserido.
+
+87
+00:03:54,972 --> 00:03:56,738
+Ok, ento vamos verificar isso de
+
+88
+00:03:56,738 --> 00:03:59,585
+novo, e agora vemos que a varivel est definida.
+
+89
+00:03:59,585 --> 00:04:01,825
+Lembre-se de que apenas um deles deve ser
+
+90
+00:04:01,825 --> 00:04:03,978
+verdadeiro para que toda a condio seja verdadeira.
+
+91
+00:04:03,978 --> 00:04:05,755
+Portanto, neste caso, agora a
+
+92
+00:04:05,755 --> 00:04:08,981
+altura  zero e, portanto, isso ser convertido em falso.
+
+93
+00:04:08,981 --> 00:04:10,773
+Mas no temos altura
+
+94
+00:04:10,773 --> 00:04:13,770
+igual a zero, o que  verdade,
+
+95
+00:04:13,770 --> 00:04:16,886
+claro, porque nessa situao a altura  zero.
+
+96
+00:04:16,886 --> 00:04:19,896
+Ento, temos falso e verdadeiro,
+
+97
+00:04:19,896 --> 00:04:22,703
+o que resultar em verdade.
+
+98
+00:04:22,703 --> 00:04:25,701
+Portanto, esta linha de cdigo aqui  ento executada.
+
+99
+00:04:25,701 --> 00:04:28,391
+Tudo bem, agora isso vai funcionar com qualquer nmero
+
+100
+00:04:28,391 --> 00:04:29,737
+aqui e tambm com strings.
+
+101
+00:04:29,737 --> 00:04:31,878
+Ento, digamos 20, por exemplo.
+
+102
+00:04:31,878 --> 00:04:33,984
+E voc v que ainda  verdade,
+
+103
+00:04:33,984 --> 00:04:35,826
+porque ainda est inserido esse primeiro bloco.
+
+104
+00:04:35,826 --> 00:04:38,965
+Mas se tivermos uma string vazia, lembre-se de que
+
+105
+00:04:38,965 --> 00:04:41,727
+tambm  um valor falso, como vemos aqui.
+
+106
+00:04:41,727 --> 00:04:43,560
+Ento, com uma string vazia, agora
+
+107
+00:04:44,968 --> 00:04:47,385
+diz que a varivel no foi definida novamente.
+
+108
+00:04:49,457 --> 00:04:50,756
+Ento, isso faz sentido, certo?
+
+109
+00:04:50,756 --> 00:04:52,601
+Porque na verdade, no h realmente algo
+
+110
+00:04:52,601 --> 00:04:54,171
+l,  como uma corda vazia.
+
+111
+00:04:54,171 --> 00:04:56,628
+Ento, esses so valores falsos e
+
+112
+00:04:56,628 --> 00:05:00,014
+verdadeiros, e a maneira prtica de verificar se
+
+113
+00:05:00,014 --> 00:05:02,037
+uma varivel est realmente definida.
+
+114
+00:05:02,037 --> 00:05:04,095
+Agora s para terminar, vamos falar
+
+115
+00:05:04,095 --> 00:05:06,238
+sobre os dois operadores de igualdade.
+
+116
+00:05:06,238 --> 00:05:08,041
+Ento, sempre usamos esse operador de igualdade tripla, certo?
+
+117
+00:05:08,041 --> 00:05:11,076
+Este  o nico para comparaes de igualdade estritas.
+
+118
+00:05:11,076 --> 00:05:12,707
+Mas h tambm o E a diferena  que este
+
+119
+00:05:12,707 --> 00:05:15,557
+igual, igual, ento esse operador aqui. tipo de coero, o que significa que os tipos de dados
+
+120
+00:05:15,557 --> 00:05:17,407
+de ambas as variveis no precisam corresponder.
+
+121
+00:05:17,407 --> 00:05:19,565
+Deixe-me mostrar isso para voc, na verdade, na prtica.
+
+122
+00:05:19,565 --> 00:05:23,506
+Ento, apenas para comentar aqui, e agora
+
+123
+00:05:23,506 --> 00:05:26,495
+vamos dizer se a altura Ento ns temos uma
+
+124
+00:05:26,495 --> 00:05:28,945
+ igual a 23. string agora aqui. Ento vamos simplesmente logar no console, escreve
+
+125
+00:05:28,945 --> 00:05:30,745
+o operador de igual igualdade. coero. Vamos checar o que aconteceu.
+
+126
+00:05:30,745 --> 00:05:33,542
+Antes de fazermos isso, vamos definir isso aqui de volta para 23.
+
+127
+00:05:33,542 --> 00:05:35,256
+O que estamos fazendo
+
+128
+00:05:35,256 --> 00:05:39,193
+aqui  comparar a altura que  23, um
+
+129
+00:05:39,193 --> 00:05:43,026
+nmero com uma string de 23, com um operador
+
+130
+00:05:44,643 --> 00:05:47,315
+de igualdade no-estrito, que  este.
+
+131
+00:05:47,315 --> 00:05:48,148
+Ento, apenas dois iguais.
+
+132
+00:05:51,050 --> 00:05:52,050
+Vamos dar uma olhada nisso.
+
+133
+00:05:53,265 --> 00:05:55,553
+E ento voc v que isso
+
+134
+00:05:55,553 --> 00:05:58,636
+realmente se torna verdade, ento entramos neste primeiro bloco.
+
+135
+00:06:00,537 --> 00:06:02,787
+Ento, voc v, o operador igual a igual escreve coero.
+
+136
+00:06:05,360 --> 00:06:07,276
+O que isso significa  que JavaScript,
+
+137
+00:06:07,276 --> 00:06:09,562
+quando usamos esse operador aqui, converte a string
+
+138
+00:06:09,562 --> 00:06:13,047
+de 23 em um nmero e, em seguida, diz que  o
+
+139
+00:06:13,047 --> 00:06:14,511
+mesmo que 23, o nmero.
+
+140
+00:06:14,511 --> 00:06:16,499
+Vamos dar uma olhada nisso aqui novamente.
+
+141
+00:06:16,499 --> 00:06:19,172
+Ento, 23 e depois a string 23.
+
+142
+00:06:19,172 --> 00:06:22,920
+E dir que  verdade.
+
+143
+00:06:22,920 --> 00:06:25,313
+ exatamente o que observamos aqui.
+
+144
+00:06:25,313 --> 00:06:27,307
+Ento, novamente, JavaScript faz a
+
+145
+00:06:27,307 --> 00:06:30,831
+coero, que basicamente significa converter esta string aqui
+
+146
+00:06:30,831 --> 00:06:33,222
+para um nmero, e ento
+
+147
+00:06:33,222 --> 00:06:36,851
+compara os nmeros, e ento  claro que
+
+148
+00:06:36,851 --> 00:06:38,940
+eles so os mesmos, certo?
+
+149
+00:06:38,940 --> 00:06:40,790
+Agora, se em vez disso,
+
+150
+00:06:40,790 --> 00:06:43,864
+usarmos o operador de igualdade estrito com os trs
+
+151
+00:06:43,864 --> 00:06:47,351
+sinais de igual, bem, ele no far coero de tipo.
+
+152
+00:06:47,351 --> 00:06:49,541
+Ento, o que voc acha que vai acontecer agora?
+
+153
+00:06:49,541 --> 00:06:52,463
+Sim, na verdade, agora diz que 
+
+154
+00:06:52,463 --> 00:06:55,594
+falso, porque na verdade so duas coisas diferentes.
+
+155
+00:06:55,594 --> 00:06:58,402
+Ento temos 23 o nmero e 23 a string.
+
+156
+00:06:58,402 --> 00:07:00,422
+E so coisas diferentes, ento, na verdade, queremos
+
+157
+00:07:00,422 --> 00:07:02,209
+que elas no sejam as mesmas, tudo bem.
+
+158
+00:07:02,209 --> 00:07:04,192
+E assim, se em vez disso, tivssemos trs iguais
+
+159
+00:07:04,192 --> 00:07:06,358
+aqui, ento  claro que no veremos esse operativo.
+
+160
+00:07:06,358 --> 00:07:08,718
+Ns no veremos este log no console porque  falso.
+
+161
+00:07:08,718 --> 00:07:11,358
+Ok, ento  assim que funciona o operador
+
+162
+00:07:11,358 --> 00:07:12,946
+de igualdade estrita, e 
+
+163
+00:07:12,946 --> 00:07:15,352
+absolutamente uma boa prtica sempre usar o triplo
+
+164
+00:07:15,352 --> 00:07:18,249
+igual, para que o operador de igualdade estrita, a
+
+165
+00:07:18,249 --> 00:07:20,532
+fim de evitar situaes inesperadas e bugs.
+
+166
+00:07:20,532 --> 00:07:23,023
+Ento  por isso que tenho usado esse operador o tempo
+
+167
+00:07:23,023 --> 00:07:25,614
+todo, com os trs iguais, e no apenas os dois iguais.
+
+168
+00:07:25,614 --> 00:07:26,991
+&nbsp;
+
+169
+00:07:26,991 --> 00:07:30,382
+&nbsp;
+
+170
+00:07:30,382 --> 00:07:33,749
+&nbsp;
+
+171
+00:07:33,749 --> 00:07:36,970
+&nbsp;
+
+172
+00:07:36,970 --> 00:07:40,494
+&nbsp;
+
+173
+00:07:40,494 --> 00:07:44,782
+&nbsp;
+
+174
+00:07:44,782 --> 00:07:46,477
+&nbsp;
+
+175
+00:07:46,477 --> 00:07:48,489
+&nbsp;
+
+176
+00:07:48,489 --> 00:07:50,421
+&nbsp;
+
+177
+00:07:50,421 --> 00:07:53,953
+&nbsp;
+
+178
+00:07:53,953 --> 00:07:56,517
+&nbsp;
+
+179
+00:07:56,517 --> 00:08:00,850
+&nbsp;
+

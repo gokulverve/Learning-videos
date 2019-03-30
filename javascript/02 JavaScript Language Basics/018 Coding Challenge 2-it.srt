@@ -1,0 +1,204 @@
+1
+00:00:01,886 --> 00:00:04,023
+Jonas: Quindi, dopo aver appreso tutto
+
+2
+00:00:04,023 --> 00:00:06,403
+su condizionali e veri valori falsi in
+
+3
+00:00:06,403 --> 00:00:09,596
+JavaScript,  giunto il momento di un'altra sfida di codifica.
+
+4
+00:00:09,596 --> 00:00:12,202
+Quindi diciamo che John e Mike giocano entrambi a
+
+5
+00:00:12,202 --> 00:00:13,805
+basket, ma in squadre diverse.
+
+6
+00:00:13,805 --> 00:00:15,221
+E negli ultimi tre
+
+7
+00:00:15,221 --> 00:00:19,064
+giochi, la squadra di John ha segnato 89, 120 e 103 punti.
+
+8
+00:00:19,064 --> 00:00:23,731
+E la squadra di Mike ha segnato 116, 94 e 123 punti, ok.
+
+9
+00:00:24,567 --> 00:00:26,744
+Quello che voglio che tu faccia, 
+
+10
+00:00:26,744 --> 00:00:29,275
+calcolare il punteggio medio per ogni squadra, quindi
+
+11
+00:00:29,275 --> 00:00:32,485
+decidere quale squadra vince in media, quindi quella che ha
+
+12
+00:00:32,485 --> 00:00:34,354
+il punteggio medio pi alto e
+
+13
+00:00:34,354 --> 00:00:36,914
+quindi stampare il vincitore nella console.
+
+14
+00:00:36,914 --> 00:00:39,300
+E quando stampi quel vincitore sulla
+
+15
+00:00:39,300 --> 00:00:41,465
+console, includi anche il punteggio medio.
+
+16
+00:00:41,465 --> 00:00:44,426
+Ok, quindi abbiamo gi calcolato le medie prima, quindi
+
+17
+00:00:44,426 --> 00:00:46,858
+tutto ci che dobbiamo fare  sommare i
+
+18
+00:00:46,858 --> 00:00:49,244
+valori e poi dividere per tre in questo
+
+19
+00:00:49,244 --> 00:00:51,537
+caso, perch qui abbiamo tre risultati, ok.
+
+20
+00:00:51,537 --> 00:00:53,156
+E poi quello che volevo
+
+21
+00:00:53,156 --> 00:00:56,715
+anche fare  cambiare i punteggi per mostrare diversi vincitori.
+
+22
+00:00:56,715 --> 00:00:59,124
+E quindi ecco, non dimenticare di prendere
+
+23
+00:00:59,124 --> 00:01:01,359
+in considerazione, che potrebbe esserci un pareggio.
+
+24
+00:01:01,359 --> 00:01:04,644
+Quindi significa che c' lo stesso punteggio medio.
+
+25
+00:01:04,644 --> 00:01:06,461
+E cos nella tua frase,
+
+26
+00:01:06,461 --> 00:01:08,656
+dovrai tenerlo a mente, ok?
+
+27
+00:01:08,656 --> 00:01:11,808
+Ora dopo aver finito, puoi portarlo al livello successivo e
+
+28
+00:01:11,808 --> 00:01:13,625
+aggiungere un po 'di pi.
+
+29
+00:01:13,625 --> 00:01:16,399
+E in questo caso, Mary gioca anche a
+
+30
+00:01:16,399 --> 00:01:20,316
+basket e la sua squadra ha segnato 97, 134 e 105 punti.
+
+31
+00:01:21,937 --> 00:01:24,277
+E come prima, voglio che tu registri
+
+32
+00:01:24,277 --> 00:01:25,955
+il vincitore medio alla consule.
+
+33
+00:01:25,955 --> 00:01:27,417
+Quindi, quello che devi fare
+
+34
+00:01:27,417 --> 00:01:29,188
+qui,  controllare se uno dei
+
+35
+00:01:29,188 --> 00:01:31,754
+giocatori ha un punteggio maggiore degli altri due.
+
+36
+00:01:31,754 --> 00:01:33,315
+Ok, per farlo tu,
+
+37
+00:01:33,315 --> 00:01:35,399
+probabilmente avrai bisogno dell'operatore finale
+
+38
+00:01:35,399 --> 00:01:37,454
+per prendere questa decisione.
+
+39
+00:01:37,454 --> 00:01:39,225
+Ok, e se non puoi
+
+40
+00:01:39,225 --> 00:01:41,605
+risolvere questo, non  assolutamente un problema.
+
+41
+00:01:41,605 --> 00:01:43,642
+Puoi solo guardare la soluzione e
+
+42
+00:01:43,642 --> 00:01:45,982
+vedere come lo faccio l dentro.
+
+43
+00:01:45,982 --> 00:01:48,217
+Ok, la cosa pi importante  che
+
+44
+00:01:48,217 --> 00:01:50,986
+puoi fare questi numeri uno due e tre.
+
+45
+00:01:50,986 --> 00:01:53,348
+Ok, e se vuoi portarlo al livello successivo qui
+
+46
+00:01:53,348 --> 00:01:55,363
+con il numero quattro, allora questa 
+
+47
+00:01:55,363 --> 00:01:57,499
+anche una grande aggiunta a questa sfida, okay.
+
+48
+00:01:57,499 --> 00:01:59,089
+Quindi prenditi un paio di
+
+49
+00:01:59,089 --> 00:02:01,586
+minuti qui, forse una mezz'ora, e prova a
+
+50
+00:02:01,586 --> 00:02:02,642
+completare davvero questa sfida.
+
+51
+00:02:02,642 --> 00:02:07,309
+E poi ci vediamo nel prossimo video con una soluzione.
+

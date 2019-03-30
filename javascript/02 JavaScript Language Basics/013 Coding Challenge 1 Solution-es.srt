@@ -1,0 +1,324 @@
+1
+00:00:01,311 --> 00:00:03,285
+Jonas: Entonces, aqu va mi
+
+2
+00:00:03,285 --> 00:00:04,975
+solucin al desafo de codificacin.
+
+3
+00:00:04,975 --> 00:00:07,388
+Comenzamos definiendo las variables; Digamos que es, setenta y ocho; y podras usar
+
+4
+00:00:07,388 --> 00:00:09,721
+entonces var, masa-Mark, igual. cualquier nmero que quisieras aqu, as que no defin
+
+5
+00:00:12,496 --> 00:00:14,394
+qu eran las masas y las alturas,
+
+6
+00:00:14,394 --> 00:00:16,226
+solo recuerda que tienen que estar en kilogramos. Entonces, tenemos masa-Mark,
+
+7
+00:00:16,226 --> 00:00:19,588
+Vamos a darnos ms espacio aqu. entonces tenemos altura-Mark, digamos uno-sesenta y
+
+8
+00:00:19,588 --> 00:00:23,971
+nueve metros; entonces no, no realmente alto
+
+9
+00:00:23,971 --> 00:00:26,233
+De acuerdo, y podramos declarar todas estas
+
+10
+00:00:26,233 --> 00:00:30,233
+variables aqu en una lnea, pero no voy a hacer eso ahora.
+
+11
+00:00:33,987 --> 00:00:36,654
+Voy a declararlos uno despus del otro.
+
+12
+00:00:38,125 --> 00:00:40,364
+Entonces, Mark y ahora John; noventa y
+
+13
+00:00:40,364 --> 00:00:42,966
+dos kilogramos, y luego la altura, y ese
+
+14
+00:00:42,966 --> 00:00:45,104
+es el paso nmero uno, creo.
+
+15
+00:00:45,104 --> 00:00:49,551
+Ahora el siguiente paso, calcule ambos IMC.
+
+16
+00:00:49,551 --> 00:00:53,218
+Y entonces, BMI-Mark es la masa de Mark dividida por
+
+17
+00:00:55,837 --> 00:00:57,504
+el cuadrado de su altura.
+
+18
+00:01:05,044 --> 00:01:08,236
+As que la altura-Mark mide la altura-Marca de nuevo, y
+
+19
+00:01:08,236 --> 00:01:11,208
+luego el ndice de masa corporal-John, as que la
+
+20
+00:01:11,208 --> 00:01:13,791
+masa-John, dividida por la altura-John mide la altura-John.
+
+21
+00:01:20,626 --> 00:01:24,381
+Asi que. Ese fue el paso nmero dos, y ahora vamos
+
+22
+00:01:24,381 --> 00:01:27,631
+a querer crear un booleano, para determinar si
+
+23
+00:01:30,674 --> 00:01:34,341
+Mark tiene un IMC ms alto que John.
+
+24
+00:01:38,032 --> 00:01:41,449
+Entonces, var, Mark-higher-BMI, y todo lo que tenemos que hacer
+
+25
+00:01:43,636 --> 00:01:46,831
+es BMI-Mark, mayor que BMI-John.
+
+26
+00:01:46,831 --> 00:01:48,909
+Entonces, esa debera ser nuestra variable
+
+27
+00:01:48,909 --> 00:01:51,826
+booleana, y ahora podemos registrarla en la consola.
+
+28
+00:01:53,097 --> 00:01:57,264
+Entonces, es-Marcos, y ahora no podemos simplemente escribir una comilla,
+
+29
+00:02:00,365 --> 00:02:03,282
+para escribir "Marcos" porque entonces eso estara
+
+30
+00:02:07,191 --> 00:02:09,139
+fuera de la cadena.
+
+31
+00:02:09,139 --> 00:02:12,222
+Por lo tanto, esto marca el comienzo de la cadena,
+
+32
+00:02:15,419 --> 00:02:18,452
+y esto, el final de la cadena, pero an queremos
+
+33
+00:02:18,452 --> 00:02:22,517
+tener el smbolo aqu para decir "Marca", y entonces lo que tenemos que
+
+34
+00:02:22,517 --> 00:02:25,214
+hacer es escapar de esta comilla, y haz
+
+35
+00:02:25,214 --> 00:02:27,289
+eso al agregar esta barra invertida.
+
+36
+00:02:27,289 --> 00:02:28,745
+Bueno? Entonces eso se llama escapar.
+
+37
+00:02:28,745 --> 00:02:31,067
+Y eso es algo muy comn en la programacin tambin.
+
+38
+00:02:31,067 --> 00:02:35,226
+Entonces, "es el IMC de Mark ms alto que el de John"; y
+
+39
+00:02:35,226 --> 00:02:38,248
+ahora nuevamente tenemos que escapar, y luego cerrar esa cadena.
+
+40
+00:02:38,248 --> 00:02:40,907
+Por lo tanto,
+
+41
+00:02:40,907 --> 00:02:44,389
+tenemos nuestra cadena "Is Mark's BMI higher
+
+42
+00:02:44,389 --> 00:02:47,639
+than John's"; en realidad, queremos hacer la
+
+43
+00:02:50,970 --> 00:02:55,970
+pregunta, y luego decimos "ms", y ahora usted sabe que es
+
+44
+00:02:56,332 --> 00:03:00,333
+un operador, por lo que bsicamente agregamos cadenas.
+
+45
+00:03:00,333 --> 00:03:01,952
+Y luego Mark-higher-BMI, que, debera mostrar
+
+46
+00:03:01,952 --> 00:03:03,389
+si es verdadero o falso.
+
+47
+00:03:03,389 --> 00:03:05,220
+Entonces, cargmoslo; y entonces, el IMC de Mark es ms alto que el de John?
+
+48
+00:03:05,220 --> 00:03:08,939
+Y dice verdad. Y, de hecho, tambin registremos estos dos IMC
+
+49
+00:03:08,939 --> 00:03:11,297
+en la consola, solo para
+
+50
+00:03:11,297 --> 00:03:14,630
+estar seguros de que todo funciona correctamente.
+
+51
+00:03:15,743 --> 00:03:19,821
+As que consolar el registro de puntos, y recuerde que podemos registrar dos valores
+
+52
+00:03:19,821 --> 00:03:21,984
+en la consola al
+
+53
+00:03:21,984 --> 00:03:24,187
+mismo tiempo, simplemente agregando la coma aqu.
+
+54
+00:03:24,187 --> 00:03:28,217
+Bien, entonces, Mark y John, y entonces vemos que
+
+55
+00:03:28,217 --> 00:03:31,780
+el primero tiene veintisiete, as que Mark tiene
+
+56
+00:03:31,780 --> 00:03:34,322
+veintisiete, y John tiene veinticuatro.
+
+57
+00:03:34,322 --> 00:03:36,537
+Y entonces Mark tiene un IMC ms
+
+58
+00:03:36,537 --> 00:03:39,704
+alto que el de John; y por supuesto, s, es verdad.
+
+59
+00:03:41,497 --> 00:03:44,342
+Porque, por supuesto, esto aqu ser verdadero, por lo
+
+60
+00:03:44,342 --> 00:03:46,173
+que nos dar el resultado de
+
+61
+00:03:46,173 --> 00:03:48,173
+"verdadero", que se asignar a Mark-higher-BMI.
+
+62
+00:03:48,173 --> 00:03:50,000
+Bueno. Esa es la solucin al desafo.
+
+63
+00:03:50,000 --> 00:03:53,556
+Por supuesto, podras haberlo hecho de otra manera, siempre y
+
+64
+00:03:53,556 --> 00:03:55,627
+cuando la solucin sea la misma.
+
+65
+00:03:55,627 --> 00:03:58,253
+Entonces, en la programacin, muchas, muchas veces, no hay
+
+66
+00:03:58,253 --> 00:04:01,456
+solo una solucin correcta, hay muchas,
+
+67
+00:04:01,456 --> 00:04:03,367
+muchas formas de resolver el mismo problema.
+
+68
+00:04:03,367 --> 00:04:05,312
+Bueno? Y eso es algo muy importante
+
+69
+00:04:05,312 --> 00:04:07,117
+que debes saber, y que debes
+
+70
+00:04:07,117 --> 00:04:09,499
+tener en cuenta siempre cuando ests programando.
+
+71
+00:04:09,499 --> 00:04:12,082
+As que no hay una forma correcta de resolver un
+
+72
+00:04:12,082 --> 00:04:14,240
+problema, siempre hay muchas,
+
+73
+00:04:14,240 --> 00:04:16,471
+muchas formas, y si resolviste esto de una manera
+
+74
+00:04:16,471 --> 00:04:18,349
+diferente, que sigue siendo correcta, entonces es
+
+75
+00:04:18,349 --> 00:04:20,895
+absolutamente vlido, y es genial que hayas encontrado una forma
+
+76
+00:04:20,895 --> 00:04:22,877
+diferente de resolviendo esto de mi manera.
+
+77
+00:04:22,877 --> 00:04:25,024
+Y as, s, pasemos ahora al siguiente video.
+
+78
+00:04:25,024 --> 00:04:27,986
+&nbsp;
+
+79
+00:04:27,986 --> 00:04:30,345
+&nbsp;
+
+80
+00:04:30,345 --> 00:04:32,183
+&nbsp;
+
+81
+00:04:32,183 --> 00:04:36,350
+&nbsp;
+

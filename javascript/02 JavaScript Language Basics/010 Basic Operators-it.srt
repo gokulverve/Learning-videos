@@ -1,0 +1,520 @@
+1
+00:00:01,180 --> 00:00:04,860
+Impariamo a conoscere un paio di operatori javascript di base.
+
+2
+00:00:05,070 --> 00:00:10,860
+Quindi qui ho gi creato il titolo di questa conferenza e ho anche commentato il codice qui di The
+
+3
+00:00:10,860 --> 00:00:11,510
+Last Lecture.
+
+4
+00:00:11,610 --> 00:00:12,090
+OK.
+
+5
+00:00:12,210 --> 00:00:17,580
+Quindi potremmo farlo quest'anno in file diversi come un file per ogni lezione, ma
+
+6
+00:00:17,580 --> 00:00:21,560
+preferisco mantenere tutto semplice qui tutto in un unico file.
+
+7
+00:00:21,600 --> 00:00:27,600
+Ora per gli operatori possono essere ad esempio semplici operatori matematici che gi conosciamo come pi e meno
+
+8
+00:00:27,750 --> 00:00:32,330
+e tempi e, a parte questo, ci sono un paio di altri operatori.
+
+9
+00:00:32,390 --> 00:00:33,710
+E ti mostrer anche io.
+
+10
+00:00:34,080 --> 00:00:39,390
+Quindi, in termini semplici, gli operatori sono come le funzioni che sono scritte in modo speciale in javascript e nel
+
+11
+00:00:39,390 --> 00:00:41,420
+caso ti stia chiedendo quali sono le funzioni.
+
+12
+00:00:41,490 --> 00:00:46,890
+Non ti preoccupare pi ne parleremo un po 'pi tardi, ma per ora diamo un'occhiata ad
+
+13
+00:00:46,890 --> 00:00:49,920
+alcuni operatori matematici e come possiamo usarli in Javascript.
+
+14
+00:00:49,920 --> 00:00:54,150
+Quindi calcoliamo in che anno  nato John e questo  molto semplice.
+
+15
+00:00:56,290 --> 00:00:58,180
+Quindi chiamiamolo un anno John.
+
+16
+00:00:58,840 --> 00:01:03,020
+E cos abbiamo 20:18 che  l'anno in corso meno l'et di John.
+
+17
+00:01:03,070 --> 00:01:03,810
+Destra.
+
+18
+00:01:03,820 --> 00:01:06,730
+E ricorda che eravamo soliti dichiararlo come ventotto.
+
+19
+00:01:06,930 --> 00:01:08,280
+Quindi usiamo lo stesso qui.
+
+20
+00:01:08,720 --> 00:01:15,220
+Ed  tutto ci che possiamo fare e registrarlo per annullare.
+
+21
+00:01:15,230 --> 00:01:17,070
+Quindi diamo un'occhiata a questo.
+
+22
+00:01:17,300 --> 00:01:18,830
+E infatti alle 19:19.
+
+23
+00:01:18,920 --> 00:01:19,370
+OK.
+
+24
+00:01:19,460 --> 00:01:26,120
+Quindi quest'anno D-minus  un operatore matematico in javascript e non  lo stesso, diciamo,
+
+25
+00:01:26,120 --> 00:01:29,510
+per qualcun altro come l'amico di John.
+
+26
+00:01:30,260 --> 00:01:31,950
+Diciamo che si chiama Mark.
+
+27
+00:01:32,300 --> 00:01:35,560
+E cos 20:18 meno 33.
+
+28
+00:01:35,560 --> 00:01:40,360
+Quindi Mark ha 33 anni e vedo che stiamo iniziando a ripetere alcuni dei valori.
+
+29
+00:01:40,430 --> 00:01:44,510
+Quindi per esempio 2018 qui lo stiamo usando pi volte.
+
+30
+00:01:44,570 --> 00:01:47,030
+Quindi dichiariamo come variabile separata.
+
+31
+00:01:47,030 --> 00:01:49,180
+Ecco perch sono le variabili.
+
+32
+00:01:49,390 --> 00:01:49,890
+OK.
+
+33
+00:01:50,030 --> 00:01:55,420
+Quindi possiamo dire che l'anno var  2018.
+
+34
+00:01:55,670 --> 00:02:02,850
+E cos ora invece di dover ridurre questo anno 2018 possiamo quindi raddrizzare un anno in questi due posti.
+
+35
+00:02:03,210 --> 00:02:04,020
+Va bene.
+
+36
+00:02:04,130 --> 00:02:05,790
+Quindi diamo un'occhiata a questo.
+
+37
+00:02:05,900 --> 00:02:08,710
+E ovviamente continua a posizionare esattamente lo stesso numero.
+
+38
+00:02:08,870 --> 00:02:14,220
+Ma se volessi cambiare la tua ora diciamo al 2020 Bene, allora non dovremmo cambiarla
+
+39
+00:02:14,270 --> 00:02:16,720
+qui in questi due posti come prima.
+
+40
+00:02:16,730 --> 00:02:21,530
+Quindi, prima di voler cambiare l'anno, dovresti cambiarlo sia qui che qui ed  qualcosa
+
+41
+00:02:21,530 --> 00:02:23,630
+che vogliamo sempre evitare nella programmazione.
+
+42
+00:02:23,630 --> 00:02:28,830
+E cos abbiamo definito quest'anno in un posto e poi ci si abitua in questi due posti.
+
+43
+00:02:29,090 --> 00:02:29,710
+Va bene.
+
+44
+00:02:29,720 --> 00:02:35,500
+E in realt anche questo dichiara tutte queste variabili qui nella stessa riga come ti ho mostrato.
+
+45
+00:02:35,560 --> 00:02:42,700
+Quindi anno quindi Anno fatto e anno.
+
+46
+00:02:43,250 --> 00:02:43,680
+Va bene.
+
+47
+00:02:43,700 --> 00:02:45,470
+E quindi rimuovere questi vars da qui.
+
+48
+00:02:45,470 --> 00:02:47,410
+Quindi questo sembra un po 'meglio.
+
+49
+00:02:47,840 --> 00:02:49,870
+Questo  solo un operatore negativo qui.
+
+50
+00:02:50,120 --> 00:02:54,210
+Ma ovviamente possiamo fare tutti i tipi di matematica qui.
+
+51
+00:02:55,010 --> 00:02:59,490
+Quindi per esempio possiamo moltiplicare.
+
+52
+00:02:59,720 --> 00:03:03,280
+Quindi diciamo che volevamo aggiungere due anni qui.
+
+53
+00:03:03,420 --> 00:03:05,930
+E cos ora non  definito.
+
+54
+00:03:06,030 --> 00:03:08,820
+Quindi questo non  ovviamente ora ma  l'anno.
+
+55
+00:03:09,150 --> 00:03:15,000
+Beh, in realt questo dovrebbe essere chiamato ora perch ora  l'anno in corso 2018.
+
+56
+00:03:15,330 --> 00:03:22,080
+Quindi quello che vogliamo qui  solo per essere chiamato ora e anche qui e qui.
+
+57
+00:03:22,140 --> 00:03:22,700
+Tutto ok.
+
+58
+00:03:22,840 --> 00:03:28,440
+E allora diamo un'occhiata a cosa succede allora e in effetti sembra 20:20 alla console
+
+59
+00:03:28,470 --> 00:03:30,930
+che  2018 pi 2, naturalmente, naturalmente.
+
+60
+00:03:30,930 --> 00:03:33,110
+Possiamo anche moltiplicarci.
+
+61
+00:03:33,200 --> 00:03:35,980
+Quindi diciamo Ora volte 2.
+
+62
+00:03:36,590 --> 00:03:40,720
+E naturalmente possiamo anche dividere, quindi qui dividi per 10.
+
+63
+00:03:40,880 --> 00:03:47,390
+Va bene guardando tutti i contro. e naturalmente vediamo che questo  2018 volte e questo
+
+64
+00:03:47,390 --> 00:03:49,190
+ 2018 anni diviso per 10.
+
+65
+00:03:49,190 --> 00:03:51,620
+E cos finiamo con il numero decimale qui.
+
+66
+00:03:51,770 --> 00:03:52,430
+Va bene.
+
+67
+00:03:53,060 --> 00:03:56,930
+Quindi questi sono gli operatori matematici che usiamo qui.
+
+68
+00:03:57,260 --> 00:04:04,710
+Quindi aggiungiamo un commento qui dicendo che so che vi mostrer alcuni operatori logici, quindi
+
+69
+00:04:04,710 --> 00:04:06,270
+scriviamolo anche qui.
+
+70
+00:04:07,950 --> 00:04:13,740
+E quindi diciamo che vogliamo confrontare l'et di Mark e fatto e capire se per esempio John
+
+71
+00:04:13,950 --> 00:04:18,610
+ pi vecchio di Mark e cos via che possiamo usare un operatore logico.
+
+72
+00:04:18,630 --> 00:04:23,630
+Quindi per prima cosa definiamo queste et qui come variabili diverse.
+
+73
+00:04:24,630 --> 00:04:31,400
+Quindi l'et di Giovanni ha 28 anni e l'et di 33 anni.
+
+74
+00:04:31,980 --> 00:04:36,910
+E quindi ovviamente qui usiamo l'et John e poi l'et Mark.
+
+75
+00:04:37,380 --> 00:04:49,460
+Creiamo quindi una nuova variabile chiamata var Don alder e quindi diremo un John maggiore dell'et
+
+76
+00:04:49,720 --> 00:04:50,660
+Mark.
+
+77
+00:04:51,140 --> 00:04:51,750
+OK.
+
+78
+00:04:52,010 --> 00:04:59,840
+E poi ovviamente dobbiamo collegarci al console qui per vedere il nostro risultato.
+
+79
+00:05:00,000 --> 00:05:02,300
+E quindi diamo un'occhiata a cosa succede ora.
+
+80
+00:05:02,650 --> 00:05:05,770
+E vediamo i nostri risultati  questo Boullion ed  falso.
+
+81
+00:05:05,800 --> 00:05:06,340
+OK.
+
+82
+00:05:06,460 --> 00:05:14,850
+E quindi ci che significa  che John, che ha 28 anni,  ovviamente meno di 33 di Mark Wiz.
+
+83
+00:05:14,890 --> 00:05:20,020
+E quindi fondamentalmente qui poniamo la domanda che John  pi grande di H Mark.
+
+84
+00:05:20,140 --> 00:05:22,590
+E il risultato  falso.
+
+85
+00:05:22,660 --> 00:05:26,500
+OK e cos anche la variabile pi vecchia di John qui risulta essere falsa.
+
+86
+00:05:26,500 --> 00:05:27,960
+Ora se era il contrario.
+
+87
+00:05:28,180 --> 00:05:32,000
+Se chiedessimo a HJN meno di un marchio.
+
+88
+00:05:32,140 --> 00:05:34,930
+Bene, allora dovrebbe essere il contrario.
+
+89
+00:05:34,930 --> 00:05:42,600
+E quindi s, ora  di nuovo vero perch l'et Mark  33, che  pi di 28.
+
+90
+00:05:42,650 --> 00:05:48,790
+E quindi ora abbiamo un modo di creare fondamentalmente una variabile booleana usando uno degli operatori logici che ti ho appena mostrato
+
+91
+00:05:49,060 --> 00:05:51,360
+e ce ne sono molti di pi morti.
+
+92
+00:05:51,370 --> 00:05:53,420
+Esploreremo un po 'pi avanti nel corso.
+
+93
+00:05:53,470 --> 00:05:59,520
+Ed effettivamente in questa sezione in un paio di aree, quindi gli operatori matematici qui sono piuttosto semplici.
+
+94
+00:05:59,710 --> 00:06:05,260
+Gli operatori logici di Dandy, che sono anche molto importanti come vedrai pi avanti nel corso
+
+95
+00:06:05,260 --> 00:06:09,190
+e poi prima di partire, voglio anche mostrarti il tipo di
+
+96
+00:06:11,730 --> 00:06:15,570
+operatore OPERATORE OK e questo operatore  leggermente diverso dagli altri.
+
+97
+00:06:15,780 --> 00:06:22,380
+Quindi quelli che sono stati usati fino a questo punto hanno sempre richiesto due cose da confrontare o da aggiungere
+
+98
+00:06:22,410 --> 00:06:23,310
+o da moltiplicare.
+
+99
+00:06:23,370 --> 00:06:29,810
+Quindi ora i tempi 2 o ora divisi per 10 o 8 non durano 10 punti.
+
+100
+00:06:29,940 --> 00:06:35,280
+Quindi abbiamo sempre avuto due operandi ma con il tipo di OPERATORE Ne abbiamo solo uno.
+
+101
+00:06:35,280 --> 00:06:36,370
+Quindi lascia che te lo mostri.
+
+102
+00:06:36,640 --> 00:06:38,600
+E quindi guardiamo alla console.
+
+103
+00:06:38,730 --> 00:06:46,640
+Il risultato dell'utilizzo del tipo di operatore diciamo la variabile precedente OK.
+
+104
+00:06:46,720 --> 00:06:51,120
+E quindi in pratica ci che questo far  dirci il tipo di questa variabile.
+
+105
+00:06:51,130 --> 00:06:57,220
+E in effetti otteniamo Boullion e questo perch ovviamente questa  una variabile booleana.
+
+106
+00:06:57,250 --> 00:07:00,020
+Quindi abbiamo visto una lacrima che  tornata semplicemente vera.
+
+107
+00:07:00,150 --> 00:07:06,150
+E come hai imparato in una delle ultime lettere Un valore vero o falso  sempre un diritto booleano.
+
+108
+00:07:06,160 --> 00:07:08,570
+Ricordatelo.
+
+109
+00:07:08,590 --> 00:07:10,110
+Quindi proviamolo.
+
+110
+00:07:10,150 --> 00:07:12,160
+Abbiamo avuto altre cose qui.
+
+111
+00:07:12,850 --> 00:07:17,690
+Quindi un tipo di diciamo ha fatto e questo dovrebbe essere un numero.
+
+112
+00:07:17,980 --> 00:07:26,060
+E infatti in realt  ora in tutto tranne che in una stringa.
+
+113
+00:07:26,300 --> 00:07:27,510
+E noi non ne abbiamo qui.
+
+114
+00:07:27,660 --> 00:07:30,050
+Quindi scriviamolo da soli.
+
+115
+00:07:30,050 --> 00:07:32,940
+Marcus pi vecchio di John per esempio.
+
+116
+00:07:33,260 --> 00:07:36,550
+E anche proviamo qualcos'altro.
+
+117
+00:07:36,620 --> 00:07:40,480
+Quindi dichiariamo qui una variabile casuale e non per definirla.
+
+118
+00:07:40,670 --> 00:07:44,340
+E poi diamo un'occhiata al tipo di console di questo.
+
+119
+00:07:44,390 --> 00:07:47,560
+E quindi cosa ti aspetti che tipo di x sar.
+
+120
+00:07:48,490 --> 00:07:49,540
+Quindi proviamolo.
+
+121
+00:07:49,780 --> 00:07:53,310
+E spero tu sappia che sar e provocatorio.
+
+122
+00:07:53,740 --> 00:07:54,000
+OK.
+
+123
+00:07:54,010 --> 00:08:00,130
+Quindi ha senso perch in effetti non abbiamo definito alcun valore per la variabile x.
+
+124
+00:08:00,250 --> 00:08:02,970
+E quello davanti a te ovviamente  una stringa.
+
+125
+00:08:03,130 --> 00:08:08,350
+Quindi questo potrebbe non sembrare un grosso problema per voi qui con questo operatore, ma in realt
+
+126
+00:08:08,350 --> 00:08:12,800
+vedrete che useremo quest'anno in futuro e in realt anche pi avanti in questa sezione.
+
+127
+00:08:13,090 --> 00:08:13,700
+OK.
+
+128
+00:08:13,720 --> 00:08:19,770
+Quindi questo  il fondamento degli operatori javascript, tuttavia Leichter continueremo a lavorare con gli operatori.
+
+129
+00:08:19,780 --> 00:08:22,720
+Vi mostreremo qualcosa in pi diciamo cose avanzate.
+
+130
+00:08:22,840 --> 00:08:25,500
+Quindi non aspettare e vieni con me fino al prossimo video.
+

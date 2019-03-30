@@ -1,0 +1,844 @@
+1
+00:00:01,240 --> 00:00:03,540
+Narrador: E finalmente, aqui vai a segunda
+
+2
+00:00:03,540 --> 00:00:04,790
+parte da minha soluo.
+
+3
+00:00:04,790 --> 00:00:07,630
+E ns paramos, depois de criar
+
+4
+00:00:07,630 --> 00:00:10,990
+o objeto John, incluindo este mtodo calcTips, ok?
+
+5
+00:00:10,990 --> 00:00:13,930
+Agora, para Mark, tudo isso vai
+
+6
+00:00:13,930 --> 00:00:15,305
+ser muito parecido, E ento
+
+7
+00:00:15,305 --> 00:00:17,880
+ento vou copiar esse objeto inteiro. faa algumas alteraes nele. Ento o nome, claro, no  John,
+
+8
+00:00:19,190 --> 00:00:21,283
+mas Mark e Mark Miller.
+
+9
+00:00:22,490 --> 00:00:25,770
+Ento isso  $ 77, $ 475, ok?
+
+10
+00:00:25,770 --> 00:00:28,250
+E 110 e finalmente, 45.
+
+11
+00:00:28,250 --> 00:00:33,250
+Ento ele s foi a quatro restaurantes.
+
+12
+00:00:34,306 --> 00:00:38,190
+Ento aqui embaixo, no calcDicas, tudo o que
+
+13
+00:00:38,190 --> 00:00:41,180
+temos que mudar , como essas
+
+14
+00:00:41,180 --> 00:00:43,000
+regras de inclinao, ok?
+
+15
+00:00:43,000 --> 00:00:45,110
+Ento vamos ver como Mark faz isso.
+
+16
+00:00:45,110 --> 00:00:47,500
+Ento, ele gostava de dar gorjeta de 20%
+
+17
+00:00:47,500 --> 00:00:50,620
+quando a conta  inferior a US $ 100, 10%
+
+18
+00:00:50,620 --> 00:00:54,730
+se estiver entre 100 e 300 e 25 se for mais de 300.
+
+19
+00:00:54,730 --> 00:00:57,317
+Vamos traduzir isso para o nosso cdigo.
+
+20
+00:00:57,317 --> 00:00:59,923
+Ento aqui  100, ento menos de 100 
+
+21
+00:01:00,980 --> 00:01:03,070
+20%, ou na verdade menos de 100.
+
+22
+00:01:03,070 --> 00:01:07,140
+OK?
+
+23
+00:01:07,140 --> 00:01:08,840
+Ento, se estiver entre 100
+
+24
+00:01:08,840 --> 00:01:09,673
+e 300, ele
+
+25
+00:01:09,673 --> 00:01:13,770
+dar 10% como gorjeta e, se for maior que 300, ele dar 25.
+
+26
+00:01:13,770 --> 00:01:18,770
+Provavelmente porque ele est em um restaurante muito chique e ento ele
+
+27
+00:01:19,290 --> 00:01:20,940
+precisa dar mais dicas.
+
+28
+00:01:20,940 --> 00:01:23,370
+(risos) Algo
+
+29
+00:01:23,370 --> 00:01:25,531
+assim.
+
+30
+00:01:25,531 --> 00:01:26,364
+Ok, ento esse  o objeto Mark e j est pronto.
+
+31
+00:01:26,364 --> 00:01:27,197
+Ento, vamos fazer
+
+32
+00:01:27,197 --> 00:01:32,083
+o clculo aqui para Mark tambm e, em seguida, registrar John e Mark no console.
+
+33
+00:01:33,020 --> 00:01:38,020
+Ento vamos dar uma olhada.
+
+34
+00:01:38,480 --> 00:01:41,543
+De fato, aqui temos nossas dicas e nossos valores finais, certo?
+
+35
+00:01:43,440 --> 00:01:45,880
+Ento isso funcionou.
+
+36
+00:01:45,880 --> 00:01:50,250
+J temos agora a derrubada completamente implementada para Mark
+
+37
+00:01:50,250 --> 00:01:51,330
+e John.
+
+38
+00:01:51,330 --> 00:01:54,930
+Ento, vamos dar uma olhada em qual  o prximo passo
+
+39
+00:01:54,930 --> 00:01:57,540
+e  criar uma funo para calcular a
+
+40
+00:01:57,540 --> 00:02:00,800
+mdia de uma determinada matriz de dicas e,  claro,
+
+41
+00:02:00,800 --> 00:02:04,230
+calcular a mdia para cada famlia usando essa calculadora.
+
+42
+00:02:04,230 --> 00:02:06,470
+Ento, finalmente, podemos entrar no console
+
+43
+00:02:06,470 --> 00:02:09,940
+que das famlias pagou, em mdia, as maiores gorjetas.
+
+44
+00:02:09,940 --> 00:02:11,610
+Bem?
+
+45
+00:02:11,610 --> 00:02:15,220
+Ento vamos criar uma funo e eu vou fazer aqui depois
+
+46
+00:02:15,220 --> 00:02:16,053
+desse objeto.
+
+47
+00:02:16,053 --> 00:02:17,230
+Ento, funo calcAverage.
+
+48
+00:02:17,230 --> 00:02:20,120
+Vai receber um array de dicas, ok?
+
+49
+00:02:20,120 --> 00:02:22,493
+Ento agora eu vou fazer o que eu te disse como uma dica.
+
+50
+00:02:25,920 --> 00:02:29,440
+Ento eu vou comear com uma varivel chamada
+
+51
+00:02:29,440 --> 00:02:32,910
+sum, que vai comear no zero, ok?
+
+52
+00:02:32,910 --> 00:02:36,530
+Ento, no comeo,  claro, ou soma,  zero.
+
+53
+00:02:36,530 --> 00:02:38,650
+Agora, o que temos que
+
+54
+00:02:38,650 --> 00:02:42,100
+fazer  percorrer as dicas e, em cada
+
+55
+00:02:42,100 --> 00:02:45,500
+iterao, adicionar o elemento atual  soma.
+
+56
+00:02:45,500 --> 00:02:46,880
+Vamos implementar isso.
+
+57
+00:02:46,880 --> 00:02:49,343
+Ento, antes e mais uma vez, comeamos
+
+58
+00:02:50,360 --> 00:02:51,900
+com uma varivel chamada E
+
+59
+00:02:51,900 --> 00:02:55,630
+I em zero, com menos que as pontas do comprimento. ento ns incrementamos I. Ento isso  bem normal.
+
+60
+00:02:55,630 --> 00:02:58,700
+Voc est vendo, neste ponto,
+
+61
+00:02:58,700 --> 00:03:03,310
+que  basicamente sempre o mesmo aqui, certo?
+
+62
+00:03:05,330 --> 00:03:06,820
+Agora, o que fazemos  que dizemos que a
+
+63
+00:03:06,820 --> 00:03:08,070
+soma deve ser igual  soma atual, mais
+
+64
+00:03:08,070 --> 00:03:09,010
+as dicas e sua posio atual.
+
+65
+00:03:09,010 --> 00:03:11,920
+OK?
+
+66
+00:03:11,920 --> 00:03:15,690
+Faz sentido?
+
+67
+00:03:15,690 --> 00:03:19,210
+Ento, digamos que passemos a
+
+68
+00:03:19,210 --> 00:03:22,923
+matriz de dois, seis e quatro.
+
+69
+00:03:24,230 --> 00:03:25,063
+Bem?
+
+70
+00:03:25,063 --> 00:03:25,896
+Ento, no comeo, nossa
+
+71
+00:03:25,896 --> 00:03:27,370
+soma ser zero e ento entraremos no loop.
+
+72
+00:03:27,370 --> 00:03:31,150
+Neste ponto, temos que a soma  zero, mais o elemento atual,
+
+73
+00:03:31,150 --> 00:03:31,983
+que  dois
+
+74
+00:03:31,983 --> 00:03:34,360
+e ento zero mais dois sero dois.
+
+75
+00:03:34,360 --> 00:03:36,400
+Ento a nova soma ser dois.
+
+76
+00:03:36,400 --> 00:03:39,080
+Ento vamos escrever aqui.
+
+77
+00:03:39,080 --> 00:03:40,550
+Ns comeamos,  claro, com zero.
+
+78
+00:03:40,550 --> 00:03:44,050
+Depois disso, temos duas e assim a prxima iterao, temos
+
+79
+00:03:44,050 --> 00:03:46,520
+dois aqui na soma e, em seguida,
+
+80
+00:03:46,520 --> 00:03:49,120
+o elemento atual do loop  seis.
+
+81
+00:03:49,120 --> 00:03:51,380
+Ento esse aqui, certo?
+
+82
+00:03:51,380 --> 00:03:54,780
+Ento seis mais dois so oito, ok?
+
+83
+00:03:54,780 --> 00:03:57,820
+Oito  atribudo a essa soma de variveis, ok?
+
+84
+00:03:57,820 --> 00:03:59,190
+Ento, na prxima soma de
+
+85
+00:03:59,190 --> 00:04:00,580
+iterao ser oito e oito
+
+86
+00:04:00,580 --> 00:04:04,290
+mais o elemento atual da matriz, que  quatro, ser finalmente 12.
+
+87
+00:04:04,290 --> 00:04:07,990
+OK?
+
+88
+00:04:07,990 --> 00:04:10,840
+ isso a.
+
+89
+00:04:10,840 --> 00:04:13,070
+Ns passamos por todo o array e editamos todos esses
+
+90
+00:04:13,070 --> 00:04:15,433
+elementos juntos e, no final, acabamos com 12, o que, claro,
+
+91
+00:04:16,630 --> 00:04:17,670
+ o resultado da adio
+
+92
+00:04:17,670 --> 00:04:18,700
+de todos esses trs juntos.
+
+93
+00:04:18,700 --> 00:04:21,130
+OK?
+
+94
+00:04:21,130 --> 00:04:22,870
+Isso  apenas um
+
+95
+00:04:22,870 --> 00:04:25,910
+exemplo apenas para demonstrar como essa funo funciona.
+
+96
+00:04:25,910 --> 00:04:28,420
+Ok, ento no final, tudo o que temos a fazer  retornar a soma
+
+97
+00:04:28,420 --> 00:04:29,720
+dividida pelos elementos que esto na matriz.
+
+98
+00:04:29,720 --> 00:04:31,820
+Ento, dicas. comprimento.
+
+99
+00:04:31,820 --> 00:04:33,443
+OK?
+
+100
+00:04:35,850 --> 00:04:38,521
+Por exemplo, na matriz que
+
+101
+00:04:38,521 --> 00:04:43,330
+tnhamos antes, ela tinha trs elementos e, portanto, dicas. comprimento seria trs.
+
+102
+00:04:43,330 --> 00:04:45,213
+A mdia seria ento 12 dividido
+
+103
+00:04:46,310 --> 00:04:47,143
+por trs, o que seria quatro.
+
+104
+00:04:47,143 --> 00:04:49,060
+OK?
+
+105
+00:04:49,060 --> 00:04:53,120
+Ento  assim que voc calcula as mdias.
+
+106
+00:04:53,120 --> 00:04:55,710
+Ns temos agora nossos objetos, ns temos nossa funo calcAverage
+
+107
+00:04:55,710 --> 00:04:57,330
+e agora, vamos fazer todos os clculos.
+
+108
+00:04:57,330 --> 00:04:58,163
+Ns j calculamos
+
+109
+00:04:58,163 --> 00:05:00,068
+as dicas aqui, depois ns as registramos pelo
+
+110
+00:05:00,068 --> 00:05:03,855
+console apenas para ter certeza de que esto corretas, ento tambm podemos calcular a mdia.
+
+111
+00:05:03,855 --> 00:05:05,955
+O que vamos fazer aqui  realmente
+
+112
+00:05:08,350 --> 00:05:10,320
+calcular a mdia e depois armazen-los
+
+113
+00:05:10,320 --> 00:05:12,660
+dentro de cada um dos objetos, ok?
+
+114
+00:05:12,660 --> 00:05:16,744
+Eu vou dizer John. a mdia  calcAverage,
+
+115
+00:05:16,744 --> 00:05:19,120
+usando John. dicas, ok?
+
+116
+00:05:19,120 --> 00:05:21,430
+E porque John? dicas?
+
+117
+00:05:21,430 --> 00:05:23,860
+Bem, isso  porque esta  a matriz
+
+118
+00:05:23,860 --> 00:05:28,703
+em que todas as dicas so armazenadas, certo?
+
+119
+00:05:30,280 --> 00:05:33,810
+Ento essa  a matriz que definimos aqui.
+
+120
+00:05:33,810 --> 00:05:35,500
+Ento, isso pontaria, ok?
+
+121
+00:05:35,500 --> 00:05:38,460
+Ento, corrigimos isso na funo calcAverage, que
+
+122
+00:05:38,460 --> 00:05:40,330
+retornar a mdia e
+
+123
+00:05:40,330 --> 00:05:43,430
+armazenaremos isso na propriedade average no objeto John.
+
+124
+00:05:43,430 --> 00:05:45,855
+Agora voc pode perguntar, bem, por que no adicionamos
+
+125
+00:05:45,855 --> 00:05:48,780
+este calcAverage aqui como um mtodo para cada um dos objetos?
+
+126
+00:05:48,780 --> 00:05:51,080
+Bem, ns no fizemos isso porque seria
+
+127
+00:05:51,080 --> 00:05:54,090
+um cdigo duplicado, ento temos que ter exatamente o
+
+128
+00:05:54,090 --> 00:05:56,480
+mesmo cdigo em ambos os objetos.
+
+129
+00:05:56,480 --> 00:06:00,110
+Ns basicamente nos repetiramos com o mesmo cdigo e
+
+130
+00:06:00,110 --> 00:06:01,970
+isso no  bom, ok?
+
+131
+00:06:01,970 --> 00:06:05,800
+Por isso,  melhor deix-lo aqui fora, como esta funo, ento calcul-lo
+
+132
+00:06:05,800 --> 00:06:07,449
+fora e, em seguida, s
+
+133
+00:06:07,449 --> 00:06:09,405
+ento, basicamente, adicion-lo para cada objeto.
+
+134
+00:06:09,405 --> 00:06:12,950
+Ns fazemos isso com John e depois tambm
+
+135
+00:06:12,950 --> 00:06:15,180
+vamos fazer isso com Mark.
+
+136
+00:06:15,180 --> 00:06:17,706
+Tudo bem, ento vamos realmente fazer
+
+137
+00:06:17,706 --> 00:06:22,040
+esse log de console aqui depois para que possamos ver
+
+138
+00:06:22,040 --> 00:06:23,480
+as mdias recm-adicionadas, certo?
+
+139
+00:06:23,480 --> 00:06:26,460
+Ento vamos tentar isso agora e, espere, onde est?
+
+140
+00:06:26,460 --> 00:06:29,320
+Aqui!
+
+141
+00:06:29,320 --> 00:06:31,220
+Aqui vamos ns.
+
+142
+00:06:31,220 --> 00:06:33,710
+Aqui est a mdia das
+
+143
+00:06:33,710 --> 00:06:38,050
+trs ou, na verdade, as quatro dicas pagas.
+
+144
+00:06:38,050 --> 00:06:38,883
+Ns temos estes valores aqui e a mdia deles  18.
+
+145
+00:06:38,883 --> 00:06:39,716
+No caso do
+
+146
+00:06:39,716 --> 00:06:40,885
+Mark, essas so as
+
+147
+00:06:40,885 --> 00:06:43,540
+quatro dicas e a mdia disso  38, o que
+
+148
+00:06:43,540 --> 00:06:47,283
+ significativamente maior, simplesmente por causa dessa enorme gorjeta aqui com US $ 118.
+
+149
+00:06:48,920 --> 00:06:52,490
+Bem.
+
+150
+00:06:52,490 --> 00:06:54,720
+Estes so os clculos para as mdias e agora tudo o
+
+151
+00:06:54,720 --> 00:06:56,510
+que temos a fazer  realmente fazer o console. registro.
+
+152
+00:06:56,510 --> 00:07:01,120
+Ento, se John. mdia  maior que Mark. mdia, ento podemos dizer,
+
+153
+00:07:01,120 --> 00:07:01,953
+consola. log claro, ento John. FullName, agora
+
+154
+00:07:02,830 --> 00:07:05,490
+a fuga, para escapar da citao aqui.
+
+155
+00:07:05,490 --> 00:07:09,823
+A famlia de John paga mais gorjetas com
+
+156
+00:07:11,920 --> 00:07:16,920
+uma mdia e agora a gorjeta mdia.
+
+157
+00:07:21,890 --> 00:07:26,890
+(clicando)
+
+158
+00:07:30,980 --> 00:07:34,280
+Ok.  Mark mdia 
+
+159
+00:07:34,280 --> 00:07:39,280
+Se  o contrrio, vamos apenas copi-lo. aqui, ento Mark. maior que Joo. mdia, bem, ento,  claro,
+
+160
+00:07:43,820 --> 00:07:46,200
+o contrrio.
+
+161
+00:07:46,200 --> 00:07:48,450
+Mark e Mark aqui tambm.
+
+162
+00:07:50,780 --> 00:07:51,613
+Bem.
+
+163
+00:07:51,613 --> 00:07:54,460
+Esse deve ser o nosso resultado final e, dentro dele, a famlia
+
+164
+00:07:58,370 --> 00:08:02,488
+de Mark Miller paga mais gorjetas com uma
+
+165
+00:08:02,488 --> 00:08:05,030
+mdia de US $ 38.
+
+166
+00:08:05,030 --> 00:08:07,503
+OK?
+
+167
+00:08:10,652 --> 00:08:13,740
+S para testar isso, vamos diminuir esse aqui de 110 ou,
+
+168
+00:08:13,740 --> 00:08:14,730
+na verdade, esse daqui.
+
+169
+00:08:14,730 --> 00:08:17,990
+Vamos aument-lo de 475 para gostar de cinco dlares.
+
+170
+00:08:17,990 --> 00:08:19,970
+Ento a mdia deve ento diminuir e ento,
+
+171
+00:08:19,970 --> 00:08:22,900
+sim, agora a famlia John Smith paga as gorjetas mais altas, com
+
+172
+00:08:22,900 --> 00:08:23,733
+uma mdia de 18.
+
+173
+00:08:23,733 --> 00:08:26,270
+Bem.
+
+174
+00:08:26,270 --> 00:08:29,240
+Essa  a soluo para esse desafio bem
+
+175
+00:08:29,240 --> 00:08:32,823
+maior e talvez um pouco mais difcil e confuso, mas
+
+176
+00:08:33,870 --> 00:08:36,600
+espero que tenha gostado e que voc
+
+177
+00:08:36,600 --> 00:08:39,020
+tenha conseguido pelo menos fazer parte dele.
+
+178
+00:08:39,020 --> 00:08:40,360
+Eu entendo se voc no fez tudo, ok?
+
+179
+00:08:40,360 --> 00:08:41,390
+Ento, isso , novamente, no h problema.
+
+180
+00:08:41,390 --> 00:08:44,400
+Voc no deve se sentir mal com isso.
+
+181
+00:08:44,400 --> 00:08:47,900
+A parte mais importante  que voc experimente aqui e coloque tempo
+
+182
+00:08:47,900 --> 00:08:49,300
+para tentar resolver o desafio.
+
+183
+00:08:49,300 --> 00:08:51,700
+Isso  realmente tudo o que importa neste momento.
+
+184
+00:08:51,700 --> 00:08:54,300
+Estou falando srio, ok?
+
+185
+00:08:54,300 --> 00:08:56,170
+Isso  realmente o que mais importa.
+
+186
+00:08:56,170 --> 00:08:57,540
+De qualquer forma, voc acabou
+
+187
+00:08:57,540 --> 00:08:59,740
+de fazer a primeira introduo do JavaScript.
+
+188
+00:08:59,740 --> 00:09:02,820
+Parabns por ter chegado
+
+189
+00:09:02,820 --> 00:09:05,270
+to longe no curso.
+
+190
+00:09:05,270 --> 00:09:07,020
+Isso j  uma grande conquista.
+
+191
+00:09:07,020 --> 00:09:09,820
+Agora, alguns cursos de JavaScript param nesse ponto
+
+192
+00:09:09,820 --> 00:09:12,140
+e consideram que voc sabe o suficiente
+
+193
+00:09:12,140 --> 00:09:14,070
+para escrever JavaScript por conta prpria.
+
+194
+00:09:14,070 --> 00:09:16,100
+Mas claro, isso est muito longe da verdade.
+
+195
+00:09:16,100 --> 00:09:16,940
+Agora no me
+
+196
+00:09:16,940 --> 00:09:19,290
+entenda mal, voc j aprendeu muito agora, ok?
+
+197
+00:09:19,290 --> 00:09:21,730
+Mas estamos realmente apenas comeando, com
+
+198
+00:09:21,730 --> 00:09:23,740
+um timo contedo chegando em
+
+199
+00:09:23,740 --> 00:09:25,350
+todas as prximas sees.
+
+200
+00:09:25,350 --> 00:09:28,340
+Na verdade, h mais um vdeo nessa seo, que 
+
+201
+00:09:28,340 --> 00:09:29,240
+apenas sobre as
+
+202
+00:09:29,240 --> 00:09:31,744
+verses do JavaScript, ento no perca esse, porque tambm
+
+203
+00:09:31,744 --> 00:09:33,880
+ importante conhecer esse tipo de coisa.
+
+204
+00:09:33,880 --> 00:09:35,990
+No  sobre codificao, mas ainda  importante, ok?
+
+205
+00:09:35,990 --> 00:09:38,340
+Ento eu espero que voc d uma olhada nisso agora.
+
+206
+00:09:38,340 --> 00:09:40,220
+&nbsp;
+
+207
+00:09:40,220 --> 00:09:43,330
+&nbsp;
+
+208
+00:09:43,330 --> 00:09:45,770
+&nbsp;
+
+209
+00:09:45,770 --> 00:09:48,070
+&nbsp;
+
+210
+00:09:48,070 --> 00:09:50,630
+&nbsp;
+
+211
+00:09:50,630 --> 00:09:53,343
+&nbsp;
+

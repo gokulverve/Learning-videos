@@ -1,0 +1,1028 @@
+1
+00:00:01,110 --> 00:00:02,090
+Jonas: Bienvenido de
+
+2
+00:00:02,090 --> 00:00:05,430
+nuevo a uno de los conceptos ms fundamentales en
+
+3
+00:00:05,430 --> 00:00:07,290
+Javascript, y eso es funciones.
+
+4
+00:00:07,290 --> 00:00:08,960
+Entonces, si tenemos un cdigo
+
+5
+00:00:08,960 --> 00:00:10,930
+que queremos ejecutar muchas veces,
+
+6
+00:00:10,930 --> 00:00:13,210
+podemos ponerlo en una funcin en
+
+7
+00:00:13,210 --> 00:00:16,520
+lugar de escribirlo una y otra vez, de acuerdo?
+
+8
+00:00:16,520 --> 00:00:18,440
+As que las funciones son
+
+9
+00:00:18,440 --> 00:00:20,180
+como contenedores que contienen algunas
+
+10
+00:00:20,180 --> 00:00:22,530
+lneas de cdigo y podemos pasarles
+
+11
+00:00:22,530 --> 00:00:25,220
+argumentos y luego pueden devolvernos nuestro resultado.
+
+12
+00:00:25,220 --> 00:00:26,850
+Y en lugar de hablar
+
+13
+00:00:26,850 --> 00:00:27,870
+ms sobre esto,
+
+14
+00:00:27,870 --> 00:00:30,470
+djame mostrarte un ejemplo muy pequeo y muy simple.
+
+15
+00:00:30,470 --> 00:00:32,340
+As que as es como escribimos funciones.
+
+16
+00:00:32,340 --> 00:00:34,060
+Simplemente escribimos funcin y
+
+17
+00:00:34,060 --> 00:00:37,330
+le damos un nombre a la funcin.
+
+18
+00:00:37,330 --> 00:00:38,810
+Entonces, al igual que una
+
+19
+00:00:38,810 --> 00:00:41,460
+variable, tenemos que darle a una funcin tambin un nombre.
+
+20
+00:00:41,460 --> 00:00:42,740
+Y en este caso, lo
+
+21
+00:00:42,740 --> 00:00:44,683
+que queremos hacer es calcular una edad.
+
+22
+00:00:46,370 --> 00:00:47,980
+As que calcule la edad.
+
+23
+00:00:47,980 --> 00:00:49,240
+Y como mencion
+
+24
+00:00:49,240 --> 00:00:52,960
+antes, podemos pasar algo llamado argumentos a una funcin.
+
+25
+00:00:52,960 --> 00:00:54,970
+Entonces, abrimos parntesis y
+
+26
+00:00:54,970 --> 00:00:58,190
+luego decimos los argumentos que queremos transmitir.
+
+27
+00:00:58,190 --> 00:01:03,190
+Y lo que queremos pasar se llama ao de nacimiento, de acuerdo?
+
+28
+00:01:03,240 --> 00:01:04,710
+Y as ser como
+
+29
+00:01:04,710 --> 00:01:07,580
+una variable dentro de la funcin, est bien?
+
+30
+00:01:07,580 --> 00:01:08,900
+Pero ms sobre eso un poco ms tarde.
+
+31
+00:01:08,900 --> 00:01:12,350
+Entonces, decimos funcin, luego el nombre de la funcin, luego
+
+32
+00:01:12,350 --> 00:01:15,330
+el argumento que queremos pasar a la funcin,
+
+33
+00:01:15,330 --> 00:01:17,200
+y finalmente las llaves para
+
+34
+00:01:17,200 --> 00:01:18,930
+escribir el bloque de funcin.
+
+35
+00:01:18,930 --> 00:01:22,000
+Entonces todo el cdigo que est aqu ser el bloque de funciones.
+
+36
+00:01:22,000 --> 00:01:25,612
+Ahora, por supuesto, podemos pasar argumentos cero en esto
+
+37
+00:01:25,612 --> 00:01:27,840
+o tambin podemos pasar mltiples.
+
+38
+00:01:27,840 --> 00:01:31,200
+Entonces podramos pasar ms como xey, separados por comas
+
+39
+00:01:31,200 --> 00:01:32,880
+como esta, pero en
+
+40
+00:01:32,880 --> 00:01:35,160
+este caso, solo queremos un argumento
+
+41
+00:01:35,160 --> 00:01:37,980
+que sea el ao del nacimiento, est bien?
+
+42
+00:01:37,980 --> 00:01:39,620
+Pasamos el ao de
+
+43
+00:01:39,620 --> 00:01:43,070
+nacimiento y luego podemos devolver algo de la funcin.
+
+44
+00:01:43,070 --> 00:01:44,780
+Entonces, en este caso, lo que
+
+45
+00:01:44,780 --> 00:01:46,820
+queremos devolver es la edad de la persona.
+
+46
+00:01:46,820 --> 00:01:48,460
+Entonces podemos calcular eso
+
+47
+00:01:48,460 --> 00:01:53,148
+haciendo 2018 menos el ao en que naci la persona.
+
+48
+00:01:53,148 --> 00:01:54,950
+Y entonces ahora podemos bsicamente usar
+
+49
+00:01:54,950 --> 00:01:57,630
+esta variable dentro de la funcin, de acuerdo?
+
+50
+00:01:57,630 --> 00:02:00,463
+Entonces, este parmetro del ao de nacimiento que definimos
+
+51
+00:02:00,463 --> 00:02:02,820
+aqu en esta definicin de funcin aqu.
+
+52
+00:02:02,820 --> 00:02:05,120
+Entonces, me gusta pensar que una funcin
+
+53
+00:02:05,120 --> 00:02:07,750
+es como una mquina que recibe alguna entrada,
+
+54
+00:02:07,750 --> 00:02:09,380
+luego hace algunas cosas con
+
+55
+00:02:09,380 --> 00:02:11,100
+ella y finalmente devuelve algo ms.
+
+56
+00:02:11,100 --> 00:02:14,210
+Algo que creaste a partir de los datos que incluimos
+
+57
+00:02:14,210 --> 00:02:16,130
+Esa es nuestra definicin de funcin.
+
+58
+00:02:16,130 --> 00:02:19,720
+Ahora sigamos adelante y usemos esta funcin, de acuerdo?
+
+59
+00:02:19,720 --> 00:02:20,853
+Entonces para llamar esto.
+
+60
+00:02:21,710 --> 00:02:24,070
+Entonces podemos decir que ahora calculamos la edad,
+
+61
+00:02:24,070 --> 00:02:25,490
+luego abrimos el parntesis, y
+
+62
+00:02:25,490 --> 00:02:28,570
+ahora es el momento en que pasamos en ese argumento.
+
+63
+00:02:28,570 --> 00:02:31,360
+Digamos que queremos pasar en 1990,
+
+64
+00:02:31,360 --> 00:02:34,250
+y as llamaremos a la funcin.
+
+65
+00:02:34,250 --> 00:02:36,300
+Y la funcin tomar este valor,
+
+66
+00:02:36,300 --> 00:02:38,980
+este ao 1990, como el ao del nacimiento.
+
+67
+00:02:38,980 --> 00:02:40,470
+Entonces esto es ahora
+
+68
+00:02:40,470 --> 00:02:42,390
+1990, y luego haremos este
+
+69
+00:02:42,390 --> 00:02:44,790
+clculo, 2018 menos ese ao de nacimiento,
+
+70
+00:02:44,790 --> 00:02:46,940
+entonces en este caso, menos 1990,
+
+71
+00:02:46,940 --> 00:02:49,593
+y luego se devolver un resultado, de acuerdo?
+
+72
+00:02:49,593 --> 00:02:52,110
+Entonces, ese resultado tenemos que almacenarlo en alguna parte.
+
+73
+00:02:52,110 --> 00:02:56,475
+Entonces, creemos una nueva variable para esa edad, John.
+
+74
+00:02:56,475 --> 00:02:59,530
+Y as en la edad de John aqu se
+
+75
+00:02:59,530 --> 00:03:03,092
+almacenar el resultado de llamar a esta funcin calcular la edad.
+
+76
+00:03:03,092 --> 00:03:08,092
+De acuerdo, prueba eso y registra la edad de John en la consola.
+
+77
+00:03:11,350 --> 00:03:12,340
+Y aqu vamos.
+
+78
+00:03:12,340 --> 00:03:14,770
+Entonces, 28 aos.
+
+79
+00:03:14,770 --> 00:03:18,620
+Y eso tiene mucho sentido porque es 2018 menos 1990.
+
+80
+00:03:18,620 --> 00:03:22,520
+Entonces, de nuevo, definimos este parmetro aqu o este argumento y
+
+81
+00:03:22,520 --> 00:03:24,620
+me escucharn diciendo estas dos palabras.
+
+82
+00:03:24,620 --> 00:03:26,450
+Y no son exactamente lo mismo, de acuerdo?
+
+83
+00:03:26,450 --> 00:03:28,290
+Pero, por ahora, vamos a mantenerlo simple
+
+84
+00:03:28,290 --> 00:03:30,620
+y asumir que los argumentos y los parmetros
+
+85
+00:03:30,620 --> 00:03:32,270
+son la misma cosa, de acuerdo?
+
+86
+00:03:32,270 --> 00:03:34,760
+Entonces definimos este argumento aqu del ao de
+
+87
+00:03:34,760 --> 00:03:37,810
+nacimiento, y entonces cuando llamamos a la funcin calcule la
+
+88
+00:03:37,810 --> 00:03:39,420
+edad aqu, y pasamos el
+
+89
+00:03:39,420 --> 00:03:42,120
+valor, entonces a esta variable de ao de nacimiento
+
+90
+00:03:42,120 --> 00:03:44,690
+aqu o argumento se le asignar ese valor que pasemos.
+
+91
+00:03:44,690 --> 00:03:46,400
+Entonces, 1990 en este caso.
+
+92
+00:03:46,400 --> 00:03:49,269
+Y luego dentro de la funcin podemos usar eso.
+
+93
+00:03:49,269 --> 00:03:52,273
+Muy bien, as que vamos a calcular algunas eras ms.
+
+94
+00:03:52,273 --> 00:03:54,133
+As que djame copiar esto aqu.
+
+95
+00:03:55,180 --> 00:03:57,035
+Y digamos que queremos edad, Mike.
+
+96
+00:03:57,035 --> 00:03:59,473
+Digamos 1948.
+
+97
+00:04:00,890 --> 00:04:04,030
+Y la edad, digamos Jane ahora, entonces
+
+98
+00:04:04,030 --> 00:04:08,260
+una nueva persona aqu. 1969.
+
+99
+00:04:08,260 --> 00:04:11,323
+Bien, y ahora podemos registrar todo esto en la consola.
+
+100
+00:04:15,470 --> 00:04:17,810
+Y entonces veamos.
+
+101
+00:04:17,810 --> 00:04:20,380
+Entonces 28, 70 y 49.
+
+102
+00:04:20,380 --> 00:04:22,950
+Entonces ahora comienzas a ver el poder de la
+
+103
+00:04:22,950 --> 00:04:24,400
+funcin porque en vez de
+
+104
+00:04:24,400 --> 00:04:27,440
+tener que escribir el mismo cdigo aqu una y otra
+
+105
+00:04:27,440 --> 00:04:29,990
+vez, simplemente siempre podemos llamar a la misma funcin.
+
+106
+00:04:29,990 --> 00:04:30,823
+Ahora, en
+
+107
+00:04:30,823 --> 00:04:34,230
+este caso, probablemente no sea tan problemtico escribir este cdigo.
+
+108
+00:04:34,230 --> 00:04:35,510
+Es solo una lnea,
+
+109
+00:04:35,510 --> 00:04:37,780
+pero por supuesto las funciones pueden ser enormes.
+
+110
+00:04:37,780 --> 00:04:39,480
+Pueden ser mucho ms grandes
+
+111
+00:04:39,480 --> 00:04:43,220
+que esto, y entonces, por supuesto, se vuelve mucho ms til.
+
+112
+00:04:43,220 --> 00:04:45,880
+Y as las funciones son muy, muy
+
+113
+00:04:45,880 --> 00:04:48,800
+importantes para uno de los principios de programacin
+
+114
+00:04:48,800 --> 00:04:52,420
+ms, que se llama no repetir usted mismo, o SECO.
+
+115
+00:04:52,420 --> 00:04:55,430
+De acuerdo, entonces el principio DRY es algo
+
+116
+00:04:55,430 --> 00:04:57,810
+realmente importante en la programacin como general.
+
+117
+00:04:57,810 --> 00:04:59,470
+Entonces nunca deberas repetirte.
+
+118
+00:04:59,470 --> 00:05:00,980
+Nunca escriba el mismo cdigo
+
+119
+00:05:00,980 --> 00:05:03,160
+y, en su lugar, pngalo en una funcin.
+
+120
+00:05:03,160 --> 00:05:05,160
+Y es por eso que tenemos funciones
+
+121
+00:05:05,160 --> 00:05:08,410
+en Javascript y en todos los lenguajes de programacin en general.
+
+122
+00:05:08,410 --> 00:05:10,436
+Entonces, ese fue solo un ejemplo muy
+
+123
+00:05:10,436 --> 00:05:12,690
+simple de una funcin muy, muy simple.
+
+124
+00:05:12,690 --> 00:05:15,380
+Entonces, agreguemos algo ms de complejidad
+
+125
+00:05:15,380 --> 00:05:16,930
+y creemos una nueva
+
+126
+00:05:16,930 --> 00:05:20,300
+funcin, que calcular los aos hasta la jubilacin.
+
+127
+00:05:20,300 --> 00:05:22,470
+Entonces, segn nuestro ao de
+
+128
+00:05:22,470 --> 00:05:24,220
+nacimiento, podremos calcular cuntos
+
+129
+00:05:24,220 --> 00:05:26,895
+aos nos quedan hasta que nos jubilemos.
+
+130
+00:05:26,895 --> 00:05:29,850
+As que eso es un poco ms complejo, por lo que
+
+131
+00:05:29,850 --> 00:05:32,113
+es un buen caso de uso para una funcin.
+
+132
+00:05:34,070 --> 00:05:37,908
+Entonces aos hasta la jubilacin.
+
+133
+00:05:37,908 --> 00:05:41,100
+Y ahora pasemos en el ao de nacimiento
+
+134
+00:05:41,100 --> 00:05:43,626
+como antes y tambin el primer nombre.
+
+135
+00:05:43,626 --> 00:05:44,740
+Entonces, como mencion,
+
+136
+00:05:44,740 --> 00:05:47,710
+podemos pasar mltiples cosas en una funcin, no
+
+137
+00:05:47,710 --> 00:05:48,810
+solo un argumento.
+
+138
+00:05:48,810 --> 00:05:52,600
+Podemos pasar dos argumentos o cero o tres, cuatro y
+
+139
+00:05:52,600 --> 00:05:54,270
+tantos como queramos, realmente.
+
+140
+00:05:54,270 --> 00:05:57,210
+Entonces, cmo vamos a calcular los aos hasta la jubilacin?
+
+141
+00:05:57,210 --> 00:06:00,430
+Bueno, antes que nada, tenemos que calcular la edad.
+
+142
+00:06:00,430 --> 00:06:03,000
+Y ahora llamemos a la otra funcin
+
+143
+00:06:03,000 --> 00:06:04,650
+que ya codificamos antes.
+
+144
+00:06:04,650 --> 00:06:06,020
+Entonces, qu significa esto?
+
+145
+00:06:06,020 --> 00:06:09,640
+Las funciones tambin pueden llamar a otras funciones, est bien?
+
+146
+00:06:09,640 --> 00:06:12,148
+Y entonces, calculemos la edad
+
+147
+00:06:12,148 --> 00:06:15,680
+segn el ao de nacimiento nuevamente, de acuerdo?
+
+148
+00:06:15,680 --> 00:06:17,440
+Y tal vez demos otro nombre
+
+149
+00:06:17,440 --> 00:06:19,420
+para que no sea tan confuso.
+
+150
+00:06:19,420 --> 00:06:21,699
+As que solo estoy llamando este ao aqu, de acuerdo?
+
+151
+00:06:21,699 --> 00:06:23,230
+Y si lo cambio aqu,
+
+152
+00:06:23,230 --> 00:06:26,640
+entonces por supuesto tambin tengo que cambiarlo aqu, de acuerdo?
+
+153
+00:06:26,640 --> 00:06:28,220
+Y entonces cuando ahora llamamos
+
+154
+00:06:28,220 --> 00:06:29,970
+a esta funcin, este ao
+
+155
+00:06:29,970 --> 00:06:34,260
+hasta la jubilacin, luego pasamos a una discusin como el ao, digamos 1990,
+
+156
+00:06:34,260 --> 00:06:37,300
+y eso luego pasar a calcular la edad, as
+
+157
+00:06:37,300 --> 00:06:38,720
+que 1990 otra vez,
+
+158
+00:06:38,720 --> 00:06:40,681
+y eso a su vez se
+
+159
+00:06:40,681 --> 00:06:43,100
+pasar a la funcin calcular la edad
+
+160
+00:06:43,100 --> 00:06:46,308
+aqu y se puede utilizar para devolver la edad, de acuerdo?
+
+161
+00:06:46,308 --> 00:06:49,840
+Y entonces esa edad se almacenar en esta variable,
+
+162
+00:06:49,840 --> 00:06:51,890
+y luego podemos calcular la jubilacin.
+
+163
+00:06:54,720 --> 00:06:56,430
+Entonces la jubilacin es la
+
+164
+00:06:56,430 --> 00:07:00,270
+edad a la que nos jubilamos menos nuestra edad actual.
+
+165
+00:07:00,270 --> 00:07:02,590
+Entonces digamos que nos jubilamos a los 65
+
+166
+00:07:02,590 --> 00:07:05,253
+aos, as que eso es una especie de estndar,
+
+167
+00:07:05,253 --> 00:07:07,840
+creo que en este momento, y luego menos la edad.
+
+168
+00:07:07,840 --> 00:07:09,300
+Y eso nos da
+
+169
+00:07:09,300 --> 00:07:11,420
+cuntos aos nos quedan hasta la jubilacin?
+
+170
+00:07:11,420 --> 00:07:14,640
+De acuerdo, ahora las funciones no siempre tienen que devolver algo.
+
+171
+00:07:14,640 --> 00:07:16,390
+As que aqu hemos devuelto algo
+
+172
+00:07:16,390 --> 00:07:19,190
+para que luego podamos usar el valor ms adelante.
+
+173
+00:07:19,190 --> 00:07:21,410
+Pero en este caso no queremos devolver nada.
+
+174
+00:07:21,410 --> 00:07:23,560
+Simplemente podemos registrar algo en la consola.
+
+175
+00:07:26,170 --> 00:07:31,170
+Entonces, queremos decir que el primer nombre se
+
+176
+00:07:33,270 --> 00:07:37,473
+retira y luego la jubilacin ms aos.
+
+177
+00:07:40,060 --> 00:07:42,422
+Est bien, y esa es nuestra funcin.
+
+178
+00:07:42,422 --> 00:07:44,460
+Y ahora vamos a llamarlo.
+
+179
+00:07:44,460 --> 00:07:47,670
+Entonces, aos hasta la jubilacin.
+
+180
+00:07:47,670 --> 00:07:49,960
+Volvamos a usar el ao de 1990, y
+
+181
+00:07:49,960 --> 00:07:51,833
+luego el primer nombre es John.
+
+182
+00:07:54,560 --> 00:07:57,700
+De acuerdo, y esta vez no estamos guardando el resultado en ninguna
+
+183
+00:07:57,700 --> 00:07:59,410
+parte porque no hay realmente un resultado.
+
+184
+00:07:59,410 --> 00:08:01,020
+Entonces eso es lo que acabo de mencionar.
+
+185
+00:08:01,020 --> 00:08:03,350
+No hay retorno aqu en esta funcin.
+
+186
+00:08:03,350 --> 00:08:04,960
+Y entonces no hay resultados, por
+
+187
+00:08:04,960 --> 00:08:07,720
+lo que no tenemos que almacenar ningn resultado en ninguna parte.
+
+188
+00:08:07,720 --> 00:08:10,130
+Entonces, si ahora llamamos a esta funcin
+
+189
+00:08:10,130 --> 00:08:11,810
+de esta manera, todo lo
+
+190
+00:08:11,810 --> 00:08:13,800
+que suceder es que estos clculos
+
+191
+00:08:13,800 --> 00:08:16,700
+se realizarn y luego registraremos algo en la consola.
+
+192
+00:08:16,700 --> 00:08:18,230
+Entonces, veamos eso.
+
+193
+00:08:18,230 --> 00:08:21,910
+Y entonces John se retira en 37 aos.
+
+194
+00:08:21,910 --> 00:08:24,180
+As que vamos a resumir rpidamente lo que pas aqu.
+
+195
+00:08:24,180 --> 00:08:25,629
+Pasamos en dos argumentos.
+
+196
+00:08:25,629 --> 00:08:29,610
+1990, que ahora se llama ao dentro de esta funcin,
+
+197
+00:08:29,610 --> 00:08:32,290
+y tambin pasamos en esta cadena llamada
+
+198
+00:08:32,290 --> 00:08:35,550
+John, que se llamar nombre dentro de esa funcin.
+
+199
+00:08:35,550 --> 00:08:36,900
+Y as en nuestro registro
+
+200
+00:08:36,900 --> 00:08:39,610
+de puntos de consola, usamos ese primer nombre aqu,
+
+201
+00:08:39,610 --> 00:08:43,552
+que es Juan, y luego tambin el ao se usa para calcular la edad.
+
+202
+00:08:43,552 --> 00:08:46,860
+Y ese clculo de edad es, como mencion
+
+203
+00:08:46,860 --> 00:08:49,090
+antes, hecho usando la funcin
+
+204
+00:08:49,090 --> 00:08:52,230
+calcular la edad que codificamos antes, est bien?
+
+205
+00:08:52,230 --> 00:08:54,760
+Entonces las funciones pueden llamar a otras funciones.
+
+206
+00:08:54,760 --> 00:08:57,090
+Ellos tampoco tienen que devolver nada.
+
+207
+00:08:57,090 --> 00:08:58,460
+Es bastante habitual que lo
+
+208
+00:08:58,460 --> 00:09:01,590
+hagan, pero por supuesto no siempre tienen que hacerlo, de acuerdo?
+
+209
+00:09:01,590 --> 00:09:05,550
+Entonces, hagmoslo ahora con otros aos.
+
+210
+00:09:05,550 --> 00:09:08,891
+Y podemos usar lo mismo que antes.
+
+211
+00:09:08,891 --> 00:09:11,110
+Y probablemente sea ms fcil simplemente escribirlo.
+
+212
+00:09:11,110 --> 00:09:14,573
+Entonces, 1969, y aqu tenemos a Mike, y
+
+213
+00:09:15,680 --> 00:09:17,173
+luego tambin a Jane.
+
+214
+00:09:19,740 --> 00:09:21,680
+Y entonces, ahora tiene a John
+
+215
+00:09:21,680 --> 00:09:25,000
+retirando 37, menos cinco y 16, y as que espero
+
+216
+00:09:25,000 --> 00:09:27,420
+que ahora vea an mejor lo til
+
+217
+00:09:27,420 --> 00:09:31,100
+que es tener todo este cdigo aqu en una funcin.
+
+218
+00:09:31,100 --> 00:09:33,460
+Porque imagnese lo repetitivo que sera escribir
+
+219
+00:09:33,460 --> 00:09:36,470
+esto para cada una de estas personas, verdad?
+
+220
+00:09:36,470 --> 00:09:39,510
+En cambio, simplemente ponemos todo este cdigo en una funcin y,
+
+221
+00:09:39,510 --> 00:09:41,580
+por lo tanto, mantenemos nuestro cdigo seco.
+
+222
+00:09:41,580 --> 00:09:45,257
+Entonces, DRY recuerda, significa que no te repites, de acuerdo?
+
+223
+00:09:45,257 --> 00:09:46,603
+Entonces, una cosa que
+
+224
+00:09:46,603 --> 00:09:48,830
+veo aqu es que tenemos menos cinco
+
+225
+00:09:48,830 --> 00:09:50,312
+aos aqu, y lo que
+
+226
+00:09:50,312 --> 00:09:54,570
+eso significa es que, esta persona, Mike, en este caso, ya est jubilada, de acuerdo?
+
+227
+00:09:54,570 --> 00:09:57,800
+As que agreguemos una declaracin simple if else aqu.
+
+228
+00:09:57,800 --> 00:10:02,163
+Entonces, si la jubilacin es mayor a 0, bueno en
+
+229
+00:10:04,370 --> 00:10:06,760
+este caso, significa que an nos
+
+230
+00:10:06,760 --> 00:10:08,840
+quedan algunos aos para retirarnos.
+
+231
+00:10:08,840 --> 00:10:11,420
+Y luego queremos registrar esto en la consola.
+
+232
+00:10:11,420 --> 00:10:16,310
+Pero ms an, bsicamente si la jubilacin es cero o menos, significa
+
+233
+00:10:16,310 --> 00:10:18,653
+que las personas ya estn jubiladas.
+
+234
+00:10:20,030 --> 00:10:21,630
+As que vamos a
+
+235
+00:10:22,910 --> 00:10:27,683
+registrar eso en la consola. El nombre ya est retirado.
+
+236
+00:10:28,622 --> 00:10:31,330
+Entonces, qutenlo, y Mike ya est
+
+237
+00:10:31,330 --> 00:10:33,530
+retirado, dice ahora en lugar
+
+238
+00:10:33,530 --> 00:10:35,544
+de lo que tena antes.
+
+239
+00:10:35,544 --> 00:10:37,390
+Bien, genial.
+
+240
+00:10:37,390 --> 00:10:40,400
+Entonces, estos son los fundamentos de las funciones que
+
+241
+00:10:40,400 --> 00:10:43,560
+nuevamente, son uno de los principios ms fundamentales en
+
+242
+00:10:43,560 --> 00:10:45,580
+toda la programacin y, por supuesto,
+
+243
+00:10:45,580 --> 00:10:47,609
+tambin en Javascript, de acuerdo?
+
+244
+00:10:47,609 --> 00:10:49,640
+Entonces, lo que tienes que tener
+
+245
+00:10:49,640 --> 00:10:51,060
+en cuenta aqu, solo
+
+246
+00:10:51,060 --> 00:10:53,660
+para recapitular, es que podemos pasar los argumentos
+
+247
+00:10:53,660 --> 00:10:56,430
+a una funcin, as y as, como vemos aqu.
+
+248
+00:10:56,430 --> 00:10:58,640
+Luego, podemos devolver los resultados de
+
+249
+00:10:58,640 --> 00:11:00,765
+una funcin usando la palabra clave
+
+250
+00:11:00,765 --> 00:11:05,260
+return y luego podemos guardar estos resultados en variables como lo hicimos aqu.
+
+251
+00:11:05,260 --> 00:11:07,460
+Tambin las funciones pueden llamar a otras funciones
+
+252
+00:11:07,460 --> 00:11:08,450
+como hicimos aqu.
+
+253
+00:11:08,450 --> 00:11:10,210
+Y no necesitan devolver algo.
+
+254
+00:11:10,210 --> 00:11:12,360
+Entonces no es obligatorio, est bien?
+
+255
+00:11:12,360 --> 00:11:14,110
+Entonces esos son los fundamentos de las funciones.
+
+256
+00:11:14,110 --> 00:11:16,240
+A continuacin, hablemos de algo llamado
+
+257
+00:11:16,240 --> 00:11:18,893
+expresiones de funciones y declaraciones de funciones.
+

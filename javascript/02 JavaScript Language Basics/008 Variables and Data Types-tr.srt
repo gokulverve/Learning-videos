@@ -1,0 +1,856 @@
+1
+00:00:01,110 --> 00:00:06,000
+Bu videoda temel deikenler kavramn reneceksiniz.
+
+2
+00:00:06,240 --> 00:00:10,940
+Dolaysyla deikenler, dnyadaki her programlama dilinin temel bir kavramdr.
+
+3
+00:00:11,190 --> 00:00:13,530
+Ama aslnda bir deiken.
+
+4
+00:00:13,740 --> 00:00:19,680
+Bir deikenin, kodumuzda tekrar tekrar kullanmak iin bir deeri depolayabileceimiz bir
+
+5
+00:00:19,770 --> 00:00:21,740
+kap gibi olduunu syleyebiliriz.
+
+6
+00:00:21,930 --> 00:00:25,700
+Kullanmak istediiniz her defasnda devalue yazmak zorunda kalmak yerine.
+
+7
+00:00:25,860 --> 00:00:26,450
+TAMAM.
+
+8
+00:00:26,760 --> 00:00:28,670
+yleyse bu koddan gerekten kurtulalm.
+
+9
+00:00:29,070 --> 00:00:32,960
+Ve bylece ilk defa bir deikeni nasl bildireceinizi gstereyim.
+
+10
+00:00:33,270 --> 00:00:39,880
+Bu yzden seim erevesini ve deikenin adn danda kullanmalyz ve bu ilk addan sonra
+
+11
+00:00:40,100 --> 00:00:46,060
+eit olarak adlandryorum ve sonra bir deikene atamak istediimiz deer olarak adlandryorum.
+
+12
+00:00:46,130 --> 00:00:50,660
+Bu durumda, John adnda bir metin dizesi atamak istemiyoruz.
+
+13
+00:00:50,990 --> 00:00:51,390
+TAMAM.
+
+14
+00:00:51,430 --> 00:00:54,220
+Ve sonra tekrar ya da bir yarm kolon.
+
+15
+00:00:54,250 --> 00:00:57,970
+Ve bylece bununla sadece ilk deikeni ilan ettik.
+
+16
+00:00:57,970 --> 00:01:04,290
+Buradaki deiken ad ilk addr ve bu deikene atadmz deer John'dur.
+
+17
+00:01:04,630 --> 00:01:10,810
+Yani bu deikeni bu ilk deiken olarak burada, bu John dizesinin burada
+
+18
+00:01:11,110 --> 00:01:14,460
+sakland bir bellek paras olarak dnebilirsiniz.
+
+19
+00:01:14,470 --> 00:01:17,630
+Bu yzden burada bu metni bildirmek iin bu alntlar kullanyorum.
+
+20
+00:01:17,650 --> 00:01:18,810
+Dize yani.
+
+21
+00:01:18,960 --> 00:01:19,520
+TAMAM.
+
+22
+00:01:19,780 --> 00:01:24,790
+Bunun gibi ift trnaklar da kullanabilirim ama bence bu tek trnaklar
+
+23
+00:01:24,790 --> 00:01:26,340
+kullanmak biraz daha modern.
+
+24
+00:01:26,350 --> 00:01:26,890
+Tamam.
+
+25
+00:01:26,890 --> 00:01:28,020
+Bu yzden baz metni temizledim.
+
+26
+00:01:28,030 --> 00:01:30,780
+Genellikle sadece bunun gibi tek trnaklara bavururuz.
+
+27
+00:01:30,900 --> 00:01:31,570
+Tamam.
+
+28
+00:01:31,720 --> 00:01:36,770
+Bu yzden blm boyunca tm rnekler iin kiiler hakknda deikenler kullanacam.
+
+29
+00:01:36,820 --> 00:01:41,540
+Yani isimler, iler ya da ya gibi eyler ya da bunun gibi eyler.
+
+30
+00:01:41,560 --> 00:01:50,030
+Bu yzden, Oregon'da Lucknow'a bir konsolosluk ktn tekrar yapan kiileri bulmak iin bir ey basite
+
+31
+00:01:50,090 --> 00:01:51,580
+ilk isim deikeni.
+
+32
+00:01:51,620 --> 00:01:52,660
+Tamam.
+
+33
+00:01:53,000 --> 00:01:56,010
+Ve yeniden yklediimizde ya da sayfa yaptmzda ne olacan dnyorsunuz.
+
+34
+00:01:56,060 --> 00:01:56,820
+Yok hayr.
+
+35
+00:01:57,170 --> 00:01:58,720
+yleyse una bir bakalm.
+
+36
+00:01:58,910 --> 00:02:05,170
+Ve aslnda John'un bizim konsolumuza giri yaptn gryorsunuz ve bu yzden John'u bu deikene atadk
+
+37
+00:02:05,390 --> 00:02:10,710
+ve daha sonra Javascript burada  olarak nitelendirdiimiz bu deikenin deerini alabilir.
+
+38
+00:02:10,910 --> 00:02:15,320
+Ve bylece bizim ilk ismimiz John McKay ile ayndr.
+
+39
+00:02:15,450 --> 00:02:16,720
+Yani bu mantkl.
+
+40
+00:02:17,090 --> 00:02:21,560
+Yani bir tane daha beyan edelim ve yine var kullanmalyz.
+
+41
+00:02:21,780 --> 00:02:24,770
+Ve imdi soyad eit olarak diyelim.
+
+42
+00:02:24,770 --> 00:02:29,840
+Sonra tekrar bu alntlar kullanrm ve sonra Smith'de diyelim.
+
+43
+00:02:29,940 --> 00:02:35,460
+yleyse John Smith Soyad, hadi bir de H. denen birini ilan edelim.
+
+44
+00:02:35,550 --> 00:02:42,750
+Ve der ki, John'un 28 yanda olduunu ve bylece imdi burada olduumuz gibi artk
+
+45
+00:02:42,750 --> 00:02:45,110
+bir dizi olmadn gryorsunuz.
+
+46
+00:02:45,220 --> 00:02:47,870
+Ve bu, bunun farkl bir veri tr olduu anlamna gelir.
+
+47
+00:02:47,880 --> 00:02:51,180
+Tamam, ite burada metin var ama ite burada numaralar var.
+
+48
+00:02:51,210 --> 00:02:56,910
+Ve imdi bu aslnda Javascript'teki farkl veri trleri hakknda konumak iin iyi bir zamandr.
+
+49
+00:02:56,910 --> 00:03:04,650
+Yani javascript'te 5 farkl veri tr vardr, string boolean undefined ve null ve imdiye kadar
+
+50
+00:03:04,650 --> 00:03:06,970
+say ve diziyi zaten grdk.
+
+51
+00:03:07,080 --> 00:03:13,170
+u anda ilkel veri tr, Javascript'teki ou eyin aksine nesneler iin deil demektir.
+
+52
+00:03:13,170 --> 00:03:17,530
+Yani onlar sadece basit ilkel olmayan nesne veri trleridir.
+
+53
+00:03:17,550 --> 00:03:24,390
+Bu yzden nce kapal rakamlarmz var ve Javascript saylar her zaman kayan nokta saylardr, bu da bazen
+
+54
+00:03:24,390 --> 00:03:29,970
+onlar bazen grmediimiz, hatta tanmlamamza ramen her zaman ondalk deerlere sahip olduklar anlamna gelir.
+
+55
+00:03:29,970 --> 00:03:33,320
+yleyse, rnein 5, be noktaya sahip olmak gibidir.
+
+56
+00:03:33,320 --> 00:03:33,860
+Tamam.
+
+57
+00:03:33,990 --> 00:03:38,910
+Ve dier programlama dillerinde birok kez bu ekilde almyor ve tamsaylar ve ondalk
+
+58
+00:03:38,910 --> 00:03:42,360
+deerler iin farkl veri trlerine sahipsiniz, ancak Javascript'te deil.
+
+59
+00:03:42,360 --> 00:03:47,010
+Yani burada btn saylar tamsaylar gibi grnseler bile saylar yzer.
+
+60
+00:03:47,010 --> 00:03:53,190
+Srada sadece bir dizi karakter olan dizgilerimiz var ve bizim yaptmz gibi sadece vergi
+
+61
+00:03:53,420 --> 00:03:54,210
+iin kullanlyorlar.
+
+62
+00:03:54,300 --> 00:03:57,700
+Ve daha nce soyad ve ilk isim ile rnek.
+
+63
+00:03:57,720 --> 00:04:03,930
+Ardndan, boole veri tr, yalnzca mantksal deerlerden birini alabilen bir mantksal veri trdr.
+
+64
+00:04:03,930 --> 00:04:05,210
+Doru ya da yanl.
+
+65
+00:04:05,430 --> 00:04:09,600
+Yani bunu basitletirmek iin bir boole her zaman doru ya da yanltr.
+
+66
+00:04:09,600 --> 00:04:10,070
+TAMAM.
+
+67
+00:04:10,260 --> 00:04:12,400
+Ve bunun neden bu kadar nemli olduunu greceiz.
+
+68
+00:04:12,450 --> 00:04:14,470
+Bir sonraki Nektarlar zerinde.
+
+69
+00:04:14,520 --> 00:04:14,980
+Tamam.
+
+70
+00:04:15,030 --> 00:04:17,660
+Ve bir sonraki anlamas biraz daha zor.
+
+71
+00:04:17,670 --> 00:04:23,430
+Yani temelde tanmlanmam, bir deere sahip olmayan bir deikene otomatik olarak atanan
+
+72
+00:04:23,550 --> 00:04:27,220
+veri tr, gerekte olduundan biraz daha karmak geliyor.
+
+73
+00:04:27,270 --> 00:04:32,850
+Ve endielenmeyin, size biraz sonra gstereceim, ama burada nemli
+
+74
+00:04:32,850 --> 00:04:36,260
+olan, temelde tanmlanmam olann mevcut olmamasdr.
+
+75
+00:04:36,300 --> 00:04:37,050
+Tamam.
+
+76
+00:04:37,290 --> 00:04:43,000
+Ve son olarak, tanmsz olana benzemeyen baka bir veri tr vardr ve yoktur.
+
+77
+00:04:43,110 --> 00:04:45,460
+Yani imdi de var olmayan anlamna gelir.
+
+78
+00:04:45,540 --> 00:04:47,580
+Ama biraz daha spesifik.
+
+79
+00:04:47,610 --> 00:04:50,470
+Ve yine bu konuda daha sonra daha ok ey alacaz.
+
+80
+00:04:50,760 --> 00:04:56,220
+imdi harekete gemeden nce, Javascript'in dinamik yazm ad verilen bir zellii olduu, burada dikkat edilmesi gereken
+
+81
+00:04:56,220 --> 00:04:57,980
+ok nemli bir ey var.
+
+82
+00:04:58,250 --> 00:05:03,960
+Ve bu, bir deikenin veri trn manuel olarak tanmlamamz ve dier birok programlama dilinde de benzer ekilde
+
+83
+00:05:03,960 --> 00:05:05,250
+olmas gerekmedii anlamna gelir.
+
+84
+00:05:05,280 --> 00:05:10,890
+Yani temel olarak javascript, bir deiken bir dizge veya sayysa veya tanmlanmamsa veya bir booleansa otomatik
+
+85
+00:05:10,920 --> 00:05:16,010
+olarak zlr ve sonra bu veri tipini deikene herhangi bir ey yapmak zorunda kalmadan atar.
+
+86
+00:05:16,140 --> 00:05:16,760
+TAMAM.
+
+87
+00:05:16,800 --> 00:05:22,110
+Daha sonra ayn deikene ancak baka bir veri tr ile baka bir deer
+
+88
+00:05:22,200 --> 00:05:25,460
+atadnzda, javascript otomatik olarak deikenin veri trne dnecektir.
+
+89
+00:05:25,470 --> 00:05:30,720
+Yani bu elbette ok yararl olabilir ve bize baz kodlama zamanlarn kazandrabilir, fakat ayn
+
+90
+00:05:30,720 --> 00:05:34,210
+zamanda kodumuzda hatalar anlamna gelen kitap bulmakta zorluk ekebilir.
+
+91
+00:05:34,350 --> 00:05:34,850
+TAMAM.
+
+92
+00:05:34,950 --> 00:05:38,810
+Yani deikenlerimizle yaptmz her eye daima dikkat etmeliyiz.
+
+93
+00:05:38,820 --> 00:05:39,850
+Tamam, bu kadar.
+
+94
+00:05:39,900 --> 00:05:45,330
+Yani, aslnda bu eyleri tekrar eylemde grmyor ve size boole veri tipini gstermek iin
+
+95
+00:05:45,330 --> 00:05:46,440
+kodumuza geri dnyoruz.
+
+96
+00:05:46,590 --> 00:05:49,770
+Tam h olarak adlandrlan bir deiken oluturalm.
+
+97
+00:05:50,020 --> 00:05:55,250
+Yani bizim tam h ve sonra syle.
+
+98
+00:05:55,900 --> 00:05:58,910
+Ve booleanlar hatrlamanz sadece doru ya da yanl olabilir.
+
+99
+00:05:58,960 --> 00:06:02,170
+Ve bylece burada sadece doru veya yanl diyebiliriz.
+
+100
+00:06:02,410 --> 00:06:05,910
+Tamam, tabii ki de yanl yazdm ama bu durumda.
+
+101
+00:06:05,980 --> 00:06:15,430
+Tabii ki John, 8 8 olduu bir tam 8'dir ve bu yzden bu deikeni burada noktal virglle kilitlediimizde
+
+102
+00:06:15,580 --> 00:06:22,440
+ve sonra yeniden yklediimizde CONTO'ya bir gz atmayalm ve bunun doru olduunu grrz.
+
+103
+00:06:22,690 --> 00:06:23,310
+TAMAM.
+
+104
+00:06:23,530 --> 00:06:25,540
+Bu yzden de burada biraz farkl bir renkte grnr.
+
+105
+00:06:25,540 --> 00:06:26,440
+Bu mavi.
+
+106
+00:06:26,620 --> 00:06:29,790
+Ve John dizesi burada siyah.
+
+107
+00:06:29,800 --> 00:06:30,510
+Tamam.
+
+108
+00:06:30,730 --> 00:06:32,500
+Yani burada da biraz farkl grnyor.
+
+109
+00:06:32,500 --> 00:06:34,410
+Yani tabii ki trnaklarda deil.
+
+110
+00:06:34,570 --> 00:06:38,690
+Sadece yazdklarmz dorudur nk bu bir javascript anahtar szcdr.
+
+111
+00:06:38,850 --> 00:06:39,400
+TAMAM.
+
+112
+00:06:39,550 --> 00:06:44,390
+imdi bu derste devam etmeden nce, burada bu deiken isimleri hakknda hzlca konumak istiyorum.
+
+113
+00:06:44,540 --> 00:06:45,000
+TAMAM.
+
+114
+00:06:45,160 --> 00:06:51,040
+Bu yzden, X veya ABC gibi bir eyi yazmak yerine her zaman yapmamamz gerektii gibi
+
+115
+00:06:51,040 --> 00:06:55,860
+bir ey yazmak yerine her zaman anlaml isimler vererek en iyi uygulamadr.
+
+116
+00:06:55,870 --> 00:06:59,620
+Deikenlerimizde daima ne istediimizi sylemeliyiz.
+
+117
+00:06:59,760 --> 00:07:00,090
+TAMAM.
+
+118
+00:07:00,100 --> 00:07:02,890
+Veya deiken aslnda ne anlama gelir.
+
+119
+00:07:02,890 --> 00:07:05,410
+Bu durumda burada John'umuz var ve bu bir ilk isim.
+
+120
+00:07:05,410 --> 00:07:09,930
+Ve biz bu deikeni ilk ad olarak adlandryoruz ve sadece rastgele bir karakter dizisi deil.
+
+121
+00:07:10,030 --> 00:07:14,140
+Tamam ve ayn ad soyad ve tam ya iin ayn.
+
+122
+00:07:14,260 --> 00:07:20,620
+Ve yine, bu en iyi uygulama elbette ki, eer burada bir konsola
+
+123
+00:07:20,620 --> 00:07:26,020
+gidersek, burada elbette John'un hala burada olduunu sylersek, ayn ekilde alr.
+
+124
+00:07:26,270 --> 00:07:30,420
+Ama yine de deiken isimlerimizin gerekten bir anlam olmasn istiyoruz.
+
+125
+00:07:30,650 --> 00:07:36,500
+Daha sonra buradaki ilk kelime ile deiken isminin yazlmas ve daha sonra onlar
+
+126
+00:07:36,530 --> 00:07:38,680
+burada byk harfle ayrdm isim.
+
+127
+00:07:38,750 --> 00:07:41,180
+Bu szde virgl vaka notasyonu.
+
+128
+00:07:41,300 --> 00:07:41,700
+TAMAM.
+
+129
+00:07:41,870 --> 00:07:43,220
+Yani bunu byle yapabilirdik.
+
+130
+00:07:43,400 --> 00:07:49,670
+Yani ilk isim tamamen ama sonra ikinci kelimenin nerede baladn bulmak zor olurdu.
+
+131
+00:07:49,730 --> 00:07:55,520
+Ayn ekilde bir alt izgi ile de yapm olabiliriz ama javascript'te Kembla vaka notasyonunu
+
+132
+00:07:55,520 --> 00:07:57,610
+byle kullanmann bir kural var.
+
+133
+00:07:57,680 --> 00:07:57,960
+TAMAM.
+
+134
+00:07:57,970 --> 00:08:02,930
+Ve bylece balangta kk bir harfle balyoruz ve sonra ikinci bir tahtaya sahip olduktan
+
+135
+00:08:02,930 --> 00:08:04,620
+sonra bir byk harfle balyoruz.
+
+136
+00:08:04,790 --> 00:08:08,540
+H. durumunda R. rnein durum byle deil nk sadece bir kelimemiz var.
+
+137
+00:08:08,660 --> 00:08:12,550
+Ama sonra burada yine tam H'de ikinci byk harf var.
+
+138
+00:08:12,710 --> 00:08:13,760
+Tamam.
+
+139
+00:08:13,760 --> 00:08:17,030
+Yani bu javascript ilevsellii ile ilgili deil.
+
+140
+00:08:17,030 --> 00:08:19,940
+Daha ok bir programlama kural ve en iyi uygulama.
+
+141
+00:08:20,260 --> 00:08:21,560
+Tamam devam et.
+
+142
+00:08:21,560 --> 00:08:25,570
+imdi bir tane daha tanmlayalm ve bu i aramak iin gidiyorum.
+
+143
+00:08:25,730 --> 00:08:29,630
+imdi buradaki fark, bu deikene hibir ey atamayacam.
+
+144
+00:08:29,660 --> 00:08:33,740
+Tamam, bir deiken bildirebilirim ancak bir deer atamadm.
+
+145
+00:08:34,120 --> 00:08:40,610
+Ve imdi bu deikeni incelediimizde ne olacan grelim ve burada ne olacan
+
+146
+00:08:40,610 --> 00:08:41,530
+tahmin edebilirsiniz.
+
+147
+00:08:41,840 --> 00:08:47,960
+Umarm yapabilirsin ve aslnda burada grdmz ey, 11. satrda sorduklar bir senaryodan
+
+148
+00:08:47,960 --> 00:08:48,800
+gelen tanmszdr.
+
+149
+00:08:48,980 --> 00:08:54,590
+Yani burada bu satr konseye undefined yazdryor ve undefined anlamna gelmediini
+
+150
+00:08:54,590 --> 00:08:56,720
+sylemi olduumu anladm anladm.
+
+151
+00:08:56,750 --> 00:08:57,910
+Ve bylece bu durumda.
+
+152
+00:08:58,220 --> 00:09:02,440
+Bu yzden deikeni ilan ettik ama ona herhangi bir deer tasarlamadk.
+
+153
+00:09:02,510 --> 00:09:05,030
+Ve bu nedenle Dopp sadece tanmlanmamtr.
+
+154
+00:09:05,060 --> 00:09:06,810
+Ve bylece bir conta grdmz budur. Daha sonra devam edip ona bir eyler atayabiliriz.
+
+155
+00:09:06,980 --> 00:09:10,530
+Yani bu bir i retmendir.
+
+156
+00:09:10,580 --> 00:09:15,580
+Ve eer Lague'ye tekrar neden oluruz ve onu buraya kopyalayalm.
+
+157
+00:09:16,050 --> 00:09:19,380
+O zaman retmeni grmeliyiz.
+
+158
+00:09:19,800 --> 00:09:22,780
+Ve ite balyoruz.
+
+159
+00:09:22,790 --> 00:09:23,940
+Yani 9:14 den itibaren retmen burada yukarda bu satrda ilan ettikten sonra.
+
+160
+00:09:23,940 --> 00:09:29,800
+TAMAM.
+
+161
+00:09:30,090 --> 00:09:30,590
+Yani burada dizelerimiz var, saylarmz var, bir booleanz var ve biz de burada tanmsz bir tane var.
+
+162
+00:09:30,840 --> 00:09:38,210
+Ve bylece bu drt, size gstermek istediim en nemli veri trleri.
+
+163
+00:09:38,400 --> 00:09:41,860
+imdi bu dersi ok hzl bir ekilde bitirmek iin
+
+164
+00:09:42,060 --> 00:09:46,890
+size isimleri veya deikenleri gz nne almamz gereken baz kurallar gstermek istiyorum.
+
+165
+00:09:46,890 --> 00:09:48,790
+Bu yzden onlar adlandrrken en iyi uygulamalardan bahsetmitim.
+
+166
+00:09:48,960 --> 00:09:52,410
+Yani bu kimyasal temizlik ve daha nce akladm.
+
+167
+00:09:52,590 --> 00:09:55,020
+Ama bu gerekten en iyi uygulamalardan biri olan bir kural deildi.
+
+168
+00:09:55,080 --> 00:09:58,130
+Ama aslnda aklmda tutmamz gereken
+
+169
+00:09:58,260 --> 00:10:03,600
+baz kurallar var ama endielenmeyin aslnda ok basitler.
+
+170
+00:10:03,600 --> 00:10:04,530
+Tek bilmeniz
+
+171
+00:10:04,530 --> 00:10:09,990
+gereken, deikenlerin dolar iareti veya alt izgi hari rakamlar veya semboller balayamaddr.
+
+172
+00:10:10,350 --> 00:10:12,030
+Tamam o zaman u
+
+173
+00:10:12,040 --> 00:10:19,500
+ana kadar ne olduunu grmek iin bu kurallardan bazlarn krmaya alalm ve  ile bir deikene balayacam.
+
+174
+00:10:19,650 --> 00:10:20,520
+Yani bir say ile.
+
+175
+00:10:20,520 --> 00:10:23,570
+Yani  yl  eittir denemeye alalm ve sonra eksilerini yeniden ykleyin. Ve imdi, 16. satrda bir hata aldmz gryorsunuz ve
+
+176
+00:10:23,840 --> 00:10:28,740
+bu yzden burada deil, yine oradayz nk bir say ile deiken bir isim balatamyoruz.
+
+177
+00:10:28,790 --> 00:10:35,390
+Sa.
+
+178
+00:10:35,420 --> 00:10:37,910
+Bu yzden, kendi deikenlerinizi isimlendirmeye baladnzda size bu lleri gsteriyorum.
+
+179
+00:10:37,980 --> 00:10:38,460
+Bu hatalara rastlamyorsunuz ve bu yl ne anlama geldiini anlayamyorsunuz.
+
+180
+00:10:38,600 --> 00:10:42,050
+Bu yzden her zaman dikkatli olun ve bu kurallar kullann.
+
+181
+00:10:42,050 --> 00:10:46,000
+Ve imdi size burada gsteriyorum, eer bu yl dzeltmek istiyorsanz ya bir say ya da
+
+182
+00:10:46,130 --> 00:10:48,980
+bir dolar iareti ya da bir alt izgi ile balamalyz.
+
+183
+00:10:49,010 --> 00:10:53,930
+TAMAM.
+
+184
+00:10:54,350 --> 00:10:56,640
+Yani bunlar Javascript'te deiken bir isimde grnebilen tek sembollerdir.
+
+185
+00:10:56,800 --> 00:10:57,160
+Yani rnein alt izgi ile dolar iareti de iyi alrd.
+
+186
+00:10:57,200 --> 00:11:00,870
+Ama byle bir eyi baka bir eye koymaya balar balamaz, o zaman yine hatay alrz.
+
+187
+00:11:01,070 --> 00:11:08,420
+TAMAM.
+
+188
+00:11:08,420 --> 00:11:14,790
+Ve ayns, John ve Mark gibi bir deiken isminin ortasndaki sembol kullansam da ayns olur ve bu yln tekrar almayacan
+
+189
+00:11:14,900 --> 00:11:15,370
+greceksiniz.
+
+190
+00:11:15,620 --> 00:11:21,800
+TAMAM.
+
+191
+00:11:22,280 --> 00:11:32,330
+Bu yzden u anda 17 numaral hatta bir hatamz var.
+
+192
+00:11:32,670 --> 00:11:32,970
+imdi tabi ama imdi 18 numaral hattaki hatay istiyorum.
+
+193
+00:11:32,980 --> 00:11:35,750
+yleyse una bir bakalm.
+
+194
+00:11:35,870 --> 00:11:39,130
+Ve elbette ki beklenmedik bir ifade ki sadece bir tane.
+
+195
+00:11:39,130 --> 00:11:40,280
+yleyse bu durumda elbette camel notasyonunu ok daha iyi yapmak iin kullanacaz.
+
+196
+00:11:40,360 --> 00:11:44,420
+Ve imdi artk burada bir hatamz yok.
+
+197
+00:11:44,440 --> 00:11:49,400
+Yani bu, tm deiken isimlerin bir alt izgi ile bir dolar iareti ya
+
+198
+00:11:49,570 --> 00:11:52,250
+da burada bir harfle balamas gereken ilk
+
+199
+00:11:52,360 --> 00:11:58,870
+kurald ve daha sonra ikinci ve son kural, ayrlm javascript anahtar kelimeleri deiken isimleri olarak kullanamayz.
+
+200
+00:11:58,870 --> 00:12:05,620
+Yani rnein ilev gibi bir ey ie yaramayacak yani ilev 23'e eittir.
+
+201
+00:12:05,860 --> 00:12:07,920
+Ve bu gerekten ie yaramayacak.
+
+202
+00:12:08,040 --> 00:12:14,760
+Yani beklenmeyen jeton ilevini gryorsunuz.
+
+203
+00:12:14,760 --> 00:12:17,640
+Ayrlm bir anahtar kelime olan silme gibi bir eyi
+
+204
+00:12:17,640 --> 00:12:20,780
+de kullanamayz ve bu anahtar szcklerin birounu kurs sresince karlayacaksnz.
+
+205
+00:12:20,850 --> 00:12:25,980
+Ama imdi sadece u anahtar kelimelerden herhangi birinin daha sonra kullanacamz bir ey olduunu biliyoruz. rnein, bunlar
+
+206
+00:12:25,980 --> 00:12:28,350
+deiken isimler olarak kullanamayacaksnz, bu yzden deiken isimler
+
+207
+00:12:28,650 --> 00:12:34,080
+gerekten olmal ya da kendi kelimeleri oluturmal ve kelimeler deil. javascript zaten kendi dilinde veya sanda kullanyor.
+
+208
+00:12:34,080 --> 00:12:40,380
+Aslnda, deikenlerin ve veri tiplerinin temelleri hakknda her ey var.
+
+209
+00:12:40,380 --> 00:12:45,580
+Yani bu zaten ileride byk bir adm ve herhangi bir programlama
+
+210
+00:12:45,600 --> 00:12:50,400
+dilinde ok nemli bir kavram, sonraki videodaki tm kelimeler deikenlere
+
+211
+00:12:50,460 --> 00:12:55,160
+biraz daha derine ineceiz ve onlarla biraz daha fazla ey yapacaz.
+
+212
+00:12:55,160 --> 00:13:00,240
+Bir sonraki video iin bizi izlemeye devam edin.
+
+213
+00:13:00,240 --> 00:13:00,960
+&nbsp;
+
+214
+00:13:00,960 --> 00:13:03,420
+&nbsp;
+

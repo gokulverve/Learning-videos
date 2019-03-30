@@ -1,0 +1,216 @@
+1
+00:00:01,230 --> 00:00:03,440
+Eitmen: Bu derste ilk Kodlama
+
+2
+00:00:03,440 --> 00:00:05,120
+Yarmasna ho geldiniz.
+
+3
+00:00:05,120 --> 00:00:07,860
+Ve bu yzden alman istediim bir meydan okuma.
+
+4
+00:00:07,860 --> 00:00:10,420
+Mark ve John, ktle
+
+5
+00:00:10,420 --> 00:00:11,794
+boyuna gre
+
+6
+00:00:11,794 --> 00:00:15,900
+blnerek hesaplanan Vcut Kitle ndekslerini karlatrmaya alyorlar.
+
+7
+00:00:15,900 --> 00:00:16,733
+Tamam?
+
+8
+00:00:16,733 --> 00:00:18,255
+Yani bu forml burada.
+
+9
+00:00:18,255 --> 00:00:20,420
+Ve bir saynn karesini hesaplamak
+
+10
+00:00:20,420 --> 00:00:22,880
+iin, onu tek bana arpmanz gerekir.
+
+11
+00:00:22,880 --> 00:00:25,160
+Ve bylece nihai forml,
+
+12
+00:00:25,160 --> 00:00:27,980
+ykseklik zamanlarnn yksekliine blnr.
+
+13
+00:00:27,980 --> 00:00:28,813
+Tamam?
+
+14
+00:00:28,813 --> 00:00:31,550
+Ve burada, yksekliin metre cinsinden ve ktle olarak
+
+15
+00:00:31,550 --> 00:00:33,420
+kilogram cinsinden olmas gerektiini unutmayn.
+
+16
+00:00:33,420 --> 00:00:34,253
+Tamam?
+
+17
+00:00:34,253 --> 00:00:36,420
+imdi tamamlamanz gereken ilk
+
+18
+00:00:36,420 --> 00:00:39,336
+adm, Mark ve John'un ktlesini ve
+
+19
+00:00:39,336 --> 00:00:41,080
+yksekliklerini farkl deikenlerde saklamak.
+
+20
+00:00:41,080 --> 00:00:41,913
+Tamam?
+
+21
+00:00:41,913 --> 00:00:43,530
+Yani bu zamana kadar btn
+
+22
+00:00:43,530 --> 00:00:44,770
+bu zaman yapyormuuz gibi.
+
+23
+00:00:44,770 --> 00:00:47,830
+Ardndan, hem VK'lerini hesaplayn, daha sonra Mark'n
+
+24
+00:00:47,830 --> 00:00:50,340
+John'dan daha yksek bir BMI olup
+
+25
+00:00:50,340 --> 00:00:53,690
+olmad hakknda bilgi ieren bir boole deikeni oluturun.
+
+26
+00:00:53,690 --> 00:00:56,400
+Ve yine bununla, daha nce yaptk.
+
+27
+00:00:56,400 --> 00:00:58,803
+Sonunda konsere bir ipucu yazdrabilirsin, "Mark'n
+
+28
+00:00:58,803 --> 00:01:02,780
+BMI's John'unkinden daha m yksek?" "Ve sonra yarattn
+
+29
+00:01:02,780 --> 00:01:05,170
+ya da nc
+
+30
+00:01:05,170 --> 00:01:07,480
+admda hesapladn boolean.
+
+31
+00:01:07,480 --> 00:01:08,313
+Tamam?
+
+32
+00:01:08,313 --> 00:01:09,300
+Yani doru ya da yanl.
+
+33
+00:01:09,300 --> 00:01:11,640
+Ve bu, yine, daha nce yaptmz bir
+
+34
+00:01:11,640 --> 00:01:14,420
+eye ok benziyor, ve bu yzden bu sizin
+
+35
+00:01:14,420 --> 00:01:16,550
+iin byk bir sorun deil, umarm.
+
+36
+00:01:16,550 --> 00:01:17,970
+imdi burada bir problem
+
+37
+00:01:17,970 --> 00:01:19,420
+bulursanz, gerekten zemezseniz, o
+
+38
+00:01:19,420 --> 00:01:21,720
+zaman kesinlikle sorun yok, tamam m?
+
+39
+00:01:21,720 --> 00:01:25,650
+Bu yzden% 100 tamamlayamyorsanz kendinizi
+
+40
+00:01:25,650 --> 00:01:26,560
+dvmeyin.
+
+41
+00:01:26,560 --> 00:01:28,530
+Yani herkesin farkl renme hzlar
+
+42
+00:01:28,530 --> 00:01:29,660
+ve renme stilleri
+
+43
+00:01:29,660 --> 00:01:32,940
+vardr ve bu yzden burada% 100' kendi banza
+
+44
+00:01:32,940 --> 00:01:34,540
+yapamyorsanz gerekten sorun yoktur.
+
+45
+00:01:34,540 --> 00:01:35,373
+Tamam?
+
+46
+00:01:35,373 --> 00:01:37,762
+Dolaysyla, daha nce yaptmz bir eye
+
+47
+00:01:37,762 --> 00:01:40,140
+bakmanz gerekiyorsa, bu byk bir anlama
+
+48
+00:01:40,140 --> 00:01:42,810
+deil, ama daha nce yaptmz eyleri hatrlamaya
+
+49
+00:01:42,810 --> 00:01:45,330
+almal ve bunu bu sorunu zmek iin kullanmalsnz.
+
+50
+00:01:45,330 --> 00:01:46,163
+Tamam?
+
+51
+00:01:46,163 --> 00:01:48,810
+Her neyse, bunun zm, bir
+
+52
+00:01:48,810 --> 00:01:51,460
+sonraki videoda, bunu nasl hesaplayacam gstereceim.
+
+53
+00:01:51,460 --> 00:01:53,860
+Bu yzden iyi anslar, ve bu Kodlama
+
+54
+00:01:53,860 --> 00:01:55,910
+Mcadelesini tamamladktan sonra videoda grmek zere.
+

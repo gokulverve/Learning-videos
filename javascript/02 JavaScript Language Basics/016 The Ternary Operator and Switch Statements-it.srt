@@ -1,0 +1,1244 @@
+1
+00:00:01,379 --> 00:00:02,580
+Jonas: in questo altra dichiarazione
+
+2
+00:00:02,580 --> 00:00:06,798
+video, vedremo alcuni altri modi di prendere decisioni con JavaScript. per prendere decisioni, ma ci sono altri modi
+
+3
+00:00:06,798 --> 00:00:08,881
+Quindi hai imparato a conoscere il se. per farlo.
+
+4
+00:00:08,881 --> 00:00:10,714
+Quindi la prima cosa
+
+5
+00:00:10,714 --> 00:00:13,021
+che guarderemo  l'operatore ternario.
+
+6
+00:00:13,021 --> 00:00:14,423
+Che  anche chiamato altro enunciato
+
+7
+00:00:14,423 --> 00:00:16,687
+operatore condizionale ed  un operatore che Diamo un'occhiata a come funziona.
+
+8
+00:00:16,687 --> 00:00:19,105
+fondamentalmente ci permette di scrivere come un if. tutto in una riga. E di nuovo, sto riportando qui la variabile del mio nome.
+
+9
+00:00:19,105 --> 00:00:21,546
+(digitando) E poi fisseremo
+
+10
+00:00:21,546 --> 00:00:25,516
+l'et a 16 anni.
+
+11
+00:00:25,516 --> 00:00:27,138
+E cos ora
+
+12
+00:00:27,138 --> 00:00:30,531
+usiamo l'operatore ternario, per accedere alla console,
+
+13
+00:00:30,531 --> 00:00:32,614
+se John beve una
+
+14
+00:00:34,107 --> 00:00:38,304
+birra o se beve succo, a seconda della sua et.
+
+15
+00:00:38,304 --> 00:00:40,262
+Va bene?
+
+16
+00:00:40,262 --> 00:00:42,153
+Quindi, diciamo un'et maggiore o uguale a
+
+17
+00:00:42,153 --> 00:00:45,164
+18, che  l'et legale in cui si potrebbe iniziare a
+
+18
+00:00:45,164 --> 00:00:47,582
+bere, almeno in Europa, forse non in U. S.
+
+19
+00:00:47,582 --> 00:00:48,415
+Va bene? Quindi iniziamo qui con la condizione.
+
+20
+00:00:48,415 --> 00:00:52,482
+Quindi, usiamo il punto interrogativo.
+
+21
+00:00:52,482 --> 00:00:55,762
+E poi scriviamo, fondamentalmente, cosa vogliamo che accada se questa altra
+
+22
+00:00:55,762 --> 00:00:58,035
+condizione  vera. Quindi, in questo
+
+23
+00:00:58,035 --> 00:01:01,479
+Quindi questo  come il blocco if, in un if. dichiarazione. caso, vogliamo accedere alla
+
+24
+00:01:01,479 --> 00:01:03,334
+console, al registro dei punti
+
+25
+00:01:03,334 --> 00:01:05,477
+della console, (digitando) Beve birra.
+
+26
+00:01:05,477 --> 00:01:07,589
+Ok, questa  la prima parte.
+
+27
+00:01:07,589 --> 00:01:11,050
+E ora dobbiamo anche scrivere il blocco else, ok?
+
+28
+00:01:11,050 --> 00:01:12,284
+E cos per quello, usiamo i due punti
+
+29
+00:01:12,284 --> 00:01:13,909
+e poi, in realt andiamo avanti e copiamo questa parte qui.
+
+30
+00:01:13,909 --> 00:01:15,992
+(clic del mouse)
+
+31
+00:01:21,028 --> 00:01:22,208
+Beve succo.
+
+32
+00:01:22,208 --> 00:01:23,975
+Ok, e questo  davvero.
+
+33
+00:01:23,975 --> 00:01:27,043
+Quindi questo  l'operatore ternario.
+
+34
+00:01:27,043 --> 00:01:29,450
+E si chiama ternario, perch ha tre operandi.
+
+35
+00:01:29,450 --> 00:01:32,845
+Quindi, fondamentalmente tre parti che interagiscono con l'operatore.
+
+36
+00:01:32,845 --> 00:01:35,428
+Quindi abbiamo la condizione prima, quindi abbiamo il
+
+37
+00:01:37,179 --> 00:01:38,262
+blocco if qui, fondamentalmente,
+
+38
+00:01:39,274 --> 00:01:40,850
+e poi il blocco else.
+
+39
+00:01:40,850 --> 00:01:42,525
+Quindi proviamo ora se funziona.
+
+40
+00:01:42,525 --> 00:01:45,442
+E infatti, ora dice, John beve succo.
+
+41
+00:01:45,442 --> 00:01:48,815
+E questo perch ha meno di 18 anni.
+
+42
+00:01:48,815 --> 00:01:50,682
+Se lo impostiamo su 22
+
+43
+00:01:50,682 --> 00:01:53,242
+diciamo, allora dir, John beve birra.
+
+44
+00:01:53,242 --> 00:01:55,276
+Ok, diamo un'occhiata a un
+
+45
+00:01:55,276 --> 00:01:57,409
+altro esempio, perch possiamo fare
+
+46
+00:01:57,409 --> 00:02:00,364
+ancora meglio e assegnare valori alle variabili
+
+47
+00:02:00,364 --> 00:02:03,200
+usando l'operatore ternario in un modo molto semplice.
+
+48
+00:02:03,200 --> 00:02:06,295
+Quindi diciamo che volevamo trovare una variabile, dicendo
+
+49
+00:02:06,295 --> 00:02:08,203
+quello che John pu bere.
+
+50
+00:02:08,203 --> 00:02:10,652
+Quindi diciamo var drink, e ora possiamo
+
+51
+00:02:10,652 --> 00:02:12,531
+usare l'operatore condizionale proprio qui.
+
+52
+00:02:12,531 --> 00:02:14,411
+Quindi et maggiore o uguale a 18 anni.
+
+53
+00:02:14,411 --> 00:02:17,327
+Quindi un punto interrogativo.
+
+54
+00:02:17,327 --> 00:02:18,950
+Quindi in pratica questo  per fare una domanda.
+
+55
+00:02:18,950 --> 00:02:22,260
+Quindi, John  maggiore o uguale a 18?
+
+56
+00:02:22,260 --> 00:02:25,312
+E se lo , beh allora possiamo dire, birra.
+
+57
+00:02:25,312 --> 00:02:27,730
+E se non lo , allora possiamo dire, succo di frutta.
+
+58
+00:02:27,730 --> 00:02:30,397
+E questo  tutto.
+
+59
+00:02:31,922 --> 00:02:32,879
+Quindi, in pratica, il risultato di
+
+60
+00:02:32,879 --> 00:02:34,528
+questo intero codice qui, sar la birra se l'et 
+
+61
+00:02:34,528 --> 00:02:36,682
+maggiore o uguale a 18, e sar il succo se non lo .
+
+62
+00:02:36,682 --> 00:02:40,099
+E questo risultato sar quindi assegnato alla variabile bevanda.
+
+63
+00:02:42,397 --> 00:02:46,023
+Va bene?
+
+64
+00:02:46,023 --> 00:02:47,090
+Quindi, di nuovo, questo
+
+65
+00:02:47,090 --> 00:02:49,641
+ di nuovo un operatore e quindi un operatore
+
+66
+00:02:49,641 --> 00:02:53,723
+ha sempre un risultato, proprio come abbiamo visto prima con qualsiasi altro operatore, ok?
+
+67
+00:02:53,723 --> 00:02:56,019
+E cos questo operatore, questo
+
+68
+00:02:56,019 --> 00:03:00,096
+operatore ternario viene eseguito, ovviamente, prima dell'operatore di assegnazione.
+
+69
+00:03:00,096 --> 00:03:00,929
+Ricorda? Anche questo  un operatore.
+
+70
+00:03:00,929 --> 00:03:02,886
+Quindi, per prima cosa, eseguiamo
+
+71
+00:03:02,886 --> 00:03:05,387
+questa parte che, di conseguenza, avr
+
+72
+00:03:05,387 --> 00:03:08,548
+birra o succo e quindi quel risultato
+
+73
+00:03:08,548 --> 00:03:10,913
+sar assegnato alla variabile bevanda.
+
+74
+00:03:10,913 --> 00:03:14,042
+E quindi accediamo ora alla console, giusto per assicurarci che
+
+75
+00:03:14,042 --> 00:03:16,167
+tutto funzioni di nuovo.
+
+76
+00:03:16,167 --> 00:03:18,036
+(clic del mouse)
+
+77
+00:03:18,036 --> 00:03:21,377
+E infatti, dice la birra.
+
+78
+00:03:21,377 --> 00:03:23,095
+(clic del mouse) 14
+
+79
+00:03:23,095 --> 00:03:25,371
+ovviamente, berr succo di frutta.
+
+80
+00:03:25,371 --> 00:03:26,761
+Ora, per confrontare altra
+
+81
+00:03:26,761 --> 00:03:29,469
+ci che dovremmo fare senza l'operatore Quindi dovremmo scrivere, (digitando)
+
+82
+00:03:29,469 --> 00:03:32,873
+ternario, scriviamo la stessa cosa con un if. dichiarazione. cos, var (digitando) drink equivale
+
+83
+00:03:32,873 --> 00:03:35,100
+a birra, in questo
+
+84
+00:03:35,100 --> 00:03:37,546
+caso, e poi il
+
+85
+00:03:37,546 --> 00:03:40,341
+plug else (digitando) e
+
+86
+00:03:40,341 --> 00:03:41,723
+quindi qui juice.
+
+87
+00:03:41,723 --> 00:03:44,060
+Va bene?
+
+88
+00:03:44,060 --> 00:03:46,861
+E cos quella sarebbe l'alternativa qui di usare questo.
+
+89
+00:03:46,861 --> 00:03:48,347
+E quindi cosa pensi che sia meglio?
+
+90
+00:03:48,347 --> 00:03:50,430
+Beh,  ovviamente l'operatore ternario, giusto?
+
+91
+00:03:52,805 --> 00:03:57,805
+Almeno preferisco moltissimo dover scrivere qualcosa del genere, nel caso in cui mi piacerebbe qualcosa
+
+92
+00:04:00,317 --> 00:04:01,628
+di semplice come assegnare
+
+93
+00:04:01,628 --> 00:04:03,711
+un valore a una variabile in
+
+94
+00:04:05,082 --> 00:04:06,749
+base a una semplice condizione
+
+95
+00:04:08,461 --> 00:04:09,300
+come questa, okay.
+
+96
+00:04:09,300 --> 00:04:12,620
+Quindi, ovviamente, non farai un operatore ternario per
+
+97
+00:04:12,620 --> 00:04:14,530
+una decisione piuttosto complessa, ma
+
+98
+00:04:14,530 --> 00:04:17,386
+nel caso avessimo qualcosa di semplice come altra affermazione
+
+99
+00:04:17,386 --> 00:04:18,666
+questo, beh,  Quindi lasciatemi commentare questa parte qui
+
+100
+00:04:18,666 --> 00:04:20,616
+perfetto non usare un if. come questa. solo cos sai che questo  lo stesso.
+
+101
+00:04:20,616 --> 00:04:22,860
+E va bene.
+
+102
+00:04:22,860 --> 00:04:25,002
+Cos abbiamo parlato dell'operatore ternario, come
+
+103
+00:04:25,002 --> 00:04:27,362
+un modo alternativo di scrivere condizionali, ma
+
+104
+00:04:27,362 --> 00:04:29,595
+in realt c' ancora di pi. else statement, dove abbiamo pi
+
+105
+00:04:29,595 --> 00:04:31,893
+E questa  la dichiarazione dell'interruttore. clausole if if, in pratica,
+
+106
+00:04:31,893 --> 00:04:34,525
+E questo  come un enorme se. e quindi possiamo sostituirlo con una
+
+107
+00:04:34,525 --> 00:04:36,618
+sintassi pi facile da capire, ok?
+
+108
+00:04:36,618 --> 00:04:38,526
+Ora non sono
+
+109
+00:04:38,526 --> 00:04:39,695
+un grande fan di
+
+110
+00:04:39,695 --> 00:04:42,873
+questo me stesso, ma lo vedrai in giro quando cercheresti
+
+111
+00:04:42,873 --> 00:04:44,092
+tutorial simili sul web,
+
+112
+00:04:44,092 --> 00:04:46,103
+quindi  importante conoscere anche l'istruzione switch.
+
+113
+00:04:46,103 --> 00:04:48,512
+Quindi aggiungiamo alcuni commenti qui prima di iniziare.
+
+114
+00:04:48,512 --> 00:04:50,248
+(digitando) Quindi,
+
+115
+00:04:50,248 --> 00:04:52,208
+operatore ternario,
+
+116
+00:04:52,208 --> 00:04:54,423
+e
+
+117
+00:04:54,423 --> 00:04:57,389
+quindi, (digitando) l'istruzione switch.
+
+118
+00:04:57,389 --> 00:04:59,066
+Bene, quindi definiamo un lavoro qui prima.
+
+119
+00:04:59,066 --> 00:05:01,199
+(digitando) E diciamo che John
+
+120
+00:05:01,199 --> 00:05:02,702
+ un insegnante.
+
+121
+00:05:02,702 --> 00:05:04,145
+E cos ora possiamo usare l'istruzione switch.
+
+122
+00:05:04,145 --> 00:05:06,448
+Dacci un po 'pi di spazio qui. Tutto apposto.
+
+123
+00:05:06,448 --> 00:05:07,941
+Quindi diciamo switch, e qui tra queste parentesi,
+
+124
+00:05:07,941 --> 00:05:09,721
+mettiamo quello che vogliamo compito, ci che vogliamo valutare.
+
+125
+00:05:09,721 --> 00:05:11,788
+Ok, e questo avr molto pi
+
+126
+00:05:11,788 --> 00:05:13,871
+senso dopo aver visto l'intera dichiarazione dell'interruttore.
+
+127
+00:05:15,121 --> 00:05:17,672
+Quindi per ora scriviamo qui il lavoro
+
+128
+00:05:17,672 --> 00:05:19,755
+e capirai perch funziona cos.
+
+129
+00:05:20,743 --> 00:05:22,998
+Quindi cambiamo il lavoro, fondamentalmente.
+
+130
+00:05:22,998 --> 00:05:25,802
+E poi, possiamo aggiungere un paio di clausole sui casi.
+
+131
+00:05:25,802 --> 00:05:27,885
+Quindi diciamo caso, e quindi possiamo
+
+132
+00:05:28,739 --> 00:05:30,676
+dire, (digitando) per esempio, insegnante.
+
+133
+00:05:30,676 --> 00:05:33,055
+Quindi i due punti, e poi nella riga
+
+134
+00:05:33,055 --> 00:05:36,222
+successiva, diciamo quello che vogliamo accadere.
+
+135
+00:05:37,537 --> 00:05:40,307
+Quindi in questo
+
+136
+00:05:40,307 --> 00:05:43,937
+caso, diciamo (digitando) il
+
+137
+00:05:43,937 --> 00:05:45,876
+nome, (digitando)
+
+138
+00:05:45,876 --> 00:05:48,366
+insegna ai bambini
+
+139
+00:05:48,366 --> 00:05:50,833
+come codificare.
+
+140
+00:05:50,833 --> 00:05:53,263
+Quindi, questo  quello che fa un insegnante. Diciamo.
+
+141
+00:05:53,263 --> 00:05:55,111
+Quindi, di nuovo, se il
+
+142
+00:05:55,111 --> 00:05:58,493
+lavoro  uguale all'insegnante, allora questo codice verr eseguito.
+
+143
+00:05:58,493 --> 00:06:00,838
+Tutto apposto?
+
+144
+00:06:00,838 --> 00:06:03,458
+Aggiungiamo un altro paio.
+
+145
+00:06:03,458 --> 00:06:05,470
+Quindi caso, autista, diciamo, e ora sto
+
+146
+00:06:05,470 --> 00:06:07,714
+solo prendendo questo pezzo di codice qui.
+
+147
+00:06:07,714 --> 00:06:09,615
+Diciamo che un autista guida un Uber a Lisbona.
+
+148
+00:06:09,615 --> 00:06:11,698
+E quindi questa  la funzionalit
+
+149
+00:06:12,552 --> 00:06:14,236
+di base dell'istruzione switch, ok?
+
+150
+00:06:14,236 --> 00:06:16,319
+Quindi possiamo aggiungere ancora un paio di casi.
+
+151
+00:06:17,406 --> 00:06:19,873
+Quindi diciamo che vogliamo anche designer,
+
+152
+00:06:19,873 --> 00:06:23,002
+(digitando) e poi di
+
+153
+00:06:23,002 --> 00:06:26,082
+nuovo il nostro punto log della console.
+
+154
+00:06:26,082 --> 00:06:28,499
+Diciamo, (digitando) disegni bellissimi siti web.
+
+155
+00:06:28,499 --> 00:06:29,332
+Tutto apposto.
+
+156
+00:06:29,332 --> 00:06:30,720
+Quindi, quello che stiamo facendo qui
+
+157
+00:06:30,720 --> 00:06:33,689
+, ancora una volta, per confrontare il lavoro con ciascuno di questi diversi casi.
+
+158
+00:06:33,689 --> 00:06:37,582
+Quindi se il lavoro  insegnante, allora fallo.
+
+159
+00:06:37,582 --> 00:06:41,249
+Se il lavoro  il driver, quindi eseguire questa operazione.
+
+160
+00:06:42,230 --> 00:06:44,525
+Se il lavoro  un designer, bene, allora, fallo.
+
+161
+00:06:44,525 --> 00:06:47,379
+Ora, quello che dobbiamo fare anche
+
+162
+00:06:47,379 --> 00:06:49,484
+qui,  aggiungere un'istruzione break.
+
+163
+00:06:49,484 --> 00:06:51,445
+Quindi qui dobbiamo dire una pausa, perch
+
+164
+00:06:51,445 --> 00:06:53,452
+altrimenti continuer a valutare questi casi successivi.
+
+165
+00:06:53,452 --> 00:06:55,356
+Va bene, quindi anche
+
+166
+00:06:55,356 --> 00:07:00,356
+se il lavoro  insegnante, continuer a valutare questi altri casi.
+
+167
+00:07:01,759 --> 00:07:02,592
+Continuer a guardarli
+
+168
+00:07:02,592 --> 00:07:04,104
+e vedere se sono anche veri.
+
+169
+00:07:04,104 --> 00:07:07,822
+Ma non vogliamo che ci accada, e quindi dobbiamo usare
+
+170
+00:07:07,822 --> 00:07:09,988
+la parola chiave break alla fine
+
+171
+00:07:09,988 --> 00:07:12,080
+di questo blocco che vogliamo eseguire.
+
+172
+00:07:12,080 --> 00:07:14,446
+(digitando) Quindi,
+
+173
+00:07:14,446 --> 00:07:16,121
+pausa. E qui, pausa (digitando) anche.
+
+174
+00:07:16,121 --> 00:07:18,393
+Ora, se non si applica nulla di ci, possiamo aggiungere un valore predefinito.
+
+175
+00:07:18,393 --> 00:07:20,851
+Va bene e quindi tutto ci che dobbiamo fare  dire default.
+
+176
+00:07:20,851 --> 00:07:23,396
+E poi definire cosa succede in quel caso.
+
+177
+00:07:23,396 --> 00:07:25,388
+Quindi in questo caso,
+
+178
+00:07:25,388 --> 00:07:28,730
+diciamo semplicemente che (digitando) John fa qualcos'altro.
+
+179
+00:07:28,730 --> 00:07:30,531
+E poi qui, ovviamente, non abbiamo bisogno di rompere
+
+180
+00:07:30,531 --> 00:07:32,014
+perch  gi l'ultimo caso qui comunque.
+
+181
+00:07:32,014 --> 00:07:33,423
+Va bene? altrimenti, questo sarebbe se il
+
+182
+00:07:33,423 --> 00:07:35,172
+Quindi, se nessuna di queste altra affermazione, lavoro fosse uguale all'insegnante, quindi fare
+
+183
+00:07:35,172 --> 00:07:38,701
+condizioni si applica, quindi queste sono fondamentalmente come il resto se, quindi in un questo, altrimenti se il driver, quindi fare questo qui, altrimenti se progettista,
+
+184
+00:07:38,701 --> 00:07:39,849
+nel caso di If. if. quindi fare questo.
+
+185
+00:07:39,849 --> 00:07:43,944
+E poi, fai questo. Destra? altra
+
+186
+00:07:43,944 --> 00:07:47,523
+E quindi questo default qui  fondamentalmente Tutto apposto? Quindi proviamolo.
+
+187
+00:07:47,523 --> 00:07:50,625
+il nostro ultimo in un if. dichiarazione. E cos, in effetti, ora dice che John
+
+188
+00:07:50,625 --> 00:07:54,070
+insegna ai bambini come codificare, perch  un insegnante.
+
+189
+00:07:54,070 --> 00:07:55,858
+Ora, se diciamo che 
+
+190
+00:07:55,858 --> 00:07:59,632
+un autista, allora, naturalmente, guida un Uber a Lisbona.
+
+191
+00:07:59,632 --> 00:08:01,426
+Ora diciamo che  un poliziotto, e cos
+
+192
+00:08:01,426 --> 00:08:03,875
+ora nessuno di questi si applica, e quindi dovremmo finire con,
+
+193
+00:08:03,875 --> 00:08:04,708
+John fa qualcos'altro.
+
+194
+00:08:04,708 --> 00:08:05,970
+Grande.
+
+195
+00:08:05,970 --> 00:08:07,930
+Ora possiamo anche avere pi clausole case per lo stesso pezzo
+
+196
+00:08:07,930 --> 00:08:09,552
+di codice che vogliamo eseguire.
+
+197
+00:08:09,552 --> 00:08:11,251
+Quindi, per esempio,
+
+198
+00:08:11,251 --> 00:08:13,923
+se vuoi eseguire questo codice qui, se il
+
+199
+00:08:13,923 --> 00:08:16,370
+lavoro  un insegnante, o anche, diciamo
+
+200
+00:08:16,370 --> 00:08:19,003
+istruttore, possiamo aggiungere semplicemente un altro caso qui.
+
+201
+00:08:19,003 --> 00:08:21,503
+Quindi, caso, (digitando) istruttore,
+
+202
+00:08:22,352 --> 00:08:24,103
+e quindi questo pezzo di
+
+203
+00:08:24,103 --> 00:08:26,784
+codice qui verr eseguito
+
+204
+00:08:26,784 --> 00:08:28,999
+anche se diciamo istruttore.
+
+205
+00:08:28,999 --> 00:08:30,758
+Per finire, proviamoci.
+
+206
+00:08:30,758 --> 00:08:34,260
+E s, quindi funziona ancora qui come dovrebbe. altra
+
+207
+00:08:34,260 --> 00:08:36,435
+Quindi questo  di nuovo Ad esempio, qualcosa di
+
+208
+00:08:36,435 --> 00:08:40,449
+qui, un modo semplice per sostituire un enorme if. dichiarazione. simile, dove abbiamo questo se, e poi altro
+
+209
+00:08:40,449 --> 00:08:43,274
+se, altrimenti se, e poi altro.
+
+210
+00:08:43,274 --> 00:08:46,524
+O potrebbe essere anche pi lungo, e cos a volte una dichiarazione switch
+
+211
+00:08:46,524 --> 00:08:48,525
+sembra un po 'pi pulita di avere tutti
+
+212
+00:08:48,525 --> 00:08:49,358
+questi blocchi come questo.
+
+213
+00:08:49,358 --> 00:08:51,352
+Va bene?
+
+214
+00:08:51,352 --> 00:08:53,973
+E in effetti, visto che ci stiamo lavorando, altrimenti la dichiarazione qui con un
+
+215
+00:08:53,973 --> 00:08:55,871
+andiamo avanti, copia questo pezzo di interruttore, perch in realt
+
+216
+00:08:55,871 --> 00:08:58,219
+codice e prova a sostituire questo se. funzioner in un modo leggermente
+
+217
+00:08:58,219 --> 00:09:00,393
+diverso, e quindi  una
+
+218
+00:09:00,393 --> 00:09:03,856
+grande opportunit per mostrarvi come potrebbe funzionare.
+
+219
+00:09:03,856 --> 00:09:05,168
+Quindi questo primo passaggio che
+
+220
+00:09:05,168 --> 00:09:06,945
+ti ho mostrato qui, in pratica, semplicemente
+
+221
+00:09:06,945 --> 00:09:10,096
+cambia una variabile e confronta tutti questi casi con quella variabile.
+
+222
+00:09:10,096 --> 00:09:13,512
+Ma qui abbiamo questo range numerico,
+
+223
+00:09:13,512 --> 00:09:16,826
+e quindi funziona leggermente diverso, quindi
+
+224
+00:09:16,826 --> 00:09:20,207
+ un ottimo esercizio farlo anche qui.
+
+225
+00:09:20,207 --> 00:09:22,137
+Quindi, per tradurlo, fondamentalmente in una dichiarazione di commutazione.
+
+226
+00:09:22,137 --> 00:09:25,298
+Quindi in questo caso ci che vogliamo cambiare  vero.
+
+227
+00:09:25,298 --> 00:09:27,167
+Ok, quindi fondamentalmente vogliamo confrontare
+
+228
+00:09:27,167 --> 00:09:28,732
+ognuna delle espressioni qui
+
+229
+00:09:28,732 --> 00:09:31,231
+sotto, che inseriremo qui in un secondo, vero. altra istruzione
+
+230
+00:09:31,231 --> 00:09:32,560
+E questo  un Quindi, il nostro primo caso sar, caso, et, meno di 13.
+
+231
+00:09:32,560 --> 00:09:35,405
+trucco per far funzionare lo switch semplicemente come if. con intervalli. E, in quel caso, registrer questo
+
+232
+00:09:35,405 --> 00:09:37,997
+pezzo nella console, quindi non dimenticher
+
+233
+00:09:37,997 --> 00:09:38,830
+di interrompere.
+
+234
+00:09:38,830 --> 00:09:40,760
+(digitando) Ok, allora il caso successivo
+
+235
+00:09:40,760 --> 00:09:42,674
+ questo, e in effetti andiamo
+
+236
+00:09:42,674 --> 00:09:45,809
+avanti e copialo, perch sappiamo
+
+237
+00:09:45,809 --> 00:09:47,446
+gi come funziona a questo
+
+238
+00:09:47,446 --> 00:09:49,242
+punto, e quindi loggarlo qui alla console.
+
+239
+00:09:49,242 --> 00:09:50,482
+In modo che John sia un adolescente, e poi ne usciremo.
+
+240
+00:09:50,482 --> 00:09:52,656
+Quindi completiamo il codice qui, quindi osserviamolo
+
+241
+00:09:52,656 --> 00:09:54,789
+pi da vicino e vediamo come funziona.
+
+242
+00:09:54,789 --> 00:09:56,975
+Va bene?
+
+243
+00:09:56,975 --> 00:09:59,981
+Quindi, per questo caso, vogliamo registrare questa parte nella
+
+244
+00:09:59,981 --> 00:10:01,912
+tua console, quindi uscire da essa.
+
+245
+00:10:01,912 --> 00:10:03,485
+E ora finalmente, abbiamo l'altra parte qui.
+
+246
+00:10:03,485 --> 00:10:06,158
+E cos per la parte
+
+247
+00:10:06,158 --> 00:10:09,804
+opposta, useremo come prima, l'impostazione predefinita.
+
+248
+00:10:09,804 --> 00:10:13,513
+Quindi, di default, e quindi, registra che John  un uomo.
+
+249
+00:10:13,513 --> 00:10:15,261
+Tutto apposto? E cos  in realt.
+
+250
+00:10:15,261 --> 00:10:17,089
+Quindi possiamo sbarazzarci di questo e quindi
+
+251
+00:10:17,089 --> 00:10:19,446
+lo abbiamo gi tradotto qui nella dichiarazione switch.
+
+252
+00:10:19,446 --> 00:10:22,270
+Quindi ora abbiamo tutte queste condizioni qui, fondamentalmente,
+
+253
+00:10:22,270 --> 00:10:24,492
+non come stringhe,
+
+254
+00:10:24,492 --> 00:10:28,825
+come avevamo prima, quindi in questo caso qui, e questo  il caso
+
+255
+00:10:31,521 --> 00:10:33,688
+pi comune di usare l'istruzione switch, ok?
+
+256
+00:10:33,688 --> 00:10:35,944
+Quindi, dove abbiamo come una stringa
+
+257
+00:10:35,944 --> 00:10:38,250
+che vogliamo confrontare con alcune variabili.
+
+258
+00:10:38,250 --> 00:10:40,504
+In questo caso, qui abbiamo fondamentalmente
+
+259
+00:10:40,504 --> 00:10:42,324
+queste espressioni logiche, che si
+
+260
+00:10:42,324 --> 00:10:43,806
+riveleranno essere vere o false.
+
+261
+00:10:43,806 --> 00:10:47,281
+E cos, per esempio, se questo qui risulta
+
+262
+00:10:47,281 --> 00:10:50,074
+essere vero, quindi se l'et 
+
+263
+00:10:50,074 --> 00:10:54,921
+compresa tra 13 e 20, bene questo qui  vero e
+
+264
+00:10:54,921 --> 00:10:56,729
+tutti gli altri sono falsi.
+
+265
+00:10:56,729 --> 00:11:00,562
+E ricorda che siamo diventati veri.
+
+266
+00:11:01,706 --> 00:11:02,705
+E quindi il
+
+267
+00:11:02,705 --> 00:11:05,455
+caso che sar vero sar quindi quello che verr eseguito.
+
+268
+00:11:07,110 --> 00:11:11,402
+Va bene, proviamoci.
+
+269
+00:11:11,402 --> 00:11:13,961
+E l'et che penso non , in realt  definita come 14.
+
+270
+00:11:13,961 --> 00:11:15,375
+Mettiamolo di nuovo qui.
+
+271
+00:11:15,375 --> 00:11:18,792
+Quindi non dobbiamo andare su e gi per testarlo.
+
+272
+00:11:19,627 --> 00:11:23,377
+Diciamo che ora ha 10 anni, quindi diamo un'occhiata.
+
+273
+00:11:26,871 --> 00:11:28,656
+Quindi John  un ragazzo. Grande.
+
+274
+00:11:28,656 --> 00:11:30,194
+Cambia in 17, ora  un adolescente.
+
+275
+00:11:30,194 --> 00:11:34,256
+Ora di nuovo 22, un giovane uomo.
+
+276
+00:11:34,256 --> 00:11:37,142
+(clic del mouse)
+
+277
+00:11:37,142 --> 00:11:41,130
+E, un uomo.
+
+278
+00:11:41,130 --> 00:11:43,441
+Quindi tutti questi ora funzionano.
+
+279
+00:11:43,441 --> 00:11:45,459
+Quindi questi sono due modi per utilizzare altra dichiarazione
+
+280
+00:11:45,459 --> 00:11:47,307
+le istruzioni switch e possono essere di con molte
+
+281
+00:11:47,307 --> 00:11:49,948
+nuovo utili nel caso in cui abbiamo un if lungo. altre se . Quindi questo pu sembrare un po 'pi pulito qui. Tutto apposto.
+
+282
+00:11:49,948 --> 00:11:52,206
+E quindi sono tre i modi in altra istruzione,
+
+283
+00:11:52,206 --> 00:11:54,105
+cui possiamo scrivere il codice condizionale. l'operatore ternario
+
+284
+00:11:54,105 --> 00:11:56,743
+Quindi il se. e l'istruzione switch.
+
+285
+00:11:56,743 --> 00:11:59,031
+&nbsp;
+
+286
+00:11:59,031 --> 00:12:01,129
+&nbsp;
+
+287
+00:12:01,129 --> 00:12:02,760
+&nbsp;
+
+288
+00:12:02,760 --> 00:12:04,546
+&nbsp;
+
+289
+00:12:04,546 --> 00:12:06,683
+&nbsp;
+
+290
+00:12:06,683 --> 00:12:08,319
+&nbsp;
+
+291
+00:12:08,319 --> 00:12:10,794
+&nbsp;
+
+292
+00:12:10,794 --> 00:12:12,205
+&nbsp;
+
+293
+00:12:12,205 --> 00:12:17,141
+&nbsp;
+
+294
+00:12:17,141 --> 00:12:18,593
+&nbsp;
+
+295
+00:12:18,593 --> 00:12:20,767
+&nbsp;
+
+296
+00:12:20,767 --> 00:12:24,280
+&nbsp;
+
+297
+00:12:24,280 --> 00:12:26,280
+&nbsp;
+
+298
+00:12:27,167 --> 00:12:31,020
+&nbsp;
+
+299
+00:12:31,020 --> 00:12:33,187
+&nbsp;
+
+300
+00:12:34,060 --> 00:12:36,484
+&nbsp;
+
+301
+00:12:36,484 --> 00:12:37,398
+&nbsp;
+
+302
+00:12:37,398 --> 00:12:39,509
+&nbsp;
+
+303
+00:12:39,509 --> 00:12:42,170
+&nbsp;
+
+304
+00:12:42,170 --> 00:12:43,708
+&nbsp;
+
+305
+00:12:43,708 --> 00:12:46,047
+&nbsp;
+
+306
+00:12:46,047 --> 00:12:47,925
+&nbsp;
+
+307
+00:12:47,925 --> 00:12:50,823
+&nbsp;
+
+308
+00:12:50,823 --> 00:12:52,785
+&nbsp;
+
+309
+00:12:52,785 --> 00:12:54,823
+&nbsp;
+
+310
+00:12:54,823 --> 00:12:57,059
+&nbsp;
+
+311
+00:12:57,059 --> 00:12:59,142
+&nbsp;
+

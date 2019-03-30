@@ -1,0 +1,844 @@
+1
+00:00:01,240 --> 00:00:03,540
+Narrador: Y finalmente, aqu va la segunda
+
+2
+00:00:03,540 --> 00:00:04,790
+parte de mi solucin.
+
+3
+00:00:04,790 --> 00:00:07,630
+Y lo dejamos, despus de crear el objeto
+
+4
+00:00:07,630 --> 00:00:10,990
+John, incluido este gran mtodo de calcTips, de acuerdo?
+
+5
+00:00:10,990 --> 00:00:13,930
+Ahora, para Mark, todo esto ser muy
+
+6
+00:00:13,930 --> 00:00:15,305
+similar, as que Y luego
+
+7
+00:00:15,305 --> 00:00:17,880
+ir y copiar este objeto completo. haz algunos cambios a eso. Entonces, el nombre, por supuesto, no es John,
+
+8
+00:00:19,190 --> 00:00:21,283
+sino Mark y es Mark Miller.
+
+9
+00:00:22,490 --> 00:00:25,770
+Entonces esto es $ 77, $ 475, de acuerdo?
+
+10
+00:00:25,770 --> 00:00:28,250
+Y 110 y finalmente, 45.
+
+11
+00:00:28,250 --> 00:00:33,250
+Entonces solo fue a cuatro restaurantes.
+
+12
+00:00:34,306 --> 00:00:38,190
+Luego, aqu abajo, en calcTips, todo lo que
+
+13
+00:00:38,190 --> 00:00:41,180
+tenemos que cambiar es, como estas reglas
+
+14
+00:00:41,180 --> 00:00:43,000
+de propina, de acuerdo?
+
+15
+00:00:43,000 --> 00:00:45,110
+Entonces veamos cmo Mark lo hace.
+
+16
+00:00:45,110 --> 00:00:47,500
+Por lo tanto, le gustaba dar propina al
+
+17
+00:00:47,500 --> 00:00:50,620
+20% cuando la factura es menos de $ 100, 10%
+
+18
+00:00:50,620 --> 00:00:54,730
+si est entre 100 y 300, y 25 si es ms de 300.
+
+19
+00:00:54,730 --> 00:00:57,317
+Vamos a traducir eso en nuestro cdigo.
+
+20
+00:00:57,317 --> 00:00:59,923
+As que aqu, es 100, entonces menos de 100
+
+21
+00:01:00,980 --> 00:01:03,070
+es 20%, o en realidad menos de 100.
+
+22
+00:01:03,070 --> 00:01:07,140
+Bueno?
+
+23
+00:01:07,140 --> 00:01:08,840
+Entonces, si est entre 100 y
+
+24
+00:01:08,840 --> 00:01:09,673
+300, da un
+
+25
+00:01:09,673 --> 00:01:13,770
+10% como propina y, si es incluso mayor a 300, entonces da 25.
+
+26
+00:01:13,770 --> 00:01:18,770
+Probablemente porque est en un restaurante muy elegante y luego necesita
+
+27
+00:01:19,290 --> 00:01:20,940
+dar ms consejos.
+
+28
+00:01:20,940 --> 00:01:23,370
+(Risas) Algo
+
+29
+00:01:23,370 --> 00:01:25,531
+as.
+
+30
+00:01:25,531 --> 00:01:26,364
+Bueno, ese es el objeto Mark y ya est hecho.
+
+31
+00:01:26,364 --> 00:01:27,197
+Hagamos el
+
+32
+00:01:27,197 --> 00:01:32,083
+clculo aqu para Mark tambin y luego registremos tanto John como Mark en la consola.
+
+33
+00:01:33,020 --> 00:01:38,020
+As que vamos a echarle un vistazo.
+
+34
+00:01:38,480 --> 00:01:41,543
+De hecho, aqu tenemos nuestros consejos y nuestros valores finales, de acuerdo?
+
+35
+00:01:43,440 --> 00:01:45,880
+Entonces esto funcion.
+
+36
+00:01:45,880 --> 00:01:50,250
+Ya tenemos las propinas completamente implementadas tanto para Mark como
+
+37
+00:01:50,250 --> 00:01:51,330
+para John.
+
+38
+00:01:51,330 --> 00:01:54,930
+As que echemos un vistazo a cul es el siguiente paso
+
+39
+00:01:54,930 --> 00:01:57,540
+y es crear una funcin para calcular el
+
+40
+00:01:57,540 --> 00:02:00,800
+promedio de una determinada gama de consejos y luego, por
+
+41
+00:02:00,800 --> 00:02:04,230
+supuesto, calcular el promedio para cada familia que usa esa calculadora.
+
+42
+00:02:04,230 --> 00:02:06,470
+Entonces, finalmente, podemos iniciar sesin en la
+
+43
+00:02:06,470 --> 00:02:09,940
+consola, cul de las familias pag, en promedio, los mejores consejos.
+
+44
+00:02:09,940 --> 00:02:11,610
+Bien?
+
+45
+00:02:11,610 --> 00:02:15,220
+As que vamos a crear una funcin y voy a hacerlo aqu despus
+
+46
+00:02:15,220 --> 00:02:16,053
+de este objeto.
+
+47
+00:02:16,053 --> 00:02:17,230
+Por lo tanto, funcin calcAverage.
+
+48
+00:02:17,230 --> 00:02:20,120
+Va a recibir una matriz de consejos, de acuerdo?
+
+49
+00:02:20,120 --> 00:02:22,493
+As que ahora voy a hacer lo que te dije como una pista.
+
+50
+00:02:25,920 --> 00:02:29,440
+As que voy a comenzar con una variable
+
+51
+00:02:29,440 --> 00:02:32,910
+llamada sum, que comenzar en cero, de acuerdo?
+
+52
+00:02:32,910 --> 00:02:36,530
+As que al principio, por supuesto, o suma, es cero.
+
+53
+00:02:36,530 --> 00:02:38,650
+Ahora lo que tenemos que
+
+54
+00:02:38,650 --> 00:02:42,100
+hacer es recorrer las puntas y luego, en
+
+55
+00:02:42,100 --> 00:02:45,500
+cada iteracin, agregar el elemento actual a la suma.
+
+56
+00:02:45,500 --> 00:02:46,880
+Implementemos eso.
+
+57
+00:02:46,880 --> 00:02:49,343
+Entonces, antes y una vez ms comenzamos
+
+58
+00:02:50,360 --> 00:02:51,900
+con una variable llamada Y
+
+59
+00:02:51,900 --> 00:02:55,630
+I en cero, con I menos que las puntas de longitud. luego incrementamos I. Entonces esto es bastante estndar.
+
+60
+00:02:55,630 --> 00:02:58,700
+Ests viendo, en este punto,
+
+61
+00:02:58,700 --> 00:03:03,310
+que bsicamente siempre es lo mismo aqu, verdad?
+
+62
+00:03:05,330 --> 00:03:06,820
+Ahora, lo que hacemos es decir que la suma
+
+63
+00:03:06,820 --> 00:03:08,070
+debe ser igual a la suma actual, ms
+
+64
+00:03:08,070 --> 00:03:09,010
+las propinas y su posicin actual.
+
+65
+00:03:09,010 --> 00:03:11,920
+Bueno?
+
+66
+00:03:11,920 --> 00:03:15,690
+Tener sentido?
+
+67
+00:03:15,690 --> 00:03:19,210
+Entonces digamos que pasamos a la
+
+68
+00:03:19,210 --> 00:03:22,923
+matriz de dos, seis y cuatro.
+
+69
+00:03:24,230 --> 00:03:25,063
+Bien?
+
+70
+00:03:25,063 --> 00:03:25,896
+Entonces, al principio, nuestra
+
+71
+00:03:25,896 --> 00:03:27,370
+suma ser cero y luego ingresaremos al ciclo.
+
+72
+00:03:27,370 --> 00:03:31,150
+En este punto, tenemos que la suma es cero, ms el elemento
+
+73
+00:03:31,150 --> 00:03:31,983
+actual, que es
+
+74
+00:03:31,983 --> 00:03:34,360
+dos y as cero ms dos sern dos.
+
+75
+00:03:34,360 --> 00:03:36,400
+Entonces la nueva suma ser dos.
+
+76
+00:03:36,400 --> 00:03:39,080
+As que vamos a escribirlo aqu.
+
+77
+00:03:39,080 --> 00:03:40,550
+Comenzamos, por supuesto, con cero.
+
+78
+00:03:40,550 --> 00:03:44,050
+Despus de eso, tenemos dos y la siguiente iteracin, tenemos
+
+79
+00:03:44,050 --> 00:03:46,520
+dos aqu en la suma y luego
+
+80
+00:03:46,520 --> 00:03:49,120
+el elemento actual del ciclo es seis.
+
+81
+00:03:49,120 --> 00:03:51,380
+As que este aqu, verdad?
+
+82
+00:03:51,380 --> 00:03:54,780
+Entonces seis ms dos son entonces ocho, de acuerdo?
+
+83
+00:03:54,780 --> 00:03:57,820
+Ocho est asignado a esa suma de variables, de acuerdo?
+
+84
+00:03:57,820 --> 00:03:59,190
+Luego, en la siguiente iteracin,
+
+85
+00:03:59,190 --> 00:04:00,580
+la suma ser ocho y
+
+86
+00:04:00,580 --> 00:04:04,290
+ocho ms el elemento actual de la matriz, que es cuatro, finalmente ser 12.
+
+87
+00:04:04,290 --> 00:04:07,990
+Bueno?
+
+88
+00:04:07,990 --> 00:04:10,840
+Eso es.
+
+89
+00:04:10,840 --> 00:04:13,070
+Revisamos todo el conjunto y editamos todos estos elementos juntos
+
+90
+00:04:13,070 --> 00:04:15,433
+y, al final, terminamos con 12, que, por supuesto, es
+
+91
+00:04:16,630 --> 00:04:17,670
+el resultado de agregar todos
+
+92
+00:04:17,670 --> 00:04:18,700
+estos tres elementos juntos.
+
+93
+00:04:18,700 --> 00:04:21,130
+Bueno?
+
+94
+00:04:21,130 --> 00:04:22,870
+Es solo un ejemplo
+
+95
+00:04:22,870 --> 00:04:25,910
+solo para demostrar cmo funciona esta funcin.
+
+96
+00:04:25,910 --> 00:04:28,420
+Bueno, al final, todo lo que tenemos que hacer es devolver la suma dividida
+
+97
+00:04:28,420 --> 00:04:29,720
+por los elementos que estn en la matriz.
+
+98
+00:04:29,720 --> 00:04:31,820
+Entonces consejos. longitud.
+
+99
+00:04:31,820 --> 00:04:33,443
+Bueno?
+
+100
+00:04:35,850 --> 00:04:38,521
+Por ejemplo, en la matriz que
+
+101
+00:04:38,521 --> 00:04:43,330
+tenamos antes, tena tres elementos y, por lo tanto, consejos. la longitud sera tres.
+
+102
+00:04:43,330 --> 00:04:45,213
+El promedio sera 12 dividido
+
+103
+00:04:46,310 --> 00:04:47,143
+por tres, que seran cuatro.
+
+104
+00:04:47,143 --> 00:04:49,060
+Bueno?
+
+105
+00:04:49,060 --> 00:04:53,120
+As es como se calculan los promedios.
+
+106
+00:04:53,120 --> 00:04:55,710
+Ahora tenemos nuestros objetos, tenemos nuestra funcin calcAverage y
+
+107
+00:04:55,710 --> 00:04:57,330
+ahora, hagamos todos los clculos.
+
+108
+00:04:57,330 --> 00:04:58,163
+Ya calculamos los
+
+109
+00:04:58,163 --> 00:05:00,068
+consejos aqu, luego los registramos en la
+
+110
+00:05:00,068 --> 00:05:03,855
+consola solo para asegurarnos de que son correctos, luego tambin podemos calcular el promedio.
+
+111
+00:05:03,855 --> 00:05:05,955
+Lo que vamos a hacer aqu
+
+112
+00:05:08,350 --> 00:05:10,320
+es calcular el promedio y luego
+
+113
+00:05:10,320 --> 00:05:12,660
+almacenarlos dentro de cada objeto, est bien?
+
+114
+00:05:12,660 --> 00:05:16,744
+Voy a decir John. el promedio es calcAverage,
+
+115
+00:05:16,744 --> 00:05:19,120
+usando John. consejos, de acuerdo?
+
+116
+00:05:19,120 --> 00:05:21,430
+Y por qu John. consejos?
+
+117
+00:05:21,430 --> 00:05:23,860
+Bueno, eso es porque esta es la matriz en
+
+118
+00:05:23,860 --> 00:05:28,703
+la que se almacenan todos los consejos, verdad?
+
+119
+00:05:30,280 --> 00:05:33,810
+Entonces esa es la matriz que definimos aqu.
+
+120
+00:05:33,810 --> 00:05:35,500
+As que este punto puntea, de acuerdo?
+
+121
+00:05:35,500 --> 00:05:38,460
+As que aplicamos un parche en la funcin calcAverage,
+
+122
+00:05:38,460 --> 00:05:40,330
+que luego devolver el promedio y
+
+123
+00:05:40,330 --> 00:05:43,430
+lo almacenaremos en la propiedad promedio del objeto John.
+
+124
+00:05:43,430 --> 00:05:45,855
+Ahora puede preguntar, bueno, por qu no agregamos este
+
+125
+00:05:45,855 --> 00:05:48,780
+calcAverage aqu como un mtodo para cada uno de los objetos?
+
+126
+00:05:48,780 --> 00:05:51,080
+Bueno, no hicimos eso porque sera
+
+127
+00:05:51,080 --> 00:05:54,090
+cdigo duplicado, as que tenemos que tener exactamente
+
+128
+00:05:54,090 --> 00:05:56,480
+el mismo cdigo en ambos objetos.
+
+129
+00:05:56,480 --> 00:06:00,110
+Bsicamente, nos repetiramos con el mismo cdigo exacto y eso
+
+130
+00:06:00,110 --> 00:06:01,970
+no es bueno, de acuerdo?
+
+131
+00:06:01,970 --> 00:06:05,800
+Entonces, es mejor dejarlo aqu afuera, como esta funcin, luego
+
+132
+00:06:05,800 --> 00:06:07,449
+calcularlo afuera y luego
+
+133
+00:06:07,449 --> 00:06:09,405
+solo, bsicamente, agregarlo a cada objeto.
+
+134
+00:06:09,405 --> 00:06:12,950
+Lo hacemos con John y luego tambin
+
+135
+00:06:12,950 --> 00:06:15,180
+lo haremos con Mark.
+
+136
+00:06:15,180 --> 00:06:17,706
+Muy bien, entonces vamos a hacer este registro
+
+137
+00:06:17,706 --> 00:06:22,040
+de la consola aqu despus de eso para que tambin podamos ver los promedios
+
+138
+00:06:22,040 --> 00:06:23,480
+recin agregados, est bien?
+
+139
+00:06:23,480 --> 00:06:26,460
+Entonces intentemos eso ahora y, esperen, dnde est?
+
+140
+00:06:26,460 --> 00:06:29,320
+Aqu!
+
+141
+00:06:29,320 --> 00:06:31,220
+Aqu vamos.
+
+142
+00:06:31,220 --> 00:06:33,710
+Aqu est el promedio de
+
+143
+00:06:33,710 --> 00:06:38,050
+los tres o en realidad los cuatro consejos pagados.
+
+144
+00:06:38,050 --> 00:06:38,883
+Tenemos estos valores aqu y el promedio de ellos es 18.
+
+145
+00:06:38,883 --> 00:06:39,716
+En el caso
+
+146
+00:06:39,716 --> 00:06:40,885
+de Mark, estos son
+
+147
+00:06:40,885 --> 00:06:43,540
+los cuatro consejos y el promedio de eso es 38,
+
+148
+00:06:43,540 --> 00:06:47,283
+que es significativamente ms alto, simplemente debido a este gran consejo aqu con $ 118.
+
+149
+00:06:48,920 --> 00:06:52,490
+Bien.
+
+150
+00:06:52,490 --> 00:06:54,720
+Estos son los clculos para los promedios y ahora todo lo
+
+151
+00:06:54,720 --> 00:06:56,510
+que tenemos que hacer es realmente hacer la consola. Iniciar sesin.
+
+152
+00:06:56,510 --> 00:07:01,120
+Entonces si John. el promedio es ms grande que Mark. promedio entonces podemos decir,
+
+153
+00:07:01,120 --> 00:07:01,953
+consola. log por supuesto, entonces John. FullName, ahora
+
+154
+00:07:02,830 --> 00:07:05,490
+el escape, para escapar de la cita aqu.
+
+155
+00:07:05,490 --> 00:07:09,823
+La familia de John paga propinas ms altas con un
+
+156
+00:07:11,920 --> 00:07:16,920
+promedio de, y ahora la propina promedio.
+
+157
+00:07:21,890 --> 00:07:26,890
+(haciendo
+
+158
+00:07:30,980 --> 00:07:34,280
+clic) Bien. Mark est el promedio
+
+159
+00:07:34,280 --> 00:07:39,280
+Si es al revs, copiemos. aqu, Mark. es mayor que Juan. promedio, bueno entonces es, por
+
+160
+00:07:43,820 --> 00:07:46,200
+supuesto, al revs.
+
+161
+00:07:46,200 --> 00:07:48,450
+Marque y marque aqu tambin.
+
+162
+00:07:50,780 --> 00:07:51,613
+Bien.
+
+163
+00:07:51,613 --> 00:07:54,460
+Ese debera ser nuestro resultado final y, en l, la familia
+
+164
+00:07:58,370 --> 00:08:02,488
+de Mark Miller paga propinas ms altas con
+
+165
+00:08:02,488 --> 00:08:05,030
+un promedio de $ 38.
+
+166
+00:08:05,030 --> 00:08:07,503
+Bueno?
+
+167
+00:08:10,652 --> 00:08:13,740
+Solo para probar esto, disminuyamos este de 110 o, en
+
+168
+00:08:13,740 --> 00:08:14,730
+realidad, este aqu.
+
+169
+00:08:14,730 --> 00:08:17,990
+Aumentemos de 475 a cinco dlares.
+
+170
+00:08:17,990 --> 00:08:19,970
+Por lo tanto, el promedio debera disminuir entonces,
+
+171
+00:08:19,970 --> 00:08:22,900
+s, ahora la familia John Smith paga las propinas ms altas, con
+
+172
+00:08:22,900 --> 00:08:23,733
+un promedio de 18.
+
+173
+00:08:23,733 --> 00:08:26,270
+Bien.
+
+174
+00:08:26,270 --> 00:08:29,240
+Esa es la solucin a este desafo bastante ms
+
+175
+00:08:29,240 --> 00:08:32,823
+grande y tal vez un poco ms difcil y confuso, pero
+
+176
+00:08:33,870 --> 00:08:36,600
+espero que le haya gustado y que al
+
+177
+00:08:36,600 --> 00:08:39,020
+menos haya podido hacer parte de l.
+
+178
+00:08:39,020 --> 00:08:40,360
+Entiendo que si no lo hiciste todo, de acuerdo?
+
+179
+00:08:40,360 --> 00:08:41,390
+Entonces eso es, nuevamente, no hay problema.
+
+180
+00:08:41,390 --> 00:08:44,400
+No deberas sentirte mal por eso.
+
+181
+00:08:44,400 --> 00:08:47,900
+La parte ms importante es que lo intentes aqu y que pongas el tiempo
+
+182
+00:08:47,900 --> 00:08:49,300
+para tratar de resolver el desafo.
+
+183
+00:08:49,300 --> 00:08:51,700
+Eso es realmente todo lo que importa en este punto.
+
+184
+00:08:51,700 --> 00:08:54,300
+Hablo en serio aqu, de acuerdo?
+
+185
+00:08:54,300 --> 00:08:56,170
+Eso es realmente lo que ms importa.
+
+186
+00:08:56,170 --> 00:08:57,540
+De todos modos, ya
+
+187
+00:08:57,540 --> 00:08:59,740
+terminaste con la primera introduccin de JavaScript.
+
+188
+00:08:59,740 --> 00:09:02,820
+Felicidades por haber llegado tan
+
+189
+00:09:02,820 --> 00:09:05,270
+lejos en el curso.
+
+190
+00:09:05,270 --> 00:09:07,020
+Eso ya es un gran logro.
+
+191
+00:09:07,020 --> 00:09:09,820
+Ahora, algunos cursos de JavaScript se detienen en este punto
+
+192
+00:09:09,820 --> 00:09:12,140
+y consideran que usted sabe lo suficiente como
+
+193
+00:09:12,140 --> 00:09:14,070
+para escribir JavaScript por su cuenta.
+
+194
+00:09:14,070 --> 00:09:16,100
+Pero, por supuesto, eso est muy lejos de la verdad.
+
+195
+00:09:16,100 --> 00:09:16,940
+Ahora no me
+
+196
+00:09:16,940 --> 00:09:19,290
+malinterpretes, ya has aprendido mucho, est bien?
+
+197
+00:09:19,290 --> 00:09:21,730
+Pero en realidad estamos empezando, con
+
+198
+00:09:21,730 --> 00:09:23,740
+un gran contenido por todas
+
+199
+00:09:23,740 --> 00:09:25,350
+las prximas secciones.
+
+200
+00:09:25,350 --> 00:09:28,340
+De hecho, hay incluso un video ms en esta seccin, que
+
+201
+00:09:28,340 --> 00:09:29,240
+trata sobre versiones
+
+202
+00:09:29,240 --> 00:09:31,744
+de JavaScript, as que asegrese de no perderlo porque
+
+203
+00:09:31,744 --> 00:09:33,880
+tambin es importante saber ese tipo de cosas.
+
+204
+00:09:33,880 --> 00:09:35,990
+No se trata de codificar, pero sigue siendo importante, est bien?
+
+205
+00:09:35,990 --> 00:09:38,340
+As que espero que mires eso ahora mismo.
+
+206
+00:09:38,340 --> 00:09:40,220
+&nbsp;
+
+207
+00:09:40,220 --> 00:09:43,330
+&nbsp;
+
+208
+00:09:43,330 --> 00:09:45,770
+&nbsp;
+
+209
+00:09:45,770 --> 00:09:48,070
+&nbsp;
+
+210
+00:09:48,070 --> 00:09:50,630
+&nbsp;
+
+211
+00:09:50,630 --> 00:09:53,343
+&nbsp;
+

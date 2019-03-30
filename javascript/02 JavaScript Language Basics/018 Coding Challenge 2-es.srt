@@ -1,0 +1,204 @@
+1
+00:00:01,886 --> 00:00:04,023
+Jonas: Entonces, despus de aprender todo acerca
+
+2
+00:00:04,023 --> 00:00:06,403
+de los condicionales y los verdaderos valores falsos
+
+3
+00:00:06,403 --> 00:00:09,596
+en JavaScript, ahora es el momento para otro desafo de codificacin.
+
+4
+00:00:09,596 --> 00:00:12,202
+Entonces, digamos que John y Mike juegan
+
+5
+00:00:12,202 --> 00:00:13,805
+bsquetbol pero en equipos diferentes.
+
+6
+00:00:13,805 --> 00:00:15,221
+Y en los ltimos tres
+
+7
+00:00:15,221 --> 00:00:19,064
+juegos, el equipo de John ha anotado 89, 120 y 103 puntos.
+
+8
+00:00:19,064 --> 00:00:23,731
+Y el equipo de Mike ha anotado 116, 94 y 123 puntos, est bien.
+
+9
+00:00:24,567 --> 00:00:26,744
+Lo que quiero que hagas, es calcular
+
+10
+00:00:26,744 --> 00:00:29,275
+el puntaje promedio para cada equipo, luego decidir
+
+11
+00:00:29,275 --> 00:00:32,485
+qu equipo gana en promedio, por lo que el que
+
+12
+00:00:32,485 --> 00:00:34,354
+tenga el puntaje promedio ms alto
+
+13
+00:00:34,354 --> 00:00:36,914
+y luego imprimir el ganador a la consola.
+
+14
+00:00:36,914 --> 00:00:39,300
+Y cuando imprima ese ganador en la
+
+15
+00:00:39,300 --> 00:00:41,465
+consola, tambin incluya el puntaje promedio.
+
+16
+00:00:41,465 --> 00:00:44,426
+De acuerdo, entonces ya calculamos los promedios antes, as que
+
+17
+00:00:44,426 --> 00:00:46,858
+todo lo que tenemos que hacer es sumar
+
+18
+00:00:46,858 --> 00:00:49,244
+los valores y luego dividir por tres en
+
+19
+00:00:49,244 --> 00:00:51,537
+este caso, porque tenemos tres resultados aqu, est bien.
+
+20
+00:00:51,537 --> 00:00:53,156
+Y luego, lo que tambin
+
+21
+00:00:53,156 --> 00:00:56,715
+quera hacer es cambiar los puntajes para mostrar diferentes ganadores.
+
+22
+00:00:56,715 --> 00:00:59,124
+Y aqu, no olvides tener en
+
+23
+00:00:59,124 --> 00:01:01,359
+cuenta que podra haber un empate.
+
+24
+00:01:01,359 --> 00:01:04,644
+Entonces significa que hay el mismo puntaje promedio.
+
+25
+00:01:04,644 --> 00:01:06,461
+Y entonces, en tu declaracin falsa,
+
+26
+00:01:06,461 --> 00:01:08,656
+tendrs que tener eso en cuenta, est bien?
+
+27
+00:01:08,656 --> 00:01:11,808
+Ahora, despus de terminar eso, puede llevarlo al siguiente nivel
+
+28
+00:01:11,808 --> 00:01:13,625
+y agregar un poco ms.
+
+29
+00:01:13,625 --> 00:01:16,399
+Y en este caso, Mary tambin juega
+
+30
+00:01:16,399 --> 00:01:20,316
+baloncesto y su equipo ha anotado 97, 134 y 105 puntos.
+
+31
+00:01:21,937 --> 00:01:24,277
+Y como antes, quiero que registre el
+
+32
+00:01:24,277 --> 00:01:25,955
+ganador promedio para el consumo.
+
+33
+00:01:25,955 --> 00:01:27,417
+Entonces, lo que vas a tener
+
+34
+00:01:27,417 --> 00:01:29,188
+que hacer aqu, es verificar si uno
+
+35
+00:01:29,188 --> 00:01:31,754
+de los jugadores tiene un puntaje mayor que los otros dos.
+
+36
+00:01:31,754 --> 00:01:33,315
+De acuerdo, para poder
+
+37
+00:01:33,315 --> 00:01:35,399
+hacerlo, probablemente necesitar que el
+
+38
+00:01:35,399 --> 00:01:37,454
+operador final tome esa decisin.
+
+39
+00:01:37,454 --> 00:01:39,225
+De acuerdo, y si no
+
+40
+00:01:39,225 --> 00:01:41,605
+puedes resolver este, no hay problema.
+
+41
+00:01:41,605 --> 00:01:43,642
+Puedes mirar la solucin y
+
+42
+00:01:43,642 --> 00:01:45,982
+ver cmo lo hago all.
+
+43
+00:01:45,982 --> 00:01:48,217
+De acuerdo, lo ms importante es que
+
+44
+00:01:48,217 --> 00:01:50,986
+puedes hacer estos nmeros uno dos y tres.
+
+45
+00:01:50,986 --> 00:01:53,348
+Est bien, y si quieres llevarlo al siguiente nivel
+
+46
+00:01:53,348 --> 00:01:55,363
+aqu con el nmero cuatro, entonces eso tambin
+
+47
+00:01:55,363 --> 00:01:57,499
+es una gran adicin a este desafo, est bien.
+
+48
+00:01:57,499 --> 00:01:59,089
+As que tmate un par de
+
+49
+00:01:59,089 --> 00:02:01,586
+minutos aqu, tal vez media hora, y trata de
+
+50
+00:02:01,586 --> 00:02:02,642
+completar este desafo.
+
+51
+00:02:02,642 --> 00:02:07,309
+Y luego te ver en el siguiente video con una solucin.
+

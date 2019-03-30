@@ -1,0 +1,912 @@
+1
+00:00:00,890 --> 00:00:07,320
+Hey sono in questa conferenza continueremo a parlare di operatori e di precedenza degli operatori.
+
+2
+00:00:07,340 --> 00:00:13,430
+Quindi, per esempio, diciamo che vogliamo calcolare se John  un'et piena solo in base all'anno in
+
+3
+00:00:13,520 --> 00:00:14,480
+cui  nato.
+
+4
+00:00:14,840 --> 00:00:17,010
+Quindi dichiariamo prima un paio di variabili.
+
+5
+00:00:17,300 --> 00:00:19,790
+Quindi ora  il 2018
+
+6
+00:00:22,710 --> 00:00:30,990
+l'anno in cui Don  nato nel 1989 e poi definiamo anche per et variabile.
+
+7
+00:00:31,970 --> 00:00:35,370
+E questa  l'et in cui diventi ufficialmente maggiorenne.
+
+8
+00:00:35,420 --> 00:00:39,050
+Quindi nella maggior parte d'Europa ce ne sono 18 in U. S. sono le 21.
+
+9
+00:00:39,050 --> 00:00:42,540
+Non sono sicuro, ma usiamo 18 qui per questo esempio.
+
+10
+00:00:42,710 --> 00:00:43,220
+OK.
+
+11
+00:00:43,400 --> 00:00:49,040
+E cos possiamo fare  calcolare l'et e poi confrontarla con una squadra qui e ci manca ovviamente
+
+12
+00:00:49,130 --> 00:00:50,380
+il segno di parit.
+
+13
+00:00:50,660 --> 00:00:54,860
+E quindi quello che voglio fare  fare tutto questo calcolo tutto in una riga.
+
+14
+00:00:55,150 --> 00:00:55,820
+OK.
+
+15
+00:00:55,940 --> 00:01:05,300
+Quindi la barra  piena otto e poi uguale ora meno anno John.
+
+16
+00:01:05,360 --> 00:01:11,720
+E calcoler l'et e poi verificher se  maggiore o uguale alla maggiore et.
+
+17
+00:01:12,350 --> 00:01:12,770
+OK.
+
+18
+00:01:12,890 --> 00:01:14,180
+Quindi non ha senso.
+
+19
+00:01:14,450 --> 00:01:17,830
+Diamo un'occhiata a questo e proviamo a capire perch questo funziona.
+
+20
+00:01:17,930 --> 00:01:20,240
+Quindi vedrai che abbiamo in realt due operatori.
+
+21
+00:01:20,270 --> 00:01:25,450
+Abbiamo i minori e quindi questo logico un operatore maggiore o uguale tutto in una riga.
+
+22
+00:01:25,460 --> 00:01:26,390
+Quindi tutto qui.
+
+23
+00:01:26,550 --> 00:01:30,590
+Ora come fa dabbas potrebbe sapere quale operatore in realt eseguire prima.
+
+24
+00:01:30,650 --> 00:01:33,950
+Perch immagina che questo primo anno venga eseguito.
+
+25
+00:01:34,130 --> 00:01:39,620
+Quindi dovremmo chiedere se il tuo John  maggiore o uguale di et che restituirebbe un valore vero
+
+26
+00:01:39,860 --> 00:01:43,350
+o falso e quindi faremo ora meno questo valore vero o falso.
+
+27
+00:01:43,350 --> 00:01:45,290
+E quindi questo non sarebbe niente di significativo.
+
+28
+00:01:45,290 --> 00:01:48,050
+Quindi questo non sarebbe quello che vogliamo.
+
+29
+00:01:48,050 --> 00:01:50,970
+Invece quello che vogliamo  che quest'anno venga eseguito per primo.
+
+30
+00:01:51,050 --> 00:01:55,670
+Quindi ora meno l'anno di Giovanni e poi vogliamo confrontare quell'et con la piena et.
+
+31
+00:01:55,850 --> 00:02:03,820
+Quindi quest'anno funziona e testiamo davvero questo e ti mostrer il motivo per cui in un secondo.
+
+32
+00:02:04,490 --> 00:02:04,970
+OK.
+
+33
+00:02:05,240 --> 00:02:07,500
+Quindi questo in realt ritorna vero.
+
+34
+00:02:07,670 --> 00:02:09,500
+E ovviamente John  in piena et.
+
+35
+00:02:09,560 --> 00:02:13,300
+Cos, nel 2018, nato nel 1989, ha 29 anni.
+
+36
+00:02:13,370 --> 00:02:17,400
+E quindi ovviamente ora  maggiorenne per capire perch questo funziona qui.
+
+37
+00:02:17,480 --> 00:02:23,730
+Dobbiamo pensare ai procedimenti dell'operatore che significa quale operatore  eseguito per primo.
+
+38
+00:02:23,840 --> 00:02:29,750
+Quindi, se vieni qui alla mia pagina delle risorse pubblicando gli eroi che iniziano a tagliare le
+
+39
+00:02:29,750 --> 00:02:33,800
+risorse qui nella sezione javascript, troverai le pre-stagioni dell'operatore di Dare.
+
+40
+00:02:34,130 --> 00:02:34,500
+OK.
+
+41
+00:02:34,640 --> 00:02:37,660
+Quindi apriamo il link e finiamo qui.
+
+42
+00:02:37,670 --> 00:02:40,070
+Abbiamo la tabella dei procedimenti dell'operatore.
+
+43
+00:02:40,340 --> 00:02:45,770
+E quindi quello che vediamo qui  che gli operatori che sono qui in cima alla lista verranno eseguiti
+
+44
+00:02:45,890 --> 00:02:46,630
+prima degli altri.
+
+45
+00:02:46,640 --> 00:02:51,800
+Quindi vedi che quello con i proventi pi alti sta usando questo raggruppamento qui con i principi e
+
+46
+00:02:51,800 --> 00:02:53,440
+te lo mostrer in un secondo.
+
+47
+00:02:53,630 --> 00:03:01,040
+Ma ci che ci interessa qui  o pi un operatore in realt o meno che solo questo e
+
+48
+00:03:01,130 --> 00:03:04,070
+o un operatore logico pi grande o uguale.
+
+49
+00:03:04,070 --> 00:03:05,010
+Quindi questo qui.
+
+50
+00:03:05,150 --> 00:03:10,630
+E quindi quello che possiamo vedere dalla tabella  che l'operatore D-min ha un ricavato di 16.
+
+51
+00:03:10,760 --> 00:03:16,640
+OK, ecco che cosa ha valore qui  procedere in valore che  maggiore di quello dell'operatore
+
+52
+00:03:16,670 --> 00:03:19,190
+maggiore o uguale che  solo 11.
+
+53
+00:03:19,190 --> 00:03:22,780
+E quindi, ci significa che questo anno meno sar eseguito per primo.
+
+54
+00:03:22,790 --> 00:03:27,020
+E cos tutto questo viene eseguito prima e poi finiamo con un risultato qui.
+
+55
+00:03:27,140 --> 00:03:33,500
+Quindi in questo caso sar 29 e solo dopo tale 29 verr confrontato con l'et intera con
+
+56
+00:03:33,500 --> 00:03:37,260
+questo operatore che ha una precedenza inferiore con solo 11.
+
+57
+00:03:37,430 --> 00:03:37,970
+Va bene.
+
+58
+00:03:38,360 --> 00:03:42,900
+E cos dopo questo ci ritroviamo con un risultato che in questo caso sar falso.
+
+59
+00:03:43,150 --> 00:03:45,250
+Quindi  proprio qui.
+
+60
+00:03:45,350 --> 00:03:46,660
+In realt  vero.
+
+61
+00:03:46,730 --> 00:03:50,670
+E cos ora abbiamo var  full h uguale a true.
+
+62
+00:03:51,110 --> 00:03:54,690
+E quello che voglio mostrarti  che  lo stesso operatore uguale.
+
+63
+00:03:54,890 --> 00:03:55,770
+E dove si trova.
+
+64
+00:03:55,790 --> 00:03:56,570
+Ecco qui.
+
+65
+00:03:56,600 --> 00:04:01,100
+Quindi l'operatore di assegnazione come viene chiamato  anche un operatore stesso.
+
+66
+00:04:01,100 --> 00:04:04,560
+E te ne ho parlato in una delle ultime conferenze e ora ha senso.
+
+67
+00:04:04,790 --> 00:04:05,110
+Va bene.
+
+68
+00:04:05,150 --> 00:04:10,680
+Quindi vedi che l'operatore uguale  quello con il pi basso o quasi uno dei proventi pi bassi.
+
+69
+00:04:10,820 --> 00:04:16,010
+E questo ha perfettamente senso, perch ovviamente vogliamo che l'incarico avvenga come l'ultimo passo.
+
+70
+00:04:16,010 --> 00:04:22,070
+Quindi, dopo che tutti gli altri operatori hanno fatto il loro lavoro in questo caso i nostri minatori e / o uguali o
+
+71
+00:04:22,070 --> 00:04:26,190
+maggiori di OPERATORE hanno tutti fatto il loro lavoro ora e finiamo con un risultato vero.
+
+72
+00:04:26,360 --> 00:04:30,500
+E cos come un passo finale viene quindi assegnato alla variabile full age.
+
+73
+00:04:30,500 --> 00:04:31,140
+Tutto ok.
+
+74
+00:04:31,140 --> 00:04:32,270
+Ha senso.
+
+75
+00:04:32,270 --> 00:04:36,170
+Quindi in realt non abbiamo solo 2 operatori ma ne abbiamo tre.
+
+76
+00:04:36,230 --> 00:04:39,750
+Il primo che viene eseguito  questo e questo.
+
+77
+00:04:39,860 --> 00:04:42,570
+E infine l'operatore di assegnazione.
+
+78
+00:04:42,570 --> 00:04:43,340
+Tutto ok.
+
+79
+00:04:43,370 --> 00:04:48,410
+E ogni volta che abbiamo bisogno di sapere se qualcosa funziona o l'ordine in cui i nostri
+
+80
+00:04:48,410 --> 00:04:54,750
+operatori funzionano, puoi sempre consultare questa tabella, ecco perch l'ho messo alla tua destra sulla mia pagina delle risorse sotto la
+
+81
+00:04:54,750 --> 00:04:55,570
+sezione giroscopio.
+
+82
+00:04:56,000 --> 00:04:56,450
+Tutto ok.
+
+83
+00:04:56,630 --> 00:05:02,260
+Quindi non guardiamo un altro esempio in cui vogliamo calcolare l'et media di John e del suo amico.
+
+84
+00:05:02,320 --> 00:05:09,700
+Diciamo che all'et di Giovanni, perch non l'abbiamo calcolato, lo abbiamo calcolato solo qui.
+
+85
+00:05:10,240 --> 00:05:12,120
+Quindi  cresciuto quest'anno.
+
+86
+00:05:12,430 --> 00:05:15,050
+Quindi adesso meno l'anno John.
+
+87
+00:05:15,370 --> 00:05:20,790
+E poi l'et di Mark e questo vuol dire che  trentacinque senza calcoli qui.
+
+88
+00:05:20,980 --> 00:05:28,500
+E quindi la media sar fondamentalmente calcolare la somma e poi dividerla per 2.
+
+89
+00:05:28,510 --> 00:05:32,820
+Quindi invecchiare Don pi l'et Mark.
+
+90
+00:05:32,810 --> 00:05:34,520
+Dividilo per due.
+
+91
+00:05:34,690 --> 00:05:36,160
+Ma questo non  proprio corretto.
+
+92
+00:05:36,160 --> 00:05:36,610
+Destra.
+
+93
+00:05:36,640 --> 00:05:40,080
+E sai che proviene dal tuo corso di matematica che avevi a scuola probabilmente.
+
+94
+00:05:40,150 --> 00:05:42,680
+E cos sai che  qui che divide l'operatore.
+
+95
+00:05:42,760 --> 00:05:45,470
+Avremo pre-stagioni o D-plus.
+
+96
+00:05:45,680 --> 00:05:52,390
+Quindi questo  confermato e in javascript Funziona anche cos e puoi vederlo qui.
+
+97
+00:05:52,690 --> 00:05:57,770
+Quindi la divisione qui ha un precedente pi alto o 14 rispetto all'aggiunta di 13.
+
+98
+00:05:57,970 --> 00:06:03,490
+E in realt quando abbiamo parlato dell'esempio qui ho erroneamente usato questo operatore qui che 
+
+99
+00:06:03,490 --> 00:06:05,650
+l'unit pi, ma intendevo questo qui.
+
+100
+00:06:05,710 --> 00:06:11,730
+Quindi, questo operatore di addizione, ma ovviamente ha ancora le procedure pi elevate e il fatto che McCay sia pi importante
+
+101
+00:06:11,800 --> 00:06:12,850
+non ha molta importanza.
+
+102
+00:06:12,860 --> 00:06:18,830
+L'utilizzo di questo anno o di un operatore funebre plus  un operatore diverso.
+
+103
+00:06:18,940 --> 00:06:24,610
+Ma in termini di procedimenti  ancora superiore a questo operatore logico OK.
+
+104
+00:06:24,670 --> 00:06:30,760
+In ogni caso, quello che dobbiamo fare qui  raggruppare questo insieme con le parentesi, proprio come probabilmente avete imparato
+
+105
+00:06:30,820 --> 00:06:32,350
+nella vostra classe di matematica.
+
+106
+00:06:32,440 --> 00:06:38,340
+E questo ha senso perch vediamo qui che con la massima persistenza abbiamo il raggruppamento.
+
+107
+00:06:38,500 --> 00:06:40,810
+OK, quindi sta usando le parentesi.
+
+108
+00:06:40,930 --> 00:06:48,020
+E quindi se lo facciamo bene allora questa operazione qui ha i presidenti pi alti.
+
+109
+00:06:48,160 --> 00:06:51,150
+Quindi per prima cosa sommiamo l'et di John e Mark.
+
+110
+00:06:51,280 --> 00:06:58,420
+E solo allora possiamo dividerlo per due al fine di creare l'et media.
+
+111
+00:06:58,480 --> 00:07:00,690
+Quindi diamo un'occhiata alla console.
+
+112
+00:07:02,740 --> 00:07:05,090
+Solo per assicurarsi che tutto funzioni correttamente.
+
+113
+00:07:05,170 --> 00:07:07,500
+E cos infatti  32.
+
+114
+00:07:07,660 --> 00:07:08,540
+E questo perch
+
+115
+00:07:08,650 --> 00:07:10,920
+E facciamolo rapidamente qui nella console.
+
+116
+00:07:10,960 --> 00:07:16,030
+Trentacinque pi 29 in 64 e 64 divisi per due.
+
+117
+00:07:16,240 --> 00:07:16,890
+S, naturalmente.
+
+118
+00:07:16,900 --> 00:07:18,220
+Trentadue.
+
+119
+00:07:18,220 --> 00:07:20,200
+Quindi il calcolo qui  corretto.
+
+120
+00:07:20,200 --> 00:07:21,580
+Aggiungiamo solo alcuni commenti,
+
+121
+00:07:25,570 --> 00:07:28,140
+quindi questo  ci che fanno pi operatori.
+
+122
+00:07:28,570 --> 00:07:31,330
+E qui abbiamo raggruppamento.
+
+123
+00:07:31,490 --> 00:07:40,210
+E ora facciamo qualche altro esempio con raggruppamenti e assegnazioni multiple.
+
+124
+00:07:40,950 --> 00:07:46,230
+Quindi diciamo che hai un valore che vogliamo assegnare a pi variabili contemporaneamente e che
+
+125
+00:07:46,230 --> 00:07:47,960
+ totalmente possibile in Javascript.
+
+126
+00:07:48,240 --> 00:07:51,590
+E quindi creiamo due variabili xey.
+
+127
+00:07:51,890 --> 00:07:56,490
+E cos ora non sto veramente creando variabili con un nome significativo qui, ma non c' problema.
+
+128
+00:07:56,490 --> 00:07:59,140
+Questo  solo che stiamo facendo alcune operazioni matematiche.
+
+129
+00:07:59,190 --> 00:07:59,790
+OK.
+
+130
+00:07:59,980 --> 00:08:07,890
+Quindi iniziamo dicendo che X  uguale e solo le operazioni matematiche qui diciamo tre pi
+
+131
+00:08:08,970 --> 00:08:12,760
+cinque e dieci volte per meno sei.
+
+132
+00:08:12,760 --> 00:08:13,100
+OK.
+
+133
+00:08:13,170 --> 00:08:14,900
+Quindi solo qualcosa come questo.
+
+134
+00:08:14,940 --> 00:08:17,700
+E quindi sappiamo gi che ci avr preceduto qui.
+
+135
+00:08:17,700 --> 00:08:18,660
+Destra.
+
+136
+00:08:18,660 --> 00:08:22,480
+Quindi il raggruppamento ha delle procedure e questo diventer 8.
+
+137
+00:08:22,530 --> 00:08:24,300
+E cos in realt proprio qui sotto.
+
+138
+00:08:24,300 --> 00:08:29,790
+Quindi, dopo il primo passo, abbiamo otto volte quattro meno sei.
+
+139
+00:08:29,970 --> 00:08:33,570
+Quindi il prossimo passo sar questa moltiplicazione qui a destra.
+
+140
+00:08:33,570 --> 00:08:40,800
+Quindi otto volte quattro  trenta 32 e un sei e alla fine  scomparso e si  rivelato essere ventisei.
+
+141
+00:08:40,920 --> 00:08:41,540
+OK.
+
+142
+00:08:41,880 --> 00:08:43,630
+Quindi X avr 26 anni.
+
+143
+00:08:43,650 --> 00:08:51,110
+E questo  guardato al console solo per essere sicuro ed effettivamente eccolo qui.
+
+144
+00:08:51,130 --> 00:08:54,110
+Quindi 26  il risultato di questo calcolo.
+
+145
+00:08:54,370 --> 00:08:59,850
+E cos come prima ha fatto tutte queste operazioni e solo allora ha fatto il compito.
+
+146
+00:09:00,040 --> 00:09:06,730
+Ora se volessi assegnarlo a X e Y allo stesso tempo, potremmo fare semplicemente X uguale
+
+147
+00:09:06,730 --> 00:09:10,400
+a Y e quindi equivale a questo intero calcolo.
+
+148
+00:09:10,450 --> 00:09:13,270
+Ora la domanda qui  perch questo funziona davvero.
+
+149
+00:09:13,270 --> 00:09:17,890
+Immagina di leggere questa riga qui e vediamo che x  uguale a Y.
+
+150
+00:09:18,030 --> 00:09:20,320
+E quindi a questo punto perch  ancora indefinito.
+
+151
+00:09:20,350 --> 00:09:24,100
+Giusto perch non abbiamo definito alcun valore per questo prima di questa linea.
+
+152
+00:09:24,100 --> 00:09:30,610
+E quindi sarebbe logico che x sarebbe indefinito a questo punto, ma non lo .
+
+153
+00:09:30,650 --> 00:09:32,010
+Diamo un'occhiata a quello realmente.
+
+154
+00:09:32,230 --> 00:09:36,760
+E questo  qualcosa che non abbiamo fatto prima di bloccare due cose contemporaneamente, quindi
+
+155
+00:09:36,760 --> 00:09:41,400
+non possiamo dire cancel log e quindi x e quindi una virgola e quindi un'altra variabile.
+
+156
+00:09:41,830 --> 00:09:44,020
+E cos vediamo 26 e 26.
+
+157
+00:09:44,050 --> 00:09:47,270
+Quindi due risultati contemporaneamente con un blocco della console.
+
+158
+00:09:47,320 --> 00:09:52,470
+E quindi quello che vediamo qui  che 26 non  indefinito che sarebbe logico.
+
+159
+00:09:52,570 --> 00:09:55,870
+Quindi di nuovo perch perch non  definito a questo punto.
+
+160
+00:09:55,870 --> 00:10:02,110
+E se diciamo che X  uguale a qualcosa che non  definito, allora anche X dovrebbe essere un neofita, ma non
+
+161
+00:10:02,110 --> 00:10:02,550
+lo .
+
+162
+00:10:02,740 --> 00:10:05,120
+E quindi diamo un'occhiata al motivo per cui ci accade.
+
+163
+00:10:05,350 --> 00:10:08,610
+E posso mostrarlo di nuovo qui al tavolo.
+
+164
+00:10:08,650 --> 00:10:13,540
+Quindi abbiamo due presidenti qui che abbiamo gi parlato prima, ma dobbiamo anche associarci.
+
+165
+00:10:13,690 --> 00:10:18,390
+E ci che questo significa semplicemente  la direzione in cui viene eseguita l'operazione.
+
+166
+00:10:18,400 --> 00:10:25,710
+Quindi se veniamo qui per esempio la moltiplicazione o l'addizione abbiamo lasciato a destra.
+
+167
+00:10:25,720 --> 00:10:26,050
+OK.
+
+168
+00:10:26,080 --> 00:10:34,780
+Quindi, tutto ci significa che, ad esempio, se avessimo aggiunto un commento se avessimo due pi quattro pi cinque, lo faremo
+
+169
+00:10:34,780 --> 00:10:37,060
+dal lato sinistro al lato destro.
+
+170
+00:10:37,060 --> 00:10:41,890
+Quindi per noi a due pi quattro che  sei e poi sei pi cinque a 11.
+
+171
+00:10:42,130 --> 00:10:44,680
+Ma ci sono alcuni operatori che funzionano al contrario.
+
+172
+00:10:44,830 --> 00:10:50,140
+Quindi, da destra a sinistra e l'operatore di assegnazione  uno di loro.
+
+173
+00:10:50,140 --> 00:10:54,320
+Quindi qui abbiamo compiti di assegnazione e assegnazione da destra a sinistra.
+
+174
+00:10:54,400 --> 00:10:56,370
+OK, questo  il contrario.
+
+175
+00:10:56,390 --> 00:11:01,900
+Ed ecco perch questo pezzo di codice qui funziona davvero perch finiamo con il risultato qui
+
+176
+00:11:01,980 --> 00:11:05,500
+di 26 e quindi l'assegnazione funziona da destra a sinistra.
+
+177
+00:11:05,500 --> 00:11:11,950
+Quindi non inizia facendo X uguale a Y, ma inizia a dire Y uguale a 26.
+
+178
+00:11:12,070 --> 00:11:15,260
+E solo allora X  uguale a 26.
+
+179
+00:11:15,430 --> 00:11:15,840
+OK.
+
+180
+00:11:15,910 --> 00:11:16,940
+Ha senso.
+
+181
+00:11:17,260 --> 00:11:23,460
+Quindi, ancora una volta l'operatore di assegnazione lavora non da sinistra a destra, ma da destra a sinistra.
+
+182
+00:11:23,530 --> 00:11:29,470
+E cos qui finiamo con un risultato di 26 e poi Dennis assegnato a Y e poi di nuovo
+
+183
+00:11:29,620 --> 00:11:35,170
+morto a sua volta  assegnato a x e quindi quindi finiamo con 26 in entrambe queste variabili.
+
+184
+00:11:35,410 --> 00:11:35,990
+OK.
+
+185
+00:11:36,190 --> 00:11:38,030
+Quindi c' la sensibilit.
+
+186
+00:11:38,080 --> 00:11:40,330
+C' la seconda parte del tavolo che volevo mostrare.
+
+187
+00:11:40,390 --> 00:11:44,840
+Quindi non dobbiamo solo tenere a mente i presidenti, ma anche la sensibilit.
+
+188
+00:11:44,840 --> 00:11:45,590
+Tutto ok.
+
+189
+00:11:45,720 --> 00:11:49,060
+E ora, solo per finire questa lezione, voglio solo mostrarti altri
+
+190
+00:11:51,740 --> 00:11:53,850
+operatori, quindi diciamo che volevamo raddoppiare x.
+
+191
+00:11:53,930 --> 00:11:59,100
+Quindi qualcosa come X  uguale a x volte 2 a destra.
+
+192
+00:11:59,210 --> 00:12:00,860
+Quindi questo sarebbe il doppio di x.
+
+193
+00:12:00,920 --> 00:12:04,040
+Ma vedi che ripetiamo effettivamente la X qui.
+
+194
+00:12:04,220 --> 00:12:11,360
+E cos in javascript c' un modo per renderlo un po 'pi semplice che sta semplicemente dicendo X
+
+195
+00:12:11,720 --> 00:12:12,890
+moltiplicare uguale a.
+
+196
+00:12:13,100 --> 00:12:13,440
+OK.
+
+197
+00:12:13,490 --> 00:12:15,950
+E quindi questa  esattamente la stessa cosa.
+
+198
+00:12:15,950 --> 00:12:22,110
+Quindi, questo significa che fondamentalmente far x volte 2 senza di noi dover scrivere che X volte l'anno come
+
+199
+00:12:22,120 --> 00:12:23,190
+abbiamo fatto qui.
+
+200
+00:12:23,300 --> 00:12:23,750
+OK.
+
+201
+00:12:23,850 --> 00:12:26,310
+Diamo un'occhiata al risultato.
+
+202
+00:12:30,790 --> 00:12:38,200
+E cos 52  effettivamente 26 volte due che era X prima e la stessa cosa avrebbe funzionato per pi meno
+
+203
+00:12:38,200 --> 00:12:38,830
+o moltiplica.
+
+204
+00:12:39,040 --> 00:12:42,380
+Quindi possiamo dire che X pi uguale a 10.
+
+205
+00:12:42,460 --> 00:12:45,090
+E quindi cosa pensi che questo si riveler essere.
+
+206
+00:12:46,540 --> 00:12:50,290
+E spero che tu abbia indovinato 62 giusto.
+
+207
+00:12:50,320 --> 00:12:53,800
+Quindi questo  il risultato di prima pi 10.
+
+208
+00:12:53,890 --> 00:12:58,270
+Quindi  esattamente la stessa cosa che X rossa equivale a x pi 10.
+
+209
+00:12:58,270 --> 00:13:01,600
+Va bene cos che rende le nostre vite un po 'pi facili.
+
+210
+00:13:01,870 --> 00:13:07,930
+E questi operatori li hanno qui sotto nella sezione dei compiti perch ci sono in realt degli operatori
+
+211
+00:13:07,960 --> 00:13:11,540
+di assegnazione proprio come il normale operatore di assegnazione OK.
+
+212
+00:13:11,740 --> 00:13:16,540
+E non solo l'ultimo che voglio mostrarti  l'incremento.
+
+213
+00:13:16,540 --> 00:13:23,010
+Quindi quello che possiamo fare invece di scrivere X uguale a x pi uno sarebbe scriverlo in questo modo.
+
+214
+00:13:23,050 --> 00:13:27,240
+Quindi potremmo fare X pi uguale a 1.
+
+215
+00:13:27,340 --> 00:13:33,320
+Ma c' un modo ancora pi semplice se vogliamo solo aggiungerne uno ed  semplicemente scrivere X plus plus.
+
+216
+00:13:33,430 --> 00:13:38,900
+E cos questo operatore aggiunge semplicemente un'unit alla variabile su cui stiamo usando questo operatore.
+
+217
+00:13:38,980 --> 00:13:39,590
+OK.
+
+218
+00:13:39,790 --> 00:13:41,460
+Quindi questa  la stessa cosa qui.
+
+219
+00:13:41,560 --> 00:13:46,450
+Ma ovviamente questo  il pi facile da scrivere e per chiunque altro.
+
+220
+00:13:46,450 --> 00:13:50,960
+Quindi, solo per dimostrarti che funziona, diamo un'occhiata anche alla console.
+
+221
+00:13:50,980 --> 00:13:55,830
+E cos  ovviamente 63 e allo stesso modo funziona con meno meno.
+
+222
+00:13:55,930 --> 00:13:59,150
+E cos adesso dovrebbe essere un'idea.
+
+223
+00:13:59,260 --> 00:14:00,280
+Certo che lo .
+
+224
+00:14:00,680 --> 00:14:02,740
+Quindi c'era molto da fare.
+
+225
+00:14:02,770 --> 00:14:07,940
+Fino a questo punto imparerai tutto sui tipi di dati delle variabili e anche sugli operatori.
+
+226
+00:14:07,960 --> 00:14:11,020
+Quindi spero che abbia senso per te che ti stai divertendo un po '.
+
+227
+00:14:11,080 --> 00:14:16,600
+E cos il prossimo arriva una sfida di codifica in cui puoi mettere tutte queste nuove abilit da praticare in
+
+228
+00:14:16,750 --> 00:14:19,960
+una divertente e piccola sfida che hanno per te nel prossimo video.
+
