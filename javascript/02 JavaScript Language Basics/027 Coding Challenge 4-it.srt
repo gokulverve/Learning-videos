@@ -1,0 +1,116 @@
+1
+00:00:01,120 --> 00:00:03,100
+Istruttore:  di nuovo il momento della sfida di codifica.
+
+2
+00:00:03,100 --> 00:00:04,610
+Quindi eccoci qui.
+
+3
+00:00:04,610 --> 00:00:06,980
+E ricordiamo la prima sfida di codifica, in
+
+4
+00:00:06,980 --> 00:00:10,770
+cui Mark e John hanno confrontato i loro indici di massa corporea.
+
+5
+00:00:10,770 --> 00:00:13,400
+Quindi implementiamo ora la stessa funzionalit, ma
+
+6
+00:00:13,400 --> 00:00:15,990
+questa volta con oggetti e metodi.
+
+7
+00:00:15,990 --> 00:00:18,720
+Quindi, per ognuno di essi, crea un oggetto
+
+8
+00:00:18,720 --> 00:00:21,920
+con propriet per il nome completo, la massa e
+
+9
+00:00:21,920 --> 00:00:25,720
+l'altezza, quindi aggiungi un metodo a ciascun oggetto per calcolare l'IMC.
+
+10
+00:00:25,720 --> 00:00:28,620
+E quello che voglio che tu faccia qui
+
+11
+00:00:28,620 --> 00:00:32,050
+ salvare il BMI sull'oggetto e anche restituirlo dal metodo.
+
+12
+00:00:32,050 --> 00:00:34,590
+E poi alla fine, voglio che tu acceda
+
+13
+00:00:34,590 --> 00:00:37,900
+alla console che ha il BMI pi alto, insieme al nome
+
+14
+00:00:37,900 --> 00:00:40,100
+completo e al rispettivo valore di BMI.
+
+15
+00:00:40,100 --> 00:00:40,933
+Tutto ok?
+
+16
+00:00:40,933 --> 00:00:43,280
+E ancora, non dimenticare che in realt potrebbero avere
+
+17
+00:00:43,280 --> 00:00:44,960
+lo stesso indice di massa corporea.
+
+18
+00:00:44,960 --> 00:00:47,350
+E se non ricordi la formula per il
+
+19
+00:00:47,350 --> 00:00:50,410
+calcolo dell'indice di massa corporea, allora  di nuovo qui.
+
+20
+00:00:50,410 --> 00:00:52,590
+E puoi anche tornare all'altra sfida
+
+21
+00:00:52,590 --> 00:00:54,240
+e trovare la soluzione l.
+
+22
+00:00:54,240 --> 00:00:56,670
+Basta tenere a mente che la massa deve
+
+23
+00:00:56,670 --> 00:00:58,840
+essere in chilogrammo e l'altezza in metri.
+
+24
+00:00:58,840 --> 00:00:59,673
+Va bene?
+
+25
+00:00:59,673 --> 00:01:02,800
+Quindi, di nuovo, sta usando la conoscenza che abbiamo appena
+
+26
+00:01:02,800 --> 00:01:04,270
+appreso nelle ultime due lezioni.
+
+27
+00:01:04,270 --> 00:01:05,950
+Quindi penso che questo sia un modo
+
+28
+00:01:05,950 --> 00:01:08,100
+divertente per te di mantenere immediatamente questa conoscenza.
+
+29
+00:01:08,100 --> 00:01:11,293
+Ok, allora buona fortuna e ci vediamo una volta che hai finito.
+

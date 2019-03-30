@@ -1,0 +1,820 @@
+1
+00:00:01,050 --> 00:00:02,300
+Jonas: Tekrar hogeldin.
+
+2
+00:00:02,300 --> 00:00:05,360
+Bu derste size, JavaScript dilinin en
+
+3
+00:00:05,360 --> 00:00:07,880
+nemli zellii olan nesneler iin
+
+4
+00:00:07,880 --> 00:00:09,430
+bir giri yapacam.
+
+5
+00:00:09,430 --> 00:00:10,593
+Hadi balayalm.
+
+6
+00:00:11,460 --> 00:00:13,700
+Yani, bizim rendiimiz diziler
+
+7
+00:00:13,700 --> 00:00:16,230
+ok kullanldr ve tabii ki,
+
+8
+00:00:16,230 --> 00:00:19,090
+JavaScript programlamasnda ok fazla kullanlmaktadr.
+
+9
+00:00:19,090 --> 00:00:21,780
+Ama dizinin bir esine dizinine
+
+10
+00:00:21,780 --> 00:00:25,700
+deil, belirli bir ada gre erimek istediinizi dnn.
+
+11
+00:00:25,700 --> 00:00:28,350
+Yani, temel olarak her bir deeri adlandryoruz.
+
+12
+00:00:28,350 --> 00:00:30,690
+Ve dizilerle, elbette, bunu
+
+13
+00:00:30,690 --> 00:00:32,580
+yapamazsn, ama nesnelerle yapabilirsin.
+
+14
+00:00:32,580 --> 00:00:35,280
+Yani nesnelerde, anahtar deer iftlerini tanmlarz,
+
+15
+00:00:35,280 --> 00:00:37,970
+yani her bir deerin anahtar olarak
+
+16
+00:00:37,970 --> 00:00:39,730
+adlandrlan bir ismi vardr.
+
+17
+00:00:39,730 --> 00:00:41,070
+Dolaysyla, basit anlamda,
+
+18
+00:00:41,070 --> 00:00:44,290
+birbirine ait olan ve belirli bir sraya sahip
+
+19
+00:00:44,290 --> 00:00:47,530
+olmayan farkl deikenleri bir araya getirmek iin nesneleri kullanabiliriz.
+
+20
+00:00:47,530 --> 00:00:49,780
+Mesela, gemiteki tm
+
+21
+00:00:49,780 --> 00:00:52,900
+derslerde bahsettiimiz John'un zellikleri gibi.
+
+22
+00:00:52,900 --> 00:00:55,810
+Yani, diziler ve nesneler arasndaki temel
+
+23
+00:00:55,810 --> 00:00:58,320
+bir fark, dizilerde, nesnenin ok nemli
+
+24
+00:00:58,320 --> 00:01:01,030
+olduu, nesnelerde ise hi nemli olmaddr.
+
+25
+00:01:01,030 --> 00:01:02,820
+Tamam, sana gstereyim,
+
+26
+00:01:02,820 --> 00:01:05,250
+nasl bir nesne oluturabiliriz.
+
+27
+00:01:05,250 --> 00:01:07,736
+Bylece bir deiken tanmlayarak tekrar balarz.
+
+28
+00:01:07,736 --> 00:01:10,980
+Ve imdi, yeni bir nesne yaratmann en
+
+29
+00:01:10,980 --> 00:01:13,450
+kolay yolu, temel olarak, szde zellikler
+
+30
+00:01:13,450 --> 00:01:15,410
+olarak adlandrlan deikenlerle doldurabileceimiz
+
+31
+00:01:15,410 --> 00:01:17,120
+bir kap gibi, szde
+
+32
+00:01:17,120 --> 00:01:18,670
+nesne deikeni ile ilgilidir.
+
+33
+00:01:18,670 --> 00:01:20,920
+Yani nesne deimez, biz byle yazyoruz.
+
+34
+00:01:20,920 --> 00:01:22,880
+Yani, sadece kal ayralar.
+
+35
+00:01:22,880 --> 00:01:25,270
+Dizilerde olduu gibi, parantezler
+
+36
+00:01:25,270 --> 00:01:28,198
+var, nesnelerde kme parantezleri var.
+
+37
+00:01:28,198 --> 00:01:29,200
+Tamam?
+
+38
+00:01:29,200 --> 00:01:32,163
+Ve imdi tanmlamaya veya anahtar deer iftlerine balayabiliriz.
+
+39
+00:01:33,110 --> 00:01:38,110
+Yani, rnein, imdi, imdi John.
+
+40
+00:01:38,340 --> 00:01:39,940
+Ya da ilk ad olarak
+
+41
+00:01:39,940 --> 00:01:41,470
+da syleyebiliriz, tpk tm
+
+42
+00:01:41,470 --> 00:01:44,210
+bunlar yaptmz gibi, bylece isimlendirmemizi burada tutarl tutarz.
+
+43
+00:01:44,210 --> 00:01:47,550
+Yani, burada bu rnekte, firstName imdi bir anahtardr
+
+44
+00:01:47,550 --> 00:01:49,100
+ve john deerdir.
+
+45
+00:01:49,100 --> 00:01:52,180
+Ve tm bunlarn hepsini burada anahtar bir deer ifti olarak adlandryoruz.
+
+46
+00:01:52,180 --> 00:01:55,947
+Ayrca, firstName'in john nesnesinin bir zellii olduunu da sylyoruz.
+
+47
+00:01:55,947 --> 00:01:56,870
+Tamam?
+
+48
+00:01:56,870 --> 00:01:58,380
+Ama bunun zerine biraz daha fazla.
+
+49
+00:01:58,380 --> 00:01:59,780
+imdilik, burada bir ift
+
+50
+00:01:59,780 --> 00:02:01,580
+anahtar deer iftini tanmlamaya devam
+
+51
+00:02:01,580 --> 00:02:03,814
+edelim, bylece size nasl gsterebileceimizi gsterebilirim
+
+52
+00:02:03,814 --> 00:02:07,123
+ve ayn zamanda bunlar size dizilerde gsterdiim gibi deitirebilirim.
+
+53
+00:02:08,191 --> 00:02:09,791
+Ayrca soyadn da tanmlayalm.
+
+54
+00:02:12,700 --> 00:02:14,860
+Yani, Smith, ve daha sonra dizilerde olduu
+
+55
+00:02:14,860 --> 00:02:15,880
+gibi, burada grdnz
+
+56
+00:02:15,880 --> 00:02:18,120
+gibi, bu farkl izgileri ayrmak zorundayz, bu
+
+57
+00:02:18,120 --> 00:02:20,670
+yzden bu farkl anahtar deer, virglle eleir.
+
+58
+00:02:20,670 --> 00:02:22,040
+Tamam?
+
+59
+00:02:22,040 --> 00:02:25,360
+Yani doum Yl, ve yine 1990.
+
+60
+00:02:25,360 --> 00:02:27,010
+Ve grdnz gibi, her eit
+
+61
+00:02:27,010 --> 00:02:29,740
+farkl veri tipini burada olduu gibi buraya koyabiliriz.
+
+62
+00:02:29,740 --> 00:02:32,410
+Burada diziler bile yapabiliriz, neden olmasn?
+
+63
+00:02:32,410 --> 00:02:34,453
+Bir aile mlkn tanmlayalm ve
+
+64
+00:02:35,360 --> 00:02:36,620
+imdi aile yelerini
+
+65
+00:02:36,620 --> 00:02:39,000
+syleyerek buraya bir dizi koyabiliriz.
+
+66
+00:02:39,000 --> 00:02:41,792
+Diyelim ki John'un baz
+
+67
+00:02:41,792 --> 00:02:46,517
+aile yeleri Jane, Mark, Bob ve Emily.
+
+68
+00:02:50,640 --> 00:02:52,200
+Yani, nesnenin iinde grdnz gibi,
+
+69
+00:02:52,200 --> 00:02:54,890
+bunlar gibi baka elementlere de sahip olabiliriz, bu
+
+70
+00:02:54,890 --> 00:02:56,600
+yzden bir dizi bile olabilir.
+
+71
+00:02:56,600 --> 00:02:58,450
+Nesnenin iine baka bir
+
+72
+00:02:58,450 --> 00:03:00,320
+nesne koyabilirdik, tamam m?
+
+73
+00:03:00,320 --> 00:03:02,280
+Ve aslnda ayn ey diziler
+
+74
+00:03:02,280 --> 00:03:04,600
+iin de geerlidir, bu yzden dizilerdeki
+
+75
+00:03:04,600 --> 00:03:07,570
+konumalardan bahsetmedik, ama bir dizi eleman olarak aslnda
+
+76
+00:03:07,570 --> 00:03:11,150
+bir nesneye veya baka bir diziye de sahip olabilirsiniz.
+
+77
+00:03:11,150 --> 00:03:11,983
+Tamam?
+
+78
+00:03:11,983 --> 00:03:13,950
+Ve elbette, kurs boyunca her
+
+79
+00:03:13,950 --> 00:03:16,350
+eyin rneklerini greceksiniz, bu yzden endielenmeyin.
+
+80
+00:03:16,350 --> 00:03:17,820
+Bu gerekten sadece kesiim.
+
+81
+00:03:17,820 --> 00:03:20,020
+Tm bunlar biraz sonra kullanacaz.
+
+82
+00:03:20,020 --> 00:03:20,930
+Bylece bir i tanmlayabiliriz.
+
+83
+00:03:20,930 --> 00:03:22,560
+Ve imdi ayn
+
+84
+00:03:22,560 --> 00:03:26,843
+zamanda, daha nce olduu gibi evli devleti de tanmlayalm.
+
+85
+00:03:28,800 --> 00:03:30,370
+Yani yanl diyoruz.
+
+86
+00:03:30,370 --> 00:03:31,203
+Tamam?
+
+87
+00:03:31,203 --> 00:03:34,330
+Ve sonuncusunda virgl veya noktal virgl yok ve
+
+88
+00:03:34,330 --> 00:03:35,163
+hepsi bu.
+
+89
+00:03:35,163 --> 00:03:36,800
+te bu bizim John objemiz.
+
+90
+00:03:36,800 --> 00:03:38,880
+imdi, sadece konsolda nasl grndne
+
+91
+00:03:38,880 --> 00:03:41,193
+bir gz atabiliriz, sadece oturum an.
+
+92
+00:03:44,010 --> 00:03:46,000
+Tamam, ite balyoruz.
+
+93
+00:03:46,000 --> 00:03:47,090
+Yani bu bizim amacmz.
+
+94
+00:03:47,090 --> 00:03:48,810
+Onu aabilir ve
+
+95
+00:03:48,810 --> 00:03:50,600
+farkl zelliklere bakabiliriz.
+
+96
+00:03:50,600 --> 00:03:51,670
+Bahsettiim
+
+97
+00:03:51,670 --> 00:03:55,780
+gibi, bunlar John nesnesinin tm zellikleri.
+
+98
+00:03:55,780 --> 00:03:57,070
+Ve belki imdi onlara
+
+99
+00:03:57,070 --> 00:03:58,659
+gerekten nasl eriebileceimizi merak ediyorsun.
+
+100
+00:03:58,659 --> 00:04:00,490
+Ve bu iyi bir soru.
+
+101
+00:04:00,490 --> 00:04:01,400
+Ve bu ok kolay.
+
+102
+00:04:01,400 --> 00:04:04,110
+Tek yapmamz gereken nokta gsterimini kullanmak.
+
+103
+00:04:04,110 --> 00:04:06,697
+Yani, rnein firstName nokta.
+
+104
+00:04:06,697 --> 00:04:09,497
+Ve metin editr zaten buraya
+
+105
+00:04:09,497 --> 00:04:11,670
+yazabileceimiz ad nerdi.
+
+106
+00:04:11,670 --> 00:04:14,902
+Ve bylece, onu deneyelim ve ite gidelim, John.
+
+107
+00:04:14,902 --> 00:04:17,830
+Yani, firstName anahtarnn deerini okumak
+
+108
+00:04:17,830 --> 00:04:21,320
+iin tek yapmamz gereken, noktay kullanmaktr.
+
+109
+00:04:21,320 --> 00:04:22,153
+Tamam?
+
+110
+00:04:22,153 --> 00:04:24,000
+Ve bylece firstName, bir john
+
+111
+00:04:24,000 --> 00:04:26,762
+zelliidir ve biz onu nokta notasyonunu kullanarak okuyoruz.
+
+112
+00:04:26,762 --> 00:04:27,810
+Tamam?
+
+113
+00:04:27,810 --> 00:04:30,440
+Yani bunu yapabileceimiz yollardan biri, ama aslnda
+
+114
+00:04:30,440 --> 00:04:32,260
+baka bir tane var.
+
+115
+00:04:32,260 --> 00:04:34,330
+Yani, bir nokta noktalama, ve
+
+116
+00:04:34,330 --> 00:04:36,090
+imdi size parantezleri kullanan
+
+117
+00:04:36,090 --> 00:04:38,020
+baka bir tane gstereyim.
+
+118
+00:04:38,020 --> 00:04:40,630
+Yani, bir diziden bir eleman almak gibi,
+
+119
+00:04:40,630 --> 00:04:42,520
+biz de bir nesneyi nesneden
+
+120
+00:04:42,520 --> 00:04:44,130
+almak iin parantezleri kullanabiliriz,
+
+121
+00:04:44,130 --> 00:04:47,210
+fakat bir numara kullanmak yerine anahtar adn kullanrz.
+
+122
+00:04:47,210 --> 00:04:49,690
+Tamam, imdi soyadn imdi istediimizi syleyelim.
+
+123
+00:04:49,690 --> 00:04:52,550
+Ve biz aslnda bunu trnak iine almamza gerek yoktu.
+
+124
+00:04:52,550 --> 00:04:54,933
+Yani temelde burada bir ip atmalyz.
+
+125
+00:04:55,830 --> 00:04:57,257
+Yani, soyad.
+
+126
+00:04:58,330 --> 00:04:59,650
+Ve imdi imdi bir kontrol edelim.
+
+127
+00:04:59,650 --> 00:05:01,700
+Ve burada Smith ile gidiyoruz.
+
+128
+00:05:01,700 --> 00:05:02,533
+Tamam?
+
+129
+00:05:02,533 --> 00:05:04,410
+Demek burada bir ip var, hatrla.
+
+130
+00:05:04,410 --> 00:05:06,610
+Ve aslnda, daha iyi, daha
+
+131
+00:05:06,610 --> 00:05:09,310
+iyi deil, daha iyisini yapabiliriz, ama
+
+132
+00:05:09,310 --> 00:05:13,070
+yapabileceimiz bir ey var, rnein, bir deiken bildirebiliriz.
+
+133
+00:05:13,070 --> 00:05:16,503
+Ve basite sadeliin iyilii iin buraya x diyelim,
+
+134
+00:05:17,830 --> 00:05:20,020
+ve sonra ona dou diyelim.
+
+135
+00:05:21,361 --> 00:05:24,504
+Tamam, imdi burada, ve bu elbette bir
+
+136
+00:05:24,504 --> 00:05:25,387
+dizi olmal
+
+137
+00:05:25,387 --> 00:05:27,860
+ve imdi burada bu deikeni kullanabiliriz.
+
+138
+00:05:27,860 --> 00:05:31,890
+yleyse john x diyebiliriz ve bu x sonra doutan gelecek.
+
+139
+00:05:31,890 --> 00:05:35,040
+Ve John birthYear 1990 olacak.
+
+140
+00:05:35,040 --> 00:05:35,873
+Tamam?
+
+141
+00:05:35,873 --> 00:05:36,706
+O zaman deneyelim.
+
+142
+00:05:36,706 --> 00:05:38,010
+Ve gerekten ie yarad.
+
+143
+00:05:38,010 --> 00:05:38,843
+Tamam?
+
+144
+00:05:38,843 --> 00:05:41,010
+Ve bu kk numara bazen yararl olabilir
+
+145
+00:05:41,010 --> 00:05:42,730
+ve bu yzden size gsterdim.
+
+146
+00:05:42,730 --> 00:05:44,030
+Tamam, bunu aklnda tut.
+
+147
+00:05:44,030 --> 00:05:46,263
+Bazen bu kullanl olabilir.
+
+148
+00:05:46,263 --> 00:05:49,400
+Yani bu, bir nesneden verileri nasl alrsnz.
+
+149
+00:05:49,400 --> 00:05:51,320
+Ve imdi nesneyi de mutasyona sokmak
+
+150
+00:05:51,320 --> 00:05:53,050
+istiyoruz, tpk dizilerde yaptmz gibi,
+
+151
+00:05:53,050 --> 00:05:55,600
+ve aslnda tam olarak ayn ekilde alyor.
+
+152
+00:05:55,600 --> 00:05:57,870
+Pekala, imdi yapabileceimiz
+
+153
+00:05:57,870 --> 00:06:02,870
+ey John demek. rnein, i ve srcye
+
+154
+00:06:03,220 --> 00:06:06,480
+ya da aslnda tasarmcya ayarlayabiliriz.
+
+155
+00:06:06,480 --> 00:06:07,637
+Neden olmasn?
+
+156
+00:06:07,637 --> 00:06:10,620
+Yani tek yapmamz gereken John demek. i, sonra
+
+157
+00:06:10,620 --> 00:06:13,340
+verileri deitirebiliriz, tamam m?
+
+158
+00:06:13,340 --> 00:06:16,530
+Ve sonra, elbette, bunu baka ekilde de yapabiliriz.
+
+159
+00:06:16,530 --> 00:06:19,200
+Yani parantez gsterimiyle tamam m?
+
+160
+00:06:19,200 --> 00:06:21,483
+yleyse trnaklarmz ve evlendik.
+
+161
+00:06:23,140 --> 00:06:26,750
+Ve imdi onu doruya ayarlayalm, tamam m?
+
+162
+00:06:26,750 --> 00:06:28,590
+Yani imdi konsolda oturum aarsanz,
+
+163
+00:06:28,590 --> 00:06:31,163
+o zaman farkl olmas gerektiini greceksiniz.
+
+164
+00:06:35,410 --> 00:06:39,590
+te gidiyoruz, ve ok iyi, ite gidiyoruz, bu yzden
+
+165
+00:06:39,590 --> 00:06:44,150
+John imdi bir tasarmc ve evli imdi doru, tamam m?
+
+166
+00:06:44,150 --> 00:06:46,620
+Ve bylece nokta notasyonunu sadece daha nce
+
+167
+00:06:46,620 --> 00:06:49,160
+yaptmz gibi ona erimek iin deil, ayn
+
+168
+00:06:49,160 --> 00:06:51,140
+zamanda bu zelliklerden bazlarn deitirmek
+
+169
+00:06:51,140 --> 00:06:53,500
+iin verileri deitirmek iin de kullanabiliriz.
+
+170
+00:06:53,500 --> 00:06:57,260
+Tamam, burada da parantez gsterimiyle ayn.
+
+171
+00:06:57,260 --> 00:06:58,777
+Pekala, imdi bitirmek iin,
+
+172
+00:06:58,777 --> 00:07:00,650
+yeni bir diziyi balatmann iki
+
+173
+00:07:00,650 --> 00:07:02,900
+farkl yolu vard, deil mi?
+
+174
+00:07:02,900 --> 00:07:04,400
+Bylece yeni bir dizi
+
+175
+00:07:04,400 --> 00:07:06,499
+oluturmak iin, ayn nesne ile olur.
+
+176
+00:07:06,499 --> 00:07:08,713
+Jane iin bir nesne yapabiliriz.
+
+177
+00:07:09,880 --> 00:07:12,763
+Ve daha nce olduu gibi, yeni nesne syleyebiliriz.
+
+178
+00:07:13,980 --> 00:07:15,353
+Yani dizi dersinde
+
+179
+00:07:15,353 --> 00:07:17,520
+yeni dizi dediimizde, imdi yeni
+
+180
+00:07:17,520 --> 00:07:20,410
+bir nesne yaratmak iin yeni bir nesne syleyebiliriz.
+
+181
+00:07:20,410 --> 00:07:23,500
+Ve imdi onu burada baz verilerle doldurabiliriz:
+
+182
+00:07:23,500 --> 00:07:24,623
+Jane. isim,
+
+183
+00:07:29,450 --> 00:07:30,957
+Jane. birthYear ve
+
+184
+00:07:37,010 --> 00:07:38,550
+sadece bir tane daha.
+
+185
+00:07:38,550 --> 00:07:42,010
+Yani Jane, ve bu sefer parantezleri tekrar
+
+186
+00:07:42,010 --> 00:07:45,183
+kullanacam, ve imdi de soyad diyebiliriz.
+
+187
+00:07:51,260 --> 00:07:53,060
+Tamam, bu bir firstName'i arayalm.
+
+188
+00:07:54,210 --> 00:07:56,010
+Ve imdi konsola giri yapabiliriz.
+
+189
+00:08:00,220 --> 00:08:02,060
+Tamam, yani sadece
+
+190
+00:08:02,060 --> 00:08:04,707
+ayn isimde alacan gryorsun.
+
+191
+00:08:04,707 --> 00:08:05,980
+Ve burada bir
+
+192
+00:08:05,980 --> 00:08:07,760
+hatamz var, dolaysyla lastName'in tanmlanmadn
+
+193
+00:08:07,760 --> 00:08:10,963
+gryorsunuz, nk bunun olmas gereken bir dize deil.
+
+194
+00:08:12,000 --> 00:08:13,430
+O zaman bir daha deneyelim.
+
+195
+00:08:13,430 --> 00:08:16,140
+Ve bylece, daha nce olduu gibi ayn grnyor.
+
+196
+00:08:16,140 --> 00:08:19,890
+Yani yine, ayn nesne nesnesi gibi alr.
+
+197
+00:08:19,890 --> 00:08:21,690
+Bunu burada yazalm.
+
+198
+00:08:24,320 --> 00:08:27,080
+Yani nesne deimezi, bu szdizimini kullanarak nesneleri
+
+199
+00:08:27,080 --> 00:08:30,623
+tanmlamann bir yoludur, bu yzden sadece kal ayralarla.
+
+200
+00:08:31,700 --> 00:08:35,373
+Ve sonra burada yeni nesne szdizimimiz var.
+
+201
+00:08:37,930 --> 00:08:42,000
+Tamam, bu yzden nesnelerin ve zelliklerin temelleri.
+
+202
+00:08:42,000 --> 00:08:43,800
+Bylece, bu derste, mlkler
+
+203
+00:08:43,800 --> 00:08:46,590
+hakknda konutuk ve bir sonraki aamada,
+
+204
+00:08:46,590 --> 00:08:50,150
+nesnelerle ilgili ok nemli olan yntemler hakknda konuacaz.
+
+205
+00:08:50,150 --> 00:08:51,593
+O yzden bunun iin bizi izlemeye devam edin.
+

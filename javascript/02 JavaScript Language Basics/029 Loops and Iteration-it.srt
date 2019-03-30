@@ -1,0 +1,1876 @@
+1
+00:00:01,400 --> 00:00:03,500
+Jonas: Quindi abbiamo quasi finito con le
+
+2
+00:00:03,500 --> 00:00:06,750
+basi di JavaScript, ma manca ancora una cosa che 
+
+3
+00:00:06,750 --> 00:00:08,800
+cruciale per la programmazione in generale,
+
+4
+00:00:08,800 --> 00:00:10,403
+e questo  un loop.
+
+5
+00:00:11,450 --> 00:00:13,520
+Quindi nella conferenza in cui per la
+
+6
+00:00:13,520 --> 00:00:15,520
+prima volta ti ho presentato la dichiarazione
+
+7
+00:00:15,520 --> 00:00:19,380
+if else, ho menzionato che era solo una delle molte strutture di controllo.
+
+8
+00:00:19,380 --> 00:00:22,980
+E quindi ecco alcune altre strutture di controllo, loop.
+
+9
+00:00:22,980 --> 00:00:25,430
+Quindi i loop sono un aspetto molto
+
+10
+00:00:25,430 --> 00:00:27,450
+importante di qualsiasi linguaggio di programmazione.
+
+11
+00:00:27,450 --> 00:00:30,940
+Immagina solo di avere un compito molto ripetitivo.
+
+12
+00:00:30,940 --> 00:00:32,800
+Invece di scrivere per esempio
+
+13
+00:00:32,800 --> 00:00:36,090
+10 linee dello stesso codice, dovresti semplicemente usare un ciclo.
+
+14
+00:00:36,090 --> 00:00:38,670
+Quindi possiamo praticamente automatizzare le attivit
+
+15
+00:00:38,670 --> 00:00:40,680
+ripetitive usando i loop, ok?
+
+16
+00:00:40,680 --> 00:00:42,300
+E ci sono diversi tipi
+
+17
+00:00:42,300 --> 00:00:45,930
+di loop in JavaScript, e inizieremo con un ciclo semplice per.
+
+18
+00:00:45,930 --> 00:00:48,710
+Quindi supponiamo di aver bisogno di stampare
+
+19
+00:00:48,710 --> 00:00:50,810
+i numeri da zero a nove.
+
+20
+00:00:50,810 --> 00:00:55,810
+Ok, quindi qualcosa come la console. log e poi uno.
+
+21
+00:01:01,610 --> 00:01:03,740
+E poi due, tre, quattro, cinque, e
+
+22
+00:01:03,740 --> 00:01:05,350
+cos via e cos via.
+
+23
+00:01:05,350 --> 00:01:07,440
+Quindi dovresti farlo 10 volte,
+
+24
+00:01:07,440 --> 00:01:10,040
+ma non  affatto una buona idea.
+
+25
+00:01:10,040 --> 00:01:12,853
+E cos invece di nuovo, usiamo un ciclo.
+
+26
+00:01:13,750 --> 00:01:15,560
+E ho intenzione di iniziare con un ciclo for.
+
+27
+00:01:15,560 --> 00:01:18,606
+Quindi scriviamo per, e quindi il ciclo
+
+28
+00:01:18,606 --> 00:01:20,270
+for ha tre parti.
+
+29
+00:01:20,270 --> 00:01:22,747
+Ha il valore iniziale del contatore,
+
+30
+00:01:22,747 --> 00:01:24,750
+la condizione che viene valutata
+
+31
+00:01:24,750 --> 00:01:26,750
+prima di ogni iterazione del
+
+32
+00:01:26,750 --> 00:01:31,050
+ciclo e infine un contatore di aggiornamento dopo ogni iterazione, ok?
+
+33
+00:01:31,050 --> 00:01:33,120
+Quindi esaminiamoli uno per uno.
+
+34
+00:01:33,120 --> 00:01:36,330
+Quindi la prima parte  il valore iniziale di un contatore.
+
+35
+00:01:36,330 --> 00:01:39,980
+Quindi immagino che vogliamo stampare da zero a nove.
+
+36
+00:01:39,980 --> 00:01:42,560
+E cos iniziamo da zero.
+
+37
+00:01:42,560 --> 00:01:45,670
+Quindi definiamo una variabile chiamata I per esempio e
+
+38
+00:01:45,670 --> 00:01:47,290
+la impostiamo su zero.
+
+39
+00:01:47,290 --> 00:01:50,440
+E io uso I qui perch sono una specie
+
+40
+00:01:50,440 --> 00:01:53,020
+di standard in JavaScript per una variabile contatore.
+
+41
+00:01:53,020 --> 00:01:57,358
+Quindi questa  una variabile che verr aggiornata in ogni ciclo.
+
+42
+00:01:57,358 --> 00:02:01,240
+Quindi usiamo il punto e virgola e ora la seconda parte.
+
+43
+00:02:01,240 --> 00:02:03,380
+Quindi questa  una condizione che
+
+44
+00:02:03,380 --> 00:02:06,430
+viene valutata prima di ogni iterazione del ciclo per
+
+45
+00:02:06,430 --> 00:02:09,330
+vedere se il ciclo successivo deve ancora essere eseguito.
+
+46
+00:02:09,330 --> 00:02:12,230
+Quindi se vogliamo contare da zero a
+
+47
+00:02:12,230 --> 00:02:14,500
+nove, beh allora la nostra
+
+48
+00:02:14,500 --> 00:02:18,200
+condizione sar che dovrei essere meno di 10, ok?
+
+49
+00:02:18,200 --> 00:02:20,760
+Quindi, solo se questo risulta essere vero,
+
+50
+00:02:20,760 --> 00:02:23,880
+allora il ciclo successivo verr effettivamente eseguito, ok?
+
+51
+00:02:23,880 --> 00:02:25,907
+Quindi all'inizio iniziamo con zero e
+
+52
+00:02:25,907 --> 00:02:29,447
+quindi sar pari a zero e zero  inferiore a
+
+53
+00:02:29,447 --> 00:02:34,110
+10 e quindi  vero, e quindi il ciclo inizier, va bene?
+
+54
+00:02:34,110 --> 00:02:37,840
+E poi il prossimo e finalmente abbiamo il contatore
+
+55
+00:02:37,840 --> 00:02:39,290
+aggiornato dopo ogni iterazione.
+
+56
+00:02:39,290 --> 00:02:40,970
+Quindi se vogliamo contare da
+
+57
+00:02:40,970 --> 00:02:43,270
+zero a nove come zero, uno, due,
+
+58
+00:02:43,270 --> 00:02:45,410
+tre, quattro, cinque, tutti i numeri, poi
+
+59
+00:02:45,410 --> 00:02:48,100
+in ogni iterazione vogliamo aumentare di uno a uno.
+
+60
+00:02:48,100 --> 00:02:50,183
+E ricorda, un operatore speciale
+
+61
+00:02:50,183 --> 00:02:52,131
+per farlo,  il plus.
+
+62
+00:02:52,131 --> 00:02:57,131
+Quindi questo  lo stesso di scrivere I uguale a
+
+63
+00:02:57,290 --> 00:02:58,640
+pi uno, ricordalo?
+
+64
+00:02:58,640 --> 00:03:02,150
+Ok, e poi qui abbiamo fondamentalmente il blocco del ciclo.
+
+65
+00:03:02,150 --> 00:03:04,810
+Quindi cosa dovrebbe accadere in ciascuno dei loop?
+
+66
+00:03:04,810 --> 00:03:06,550
+E nel piccolo esempio, tutto quello
+
+67
+00:03:06,550 --> 00:03:09,290
+che vogliamo fare  registrare veramente questi numeri sulla console.
+
+68
+00:03:09,290 --> 00:03:13,870
+Quindi console. log I, e cos ,
+
+69
+00:03:13,870 --> 00:03:15,090
+ davvero cos.
+
+70
+00:03:15,090 --> 00:03:16,790
+Diamo un'occhiata e cos
+
+71
+00:03:16,790 --> 00:03:19,960
+ora qui vedi tutti questi 10 numeri da
+
+72
+00:03:19,960 --> 00:03:22,190
+zero a nove, va bene?
+
+73
+00:03:22,190 --> 00:03:25,730
+Quindi riprendiamolo e vediamo perch funziona.
+
+74
+00:03:25,730 --> 00:03:28,350
+Quindi sto aggiungendo un commento qui e provo
+
+75
+00:03:28,350 --> 00:03:30,530
+a scrivere cosa succede in ogni iterazione.
+
+76
+00:03:30,530 --> 00:03:34,650
+Quindi iniziamo e sar zero, giusto?
+
+77
+00:03:34,650 --> 00:03:36,270
+Quindi la condizione viene
+
+78
+00:03:36,270 --> 00:03:39,760
+valutata, e quindi zero  ovviamente inferiore a 10
+
+79
+00:03:39,760 --> 00:03:41,460
+e quindi  vero.
+
+80
+00:03:41,460 --> 00:03:43,550
+Quindi collegheremo I alla console.
+
+81
+00:03:43,550 --> 00:03:44,983
+Quindi accedi alla console.
+
+82
+00:03:45,830 --> 00:03:49,660
+E infine alla fine il contatore viene aggiornato, ok?
+
+83
+00:03:49,660 --> 00:03:52,760
+E quindi, oltre a ci, va bene?
+
+84
+00:03:52,760 --> 00:03:54,480
+Quindi nella prossima iterazione,
+
+85
+00:03:54,480 --> 00:03:58,650
+avremo io  gi uno a questo punto, giusto?
+
+86
+00:03:58,650 --> 00:04:02,330
+E cos il test ora  meno di 10, il che
+
+87
+00:04:02,330 --> 00:04:05,500
+ ancora vero, e quindi inizier la prossima iterazione.
+
+88
+00:04:05,500 --> 00:04:08,124
+E cos ancora una volta loggiamo I
+
+89
+00:04:08,124 --> 00:04:11,350
+nella console e poi sar incrementato di uno.
+
+90
+00:04:11,350 --> 00:04:12,860
+Quindi lo facciamo un paio
+
+91
+00:04:12,860 --> 00:04:15,580
+di volte finch non arriviamo alla fine, ok?
+
+92
+00:04:15,580 --> 00:04:17,660
+Quindi copiamo questo qui e ancora
+
+93
+00:04:17,660 --> 00:04:20,203
+questo  solo per mostrarvi come funziona.
+
+94
+00:04:22,040 --> 00:04:23,970
+Quindi questo succede un paio di
+
+95
+00:04:23,970 --> 00:04:26,890
+volte fino a quando non siamo in un punto
+
+96
+00:04:26,890 --> 00:04:31,603
+in cui ho gi nove anni, e cos, e qui volevo effettivamente meno simboli.
+
+97
+00:04:33,130 --> 00:04:35,000
+E cos a questo punto siamo alle
+
+98
+00:04:35,000 --> 00:04:36,820
+nove e nove  ancora meno di
+
+99
+00:04:36,820 --> 00:04:37,980
+10, e quindi  vero.
+
+100
+00:04:37,980 --> 00:04:39,390
+Poi registriamo l'I
+
+101
+00:04:39,390 --> 00:04:43,420
+nella console e io mi incremento come prima, ok?
+
+102
+00:04:43,420 --> 00:04:46,060
+Ma allora significa che al prossimo passo
+
+103
+00:04:46,060 --> 00:04:47,433
+saremo alle 10.
+
+104
+00:04:50,156 --> 00:04:54,790
+E cos 10, meno di 10, ora  falso.
+
+105
+00:04:54,790 --> 00:04:57,550
+E cos entriamo nel ciclo.
+
+106
+00:04:57,550 --> 00:04:59,583
+In realt, usciamo dal ciclo, il
+
+107
+00:05:00,660 --> 00:05:02,320
+che significa che il ciclo
+
+108
+00:05:02,320 --> 00:05:04,990
+termina e non continua pi a funzionare.
+
+109
+00:05:04,990 --> 00:05:08,520
+Ed ecco perch ci fermiamo alle nove, va bene?
+
+110
+00:05:08,520 --> 00:05:09,980
+Ha senso?
+
+111
+00:05:09,980 --> 00:05:12,560
+Ora potremmo ovviamente cambiare alcune cose
+
+112
+00:05:12,560 --> 00:05:15,990
+qui, quindi immagina di voler contare fino a 20.
+
+113
+00:05:15,990 --> 00:05:17,910
+Quindi potremmo metterne 20.
+
+114
+00:05:17,910 --> 00:05:19,390
+In realt questo andr
+
+115
+00:05:19,390 --> 00:05:23,070
+fino alle 19, ma immagina se volessimo davvero partire da
+
+116
+00:05:23,070 --> 00:05:25,230
+zero e includere a 20.
+
+117
+00:05:25,230 --> 00:05:27,970
+Quindi vogliamo iniziare da uno non zero, mi dispiace.
+
+118
+00:05:27,970 --> 00:05:31,510
+Quindi partendo da uno e abbiamo voluto includere a 20.
+
+119
+00:05:31,510 --> 00:05:35,215
+Quindi possiamo dire meno o meno.
+
+120
+00:05:35,215 --> 00:05:37,770
+E cos in questo caso questo fallir
+
+121
+00:05:37,770 --> 00:05:39,713
+non appena avr 21 anni.
+
+122
+00:05:41,340 --> 00:05:45,810
+E cos iniziamo da uno e andiamo fino a 20.
+
+123
+00:05:45,810 --> 00:05:48,070
+E possiamo anche aggiungere un
+
+124
+00:05:48,070 --> 00:05:51,320
+passaggio qui, quindi invece di aggiungerne uno, possiamo
+
+125
+00:05:51,320 --> 00:05:54,030
+aggiungere due in ogni iterazione, quindi proviamo.
+
+126
+00:05:54,030 --> 00:05:55,920
+Quindi, invece di fare i
+
+127
+00:05:55,920 --> 00:05:59,367
+plus plus, possiamo fare anche io pi due.
+
+128
+00:06:00,290 --> 00:06:02,090
+E ricorda che  lo stesso di
+
+129
+00:06:02,090 --> 00:06:03,803
+scrivere I eguaglia I pi due.
+
+130
+00:06:05,150 --> 00:06:06,760
+Controlliamo ora.
+
+131
+00:06:06,760 --> 00:06:08,460
+E quindi funziona davvero.
+
+132
+00:06:08,460 --> 00:06:10,670
+Quindi iniziamo con uno, giusto?
+
+133
+00:06:10,670 --> 00:06:13,200
+E poi abbiamo aumentato il contatore di
+
+134
+00:06:13,200 --> 00:06:16,030
+due, e cos il prossimo sar tre, giusto?
+
+135
+00:06:16,030 --> 00:06:17,860
+E poi cinque e cos
+
+136
+00:06:17,860 --> 00:06:20,175
+via e cos via fino al
+
+137
+00:06:20,175 --> 00:06:25,175
+19 e 20 non  incluso perch 19 pi due  gi 21 che
+
+138
+00:06:25,280 --> 00:06:27,010
+ ovviamente superiore a 20.
+
+139
+00:06:27,010 --> 00:06:28,700
+Bene, quindi questa 
+
+140
+00:06:28,700 --> 00:06:31,460
+la funzionalit di base del ciclo for.
+
+141
+00:06:31,460 --> 00:06:34,690
+Ora vediamo un esempio un po 'pi pratico.
+
+142
+00:06:34,690 --> 00:06:37,070
+Quindi diciamo che abbiamo
+
+143
+00:06:37,070 --> 00:06:40,889
+un array qui e in realt copiamo
+
+144
+00:06:40,889 --> 00:06:44,300
+l'array dalla conferenza dell'array qui e, dov'?
+
+145
+00:06:44,300 --> 00:06:46,730
+Quindi s, questo  quello che intendo.
+
+146
+00:06:46,730 --> 00:06:48,540
+Quindi l'array John, invece
+
+147
+00:06:48,540 --> 00:06:50,751
+di doverlo scrivere di nuovo.
+
+148
+00:06:50,751 --> 00:06:54,330
+Quindi abbiamo un paio di dati qui su John.
+
+149
+00:06:54,330 --> 00:06:55,660
+Quindi diciamo che abbiamo
+
+150
+00:06:55,660 --> 00:06:58,420
+un'app in cui dobbiamo mostrare questi cinque valori
+
+151
+00:06:58,420 --> 00:06:59,600
+qui alla console.
+
+152
+00:06:59,600 --> 00:07:02,340
+Beh, forse non per la console, ma per l'interfaccia utente, ma
+
+153
+00:07:02,340 --> 00:07:04,090
+stiamo solo lavorando con la console qui.
+
+154
+00:07:04,090 --> 00:07:06,730
+E quindi facciamo finta che dobbiamo bloccare
+
+155
+00:07:06,730 --> 00:07:09,070
+questi cinque valori qui alla console.
+
+156
+00:07:09,070 --> 00:07:11,680
+E cos ovviamente, proprio come prima,
+
+157
+00:07:11,680 --> 00:07:13,793
+potremmo farlo in questo modo.
+
+158
+00:07:14,760 --> 00:07:15,763
+Quindi John,
+
+159
+00:07:17,310 --> 00:07:18,173
+zero, e
+
+160
+00:07:19,500 --> 00:07:23,880
+poi come fino a cinque, in realt a
+
+161
+00:07:23,880 --> 00:07:25,470
+quattro, giusto?
+
+162
+00:07:25,470 --> 00:07:29,200
+Quindi potremmo farlo in questo modo, giusto?
+
+163
+00:07:29,200 --> 00:07:31,860
+In tal modo risolverebbe il problema, ma non in senso positivo.
+
+164
+00:07:31,860 --> 00:07:35,040
+Quindi immagina di avere effettivamente 50 elementi in questo
+
+165
+00:07:35,040 --> 00:07:36,760
+array e non solo cinque,
+
+166
+00:07:36,760 --> 00:07:38,360
+quindi cosa faresti allora?
+
+167
+00:07:38,360 --> 00:07:41,460
+Non  possibile creare solo 50 righe dello stesso codice.
+
+168
+00:07:41,460 --> 00:07:45,230
+E quindi ovviamente qui la soluzione  usare un ciclo,
+
+169
+00:07:45,230 --> 00:07:46,870
+quindi liberiamoci di questo
+
+170
+00:07:46,870 --> 00:07:49,700
+qui e invece lo scriviamo come un loop.
+
+171
+00:07:49,700 --> 00:07:52,130
+Quindi, di nuovo, un ciclo for.
+
+172
+00:07:52,130 --> 00:07:57,040
+Quindi var I  uguale a zero e perch iniziamo da zero?
+
+173
+00:07:57,040 --> 00:08:00,320
+Bene, iniziamo da zero perch la matrice  basata
+
+174
+00:08:00,320 --> 00:08:02,380
+su zero, e ci che vogliamo
+
+175
+00:08:02,380 --> 00:08:05,390
+usare il contatore qui,  leggere l'elemento dell'array in
+
+176
+00:08:05,390 --> 00:08:08,530
+posizione zero, uno, due, tre e quattro, va bene?
+
+177
+00:08:08,530 --> 00:08:11,300
+Quindi partiamo da zero e vuoi
+
+178
+00:08:11,300 --> 00:08:14,720
+che il ciclo funzioni fintanto che sono
+
+179
+00:08:14,720 --> 00:08:17,000
+inferiore alla lunghezza dell'array, ok?
+
+180
+00:08:17,000 --> 00:08:18,090
+E perch?
+
+181
+00:08:18,090 --> 00:08:20,859
+Beh, perch la lunghezza di questo array 
+
+182
+00:08:20,859 --> 00:08:24,130
+cinque e quindi finch il contatore  inferiore a cinque,
+
+183
+00:08:24,130 --> 00:08:26,630
+quindi zero, uno, due, tre o quattro,
+
+184
+00:08:26,630 --> 00:08:29,450
+possiamo quindi leggere i dati da questo array.
+
+185
+00:08:29,450 --> 00:08:31,890
+Ma a partire da cinque non ci sono pi dati nell'array.
+
+186
+00:08:31,890 --> 00:08:35,060
+Quindi non c' niente nella posizione cinque dell'array John.
+
+187
+00:08:35,060 --> 00:08:38,520
+E cos alle cinque non vogliamo pi leggere nulla.
+
+188
+00:08:38,520 --> 00:08:41,730
+Quindi ricorda come possiamo leggere la lunghezza di un array,
+
+189
+00:08:41,730 --> 00:08:43,530
+quindi il numero di elementi?
+
+190
+00:08:43,530 --> 00:08:48,530
+Bene, tutto ci che dobbiamo fare  usare la propriet length, ok?
+
+191
+00:08:49,030 --> 00:08:50,510
+E poi vogliamo
+
+192
+00:08:50,510 --> 00:08:55,070
+leggerli tutti, e cos facciamo plus pi come prima, va bene?
+
+193
+00:08:55,070 --> 00:08:59,040
+Quindi quest'anno forse non ti sembrer al 100%, ma
+
+194
+00:08:59,040 --> 00:09:01,600
+dopo vedrai esattamente cosa faremo qui
+
+195
+00:09:01,600 --> 00:09:04,840
+qui nel blocco di questo ciclo, ok?
+
+196
+00:09:04,840 --> 00:09:09,840
+Quindi quello che faremo  accedere alla console
+
+197
+00:09:10,090 --> 00:09:12,383
+John nella posizione I.
+
+198
+00:09:13,670 --> 00:09:15,690
+Ok, quindi, invece di scrivere zero,
+
+199
+00:09:15,690 --> 00:09:17,740
+uno, due, tre e quattro, lasciamo
+
+200
+00:09:17,740 --> 00:09:20,430
+che il ciclo si occupi di inserire i
+
+201
+00:09:20,430 --> 00:09:21,880
+numeri in questo punto.
+
+202
+00:09:21,880 --> 00:09:24,170
+Quindi nel primo sar zero e poi
+
+203
+00:09:24,170 --> 00:09:27,450
+uno e poi due e poi tre e poi quattro,
+
+204
+00:09:27,450 --> 00:09:30,970
+ma non cinque perch John. la lunghezza  cinque
+
+205
+00:09:30,970 --> 00:09:34,870
+e questo ciclo funziona solo fino a quando il
+
+206
+00:09:34,870 --> 00:09:38,320
+contatore  inferiore a cinque in questo caso, ok?
+
+207
+00:09:38,320 --> 00:09:42,420
+Quindi proviamo e s, eccoci qui.
+
+208
+00:09:42,420 --> 00:09:46,160
+Quindi tutti questi cinque registri non provengono dalla
+
+209
+00:09:46,160 --> 00:09:48,793
+riga 597, quindi questa riga qui.
+
+210
+00:09:50,324 --> 00:09:51,950
+Quindi questa logica qui ha senso per te?
+
+211
+00:09:51,950 --> 00:09:53,960
+Per sicurezza, facciamolo di nuovo.
+
+212
+00:09:53,960 --> 00:09:56,420
+Quindi abbiamo bisogno di questa variabile
+
+213
+00:09:56,420 --> 00:09:58,030
+contatore qui per accedere
+
+214
+00:09:58,030 --> 00:10:01,250
+alla console John zero, uno, due, tre e quattro.
+
+215
+00:10:01,250 --> 00:10:03,400
+Quindi vogliamo che tutti questi cinque elementi
+
+216
+00:10:03,400 --> 00:10:04,700
+vengano registrati nella console.
+
+217
+00:10:04,700 --> 00:10:07,020
+E invece di dover scrivere Giovanni uno,
+
+218
+00:10:07,020 --> 00:10:09,860
+Giovanni due, Giovanni tre, Giovanni quattro e Giovanni cinque,
+
+219
+00:10:09,860 --> 00:10:11,087
+usiamo solo questo ciclo.
+
+220
+00:10:11,087 --> 00:10:14,128
+E cos iniziamo da zero perch questo  il primo
+
+221
+00:10:14,128 --> 00:10:15,200
+elemento nel nostro array.
+
+222
+00:10:15,200 --> 00:10:16,960
+Dopo ogni iterazione dell'array,
+
+223
+00:10:16,960 --> 00:10:19,100
+aumentiamo il valore del contatore
+
+224
+00:10:19,100 --> 00:10:21,610
+di uno perch vogliamo leggere tutti
+
+225
+00:10:21,610 --> 00:10:25,700
+e cinque i valori e infine eseguiamo questo ciclo finch
+
+226
+00:10:25,700 --> 00:10:28,749
+la variabile contatore  ancora pi piccola della
+
+227
+00:10:28,749 --> 00:10:30,860
+lunghezza totale dell'array, che  cinque.
+
+228
+00:10:30,860 --> 00:10:34,130
+Quindi andr a zero, per due, per tre, per quattro,
+
+229
+00:10:34,130 --> 00:10:35,470
+ma non per cinque
+
+230
+00:10:35,470 --> 00:10:37,800
+perch non c' nulla nella posizione cinque.
+
+231
+00:10:37,800 --> 00:10:40,260
+E naturalmente potremmo averlo messo manualmente
+
+232
+00:10:40,260 --> 00:10:42,020
+qui con un cinque, ma
+
+233
+00:10:42,020 --> 00:10:44,290
+poi immaginiamo di aggiungere qualcosa qui.
+
+234
+00:10:44,290 --> 00:10:47,030
+Quindi qualcosa di simile al blu come
+
+235
+00:10:47,030 --> 00:10:50,040
+colore preferito e quindi non cambierebbe dinamicamente l'array.
+
+236
+00:10:50,040 --> 00:10:51,490
+Quindi, se ora lo
+
+237
+00:10:51,490 --> 00:10:54,860
+ricarichi, non mostrer il blu qui alla console.
+
+238
+00:10:54,860 --> 00:10:58,303
+Ma invece se torniamo indietro e lo mettiamo a John. lunghezza, beh allora
+
+239
+00:10:59,207 --> 00:11:01,369
+calcoler automaticamente la lunghezza
+
+240
+00:11:01,369 --> 00:11:04,440
+e quindi passer attraverso l'intero array,
+
+241
+00:11:04,440 --> 00:11:07,380
+perch ora John. la lunghezza  sei e
+
+242
+00:11:07,380 --> 00:11:08,980
+quindi eseguir anche il loop
+
+243
+00:11:08,980 --> 00:11:10,230
+dell'elemento numero cinque nell'array.
+
+244
+00:11:11,900 --> 00:11:15,530
+Quindi in effetti adesso  apparso quaggi, anche il blu.
+
+245
+00:11:15,530 --> 00:11:18,390
+Okay, quindi spero che ora sia chiaro per te e il
+
+246
+00:11:18,390 --> 00:11:21,150
+ciclo degli array  in realt uno dei pi grandi
+
+247
+00:11:21,150 --> 00:11:22,120
+casi d'uso per il
+
+248
+00:11:22,120 --> 00:11:24,490
+ciclo, quindi questo  davvero importante da capire.
+
+249
+00:11:24,490 --> 00:11:26,340
+Ora ci sono modi davvero
+
+250
+00:11:26,340 --> 00:11:28,542
+migliori e anche modi pi semplici
+
+251
+00:11:28,542 --> 00:11:31,040
+per ottenerlo senza utilizzare questo ciclo specifico.
+
+252
+00:11:31,040 --> 00:11:33,560
+Ma ancora una volta, ne parliamo un po
+
+253
+00:11:33,560 --> 00:11:36,210
+'pi tardi, perch  un argomento un po' pi
+
+254
+00:11:36,210 --> 00:11:38,970
+complesso, e per ora stiamo semplicemente guardando i fondamenti.
+
+255
+00:11:38,970 --> 00:11:41,570
+Quindi questo era il ciclo for, ma c' anche
+
+256
+00:11:41,570 --> 00:11:45,560
+un altro tipo di loop in JavaScript e questo  il semplice ciclo while.
+
+257
+00:11:45,560 --> 00:11:48,440
+Proviamo quindi a replicare qui la stessa
+
+258
+00:11:48,440 --> 00:11:50,430
+funzionalit con il ciclo while.
+
+259
+00:11:50,430 --> 00:11:52,610
+Quindi la differenza tra il "for" e il
+
+260
+00:11:52,610 --> 00:11:55,080
+"while"  che mentre abbiamo solo la condizione.
+
+261
+00:11:55,080 --> 00:11:57,440
+Quindi tutto ci che dobbiamo passare nel ciclo
+
+262
+00:11:57,440 --> 00:11:58,693
+while  davvero questa parte.
+
+263
+00:12:01,000 --> 00:12:06,000
+Quindi possiamo dire che mentre io sono meno di Giovanni. lunghezza, quindi dovrebbe continuare
+
+264
+00:12:07,930 --> 00:12:10,173
+ad eseguire questo codice.
+
+265
+00:12:11,750 --> 00:12:15,160
+Quindi fondamentalmente questa funzionalit di accesso qui.
+
+266
+00:12:15,160 --> 00:12:17,100
+Quindi, se vuoi avere la
+
+267
+00:12:17,100 --> 00:12:18,980
+stessa identica funzionalit del ciclo
+
+268
+00:12:18,980 --> 00:12:21,060
+for qui, dovremmo iniziare innanzitutto definendo
+
+269
+00:12:21,060 --> 00:12:22,203
+la variabile qui.
+
+270
+00:12:24,960 --> 00:12:28,810
+Quindi sono uguale a zero e alla
+
+271
+00:12:28,810 --> 00:12:33,630
+fine di ogni ciclo dovremo incrementare I, ok?
+
+272
+00:12:33,630 --> 00:12:34,750
+E cos  in realt.
+
+273
+00:12:34,750 --> 00:12:37,277
+E quindi questo qui ora  esattamente lo
+
+274
+00:12:37,277 --> 00:12:39,380
+stesso di questo per il loop qui.
+
+275
+00:12:39,380 --> 00:12:40,900
+Ma ovviamente  molto pi
+
+276
+00:12:40,900 --> 00:12:42,720
+semplice usare il ciclo for qui.
+
+277
+00:12:42,720 --> 00:12:45,300
+Volevo solo farti sapere che c'era anche
+
+278
+00:12:45,300 --> 00:12:47,880
+un modo per farlo con il ciclo
+
+279
+00:12:47,880 --> 00:12:49,913
+while, quindi aggiungere alcuni commenti qui.
+
+280
+00:12:51,840 --> 00:12:53,410
+Quindi questo  il
+
+281
+00:12:53,410 --> 00:12:57,740
+ciclo while e mentre questo  il ciclo for, va bene?
+
+282
+00:12:59,410 --> 00:13:01,940
+E ora voglio solo mostrarti le dichiarazioni
+
+283
+00:13:01,940 --> 00:13:03,413
+continue e di pausa.
+
+284
+00:13:08,570 --> 00:13:10,060
+Quindi usiamo l'istruzione break
+
+285
+00:13:10,060 --> 00:13:11,707
+per uscire da un
+
+286
+00:13:11,707 --> 00:13:14,160
+ciclo e usiamo continuare per uscire
+
+287
+00:13:14,160 --> 00:13:16,000
+dall'iterazione corrente del ciclo e
+
+288
+00:13:16,000 --> 00:13:17,942
+continuare con il successivo.
+
+289
+00:13:17,942 --> 00:13:21,680
+Quindi diamo un'occhiata a un paio di esempi veloci.
+
+290
+00:13:21,680 --> 00:13:24,990
+E penso di non averti nemmeno mostrato i risultati di questo.
+
+291
+00:13:24,990 --> 00:13:26,730
+Quindi, solo per essere sicuri, e
+
+292
+00:13:26,730 --> 00:13:29,297
+ora lo , ora abbiamo tutti questi elementi qui,
+
+293
+00:13:29,297 --> 00:13:31,150
+ma lo vedete come lo stesso.
+
+294
+00:13:31,150 --> 00:13:34,130
+Quindi abbiamo questi sei qui provenienti dal
+
+295
+00:13:34,130 --> 00:13:37,630
+ciclo for e abbiamo questi sei che arrivano
+
+296
+00:13:37,630 --> 00:13:40,420
+dal ciclo while alla riga 604, giusto?
+
+297
+00:13:40,420 --> 00:13:43,630
+E cos infatti funziona allo stesso modo.
+
+298
+00:13:43,630 --> 00:13:45,830
+Ora in realt sbarazziamoci di questi qui.
+
+299
+00:13:45,830 --> 00:13:48,210
+Non mi liberer davvero, li commenter solo
+
+300
+00:13:48,210 --> 00:13:50,620
+in modo che non si mettano sulla
+
+301
+00:13:50,620 --> 00:13:52,970
+mia strada per la prossima parte, va bene?
+
+302
+00:13:52,970 --> 00:13:54,710
+Quindi copiamo questo qui in
+
+303
+00:13:56,520 --> 00:13:59,430
+modo che ora possa mostrarti le dichiarazioni continue
+
+304
+00:13:59,430 --> 00:14:00,920
+e di interruzione.
+
+305
+00:14:00,920 --> 00:14:02,710
+E iniziamo con il continuare.
+
+306
+00:14:02,710 --> 00:14:05,420
+Quindi, di nuovo, il continuo, lo usiamo
+
+307
+00:14:05,420 --> 00:14:07,280
+per uscire dall'iterazione corrente del
+
+308
+00:14:07,280 --> 00:14:10,298
+ciclo e poi continuare fino al prossimo, ok?
+
+309
+00:14:10,298 --> 00:14:13,600
+Quindi diciamo per esempio che volevamo solo bloccare
+
+310
+00:14:13,600 --> 00:14:16,620
+elementi che sono punti di forza, ok?
+
+311
+00:14:16,620 --> 00:14:18,940
+E cos possiamo implementare la logica che
+
+312
+00:14:18,940 --> 00:14:21,510
+lo far in modo che se non 
+
+313
+00:14:21,510 --> 00:14:23,400
+una stringa, uscir dall'iterazione corrente e
+
+314
+00:14:23,400 --> 00:14:25,310
+poi continuer con quella successiva, va bene?
+
+315
+00:14:25,310 --> 00:14:28,880
+Quindi, come controlliamo se  effettivamente una stringa?
+
+316
+00:14:28,880 --> 00:14:31,260
+Ricorda bene il tipo di operatore
+
+317
+00:14:31,260 --> 00:14:33,810
+che abbiamo usato proprio all'inizio della sezione.
+
+318
+00:14:33,810 --> 00:14:36,730
+Quindi tutti possiamo dire che tipo e penso
+
+319
+00:14:36,730 --> 00:14:40,930
+di aver scritto male, quindi tipo di John, aggiungi la posizione
+
+320
+00:14:42,880 --> 00:14:45,910
+corrente, quindi questa  diversa da una stringa
+
+321
+00:14:45,910 --> 00:14:47,360
+e una cosa che
+
+322
+00:14:47,360 --> 00:14:50,260
+non abbiamo usato fino a questo punto.
+
+323
+00:14:50,260 --> 00:14:52,980
+Quindi abbiamo usato sempre l'equivalente ma ora
+
+324
+00:14:52,980 --> 00:14:55,050
+non voglio essere uguale, voglio diverso.
+
+325
+00:14:55,050 --> 00:14:58,210
+E diverso abbiamo usato il punto esclamativo come questo.
+
+326
+00:14:58,210 --> 00:15:00,970
+Quindi quest'anno  un operatore rigoroso diverso.
+
+327
+00:15:00,970 --> 00:15:03,310
+E proprio come con il triplo e il
+
+328
+00:15:03,310 --> 00:15:05,750
+doppio equivale, qui abbiamo anche il normale operatore diverso
+
+329
+00:15:05,750 --> 00:15:08,120
+e quindi il rigoroso operatore diverso come questo.
+
+330
+00:15:08,120 --> 00:15:09,500
+E proprio come
+
+331
+00:15:09,500 --> 00:15:10,990
+con l'uguaglianza dovremmo sempre
+
+332
+00:15:10,990 --> 00:15:13,850
+usare questo, qui dovremmo sempre usare questo.
+
+333
+00:15:13,850 --> 00:15:16,747
+Quindi punto esclamativo e quindi uguale, ok?
+
+334
+00:15:16,747 --> 00:15:18,697
+E quindi questo significa diverso.
+
+335
+00:15:18,697 --> 00:15:20,490
+E quindi quello che
+
+336
+00:15:20,490 --> 00:15:24,210
+vogliamo fare qui  che ogni volta che il
+
+337
+00:15:24,210 --> 00:15:26,660
+tipo di elemento corrente  diverso
+
+338
+00:15:26,660 --> 00:15:29,540
+da una stringa, beh, vogliamo solo continuare, ok?
+
+339
+00:15:29,540 --> 00:15:31,270
+E penso che anche questo sia qualcosa di nuovo.
+
+340
+00:15:31,270 --> 00:15:33,010
+Penso che fino a questo
+
+341
+00:15:33,010 --> 00:15:36,083
+punto abbiamo sempre fatto il se in questo modo.
+
+342
+00:15:37,750 --> 00:15:42,490
+Quindi abbiamo avuto questo blocco e poi il tipo di testo in
+
+343
+00:15:42,490 --> 00:15:43,760
+questo modo, ok?
+
+344
+00:15:43,760 --> 00:15:46,070
+Ma se  solo come su una
+
+345
+00:15:46,070 --> 00:15:49,440
+riga e solo una semplice istruzione if come questa, possiamo
+
+346
+00:15:49,440 --> 00:15:52,480
+effettivamente farlo in una riga senza le parentesi graffe
+
+347
+00:15:52,480 --> 00:15:54,670
+e basta scriverlo in questo modo.
+
+348
+00:15:54,670 --> 00:15:57,450
+Quindi se questo, poi continua.
+
+349
+00:15:57,450 --> 00:16:00,170
+E cos questo uscir dal ciclo
+
+350
+00:16:00,170 --> 00:16:02,060
+e continuer a quello successivo.
+
+351
+00:16:02,060 --> 00:16:04,460
+Quindi, ad esempio, quando colpiamo Smith qui,
+
+352
+00:16:04,460 --> 00:16:07,540
+il tipo di John I sar una stringa e
+
+353
+00:16:07,540 --> 00:16:10,590
+la stringa non  una stringa diversa, giusto?
+
+354
+00:16:10,590 --> 00:16:12,670
+E cos non continueremo.
+
+355
+00:16:12,670 --> 00:16:15,180
+Invece andremo direttamente a questa linea.
+
+356
+00:16:15,180 --> 00:16:17,920
+Ma nella prossima iterazione quando  il
+
+357
+00:16:17,920 --> 00:16:20,120
+1990, beh, allora  diverso
+
+358
+00:16:20,120 --> 00:16:23,610
+dalla stringa, quindi quindi inseriremo la parte if qui
+
+359
+00:16:23,610 --> 00:16:24,800
+e poi continueremo.
+
+360
+00:16:24,800 --> 00:16:29,590
+E quindi questa linea qui non verr nemmeno eseguita, va bene?
+
+361
+00:16:29,590 --> 00:16:31,220
+Quindi lascia che te lo mostri.
+
+362
+00:16:31,220 --> 00:16:33,990
+E infatti, ora abbiamo solo John Smith,
+
+363
+00:16:33,990 --> 00:16:35,270
+designer in blu.
+
+364
+00:16:35,270 --> 00:16:39,000
+Salt il 1990 e poi anche il falso.
+
+365
+00:16:39,000 --> 00:16:41,100
+E di nuovo perch il tipo
+
+366
+00:16:41,100 --> 00:16:43,620
+di questi due  diverso dalla stringa,
+
+367
+00:16:43,620 --> 00:16:45,609
+quindi qui diverso, diverso dalla stringa.
+
+368
+00:16:45,609 --> 00:16:46,960
+Tutto apposto?
+
+369
+00:16:46,960 --> 00:16:48,140
+Quindi continuiamo.
+
+370
+00:16:48,140 --> 00:16:51,510
+E ora facciamo qualcosa di simile per la pausa.
+
+371
+00:16:51,510 --> 00:16:54,180
+Ma la differenza con l'interruzione  che
+
+372
+00:16:54,180 --> 00:16:56,647
+esce anche dall'iterazione corrente e dall'intero ciclo.
+
+373
+00:16:56,647 --> 00:16:59,998
+E quindi non continua alla prossima iterazione, va bene?
+
+374
+00:16:59,998 --> 00:17:02,353
+E cos ora questa volta diciamo che
+
+375
+00:17:02,353 --> 00:17:04,840
+vogliamo solo stampare finch non incontriamo qualcosa che
+
+376
+00:17:04,840 --> 00:17:06,409
+ diverso da una stringa.
+
+377
+00:17:06,409 --> 00:17:08,742
+Quindi, non appena avremo qualcosa che non
+
+378
+00:17:08,742 --> 00:17:11,423
+ una stringa, non stamperemo altro, va bene?
+
+379
+00:17:12,277 --> 00:17:15,040
+Sostituirei semplicemente questo qui con una pausa.
+
+380
+00:17:15,040 --> 00:17:18,490
+Beh, avrei potuto farlo qui, ma s, quindi in
+
+381
+00:17:18,490 --> 00:17:21,930
+questo modo abbiamo entrambe le versioni, va bene?
+
+382
+00:17:21,930 --> 00:17:25,210
+Lo far, lo lascer in questo modo.
+
+383
+00:17:25,210 --> 00:17:29,080
+Quindi ora ricarichiamo e vedrai che questi quattro qui provengono
+
+384
+00:17:29,080 --> 00:17:30,340
+dal ciclo esterno,
+
+385
+00:17:30,340 --> 00:17:33,635
+quindi dalle righe 615 e ora dalla riga
+
+386
+00:17:33,635 --> 00:17:38,190
+620, che  questo qui, abbiamo solo John e Smith, ok?
+
+387
+00:17:38,190 --> 00:17:40,460
+E questo  esattamente quello che stavamo cercando.
+
+388
+00:17:40,460 --> 00:17:43,130
+Quindi stampa questa stringa e poi questa stringa,
+
+389
+00:17:43,130 --> 00:17:45,550
+e poi incontra qualcosa che non 
+
+390
+00:17:45,550 --> 00:17:47,050
+una stringa e quindi esce
+
+391
+00:17:47,050 --> 00:17:49,930
+dal ciclo e non cambia niente da l, ok?
+
+392
+00:17:49,930 --> 00:17:52,236
+Quindi ora continuiamo e rompiamo,
+
+393
+00:17:52,236 --> 00:17:55,380
+spero che abbia senso per te, ok?
+
+394
+00:17:55,380 --> 00:17:56,710
+Bene, e ora, per
+
+395
+00:17:56,710 --> 00:17:58,820
+finire, voglio darti una piccola sfida.
+
+396
+00:17:58,820 --> 00:18:00,650
+Immagina che volessimo fare
+
+397
+00:18:00,650 --> 00:18:03,650
+un loop attraverso l'array John qui, quindi
+
+398
+00:18:03,650 --> 00:18:04,970
+questo qui, al contrario.
+
+399
+00:18:04,970 --> 00:18:07,187
+Quindi, a partire da blu e falso,
+
+400
+00:18:07,187 --> 00:18:09,110
+designer, e poi fino a John.
+
+401
+00:18:09,110 --> 00:18:11,030
+Quindi, come possiamo risolverlo, come possiamo
+
+402
+00:18:11,030 --> 00:18:12,630
+fare un ciclo attraverso l'array
+
+403
+00:18:12,630 --> 00:18:15,010
+al contrario usando un ciclo for?
+
+404
+00:18:15,010 --> 00:18:17,173
+Quindi pensi che possiamo risolverlo?
+
+405
+00:18:18,020 --> 00:18:19,590
+Puoi provare a mettere in
+
+406
+00:18:19,590 --> 00:18:23,193
+pausa il video qui e dargli un secondo e provarlo per te, ok?
+
+407
+00:18:26,160 --> 00:18:27,423
+Quindi l'hai capito?
+
+408
+00:18:28,612 --> 00:18:31,020
+Quindi aggiungiamo un commento qui prima di farlo.
+
+409
+00:18:31,020 --> 00:18:33,373
+Andando indietro.
+
+410
+00:18:34,270 --> 00:18:36,830
+E davvero, tutto ci che dobbiamo fare qui
+
+411
+00:18:36,830 --> 00:18:39,810
+ pensare a dove vogliamo o controbattere per iniziare
+
+412
+00:18:39,810 --> 00:18:42,080
+quale dovrebbe essere la condizione e cosa
+
+413
+00:18:42,080 --> 00:18:44,570
+vogliamo che accada con la variabile contatore.
+
+414
+00:18:44,570 --> 00:18:48,870
+Quindi, partendo da I, cosa vogliamo che io
+
+415
+00:18:48,870 --> 00:18:50,140
+sia all'inizio?
+
+416
+00:18:50,140 --> 00:18:52,350
+Bene, abbiamo questo array John,
+
+417
+00:18:52,350 --> 00:18:53,540
+prendiamo uno spazio
+
+418
+00:18:53,540 --> 00:18:55,870
+qui e abbiamo qui sei elementi.
+
+419
+00:18:55,870 --> 00:19:00,307
+Zero, uno, due, tre, quattro e cinque.
+
+420
+00:19:00,307 --> 00:19:03,474
+E vogliamo iniziare dall'elemento numero cinque.
+
+421
+00:19:03,474 --> 00:19:05,890
+E allora cos' questo cinque?
+
+422
+00:19:05,890 --> 00:19:09,640
+Beh,  solo una parte di questo intero array meno uno.
+
+423
+00:19:09,640 --> 00:19:12,170
+E quindi scriviamo esattamente questo.
+
+424
+00:19:12,170 --> 00:19:16,000
+John. lunghezza meno uno.
+
+425
+00:19:16,000 --> 00:19:18,790
+Va bene e saranno in questo caso cinque.
+
+426
+00:19:18,790 --> 00:19:22,040
+Allora per quanto tempo vogliamo che questo array funzioni?
+
+427
+00:19:22,040 --> 00:19:23,980
+Bene, vogliamo che la matrice
+
+428
+00:19:23,980 --> 00:19:26,500
+funzioni finch non raggiungo lo zero, giusto?
+
+429
+00:19:26,500 --> 00:19:28,320
+Quindi l'ultimo che vogliamo stampare
+
+430
+00:19:28,320 --> 00:19:32,060
+ il primo elemento dell'array che  zero, ok?
+
+431
+00:19:32,060 --> 00:19:36,398
+E quindi dovrei essere sempre maggiore o uguale a zero.
+
+432
+00:19:36,398 --> 00:19:40,076
+Quindi maggiore o uguale a zero, ha senso?
+
+433
+00:19:40,076 --> 00:19:43,520
+Quindi ricorda che ogni volta che questo zero
+
+434
+00:19:43,520 --> 00:19:46,850
+risulta vero, allora verr eseguito il ciclo successivo.
+
+435
+00:19:46,850 --> 00:19:49,100
+E quindi quello che vogliamo qui 
+
+436
+00:19:49,100 --> 00:19:53,120
+che venga eseguito ogni volta che sono pi grande di zero, ok?
+
+437
+00:19:53,120 --> 00:19:56,610
+Perch ora ci che le persone fanno qui dopo ogni
+
+438
+00:19:56,610 --> 00:19:59,726
+iterazione  di diminuire effettivamente il contatore, ok?
+
+439
+00:19:59,726 --> 00:20:01,150
+Ha senso?
+
+440
+00:20:01,150 --> 00:20:04,780
+Quindi partiamo alle cinque e poi dopo ogni iterazione
+
+441
+00:20:04,780 --> 00:20:05,930
+diminuiamo il contatore.
+
+442
+00:20:05,930 --> 00:20:10,110
+Quindi cinque, quattro, tre, due, uno, zero.
+
+443
+00:20:10,110 --> 00:20:11,700
+E a zero funzioner ancora
+
+444
+00:20:11,700 --> 00:20:13,980
+perch I  maggiore o uguale a zero.
+
+445
+00:20:13,980 --> 00:20:16,233
+Ma poi dopo colpir meno uno
+
+446
+00:20:16,233 --> 00:20:19,120
+e poi la condizione non sar pi vera
+
+447
+00:20:19,120 --> 00:20:20,873
+e poi smetter di funzionare.
+
+448
+00:20:20,873 --> 00:20:23,080
+Quindi tutto ci che dobbiamo fare  log
+
+449
+00:20:23,080 --> 00:20:25,460
+logarlo e questa  sempre la stessa parte.
+
+450
+00:20:25,460 --> 00:20:27,033
+Quindi proviamoci, quindi
+
+451
+00:20:28,200 --> 00:20:32,610
+ecco qui i nostri risultati che iniziano qui.
+
+452
+00:20:32,610 --> 00:20:36,490
+Quindi tutti questi provengono dalla linea 627, quindi questa.
+
+453
+00:20:36,490 --> 00:20:40,000
+E cos vedi che in effetti lo sta
+
+454
+00:20:40,000 --> 00:20:41,060
+davvero facendo all'indietro.
+
+455
+00:20:41,060 --> 00:20:43,590
+Quindi inizia da blu, falso, designer,
+
+456
+00:20:43,590 --> 00:20:48,370
+1990, Smith e John che  il numero zero, ok?
+
+457
+00:20:48,370 --> 00:20:50,200
+Quindi spero che abbia senso per te.
+
+458
+00:20:50,200 --> 00:20:52,970
+Questo  stato solo un piccolo esercizio per
+
+459
+00:20:52,970 --> 00:20:55,580
+pensare a queste tre parti qui del
+
+460
+00:20:55,580 --> 00:20:58,530
+ciclo for e come possiamo ottenere una funzionalit
+
+461
+00:20:58,530 --> 00:21:02,120
+diversa da quella semplice che ti ho spiegato prima, ok?
+
+462
+00:21:02,120 --> 00:21:04,970
+E cos ora  il momento per l'ennesima
+
+463
+00:21:04,970 --> 00:21:07,340
+sfida, e questa sar l'ultima per questa
+
+464
+00:21:07,340 --> 00:21:10,040
+sezione utilizzando tutto ci che abbiamo imparato in
+
+465
+00:21:10,040 --> 00:21:11,230
+tutti questi video.
+
+466
+00:21:11,230 --> 00:21:13,100
+Quindi hai fatto molta strada
+
+467
+00:21:13,100 --> 00:21:15,800
+fino a questo punto, congratulazioni, e spero di
+
+468
+00:21:15,800 --> 00:21:18,199
+vederti nella prossima sfida perch penso che
+
+469
+00:21:18,199 --> 00:21:21,099
+sia molto importante prenderli e provarli da soli.
+

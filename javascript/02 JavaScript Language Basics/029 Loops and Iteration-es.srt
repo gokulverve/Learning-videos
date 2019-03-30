@@ -1,0 +1,1876 @@
+1
+00:00:01,400 --> 00:00:03,500
+Jonas: As que casi hemos terminado con
+
+2
+00:00:03,500 --> 00:00:06,750
+los conceptos bsicos de JavaScript, pero todava falta una cosa
+
+3
+00:00:06,750 --> 00:00:08,800
+que es crucial para la programacin en
+
+4
+00:00:08,800 --> 00:00:10,403
+general, y eso es bucles.
+
+5
+00:00:11,450 --> 00:00:13,520
+Entonces, en la conferencia en la que
+
+6
+00:00:13,520 --> 00:00:15,520
+primero te present a la declaracin if
+
+7
+00:00:15,520 --> 00:00:19,380
+else, mencion que era solo una de las muchas estructuras de control.
+
+8
+00:00:19,380 --> 00:00:22,980
+Y aqu hay algunas estructuras de control ms, bucles.
+
+9
+00:00:22,980 --> 00:00:25,430
+Entonces, los bucles son un aspecto muy
+
+10
+00:00:25,430 --> 00:00:27,450
+importante de cualquier lenguaje de programacin.
+
+11
+00:00:27,450 --> 00:00:30,940
+Solo imagina que tienes una tarea muy repetitiva.
+
+12
+00:00:30,940 --> 00:00:32,800
+En lugar de escribir, por
+
+13
+00:00:32,800 --> 00:00:36,090
+ejemplo, 10 lneas del mismo cdigo, simplemente usara un bucle.
+
+14
+00:00:36,090 --> 00:00:38,670
+Entonces, bsicamente, podemos automatizar tareas repetitivas
+
+15
+00:00:38,670 --> 00:00:40,680
+utilizando bucles, de acuerdo?
+
+16
+00:00:40,680 --> 00:00:42,300
+Y existen diferentes tipos de
+
+17
+00:00:42,300 --> 00:00:45,930
+bucles en JavaScript, y comenzaremos con un bucle for simple.
+
+18
+00:00:45,930 --> 00:00:48,710
+Entonces supongamos que necesitamos imprimir los
+
+19
+00:00:48,710 --> 00:00:50,810
+nmeros de cero a nueve.
+
+20
+00:00:50,810 --> 00:00:55,810
+De acuerdo, algo as como consola. log y luego uno.
+
+21
+00:01:01,610 --> 00:01:03,740
+Y luego dos, tres, cuatro,
+
+22
+00:01:03,740 --> 00:01:05,350
+cinco, y as sucesivamente.
+
+23
+00:01:05,350 --> 00:01:07,440
+Entonces, tendras que hacer esto 10
+
+24
+00:01:07,440 --> 00:01:10,040
+veces, pero eso no es una buena idea.
+
+25
+00:01:10,040 --> 00:01:12,853
+Y as, en su lugar, nuevamente, usamos un bucle.
+
+26
+00:01:13,750 --> 00:01:15,560
+Y voy a comenzar con un bucle for.
+
+27
+00:01:15,560 --> 00:01:18,606
+Entonces escribimos para, y luego el bucle
+
+28
+00:01:18,606 --> 00:01:20,270
+for tiene tres partes.
+
+29
+00:01:20,270 --> 00:01:22,747
+Tiene el valor inicial del contador, la
+
+30
+00:01:22,747 --> 00:01:24,750
+condicin que se evala antes
+
+31
+00:01:24,750 --> 00:01:26,750
+de cada iteracin del bucle,
+
+32
+00:01:26,750 --> 00:01:31,050
+y finalmente una actualizacin del contador despus de cada iteracin, de acuerdo?
+
+33
+00:01:31,050 --> 00:01:33,120
+Entonces, repasemos uno por uno.
+
+34
+00:01:33,120 --> 00:01:36,330
+Entonces la primera parte es el valor inicial de un contador.
+
+35
+00:01:36,330 --> 00:01:39,980
+Entonces me imagino que queremos imprimir de cero a nueve.
+
+36
+00:01:39,980 --> 00:01:42,560
+Y entonces comenzamos en cero.
+
+37
+00:01:42,560 --> 00:01:45,670
+Entonces, definimos una variable llamada I, por ejemplo, y
+
+38
+00:01:45,670 --> 00:01:47,290
+la configuramos en cero.
+
+39
+00:01:47,290 --> 00:01:50,440
+Y uso aqu porque es una especie de estndar
+
+40
+00:01:50,440 --> 00:01:53,020
+en JavaScript para una variable de contador.
+
+41
+00:01:53,020 --> 00:01:57,358
+Entonces esta es una variable que se actualizar en cada ciclo.
+
+42
+00:01:57,358 --> 00:02:01,240
+Luego usamos el punto y coma y ahora la segunda parte.
+
+43
+00:02:01,240 --> 00:02:03,380
+As que esta es una condicin
+
+44
+00:02:03,380 --> 00:02:06,430
+que se evala antes de cada iteracin de bucle
+
+45
+00:02:06,430 --> 00:02:09,330
+para ver si el siguiente bucle debe ejecutarse.
+
+46
+00:02:09,330 --> 00:02:12,230
+Entonces, si queremos contar de cero a
+
+47
+00:02:12,230 --> 00:02:14,500
+nueve, entonces nuestra condicin ser
+
+48
+00:02:14,500 --> 00:02:18,200
+que yo debera tener menos de 10, de acuerdo?
+
+49
+00:02:18,200 --> 00:02:20,760
+Entonces, solo si esto resulta ser cierto,
+
+50
+00:02:20,760 --> 00:02:23,880
+entonces el prximo ciclo realmente se ejecutar, est bien?
+
+51
+00:02:23,880 --> 00:02:25,907
+As que al principio empezamos con
+
+52
+00:02:25,907 --> 00:02:29,447
+cero y entonces ser cero y cero es menor que
+
+53
+00:02:29,447 --> 00:02:34,110
+10 y entonces es verdad, y entonces el ciclo comenzar, est bien?
+
+54
+00:02:34,110 --> 00:02:37,840
+Y luego el siguiente y finalmente tenemos la actualizacin del contador
+
+55
+00:02:37,840 --> 00:02:39,290
+despus de cada iteracin.
+
+56
+00:02:39,290 --> 00:02:40,970
+Entonces, si queremos contar de
+
+57
+00:02:40,970 --> 00:02:43,270
+cero a nueve como cero, uno, dos,
+
+58
+00:02:43,270 --> 00:02:45,410
+tres, cuatro, cinco, todos los nmeros, entonces
+
+59
+00:02:45,410 --> 00:02:48,100
+en cada iteracin queremos aumentar I por uno.
+
+60
+00:02:48,100 --> 00:02:50,183
+Y recuerde, un operador especial para
+
+61
+00:02:50,183 --> 00:02:52,131
+hacer eso, es el plus plus.
+
+62
+00:02:52,131 --> 00:02:57,131
+Entonces, esto es lo mismo que escribir I es igual a I ms
+
+63
+00:02:57,290 --> 00:02:58,640
+uno, recuerdas eso?
+
+64
+00:02:58,640 --> 00:03:02,150
+De acuerdo, y luego aqu tenemos bsicamente el bloque de bucle.
+
+65
+00:03:02,150 --> 00:03:04,810
+Entonces, qu debera pasar en cada uno de los bucles?
+
+66
+00:03:04,810 --> 00:03:06,550
+Y en el pequeo ejemplo, todo lo
+
+67
+00:03:06,550 --> 00:03:09,290
+que queremos hacer es realmente registrar estos nmeros en la consola.
+
+68
+00:03:09,290 --> 00:03:13,870
+Entonces consola. Log I, y eso es todo, eso
+
+69
+00:03:13,870 --> 00:03:15,090
+es realmente todo.
+
+70
+00:03:15,090 --> 00:03:16,790
+Echemos un vistazo y
+
+71
+00:03:16,790 --> 00:03:19,960
+ahora, aqu puede ver todos estos 10 nmeros
+
+72
+00:03:19,960 --> 00:03:22,190
+de cero a nueve, est bien?
+
+73
+00:03:22,190 --> 00:03:25,730
+Entonces, repasemos nuevamente y veamos por qu funciona esto.
+
+74
+00:03:25,730 --> 00:03:28,350
+As que estoy agregando un comentario aqu e intento
+
+75
+00:03:28,350 --> 00:03:30,530
+escribir lo que sucede en cada iteracin.
+
+76
+00:03:30,530 --> 00:03:34,650
+Entonces comenzamos y ser cero, verdad?
+
+77
+00:03:34,650 --> 00:03:36,270
+Luego se evala la condicin,
+
+78
+00:03:36,270 --> 00:03:39,760
+y por lo tanto cero es, por supuesto, menos de
+
+79
+00:03:39,760 --> 00:03:41,460
+10, y eso es cierto.
+
+80
+00:03:41,460 --> 00:03:43,550
+Entonces, vamos a iniciar sesin en la consola.
+
+81
+00:03:43,550 --> 00:03:44,983
+Entonces, registro I para consolar.
+
+82
+00:03:45,830 --> 00:03:49,660
+Y finalmente, al final, el contador se actualiza, est bien?
+
+83
+00:03:49,660 --> 00:03:52,760
+Y as que ms ms, de acuerdo?
+
+84
+00:03:52,760 --> 00:03:54,480
+Luego, en la prxima
+
+85
+00:03:54,480 --> 00:03:58,650
+iteracin, tendremos que ya soy uno en este momento, verdad?
+
+86
+00:03:58,650 --> 00:04:02,330
+Y entonces la prueba ahora es menos de 10, lo cual
+
+87
+00:04:02,330 --> 00:04:05,500
+sigue siendo cierto, y entonces la siguiente iteracin comenzar.
+
+88
+00:04:05,500 --> 00:04:08,124
+Y as, nuevamente, iniciamos sesin en
+
+89
+00:04:08,124 --> 00:04:11,350
+la consola y luego aumentar en uno.
+
+90
+00:04:11,350 --> 00:04:12,860
+Entonces lo hacemos un par
+
+91
+00:04:12,860 --> 00:04:15,580
+de veces hasta que lleguemos al final, est bien?
+
+92
+00:04:15,580 --> 00:04:17,660
+As que copiemos esto una y otra
+
+93
+00:04:17,660 --> 00:04:20,203
+vez, esto es solo para mostrarles cmo funciona esto.
+
+94
+00:04:22,040 --> 00:04:23,970
+As que esto sucede un par
+
+95
+00:04:23,970 --> 00:04:26,890
+de veces hasta que estamos en un punto en
+
+96
+00:04:26,890 --> 00:04:31,603
+el que ya tengo nueve aos, y entonces, en realidad quera el menos smbolo.
+
+97
+00:04:33,130 --> 00:04:35,000
+Y entonces en este momento estamos en
+
+98
+00:04:35,000 --> 00:04:36,820
+nueve y nueve es todava menos de
+
+99
+00:04:36,820 --> 00:04:37,980
+10, y es verdad.
+
+100
+00:04:37,980 --> 00:04:39,390
+Luego registramos el I
+
+101
+00:04:39,390 --> 00:04:43,420
+en la consola y me incrementa como antes, est bien?
+
+102
+00:04:43,420 --> 00:04:46,060
+Pero luego significa que en el siguiente
+
+103
+00:04:46,060 --> 00:04:47,433
+paso estamos en 10.
+
+104
+00:04:50,156 --> 00:04:54,790
+Y entonces 10, menos de 10, ahora es falso.
+
+105
+00:04:54,790 --> 00:04:57,550
+Y entonces entramos al ciclo.
+
+106
+00:04:57,550 --> 00:04:59,583
+En realidad, salimos del bucle,
+
+107
+00:05:00,660 --> 00:05:02,320
+lo que significa que
+
+108
+00:05:02,320 --> 00:05:04,990
+el bucle termina y ya no funciona.
+
+109
+00:05:04,990 --> 00:05:08,520
+Y es por eso que nos detenemos a las nueve, est bien?
+
+110
+00:05:08,520 --> 00:05:09,980
+Tiene sentido?
+
+111
+00:05:09,980 --> 00:05:12,560
+Ahora, por supuesto, podramos cambiar algunas cosas
+
+112
+00:05:12,560 --> 00:05:15,990
+aqu, as que imagina que queramos contar hasta el 20.
+
+113
+00:05:15,990 --> 00:05:17,910
+Entonces podramos poner 20.
+
+114
+00:05:17,910 --> 00:05:19,390
+En realidad, esto durar
+
+115
+00:05:19,390 --> 00:05:23,070
+hasta el 19, pero imagina si realmente quisiramos comenzar desde
+
+116
+00:05:23,070 --> 00:05:25,230
+cero e incluir hasta 20.
+
+117
+00:05:25,230 --> 00:05:27,970
+Entonces queremos comenzar desde uno, no cero, lo siento.
+
+118
+00:05:27,970 --> 00:05:31,510
+As que comenzando desde uno y queramos incluir hasta 20.
+
+119
+00:05:31,510 --> 00:05:35,215
+Entonces podemos decir menos o igual.
+
+120
+00:05:35,215 --> 00:05:37,770
+Entonces, en este caso, esto solo fallar tan
+
+121
+00:05:37,770 --> 00:05:39,713
+pronto como yo tenga 21 aos.
+
+122
+00:05:41,340 --> 00:05:45,810
+Y entonces comenzamos en uno e iremos hasta el 20.
+
+123
+00:05:45,810 --> 00:05:48,070
+Y tambin podemos agregar un paso aqu,
+
+124
+00:05:48,070 --> 00:05:51,320
+as que en lugar de simplemente agregar uno, podemos agregar
+
+125
+00:05:51,320 --> 00:05:54,030
+dos en cada iteracin, as que probemos eso.
+
+126
+00:05:54,030 --> 00:05:55,920
+Entonces, en lugar de hacer
+
+127
+00:05:55,920 --> 00:05:59,367
+I plus plus, podemos hacer I ms dos iguales.
+
+128
+00:06:00,290 --> 00:06:02,090
+Y recuerda que es lo mismo que escribir
+
+129
+00:06:02,090 --> 00:06:03,803
+I es igual a I ms dos.
+
+130
+00:06:05,150 --> 00:06:06,760
+Vamos a verificarlo ahora.
+
+131
+00:06:06,760 --> 00:06:08,460
+Y as de hecho funciona.
+
+132
+00:06:08,460 --> 00:06:10,670
+Entonces comenzamos con uno, verdad?
+
+133
+00:06:10,670 --> 00:06:13,200
+Y luego aumentamos el contador por dos,
+
+134
+00:06:13,200 --> 00:06:16,030
+y entonces el prximo ser tres, verdad?
+
+135
+00:06:16,030 --> 00:06:17,860
+Y luego cinco y as
+
+136
+00:06:17,860 --> 00:06:20,175
+sucesivamente todo el camino hasta 19
+
+137
+00:06:20,175 --> 00:06:25,175
+y 20 no est incluido porque 19 ms dos ya es 21, que por
+
+138
+00:06:25,280 --> 00:06:27,010
+supuesto es mayor que 20.
+
+139
+00:06:27,010 --> 00:06:28,700
+De acuerdo, esa es
+
+140
+00:06:28,700 --> 00:06:31,460
+la funcionalidad bsica del ciclo for.
+
+141
+00:06:31,460 --> 00:06:34,690
+Ahora veamos un ejemplo un poco ms prctico.
+
+142
+00:06:34,690 --> 00:06:37,070
+Entonces, digamos que tenemos una
+
+143
+00:06:37,070 --> 00:06:40,889
+matriz aqu y copiemos la matriz de la
+
+144
+00:06:40,889 --> 00:06:44,300
+clase de matriz aqu y, dnde est?
+
+145
+00:06:44,300 --> 00:06:46,730
+As que s, este es el que quiero decir.
+
+146
+00:06:46,730 --> 00:06:48,540
+Entonces la matriz de John, en
+
+147
+00:06:48,540 --> 00:06:50,751
+lugar de tener que escribirla de nuevo.
+
+148
+00:06:50,751 --> 00:06:54,330
+Entonces tenemos un par de datos aqu sobre John.
+
+149
+00:06:54,330 --> 00:06:55,660
+Entonces, digamos que tenemos
+
+150
+00:06:55,660 --> 00:06:58,420
+una aplicacin donde tenemos que mostrar estos cinco valores
+
+151
+00:06:58,420 --> 00:06:59,600
+aqu en la consola.
+
+152
+00:06:59,600 --> 00:07:02,340
+Bueno, tal vez no para la consola, sino para la interfaz de usuario,
+
+153
+00:07:02,340 --> 00:07:04,090
+pero solo estamos trabajando con la consola aqu.
+
+154
+00:07:04,090 --> 00:07:06,730
+Y entonces pretendamos que necesitamos bloquear estos
+
+155
+00:07:06,730 --> 00:07:09,070
+cinco valores aqu en la consola.
+
+156
+00:07:09,070 --> 00:07:11,680
+Y por supuesto, al igual que
+
+157
+00:07:11,680 --> 00:07:13,793
+antes, podramos hacerlo as.
+
+158
+00:07:14,760 --> 00:07:15,763
+As que
+
+159
+00:07:17,310 --> 00:07:18,173
+John,
+
+160
+00:07:19,500 --> 00:07:23,880
+cero, y luego hasta cinco, en realidad
+
+161
+00:07:23,880 --> 00:07:25,470
+cuatro verdad?
+
+162
+00:07:25,470 --> 00:07:29,200
+Entonces podramos hacerlo as, verdad?
+
+163
+00:07:29,200 --> 00:07:31,860
+Entonces eso resolvera el problema, pero no en el buen sentido.
+
+164
+00:07:31,860 --> 00:07:35,040
+Entonces imagina que tenemos 50 elementos en este
+
+165
+00:07:35,040 --> 00:07:36,760
+arreglo y no solo
+
+166
+00:07:36,760 --> 00:07:38,360
+cinco, entonces, qu haras entonces?
+
+167
+00:07:38,360 --> 00:07:41,460
+No podras simplemente crear 50 lneas del mismo cdigo.
+
+168
+00:07:41,460 --> 00:07:45,230
+Y entonces, por supuesto, la solucin aqu es usar un bucle,
+
+169
+00:07:45,230 --> 00:07:46,870
+as que deshagmonos de esto
+
+170
+00:07:46,870 --> 00:07:49,700
+aqu y en su lugar, escrbalo como un bucle.
+
+171
+00:07:49,700 --> 00:07:52,130
+As que de nuevo, un bucle for.
+
+172
+00:07:52,130 --> 00:07:57,040
+Entonces var I es igual a cero, y por qu empezamos en cero?
+
+173
+00:07:57,040 --> 00:08:00,320
+Bueno, comenzamos en cero porque la matriz est basada en
+
+174
+00:08:00,320 --> 00:08:02,380
+cero, y lo que queremos usar
+
+175
+00:08:02,380 --> 00:08:05,390
+aqu es leer el elemento de la matriz en
+
+176
+00:08:05,390 --> 00:08:08,530
+la posicin cero, uno, dos, tres y cuatro, est bien?
+
+177
+00:08:08,530 --> 00:08:11,300
+As que comenzamos en cero y queremos que
+
+178
+00:08:11,300 --> 00:08:14,720
+el ciclo se ejecute siempre que yo sea menor que
+
+179
+00:08:14,720 --> 00:08:17,000
+la longitud de la matriz, est bien?
+
+180
+00:08:17,000 --> 00:08:18,090
+Y por qu es eso?
+
+181
+00:08:18,090 --> 00:08:20,859
+Bueno, eso se debe a que la longitud de este
+
+182
+00:08:20,859 --> 00:08:24,130
+conjunto es cinco y siempre que el contador est por debajo
+
+183
+00:08:24,130 --> 00:08:26,630
+de cinco, por lo que cero, uno, dos, tres
+
+184
+00:08:26,630 --> 00:08:29,450
+o cuatro, podemos leer los datos de este conjunto.
+
+185
+00:08:29,450 --> 00:08:31,890
+Pero a partir de las cinco no hay ms datos en la matriz.
+
+186
+00:08:31,890 --> 00:08:35,060
+Entonces, no hay nada en la posicin cinco en la matriz de John.
+
+187
+00:08:35,060 --> 00:08:38,520
+Y entonces a los cinco ya no queremos leer nada.
+
+188
+00:08:38,520 --> 00:08:41,730
+As que recuerda cmo podemos leer la longitud de una matriz, por
+
+189
+00:08:41,730 --> 00:08:43,530
+lo que la cantidad de elementos?
+
+190
+00:08:43,530 --> 00:08:48,530
+Bueno, todo lo que tenemos que hacer es usar la propiedad de longitud, de acuerdo?
+
+191
+00:08:49,030 --> 00:08:50,510
+Y luego queremos leerlos
+
+192
+00:08:50,510 --> 00:08:55,070
+a todos, y as hacemos plus plus como antes, est bien?
+
+193
+00:08:55,070 --> 00:08:59,040
+As que este ao quizs no tenga 100% de sentido para ti, pero lo
+
+194
+00:08:59,040 --> 00:09:01,600
+har despus de que veas exactamente lo que vamos
+
+195
+00:09:01,600 --> 00:09:04,840
+a hacer aqu aqu en el bloque de este ciclo, de acuerdo?
+
+196
+00:09:04,840 --> 00:09:09,840
+Entonces, lo que vamos a hacer es iniciar sesin en la consola
+
+197
+00:09:10,090 --> 00:09:12,383
+John en la posicin I.
+
+198
+00:09:13,670 --> 00:09:15,690
+De acuerdo, entonces en lugar de
+
+199
+00:09:15,690 --> 00:09:17,740
+escribir cero, uno, dos, tres y
+
+200
+00:09:17,740 --> 00:09:20,430
+cuatro, dejamos que el bucle se encargue bsicamente
+
+201
+00:09:20,430 --> 00:09:21,880
+de poner los nmeros aqu.
+
+202
+00:09:21,880 --> 00:09:24,170
+Entonces en el primero ser cero y
+
+203
+00:09:24,170 --> 00:09:27,450
+luego uno y luego dos y luego tres y luego
+
+204
+00:09:27,450 --> 00:09:30,970
+cuatro, pero no cinco porque Juan. la longitud es cinco
+
+205
+00:09:30,970 --> 00:09:34,870
+y este ciclo solo funciona siempre que el contador
+
+206
+00:09:34,870 --> 00:09:38,320
+sea inferior a cinco en este caso, de acuerdo?
+
+207
+00:09:38,320 --> 00:09:42,420
+As que probmoslo y s, aqu vamos.
+
+208
+00:09:42,420 --> 00:09:46,160
+Entonces, todos estos cinco registros no provienen de la
+
+209
+00:09:46,160 --> 00:09:48,793
+lnea 597, entonces esta lnea aqu.
+
+210
+00:09:50,324 --> 00:09:51,950
+Entonces, esta lgica aqu tiene sentido para ti?
+
+211
+00:09:51,950 --> 00:09:53,960
+Solo para asegurarnos, hagmoslo de nuevo.
+
+212
+00:09:53,960 --> 00:09:56,420
+Entonces, necesitamos esta variable de contador aqu
+
+213
+00:09:56,420 --> 00:09:58,030
+para iniciar sesin en
+
+214
+00:09:58,030 --> 00:10:01,250
+la consola John zero, one, two, three y four.
+
+215
+00:10:01,250 --> 00:10:03,400
+Entonces, queremos que todos estos cinco elementos
+
+216
+00:10:03,400 --> 00:10:04,700
+se registren en la consola.
+
+217
+00:10:04,700 --> 00:10:07,020
+Y en lugar de tener que escribir John
+
+218
+00:10:07,020 --> 00:10:09,860
+one, John two, John three, John four y John five,
+
+219
+00:10:09,860 --> 00:10:11,087
+simplemente usamos este ciclo.
+
+220
+00:10:11,087 --> 00:10:14,128
+Y entonces comenzamos en cero porque ese es el primer
+
+221
+00:10:14,128 --> 00:10:15,200
+elemento de nuestra matriz.
+
+222
+00:10:15,200 --> 00:10:16,960
+Despus de cada iteracin de
+
+223
+00:10:16,960 --> 00:10:19,100
+la matriz aumentamos el valor del
+
+224
+00:10:19,100 --> 00:10:21,610
+contador en uno porque queremos leer los
+
+225
+00:10:21,610 --> 00:10:25,700
+cinco valores y finalmente ejecutamos este ciclo siempre que la variable del
+
+226
+00:10:25,700 --> 00:10:28,749
+contador sea an ms pequea que la longitud total
+
+227
+00:10:28,749 --> 00:10:30,860
+de la matriz, que es cinco.
+
+228
+00:10:30,860 --> 00:10:34,130
+Entonces se ejecutar por cero, por dos, por tres, por cuatro,
+
+229
+00:10:34,130 --> 00:10:35,470
+pero no por cinco
+
+230
+00:10:35,470 --> 00:10:37,800
+porque no hay nada en la posicin cinco.
+
+231
+00:10:37,800 --> 00:10:40,260
+Y podramos, por supuesto, haberlo puesto
+
+232
+00:10:40,260 --> 00:10:42,020
+aqu con cinco, pero
+
+233
+00:10:42,020 --> 00:10:44,290
+imaginemos que agregamos algo aqu.
+
+234
+00:10:44,290 --> 00:10:47,030
+As que algo como el azul como color
+
+235
+00:10:47,030 --> 00:10:50,040
+favorito y bueno, entonces no cambiara dinmicamente la matriz.
+
+236
+00:10:50,040 --> 00:10:51,490
+Entonces, si ahora lo vuelve
+
+237
+00:10:51,490 --> 00:10:54,860
+a cargar, no se mostrar el azul aqu en la consola.
+
+238
+00:10:54,860 --> 00:10:58,303
+Pero, en cambio, si volvemos y se lo contamos a John. de longitud, bien,
+
+239
+00:10:59,207 --> 00:11:01,369
+entonces automticamente calcular la
+
+240
+00:11:01,369 --> 00:11:04,440
+longitud y luego recorrer toda la
+
+241
+00:11:04,440 --> 00:11:07,380
+matriz, porque ahora John. la longitud es seis y, por
+
+242
+00:11:07,380 --> 00:11:08,980
+lo tanto, tambin repetir el elemento
+
+243
+00:11:08,980 --> 00:11:10,230
+nmero cinco a la matriz.
+
+244
+00:11:11,900 --> 00:11:15,530
+As que de hecho ahora apareci aqu abajo, el azul tambin.
+
+245
+00:11:15,530 --> 00:11:18,390
+De acuerdo, entonces espero que ahora sea muy claro para ti y
+
+246
+00:11:18,390 --> 00:11:21,150
+recorrer las matrices es en realidad uno de los casos de
+
+247
+00:11:21,150 --> 00:11:22,120
+uso ms grandes para
+
+248
+00:11:22,120 --> 00:11:24,490
+el ciclo, as que este es realmente importante de entender.
+
+249
+00:11:24,490 --> 00:11:26,340
+Ahora, en realidad, existen mejores
+
+250
+00:11:26,340 --> 00:11:28,542
+formas y formas ms sencillas de
+
+251
+00:11:28,542 --> 00:11:31,040
+lograrlo sin utilizar este ciclo especfico.
+
+252
+00:11:31,040 --> 00:11:33,560
+Pero una vez ms, hablemos un poco ms
+
+253
+00:11:33,560 --> 00:11:36,210
+tarde porque ese es un tema un poco ms
+
+254
+00:11:36,210 --> 00:11:38,970
+complejo, y por ahora solo estamos viendo los fundamentos.
+
+255
+00:11:38,970 --> 00:11:41,570
+As que ese era el bucle for, pero tambin
+
+256
+00:11:41,570 --> 00:11:45,560
+hay otro tipo de bucle en JavaScript y ese es el bucle while simple.
+
+257
+00:11:45,560 --> 00:11:48,440
+Intentemos replicar la misma funcionalidad aqu
+
+258
+00:11:48,440 --> 00:11:50,430
+con el ciclo while.
+
+259
+00:11:50,430 --> 00:11:52,610
+Entonces, la diferencia entre el para y el
+
+260
+00:11:52,610 --> 00:11:55,080
+tiempo es eso mientras solo tenemos la condicin.
+
+261
+00:11:55,080 --> 00:11:57,440
+Entonces, todo lo que tenemos que pasar en el ciclo
+
+262
+00:11:57,440 --> 00:11:58,693
+while es realmente esta parte.
+
+263
+00:12:01,000 --> 00:12:06,000
+Entonces podemos decir que mientras yo sea menos que John. longitud, entonces debera seguir
+
+264
+00:12:07,930 --> 00:12:10,173
+ejecutando este cdigo.
+
+265
+00:12:11,750 --> 00:12:15,160
+As que bsicamente esta funcionalidad de inicio de sesin aqu.
+
+266
+00:12:15,160 --> 00:12:17,100
+Entonces si quieres tener exactamente la
+
+267
+00:12:17,100 --> 00:12:18,980
+misma funcionalidad que con el ciclo
+
+268
+00:12:18,980 --> 00:12:21,060
+for aqu, primero tendremos que comenzar
+
+269
+00:12:21,060 --> 00:12:22,203
+definiendo la variable aqu.
+
+270
+00:12:24,960 --> 00:12:28,810
+Entonces, yo soy igual a cero y luego,
+
+271
+00:12:28,810 --> 00:12:33,630
+al final de cada bucle, tendremos que incrementar I, est bien?
+
+272
+00:12:33,630 --> 00:12:34,750
+Y eso es en realidad.
+
+273
+00:12:34,750 --> 00:12:37,277
+Y ahora esto aqu es exactamente lo mismo
+
+274
+00:12:37,277 --> 00:12:39,380
+que esto para el ciclo aqu.
+
+275
+00:12:39,380 --> 00:12:40,900
+Pero, por supuesto, es mucho
+
+276
+00:12:40,900 --> 00:12:42,720
+ms fcil usar el bucle for aqu.
+
+277
+00:12:42,720 --> 00:12:45,300
+Solo quera hacerte saber que tambin haba una
+
+278
+00:12:45,300 --> 00:12:47,880
+forma de hacerlo con el ciclo while, as
+
+279
+00:12:47,880 --> 00:12:49,913
+que agrega algunos comentarios aqu.
+
+280
+00:12:51,840 --> 00:12:53,410
+Entonces este es el
+
+281
+00:12:53,410 --> 00:12:57,740
+ciclo while y mientras este aqu es el ciclo for, est bien?
+
+282
+00:12:59,410 --> 00:13:01,940
+Y ahora solo quiero mostrarte las declaraciones
+
+283
+00:13:01,940 --> 00:13:03,413
+de continuar y romper.
+
+284
+00:13:08,570 --> 00:13:10,060
+Entonces usamos la instruccin
+
+285
+00:13:10,060 --> 00:13:11,707
+break para salir de un
+
+286
+00:13:11,707 --> 00:13:14,160
+bucle y usamos continue para salir de
+
+287
+00:13:14,160 --> 00:13:16,000
+la iteracin actual del ciclo
+
+288
+00:13:16,000 --> 00:13:17,942
+y continuar con el siguiente.
+
+289
+00:13:17,942 --> 00:13:21,680
+As que echemos un vistazo a algunos ejemplos rpidos.
+
+290
+00:13:21,680 --> 00:13:24,990
+Y creo que ni siquiera te mostr los resultados de este.
+
+291
+00:13:24,990 --> 00:13:26,730
+Entonces, para asegurarnos, y ahora
+
+292
+00:13:26,730 --> 00:13:29,297
+lo es, ahora tenemos todo esto aqu
+
+293
+00:13:29,297 --> 00:13:31,150
+y lo ves igual.
+
+294
+00:13:31,150 --> 00:13:34,130
+As que tenemos estos seis aqu desde el
+
+295
+00:13:34,130 --> 00:13:37,630
+ciclo for y tenemos estos seis aqu desde el
+
+296
+00:13:37,630 --> 00:13:40,420
+ciclo while en la lnea 604, verdad?
+
+297
+00:13:40,420 --> 00:13:43,630
+Y as, de hecho, funciona de la misma manera.
+
+298
+00:13:43,630 --> 00:13:45,830
+Ahora vamos a deshacernos de estos aqu.
+
+299
+00:13:45,830 --> 00:13:48,210
+En realidad no me deshago, voy a
+
+300
+00:13:48,210 --> 00:13:50,620
+comentarlos para que no se interpongan en
+
+301
+00:13:50,620 --> 00:13:52,970
+mi camino para la siguiente parte, de acuerdo?
+
+302
+00:13:52,970 --> 00:13:54,710
+As que copiemos esto aqu
+
+303
+00:13:56,520 --> 00:13:59,430
+para que ahora pueda mostrarle las declaraciones de
+
+304
+00:13:59,430 --> 00:14:00,920
+continuar y romper.
+
+305
+00:14:00,920 --> 00:14:02,710
+Y comencemos con el continuar.
+
+306
+00:14:02,710 --> 00:14:05,420
+As que, de nuevo, el continuar, lo usamos para
+
+307
+00:14:05,420 --> 00:14:07,280
+salir solo de la iteracin actual
+
+308
+00:14:07,280 --> 00:14:10,298
+del ciclo y luego continuar hasta el siguiente, est bien?
+
+309
+00:14:10,298 --> 00:14:13,600
+Digamos, por ejemplo, que solo queramos bloquear
+
+310
+00:14:13,600 --> 00:14:16,620
+elementos que son fortalezas, de acuerdo?
+
+311
+00:14:16,620 --> 00:14:18,940
+Y entonces podemos implementar la lgica que lo
+
+312
+00:14:18,940 --> 00:14:21,510
+har, de modo que si no es una cadena,
+
+313
+00:14:21,510 --> 00:14:23,400
+saldr de la iteracin actual y luego
+
+314
+00:14:23,400 --> 00:14:25,310
+continuar con la siguiente, est bien?
+
+315
+00:14:25,310 --> 00:14:28,880
+Entonces, cmo verificamos si en realidad es una cadena?
+
+316
+00:14:28,880 --> 00:14:31,260
+Recuerda el tipo de operador que
+
+317
+00:14:31,260 --> 00:14:33,810
+usamos justo al comienzo de la seccin.
+
+318
+00:14:33,810 --> 00:14:36,730
+Entonces todos podemos decir el tipo de y
+
+319
+00:14:36,730 --> 00:14:40,930
+creo que escrib mal eso, as que escriba Juan, agregue la posicin
+
+320
+00:14:42,880 --> 00:14:45,910
+actual, por lo que esta es diferente de una
+
+321
+00:14:45,910 --> 00:14:47,360
+cadena, y una cosa
+
+322
+00:14:47,360 --> 00:14:50,260
+que no hemos usado diferente hasta este punto.
+
+323
+00:14:50,260 --> 00:14:52,980
+Entonces solo usamos el igual pero ahora
+
+324
+00:14:52,980 --> 00:14:55,050
+no quiero igual, quiero diferente.
+
+325
+00:14:55,050 --> 00:14:58,210
+Y diferente usamos el signo de exclamacin como este.
+
+326
+00:14:58,210 --> 00:15:00,970
+Entonces, este ao es un operador estrictamente diferente.
+
+327
+00:15:00,970 --> 00:15:03,310
+Y al igual que con el triple y el
+
+328
+00:15:03,310 --> 00:15:05,750
+doble igual, aqu tambin tenemos el operador diferente normal
+
+329
+00:15:05,750 --> 00:15:08,120
+y luego el operador diferente estricto como este.
+
+330
+00:15:08,120 --> 00:15:09,500
+Y al igual que
+
+331
+00:15:09,500 --> 00:15:10,990
+con la igualdad, siempre
+
+332
+00:15:10,990 --> 00:15:13,850
+debemos usar esta, aqu siempre debemos usar esta.
+
+333
+00:15:13,850 --> 00:15:16,747
+Entonces signo de exclamacin y luego igual, est bien?
+
+334
+00:15:16,747 --> 00:15:18,697
+Y entonces esto significa diferente.
+
+335
+00:15:18,697 --> 00:15:20,490
+Entonces, lo que queremos
+
+336
+00:15:20,490 --> 00:15:24,210
+hacer aqu es que cada vez que el tipo
+
+337
+00:15:24,210 --> 00:15:26,660
+del elemento actual es diferente de
+
+338
+00:15:26,660 --> 00:15:29,540
+una cadena, bueno, solo queremos continuar, de acuerdo?
+
+339
+00:15:29,540 --> 00:15:31,270
+Y creo que esto tambin es algo nuevo.
+
+340
+00:15:31,270 --> 00:15:33,010
+Creo que hasta este
+
+341
+00:15:33,010 --> 00:15:36,083
+punto siempre hemos hecho esto si as.
+
+342
+00:15:37,750 --> 00:15:42,490
+As que tenamos este bloque y luego el tipo de texto ah solo
+
+343
+00:15:42,490 --> 00:15:43,760
+as, de acuerdo?
+
+344
+00:15:43,760 --> 00:15:46,070
+Pero si solo es como en
+
+345
+00:15:46,070 --> 00:15:49,440
+una lnea y simplemente una declaracin simple como
+
+346
+00:15:49,440 --> 00:15:52,480
+esta, podemos hacerlo en una lnea sin
+
+347
+00:15:52,480 --> 00:15:54,670
+las llaves y escribirlo as.
+
+348
+00:15:54,670 --> 00:15:57,450
+Entonces si esto, entonces contina.
+
+349
+00:15:57,450 --> 00:16:00,170
+Y entonces esto saldr del ciclo
+
+350
+00:16:00,170 --> 00:16:02,060
+y continuar al prximo.
+
+351
+00:16:02,060 --> 00:16:04,460
+Entonces, por ejemplo, cuando golpeemos a Smith aqu,
+
+352
+00:16:04,460 --> 00:16:07,540
+entonces el tipo de John I ser de cadena, y
+
+353
+00:16:07,540 --> 00:16:10,590
+la cadena no es de cadena de forma diferente, verdad?
+
+354
+00:16:10,590 --> 00:16:12,670
+Y entonces no continuaremos.
+
+355
+00:16:12,670 --> 00:16:15,180
+En cambio, iremos directo a esta lnea.
+
+356
+00:16:15,180 --> 00:16:17,920
+Pero en la prxima iteracin cuando es 1990,
+
+357
+00:16:17,920 --> 00:16:20,120
+bueno, eso es diferente de la
+
+358
+00:16:20,120 --> 00:16:23,610
+cadena, por lo que entraremos en la parte if aqu
+
+359
+00:16:23,610 --> 00:16:24,800
+y luego continuaremos.
+
+360
+00:16:24,800 --> 00:16:29,590
+Y entonces esta lnea aqu ni siquiera se ejecutar, est bien?
+
+361
+00:16:29,590 --> 00:16:31,220
+Djame mostrarte eso.
+
+362
+00:16:31,220 --> 00:16:33,990
+Y, de hecho, ahora solo tenemos a John
+
+363
+00:16:33,990 --> 00:16:35,270
+Smith, diseador en azul.
+
+364
+00:16:35,270 --> 00:16:39,000
+Se salt el 1990 y luego tambin lo falso.
+
+365
+00:16:39,000 --> 00:16:41,100
+Y de nuevo, eso se debe a que
+
+366
+00:16:41,100 --> 00:16:43,620
+el tipo de estos dos es diferente a la cadena,
+
+367
+00:16:43,620 --> 00:16:45,609
+tan diferente aqu, diferente a la cadena.
+
+368
+00:16:45,609 --> 00:16:46,960
+Bien?
+
+369
+00:16:46,960 --> 00:16:48,140
+As que continuemos.
+
+370
+00:16:48,140 --> 00:16:51,510
+Y ahora hagamos algo similar para el descanso.
+
+371
+00:16:51,510 --> 00:16:54,180
+Pero la diferencia con la ruptura es que tambin
+
+372
+00:16:54,180 --> 00:16:56,647
+sale de la iteracin actual y del ciclo completo.
+
+373
+00:16:56,647 --> 00:16:59,998
+Y entonces no contina en la prxima iteracin, de acuerdo?
+
+374
+00:16:59,998 --> 00:17:02,353
+Y ahora, esta vez, digamos que solo
+
+375
+00:17:02,353 --> 00:17:04,840
+queremos imprimir hasta que encontremos algo que
+
+376
+00:17:04,840 --> 00:17:06,409
+sea diferente de una cadena.
+
+377
+00:17:06,409 --> 00:17:08,742
+Entonces, tan pronto como tengamos algo que no
+
+378
+00:17:08,742 --> 00:17:11,423
+sea una cuerda, no imprimiremos nada ms, est bien?
+
+379
+00:17:12,277 --> 00:17:15,040
+Simplemente reemplazara este aqu con un descanso.
+
+380
+00:17:15,040 --> 00:17:18,490
+Bueno, podra haberlo hecho aqu, pero s, as que
+
+381
+00:17:18,490 --> 00:17:21,930
+de esta manera tenemos ambas versiones, est bien?
+
+382
+00:17:21,930 --> 00:17:25,210
+Solo voy a hacerlo, lo voy a dejar as.
+
+383
+00:17:25,210 --> 00:17:29,080
+As que vamos a volver a cargar, y vern que estos cuatro
+
+384
+00:17:29,080 --> 00:17:30,340
+aqu son del bucle
+
+385
+00:17:30,340 --> 00:17:33,635
+externo, as que desde la lnea 615 y ahora desde
+
+386
+00:17:33,635 --> 00:17:38,190
+la lnea 620, que es esta, solo tenemos a John y Smith, de acuerdo?
+
+387
+00:17:38,190 --> 00:17:40,460
+Y eso es exactamente lo que estbamos buscando.
+
+388
+00:17:40,460 --> 00:17:43,130
+Entonces imprime esta cadena y luego esta cadena, y
+
+389
+00:17:43,130 --> 00:17:45,550
+luego encuentra algo que no es una cadena,
+
+390
+00:17:45,550 --> 00:17:47,050
+por lo que sale del
+
+391
+00:17:47,050 --> 00:17:49,930
+ciclo y no cambia nada ms desde all, de acuerdo?
+
+392
+00:17:49,930 --> 00:17:52,236
+Entonces continuemos y rompamos, espero
+
+393
+00:17:52,236 --> 00:17:55,380
+que tenga sentido para ti, de acuerdo?
+
+394
+00:17:55,380 --> 00:17:56,710
+Muy bien, y ahora solo
+
+395
+00:17:56,710 --> 00:17:58,820
+para terminar quiero darte un pequeo desafo.
+
+396
+00:17:58,820 --> 00:18:00,650
+Imagina que quisimos recorrer
+
+397
+00:18:00,650 --> 00:18:03,650
+el arreglo de John aqu, as que
+
+398
+00:18:03,650 --> 00:18:04,970
+este aqu, al revs.
+
+399
+00:18:04,970 --> 00:18:07,187
+As que empezando desde el azul y el falso, el
+
+400
+00:18:07,187 --> 00:18:09,110
+diseador, y luego todo el camino hasta John.
+
+401
+00:18:09,110 --> 00:18:11,030
+Entonces, cmo podemos resolver eso,
+
+402
+00:18:11,030 --> 00:18:12,630
+cmo podemos recorrer la
+
+403
+00:18:12,630 --> 00:18:15,010
+matriz al revs usando un ciclo for?
+
+404
+00:18:15,010 --> 00:18:17,173
+Entonces, crees que podemos resolver eso?
+
+405
+00:18:18,020 --> 00:18:19,590
+Puedes intentar detener el video
+
+406
+00:18:19,590 --> 00:18:23,193
+aqu y darle un segundo y probarlo t mismo, de acuerdo?
+
+407
+00:18:26,160 --> 00:18:27,423
+Entonces, lo descubriste?
+
+408
+00:18:28,612 --> 00:18:31,020
+As que agreguemos un comentario aqu antes de hacerlo.
+
+409
+00:18:31,020 --> 00:18:33,373
+Looping hacia atrs.
+
+410
+00:18:34,270 --> 00:18:36,830
+Y realmente, todo lo que tenemos que hacer
+
+411
+00:18:36,830 --> 00:18:39,810
+aqu es pensar dnde queremos o contrarrestar para comenzar
+
+412
+00:18:39,810 --> 00:18:42,080
+cul debe ser la condicin y qu
+
+413
+00:18:42,080 --> 00:18:44,570
+queremos que suceda con la variable contraria.
+
+414
+00:18:44,570 --> 00:18:48,870
+Entonces, comenzando con I, qu queremos que sea
+
+415
+00:18:48,870 --> 00:18:50,140
+al principio?
+
+416
+00:18:50,140 --> 00:18:52,350
+Bueno, tenemos este conjunto de John, vamos
+
+417
+00:18:52,350 --> 00:18:53,540
+a tener algo de
+
+418
+00:18:53,540 --> 00:18:55,870
+espacio aqu y tenemos seis elementos aqu.
+
+419
+00:18:55,870 --> 00:19:00,307
+Cero, uno, dos, tres, cuatro y cinco.
+
+420
+00:19:00,307 --> 00:19:03,474
+Y queremos comenzar en el elemento nmero cinco.
+
+421
+00:19:03,474 --> 00:19:05,890
+Y entonces, qu es esto cinco?
+
+422
+00:19:05,890 --> 00:19:09,640
+Bueno, es solo una longitud de este conjunto completo menos uno.
+
+423
+00:19:09,640 --> 00:19:12,170
+Y entonces, escribamos exactamente eso.
+
+424
+00:19:12,170 --> 00:19:16,000
+John. longitud menos uno.
+
+425
+00:19:16,000 --> 00:19:18,790
+De acuerdo, y eso ser cinco en este caso.
+
+426
+00:19:18,790 --> 00:19:22,040
+Entonces, cunto tiempo queremos que se ejecute esta matriz?
+
+427
+00:19:22,040 --> 00:19:23,980
+Bueno, queremos que la matriz se
+
+428
+00:19:23,980 --> 00:19:26,500
+ejecute hasta que llegue a cero, verdad?
+
+429
+00:19:26,500 --> 00:19:28,320
+Entonces, el ltimo que queremos imprimir
+
+430
+00:19:28,320 --> 00:19:32,060
+es el primer elemento de la matriz que es cero, est bien?
+
+431
+00:19:32,060 --> 00:19:36,398
+Y entonces siempre debera ser mayor o igual a cero.
+
+432
+00:19:36,398 --> 00:19:40,076
+Tan mayor o igual que cero, tiene sentido?
+
+433
+00:19:40,076 --> 00:19:43,520
+Recuerde que siempre que este cero sea
+
+434
+00:19:43,520 --> 00:19:46,850
+verdadero, se ejecutar el siguiente ciclo.
+
+435
+00:19:46,850 --> 00:19:49,100
+Y entonces, lo que queremos aqu es
+
+436
+00:19:49,100 --> 00:19:53,120
+que se ejecute cada vez que sea mayor que cero, de acuerdo?
+
+437
+00:19:53,120 --> 00:19:56,610
+Porque ahora lo que hace la gente aqu despus de
+
+438
+00:19:56,610 --> 00:19:59,726
+cada iteracin es realmente disminuir el contador, est bien?
+
+439
+00:19:59,726 --> 00:20:01,150
+Tener sentido?
+
+440
+00:20:01,150 --> 00:20:04,780
+Entonces comenzamos a las cinco y luego, despus de cada iteracin,
+
+441
+00:20:04,780 --> 00:20:05,930
+disminuimos el contador.
+
+442
+00:20:05,930 --> 00:20:10,110
+Entonces cinco, cuatro, tres, dos, uno, cero.
+
+443
+00:20:10,110 --> 00:20:11,700
+Y en cero seguir funcionando
+
+444
+00:20:11,700 --> 00:20:13,980
+porque I es mayor o igual que cero.
+
+445
+00:20:13,980 --> 00:20:16,233
+Pero despus de eso, golpear menos uno
+
+446
+00:20:16,233 --> 00:20:19,120
+y luego la condicin ya no ser verdadera
+
+447
+00:20:19,120 --> 00:20:20,873
+y luego dejar de funcionar.
+
+448
+00:20:20,873 --> 00:20:23,080
+Entonces todo lo que tenemos que hacer es, por
+
+449
+00:20:23,080 --> 00:20:25,460
+supuesto, registrarlo y esta siempre es la misma parte.
+
+450
+00:20:25,460 --> 00:20:27,033
+Entonces, vamos a
+
+451
+00:20:28,200 --> 00:20:32,610
+intentarlo, y estos son nuestros resultados que comienzan aqu.
+
+452
+00:20:32,610 --> 00:20:36,490
+Entonces todos estos provienen de la lnea 627, as que este.
+
+453
+00:20:36,490 --> 00:20:40,000
+Y entonces ves que, de hecho, est
+
+454
+00:20:40,000 --> 00:20:41,060
+realmente retrocediendo.
+
+455
+00:20:41,060 --> 00:20:43,590
+Entonces comienza desde azul, falso, diseador,
+
+456
+00:20:43,590 --> 00:20:48,370
+1990, Smith y John, que es el nmero cero, de acuerdo?
+
+457
+00:20:48,370 --> 00:20:50,200
+As que espero que tenga sentido para ti.
+
+458
+00:20:50,200 --> 00:20:52,970
+Este fue solo un pequeo ejercicio para que
+
+459
+00:20:52,970 --> 00:20:55,580
+pienses acerca de estas tres partes aqu
+
+460
+00:20:55,580 --> 00:20:58,530
+del ciclo for y cmo podemos lograr una
+
+461
+00:20:58,530 --> 00:21:02,120
+funcionalidad diferente a la simple que te expliqu antes, de acuerdo?
+
+462
+00:21:02,120 --> 00:21:04,970
+Y ahora es el momento de otro desafo, y
+
+463
+00:21:04,970 --> 00:21:07,340
+este ser el ltimo de esta seccin que
+
+464
+00:21:07,340 --> 00:21:10,040
+utilizar todas las cosas que aprendimos a lo largo
+
+465
+00:21:10,040 --> 00:21:11,230
+de todos estos videos.
+
+466
+00:21:11,230 --> 00:21:13,100
+As que has avanzado mucho
+
+467
+00:21:13,100 --> 00:21:15,800
+hasta este punto, enhorabuena, y espero verte en
+
+468
+00:21:15,800 --> 00:21:18,199
+el prximo desafo porque creo que es
+
+469
+00:21:18,199 --> 00:21:21,099
+realmente importante tomar esto y probarlo por tu cuenta.
+

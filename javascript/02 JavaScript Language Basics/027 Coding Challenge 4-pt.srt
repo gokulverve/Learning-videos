@@ -1,0 +1,116 @@
+1
+00:00:01,120 --> 00:00:03,100
+Instrutor:  tempo de desafio de codificao novamente.
+
+2
+00:00:03,100 --> 00:00:04,610
+Aqui vamos nos.
+
+3
+00:00:04,610 --> 00:00:06,980
+E vamos lembrar o primeiro desafio de
+
+4
+00:00:06,980 --> 00:00:10,770
+codificao, onde Mark e John compararam seus ndices de Massa Corporal.
+
+5
+00:00:10,770 --> 00:00:13,400
+Ento vamos agora implementar a mesma funcionalidade,
+
+6
+00:00:13,400 --> 00:00:15,990
+mas desta vez com objetos e mtodos.
+
+7
+00:00:15,990 --> 00:00:18,720
+Portanto, para cada um deles, crie um objeto
+
+8
+00:00:18,720 --> 00:00:21,920
+com propriedades para seu nome completo, massa e altura e,
+
+9
+00:00:21,920 --> 00:00:25,720
+em seguida, adicione um mtodo a cada objeto para calcular o IMC.
+
+10
+00:00:25,720 --> 00:00:28,620
+E o que eu quero que voc faa aqui
+
+11
+00:00:28,620 --> 00:00:32,050
+ salvar o IMC no objeto e tambm retorn-lo do mtodo.
+
+12
+00:00:32,050 --> 00:00:34,590
+E, no final, quero que voc faa o
+
+13
+00:00:34,590 --> 00:00:37,900
+login no console com o maior IMC, junto com o nome
+
+14
+00:00:37,900 --> 00:00:40,100
+completo e o respectivo valor de IMC.
+
+15
+00:00:40,100 --> 00:00:40,933
+Tudo bem?
+
+16
+00:00:40,933 --> 00:00:43,280
+E, novamente, no esquea que eles realmente
+
+17
+00:00:43,280 --> 00:00:44,960
+podem ter o mesmo IMC.
+
+18
+00:00:44,960 --> 00:00:47,350
+E se voc no se lembra da frmula
+
+19
+00:00:47,350 --> 00:00:50,410
+para calcular o ndice de Massa Corporal, ento est aqui novamente.
+
+20
+00:00:50,410 --> 00:00:52,590
+E voc tambm pode voltar para o outro
+
+21
+00:00:52,590 --> 00:00:54,240
+desafio e encontrar a soluo l.
+
+22
+00:00:54,240 --> 00:00:56,670
+Apenas tenha em mente que a massa deve
+
+23
+00:00:56,670 --> 00:00:58,840
+estar em quilogramas e a altura em metros.
+
+24
+00:00:58,840 --> 00:00:59,673
+OK?
+
+25
+00:00:59,673 --> 00:01:02,800
+Ento, novamente, est usando o conhecimento que acabamos de aprender
+
+26
+00:01:02,800 --> 00:01:04,270
+nas ltimas duas palestras.
+
+27
+00:01:04,270 --> 00:01:05,950
+Ento eu acho que essa  uma
+
+28
+00:01:05,950 --> 00:01:08,100
+maneira divertida de voc manter esse conhecimento imediatamente.
+
+29
+00:01:08,100 --> 00:01:11,293
+Ok, ento boa sorte, e te vejo quando terminar.
+

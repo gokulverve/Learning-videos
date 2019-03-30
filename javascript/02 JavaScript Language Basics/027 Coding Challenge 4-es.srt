@@ -1,0 +1,116 @@
+1
+00:00:01,120 --> 00:00:03,100
+Instructor: Es hora de Coding Challenge otra vez.
+
+2
+00:00:03,100 --> 00:00:04,610
+As que, aqu vamos.
+
+3
+00:00:04,610 --> 00:00:06,980
+Y recordemos el primer desafo de codificacin,
+
+4
+00:00:06,980 --> 00:00:10,770
+donde Mark y John compararon sus ndices de masa corporal.
+
+5
+00:00:10,770 --> 00:00:13,400
+As que ahora implementemos la misma funcionalidad,
+
+6
+00:00:13,400 --> 00:00:15,990
+pero esta vez con objetos y mtodos.
+
+7
+00:00:15,990 --> 00:00:18,720
+Entonces, para cada uno de ellos, cree un
+
+8
+00:00:18,720 --> 00:00:21,920
+objeto con propiedades para su nombre completo, masa y altura,
+
+9
+00:00:21,920 --> 00:00:25,720
+luego, agregue un mtodo a cada objeto para calcular el IMC.
+
+10
+00:00:25,720 --> 00:00:28,620
+Y lo que quiero que hagas aqu es guardar
+
+11
+00:00:28,620 --> 00:00:32,050
+el IMC en el objeto y tambin devolverlo desde el mtodo.
+
+12
+00:00:32,050 --> 00:00:34,590
+Y luego, al final, quiero que inicie sesin en
+
+13
+00:00:34,590 --> 00:00:37,900
+la consola que tiene el IMC ms alto, junto con el nombre
+
+14
+00:00:37,900 --> 00:00:40,100
+completo y el valor de IMC respectivo.
+
+15
+00:00:40,100 --> 00:00:40,933
+Todo bien?
+
+16
+00:00:40,933 --> 00:00:43,280
+Y nuevamente, no olviden que en realidad
+
+17
+00:00:43,280 --> 00:00:44,960
+pueden tener el mismo IMC.
+
+18
+00:00:44,960 --> 00:00:47,350
+Y si no recuerda la frmula para
+
+19
+00:00:47,350 --> 00:00:50,410
+calcular el ndice de masa corporal, est aqu de nuevo.
+
+20
+00:00:50,410 --> 00:00:52,590
+Y tambin puede volver al otro desafo
+
+21
+00:00:52,590 --> 00:00:54,240
+y encontrar la solucin all.
+
+22
+00:00:54,240 --> 00:00:56,670
+Solo tenga en cuenta que la masa debe
+
+23
+00:00:56,670 --> 00:00:58,840
+estar en kilogramos y la altura en metros.
+
+24
+00:00:58,840 --> 00:00:59,673
+Bueno?
+
+25
+00:00:59,673 --> 00:01:02,800
+As que esto, una vez ms, es utilizar el conocimiento que acabamos de
+
+26
+00:01:02,800 --> 00:01:04,270
+aprender en las dos ltimas conferencias.
+
+27
+00:01:04,270 --> 00:01:05,950
+As que creo que esta es una
+
+28
+00:01:05,950 --> 00:01:08,100
+forma divertida de retener ese conocimiento de inmediato.
+
+29
+00:01:08,100 --> 00:01:11,293
+De acuerdo, as que buena suerte, y nos vemos una vez que hayas terminado.
+

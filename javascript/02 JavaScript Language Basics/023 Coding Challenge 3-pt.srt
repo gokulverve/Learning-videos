@@ -1,0 +1,136 @@
+1
+00:00:01,160 --> 00:00:03,580
+Instrutor: Bem-vindo ao prximo desafio de codificao.
+
+2
+00:00:03,580 --> 00:00:07,410
+Neste voc vai construir uma calculadora de dicas muito simples.
+
+3
+00:00:07,410 --> 00:00:09,920
+Ento, John e sua famlia saram
+
+4
+00:00:09,920 --> 00:00:12,130
+de frias e foram a
+
+5
+00:00:12,130 --> 00:00:17,130
+trs restaurantes diferentes, e as contas eram de 124, 48 e 268 dlares.
+
+6
+00:00:17,480 --> 00:00:20,090
+Agora, para dar gorjeta ao garom,
+
+7
+00:00:20,090 --> 00:00:23,660
+John criou uma calculadora de gorjetas simples como funo.
+
+8
+00:00:23,660 --> 00:00:25,900
+E o jeito que John calcula suas
+
+9
+00:00:25,900 --> 00:00:28,900
+gorjetas  que ele gosta de dar 20% da
+
+10
+00:00:28,900 --> 00:00:31,010
+conta quando a conta  inferior
+
+11
+00:00:31,010 --> 00:00:34,870
+a 50 dlares, 15% quando a conta est entre 50 e 200
+
+12
+00:00:34,870 --> 00:00:39,290
+dlares e 10% da conta se for mais de 200 dlares, e isso pode
+
+13
+00:00:39,290 --> 00:00:40,900
+no fazer muito sentido, mas
+
+14
+00:00:40,900 --> 00:00:43,610
+isso  apenas para este pequeno exerccio, ento
+
+15
+00:00:43,610 --> 00:00:46,830
+temos mais algumas coisas para fazer em nossa funo, ok.
+
+16
+00:00:46,830 --> 00:00:49,910
+Ento, no final, John gostaria de ter dois
+
+17
+00:00:49,910 --> 00:00:51,450
+arrays como resultados finais.
+
+18
+00:00:51,450 --> 00:00:55,200
+Ento, um contendo todas as trs dicas, de modo que uma
+
+19
+00:00:55,200 --> 00:00:58,690
+para cada fatura, e uma contendo as trs quantias finais pagas,
+
+20
+00:00:58,690 --> 00:01:02,640
+e com valores pagos, quero dizer a fatura mais a gorjeta paga.
+
+21
+00:01:02,640 --> 00:01:05,700
+Ok, ento ns queremos uma funo que calcule a dica,
+
+22
+00:01:05,700 --> 00:01:07,420
+e ento queremos duas matrizes, uma
+
+23
+00:01:07,420 --> 00:01:10,790
+com apenas as dicas e uma com dicas mais a conta.
+
+24
+00:01:10,790 --> 00:01:13,730
+Ok, e se voc no tiver certeza de como calcular uma porcentagem,
+
+25
+00:01:13,730 --> 00:01:16,450
+por exemplo, se voc quiser obter 20% de um valor, basta
+
+26
+00:01:16,450 --> 00:01:19,440
+multiplicar esse valor por 0. 2, que 
+
+27
+00:01:19,440 --> 00:01:24,160
+20 dividido por 100, ok, isso  muito simples.
+
+28
+00:01:24,160 --> 00:01:26,440
+Tudo bem, ento eu espero que voc consiga
+
+29
+00:01:26,440 --> 00:01:28,100
+fazer isso, este ser um bom
+
+30
+00:01:28,100 --> 00:01:30,660
+desafio para voc usar a maioria das coisas sobre
+
+31
+00:01:30,660 --> 00:01:32,070
+as quais falamos at agora.
+
+32
+00:01:32,070 --> 00:01:34,190
+Ento, d um tempo, experimente, e ento
+
+33
+00:01:34,190 --> 00:01:37,210
+eu te vejo no prximo vdeo com a soluo.
+
+34
+00:01:37,210 --> 00:01:38,043
+Boa sorte.
+

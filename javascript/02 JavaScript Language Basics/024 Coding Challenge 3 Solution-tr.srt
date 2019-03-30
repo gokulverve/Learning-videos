@@ -1,0 +1,600 @@
+1
+00:00:02,229 --> 00:00:03,062
+Jonas: Bu yzden,
+
+2
+00:00:03,062 --> 00:00:05,100
+gerekten meydan okumay denediini umuyorum, ve
+
+3
+00:00:05,100 --> 00:00:06,860
+tabii ki bunu yapmay baarmsndr.
+
+4
+00:00:06,860 --> 00:00:08,720
+Bu yzden, nasl yaptm
+
+5
+00:00:08,720 --> 00:00:10,990
+merak ettiin iin zmm gider.
+
+6
+00:00:10,990 --> 00:00:13,923
+pucu hesap fonksiyonu oluturarak balayacam.
+
+7
+00:00:14,770 --> 00:00:19,233
+Tamam, o kadar ilev ve ben de u hesap makinesi diyeceim.
+
+8
+00:00:21,370 --> 00:00:24,533
+yleyse burada faturay aradm bir deer iletiyorsunuz
+
+9
+00:00:26,130 --> 00:00:28,600
+ve sonra fonksiyon bedenimize sahibiz.
+
+10
+00:00:28,600 --> 00:00:32,670
+Tamam, imdi, fatura deerine bal olarak, John'un
+
+11
+00:00:32,670 --> 00:00:34,890
+demeyi sevdii ipucu yzdesini
+
+12
+00:00:34,890 --> 00:00:36,273
+belirlemek istiyoruz.
+
+13
+00:00:37,146 --> 00:00:38,810
+Yani burada kurallarmz
+
+14
+00:00:38,810 --> 00:00:41,950
+var, bu yzden fatura% 50'den az,%
+
+15
+00:00:41,950 --> 00:00:44,570
+15'i 50 ve 200 arasnda
+
+16
+00:00:44,570 --> 00:00:48,053
+ise% 15 ve fatura 200'den fazla ise% 10.
+
+17
+00:00:50,030 --> 00:00:52,653
+Bu yzden var yzdesini burada tanmlayacam
+
+18
+00:00:53,980 --> 00:00:55,310
+ve sonra brakacam.
+
+19
+00:00:55,310 --> 00:00:58,490
+Bu L ifadesi, aslnda faturaya bal
+
+20
+00:00:58,490 --> 00:01:01,563
+olarak yzde iin deer tanmlayacam.
+
+21
+00:01:02,700 --> 00:01:07,700
+Yani fatura 50'den az ise, o
+
+22
+00:01:10,000 --> 00:01:12,773
+zaman yzde 20 olmaldr.
+
+23
+00:01:13,680 --> 00:01:16,120
+Ya da aslnda olmal. 2.
+
+24
+00:01:16,120 --> 00:01:18,090
+Yani 0 yazabiliriz. 2, ama burada
+
+25
+00:01:18,090 --> 00:01:19,320
+bile sfra ihtiyacmz yok.
+
+26
+00:01:19,320 --> 00:01:21,850
+Bu yzden sadece . 2, nk aslnda
+
+27
+00:01:21,850 --> 00:01:24,670
+daha sonra fatura ile arpacamz deerdir.
+
+28
+00:01:24,670 --> 00:01:27,720
+Tamam, unutmayn, bir deerin% 20'sini tamamlamak iin, onu
+
+29
+00:01:27,720 --> 00:01:30,180
+0 ile arpyoruz. Bu durumda 2,
+
+30
+00:01:30,180 --> 00:01:32,063
+nk bu say 100'e blnr.
+
+31
+00:01:34,230 --> 00:01:37,763
+Pekala, fatura 50 ya da
+
+32
+00:01:37,763 --> 00:01:42,763
+daha bykse, fatura 200'den az ise biter.
+
+33
+00:01:45,560 --> 00:01:46,570
+Yani, daha nce
+
+34
+00:01:46,570 --> 00:01:48,480
+yaptmz eylere ok benziyor, deil mi?
+
+35
+00:01:48,480 --> 00:01:50,983
+Yani bu noktada sizin iin hibir ey olmamal.
+
+36
+00:01:53,470 --> 00:01:57,160
+Yani bu durumda yzdemiz olacak. 15, ve
+
+37
+00:01:57,160 --> 00:02:01,590
+yzde, olacaktr. 0.
+
+38
+00:02:01,590 --> 00:02:03,730
+Ya da aslnda. 1, zgnm.
+
+39
+00:02:03,730 --> 00:02:06,980
+Yani . 1,% 10, tamam.
+
+40
+00:02:06,980 --> 00:02:07,930
+Ve bu
+
+41
+00:02:07,930 --> 00:02:09,820
+durumda, eer burada, eer fatura
+
+42
+00:02:09,820 --> 00:02:11,710
+50'den az deilse ve 50
+
+43
+00:02:11,710 --> 00:02:14,310
+ile 200 arasnda deilse, o zaman
+
+44
+00:02:14,310 --> 00:02:16,510
+200'den fazla olduu anlamna gelir.
+
+45
+00:02:16,510 --> 00:02:18,793
+Ve ite bu, tm bunlar kapsar.
+
+46
+00:02:20,790 --> 00:02:22,177
+Yani imdi yapmamz
+
+47
+00:02:22,177 --> 00:02:26,313
+gereken tek ey bu yzdeyi faturaya geri vermek.
+
+48
+00:02:27,630 --> 00:02:30,870
+rnein, faturamz 100 dolar olsayd, o zaman
+
+49
+00:02:30,870 --> 00:02:33,220
+onu blerdik. 15, daha
+
+50
+00:02:33,220 --> 00:02:35,190
+sonra 15 dolar olacakt.
+
+51
+00:02:35,190 --> 00:02:39,070
+Yani bu bahi hesaplaycsndan 15 dolar verecektik.
+
+52
+00:02:39,070 --> 00:02:40,520
+Tamam, imdi, elbette
+
+53
+00:02:40,520 --> 00:02:41,980
+bunu farkl ekilde yapabilirdiniz.
+
+54
+00:02:41,980 --> 00:02:44,290
+rnein, daha nce yaptmz
+
+55
+00:02:44,290 --> 00:02:48,343
+gibi bir anahtar yapm olabilirsiniz, nerede?
+
+56
+00:02:49,980 --> 00:02:53,783
+Yani ok benzer bir ey, ite burada.
+
+57
+00:02:56,070 --> 00:02:57,620
+Yani, rnein, burada
+
+58
+00:02:57,620 --> 00:02:58,850
+da buna benzer
+
+59
+00:02:58,850 --> 00:03:00,760
+bir ey yapm olabilirsiniz,
+
+60
+00:03:00,760 --> 00:03:04,315
+her durumda, o zaman faturay geerli yzdeye dndrrsnz.
+
+61
+00:03:04,315 --> 00:03:06,810
+Ve eer byle alrsa iyi olur.
+
+62
+00:03:06,810 --> 00:03:09,540
+Yani sadece ayn problemler iin her zaman
+
+63
+00:03:09,540 --> 00:03:12,020
+farkl zmler olduunu sylemek iin, tamam m?
+
+64
+00:03:12,020 --> 00:03:15,960
+Ve imdi sadece bunu burada bir deerle test etmek istiyorum.
+
+65
+00:03:15,960 --> 00:03:19,450
+yleyse bahi hesapla, ve 100'e ayarlayalm.
+
+66
+00:03:19,450 --> 00:03:21,000
+Ve onu kayt altna almamz gerekiyor.
+
+67
+00:03:21,000 --> 00:03:23,060
+Yani yine bu sadece ilevimizin
+
+68
+00:03:23,060 --> 00:03:26,313
+gerekten iyi alp almadn grmek iin test etmek iindir.
+
+69
+00:03:28,441 --> 00:03:31,143
+Yani bu, 15 dnmelidir, deil mi?
+
+70
+00:03:32,380 --> 00:03:37,050
+Ve gerekten de yle, yani 100'n% 15'i,
+
+71
+00:03:37,050 --> 00:03:39,960
+50 ile 200 arasnda.
+
+72
+00:03:39,960 --> 00:03:42,430
+imdi 300 ile deneyelim ve
+
+73
+00:03:42,430 --> 00:03:46,240
+bunun% 10'unu alacaz, bu da 30 olur.
+
+74
+00:03:46,240 --> 00:03:49,870
+O zaman test edelim, ve gerekten ie yaryor.
+
+75
+00:03:49,870 --> 00:03:53,280
+Ve imdi, hadi ki, 10 dolar olsun, ki bu
+
+76
+00:03:53,280 --> 00:03:55,090
+da elbette 50'den az, ve
+
+77
+00:03:55,090 --> 00:03:58,053
+bunun da yzde ikii iki dolar olmal.
+
+78
+00:03:59,190 --> 00:04:01,460
+Ve evet, aslnda iki.
+
+79
+00:04:01,460 --> 00:04:03,020
+Ve bu, bizim u
+
+80
+00:04:03,020 --> 00:04:04,940
+hesaplaycmzn gerekten alt anlamna gelir.
+
+81
+00:04:04,940 --> 00:04:06,730
+Yani imdi yapmamz gereken tek
+
+82
+00:04:06,730 --> 00:04:10,136
+ey John'un sonular istedii gibi silmek iin bunlar yaratmak.
+
+83
+00:04:10,136 --> 00:04:11,850
+Yapacam ilk ey, bir
+
+84
+00:04:11,850 --> 00:04:13,784
+faturaya ve bir diziye
+
+85
+00:04:13,784 --> 00:04:18,784
+balamaktr, bu yzden 124'mz var, 48 tane var, ve sonra 268 inanyorum.
+
+86
+00:04:23,600 --> 00:04:26,260
+Bunu onaylayalm, ve evet.
+
+87
+00:04:26,260 --> 00:04:28,807
+Yani bunlar sahip olduumuz
+
+88
+00:04:28,807 --> 00:04:32,493
+faturalar ve sonra ipularn hesaplayalm.
+
+89
+00:04:34,440 --> 00:04:38,240
+Yani ilk ipucu, sfr numaral pozisyonda
+
+90
+00:04:38,240 --> 00:04:42,710
+faturalar olan bahi hesaplayc kullanlarak hesaplanr, deil mi?
+
+91
+00:04:42,710 --> 00:04:44,180
+Sonra ikincisi, ve
+
+92
+00:04:44,180 --> 00:04:46,587
+aslnda burada ayr bir izgiye koyalm.
+
+93
+00:04:46,587 --> 00:04:50,020
+Yani ikincisi, birinci hesaptaki bahi
+
+94
+00:04:51,670 --> 00:04:56,110
+hesap faturalardr ve son olarak, sonuncusu,
+
+95
+00:04:56,110 --> 00:04:58,480
+ipucu iki numaral
+
+96
+00:04:58,480 --> 00:05:01,093
+pozisyonda faturalarla hesaplanmaktadr.
+
+97
+00:05:03,050 --> 00:05:05,240
+Tamam, bu yzden bu
+
+98
+00:05:05,240 --> 00:05:07,640
+ deeri ieren bir dizi
+
+99
+00:05:07,640 --> 00:05:09,680
+yarattk, bunlarn tm, ipucu
+
+100
+00:05:09,680 --> 00:05:13,250
+hesaplama ilevimizi kullanarak ipucu hesaplama sonucundan geldi.
+
+101
+00:05:13,250 --> 00:05:16,033
+Tamam, hadi buradaki konsola giri yapalm
+
+102
+00:05:22,120 --> 00:05:24,190
+ve ite bizim ipularmz var.
+
+103
+00:05:24,190 --> 00:05:26,730
+imdi bu burada 9 ile olan
+
+104
+00:05:26,730 --> 00:05:29,110
+garip bir ey. 6 ve 001,
+
+105
+00:05:29,110 --> 00:05:30,100
+ve bu javascript'in
+
+106
+00:05:30,100 --> 00:05:31,590
+saylarla yapt garip bir
+
+107
+00:05:31,590 --> 00:05:34,440
+ey ve hi kimse bunun neden olduunu bilmiyor.
+
+108
+00:05:34,440 --> 00:05:36,660
+Yani sadece 9 olmal. 6, ve aslnda
+
+109
+00:05:36,660 --> 00:05:38,720
+bu 59999998 ile burada oluyor,
+
+110
+00:05:38,720 --> 00:05:43,280
+ve bu elbette 18 olmal. 6.
+
+111
+00:05:44,879 --> 00:05:46,450
+Ama deitirebileceimiz bir
+
+112
+00:05:46,450 --> 00:05:49,410
+ey deil, bu bizim hatamz deil,
+
+113
+00:05:49,410 --> 00:05:51,900
+javascript burada gerekten anlamsz olan
+
+114
+00:05:51,900 --> 00:05:55,850
+bu garip hesaplamalar yapyor, bu yzden onlar iin endielenme.
+
+115
+00:05:55,850 --> 00:05:59,540
+Tamam, bu, istediimiz ilk dizi, 
+
+116
+00:05:59,540 --> 00:06:02,010
+ipucu, ve son olarak,
+
+117
+00:06:02,010 --> 00:06:05,720
+son  denen tutar ieren birini istiyoruz.
+
+118
+00:06:05,720 --> 00:06:07,893
+Ve bu da ok
+
+119
+00:06:09,350 --> 00:06:14,350
+kolay, diyelim ki son deerler, yani baka bir dizi.
+
+120
+00:06:14,650 --> 00:06:19,650
+Ve burada sfr noktasnda faturalar ve
+
+121
+00:06:19,800 --> 00:06:23,210
+sfr pozisyonundaki ipularn sylemeliyiz.
+
+122
+00:06:23,210 --> 00:06:26,060
+Ve ite bu, ok basit.
+
+123
+00:06:26,060 --> 00:06:30,280
+unu burda toplayalm, ite
+
+124
+00:06:30,280 --> 00:06:34,373
+burada, ve burada iki.
+
+125
+00:06:39,665 --> 00:06:40,508
+Ve sonu
+
+126
+00:06:40,508 --> 00:06:44,723
+olarak bu bizim nihai sonularmza ulamak iin yapmamz gereken ey.
+
+127
+00:06:48,168 --> 00:06:50,250
+imdi bunu gryorsun, imdi
+
+128
+00:06:50,250 --> 00:06:53,720
+burada buna sahibiz. 6 ve bu. 6 bu ikisinden geliyor.
+
+129
+00:06:53,720 --> 00:06:57,020
+Yani bu gerekten garip, yine endielenme.
+
+130
+00:06:57,020 --> 00:06:59,410
+Neyse, gerekten burada grmek
+
+131
+00:06:59,410 --> 00:07:03,050
+istediimiz, bu 142. 6, gerekten de bu
+
+132
+00:07:03,050 --> 00:07:07,990
+18 olan orijinal faturann toplamdr. 6.
+
+133
+00:07:09,510 --> 00:07:11,280
+Ve dierleri iin elbette ayn.
+
+134
+00:07:11,280 --> 00:07:15,157
+Yani 57. 6, 9'dur. 6 art 48, ve
+
+135
+00:07:15,157 --> 00:07:17,533
+bu son e iin de ayn.
+
+136
+00:07:18,685 --> 00:07:20,735
+Ve bununla birlikte zorluk tamamland.
+
+137
+00:07:22,017 --> 00:07:24,140
+Ve sen bunu ok farkl yapabilirdin.
+
+138
+00:07:24,140 --> 00:07:26,070
+rnein, balangta bo diziler ilan
+
+139
+00:07:26,070 --> 00:07:28,370
+etmi ve daha sonra bu sonular
+
+140
+00:07:28,370 --> 00:07:30,870
+diziye eklemek iin push yntemini kullanabilirsiniz.
+
+141
+00:07:30,870 --> 00:07:33,140
+Yine de, kodunuzun benimkiyle ayn
+
+142
+00:07:33,140 --> 00:07:35,530
+olmas nemli deil, tamam m?
+
+143
+00:07:35,530 --> 00:07:37,180
+Bunu yeterince vurgulamyorum.
+
+144
+00:07:37,180 --> 00:07:39,310
+Yani burada gerekten istediim kod
+
+145
+00:07:39,310 --> 00:07:42,080
+yazmak ve bu problemleri nasl zeceimizi dnmek.
+
+146
+00:07:42,080 --> 00:07:45,098
+Ve elde ettiin sonular benimkiyle aynysa, o
+
+147
+00:07:45,098 --> 00:07:46,260
+zaman gerekten harika.
+
+148
+00:07:46,260 --> 00:07:47,960
+Yani bu blmde uzun bir
+
+149
+00:07:47,960 --> 00:07:51,110
+yol kat ettiniz, ancak renilecek birka ey daha var.
+
+150
+00:07:51,110 --> 00:07:52,373
+imdi devam edelim.
+

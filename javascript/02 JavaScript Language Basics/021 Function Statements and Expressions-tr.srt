@@ -1,0 +1,852 @@
+1
+00:00:01,399 --> 00:00:02,340
+Eitmen: Bu
+
+2
+00:00:02,340 --> 00:00:05,940
+videoda fonksiyon ifadeleri ve ifadeleri reneceksiniz.
+
+3
+00:00:05,940 --> 00:00:07,780
+Bu yzden, fonksiyonlar hakknda
+
+4
+00:00:07,780 --> 00:00:10,620
+ilk konutuumuz son videoda, her zaman ilev
+
+5
+00:00:10,620 --> 00:00:13,360
+ifadeleri kullanarak ilevler ilan ettim, ancak Java
+
+6
+00:00:13,360 --> 00:00:16,190
+Komut Dosyas'nda yaz yazma ilevinin baka bir
+
+7
+00:00:16,190 --> 00:00:19,870
+yolu var ve bu da ilev ifadeleri kullanmaktr, tamam.
+
+8
+00:00:19,870 --> 00:00:22,000
+Bylece, son derste size anlattm
+
+9
+00:00:22,000 --> 00:00:24,760
+tm fonksiyonlarn mant hala ayn ekilde alyor.
+
+10
+00:00:24,760 --> 00:00:27,820
+Fonksiyonu biraz farkl bir ekilde yazyoruz ve
+
+11
+00:00:27,820 --> 00:00:29,220
+Java Script'inin kaputu
+
+12
+00:00:29,220 --> 00:00:31,520
+altnda da aslnda olduka farkl alyor,
+
+13
+00:00:31,520 --> 00:00:34,230
+ancak imdilik bu bizim iin nemli deil.
+
+14
+00:00:34,230 --> 00:00:36,033
+Sadece bu noktada hem
+
+15
+00:00:36,033 --> 00:00:38,280
+fonksiyon ifadeleri hem de ifadelerimiz olduunu
+
+16
+00:00:38,280 --> 00:00:40,650
+bilmenizi istiyorum, o yzden size gstereyim.
+
+17
+00:00:40,650 --> 00:00:43,590
+Ve bylece, bir ilev ifadesi yazarken,
+
+18
+00:00:43,590 --> 00:00:46,180
+temelde ismsiz olarak fonksiyonu yazarak
+
+19
+00:00:46,180 --> 00:00:48,060
+balyoruz, bu yzden hala
+
+20
+00:00:48,060 --> 00:00:49,980
+fonksiyon anahtar szcn kullanyoruz
+
+21
+00:00:49,980 --> 00:00:52,340
+ve sonra argmanlar listesini koyduktan
+
+22
+00:00:52,340 --> 00:00:56,183
+sonra ite yaptrmak istiyorum. ilk ad girin.
+
+23
+00:00:57,030 --> 00:00:59,230
+Tamam, ve sadece o zaman
+
+24
+00:00:59,230 --> 00:01:01,450
+temelde bu ilevi bir deikene atadk.
+
+25
+00:01:01,450 --> 00:01:03,540
+Yani, bir deikeni ilan ediyoruz,
+
+26
+00:01:03,540 --> 00:01:06,460
+ve bu, whatDoYouDo diyeceim, yani temelde
+
+27
+00:01:06,460 --> 00:01:09,380
+i yaptracamz bir ilev ve daha
+
+28
+00:01:09,380 --> 00:01:12,550
+sonra ilev, o kiinin ne yaptn anlatyor.
+
+29
+00:01:12,550 --> 00:01:16,403
+Yani, "whatDoYouDo", bu yzden imdi bir deiken ve
+
+30
+00:01:18,221 --> 00:01:21,720
+bu deikeni atadmz ey basite bu ilevdir.
+
+31
+00:01:21,720 --> 00:01:24,760
+Yani, ite ve ilk isminde yaptrdmz
+
+32
+00:01:24,760 --> 00:01:27,450
+fonksiyon, ve sonra da fonksiyon blou.
+
+33
+00:01:27,450 --> 00:01:29,350
+Pekala, bunu daha nce
+
+34
+00:01:29,350 --> 00:01:31,850
+yaptmz eye benzeterek, tamam, yazalm.
+
+35
+00:01:33,100 --> 00:01:36,823
+Yani, bu bir ilev ifadesidir.
+
+36
+00:01:39,350 --> 00:01:42,290
+Ve eer ayn eyi bir
+
+37
+00:01:43,740 --> 00:01:47,907
+fonksiyon deklarasyonu olarak yapsaydk, o zaman "Function whatDoYouDo"
+
+38
+00:01:49,530 --> 00:01:53,700
+yazp, argmanlar listesi, yani byle bir ey yazabilirdik.
+
+39
+00:01:53,700 --> 00:01:55,300
+Tamam, fark gryor musun?
+
+40
+00:01:56,140 --> 00:01:58,110
+Tamam, bu konuda yorum yapmama izin verin.
+
+41
+00:02:00,440 --> 00:02:02,340
+Yani, bu sadece bir bildirge
+
+42
+00:02:02,340 --> 00:02:04,880
+ile bir ifade arasndaki farkn ne olduunu
+
+43
+00:02:04,880 --> 00:02:07,504
+ve yine, ilev dediimiz ekilde ve parametrelere
+
+44
+00:02:07,504 --> 00:02:08,670
+yaptrma eklimizi ve
+
+45
+00:02:08,670 --> 00:02:11,060
+daha nce rendiiniz her eyin hala tam
+
+46
+00:02:11,060 --> 00:02:13,330
+olarak altn biliyorsunuzdur. ilev ifadeleriyle ayn ekilde.
+
+47
+00:02:13,330 --> 00:02:16,620
+Pekala, bundan sonra bir anahtar deyimi kullanacam, bylece
+
+48
+00:02:16,620 --> 00:02:18,860
+daha nce rendiimiz baz farkl
+
+49
+00:02:18,860 --> 00:02:22,640
+eyleri pratik edebilecek ve aslnda daha nce sahip olduumuz
+
+50
+00:02:22,640 --> 00:02:24,930
+anahtara benzer bir ey yapacaz.
+
+51
+00:02:24,930 --> 00:02:27,790
+Yani, ii burada deitireceiz ve
+
+52
+00:02:27,790 --> 00:02:31,523
+sonra bizim farkl durumlarmz retmen iin olacak.
+
+53
+00:02:34,700 --> 00:02:36,700
+Ve davalar daha nce buraya ekleyelim.
+
+54
+00:02:36,700 --> 00:02:39,923
+yleyse, vaka retmeni, sonra ofrmz var. Ve sonra, daha nce hibiri
+
+55
+00:02:42,750 --> 00:02:45,160
+Sonra tasarmcya sahibiz. geerli deilse, varsaylan durum.
+
+56
+00:02:50,060 --> 00:02:52,439
+Pekala, imdi, bu benzer anahtar yaptmz
+
+57
+00:02:52,439 --> 00:02:54,420
+dier zaman, iptal edilmi bir
+
+58
+00:02:54,420 --> 00:02:56,880
+k gnlmz vard ve sonra bir
+
+59
+00:02:56,880 --> 00:03:00,295
+ara verdik, ama bu sefer aslnda bir eyler dndreceiz.
+
+60
+00:03:00,295 --> 00:03:01,490
+yleyse, ilk ad ve
+
+61
+00:03:01,490 --> 00:03:03,500
+daha nce sahip olduumuz dize dnmek istediimizi varsayalm.
+
+62
+00:03:03,500 --> 00:03:06,870
+Yani, "ocuklara nasl kod yazlacan retir. "Tamam, imdi de
+
+63
+00:03:08,150 --> 00:03:10,510
+ara vermek
+
+64
+00:03:10,510 --> 00:03:15,160
+zorunda deiliz.
+
+65
+00:03:15,160 --> 00:03:17,250
+Bu, size daha nce
+
+66
+00:03:17,250 --> 00:03:19,120
+bahsetmediim bir ey yznden,
+
+67
+00:03:19,120 --> 00:03:20,520
+yani buraya geri
+
+68
+00:03:20,520 --> 00:03:24,010
+dn anahtar kelimesini vurduumuzda, sonra tanmladmz eyi
+
+69
+00:03:24,010 --> 00:03:27,810
+geri alrz, ama ne olur da ilev hemen biter.
+
+70
+00:03:27,810 --> 00:03:29,932
+Yani, temelde hemen ilevden
+
+71
+00:03:29,932 --> 00:03:31,280
+kp, aslnda ileve
+
+72
+00:03:31,280 --> 00:03:33,430
+ardmz yere geri dnyoruz.
+
+73
+00:03:33,430 --> 00:03:35,460
+Tamam, bylece geri dn anahtar kelimeleri sadece
+
+74
+00:03:35,460 --> 00:03:37,700
+deeri deil, ayn zamanda ilevi de tamamlar.
+
+75
+00:03:37,700 --> 00:03:41,250
+Tamam, buradaki krlmaya ihtiyacmz yok.
+
+76
+00:03:41,250 --> 00:03:43,810
+Yani, iin retmen olmas durumunda,
+
+77
+00:03:43,810 --> 00:03:46,430
+bu dizeyi buraya geri gndeririz
+
+78
+00:03:46,430 --> 00:03:48,810
+ve hemen ilevden karz.
+
+79
+00:03:48,810 --> 00:03:51,130
+Pekala, imdi iin ofr olmas durumunda,
+
+80
+00:03:51,130 --> 00:03:53,223
+o zaman baka bir ey verelim.
+
+81
+00:03:55,718 --> 00:03:58,800
+Tamam, ve bu durumda, buradaki izgi hi bir
+
+82
+00:03:58,800 --> 00:04:00,600
+zaman idam edilmeyecek, akas, ve
+
+83
+00:04:01,840 --> 00:04:04,520
+bu yzden bu ilevi bitirmeyecek ve bunun
+
+84
+00:04:04,520 --> 00:04:07,360
+yerine bir sonraki olaya, yani ofre gelecek.
+
+85
+00:04:07,360 --> 00:04:09,640
+Yani, ilk ad ve diyelim ki, "Lizbon'da bir taksi kullanyor. "Sonra tasarmc iin "Gzel web siteleri tasarlar" ve Baka bir ey
+
+86
+00:04:09,640 --> 00:04:11,890
+ayn ey. ardndan son olarak varsaylan durum. var m? Tamam, imdi deneyelim.
+
+87
+00:04:11,890 --> 00:04:16,890
+Yani, bizim fonksiyonumuzu armadan nce olduu gibi, "WhatDoYouDo," ve
+
+88
+00:04:20,520 --> 00:04:22,640
+sonra ie yaptryoruz ve bir ilk isim.
+
+89
+00:04:30,617 --> 00:04:32,670
+yleyse, "retmen" ve tabii ki "John. Unutma ki, bu fonksiyonun bir ey
+
+90
+00:04:32,670 --> 00:04:34,060
+dndrdn ve bu yzden
+
+91
+00:04:41,840 --> 00:04:43,063
+bunu bir yere kaydetmeliyiz.
+
+92
+00:04:44,660 --> 00:04:47,150
+Pekala, ya da onu
+
+93
+00:04:47,150 --> 00:04:50,990
+kaydetmek yerine, elbette basite konsolda da oturum
+
+94
+00:04:50,990 --> 00:04:53,560
+aabiliriz, o yzden bunu yapalm.
+
+95
+00:04:53,560 --> 00:04:58,560
+Tamam, bu daha nce yapmadmz bir ey.
+
+96
+00:05:00,110 --> 00:05:02,260
+Bylece, hemen bu
+
+97
+00:05:02,260 --> 00:05:05,800
+ilevi armann sonucunu konsolda oturum at.
+
+98
+00:05:05,800 --> 00:05:07,830
+Tamam, ama bu sadece ayn ekilde alyor.
+
+99
+00:05:07,830 --> 00:05:10,043
+yleyse, bu durumda buraya geri dneceimiz dizge, "John ocuklara nasl
+
+100
+00:05:11,168 --> 00:05:12,173
+kod yazlacan retir" deil mi?
+
+101
+00:05:13,490 --> 00:05:15,860
+Ve bylece daha sonra konsola kaydedilecek.
+
+102
+00:05:15,860 --> 00:05:17,570
+Yani, aynen dediim gibi,
+
+103
+00:05:17,570 --> 00:05:20,070
+bu bizim beklediimiz dizeydi, deil mi?
+
+104
+00:05:20,070 --> 00:05:22,030
+Ve imdi elbette bunu defalarca yapabiliriz. Eh, unu imdi ne olacan grelim,
+
+105
+00:05:22,030 --> 00:05:24,667
+Yani, diyelim ki, "tasarmc, Jane" ve sonra. syleyebiliriz, "Mark emekli. diyor Jane gzel web siteleri tasarlyor,
+
+106
+00:05:24,667 --> 00:05:27,850
+ve sonra Mark, sadece varsaylan yan tmce
+
+107
+00:05:27,850 --> 00:05:30,503
+ile baka bir ey yapyor.
+
+108
+00:05:32,010 --> 00:05:35,400
+Yani, yine tm bu kodu yeniden kullanabilmenin
+
+109
+00:05:35,400 --> 00:05:37,520
+ne kadar yararl olduunu gryorsunuz.
+
+110
+00:05:37,520 --> 00:05:40,633
+Aksi takdirde, bu senaryoyu  kii ve 
+
+111
+00:05:43,230 --> 00:05:47,390
+farkl i ile birlikte yapmak istemeniz durumunda, bunu  kez
+
+112
+00:05:47,390 --> 00:05:49,597
+yazmak zorunda kalacaz.
+
+113
+00:05:51,280 --> 00:05:54,177
+Ve bunun gibi, basite, temelde
+
+114
+00:05:54,177 --> 00:05:56,580
+deien eylere fonksiyon yaptryoruz.
+
+115
+00:05:56,580 --> 00:05:58,450
+Yani, burada farkl olan ey,
+
+116
+00:05:58,450 --> 00:06:00,640
+bu vakalarn her birinin ad
+
+117
+00:06:00,640 --> 00:06:02,860
+ve addr, ve ite, hem
+
+118
+00:06:02,860 --> 00:06:05,430
+i hem de isimde fonksiyona yaptrdmz
+
+119
+00:06:05,430 --> 00:06:08,140
+ey, ve daha sonra fonksiyonun bir ey
+
+120
+00:06:08,140 --> 00:06:10,570
+yapmasna dayanr. dize ve sonra dndrr.
+
+121
+00:06:10,570 --> 00:06:12,843
+Yani, yine, her zaman bir ey
+
+122
+00:06:12,843 --> 00:06:15,240
+alan bir makine gibi bir ilevi
+
+123
+00:06:15,240 --> 00:06:17,350
+grebiliyoruz, sonra verilerle bir eyler yapyor
+
+124
+00:06:17,350 --> 00:06:19,250
+ve farkl bir ey veriyoruz.
+
+125
+00:06:19,250 --> 00:06:21,050
+Tamam, ite bu yzden bir fonksiyon ifadesi yazyoruz.
+
+126
+00:06:21,050 --> 00:06:23,520
+imdi, ifadeler ve ifadeler,
+
+127
+00:06:23,520 --> 00:06:26,120
+yalnzca ilevlere deil, Java Script'inde
+
+128
+00:06:26,120 --> 00:06:28,540
+de kresel bir kavramdr.
+
+129
+00:06:28,540 --> 00:06:31,240
+Bu yzden, devam etmeden nce, ifadeler ve
+
+130
+00:06:31,240 --> 00:06:33,230
+ifadeler arasndaki fark hakknda biraz konualm.
+
+131
+00:06:33,230 --> 00:06:34,720
+Dolaysyla, Java Script ifadeleri her
+
+132
+00:06:34,720 --> 00:06:36,800
+zaman bir deer reten kod paralardr ve
+
+133
+00:06:36,800 --> 00:06:40,360
+kodun tek bir deerle sonuland srece ne kadar uzun olduu nemli
+
+134
+00:06:40,360 --> 00:06:42,290
+deildir ve sonra bu bir ifadedir.
+
+135
+00:06:42,290 --> 00:06:44,230
+yleyse, buradaki konsola bir bakalm.
+
+136
+00:06:44,230 --> 00:06:47,320
+Ve bylece, rnein, sadece "2 + 3"
+
+137
+00:06:47,320 --> 00:06:49,260
+yazyorsanz, bunun bir sonu verdiini
+
+138
+00:06:49,260 --> 00:06:52,170
+gryorsunuz, bu yzden bu durumda 5 tane.
+
+139
+00:06:52,170 --> 00:06:54,820
+Ve bu yzden, burada bir
+
+140
+00:06:54,820 --> 00:06:57,650
+Java Script ifadesinde yazdk, tamam m?
+
+141
+00:06:57,650 --> 00:07:00,170
+Ayn ey, rnein, bu ilevi ardmz zaman.
+
+142
+00:07:00,170 --> 00:07:03,470
+yleyse, bu ilevi konsolda
+
+143
+00:07:03,470 --> 00:07:06,090
+burada aralm, ve
+
+144
+00:07:06,090 --> 00:07:10,830
+aslnda bu ilevlere dorudan konsolda eriebiliyoruz.
+
+145
+00:07:10,830 --> 00:07:13,070
+Tamam, bu, bu noktaya kadar, isel
+
+146
+00:07:13,070 --> 00:07:15,000
+kodumuzu konsolumuzda tanmladmz deikenleri ve
+
+147
+00:07:15,000 --> 00:07:17,114
+ilevi kullanarak temelde yapmadmz bir
+
+148
+00:07:17,114 --> 00:07:18,940
+eydi, ama biz bunu yapabiliriz.
+
+149
+00:07:18,940 --> 00:07:22,780
+Tamam, ve imdi burada bu ilevi ardmzda, tabiki bir deer
+
+150
+00:07:22,780 --> 00:07:24,839
+dndrdn gryorsunuz, ve yine, bu
+
+151
+00:07:24,839 --> 00:07:26,350
+ilev burada bir ifadedir.
+
+152
+00:07:26,350 --> 00:07:28,830
+Ve gerekten, yaptmz her ey,
+
+153
+00:07:28,830 --> 00:07:31,247
+yine sonu reten bir ifadedir.
+
+154
+00:07:31,247 --> 00:07:33,370
+Yani, rnein, "tipeof 23", ve
+
+155
+00:07:33,370 --> 00:07:35,680
+bize "say" nn bu sonucunu verir
+
+156
+00:07:35,680 --> 00:07:37,430
+ve tekrar, bu bir ifadedir.
+
+157
+00:07:38,354 --> 00:07:40,370
+Tamam, yani bunun anlam, Java
+
+158
+00:07:40,370 --> 00:07:43,493
+Script'in bir deer bekledii zaman, her zaman
+
+159
+00:07:44,422 --> 00:07:46,500
+bir ifade yazmak zorunda olduumuzdur.
+
+160
+00:07:46,500 --> 00:07:47,820
+Tamam, ve bu
+
+161
+00:07:47,820 --> 00:07:51,220
+kavramn neminin sizin iin bu noktada kavranmas biraz
+
+162
+00:07:51,220 --> 00:07:55,120
+zor olabilir, tamam, ama bu eyleri gelecek iin renmek
+
+163
+00:07:55,120 --> 00:07:57,819
+gerekten ok nemli, tamam m? rnein, burada Java Script burada bir deer beklemektedir ve
+
+164
+00:07:57,819 --> 00:07:59,060
+Yani, rnein, burada bu FL ifadesinde. bu yzden burada bir
+
+165
+00:07:59,060 --> 00:08:01,270
+ifade olmal ve elbette ki bu operatr
+
+166
+00:08:01,270 --> 00:08:03,360
+burada elbette ki doru ya da yanl
+
+167
+00:08:03,360 --> 00:08:05,260
+geri dnecektir ve bu yzden bir
+
+168
+00:08:06,197 --> 00:08:07,890
+sonutur ve dolaysyla bu bir ifade.
+
+169
+00:08:07,890 --> 00:08:10,390
+Tamam, her neyse, ifadelerle
+
+170
+00:08:10,390 --> 00:08:12,740
+ilgili, sadece eylemler yapyorlar.
+
+171
+00:08:12,740 --> 00:08:15,680
+Bu yzden, bir eyler yaparlar, ancak annda
+
+172
+00:08:15,680 --> 00:08:18,420
+sonu vermezler, bu yzden bunlar FL
+
+173
+00:08:19,640 --> 00:08:22,490
+ifadeleri, neden daha sonra konuacamz bir dng,
+
+174
+00:08:22,490 --> 00:08:24,920
+hatta bir ilev bildirimi gibi eylerdir.
+
+175
+00:08:24,920 --> 00:08:27,230
+Herhangi bir anlk deer retmezler ve
+
+176
+00:08:27,230 --> 00:08:28,990
+bu yzden ifadeler olarak adlandrlrlar.
+
+177
+00:08:28,990 --> 00:08:31,210
+yleyse tekrar konsola bir gz atalm.
+
+178
+00:08:31,210 --> 00:08:33,060
+Burada ok basit bir FL ifadesi yazacam.
+
+179
+00:08:35,561 --> 00:08:37,480
+yleyse, "eer doruysa" diyelim, ve bylece
+
+180
+00:08:37,480 --> 00:08:39,340
+eer buradaki blok tabii ki girilecekse.
+
+181
+00:08:39,340 --> 00:08:41,360
+O zaman konsolu yazalm. Sadece birka saydan,
+
+182
+00:08:41,360 --> 00:08:45,510
+baz rastgele eylerden giri yapn.
+
+183
+00:08:45,510 --> 00:08:47,620
+yleyse, burada gerekten nemli deil,
+
+184
+00:08:47,620 --> 00:08:49,490
+ve geri dnelim, geri dnelim,
+
+185
+00:08:49,490 --> 00:08:51,730
+ve imdi burada grdnz burada tanmlanmam.
+
+186
+00:08:51,730 --> 00:08:53,720
+Tamam, gerekten bir ey getirmiyor, ama
+
+187
+00:08:53,720 --> 00:08:56,160
+bu 23 burada sadece bu konsoldan geliyor. Buraya giri yap, ama
+
+188
+00:08:56,160 --> 00:08:58,830
+ifadenin kendisi, hibir ey dndrmez.
+
+189
+00:08:58,830 --> 00:09:01,900
+Yani, bu gerekten bir sonu retmeyen bu ifadedir,
+
+190
+00:09:01,900 --> 00:09:03,993
+bu yzden ifadeler ve ifade arasndaki
+
+191
+00:09:05,220 --> 00:09:07,740
+fark, tamam m?
+
+192
+00:09:07,740 --> 00:09:10,260
+Bu yzden fonksiyonlara geri dnersek fonksiyon
+
+193
+00:09:10,260 --> 00:09:11,870
+ifadelerinin annda bir sonu
+
+194
+00:09:11,870 --> 00:09:14,824
+verdiini rendik, ilev bildirimleri ise bunu yapmyor.
+
+195
+00:09:14,824 --> 00:09:16,874
+Ve bu, derste daha sonra
+
+196
+00:09:18,060 --> 00:09:19,693
+reneceiniz belirli durumlar iin
+
+197
+00:09:19,693 --> 00:09:22,340
+ok nemli olacaktr.
+
+198
+00:09:22,340 --> 00:09:25,760
+Yani, bu iki derste, fonksiyonlarn ok temellerini
+
+199
+00:09:25,760 --> 00:09:28,090
+ele aldk, ama elbette fonksiyonlar
+
+200
+00:09:28,090 --> 00:09:30,980
+hakknda daha ok ey reneceiz.
+
+201
+00:09:30,980 --> 00:09:34,130
+Ama yine de, derste biraz sonra bunu brakacam, bylece
+
+202
+00:09:34,130 --> 00:09:36,050
+imdi baka bir byk ve heyecan
+
+203
+00:09:36,050 --> 00:09:38,300
+verici konuya gemeye hazrz, bu da silindi.
+
+204
+00:09:38,300 --> 00:09:41,660
+&nbsp;
+
+205
+00:09:41,660 --> 00:09:43,740
+&nbsp;
+
+206
+00:09:43,740 --> 00:09:46,293
+&nbsp;
+
+207
+00:09:46,293 --> 00:09:47,410
+&nbsp;
+
+208
+00:09:47,410 --> 00:09:49,410
+&nbsp;
+
+209
+00:09:49,410 --> 00:09:51,530
+&nbsp;
+
+210
+00:09:51,530 --> 00:09:54,240
+&nbsp;
+
+211
+00:09:54,240 --> 00:09:56,670
+&nbsp;
+
+212
+00:09:56,670 --> 00:09:58,880
+&nbsp;
+
+213
+00:09:58,880 --> 00:10:02,623
+&nbsp;
+

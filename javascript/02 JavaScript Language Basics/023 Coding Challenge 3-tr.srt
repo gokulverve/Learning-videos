@@ -1,0 +1,136 @@
+1
+00:00:01,160 --> 00:00:03,580
+Eitmen: Bir sonraki kodlama sorununa ho geldiniz.
+
+2
+00:00:03,580 --> 00:00:07,410
+Bu konuda ok basit bir ipucu hesaplayacaksn.
+
+3
+00:00:07,410 --> 00:00:09,920
+Bylece John ve ailesi tatile
+
+4
+00:00:09,920 --> 00:00:12,130
+gittiler ve  farkl
+
+5
+00:00:12,130 --> 00:00:17,130
+restorana gittiler ve faturalar 124, 48 ve 268 dolard.
+
+6
+00:00:17,480 --> 00:00:20,090
+Garsona adil bir miktar bahi vermemiz iin,
+
+7
+00:00:20,090 --> 00:00:23,660
+John bir fonksiyon olarak basit bir u hesap makinesi oluturdu.
+
+8
+00:00:23,660 --> 00:00:25,900
+Ve John'un ipularn hesaplad gibi,
+
+9
+00:00:25,900 --> 00:00:28,900
+faturann 50 dolardan az olduu zaman faturann
+
+10
+00:00:28,900 --> 00:00:31,010
+yzde 20'sini, fatura 50 ila
+
+11
+00:00:31,010 --> 00:00:34,870
+200 dolar arasndaysa yzde 15'i ve faturann yzde 10'unu
+
+12
+00:00:34,870 --> 00:00:39,290
+faturalandrmay tercih ediyor. 200 dolardan fazla, ve bu pek bir
+
+13
+00:00:39,290 --> 00:00:40,900
+ey ifade etmeyebilir, ama
+
+14
+00:00:40,900 --> 00:00:43,610
+bu sadece bu kk egzersiz iin,
+
+15
+00:00:43,610 --> 00:00:46,830
+bu yzden fonksiyonumuzda yapacak daha ok eyimiz var, tamam.
+
+16
+00:00:46,830 --> 00:00:49,910
+Sonuta, John sonu olarak iki diziye
+
+17
+00:00:49,910 --> 00:00:51,450
+sahip olmak ister.
+
+18
+00:00:51,450 --> 00:00:55,200
+Yani her  ipucu ieren, yani her fatura iin
+
+19
+00:00:55,200 --> 00:00:58,690
+bir, ve sonra  nihai denen tutar ieren
+
+20
+00:00:58,690 --> 00:01:02,640
+ve denen miktarlarla birlikte, fatura art deme ipini kastediyorum.
+
+21
+00:01:02,640 --> 00:01:05,700
+Tamam, bu yzden ipucu hesaplayan bir fonksiyon istiyoruz
+
+22
+00:01:05,700 --> 00:01:07,420
+ve sonra iki ipucu istiyoruz,
+
+23
+00:01:07,420 --> 00:01:10,790
+biri sadece ipularn ve ipularn art bir fatura ile.
+
+24
+00:01:10,790 --> 00:01:13,730
+Tamam, eer bir yzdeyi nasl hesaplayacanzdan emin deilseniz, rnein
+
+25
+00:01:13,730 --> 00:01:16,450
+bir deerin yzde 20'sini almak istiyorsanz, bu deeri
+
+26
+00:01:16,450 --> 00:01:19,440
+sadece 0 ile arpmanz gerekir. 2, 100'e
+
+27
+00:01:19,440 --> 00:01:24,160
+blnm, tamam, bu ok basit.
+
+28
+00:01:24,160 --> 00:01:26,440
+Tamam, umarm bunu yapmay baarrsnz,
+
+29
+00:01:26,440 --> 00:01:28,100
+bu konuya kadar konutuumuz
+
+30
+00:01:28,100 --> 00:01:30,660
+eylerin ounu kullanmanz iin iyi bir
+
+31
+00:01:30,660 --> 00:01:32,070
+meydan okuma olacaktr.
+
+32
+00:01:32,070 --> 00:01:34,190
+yleyse biraz zaman ver, dene,
+
+33
+00:01:34,190 --> 00:01:37,210
+ve sonra bir sonraki videoda zmle greceim.
+
+34
+00:01:37,210 --> 00:01:38,043
+yi anslar.
+

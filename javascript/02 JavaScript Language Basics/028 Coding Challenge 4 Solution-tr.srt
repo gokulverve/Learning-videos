@@ -1,0 +1,620 @@
+1
+00:00:00,925 --> 00:00:03,521
+Jonas: Peki, bu meydan okumay
+
+2
+00:00:03,521 --> 00:00:07,448
+baaryla tamamladn m? te ite byle yaptm.
+
+3
+00:00:07,448 --> 00:00:11,249
+Bu yzden, 'john' nesnesini nesne
+
+4
+00:00:11,249 --> 00:00:14,640
+edebi szdizimi ile oluturarak balayacam,
+
+5
+00:00:14,640 --> 00:00:17,941
+buraya biraz daha yer aalm.
+
+6
+00:00:17,941 --> 00:00:18,774
+Tamam,
+
+7
+00:00:19,765 --> 00:00:22,298
+o zaman tam ad
+
+8
+00:00:22,298 --> 00:00:24,631
+zellii olacak: 'John Smith'.
+
+9
+00:00:27,625 --> 00:00:32,458
+Sonra 'ktle' 92kg ve 'ykseklik' 1m ve 95cm,
+
+10
+00:00:33,924 --> 00:00:35,707
+yani bir doksan
+
+11
+00:00:35,707 --> 00:00:39,798
+be ve sonra BMI yntemini hesaplamamz gerekiyor,
+
+12
+00:00:39,798 --> 00:00:41,568
+bu yzden bu
+
+13
+00:00:41,568 --> 00:00:45,427
+daha zor ksm, doru, ama hala gerekten
+
+14
+00:00:45,427 --> 00:00:49,305
+zor deil, tamam. Bu yzden hibir argman
+
+15
+00:00:49,305 --> 00:00:51,923
+olmadan bir 'fonksiyon' kullanyoruz ve bu
+
+16
+00:00:51,923 --> 00:00:56,554
+yzden 'kitle' ve 'ykseklik' i okuyacaz nk hem 'mevcut' nesneden.
+
+17
+00:00:56,554 --> 00:00:58,820
+Peki, bunu nasl yapacaz?
+
+18
+00:00:58,820 --> 00:01:00,992
+Eh, forml 'bu' nokta
+
+19
+00:01:00,992 --> 00:01:03,825
+'ktlesi', 'bu' nokta 'ykseklik' kez
+
+20
+00:01:04,784 --> 00:01:07,176
+'bu' nokta 'ykseklii' blnm
+
+21
+00:01:07,176 --> 00:01:11,062
+'tamam' kare, tamam, bylelikle 'bu' hatrlyorum burada
+
+22
+00:01:11,062 --> 00:01:15,451
+geerli olduunu 'nesne' yani 'kitle'yi' mevcut '' john
+
+23
+00:01:15,451 --> 00:01:19,523
+'' nesnesinden okuyacaktr ve bylece 'kitle' burada
+
+24
+00:01:19,523 --> 00:01:21,748
+92 ve daha sonra
+
+25
+00:01:21,748 --> 00:01:24,081
+burada 'bu' nokta 'ykseklii
+
+26
+00:01:24,081 --> 00:01:27,882
+ve burada' bu 'iin de ayn olacaktr.
+
+27
+00:01:27,882 --> 00:01:32,686
+de. Yani, burada 1 olacak. 95 kere
+
+28
+00:01:32,686 --> 00:01:35,402
+1. 95 ve bu sonucu nerede saklamak istiyoruz?
+
+29
+00:01:35,402 --> 00:01:38,952
+Eh, bu nokta BMI olurdu.
+
+30
+00:01:38,952 --> 00:01:40,889
+Unutmayn, biz sadece
+
+31
+00:01:40,889 --> 00:01:45,172
+bunlar kullanarak nesne zelliklerini okuyamaz, ayn zamanda
+
+32
+00:01:45,172 --> 00:01:49,542
+onlar da kurabiliriz. Ve ite burada 'bu' nokta BMI
+
+33
+00:01:49,542 --> 00:01:54,071
+bu formln bir sonucu olacak, tamam. Ve aslnda bu, bu
+
+34
+00:01:54,071 --> 00:01:58,224
+yzden BMI'yi hesaplyoruz, sonra da onu geri
+
+35
+00:01:58,224 --> 00:02:02,351
+gndermemiz gereken metinden hatrlyoruz. Bylece, VK'yi cisme kaydedin ve
+
+36
+00:02:02,351 --> 00:02:05,184
+ayn zamanda metottan dndrn. Ve bylece,
+
+37
+00:02:06,751 --> 00:02:10,270
+'bu' nokta VK'ye dnn, tamam, bu
+
+38
+00:02:10,270 --> 00:02:13,710
+da 'john' ve imdi sadece devam
+
+39
+00:02:13,710 --> 00:02:16,460
+edip 'iareti' iin kopyalayacam nk
+
+40
+00:02:18,291 --> 00:02:20,100
+yntem aslnda tam
+
+41
+00:02:20,100 --> 00:02:24,112
+olarak ayn olacak, akas, tamam yani onun
+
+42
+00:02:24,112 --> 00:02:27,194
+hibir fark olmayacak. Forml ve her ey tam
+
+43
+00:02:27,194 --> 00:02:30,219
+olarak ayn ekilde alr ve bu nedenle 'iaret' nesnesinde
+
+44
+00:02:30,219 --> 00:02:34,069
+tam olarak ayn ynteme sahibiz. Burada Mark
+
+45
+00:02:34,069 --> 00:02:37,157
+Miller sonra ktle sadece
+
+46
+00:02:37,157 --> 00:02:39,690
+78 ve ykseklik
+
+47
+00:02:39,690 --> 00:02:42,233
+1'dir. 69, tamam, ve
+
+48
+00:02:42,233 --> 00:02:46,168
+bahsettiim gibi ayn kalyor, bu yzden imdi her ikisi
+
+49
+00:02:46,168 --> 00:02:51,168
+iin de BMI'yi hesaplamaya hazrz, bu yzden 'john' dot 'calc' BMI,
+
+50
+00:02:51,231 --> 00:02:55,898
+bu ekilde yntemleri aryoruz ve sonra da ayn ekilde ' iaret'.
+
+51
+00:02:58,005 --> 00:02:59,307
+Tamam.
+
+52
+00:02:59,307 --> 00:03:04,202
+Ve evet, aslnda bu iki nesneye bir bakalm.
+
+53
+00:03:04,202 --> 00:03:07,419
+Yani, 'konsol' nokta 'hem' hem de 'iaret',
+
+54
+00:03:07,419 --> 00:03:09,278
+'iareti', Yani, biz bu
+
+55
+00:03:09,278 --> 00:03:11,911
+'nesneleri' her ikisini de burada 'konsol'
+
+56
+00:03:11,911 --> 00:03:14,784
+iine almak istiyoruz. Yani, ite buradalar.
+
+57
+00:03:14,784 --> 00:03:18,250
+Ve imdi ikisinin de VK'leri olduunu gryoruz, bu yzden
+
+58
+00:03:18,250 --> 00:03:19,571
+John 24 yanda
+
+59
+00:03:19,571 --> 00:03:23,981
+ve Mark'n 27'si var, bu harika. Yani, 'nesneye' dorudan bal bir
+
+60
+00:03:23,981 --> 00:03:27,986
+ynteme sahip olmann gerekten ok gzel olduunu gryorsunuz, nk
+
+61
+00:03:27,986 --> 00:03:31,230
+bu ilev bu nesne ile gerekten ilgilidir,
+
+62
+00:03:31,230 --> 00:03:33,196
+bu durumda bu kiiye.
+
+63
+00:03:33,196 --> 00:03:34,905
+Bu nedenle, bu
+
+64
+00:03:34,905 --> 00:03:38,478
+hesaplamalar da yapabilecek bir d fonksiyona sahip
+
+65
+00:03:38,478 --> 00:03:41,217
+olmak yerine, metodu gerekten veri
+
+66
+00:03:41,217 --> 00:03:45,330
+ile birlikte kullanabileceimizi anlam oluruz. te bu yzden bu
+
+67
+00:03:45,330 --> 00:03:48,869
+modeli kullanyoruz, diyelim ki, bu 'en iyi
+
+68
+00:03:48,869 --> 00:03:53,318
+uygulama' yntemini 'nesnenin' iine sokmak. imdi muhtemelen bu iki 'nesneler'
+
+69
+00:03:53,318 --> 00:03:54,151
+zerinde ayn
+
+70
+00:03:54,151 --> 00:03:59,151
+ynteme sahip olmann size daha nce gsterdiim src sorumlusunu ihlal etmeyeceini dnrsnz,
+
+71
+00:03:59,267 --> 00:04:02,096
+bu yzden kendinizi 'kendinizi tekrar etmeyin' ve
+
+72
+00:04:02,096 --> 00:04:03,818
+aslnda bu doru bir
+
+73
+00:04:03,818 --> 00:04:06,936
+ekilde yaplmad iin dorudur. . Ama imdilik, bu
+
+74
+00:04:06,936 --> 00:04:09,817
+noktada sahip olduumuz bilgi ile, yapabileceimiz
+
+75
+00:04:09,817 --> 00:04:12,613
+en iyisi budur. Daha sonra, dersin
+
+76
+00:04:12,613 --> 00:04:15,361
+daha gelimi bir blmnde, kodu tekrar
+
+77
+00:04:15,361 --> 00:04:18,307
+etmek zorunda kalmadan, birden fazla nesnede ayn
+
+78
+00:04:18,307 --> 00:04:21,946
+yntemi nasl alabileceimizi reteceim. Ama imdilik bu daha
+
+79
+00:04:21,946 --> 00:04:26,413
+iyi bir ey, tamam. Bylece, sonunda 'konsola' kayt
+
+80
+00:04:26,413 --> 00:04:30,171
+olmalyz, ne demek istiyoruz? Kimin tam ad ve ilgili ile
+
+81
+00:04:30,171 --> 00:04:32,935
+birlikte en yksek BMI vardr. Bir beraberlik
+
+82
+00:04:32,935 --> 00:04:36,177
+gibi olabileceini unutma, yani ayn BMI.
+
+83
+00:04:36,177 --> 00:04:39,702
+Bunu daha nce yaptk, bu yzden,
+
+84
+00:04:39,702 --> 00:04:42,072
+'john' nokta BMI imdi
+
+85
+00:04:42,072 --> 00:04:46,905
+'mark' nokta BMI'dan daha bykse, nesneden buradan okuyabiliyor, o
+
+86
+00:04:49,072 --> 00:04:49,989
+zaman 'john'
+
+87
+00:04:52,877 --> 00:04:56,360
+noktasnn 'konsoluna' yazlmasna izin veriyoruz 'ilk
+
+88
+00:04:56,360 --> 00:04:57,943
+ad', ya da
+
+89
+00:04:57,943 --> 00:05:00,610
+aslnda 'tam ad' bir daha
+
+90
+00:05:03,767 --> 00:05:05,350
+okumak iin 'add'
+
+91
+00:05:08,183 --> 00:05:09,585
+ve 'john' nokta
+
+92
+00:05:09,585 --> 00:05:11,668
+BMI bir BMI vardr.
+
+93
+00:05:13,768 --> 00:05:15,572
+imdi 'eer burada' da, imdi
+
+94
+00:05:15,572 --> 00:05:18,420
+burada ikisinin de ayn olduu ve bu yzden de
+
+95
+00:05:18,420 --> 00:05:21,712
+bunu hesaba katmamz gerektii iin. Yani, imdi 'iareti'
+
+96
+00:05:21,712 --> 00:05:26,712
+nokta BMI 'john' nokta BMI daha byktr ve
+
+97
+00:05:29,778 --> 00:05:33,161
+daha sonra bu para kod burada,
+
+98
+00:05:33,161 --> 00:05:34,328
+burada yaptrn.
+
+99
+00:05:36,993 --> 00:05:40,634
+Bu 'iareti' olmal ve bu da.
+
+100
+00:05:40,634 --> 00:05:44,967
+Ve sonra sadece 'else' durumunda ayndr.
+
+101
+00:05:46,705 --> 00:05:49,538
+'Onlar ayn BMI' var.
+
+102
+00:05:50,843 --> 00:05:54,736
+Tamam, bizim verilere gre, Mark Miller en yksek
+
+103
+00:05:54,736 --> 00:05:58,089
+BMI'ya sahip ve 'o' da tam olarak
+
+104
+00:05:58,089 --> 00:06:02,239
+'konsol' iin kaydettiimiz ey bu. Yani 'mark' burada grdnz gibi 27 tane
+
+105
+00:06:02,239 --> 00:06:03,805
+ve 'john' 24 tane var.
+
+106
+00:06:03,805 --> 00:06:06,972
+Bu yzden imdi 'john'un ktlesini
+
+107
+00:06:08,180 --> 00:06:10,993
+burada ykseltebilelim,' diyelim ki '110'unda,
+
+108
+00:06:10,993 --> 00:06:13,100
+imdi her ikisinin
+
+109
+00:06:13,100 --> 00:06:15,867
+de daha byk BMI's var.
+
+110
+00:06:15,867 --> 00:06:20,032
+Yani, bu zaten neredeyse mkemmel, ama daha
+
+111
+00:06:20,032 --> 00:06:23,781
+iyisini yapabiliriz, tamam, bu yzden nce bunun
+
+112
+00:06:23,781 --> 00:06:28,781
+stesinden gelelim ve yapabileceimiz ey aslnda BMI'leri burada hesaplamak.
+
+113
+00:06:28,856 --> 00:06:32,850
+Yani, BMI'leri 'calc' BMI fonksiyonunu, elbette veya
+
+114
+00:06:32,850 --> 00:06:34,516
+metodu kullanarak hesaplyoruz,
+
+115
+00:06:34,516 --> 00:06:36,506
+demeliyim. Ve sonra
+
+116
+00:06:36,506 --> 00:06:40,769
+bu verileri buradaki kararlar almak iin kullanyoruz, ancak bu
+
+117
+00:06:40,769 --> 00:06:44,410
+yntemlerin aslnda BMI'y da dndrdn aklda tutuyoruz,
+
+118
+00:06:44,410 --> 00:06:48,910
+bu yzden, 'john' nokta BMI'sn burada yntem ars ile
+
+119
+00:06:48,910 --> 00:06:52,636
+deitirebiliriz, bylece bunu yapalm. Bu yzden burada gerekten
+
+120
+00:06:52,636 --> 00:06:57,394
+keseceim ve buraya yaptrn ve ayn ekilde 'iareti' iin.
+
+121
+00:06:57,394 --> 00:07:00,527
+Tamam, bu sana mantkl geliyor mu?
+
+122
+00:07:00,527 --> 00:07:03,769
+Bir kez daha, bu 'calc' BMI ynteminin, BMI'nn kendisinin
+
+123
+00:07:03,769 --> 00:07:05,851
+'geri dneceini' biliyoruz, burada var, yani
+
+124
+00:07:05,851 --> 00:07:09,596
+'bu' nokta VK'yi 'geri' getiriyoruz. Bu yzden, burada
+
+125
+00:07:09,596 --> 00:07:13,119
+BMI'yi hesaplayacaz ve sonra hemen 'geri'
+
+126
+00:07:13,119 --> 00:07:18,040
+yapacaz ve daha sonra bu mantksal karlatrmaya dahil edilecektir.
+
+127
+00:07:18,040 --> 00:07:21,240
+Tabii ki 'iareti' iin de, bu durumda,
+
+128
+00:07:21,240 --> 00:07:25,170
+'bu' burada 27 ile deitirilecek. 3, burada grdmz bu
+
+129
+00:07:25,170 --> 00:07:27,427
+ve bu 'john' dot
+
+130
+00:07:27,427 --> 00:07:31,369
+'calc' BMI 28 olacaktr. 9, doru, yani bu
+
+131
+00:07:31,369 --> 00:07:32,690
+'deer' burada.
+
+132
+00:07:32,690 --> 00:07:35,690
+Sonra karlatrma gerekleebilir ve her ey
+
+133
+00:07:35,690 --> 00:07:39,213
+ayn ekilde alabilir. Bu yzden, ilk nce BMI'yi
+
+134
+00:07:39,213 --> 00:07:42,842
+hesapladmz ve sadece okuduumuz bu ek izgilere ihtiyacmz yok.
+
+135
+00:07:42,842 --> 00:07:47,270
+Yani temelde onu hesaplayabilir ve ayn zamanda okuyabiliriz.
+
+136
+00:07:47,270 --> 00:07:50,509
+Burada daha sonra okuyabiliyoruz nk bu
+
+137
+00:07:50,509 --> 00:07:53,803
+noktada zaten hesaplanm oluyor ve dolaysyla tekrar
+
+138
+00:07:53,803 --> 00:07:56,928
+BMI yntemini kullanmayacaz. Biz sadece bir kere
+
+139
+00:07:56,928 --> 00:07:59,961
+aramak istiyoruz ve oradan da '' nesneyi
+
+140
+00:07:59,961 --> 00:08:01,211
+'' dorudan okuyabiliyoruz,
+
+141
+00:08:01,211 --> 00:08:04,253
+bu yzden 'calc' BMI'yi buraya veya buraya
+
+142
+00:08:04,253 --> 00:08:07,577
+koymayacaz nk bu noktada, yine zaten hesapladk.
+
+143
+00:08:07,577 --> 00:08:10,004
+Bu sana mantkl geliyor mu? Tabii ki,
+
+144
+00:08:10,004 --> 00:08:12,538
+yine, bu ekilde yapmak
+
+145
+00:08:12,538 --> 00:08:15,034
+zorunda kalmayacaksnz, bu yzden
+
+146
+00:08:15,034 --> 00:08:18,300
+gerekten nemli deil ama bu yzden
+
+147
+00:08:18,300 --> 00:08:21,436
+sizden bu deerleri kullanarak 'deerleri'
+
+148
+00:08:21,436 --> 00:08:25,899
+geri dndrmenizi istedim. Burada "deerleri" burada hesaplayabilir ve karlatrabiliriz.
+
+149
+00:08:25,899 --> 00:08:29,342
+Sadece ayn ekilde altn dorulamak iin,
+
+150
+00:08:29,342 --> 00:08:32,140
+ite doru zme sahip, harika.
+
+151
+00:08:32,140 --> 00:08:34,680
+Yani, neredeyse blmn sonundayz,
+
+152
+00:08:34,680 --> 00:08:36,738
+renecek bir ey daha
+
+153
+00:08:36,738 --> 00:08:40,384
+var, ki bir sonraki videoda yapacamz
+
+154
+00:08:40,384 --> 00:08:43,167
+ey olan 'Dngler' ve 'Tekrarlama'.
+
+155
+00:08:43,167 --> 00:08:47,084
+Umarm bunu beendin, bir dahaki sefere grrz.
+

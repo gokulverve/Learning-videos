@@ -1,0 +1,1876 @@
+1
+00:00:01,400 --> 00:00:03,500
+Jonas: Ento, estamos quase terminando os
+
+2
+00:00:03,500 --> 00:00:06,750
+fundamentos do JavaScript, mas ainda falta uma coisa que
+
+3
+00:00:06,750 --> 00:00:08,800
+ crucial para a programao em
+
+4
+00:00:08,800 --> 00:00:10,403
+geral, e isso  loops.
+
+5
+00:00:11,450 --> 00:00:13,520
+Ento, na palestra em que eu
+
+6
+00:00:13,520 --> 00:00:15,520
+apresentei pela primeira vez a declarao
+
+7
+00:00:15,520 --> 00:00:19,380
+if else, mencionei que era apenas uma das muitas estruturas de controle.
+
+8
+00:00:19,380 --> 00:00:22,980
+E ento aqui esto mais algumas estruturas de controle, loops.
+
+9
+00:00:22,980 --> 00:00:25,430
+Ento, os loops so um aspecto muito
+
+10
+00:00:25,430 --> 00:00:27,450
+importante de qualquer linguagem de programao.
+
+11
+00:00:27,450 --> 00:00:30,940
+Imagine que voc tenha uma tarefa muito repetitiva.
+
+12
+00:00:30,940 --> 00:00:32,800
+Em vez de escrever, por exemplo,
+
+13
+00:00:32,800 --> 00:00:36,090
+10 linhas do mesmo cdigo, voc usaria apenas um loop.
+
+14
+00:00:36,090 --> 00:00:38,670
+Ento podemos basicamente automatizar tarefas
+
+15
+00:00:38,670 --> 00:00:40,680
+repetitivas usando loops, ok?
+
+16
+00:00:40,680 --> 00:00:42,300
+E existem diferentes tipos de
+
+17
+00:00:42,300 --> 00:00:45,930
+loops em JavaScript, e comearemos com um loop for simples.
+
+18
+00:00:45,930 --> 00:00:48,710
+Ento, suponha que precisssemos imprimir os
+
+19
+00:00:48,710 --> 00:00:50,810
+nmeros de zero a nove.
+
+20
+00:00:50,810 --> 00:00:55,810
+Ok, algo como console. log e depois um.
+
+21
+00:01:01,610 --> 00:01:03,740
+E ento dois, trs, quatro, cinco
+
+22
+00:01:03,740 --> 00:01:05,350
+e assim por diante.
+
+23
+00:01:05,350 --> 00:01:07,440
+Ento voc teria que fazer isso
+
+24
+00:01:07,440 --> 00:01:10,040
+10 vezes, mas no  uma boa ideia.
+
+25
+00:01:10,040 --> 00:01:12,853
+E ento, novamente, usamos um loop.
+
+26
+00:01:13,750 --> 00:01:15,560
+E eu vou comear com um loop.
+
+27
+00:01:15,560 --> 00:01:18,606
+Ento ns escrevemos para, e ento o loop
+
+28
+00:01:18,606 --> 00:01:20,270
+for tem trs partes.
+
+29
+00:01:20,270 --> 00:01:22,747
+Ele tem o valor inicial do
+
+30
+00:01:22,747 --> 00:01:24,750
+contador, a condio que 
+
+31
+00:01:24,750 --> 00:01:26,750
+avaliada antes de cada iterao
+
+32
+00:01:26,750 --> 00:01:31,050
+de loop e, finalmente, uma atualizao de contador aps cada iterao, ok?
+
+33
+00:01:31,050 --> 00:01:33,120
+Ento vamos passar por eles um por um.
+
+34
+00:01:33,120 --> 00:01:36,330
+Ento a primeira parte  o valor inicial de um contador.
+
+35
+00:01:36,330 --> 00:01:39,980
+Ento, imagino que queremos imprimir de zero a nove.
+
+36
+00:01:39,980 --> 00:01:42,560
+E assim comeamos no zero.
+
+37
+00:01:42,560 --> 00:01:45,670
+Ento, definimos uma varivel chamada I por exemplo e
+
+38
+00:01:45,670 --> 00:01:47,290
+a definimos como zero.
+
+39
+00:01:47,290 --> 00:01:50,440
+E eu uso aqui porque sou uma espcie de
+
+40
+00:01:50,440 --> 00:01:53,020
+padro em JavaScript para uma varivel de contador.
+
+41
+00:01:53,020 --> 00:01:57,358
+Portanto, esta  uma varivel que ser atualizada em todos os ciclos.
+
+42
+00:01:57,358 --> 00:02:01,240
+Ento usamos o ponto-e-vrgula e agora a segunda parte.
+
+43
+00:02:01,240 --> 00:02:03,380
+Portanto, esta  uma condio que
+
+44
+00:02:03,380 --> 00:02:06,430
+ avaliada antes de cada iterao de loop para
+
+45
+00:02:06,430 --> 00:02:09,330
+ver se o prximo loop ainda deve ser executado.
+
+46
+00:02:09,330 --> 00:02:12,230
+Ento, se quisermos contar de zero a
+
+47
+00:02:12,230 --> 00:02:14,500
+nove, bem, ento nossa condio
+
+48
+00:02:14,500 --> 00:02:18,200
+ser que eu seja menor que 10, ok?
+
+49
+00:02:18,200 --> 00:02:20,760
+Ento, apenas se isso for verdade,
+
+50
+00:02:20,760 --> 00:02:23,880
+ento o prximo loop ser executado, ok?
+
+51
+00:02:23,880 --> 00:02:25,907
+Ento no comeo ns comeamos com
+
+52
+00:02:25,907 --> 00:02:29,447
+zero e ento eu vou ser zero e zero 
+
+53
+00:02:29,447 --> 00:02:34,110
+menos que 10 e ento  verdade, ento o loop vai comear, certo?
+
+54
+00:02:34,110 --> 00:02:37,840
+E ento, em seguida, e finalmente temos o contador de
+
+55
+00:02:37,840 --> 00:02:39,290
+atualizao aps cada iterao.
+
+56
+00:02:39,290 --> 00:02:40,970
+Ento, se quisermos contar de
+
+57
+00:02:40,970 --> 00:02:43,270
+zero a nove como zero, um, dois,
+
+58
+00:02:43,270 --> 00:02:45,410
+trs, quatro, cinco, todos os nmeros, ento,
+
+59
+00:02:45,410 --> 00:02:48,100
+em cada iterao, queremos aumentar um por um.
+
+60
+00:02:48,100 --> 00:02:50,183
+E lembre-se, um operador especial para
+
+61
+00:02:50,183 --> 00:02:52,131
+fazer isso,  o plus plus.
+
+62
+00:02:52,131 --> 00:02:57,131
+Ento, isso  o mesmo que escrever eu igual a mais
+
+63
+00:02:57,290 --> 00:02:58,640
+um, lembra disso?
+
+64
+00:02:58,640 --> 00:03:02,150
+Ok, e ento aqui temos basicamente o bloco de loop.
+
+65
+00:03:02,150 --> 00:03:04,810
+Ento, o que deve acontecer em cada um dos loops?
+
+66
+00:03:04,810 --> 00:03:06,550
+E no pequeno exemplo, tudo o
+
+67
+00:03:06,550 --> 00:03:09,290
+que queremos fazer  realmente registrar esses nmeros no console.
+
+68
+00:03:09,290 --> 00:03:13,870
+Ento console. log I, e  isso,
+
+69
+00:03:13,870 --> 00:03:15,090
+ realmente isso.
+
+70
+00:03:15,090 --> 00:03:16,790
+Vamos dar uma olhada
+
+71
+00:03:16,790 --> 00:03:19,960
+e agora aqui voc v todos esses 10
+
+72
+00:03:19,960 --> 00:03:22,190
+nmeros de zero a nove, certo?
+
+73
+00:03:22,190 --> 00:03:25,730
+Ento, vamos passar por isso novamente e ver por que isso funciona.
+
+74
+00:03:25,730 --> 00:03:28,350
+Ento, estou adicionando um comentrio aqui e tento
+
+75
+00:03:28,350 --> 00:03:30,530
+escrever o que acontece em cada iterao.
+
+76
+00:03:30,530 --> 00:03:34,650
+Ento comeamos e serei zero, certo?
+
+77
+00:03:34,650 --> 00:03:36,270
+Em seguida, a condio
+
+78
+00:03:36,270 --> 00:03:39,760
+ avaliada e, portanto, zero , naturalmente, menor que
+
+79
+00:03:39,760 --> 00:03:41,460
+10 e isso  verdade.
+
+80
+00:03:41,460 --> 00:03:43,550
+Ento ns vamos logar no console.
+
+81
+00:03:43,550 --> 00:03:44,983
+Ento log eu consolar.
+
+82
+00:03:45,830 --> 00:03:49,660
+E ento, finalmente, no final, o contador  atualizado, ok?
+
+83
+00:03:49,660 --> 00:03:52,760
+E ento eu mais mais, ok?
+
+84
+00:03:52,760 --> 00:03:54,480
+Ento na prxima iterao,
+
+85
+00:03:54,480 --> 00:03:58,650
+vamos ter j  um neste momento, certo?
+
+86
+00:03:58,650 --> 00:04:02,330
+E assim, o teste agora  menor que 10, o que
+
+87
+00:04:02,330 --> 00:04:05,500
+ainda  verdade, e assim a prxima iterao ser iniciada.
+
+88
+00:04:05,500 --> 00:04:08,124
+E assim novamente ns logamos no
+
+89
+00:04:08,124 --> 00:04:11,350
+console e ento serei incrementado em um.
+
+90
+00:04:11,350 --> 00:04:12,860
+Ento fazemos isso algumas
+
+91
+00:04:12,860 --> 00:04:15,580
+vezes at chegarmos ao fim, ok?
+
+92
+00:04:15,580 --> 00:04:17,660
+Ento, vamos copiar isso aqui e novamente,
+
+93
+00:04:17,660 --> 00:04:20,203
+isso  apenas para mostrar como isso funciona.
+
+94
+00:04:22,040 --> 00:04:23,970
+Ento isso acontece algumas vezes
+
+95
+00:04:23,970 --> 00:04:26,890
+at chegarmos a um ponto em que eu
+
+96
+00:04:26,890 --> 00:04:31,603
+j tenho nove anos, e assim, e aqui eu queria, na verdade, menos smbolo.
+
+97
+00:04:33,130 --> 00:04:35,000
+E ento, neste ponto, estamos com
+
+98
+00:04:35,000 --> 00:04:36,820
+nove e nove anos, menos de
+
+99
+00:04:36,820 --> 00:04:37,980
+10, e  verdade.
+
+100
+00:04:37,980 --> 00:04:39,390
+Ento ns registramos o
+
+101
+00:04:39,390 --> 00:04:43,420
+I no console e eu fui incrementado como antes, ok?
+
+102
+00:04:43,420 --> 00:04:46,060
+Mas ento isso significa que no prximo
+
+103
+00:04:46,060 --> 00:04:47,433
+passo estamos em 10.
+
+104
+00:04:50,156 --> 00:04:54,790
+E ento 10, menos de 10, agora  falso.
+
+105
+00:04:54,790 --> 00:04:57,550
+E ento ns entramos no loop.
+
+106
+00:04:57,550 --> 00:04:59,583
+Na verdade, samos do loop,
+
+107
+00:05:00,660 --> 00:05:02,320
+o que significa que
+
+108
+00:05:02,320 --> 00:05:04,990
+o loop termina e no continua mais funcionando.
+
+109
+00:05:04,990 --> 00:05:08,520
+E  por isso que paramos s nove, certo?
+
+110
+00:05:08,520 --> 00:05:09,980
+Isso faz sentido?
+
+111
+00:05:09,980 --> 00:05:12,560
+Agora poderamos, claro, mudar algumas coisas
+
+112
+00:05:12,560 --> 00:05:15,990
+aqui, ento imagine que queramos contar at as 20.
+
+113
+00:05:15,990 --> 00:05:17,910
+Ento poderamos colocar 20.
+
+114
+00:05:17,910 --> 00:05:19,390
+Na verdade, isso vai
+
+115
+00:05:19,390 --> 00:05:23,070
+at os 19, mas imagine se realmente quisssemos comear do
+
+116
+00:05:23,070 --> 00:05:25,230
+zero e incluir o 20.
+
+117
+00:05:25,230 --> 00:05:27,970
+Ento, queremos comear de um no zero, desculpe.
+
+118
+00:05:27,970 --> 00:05:31,510
+Ento, comeando de um e queramos incluir a 20.
+
+119
+00:05:31,510 --> 00:05:35,215
+Ento podemos dizer menos ou igual.
+
+120
+00:05:35,215 --> 00:05:37,770
+E assim, neste caso, isso s ir falhar
+
+121
+00:05:37,770 --> 00:05:39,713
+assim que eu tiver 21 anos.
+
+122
+00:05:41,340 --> 00:05:45,810
+E assim comeamos em um e percorremos todo o caminho at 20.
+
+123
+00:05:45,810 --> 00:05:48,070
+E ns tambm podemos adicionar um passo
+
+124
+00:05:48,070 --> 00:05:51,320
+aqui, ento ao invs de simplesmente adicionar um, podemos adicionar
+
+125
+00:05:51,320 --> 00:05:54,030
+dois em cada iterao, ento vamos tentar isso.
+
+126
+00:05:54,030 --> 00:05:55,920
+Ento, ao invs de
+
+127
+00:05:55,920 --> 00:05:59,367
+fazer mais, podemos fazer mais dois iguais.
+
+128
+00:06:00,290 --> 00:06:02,090
+E lembre-se que  o mesmo que
+
+129
+00:06:02,090 --> 00:06:03,803
+escrever, eu sou igual a mais dois.
+
+130
+00:06:05,150 --> 00:06:06,760
+Vamos verificar agora.
+
+131
+00:06:06,760 --> 00:06:08,460
+E assim, de fato, funciona.
+
+132
+00:06:08,460 --> 00:06:10,670
+Ento comeamos com um, certo?
+
+133
+00:06:10,670 --> 00:06:13,200
+E ento aumentamos o contador por dois,
+
+134
+00:06:13,200 --> 00:06:16,030
+e ento o prximo ser trs, certo?
+
+135
+00:06:16,030 --> 00:06:17,860
+E ento cinco e assim
+
+136
+00:06:17,860 --> 00:06:20,175
+por diante, at 19 e 20
+
+137
+00:06:20,175 --> 00:06:25,175
+no esto includos, porque 19 mais dois j so 21, o que 
+
+138
+00:06:25,280 --> 00:06:27,010
+claro, maior que 20.
+
+139
+00:06:27,010 --> 00:06:28,700
+Tudo bem, ento essa
+
+140
+00:06:28,700 --> 00:06:31,460
+ a funcionalidade bsica do loop for.
+
+141
+00:06:31,460 --> 00:06:34,690
+Agora vamos dar um exemplo um pouco mais prtico.
+
+142
+00:06:34,690 --> 00:06:37,070
+Ento, digamos que temos uma
+
+143
+00:06:37,070 --> 00:06:40,889
+matriz aqui e vamos realmente copiar a matriz
+
+144
+00:06:40,889 --> 00:06:44,300
+da palestra da matriz aqui e, onde est?
+
+145
+00:06:44,300 --> 00:06:46,730
+Ento, sim, esse  o que eu quero dizer.
+
+146
+00:06:46,730 --> 00:06:48,540
+Ento, a matriz de John, em
+
+147
+00:06:48,540 --> 00:06:50,751
+vez de ter que escrever tudo de novo.
+
+148
+00:06:50,751 --> 00:06:54,330
+Ento temos alguns dados aqui sobre o John.
+
+149
+00:06:54,330 --> 00:06:55,660
+Ento, digamos que temos
+
+150
+00:06:55,660 --> 00:06:58,420
+um aplicativo onde precisamos exibir esses cinco valores
+
+151
+00:06:58,420 --> 00:06:59,600
+aqui para o console.
+
+152
+00:06:59,600 --> 00:07:02,340
+Bem, talvez no para o console, mas para a interface do usurio,
+
+153
+00:07:02,340 --> 00:07:04,090
+mas estamos apenas trabalhando com o console aqui.
+
+154
+00:07:04,090 --> 00:07:06,730
+Ento, vamos fingir que precisamos bloquear
+
+155
+00:07:06,730 --> 00:07:09,070
+esses cinco valores aqui no console.
+
+156
+00:07:09,070 --> 00:07:11,680
+E  claro que, assim como
+
+157
+00:07:11,680 --> 00:07:13,793
+antes, poderamos fazer assim.
+
+158
+00:07:14,760 --> 00:07:15,763
+Ento John,
+
+159
+00:07:17,310 --> 00:07:18,173
+zero, e
+
+160
+00:07:19,500 --> 00:07:23,880
+ento como todo o caminho at cinco, na verdade
+
+161
+00:07:23,880 --> 00:07:25,470
+at quatro certo?
+
+162
+00:07:25,470 --> 00:07:29,200
+Ento poderamos fazer assim, certo?
+
+163
+00:07:29,200 --> 00:07:31,860
+Ento, isso resolveria o problema, mas no de um jeito bom.
+
+164
+00:07:31,860 --> 00:07:35,040
+Ento imagine que ns tivemos 50 elementos neste array
+
+165
+00:07:35,040 --> 00:07:36,760
+e no apenas cinco, ento
+
+166
+00:07:36,760 --> 00:07:38,360
+o que voc faria ento?
+
+167
+00:07:38,360 --> 00:07:41,460
+Voc no pode simplesmente criar 50 linhas do mesmo cdigo.
+
+168
+00:07:41,460 --> 00:07:45,230
+E  claro que a soluo aqui  usar um loop,
+
+169
+00:07:45,230 --> 00:07:46,870
+ento vamos nos livrar disso
+
+170
+00:07:46,870 --> 00:07:49,700
+aqui e, em vez disso, escrev-lo como um loop.
+
+171
+00:07:49,700 --> 00:07:52,130
+Ento, novamente, um loop for.
+
+172
+00:07:52,130 --> 00:07:57,040
+Ento var eu igual a zero, e por que comeamos em zero?
+
+173
+00:07:57,040 --> 00:08:00,320
+Bem, comeamos em zero porque a matriz  baseada em
+
+174
+00:08:00,320 --> 00:08:02,380
+zero, e o que queremos usar
+
+175
+00:08:02,380 --> 00:08:05,390
+o contador aqui  ler o elemento da matriz
+
+176
+00:08:05,390 --> 00:08:08,530
+na posio zero, um, dois, trs e quatro, certo?
+
+177
+00:08:08,530 --> 00:08:11,300
+Ento comeamos no zero e voc quer
+
+178
+00:08:11,300 --> 00:08:14,720
+que o loop seja executado enquanto eu for menor
+
+179
+00:08:14,720 --> 00:08:17,000
+que o comprimento do array, ok?
+
+180
+00:08:17,000 --> 00:08:18,090
+E por que isto?
+
+181
+00:08:18,090 --> 00:08:20,859
+Bem, isso ocorre porque o comprimento dessa matriz
+
+182
+00:08:20,859 --> 00:08:24,130
+ cinco e, enquanto o contador estiver abaixo de
+
+183
+00:08:24,130 --> 00:08:26,630
+cinco, ento, zero, um, dois, trs ou
+
+184
+00:08:26,630 --> 00:08:29,450
+quatro, podemos ler os dados dessa matriz.
+
+185
+00:08:29,450 --> 00:08:31,890
+Mas a partir das cinco no h mais dados no array.
+
+186
+00:08:31,890 --> 00:08:35,060
+Portanto, no h nada na posio cinco na matriz John.
+
+187
+00:08:35,060 --> 00:08:38,520
+E assim, s cinco horas, no queremos mais ler nada.
+
+188
+00:08:38,520 --> 00:08:41,730
+Ento, lembre-se como podemos ler o comprimento de uma matriz,
+
+189
+00:08:41,730 --> 00:08:43,530
+ento o nmero de elementos?
+
+190
+00:08:43,530 --> 00:08:48,530
+Bem, tudo o que temos a fazer  usar a propriedade length, ok?
+
+191
+00:08:49,030 --> 00:08:50,510
+E ento ns queremos
+
+192
+00:08:50,510 --> 00:08:55,070
+ler todos eles, e ento ns fazemos mais alm de como antes, certo?
+
+193
+00:08:55,070 --> 00:08:59,040
+Ento este ano talvez no faa 100% de sentido para voc, mas
+
+194
+00:08:59,040 --> 00:09:01,600
+ser depois que voc ver exatamente o que
+
+195
+00:09:01,600 --> 00:09:04,840
+vamos fazer aqui aqui no bloco deste loop, ok?
+
+196
+00:09:04,840 --> 00:09:09,840
+Ento, o que vamos fazer  entrar no console
+
+197
+00:09:10,090 --> 00:09:12,383
+John na posio I.
+
+198
+00:09:13,670 --> 00:09:15,690
+Ok, ento ao invs de
+
+199
+00:09:15,690 --> 00:09:17,740
+escrever zero, um, dois, trs
+
+200
+00:09:17,740 --> 00:09:20,430
+e quatro, deixamos o loop cuidar basicamente
+
+201
+00:09:20,430 --> 00:09:21,880
+de colocar os nmeros aqui.
+
+202
+00:09:21,880 --> 00:09:24,170
+Ento, no primeiro, ser zero e, em
+
+203
+00:09:24,170 --> 00:09:27,450
+seguida, um e depois dois e depois trs e depois
+
+204
+00:09:27,450 --> 00:09:30,970
+quatro, mas no cinco, porque John. length  cinco e
+
+205
+00:09:30,970 --> 00:09:34,870
+esse loop s  executado contanto que o contador
+
+206
+00:09:34,870 --> 00:09:38,320
+seja menor que cinco neste caso, ok?
+
+207
+00:09:38,320 --> 00:09:42,420
+Ento vamos testar e sim, aqui vamos ns.
+
+208
+00:09:42,420 --> 00:09:46,160
+Portanto, todos esses cinco logs no esto vindo da
+
+209
+00:09:46,160 --> 00:09:48,793
+linha 597, portanto, esta linha aqui.
+
+210
+00:09:50,324 --> 00:09:51,950
+Ento, essa lgica aqui faz sentido para voc?
+
+211
+00:09:51,950 --> 00:09:53,960
+S para ter certeza, vamos fazer de novo.
+
+212
+00:09:53,960 --> 00:09:56,420
+Portanto, precisamos dessa varivel de contador
+
+213
+00:09:56,420 --> 00:09:58,030
+aqui para registrar no
+
+214
+00:09:58,030 --> 00:10:01,250
+console John zero, um, dois, trs e quatro.
+
+215
+00:10:01,250 --> 00:10:03,400
+Ento, queremos que todos esses cinco elementos
+
+216
+00:10:03,400 --> 00:10:04,700
+sejam registrados no console.
+
+217
+00:10:04,700 --> 00:10:07,020
+E em vez de ter que escrever John
+
+218
+00:10:07,020 --> 00:10:09,860
+one, John dois, John three, John four e John
+
+219
+00:10:09,860 --> 00:10:11,087
+five, usamos esse loop.
+
+220
+00:10:11,087 --> 00:10:14,128
+E assim comeamos no zero porque esse  o primeiro
+
+221
+00:10:14,128 --> 00:10:15,200
+elemento em nossa matriz.
+
+222
+00:10:15,200 --> 00:10:16,960
+Aps cada iterao da matriz,
+
+223
+00:10:16,960 --> 00:10:19,100
+aumentamos o valor do contador em
+
+224
+00:10:19,100 --> 00:10:21,610
+um porque queremos ler todos os cinco
+
+225
+00:10:21,610 --> 00:10:25,700
+valores e, finalmente, executamos esse loop desde que a varivel do
+
+226
+00:10:25,700 --> 00:10:28,749
+contador ainda seja menor que o comprimento total
+
+227
+00:10:28,749 --> 00:10:30,860
+da matriz, que  cinco.
+
+228
+00:10:30,860 --> 00:10:34,130
+Ento, ele ser executado por zero, por dois, por trs, por
+
+229
+00:10:34,130 --> 00:10:35,470
+quatro, mas no por
+
+230
+00:10:35,470 --> 00:10:37,800
+cinco, porque no h nada na posio cinco.
+
+231
+00:10:37,800 --> 00:10:40,260
+E poderamos, claro, manualmente coloc-lo aqui
+
+232
+00:10:40,260 --> 00:10:42,020
+com um cinco, mas
+
+233
+00:10:42,020 --> 00:10:44,290
+depois imaginamos que adicionaramos algo aqui.
+
+234
+00:10:44,290 --> 00:10:47,030
+Ento, algo como azul como uma cor favorita
+
+235
+00:10:47,030 --> 00:10:50,040
+e bem, ento no mudaria dinamicamente a matriz.
+
+236
+00:10:50,040 --> 00:10:51,490
+Ento, se voc recarregar
+
+237
+00:10:51,490 --> 00:10:54,860
+agora, ele no exibir o azul aqui no console.
+
+238
+00:10:54,860 --> 00:10:58,303
+Mas, em vez disso, voltamos e colocamos no John. comprimento, bem, ento ele
+
+239
+00:10:59,207 --> 00:11:01,369
+ir automaticamente descobrir o comprimento
+
+240
+00:11:01,369 --> 00:11:04,440
+e, em seguida, percorrer todo o array,
+
+241
+00:11:04,440 --> 00:11:07,380
+porque agora John. o comprimento  seis e, portanto,
+
+242
+00:11:07,380 --> 00:11:08,980
+tambm far o loop do elemento
+
+243
+00:11:08,980 --> 00:11:10,230
+nmero cinco para o array.
+
+244
+00:11:11,900 --> 00:11:15,530
+Ento, de fato, agora apareceu aqui embaixo, o azul tambm.
+
+245
+00:11:15,530 --> 00:11:18,390
+Ok, ento espero que agora esteja claro para voc e fazer
+
+246
+00:11:18,390 --> 00:11:21,150
+um loop atravs de arrays  na verdade um dos
+
+247
+00:11:21,150 --> 00:11:22,120
+maiores casos de uso
+
+248
+00:11:22,120 --> 00:11:24,490
+para loop, ento este  realmente importante de entender.
+
+249
+00:11:24,490 --> 00:11:26,340
+Agora, existem maneiras ainda melhores
+
+250
+00:11:26,340 --> 00:11:28,542
+e maneiras mais simples de
+
+251
+00:11:28,542 --> 00:11:31,040
+alcan-lo sem usar esse loop especfico.
+
+252
+00:11:31,040 --> 00:11:33,560
+Mas mais uma vez, vamos falar sobre isso um pouco
+
+253
+00:11:33,560 --> 00:11:36,210
+mais tarde, porque isso  um assunto um pouco mais
+
+254
+00:11:36,210 --> 00:11:38,970
+complexo, e por enquanto estamos apenas olhando para os fundamentos.
+
+255
+00:11:38,970 --> 00:11:41,570
+Ento esse foi o loop for, mas h tambm
+
+256
+00:11:41,570 --> 00:11:45,560
+outro tipo de loop em JavaScript e esse  o loop while simples.
+
+257
+00:11:45,560 --> 00:11:48,440
+Ento, vamos tentar replicar a mesma funcionalidade
+
+258
+00:11:48,440 --> 00:11:50,430
+aqui com o loop while.
+
+259
+00:11:50,430 --> 00:11:52,610
+Portanto, a diferena entre o for e o
+
+260
+00:11:52,610 --> 00:11:55,080
+tempo  que, enquanto, s temos a condio.
+
+261
+00:11:55,080 --> 00:11:57,440
+Ento tudo o que temos que passar para o loop
+
+262
+00:11:57,440 --> 00:11:58,693
+while  realmente essa parte.
+
+263
+00:12:01,000 --> 00:12:06,000
+Ento podemos dizer que enquanto eu for menos que John. comprimento, ento deve continuar
+
+264
+00:12:07,930 --> 00:12:10,173
+executando este cdigo.
+
+265
+00:12:11,750 --> 00:12:15,160
+Ento, basicamente, essa funcionalidade de login aqui.
+
+266
+00:12:15,160 --> 00:12:17,100
+Ento, se voc quiser ter exatamente
+
+267
+00:12:17,100 --> 00:12:18,980
+a mesma funcionalidade que o loop
+
+268
+00:12:18,980 --> 00:12:21,060
+for aqui, primeiro teramos que comear
+
+269
+00:12:21,060 --> 00:12:22,203
+definindo a varivel aqui.
+
+270
+00:12:24,960 --> 00:12:28,810
+Ento eu igual a zero e ento no
+
+271
+00:12:28,810 --> 00:12:33,630
+final de cada loop ns teremos que incrementar I, ok?
+
+272
+00:12:33,630 --> 00:12:34,750
+E isso  realmente isso.
+
+273
+00:12:34,750 --> 00:12:37,277
+E ento isso aqui  agora exatamente a
+
+274
+00:12:37,277 --> 00:12:39,380
+mesma coisa que isso para loop aqui.
+
+275
+00:12:39,380 --> 00:12:40,900
+Mas  claro que  muito
+
+276
+00:12:40,900 --> 00:12:42,720
+mais fcil usar o loop for aqui.
+
+277
+00:12:42,720 --> 00:12:45,300
+Eu s queria que voc soubesse que tambm
+
+278
+00:12:45,300 --> 00:12:47,880
+havia uma maneira de fazer isso com o
+
+279
+00:12:47,880 --> 00:12:49,913
+loop while, ento adicionamos alguns comentrios aqui.
+
+280
+00:12:51,840 --> 00:12:53,410
+Ento este  o
+
+281
+00:12:53,410 --> 00:12:57,740
+loop while e enquanto isso aqui  o loop for, certo?
+
+282
+00:12:59,410 --> 00:13:01,940
+E agora eu s quero mostrar a voc
+
+283
+00:13:01,940 --> 00:13:03,413
+as instrues continue e break.
+
+284
+00:13:08,570 --> 00:13:10,060
+Ento usamos a instruo
+
+285
+00:13:10,060 --> 00:13:11,707
+break para sair de
+
+286
+00:13:11,707 --> 00:13:14,160
+um loop e usamos continue para sair
+
+287
+00:13:14,160 --> 00:13:16,000
+da iterao atual do loop
+
+288
+00:13:16,000 --> 00:13:17,942
+e continuar com o prximo.
+
+289
+00:13:17,942 --> 00:13:21,680
+Ento vamos dar uma olhada em alguns exemplos rpidos.
+
+290
+00:13:21,680 --> 00:13:24,990
+E acho que nem te mostrei os resultados disso.
+
+291
+00:13:24,990 --> 00:13:26,730
+Ento, s para ter certeza, e
+
+292
+00:13:26,730 --> 00:13:29,297
+agora , agora ns temos tudo isso aqui e
+
+293
+00:13:29,297 --> 00:13:31,150
+voc v isso da mesma forma.
+
+294
+00:13:31,150 --> 00:13:34,130
+Ento temos esses seis aqui vindo do
+
+295
+00:13:34,130 --> 00:13:37,630
+loop for e temos esses seis aqui vindo
+
+296
+00:13:37,630 --> 00:13:40,420
+do loop while na linha 604, certo?
+
+297
+00:13:40,420 --> 00:13:43,630
+E assim, na verdade, funciona da mesma maneira.
+
+298
+00:13:43,630 --> 00:13:45,830
+Agora vamos nos livrar disso aqui.
+
+299
+00:13:45,830 --> 00:13:48,210
+Na verdade, no me livre, vou apenas
+
+300
+00:13:48,210 --> 00:13:50,620
+coment-los para que eles no estejam me
+
+301
+00:13:50,620 --> 00:13:52,970
+atrapalhando para a prxima parte, certo?
+
+302
+00:13:52,970 --> 00:13:54,710
+Ento, vamos copiar isso
+
+303
+00:13:56,520 --> 00:13:59,430
+aqui para que eu possa mostrar as
+
+304
+00:13:59,430 --> 00:14:00,920
+instrues continue e break.
+
+305
+00:14:00,920 --> 00:14:02,710
+E vamos comear com o continue.
+
+306
+00:14:02,710 --> 00:14:05,420
+Ento, novamente, continue, ns o usamos para sair
+
+307
+00:14:05,420 --> 00:14:07,280
+apenas da iterao atual do
+
+308
+00:14:07,280 --> 00:14:10,298
+loop e depois continuar para a prxima, ok?
+
+309
+00:14:10,298 --> 00:14:13,600
+Ento, digamos, por exemplo, que s queremos
+
+310
+00:14:13,600 --> 00:14:16,620
+bloquear elementos que so pontos fortes, ok?
+
+311
+00:14:16,620 --> 00:14:18,940
+E assim podemos implementar a lgica que
+
+312
+00:14:18,940 --> 00:14:21,510
+far isso para que, se no for uma
+
+313
+00:14:21,510 --> 00:14:23,400
+string, ela saia da iterao atual
+
+314
+00:14:23,400 --> 00:14:25,310
+e continue com a prxima, certo?
+
+315
+00:14:25,310 --> 00:14:28,880
+Ento, como podemos verificar se  realmente uma string?
+
+316
+00:14:28,880 --> 00:14:31,260
+Bem, lembre-se do tipo de operador
+
+317
+00:14:31,260 --> 00:14:33,810
+que usamos logo no comeo da seo.
+
+318
+00:14:33,810 --> 00:14:36,730
+Ento, todos ns podemos dizer o tipo de
+
+319
+00:14:36,730 --> 00:14:40,930
+e eu acho que eu escrevi errado, ento tipo de John, adicione
+
+320
+00:14:42,880 --> 00:14:45,910
+a posio atual, ento este  diferente de
+
+321
+00:14:45,910 --> 00:14:47,360
+uma string, e uma
+
+322
+00:14:47,360 --> 00:14:50,260
+coisa que no usamos diferente at este ponto.
+
+323
+00:14:50,260 --> 00:14:52,980
+Ento, ns s usamos o igual, mas agora eu
+
+324
+00:14:52,980 --> 00:14:55,050
+no quero igual, eu quero diferente.
+
+325
+00:14:55,050 --> 00:14:58,210
+E diferente ns usamos o ponto de exclamao assim.
+
+326
+00:14:58,210 --> 00:15:00,970
+Portanto, este ano  um operador estrito diferente.
+
+327
+00:15:00,970 --> 00:15:03,310
+E assim como com o triplo e o duplo
+
+328
+00:15:03,310 --> 00:15:05,750
+ igual, aqui tambm temos o operador diferente normal
+
+329
+00:15:05,750 --> 00:15:08,120
+e, em seguida, o operador estrito diferente como este.
+
+330
+00:15:08,120 --> 00:15:09,500
+E assim como com
+
+331
+00:15:09,500 --> 00:15:10,990
+a igualdade, devemos sempre
+
+332
+00:15:10,990 --> 00:15:13,850
+usar este, aqui sempre devemos usar este.
+
+333
+00:15:13,850 --> 00:15:16,747
+Ento, ponto de exclamao e depois igual igual, ok?
+
+334
+00:15:16,747 --> 00:15:18,697
+E isso significa diferente.
+
+335
+00:15:18,697 --> 00:15:20,490
+Ento, o que queremos
+
+336
+00:15:20,490 --> 00:15:24,210
+fazer aqui  que toda vez que o tipo
+
+337
+00:15:24,210 --> 00:15:26,660
+do elemento atual for diferente de
+
+338
+00:15:26,660 --> 00:15:29,540
+uma string, bem, s queremos continuar, ok?
+
+339
+00:15:29,540 --> 00:15:31,270
+E eu acho que isso tambm  algo novo.
+
+340
+00:15:31,270 --> 00:15:33,010
+Eu acho que at
+
+341
+00:15:33,010 --> 00:15:36,083
+esse ponto ns sempre fizemos o if assim.
+
+342
+00:15:37,750 --> 00:15:42,490
+Ento ns tivemos esse bloco e depois o tipo de texto
+
+343
+00:15:42,490 --> 00:15:43,760
+a, assim, ok?
+
+344
+00:15:43,760 --> 00:15:46,070
+Mas se for apenas como em
+
+345
+00:15:46,070 --> 00:15:49,440
+uma linha e apenas uma declarao if simples como
+
+346
+00:15:49,440 --> 00:15:52,480
+essa, podemos realmente fazer isso em uma linha
+
+347
+00:15:52,480 --> 00:15:54,670
+sem as chaves e apenas escrev-lo assim.
+
+348
+00:15:54,670 --> 00:15:57,450
+Ento, se isso, ento continue.
+
+349
+00:15:57,450 --> 00:16:00,170
+E ento isso ir sair do loop
+
+350
+00:16:00,170 --> 00:16:02,060
+e continuar para o prximo.
+
+351
+00:16:02,060 --> 00:16:04,460
+Ento, por exemplo, quando batemos em Smith
+
+352
+00:16:04,460 --> 00:16:07,540
+aqui, ento o tipo de John I ser string
+
+353
+00:16:07,540 --> 00:16:10,590
+e string no  diferente de string, certo?
+
+354
+00:16:10,590 --> 00:16:12,670
+E assim no vamos continuar.
+
+355
+00:16:12,670 --> 00:16:15,180
+Em vez disso, vamos direto para essa linha.
+
+356
+00:16:15,180 --> 00:16:17,920
+Mas na prxima iterao, quando  1990,
+
+357
+00:16:17,920 --> 00:16:20,120
+bem, ento, isso  diferente
+
+358
+00:16:20,120 --> 00:16:23,610
+da string e, portanto, entraremos na parte if
+
+359
+00:16:23,610 --> 00:16:24,800
+aqui e continuaremos.
+
+360
+00:16:24,800 --> 00:16:29,590
+E ento essa linha aqui nem vai ser executada, certo?
+
+361
+00:16:29,590 --> 00:16:31,220
+Ento deixe-me mostrar isso para voc.
+
+362
+00:16:31,220 --> 00:16:33,990
+E, de fato, agora temos apenas John Smith,
+
+363
+00:16:33,990 --> 00:16:35,270
+designer de azul.
+
+364
+00:16:35,270 --> 00:16:39,000
+Ele pulou o 1990 e depois tambm o falso.
+
+365
+00:16:39,000 --> 00:16:41,100
+E mais uma vez,  porque
+
+366
+00:16:41,100 --> 00:16:43,620
+o tipo desses dois  diferente de string,
+
+367
+00:16:43,620 --> 00:16:45,609
+to diferente aqui, diferente de string.
+
+368
+00:16:45,609 --> 00:16:46,960
+Bem?
+
+369
+00:16:46,960 --> 00:16:48,140
+Ento vamos continuar.
+
+370
+00:16:48,140 --> 00:16:51,510
+E agora vamos fazer algo semelhante para quebrar.
+
+371
+00:16:51,510 --> 00:16:54,180
+Mas a diferena com o break  que ele tambm
+
+372
+00:16:54,180 --> 00:16:56,647
+sai da iterao atual e de todo o loop.
+
+373
+00:16:56,647 --> 00:16:59,998
+E assim no continua a prxima iterao, certo?
+
+374
+00:16:59,998 --> 00:17:02,353
+E agora, desta vez, digamos que
+
+375
+00:17:02,353 --> 00:17:04,840
+s queremos imprimir at encontrarmos algo
+
+376
+00:17:04,840 --> 00:17:06,409
+diferente de uma string.
+
+377
+00:17:06,409 --> 00:17:08,742
+Ento, assim que tivermos algo que no
+
+378
+00:17:08,742 --> 00:17:11,423
+seja uma string, no imprimiremos mais nada, certo?
+
+379
+00:17:12,277 --> 00:17:15,040
+Eu simplesmente substituiria este aqui com o intervalo.
+
+380
+00:17:15,040 --> 00:17:18,490
+Bem, eu poderia ter acabado de fazer isso aqui,
+
+381
+00:17:18,490 --> 00:17:21,930
+mas sim, ento ns temos as duas verses, certo?
+
+382
+00:17:21,930 --> 00:17:25,210
+Eu s vou, vou deixar assim.
+
+383
+00:17:25,210 --> 00:17:29,080
+Ento vamos recarregar, e voc ver que esses quatro aqui
+
+384
+00:17:29,080 --> 00:17:30,340
+so do loop
+
+385
+00:17:30,340 --> 00:17:33,635
+externo, ento das linhas 615 e agora da
+
+386
+00:17:33,635 --> 00:17:38,190
+linha 620, que  essa daqui, s temos John e Smith, ok?
+
+387
+00:17:38,190 --> 00:17:40,460
+E  exatamente isso que estvamos procurando.
+
+388
+00:17:40,460 --> 00:17:43,130
+Ento, ele imprime esta string e ento ela
+
+389
+00:17:43,130 --> 00:17:45,550
+encontra algo que no  uma string
+
+390
+00:17:45,550 --> 00:17:47,050
+e assim quebra o
+
+391
+00:17:47,050 --> 00:17:49,930
+loop e no muda nada de l, ok?
+
+392
+00:17:49,930 --> 00:17:52,236
+Ento vamos agora continuar e quebrar,
+
+393
+00:17:52,236 --> 00:17:55,380
+espero que faa sentido para voc, ok?
+
+394
+00:17:55,380 --> 00:17:56,710
+Tudo bem, e agora s
+
+395
+00:17:56,710 --> 00:17:58,820
+para terminar eu quero te dar um pequeno desafio.
+
+396
+00:17:58,820 --> 00:18:00,650
+Imagine que quisssemos percorrer
+
+397
+00:18:00,650 --> 00:18:03,650
+a matriz de John aqui, ento esta
+
+398
+00:18:03,650 --> 00:18:04,970
+aqui, ao contrrio.
+
+399
+00:18:04,970 --> 00:18:07,187
+Ento, comeando de azul e falso, designer,
+
+400
+00:18:07,187 --> 00:18:09,110
+e depois todo o caminho at John.
+
+401
+00:18:09,110 --> 00:18:11,030
+Ento, como podemos resolver isso, como
+
+402
+00:18:11,030 --> 00:18:12,630
+podemos percorrer o array de
+
+403
+00:18:12,630 --> 00:18:15,010
+outra maneira usando um loop for?
+
+404
+00:18:15,010 --> 00:18:17,173
+Ento voc acha que podemos resolver isso?
+
+405
+00:18:18,020 --> 00:18:19,590
+Voc pode tentar pausar
+
+406
+00:18:19,590 --> 00:18:23,193
+o vdeo aqui e dar um segundo e test-lo, ok?
+
+407
+00:18:26,160 --> 00:18:27,423
+Ento voc descobriu?
+
+408
+00:18:28,612 --> 00:18:31,020
+Ento, vamos adicionar um comentrio aqui antes de fazermos isso.
+
+409
+00:18:31,020 --> 00:18:33,373
+Looping para trs.
+
+410
+00:18:34,270 --> 00:18:36,830
+E realmente, tudo o que temos a fazer
+
+411
+00:18:36,830 --> 00:18:39,810
+aqui  pensar onde queremos ou contra-atacar para comear o
+
+412
+00:18:39,810 --> 00:18:42,080
+que a condio deve ser e o
+
+413
+00:18:42,080 --> 00:18:44,570
+que queremos que acontea com a varivel do contador.
+
+414
+00:18:44,570 --> 00:18:48,870
+Ento, comeando com eu, o que queremos que eu
+
+415
+00:18:48,870 --> 00:18:50,140
+seja no comeo?
+
+416
+00:18:50,140 --> 00:18:52,350
+Bem, ns temos esta matriz de John,
+
+417
+00:18:52,350 --> 00:18:53,540
+vamos ter algum espao
+
+418
+00:18:53,540 --> 00:18:55,870
+aqui e temos seis elementos aqui.
+
+419
+00:18:55,870 --> 00:19:00,307
+Zero, um, dois, trs, quatro e cinco.
+
+420
+00:19:00,307 --> 00:19:03,474
+E queremos comear no elemento nmero cinco.
+
+421
+00:19:03,474 --> 00:19:05,890
+E ento, o que so esses cinco?
+
+422
+00:19:05,890 --> 00:19:09,640
+Bem,  apenas um comprimento de toda essa matriz menos um.
+
+423
+00:19:09,640 --> 00:19:12,170
+Ento, vamos escrever exatamente isso.
+
+424
+00:19:12,170 --> 00:19:16,000
+John. comprimento menos um.
+
+425
+00:19:16,000 --> 00:19:18,790
+Ok e isso ser cinco neste caso.
+
+426
+00:19:18,790 --> 00:19:22,040
+Ento, quanto tempo queremos que esse array seja executado?
+
+427
+00:19:22,040 --> 00:19:23,980
+Bem, queremos que o array seja
+
+428
+00:19:23,980 --> 00:19:26,500
+executado at que eu atinja zero, certo?
+
+429
+00:19:26,500 --> 00:19:28,320
+Ento, o ltimo que queremos
+
+430
+00:19:28,320 --> 00:19:32,060
+imprimir  o primeiro elemento da matriz que  zero, ok?
+
+431
+00:19:32,060 --> 00:19:36,398
+E ento eu deveria sempre ser maior ou igual a zero.
+
+432
+00:19:36,398 --> 00:19:40,076
+To maior ou igual a zero, faz sentido?
+
+433
+00:19:40,076 --> 00:19:43,520
+Ento lembre-se que sempre que esse zero
+
+434
+00:19:43,520 --> 00:19:46,850
+for verdadeiro, o prximo loop ser executado.
+
+435
+00:19:46,850 --> 00:19:49,100
+E ento o que queremos aqui
+
+436
+00:19:49,100 --> 00:19:53,120
+ que seja executado sempre que eu for maior que zero, ok?
+
+437
+00:19:53,120 --> 00:19:56,610
+Porque agora o que as pessoas fazem aqui depois de
+
+438
+00:19:56,610 --> 00:19:59,726
+cada iterao  realmente diminuir o contador, ok?
+
+439
+00:19:59,726 --> 00:20:01,150
+Faz sentido?
+
+440
+00:20:01,150 --> 00:20:04,780
+Ento comeamos s cinco e depois de cada iterao
+
+441
+00:20:04,780 --> 00:20:05,930
+diminumos o contador.
+
+442
+00:20:05,930 --> 00:20:10,110
+Ento cinco, quatro, trs, dois, um, zero.
+
+443
+00:20:10,110 --> 00:20:11,700
+E no zero ainda funcionar
+
+444
+00:20:11,700 --> 00:20:13,980
+porque eu  maior ou igual a zero.
+
+445
+00:20:13,980 --> 00:20:16,233
+Mas depois disso, ele atingir menos
+
+446
+00:20:16,233 --> 00:20:19,120
+um, e a condio no ser mais verdadeira
+
+447
+00:20:19,120 --> 00:20:20,873
+e, ento, deixar de funcionar.
+
+448
+00:20:20,873 --> 00:20:23,080
+Ento tudo o que temos que fazer 
+
+449
+00:20:23,080 --> 00:20:25,460
+logar e esta  sempre a mesma parte.
+
+450
+00:20:25,460 --> 00:20:27,033
+Ento, agora vamos
+
+451
+00:20:28,200 --> 00:20:32,610
+tentar, e esses aqui so nossos resultados comeando aqui.
+
+452
+00:20:32,610 --> 00:20:36,490
+Ento todos estes vm da linha 627, ento este aqui.
+
+453
+00:20:36,490 --> 00:20:40,000
+E ento voc v que, na verdade, est realmente dando um loop
+
+454
+00:20:40,000 --> 00:20:41,060
+de trs para frente.
+
+455
+00:20:41,060 --> 00:20:43,590
+Ento comea de azul, falso, designer,
+
+456
+00:20:43,590 --> 00:20:48,370
+1990, Smith e John, que  o nmero zero, ok?
+
+457
+00:20:48,370 --> 00:20:50,200
+Ento espero que tenha feito sentido para voc.
+
+458
+00:20:50,200 --> 00:20:52,970
+Este foi apenas um pequeno exerccio para voc
+
+459
+00:20:52,970 --> 00:20:55,580
+pensar sobre essas trs partes aqui do
+
+460
+00:20:55,580 --> 00:20:58,530
+loop for e como podemos alcanar uma funcionalidade
+
+461
+00:20:58,530 --> 00:21:02,120
+diferente da simples que eu expliquei para voc antes, ok?
+
+462
+00:21:02,120 --> 00:21:04,970
+E agora  hora de mais um desafio,
+
+463
+00:21:04,970 --> 00:21:07,340
+e este ser o ltimo desta seo
+
+464
+00:21:07,340 --> 00:21:10,040
+usando todas as coisas que aprendemos em
+
+465
+00:21:10,040 --> 00:21:11,230
+todos esses vdeos.
+
+466
+00:21:11,230 --> 00:21:13,100
+Ento voc j percorreu um longo
+
+467
+00:21:13,100 --> 00:21:15,800
+caminho at este ponto, parabns, e espero v-lo
+
+468
+00:21:15,800 --> 00:21:18,199
+no prximo desafio, porque eu acho que 
+
+469
+00:21:18,199 --> 00:21:21,099
+realmente importante tomar isso e experiment-lo por conta prpria.
+

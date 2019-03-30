@@ -1,0 +1,136 @@
+1
+00:00:01,160 --> 00:00:03,580
+Istruttore: benvenuto alla prossima sfida di codifica.
+
+2
+00:00:03,580 --> 00:00:07,410
+In questo costruisci un calcolatore di tip molto semplice.
+
+3
+00:00:07,410 --> 00:00:09,920
+Cos John e la sua famiglia
+
+4
+00:00:09,920 --> 00:00:12,130
+andarono in vacanza e andarono
+
+5
+00:00:12,130 --> 00:00:17,130
+in tre diversi ristoranti, e le bollette erano 124, 48 e 268 dollari.
+
+6
+00:00:17,480 --> 00:00:20,090
+Ora per dare una mancia al cameriere, John
+
+7
+00:00:20,090 --> 00:00:23,660
+ha creato un semplice calcolatore di punte come una funzione.
+
+8
+00:00:23,660 --> 00:00:25,900
+E il modo in cui John calcola
+
+9
+00:00:25,900 --> 00:00:28,900
+i suoi consigli,  che gli piace cedere il 20
+
+10
+00:00:28,900 --> 00:00:31,010
+percento del conto quando il conto 
+
+11
+00:00:31,010 --> 00:00:34,870
+inferiore a 50 dollari, il 15 percento quando il conto  tra 50
+
+12
+00:00:34,870 --> 00:00:39,290
+e 200 dollari e il 10 percento del conto se  pi di 200
+
+13
+00:00:39,290 --> 00:00:40,900
+dollari, e questo potrebbe non
+
+14
+00:00:40,900 --> 00:00:43,610
+avere senso, ma questo  solo per questo piccolo
+
+15
+00:00:43,610 --> 00:00:46,830
+esercizio quindi abbiamo ancora qualcosa da fare nella nostra funzione, okay.
+
+16
+00:00:46,830 --> 00:00:49,910
+Quindi alla fine, John vorrebbe avere due
+
+17
+00:00:49,910 --> 00:00:51,450
+array come risultato finale.
+
+18
+00:00:51,450 --> 00:00:55,200
+Quindi uno contenente tutti e tre i suggerimenti, quindi uno per ogni
+
+19
+00:00:55,200 --> 00:00:58,690
+fattura, e quindi uno contenente tutti e tre gli importi finali
+
+20
+00:00:58,690 --> 00:01:02,640
+pagati, e con gli importi pagati, intendo il conto pi il suggerimento pagato.
+
+21
+00:01:02,640 --> 00:01:05,700
+Ok, quindi vogliamo una funzione che calcoli il suggerimento, e
+
+22
+00:01:05,700 --> 00:01:07,420
+quindi vogliamo due array, uno con
+
+23
+00:01:07,420 --> 00:01:10,790
+solo i suggerimenti e uno con i suggerimenti pi il conto.
+
+24
+00:01:10,790 --> 00:01:13,730
+Ok, e se non sei sicuro di come calcolare una percentuale,
+
+25
+00:01:13,730 --> 00:01:16,450
+ad esempio se vuoi prendere il 20 percento di un
+
+26
+00:01:16,450 --> 00:01:19,440
+valore, devi semplicemente moltiplicarlo per 0. 2, che 
+
+27
+00:01:19,440 --> 00:01:24,160
+20 diviso per 100, ok, quindi  molto semplice.
+
+28
+00:01:24,160 --> 00:01:26,440
+Bene, quindi spero che riuscirai a farlo, sar
+
+29
+00:01:26,440 --> 00:01:28,100
+una buona sfida per te utilizzare
+
+30
+00:01:28,100 --> 00:01:30,660
+la maggior parte delle cose di cui abbiamo parlato
+
+31
+00:01:30,660 --> 00:01:32,070
+fino a questo punto.
+
+32
+00:01:32,070 --> 00:01:34,190
+Dagli un po 'di tempo, provalo e
+
+33
+00:01:34,190 --> 00:01:37,210
+poi ti vedr nel prossimo video con la soluzione.
+
+34
+00:01:37,210 --> 00:01:38,043
+In bocca al lupo.
+

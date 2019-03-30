@@ -1,0 +1,600 @@
+1
+00:00:02,229 --> 00:00:03,062
+Jonas: Ento eu
+
+2
+00:00:03,062 --> 00:00:05,100
+realmente espero que voc tenha tentado o
+
+3
+00:00:05,100 --> 00:00:06,860
+desafio e, claro, que voc tenha conseguido.
+
+4
+00:00:06,860 --> 00:00:08,720
+Ento aqui vai a minha soluo caso
+
+5
+00:00:08,720 --> 00:00:10,990
+voc esteja se perguntando como eu fiz isso.
+
+6
+00:00:10,990 --> 00:00:13,923
+Vou comear criando a funo de calculadora de gorjeta.
+
+7
+00:00:14,770 --> 00:00:19,233
+Ok, ento funcione, e eu vou chamar de calculadora de gorjeta.
+
+8
+00:00:21,370 --> 00:00:24,533
+Ento aqui voc passa um valor, que eu chamo de
+
+9
+00:00:26,130 --> 00:00:28,600
+conta, e ento ns temos nosso corpo funcional.
+
+10
+00:00:28,600 --> 00:00:32,670
+Agora, queremos, dependendo do valor da fatura, determinar a
+
+11
+00:00:32,670 --> 00:00:34,890
+porcentagem da dica que John
+
+12
+00:00:34,890 --> 00:00:36,273
+gosta de pagar.
+
+13
+00:00:37,146 --> 00:00:38,810
+Ento aqui temos nossas regras,
+
+14
+00:00:38,810 --> 00:00:41,950
+novamente, ento 20% se a conta for menor que
+
+15
+00:00:41,950 --> 00:00:44,570
+$ 50, 15% entre 50 e 200
+
+16
+00:00:44,570 --> 00:00:48,053
+e 10% se a conta for maior que 200.
+
+17
+00:00:50,030 --> 00:00:52,653
+Ento, vou definir var percentual aqui e
+
+18
+00:00:53,980 --> 00:00:55,310
+depois vou deixar.
+
+19
+00:00:55,310 --> 00:00:58,490
+Esta declarao  onde eu vou realmente definir
+
+20
+00:00:58,490 --> 00:01:01,563
+o valor da porcentagem dependendo da conta.
+
+21
+00:01:02,700 --> 00:01:07,700
+Portanto, se a fatura for menor que 50,
+
+22
+00:01:10,000 --> 00:01:12,773
+a porcentagem deve ser 20.
+
+23
+00:01:13,680 --> 00:01:16,120
+Ou, na verdade, deveria ser. 2
+
+24
+00:01:16,120 --> 00:01:18,090
+Ento poderamos escrever 0. 2, mas nem
+
+25
+00:01:18,090 --> 00:01:19,320
+precisamos do zero aqui.
+
+26
+00:01:19,320 --> 00:01:21,850
+Ento apenas . 2, porque esse  realmente
+
+27
+00:01:21,850 --> 00:01:24,670
+o valor que mais tarde vamos multiplicar com a conta.
+
+28
+00:01:24,670 --> 00:01:27,720
+Ok, lembre-se, para completar% 20 de um valor,
+
+29
+00:01:27,720 --> 00:01:30,180
+multiplicamos por 0. 2 neste caso, porque
+
+30
+00:01:30,180 --> 00:01:32,063
+ 20 dividido por 100.
+
+31
+00:01:34,230 --> 00:01:37,763
+Tudo bem, ento, se a fatura for maior
+
+32
+00:01:37,763 --> 00:01:42,763
+ou igual a 50, termine se a fatura for menor que 200.
+
+33
+00:01:45,560 --> 00:01:46,570
+Ento,  muito parecido
+
+34
+00:01:46,570 --> 00:01:48,480
+com as coisas que j fizemos antes, certo?
+
+35
+00:01:48,480 --> 00:01:50,983
+Ento, isso no deve ser nada para voc neste momento.
+
+36
+00:01:53,470 --> 00:01:57,160
+Ento, neste caso, nossa porcentagem ser. 15, e mais,
+
+37
+00:01:57,160 --> 00:02:01,590
+a porcentagem ser. 0
+
+38
+00:02:01,590 --> 00:02:03,730
+Ou na verdade. 1 desculpe.
+
+39
+00:02:03,730 --> 00:02:06,980
+Assim . 1, que  10%, tudo bem.
+
+40
+00:02:06,980 --> 00:02:07,930
+E neste caso
+
+41
+00:02:07,930 --> 00:02:09,820
+voc nem precisa especificar o if aqui,
+
+42
+00:02:09,820 --> 00:02:11,710
+porque se o faturamento no for menor
+
+43
+00:02:11,710 --> 00:02:14,310
+que 50 e no entre 50 e 200, bem,
+
+44
+00:02:14,310 --> 00:02:16,510
+ento isso significa que  mais de 200.
+
+45
+00:02:16,510 --> 00:02:18,793
+E isso aqui cobre tudo isso.
+
+46
+00:02:20,790 --> 00:02:22,177
+Ento, tudo o que
+
+47
+00:02:22,177 --> 00:02:26,313
+temos a fazer agora  devolver essa porcentagem vezes a conta.
+
+48
+00:02:27,630 --> 00:02:30,870
+Ento, por exemplo, se a nossa conta fosse de US $
+
+49
+00:02:30,870 --> 00:02:33,220
+100, dividiramos isso com. 15, que ento
+
+50
+00:02:33,220 --> 00:02:35,190
+seria de US $ 15.
+
+51
+00:02:35,190 --> 00:02:39,070
+Por isso, devolveramos $ 15 desta funo de calculadora de gorjeta.
+
+52
+00:02:39,070 --> 00:02:40,520
+Tudo bem, agora voc poderia, claro,
+
+53
+00:02:40,520 --> 00:02:41,980
+ter feito isso de forma diferente.
+
+54
+00:02:41,980 --> 00:02:44,290
+Por exemplo, voc poderia ter
+
+55
+00:02:44,290 --> 00:02:48,343
+feito um switch como fizemos antes, por exemplo, onde est?
+
+56
+00:02:49,980 --> 00:02:53,783
+Ento, algo muito parecido, aqui est.
+
+57
+00:02:56,070 --> 00:02:57,620
+Ento voc poderia ter feito
+
+58
+00:02:57,620 --> 00:02:58,850
+algo semelhante a este
+
+59
+00:02:58,850 --> 00:03:00,760
+aqui, por exemplo, onde, em cada
+
+60
+00:03:00,760 --> 00:03:04,315
+caso, voc retornaria a conta multiplicando a porcentagem atual.
+
+61
+00:03:04,315 --> 00:03:06,810
+E se funcionar bem assim.
+
+62
+00:03:06,810 --> 00:03:09,540
+Ento, s para dizer que sempre h
+
+63
+00:03:09,540 --> 00:03:12,020
+solues diferentes para os mesmos problemas, ok?
+
+64
+00:03:12,020 --> 00:03:15,960
+E agora eu s quero testar isso aqui com algum valor.
+
+65
+00:03:15,960 --> 00:03:19,450
+Ento, calcule a calculadora e vamos configur-la para 100.
+
+66
+00:03:19,450 --> 00:03:21,000
+E precisamos consolar o log.
+
+67
+00:03:21,000 --> 00:03:23,060
+Ento, novamente, isso  apenas para
+
+68
+00:03:23,060 --> 00:03:26,313
+testar se a nossa funo est realmente funcionando bem.
+
+69
+00:03:28,441 --> 00:03:31,143
+Ento isso aqui deve retornar 15, certo?
+
+70
+00:03:32,380 --> 00:03:37,050
+E, de fato,  15% de 100,
+
+71
+00:03:37,050 --> 00:03:39,960
+entre 50 e 200.
+
+72
+00:03:39,960 --> 00:03:42,430
+Agora vamos tentar com 300, e
+
+73
+00:03:42,430 --> 00:03:46,240
+vamos levar 10% disso, o que seria 30.
+
+74
+00:03:46,240 --> 00:03:49,870
+Ento, vamos testar e, de fato, funciona.
+
+75
+00:03:49,870 --> 00:03:53,280
+E agora vamos colocar, digamos, US $ 10, o que 
+
+76
+00:03:53,280 --> 00:03:55,090
+claro, menos de 50, e ento
+
+77
+00:03:55,090 --> 00:03:58,053
+dois por cento disso deve ser de dois dlares.
+
+78
+00:03:59,190 --> 00:04:01,460
+E sim, na verdade so dois.
+
+79
+00:04:01,460 --> 00:04:03,020
+E isso significa que
+
+80
+00:04:03,020 --> 00:04:04,940
+nossa calculadora de dicas est funcionando.
+
+81
+00:04:04,940 --> 00:04:06,730
+Ento, tudo o que temos a
+
+82
+00:04:06,730 --> 00:04:10,136
+fazer agora  cri-los para apagar, pois John quer os resultados.
+
+83
+00:04:10,136 --> 00:04:11,850
+Ento, a primeira coisa que
+
+84
+00:04:11,850 --> 00:04:13,784
+vou fazer  realmente comear uma
+
+85
+00:04:13,784 --> 00:04:18,784
+conta, e para uma matriz, ento temos 124, temos 48 e depois 268 eu acredito.
+
+86
+00:04:23,600 --> 00:04:26,260
+Vamos apenas confirmar isso e sim.
+
+87
+00:04:26,260 --> 00:04:28,807
+Ento, essas so as contas que
+
+88
+00:04:28,807 --> 00:04:32,493
+temos e, em seguida, vamos calcular as dicas.
+
+89
+00:04:34,440 --> 00:04:38,240
+Ento a primeira dica  calculada usando a
+
+90
+00:04:38,240 --> 00:04:42,710
+calculadora de gorjetas com as notas na posio zero, certo?
+
+91
+00:04:42,710 --> 00:04:44,180
+Em seguida, um segundo e,
+
+92
+00:04:44,180 --> 00:04:46,587
+na verdade, vamos coloc-lo em uma linha separada aqui.
+
+93
+00:04:46,587 --> 00:04:50,020
+Assim, o segundo  o clculo das
+
+94
+00:04:51,670 --> 00:04:56,110
+contas da calculadora no elemento um e, finalmente, o ltimo
+
+95
+00:04:56,110 --> 00:04:58,480
+ calcular a ponta com
+
+96
+00:04:58,480 --> 00:05:01,093
+as contas na posio nmero dois.
+
+97
+00:05:03,050 --> 00:05:05,240
+Ok, ento ele criou uma matriz
+
+98
+00:05:05,240 --> 00:05:07,640
+aqui que contm esses trs valores, que
+
+99
+00:05:07,640 --> 00:05:09,680
+todos vm do resultado do clculo
+
+100
+00:05:09,680 --> 00:05:13,250
+da ponta usando nossa funo de calculadora de ponta.
+
+101
+00:05:13,250 --> 00:05:16,033
+Tudo bem, ento vamos logar no console aqui,
+
+102
+00:05:22,120 --> 00:05:24,190
+e aqui ns temos nossas dicas.
+
+103
+00:05:24,190 --> 00:05:26,730
+Agora isso aqui  algo estranho que est
+
+104
+00:05:26,730 --> 00:05:29,110
+acontecendo com o 9. 6 e 001, e
+
+105
+00:05:29,110 --> 00:05:30,100
+isso  algo
+
+106
+00:05:30,100 --> 00:05:31,590
+estranho que o javascript faz
+
+107
+00:05:31,590 --> 00:05:34,440
+com nmeros, e ningum realmente sabe por que isso est acontecendo.
+
+108
+00:05:34,440 --> 00:05:36,660
+Ento deve ser apenas 9. 6, e o
+
+109
+00:05:36,660 --> 00:05:38,720
+mesmo est realmente acontecendo aqui com
+
+110
+00:05:38,720 --> 00:05:43,280
+este 59999998, e isso, claro, deve ser 18. 6
+
+111
+00:05:44,879 --> 00:05:46,450
+Mas isso no  nada
+
+112
+00:05:46,450 --> 00:05:49,410
+que possamos mudar, isso no  culpa nossa, ento
+
+113
+00:05:49,410 --> 00:05:51,900
+o JavaScript s faz esses clculos estranhos
+
+114
+00:05:51,900 --> 00:05:55,850
+aqui que realmente no fazem sentido, ento no se preocupe com eles.
+
+115
+00:05:55,850 --> 00:05:59,540
+Ok, ento esta  a primeira matriz que queremos
+
+116
+00:05:59,540 --> 00:06:02,010
+para as trs dicas e, finalmente,
+
+117
+00:06:02,010 --> 00:06:05,720
+queremos uma contendo os trs valores finais pagos.
+
+118
+00:06:05,720 --> 00:06:07,893
+E isso tambm 
+
+119
+00:06:09,350 --> 00:06:14,350
+muito fcil, digamos valores finais, ento outra matriz.
+
+120
+00:06:14,650 --> 00:06:19,650
+E aqui temos que dizer contas na posio zero
+
+121
+00:06:19,800 --> 00:06:23,210
+mais as pontas na posio zero.
+
+122
+00:06:23,210 --> 00:06:26,060
+E  isso, muito simples.
+
+123
+00:06:26,060 --> 00:06:30,280
+Vamos apenas pegar isso aqui, e aqui
+
+124
+00:06:30,280 --> 00:06:34,373
+ um, e aqui so dois.
+
+125
+00:06:39,665 --> 00:06:40,508
+Ento, na
+
+126
+00:06:40,508 --> 00:06:44,723
+verdade,  tudo o que precisamos fazer para termos nossos resultados finais.
+
+127
+00:06:48,168 --> 00:06:50,250
+Agora voc v que, na verdade, aqui
+
+128
+00:06:50,250 --> 00:06:53,720
+agora ns temos isso. 6 e isso. 6 vindo desses dois.
+
+129
+00:06:53,720 --> 00:06:57,020
+Ento isso  realmente estranho, novamente, no se preocupe com isso.
+
+130
+00:06:57,020 --> 00:06:59,410
+De qualquer forma, o que realmente queremos ver
+
+131
+00:06:59,410 --> 00:07:03,050
+aqui  que isso  142. 6  realmente a soma do
+
+132
+00:07:03,050 --> 00:07:07,990
+projeto original que  124 mais 18. 6
+
+133
+00:07:09,510 --> 00:07:11,280
+E o mesmo, claro, para os outros.
+
+134
+00:07:11,280 --> 00:07:15,157
+Ento 57. 6  9. 6 mais 48, e
+
+135
+00:07:15,157 --> 00:07:17,533
+o mesmo aqui para este ltimo elemento.
+
+136
+00:07:18,685 --> 00:07:20,735
+E com isso o desafio est completo.
+
+137
+00:07:22,017 --> 00:07:24,140
+E voc poderia ter feito isso de forma muito diferente,  claro.
+
+138
+00:07:24,140 --> 00:07:26,070
+Por exemplo, voc poderia ter declarado matrizes
+
+139
+00:07:26,070 --> 00:07:28,370
+vazias no incio e depois usar o mtodo
+
+140
+00:07:28,370 --> 00:07:30,870
+push para adicionar todos esses resultados  matriz.
+
+141
+00:07:30,870 --> 00:07:33,140
+Mas, novamente, no  realmente importante que seu
+
+142
+00:07:33,140 --> 00:07:35,530
+cdigo seja o mesmo que o meu, ok?
+
+143
+00:07:35,530 --> 00:07:37,180
+Eu no posso enfatizar isso o suficiente.
+
+144
+00:07:37,180 --> 00:07:39,310
+Ento, o que eu realmente quero aqui
+
+145
+00:07:39,310 --> 00:07:42,080
+ escrever cdigo e pensar em como resolver esses problemas.
+
+146
+00:07:42,080 --> 00:07:45,098
+E se os resultados que voc obtiver forem os mesmos que os meus,
+
+147
+00:07:45,098 --> 00:07:46,260
+bem, isso  realmente fantstico.
+
+148
+00:07:46,260 --> 00:07:47,960
+Ento voc percorreu um longo caminho
+
+149
+00:07:47,960 --> 00:07:51,110
+nesta seo, mas ainda h mais algumas coisas para aprender.
+
+150
+00:07:51,110 --> 00:07:52,373
+Ento vamos agora seguir em frente.
+

@@ -1,0 +1,976 @@
+1
+00:00:01,320 --> 00:00:03,660
+Anlatc: Diziler, tm
+
+2
+00:00:03,660 --> 00:00:05,370
+JavaScript Live'nzda
+
+3
+00:00:05,370 --> 00:00:08,721
+kullanacanz JavaScript'deki temel bir kavramdr.
+
+4
+00:00:08,721 --> 00:00:10,983
+imdi tam olarak nasl altklarn renelim.
+
+5
+00:00:12,040 --> 00:00:14,860
+Birok nceki derste, farkl kiiler iin
+
+6
+00:00:14,860 --> 00:00:17,490
+farkl deikenlerimiz vard, ama imdi hepsini
+
+7
+00:00:17,490 --> 00:00:19,810
+tek bir deikene yerletirmenin ne
+
+8
+00:00:19,810 --> 00:00:22,120
+kadar kullanl olacan hayal edin.
+
+9
+00:00:22,120 --> 00:00:24,370
+JavaScript'te bunun iin dizilerimiz var.
+
+10
+00:00:24,370 --> 00:00:26,710
+Farkl veri trlerine sahip
+
+11
+00:00:26,710 --> 00:00:28,843
+olabilen deikenlerin koleksiyonlar gibidir.
+
+12
+00:00:30,218 --> 00:00:32,280
+Her zaman isimler olarak adlandrlan
+
+13
+00:00:33,400 --> 00:00:36,880
+bir deiken bildirelim ve imdi bir dizi kullanabiliriz.
+
+14
+00:00:36,880 --> 00:00:39,540
+Yeni bir dizi oluturmann farkl yollar vardr,
+
+15
+00:00:39,540 --> 00:00:43,290
+ancak en kolay ve en ok kullanlan parantez kullanmaktr.
+
+16
+00:00:43,290 --> 00:00:45,120
+Keli parantezleri kullanyoruz ve
+
+17
+00:00:45,120 --> 00:00:47,093
+burada farkl deerlerimizi koyuyoruz.
+
+18
+00:00:47,950 --> 00:00:50,210
+Diyelim ki bir dizi ad istiyoruz,
+
+19
+00:00:50,210 --> 00:00:54,293
+bu yzden John sonra virgl ve sonra yeni bir element ekliyoruz,
+
+20
+00:00:55,170 --> 00:00:59,463
+o yzden Mark ve sonra Jane adnda nc bir element diyelim.
+
+21
+00:01:01,290 --> 00:01:03,500
+imdi, isimler dizisi, John,
+
+22
+00:01:03,500 --> 00:01:07,330
+Mark ve Jane denilen  elementin
+
+23
+00:01:07,330 --> 00:01:08,983
+bir dizisi var.
+
+24
+00:01:10,520 --> 00:01:12,763
+Yllar olarak yeni bir tane oluturalm.
+
+25
+00:01:14,150 --> 00:01:15,800
+Bahsettiim gibi, diziler
+
+26
+00:01:15,800 --> 00:01:18,363
+oluturmann farkl yollar vardr, bu
+
+27
+00:01:19,320 --> 00:01:23,980
+yzden yeni bir dizi grelim, yani yeni dizi, bu
+
+28
+00:01:23,980 --> 00:01:26,430
+ekilde bu dizi fonksiyonunu temelde
+
+29
+00:01:26,430 --> 00:01:28,970
+yeni bir anahtar kelime ile
+
+30
+00:01:28,970 --> 00:01:33,970
+armak gibi bir dizi yapabilir ve oradan veriyi iletebilirsiniz. 1990'da,
+
+31
+00:01:34,940 --> 00:01:37,883
+1969'da ve 1948'de dizide olmak istediniz.
+
+32
+00:01:40,639 --> 00:01:42,790
+Bu bir dizi ayn olacak, ama, yine,
+
+33
+00:01:42,790 --> 00:01:45,650
+bu burada ok daha fazla kullanlr ve bu yzden
+
+34
+00:01:45,650 --> 00:01:46,850
+genellikle bunu kullanmazsnz.
+
+35
+00:01:46,850 --> 00:01:49,780
+Sadece var olduunu da bilmeni istedim.
+
+36
+00:01:49,780 --> 00:01:52,920
+Dizilerin sfr temelli olduunu, yani
+
+37
+00:01:52,920 --> 00:01:56,600
+ilk elemann sfr eleman numaras,
+
+38
+00:01:56,600 --> 00:01:59,400
+ikincisinin bir numaral, bir
+
+39
+00:01:59,400 --> 00:02:02,870
+numaral iki, vb. Olduunu sylyoruz.
+
+40
+00:02:02,870 --> 00:02:04,730
+imdi dizideki elere nasl
+
+41
+00:02:04,730 --> 00:02:05,973
+eriebileceimizi grelim.
+
+42
+00:02:07,590 --> 00:02:09,140
+Konsola giri yapalm,
+
+43
+00:02:10,670 --> 00:02:13,410
+isimler, sonra parantezleri tekrar kullanyoruz,
+
+44
+00:02:13,410 --> 00:02:15,483
+sonra indeks, yani numara.
+
+45
+00:02:16,960 --> 00:02:20,280
+Adlar, parantez, sfr, ad dizisinin sfr
+
+46
+00:02:20,280 --> 00:02:21,630
+esi olacaktr.
+
+47
+00:02:21,630 --> 00:02:23,680
+Dizilerin sfr temelli olduunu ve
+
+48
+00:02:23,680 --> 00:02:27,030
+bu yzden John enin sfr olduunu unutmayn.
+
+49
+00:02:27,030 --> 00:02:30,500
+una bir bakalm ve aslnda John'u grrz.
+
+50
+00:02:30,500 --> 00:02:33,250
+Tabii ki tm diziyi de
+
+51
+00:02:33,250 --> 00:02:35,620
+kaydedebiliriz, yani bu nasl grnecek,
+
+52
+00:02:35,620 --> 00:02:37,910
+bu yzden buradayz, 
+
+53
+00:02:37,910 --> 00:02:40,320
+numaral durumu, yani dizideki elemanlarn
+
+54
+00:02:40,320 --> 00:02:42,500
+miktar ve tm dizi.
+
+55
+00:02:42,500 --> 00:02:44,700
+Aslnda bu sayya buradan da eriebiliriz
+
+56
+00:02:45,730 --> 00:02:47,380
+ve bunu yapmak iin
+
+57
+00:02:47,380 --> 00:02:50,133
+tek yapmamz gereken isimlerdir. uzunluk, bu noktada
+
+58
+00:02:51,280 --> 00:02:54,220
+bu noktann ne anlama geldiini reneceiz, ancak
+
+59
+00:02:54,220 --> 00:02:57,710
+imdilik sadece isimleri yapabileceimizi biliyoruz. uzunluk ve sonra
+
+60
+00:02:57,710 --> 00:03:00,820
+bize ka tane eleman olduunu gsterecek.
+
+61
+00:03:00,820 --> 00:03:03,220
+Bu durumda, henz tanmlanmam bir ekilde
+
+62
+00:03:03,220 --> 00:03:06,680
+dnd, ama bu sadece uzunluunu yanl yazdm iin.
+
+63
+00:03:06,680 --> 00:03:08,440
+te byle grnmeli
+
+64
+00:03:08,440 --> 00:03:11,090
+ve imdi  numaray almalyz,
+
+65
+00:03:11,090 --> 00:03:13,403
+yani dizimizde  element var.
+
+66
+00:03:15,160 --> 00:03:16,170
+Sfra eriiyoruz.
+
+67
+00:03:16,170 --> 00:03:17,820
+rnein iki numaraya da eriebiliriz
+
+68
+00:03:17,820 --> 00:03:19,463
+ve bu da Jane olmal.
+
+69
+00:03:21,080 --> 00:03:23,310
+Bu, temel olarak, diziden
+
+70
+00:03:23,310 --> 00:03:26,530
+gelen verileri nasl alrz, ancak dizideki
+
+71
+00:03:26,530 --> 00:03:29,840
+verileri deitirmek iin szdizimini de kullanabiliriz.
+
+72
+00:03:29,840 --> 00:03:34,210
+Mark diyecek isimler ve bir tane syleyebiliriz ve
+
+73
+00:03:34,210 --> 00:03:36,270
+sonra Mark yerine Mark
+
+74
+00:03:37,490 --> 00:03:38,913
+olmak istediimizi syleyebiliriz.
+
+75
+00:03:40,470 --> 00:03:42,473
+imdi diziyi gnle kaydedersek,
+
+76
+00:03:48,220 --> 00:03:50,130
+farkl olduunu grmeliyiz.
+
+77
+00:03:50,130 --> 00:03:52,840
+imdi aslnda bir numaral pozisyonda, Ben
+
+78
+00:03:52,840 --> 00:03:54,913
+ve artk Mark deil.
+
+79
+00:03:56,070 --> 00:03:58,133
+Diziye de veri ekleyebiliriz,
+
+80
+00:03:59,190 --> 00:04:01,140
+o yzden orada olmayan
+
+81
+00:04:01,140 --> 00:04:02,540
+bir pozisyona eriebiliriz.
+
+82
+00:04:02,540 --> 00:04:05,323
+Diyelim ki beinci pozisyonun Mary olmasn istiyoruz.
+
+83
+00:04:09,110 --> 00:04:10,940
+O zaman ne olacan grelim ve
+
+84
+00:04:10,940 --> 00:04:14,260
+aslnda bu konsoldan nce buraya koyalm. Log ve bylece
+
+85
+00:04:16,640 --> 00:04:19,630
+imdi burada bo olduunu gryoruz ve
+
+86
+00:04:19,630 --> 00:04:21,930
+sonra sadece Mary geliyor.
+
+87
+00:04:21,930 --> 00:04:25,520
+imdi eer Mary'i dizideki son e olarak eklemek
+
+88
+00:04:25,520 --> 00:04:28,140
+istediysek, daha nce kullandmz bu zellii
+
+89
+00:04:28,140 --> 00:04:31,480
+kullanabiliriz, bu yzden isimler. uzunluu.
+
+90
+00:04:31,480 --> 00:04:34,080
+Bu noktada bu  olduunu unutmayn.
+
+91
+00:04:34,080 --> 00:04:36,910
+Eer isimleri sylersek, isimler. uzunluk ve bu 
+
+92
+00:04:36,910 --> 00:04:39,763
+sonra yendi ve  isim Mary olmaldr.
+
+93
+00:04:41,070 --> 00:04:45,580
+Sonra bu dizide temel olarak son bir e olarak ekler.
+
+94
+00:04:45,580 --> 00:04:47,210
+Mantkl olmak?
+
+95
+00:04:47,210 --> 00:04:50,403
+lk nce, onu buraya ekleyeyim, bu yzden
+
+96
+00:04:52,530 --> 00:04:54,200
+dizi verilerini belirtin,
+
+97
+00:04:54,200 --> 00:04:55,223
+burada diyebiliriz,
+
+98
+00:04:59,470 --> 00:05:00,743
+Yeni diziyi balat.
+
+99
+00:05:02,130 --> 00:05:05,580
+lk nce diziyi birinci sraya dizdik ve
+
+100
+00:05:05,580 --> 00:05:08,750
+Ben'i ekledik, sonra diziyi konum numaras adlarnda
+
+101
+00:05:08,750 --> 00:05:11,110
+mutasyona urattk. uzunluk ve
+
+102
+00:05:11,110 --> 00:05:12,943
+bu noktada .
+
+103
+00:05:13,840 --> 00:05:16,170
+Yani  numaral isimlerle,
+
+104
+00:05:16,170 --> 00:05:18,900
+Mary'i ekleyeceiz ve bylece ncs
+
+105
+00:05:18,900 --> 00:05:22,510
+sonuncu olacak, yani sfr, bir, iki, ve
+
+106
+00:05:22,510 --> 00:05:24,263
+sonra  yeni olacak.
+
+107
+00:05:25,670 --> 00:05:28,090
+Umarm bu farkl verileri tek bir
+
+108
+00:05:28,090 --> 00:05:30,650
+deikende tutabilmek iin ne kadar kullanl
+
+109
+00:05:30,650 --> 00:05:32,490
+diziler olduunu grmeye balayabilirsiniz.
+
+110
+00:05:32,490 --> 00:05:35,413
+Tabii ki, bu farkl veri trleri de olabilir.
+
+111
+00:05:40,990 --> 00:05:43,000
+John hakkndaki tm bilgilerin
+
+112
+00:05:43,000 --> 00:05:45,983
+tek bir deikende olmasn istediimizi varsayalm.
+
+113
+00:05:47,010 --> 00:05:48,370
+Burada biraz
+
+114
+00:05:48,370 --> 00:05:51,490
+daha yer aalm ve sonra
+
+115
+00:05:54,130 --> 00:05:56,090
+da john yazalm
+
+116
+00:05:56,090 --> 00:05:58,720
+ve imdi ilk ad
+
+117
+00:05:58,720 --> 00:06:01,940
+koyabiliriz, soyad koyabiliriz, doum tarihini
+
+118
+00:06:01,940 --> 00:06:06,560
+koyabiliriz, ii koyabiliriz ve biz de bekar ya
+
+119
+00:06:06,560 --> 00:06:09,913
+da evli deil, hadi yalan syleyelim.
+
+120
+00:06:11,950 --> 00:06:15,310
+imdi, bu dizi olan tek bir veri
+
+121
+00:06:15,310 --> 00:06:17,430
+yapsnda farkl veri tipine sahibiz.
+
+122
+00:06:17,430 --> 00:06:20,360
+Bunlar dizilerin ok temelleridir, ancak temel
+
+123
+00:06:20,360 --> 00:06:22,340
+olarak dizilere uygulayabileceimiz birka
+
+124
+00:06:22,340 --> 00:06:24,260
+fonksiyon olduu iin bunu
+
+125
+00:06:24,260 --> 00:06:26,740
+biraz daha iyi hale getirelim.
+
+126
+00:06:26,740 --> 00:06:28,800
+Bu ilevlere dizilere
+
+127
+00:06:28,800 --> 00:06:30,980
+zg yntemler denir.
+
+128
+00:06:30,980 --> 00:06:32,800
+Yntemler ve neden sonraki
+
+129
+00:06:32,800 --> 00:06:34,620
+birka derste bu durumda
+
+130
+00:06:34,620 --> 00:06:36,640
+yntemler olarak adlandrldn reneceksiniz.
+
+131
+00:06:36,640 --> 00:06:39,180
+imdilik, sadece bunun gibi bir
+
+132
+00:06:39,180 --> 00:06:42,210
+ey yapabileceimizi biliyoruz, bu yzden john
+
+133
+00:06:42,210 --> 00:06:46,350
+deikenimize sahibiz ve sonra syleyebiliriz. itin ve sonra bu normal
+
+134
+00:06:46,350 --> 00:06:47,657
+bir ilev gibidir.
+
+135
+00:06:47,657 --> 00:06:50,000
+Push fonksiyonu veya itme
+
+136
+00:06:50,000 --> 00:06:52,470
+metodu ne yapacan dizinin sonunda
+
+137
+00:06:52,470 --> 00:06:53,950
+bir eleman ekleyecektir.
+
+138
+00:06:53,950 --> 00:06:56,400
+John'un favori renginin mavi
+
+139
+00:06:57,330 --> 00:07:00,040
+olduunu ve bu yzden
+
+140
+00:07:00,040 --> 00:07:04,480
+imdi burada maviye geersek, o eleman dizinin
+
+141
+00:07:04,480 --> 00:07:09,270
+sonuna ekleyeceimizi dnelim. John ve bylece
+
+142
+00:07:09,270 --> 00:07:11,393
+nasl alt grelim.
+
+143
+00:07:12,450 --> 00:07:15,520
+Aslnda, balangta dizinin sonunda
+
+144
+00:07:15,520 --> 00:07:18,710
+mavi eyi eklediimiz dizi var.
+
+145
+00:07:18,710 --> 00:07:22,170
+Bu itme yntemi, itme ilevi John dizisine
+
+146
+00:07:22,170 --> 00:07:23,413
+yaplan buydu.
+
+147
+00:07:24,370 --> 00:07:26,380
+Bu nokta szdizimi ve bu
+
+148
+00:07:26,380 --> 00:07:30,110
+ilev hakknda endielenmeyin, bu ekilde bu itme ilevini aryoruz.
+
+149
+00:07:30,110 --> 00:07:31,970
+Bir ka derste neden
+
+150
+00:07:31,970 --> 00:07:33,660
+bu ekilde altn reneceiz.
+
+151
+00:07:33,660 --> 00:07:35,900
+imdi gstermek istediim birka yntem var
+
+152
+00:07:35,900 --> 00:07:37,690
+nk itme tek deil.
+
+153
+00:07:37,690 --> 00:07:40,040
+Diziler iin ton farkl yntemler vardr.
+
+154
+00:07:40,040 --> 00:07:42,890
+imdi size sadece birka tane gstereceiz.
+
+155
+00:07:42,890 --> 00:07:45,077
+Ayrca, john unshift'i kullanabiliriz
+
+156
+00:07:47,280 --> 00:07:50,330
+ve hangi unshift'in yapaca, itmeye ok
+
+157
+00:07:50,330 --> 00:07:52,410
+benzerdir, ancak dizinin sonuna
+
+158
+00:07:52,410 --> 00:07:54,320
+eklenmek yerine, balangca eklenir.
+
+159
+00:07:54,320 --> 00:07:56,500
+Bir balk eklemek istediimizi varsayalm,
+
+160
+00:07:56,500 --> 00:08:01,500
+o yzden Bay Bu yzden bu Bay John Smith.
+
+161
+00:08:01,598 --> 00:08:04,020
+imdi ilk elemana sahibiz Bay ve sonra nceki admlarda grdmz gibi geri kalan.
+
+162
+00:08:04,020 --> 00:08:07,970
+Bu iki yntem, diziye elemanlar ekler.
+
+163
+00:08:07,970 --> 00:08:11,060
+imdi onlar kaldran iki yntem grelim, John. pop ve bunun ne yapacan,
+
+164
+00:08:11,060 --> 00:08:15,343
+elemann sonundan kaldrr.
+
+165
+00:08:18,320 --> 00:08:21,683
+imdi tekrar konsola giri yapalm ve
+
+166
+00:08:23,760 --> 00:08:26,860
+imdi dizinin daha nce, ancak
+
+167
+00:08:26,860 --> 00:08:30,000
+mavi eleman olmadan olduunu gryorsunuz.
+
+168
+00:08:30,000 --> 00:08:32,770
+Eer tekrar yaparsak, o zaman baka
+
+169
+00:08:32,770 --> 00:08:36,470
+bir ey karr, imdi de yanl olan da kaybetmeliyiz.
+
+170
+00:08:36,470 --> 00:08:40,850
+una bir bakalm ve aslnda imdi bu
+
+171
+00:08:40,850 --> 00:08:42,200
+ikisini kald.
+
+172
+00:08:42,200 --> 00:08:44,993
+Son olarak, ilk unsuru kaldrmak
+
+173
+00:08:47,790 --> 00:08:49,930
+ve buna vardiya denir.
+
+174
+00:08:49,930 --> 00:08:53,453
+imdi Bay'i kaybetmeliyiz burada ve evet, gerekten
+
+175
+00:08:54,930 --> 00:08:57,430
+gitti.
+
+176
+00:08:57,430 --> 00:08:58,833
+Push ve shift, pop ve shift yntemleri.
+
+177
+00:09:00,830 --> 00:09:04,330
+Sadece bir son (mrldanyor) size gstermek
+
+178
+00:09:04,330 --> 00:09:06,380
+istiyorum, hangi indexOf.
+
+179
+00:09:06,380 --> 00:09:07,900
+Bunu size gstermeme
+
+180
+00:09:09,610 --> 00:09:10,810
+izin verin, bylece
+
+181
+00:09:11,860 --> 00:09:15,690
+indexOf bu dizinin iinden getiimiz argmann pozisyonunu dndrecektir.
+
+182
+00:09:15,690 --> 00:09:17,933
+1990'n konumunu bilmek istediimizi
+
+183
+00:09:18,920 --> 00:09:20,750
+syleyelim, bu yzden
+
+184
+00:09:20,750 --> 00:09:24,950
+bu deeri ve indeksi geelim. Bylece, bu 1990'da
+
+185
+00:09:24,950 --> 00:09:27,800
+John dizisinde hangi konumda grnecektir.
+
+186
+00:09:27,800 --> 00:09:30,913
+Bunu konsola kaydedelim, o yzden ona bir bakalm.
+
+187
+00:09:33,110 --> 00:09:36,508
+Ne olacan dnyorsun?
+
+188
+00:09:36,508 --> 00:09:38,460
+Bir tahminde bulunacaz ve imdi grelim.
+
+189
+00:09:38,460 --> 00:09:41,730
+Bu iki numara ve gerekten de
+
+190
+00:09:41,730 --> 00:09:44,090
+sfr, bir ve iki.
+
+191
+00:09:44,090 --> 00:09:46,863
+Dizideki elemann dizide olduu
+
+192
+00:09:48,290 --> 00:09:50,530
+konumu dndrr ve
+
+193
+00:09:50,530 --> 00:09:53,690
+eer bu eleman dizide bulunmazsa,
+
+194
+00:09:53,690 --> 00:09:55,520
+eksi 1'e dnecektir.
+
+195
+00:09:55,520 --> 00:09:57,590
+Diyelim ki baka bir eye
+
+196
+00:09:57,590 --> 00:09:59,880
+geelim, diyelim ki 23 diyelim
+
+197
+00:09:59,880 --> 00:10:03,340
+ki imdi eksi bir tanesine dnmeli ve gerekten
+
+198
+00:10:03,340 --> 00:10:06,200
+de bu dizide 23 tane yok.
+
+199
+00:10:06,200 --> 00:10:07,510
+Burada bu yntemin
+
+200
+00:10:07,510 --> 00:10:09,320
+en yararl olduu eylerden biri,
+
+201
+00:10:09,320 --> 00:10:12,620
+bir elemann dizide olup olmadn gerekten test etmektir.
+
+202
+00:10:12,620 --> 00:10:14,780
+Bunu sana gstereyim.
+
+203
+00:10:14,780 --> 00:10:15,980
+Daha nce
+
+204
+00:10:16,840 --> 00:10:18,500
+rendiimiz (mrlt) operatr
+
+205
+00:10:18,500 --> 00:10:20,160
+kullanalm, John. indexOf ve imdi John bir tasarmc
+
+206
+00:10:20,160 --> 00:10:21,647
+ise test edelim.
+
+207
+00:10:23,460 --> 00:10:26,493
+Tasarmc elemann dizideki pozisyonunu
+
+208
+00:10:28,630 --> 00:10:33,073
+soruyoruz, bylece bize bir numara verecek,
+
+209
+00:10:34,030 --> 00:10:36,640
+o zaman eksi bire
+
+210
+00:10:37,930 --> 00:10:39,983
+eitse, o zaman
+
+211
+00:10:42,010 --> 00:10:47,010
+John bir tasarmc deil, John da bir tasarmc.
+
+212
+00:10:49,040 --> 00:10:54,040
+Bunu kontrol edelim.
+
+213
+00:10:57,330 --> 00:10:58,380
+Elbette hibir ey olmaz
+
+214
+00:10:59,740 --> 00:11:01,800
+nk bunu burada herhangi bir deikene atamadk.
+
+215
+00:11:01,800 --> 00:11:04,060
+Var desDesigner diyelim ve
+
+216
+00:11:04,060 --> 00:11:06,197
+sonra konsola giri yapabiliriz.
+
+217
+00:11:08,651 --> 00:11:11,734
+John bir tasarmc deil.
+
+218
+00:11:17,868 --> 00:11:19,785
+Bunun neden olduunu grelim.
+
+219
+00:11:20,620 --> 00:11:22,440
+Dizide tasarmc aradk, ancak
+
+220
+00:11:22,440 --> 00:11:25,260
+bu e aslnda bu dizide deil,
+
+221
+00:11:25,260 --> 00:11:27,810
+bu yzden eksi bir tane dndrecek.
+
+222
+00:11:27,810 --> 00:11:29,940
+Bu blmn tamam eksi bir olacak ve bu
+
+223
+00:11:29,940 --> 00:11:32,310
+yzden eksi biri eksi birine eit olacak m?
+
+224
+00:11:32,310 --> 00:11:35,840
+Evet, gerekten yle.
+
+225
+00:11:35,840 --> 00:11:36,803
+IsDesigner deikeni,
+
+226
+00:11:38,112 --> 00:11:40,250
+John'un bir tasarmc dizisi DELDR.
+
+227
+00:11:40,250 --> 00:11:42,433
+imdi tasarmcya deitirdiimizi varsayalm ve
+
+228
+00:11:43,340 --> 00:11:46,450
+imdi John IS'nin bir tasarmc olduunu grmeliyiz,
+
+229
+00:11:46,450 --> 00:11:49,320
+nk imdi bu endeksi gerekten dndrecek.
+
+230
+00:11:49,320 --> 00:11:52,363
+Bunu konsolda deneyelim, bylece indexOf ve
+
+231
+00:11:53,210 --> 00:11:54,910
+bunun , yani
+
+232
+00:11:56,420 --> 00:11:59,650
+sfr, bir, iki ve  olduunu gryorsunuz.
+
+233
+00:11:59,650 --> 00:12:03,430
+ncs, elbette, eksi birinden farkl ve bu yzden
+
+234
+00:12:03,430 --> 00:12:06,600
+imdi John IS'nin bir tasarmcs var.
+
+235
+00:12:06,600 --> 00:12:09,730
+Bunlar dizilerdeki birka yntem ve
+
+236
+00:12:09,730 --> 00:12:13,450
+size dersin geri kalan boyunca ok
+
+237
+00:12:13,450 --> 00:12:15,680
+daha fazlasn gstereceim.
+
+238
+00:12:15,680 --> 00:12:17,460
+imdilik dizilerin nasl altn biliyorsunuz ve bu harika.
+
+239
+00:12:17,460 --> 00:12:20,390
+JavaScript'te kullanabileceimiz gerekten gl
+
+240
+00:12:20,390 --> 00:12:22,580
+bir veri yaps.
+
+241
+00:12:22,580 --> 00:12:24,890
+imdi baka bir kodlama meydan okumas yapmak
+
+242
+00:12:24,890 --> 00:12:26,700
+iin yeterince ey rendiinizi dnyorum,
+
+243
+00:12:26,700 --> 00:12:29,200
+bu yzden bir sonraki videoda bunu yapalm.
+
+244
+00:12:29,200 --> 00:12:31,250
+&nbsp;
+

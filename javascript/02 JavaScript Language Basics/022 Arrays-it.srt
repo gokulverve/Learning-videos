@@ -1,0 +1,976 @@
+1
+00:00:01,320 --> 00:00:03,660
+Narratore: gli array sono
+
+2
+00:00:03,660 --> 00:00:05,370
+un concetto fondamentale
+
+3
+00:00:05,370 --> 00:00:08,721
+in JavaScript che utilizzerai nell'intero JavaScript Live.
+
+4
+00:00:08,721 --> 00:00:10,983
+Ora impariamo esattamente come funzionano.
+
+5
+00:00:12,040 --> 00:00:14,860
+In molte conferenze precedenti, avevamo variabili
+
+6
+00:00:14,860 --> 00:00:17,490
+diverse per persone diverse, ma
+
+7
+00:00:17,490 --> 00:00:19,810
+ora immaginiamo quanto sarebbe comodo
+
+8
+00:00:19,810 --> 00:00:22,120
+raggrupparle tutte in un'unica variabile.
+
+9
+00:00:22,120 --> 00:00:24,370
+In JavaScript abbiamo array per questo.
+
+10
+00:00:24,370 --> 00:00:26,710
+Sono come raccolte di variabili che possono
+
+11
+00:00:26,710 --> 00:00:28,843
+avere anche diversi tipi di dati.
+
+12
+00:00:30,218 --> 00:00:32,280
+Dichiariamo una variabile come sempre
+
+13
+00:00:33,400 --> 00:00:36,880
+chiamata nomi e ora possiamo usare un array.
+
+14
+00:00:36,880 --> 00:00:39,540
+Esistono diversi modi per creare un nuovo array,
+
+15
+00:00:39,540 --> 00:00:43,290
+ma quello pi semplice e pi utilizzato  l'utilizzo di parentesi.
+
+16
+00:00:43,290 --> 00:00:45,120
+Usiamo le parentesi e poi
+
+17
+00:00:45,120 --> 00:00:47,093
+qui inseriamo i nostri diversi valori.
+
+18
+00:00:47,950 --> 00:00:50,210
+Diciamo che vogliamo un array di
+
+19
+00:00:50,210 --> 00:00:54,293
+nomi, quindi John quindi virgola e quindi aggiungiamo un nuovo
+
+20
+00:00:55,170 --> 00:00:59,463
+elemento, quindi Mark e quindi diciamo un terzo elemento chiamato Jane.
+
+21
+00:01:01,290 --> 00:01:03,500
+Ora abbiamo una matrice di nomi,
+
+22
+00:01:03,500 --> 00:01:07,330
+una matrice con tre elementi chiamati John, Mark e Jane,
+
+23
+00:01:07,330 --> 00:01:08,983
+tutti separati da queste virgole.
+
+24
+00:01:10,520 --> 00:01:12,763
+Creiamo una nuova chiamata anni.
+
+25
+00:01:14,150 --> 00:01:15,800
+Come ho gi detto,
+
+26
+00:01:15,800 --> 00:01:18,363
+ci sono diversi modi per creare array,
+
+27
+00:01:19,320 --> 00:01:23,980
+quindi vediamo un altro, che  un nuovo array, quindi puoi fare
+
+28
+00:01:23,980 --> 00:01:26,430
+un array come questo fondamentalmente chiamando
+
+29
+00:01:26,430 --> 00:01:28,970
+questa funzione di array qui con una
+
+30
+00:01:28,970 --> 00:01:33,970
+nuova parola chiave e poi li passi dentro che vuoi essere nell'array, quindi
+
+31
+00:01:34,940 --> 00:01:37,883
+nel 1990, nel 1969 e nel 1948.
+
+32
+00:01:40,639 --> 00:01:42,790
+Questo sar un array lo stesso, ma, ancora
+
+33
+00:01:42,790 --> 00:01:45,650
+una volta, questo qui  molto pi usato e quindi di
+
+34
+00:01:45,650 --> 00:01:46,850
+solito non lo usi.
+
+35
+00:01:46,850 --> 00:01:49,780
+Volevo solo farti sapere che esiste anche.
+
+36
+00:01:49,780 --> 00:01:52,920
+Diciamo che gli array sono a base zero,
+
+37
+00:01:52,920 --> 00:01:56,600
+il che significa che il primo elemento  l'elemento numero
+
+38
+00:01:56,600 --> 00:01:59,400
+zero, il secondo  l'elemento numero uno,
+
+39
+00:01:59,400 --> 00:02:02,870
+il numero due e cos via e cos via.
+
+40
+00:02:02,870 --> 00:02:04,730
+Vediamo ora come possiamo effettivamente accedere agli
+
+41
+00:02:04,730 --> 00:02:05,973
+elementi in un array.
+
+42
+00:02:07,590 --> 00:02:09,140
+Registreremo la console, i
+
+43
+00:02:10,670 --> 00:02:13,410
+nomi, quindi useremo di nuovo le parentesi
+
+44
+00:02:13,410 --> 00:02:15,483
+e poi l'indice, quindi il numero.
+
+45
+00:02:16,960 --> 00:02:20,280
+Nomi, parentesi, zero saranno l'elemento zero
+
+46
+00:02:20,280 --> 00:02:21,630
+dell'array dei nomi.
+
+47
+00:02:21,630 --> 00:02:23,680
+Ricorda che gli array sono
+
+48
+00:02:23,680 --> 00:02:27,030
+a base zero e quindi John  l'elemento zero.
+
+49
+00:02:27,030 --> 00:02:30,500
+Diamo un'occhiata a questo e in effetti vediamo John.
+
+50
+00:02:30,500 --> 00:02:33,250
+Naturalmente potremmo anche registrare l'intero array, quindi
+
+51
+00:02:33,250 --> 00:02:35,620
+ cos che sar, quindi abbiamo
+
+52
+00:02:35,620 --> 00:02:37,910
+qui, dichiariamo il numero tre, che
+
+53
+00:02:37,910 --> 00:02:40,320
+ la quantit di elementi nell'array
+
+54
+00:02:40,320 --> 00:02:42,500
+e quindi l'intero array.
+
+55
+00:02:42,500 --> 00:02:44,700
+In realt possiamo anche accedere a questo numero qui
+
+56
+00:02:45,730 --> 00:02:47,380
+e tutto ci che dobbiamo fare per
+
+57
+00:02:47,380 --> 00:02:50,133
+farlo  dire i nomi. lunghezza, quindi impareremo in
+
+58
+00:02:51,280 --> 00:02:54,220
+seguito cosa significa questo punto qui, ma per ora
+
+59
+00:02:54,220 --> 00:02:57,710
+basta sapere che possiamo fare nomi. lunghezza e poi questo
+
+60
+00:02:57,710 --> 00:03:00,820
+ci mostrer quanti elementi ci sono dentro.
+
+61
+00:03:00,820 --> 00:03:03,220
+In questo caso,  appena tornato indefinito,
+
+62
+00:03:03,220 --> 00:03:06,680
+ma  solo perch ho sbagliato a scrivere la lunghezza.
+
+63
+00:03:06,680 --> 00:03:08,440
+Ecco come dovrebbe essere e
+
+64
+00:03:08,440 --> 00:03:11,090
+ora dovremmo ottenere il numero tre, quindi
+
+65
+00:03:11,090 --> 00:03:13,403
+abbiamo tre elementi nel nostro array.
+
+66
+00:03:15,160 --> 00:03:16,170
+Accediamo al numero zero.
+
+67
+00:03:16,170 --> 00:03:17,820
+Possiamo anche accedere al numero due, ad
+
+68
+00:03:17,820 --> 00:03:19,463
+esempio, e quello dovrebbe essere Jane.
+
+69
+00:03:21,080 --> 00:03:23,310
+Ecco come recuperiamo, fondamentalmente, i
+
+70
+00:03:23,310 --> 00:03:26,530
+dati dalla matrice, ma possiamo anche usare
+
+71
+00:03:26,530 --> 00:03:29,840
+la sintassi per mutare i dati nella matrice.
+
+72
+00:03:29,840 --> 00:03:34,210
+Possiamo dire nomi e uno, che sar Mark e quindi possiamo
+
+73
+00:03:34,210 --> 00:03:36,270
+dire che vogliamo che sia
+
+74
+00:03:37,490 --> 00:03:38,913
+Ben invece di Mark.
+
+75
+00:03:40,470 --> 00:03:42,473
+Se ora registriamo l'array, dovremmo
+
+76
+00:03:48,220 --> 00:03:50,130
+vedere che  diverso.
+
+77
+00:03:50,130 --> 00:03:52,840
+Ora  in realt sulla posizione numero uno,
+
+78
+00:03:52,840 --> 00:03:54,913
+ Ben e non pi Mark.
+
+79
+00:03:56,070 --> 00:03:58,133
+Possiamo anche aggiungere dati all'array, in modo
+
+80
+00:03:59,190 --> 00:04:01,140
+che possiamo effettivamente accedere a una posizione
+
+81
+00:04:01,140 --> 00:04:02,540
+che non  nemmeno l.
+
+82
+00:04:02,540 --> 00:04:05,323
+Diciamo che vogliamo che la posizione cinque sia Maria.
+
+83
+00:04:09,110 --> 00:04:10,940
+Vediamo cosa succede allora e in realt
+
+84
+00:04:10,940 --> 00:04:14,260
+mettiamolo qui prima di questa console. accedi e cos vedi
+
+85
+00:04:16,640 --> 00:04:19,630
+che ora abbiamo vuoto qui e
+
+86
+00:04:19,630 --> 00:04:21,930
+poi, solo allora arriva Mary.
+
+87
+00:04:21,930 --> 00:04:25,520
+Ora, se volessimo aggiungere Mary come ultimo elemento dell'array,
+
+88
+00:04:25,520 --> 00:04:28,140
+potremmo usare questa propriet che abbiamo usato
+
+89
+00:04:28,140 --> 00:04:31,480
+prima, quindi i nomi. lunghezza.
+
+90
+00:04:31,480 --> 00:04:34,080
+Ricorda che questo  tre a questo punto.
+
+91
+00:04:34,080 --> 00:04:36,910
+Se diciamo nomi, nomi. lunghezza e questo batter
+
+92
+00:04:36,910 --> 00:04:39,763
+tre e quindi i nomi tre dovrebbero essere Maria.
+
+93
+00:04:41,070 --> 00:04:45,580
+Quindi aggiunge questo come fondamentalmente un ultimo elemento nell'array.
+
+94
+00:04:45,580 --> 00:04:47,210
+Ha senso?
+
+95
+00:04:47,210 --> 00:04:50,403
+Prima di tutto, fammi aggiungere qui, quindi modifica
+
+96
+00:04:52,530 --> 00:04:54,200
+i dati dell'array, qui
+
+97
+00:04:54,200 --> 00:04:55,223
+possiamo dire, inizializza
+
+98
+00:04:59,470 --> 00:05:00,743
+il nuovo array.
+
+99
+00:05:02,130 --> 00:05:05,580
+Per prima cosa abbiamo mutato la matrice sulla posizione numero uno e
+
+100
+00:05:05,580 --> 00:05:08,750
+aggiunto Ben, quindi qui abbiamo mutato la matrice nei nomi dei
+
+101
+00:05:08,750 --> 00:05:11,110
+numeri di posizione. lunghezza e questo
+
+102
+00:05:11,110 --> 00:05:12,943
+ tre a questo punto.
+
+103
+00:05:13,840 --> 00:05:16,170
+Quindi, nella posizione numero tre, aggiungeremo
+
+104
+00:05:16,170 --> 00:05:18,900
+Maria e quindi la posizione numero tre
+
+105
+00:05:18,900 --> 00:05:22,510
+sar l'ultima, quindi zero, uno, due e poi tre
+
+106
+00:05:22,510 --> 00:05:24,263
+ il nuovo.
+
+107
+00:05:25,670 --> 00:05:28,090
+Spero che inizi a vedere come
+
+108
+00:05:28,090 --> 00:05:30,650
+possono essere utili gli array mantenendo questi
+
+109
+00:05:30,650 --> 00:05:32,490
+dati diversi in un'unica variabile.
+
+110
+00:05:32,490 --> 00:05:35,413
+Naturalmente, questo pu anche essere tipi di dati diversi.
+
+111
+00:05:40,990 --> 00:05:43,000
+Diciamo che vogliamo avere tutte
+
+112
+00:05:43,000 --> 00:05:45,983
+le informazioni su John tutto in una variabile.
+
+113
+00:05:47,010 --> 00:05:48,370
+Diamo un po
+
+114
+00:05:48,370 --> 00:05:51,490
+'pi di spazio qui e poi diciamo
+
+115
+00:05:54,130 --> 00:05:56,090
+var john e ora possiamo
+
+116
+00:05:56,090 --> 00:05:58,720
+mettere il nome, possiamo mettere il
+
+117
+00:05:58,720 --> 00:06:01,940
+cognome, possiamo mettere la data di nascita,
+
+118
+00:06:01,940 --> 00:06:06,560
+possiamo mettere il lavoro, e possiamo dire che  lui single
+
+119
+00:06:06,560 --> 00:06:09,913
+o che non  sposato, quindi diciamo falso.
+
+120
+00:06:11,950 --> 00:06:15,310
+Ora abbiamo un tipo di dati diverso tutto in una
+
+121
+00:06:15,310 --> 00:06:17,430
+struttura dati, che  questa matrice.
+
+122
+00:06:17,430 --> 00:06:20,360
+Queste sono le basi fondamentali degli array, ma
+
+123
+00:06:20,360 --> 00:06:22,340
+facciamo un po 'meglio anche perch
+
+124
+00:06:22,340 --> 00:06:24,260
+ci sono un paio di
+
+125
+00:06:24,260 --> 00:06:26,740
+funzioni che possiamo applicare fondamentalmente agli array.
+
+126
+00:06:26,740 --> 00:06:28,800
+Queste funzioni sono chiamate
+
+127
+00:06:28,800 --> 00:06:30,980
+metodi specifici degli array.
+
+128
+00:06:30,980 --> 00:06:32,800
+Imparerai tutto sui metodi e
+
+129
+00:06:32,800 --> 00:06:34,620
+sul perch sono chiamati metodi
+
+130
+00:06:34,620 --> 00:06:36,640
+in questo caso nelle prossime lezioni.
+
+131
+00:06:36,640 --> 00:06:39,180
+Per ora, sappi che possiamo fare qualcosa
+
+132
+00:06:39,180 --> 00:06:42,210
+del genere, cos, quindi abbiamo la nostra variabile
+
+133
+00:06:42,210 --> 00:06:46,350
+john e quindi possiamo dire. spingere e quindi questa  come
+
+134
+00:06:46,350 --> 00:06:47,657
+una funzione regolare.
+
+135
+00:06:47,657 --> 00:06:50,000
+La funzione push o il metodo
+
+136
+00:06:50,000 --> 00:06:52,470
+push che cosa far sar aggiungere un
+
+137
+00:06:52,470 --> 00:06:53,950
+elemento alla fine dell'array.
+
+138
+00:06:53,950 --> 00:06:56,400
+Diciamo che il colore preferito
+
+139
+00:06:57,330 --> 00:07:00,040
+di John  blu e
+
+140
+00:07:00,040 --> 00:07:04,480
+quindi se passiamo ora in blu qui, aggiunger quell'elemento
+
+141
+00:07:04,480 --> 00:07:09,270
+alla fine dell'array, quindi console. log john e quindi
+
+142
+00:07:09,270 --> 00:07:11,393
+vediamo come funzionava.
+
+143
+00:07:12,450 --> 00:07:15,520
+In effetti, ora abbiamo la matrice che abbiamo
+
+144
+00:07:15,520 --> 00:07:18,710
+dichiarato inizialmente pi l'elemento blu alla fine dell'array.
+
+145
+00:07:18,710 --> 00:07:22,170
+Questo  ci che il metodo push, la funzione push
+
+146
+00:07:22,170 --> 00:07:23,413
+ha fatto all'array John.
+
+147
+00:07:24,370 --> 00:07:26,380
+Non preoccuparti di questa sintassi del punto
+
+148
+00:07:26,380 --> 00:07:30,110
+qui e di questa funzione, in questo modo chiamiamo questa funzione push.
+
+149
+00:07:30,110 --> 00:07:31,970
+Impareremo a capire perch funziona in questo
+
+150
+00:07:31,970 --> 00:07:33,660
+modo in un paio di conferenze.
+
+151
+00:07:33,660 --> 00:07:35,900
+Ci sono un paio di metodi che voglio
+
+152
+00:07:35,900 --> 00:07:37,690
+mostrarti ora perch push non  l'unico.
+
+153
+00:07:37,690 --> 00:07:40,040
+Ci sono tonnellate di metodi diversi per gli array.
+
+154
+00:07:40,040 --> 00:07:42,890
+Ora ti mostreremo solo un paio di loro ora.
+
+155
+00:07:42,890 --> 00:07:45,077
+Possiamo anche usare john unshift e
+
+156
+00:07:47,280 --> 00:07:50,330
+ci che unshift far  molto simile a
+
+157
+00:07:50,330 --> 00:07:52,410
+push, ma invece di aggiungere alla
+
+158
+00:07:52,410 --> 00:07:54,320
+fine dell'array, lo aggiunger all'inizio.
+
+159
+00:07:54,320 --> 00:07:56,500
+Diciamo che vogliamo aggiungere un
+
+160
+00:07:56,500 --> 00:08:01,500
+titolo, quindi Mr. , cos che sia Mr. John Smith.
+
+161
+00:08:01,598 --> 00:08:04,020
+Ora abbiamo il primo elemento, il signor e poi il resto come abbiamo visto nei passaggi precedenti.
+
+162
+00:08:04,020 --> 00:08:07,970
+Questi due metodi qui, aggiungono elementi alla matrice.
+
+163
+00:08:07,970 --> 00:08:11,060
+Vediamo ora due metodi che li rimuovono, quindi John. pop e ci che far,
+
+164
+00:08:11,060 --> 00:08:15,343
+rimuover l'elemento dalla fine.
+
+165
+00:08:18,320 --> 00:08:21,683
+Passiamo ora al login nella console e
+
+166
+00:08:23,760 --> 00:08:26,860
+cos ora vedete che abbiamo la
+
+167
+00:08:26,860 --> 00:08:30,000
+matrice di prima, ma senza l'elemento blu.
+
+168
+00:08:30,000 --> 00:08:32,770
+Se lo rifacciamo, ne rimuover ancora un altro
+
+169
+00:08:32,770 --> 00:08:36,470
+dalla fine e cos ora dovremmo anche perdere il falso.
+
+170
+00:08:36,470 --> 00:08:40,850
+Diamo un'occhiata a quello ed effettivamente ora ha
+
+171
+00:08:40,850 --> 00:08:42,200
+rimosso questi due.
+
+172
+00:08:42,200 --> 00:08:44,993
+Infine, abbiamo anche un metodo per rimuovere il
+
+173
+00:08:47,790 --> 00:08:49,930
+primo elemento e quello  chiamato shift.
+
+174
+00:08:49,930 --> 00:08:53,453
+Ora dovremmo perdere il signor qui e, s, anzi
+
+175
+00:08:54,930 --> 00:08:57,430
+ sparito.
+
+176
+00:08:57,430 --> 00:08:58,833
+Spingere e spostare, spostare e spostare i metodi.
+
+177
+00:09:00,830 --> 00:09:04,330
+Solo un ultimo (borbottio) voglio mostrarti,
+
+178
+00:09:04,330 --> 00:09:06,380
+che  il indexOf.
+
+179
+00:09:06,380 --> 00:09:07,900
+Lascia che te lo
+
+180
+00:09:09,610 --> 00:09:10,810
+mostri, quindi indexOf
+
+181
+00:09:11,860 --> 00:09:15,690
+restituir la posizione dell'argomento che passiamo all'interno di questo array.
+
+182
+00:09:15,690 --> 00:09:17,933
+Diciamo che vogliamo conoscere la
+
+183
+00:09:18,920 --> 00:09:20,750
+posizione del 1990, quindi
+
+184
+00:09:20,750 --> 00:09:24,950
+passiamo questo valore e indexOf restituir in quale posizione
+
+185
+00:09:24,950 --> 00:09:27,800
+questo 1990 apparir nell'array John.
+
+186
+00:09:27,800 --> 00:09:30,913
+Registriamolo alla console, quindi diamo un'occhiata a questo.
+
+187
+00:09:33,110 --> 00:09:36,508
+Cosa pensi che sar?
+
+188
+00:09:36,508 --> 00:09:38,460
+Faremo una congettura e ora vediamo.
+
+189
+00:09:38,460 --> 00:09:41,730
+ il numero due e in effetti lo
+
+190
+00:09:41,730 --> 00:09:44,090
+, quindi zero, uno e due.
+
+191
+00:09:44,090 --> 00:09:46,863
+Restituisce la posizione in cui l'elemento
+
+192
+00:09:48,290 --> 00:09:50,530
+si trova nell'array, se 
+
+193
+00:09:50,530 --> 00:09:53,690
+nell'array e se quell'elemento non  effettivamente
+
+194
+00:09:53,690 --> 00:09:55,520
+presente nell'array restituir meno uno.
+
+195
+00:09:55,520 --> 00:09:57,590
+Diciamo che passiamo a qualcos'altro,
+
+196
+00:09:57,590 --> 00:09:59,880
+diciamo 23 e cos ora dovrebbe
+
+197
+00:09:59,880 --> 00:10:03,340
+tornare meno uno e in effetti lo fa perch
+
+198
+00:10:03,340 --> 00:10:06,200
+non ne abbiamo 23 in quella matrice.
+
+199
+00:10:06,200 --> 00:10:07,510
+Una delle cose per
+
+200
+00:10:07,510 --> 00:10:09,320
+cui questo metodo  pi utile
+
+201
+00:10:09,320 --> 00:10:12,620
+ testare effettivamente se un elemento  nell'array oppure no.
+
+202
+00:10:12,620 --> 00:10:14,780
+Lascia che te lo mostri.
+
+203
+00:10:14,780 --> 00:10:15,980
+Usiamo l'operatore
+
+204
+00:10:16,840 --> 00:10:18,500
+(borbottii) che abbiamo
+
+205
+00:10:18,500 --> 00:10:20,160
+imparato prima, quindi John. indexOf e cos ora testiamo se John
+
+206
+00:10:20,160 --> 00:10:21,647
+ un designer.
+
+207
+00:10:23,460 --> 00:10:26,493
+Chiediamo la posizione dell'elemento del designer
+
+208
+00:10:28,630 --> 00:10:33,073
+nell'array, in modo che restituisca un numero a noi,
+
+209
+00:10:34,030 --> 00:10:36,640
+quindi diciamo che se 
+
+210
+00:10:37,930 --> 00:10:39,983
+uguale a meno uno,
+
+211
+00:10:42,010 --> 00:10:47,010
+beh, allora John NON  un designer e John  un designer.
+
+212
+00:10:49,040 --> 00:10:54,040
+Diamo un'occhiata.
+
+213
+00:10:57,330 --> 00:10:58,380
+Ovviamente, non succede nulla
+
+214
+00:10:59,740 --> 00:11:01,800
+perch non abbiamo assegnato questo qui a nessuna variabile.
+
+215
+00:11:01,800 --> 00:11:04,060
+Diciamo var isDesigner e quindi
+
+216
+00:11:04,060 --> 00:11:06,197
+possiamo accedere alla console.
+
+217
+00:11:08,651 --> 00:11:11,734
+John NON  un designer.
+
+218
+00:11:17,868 --> 00:11:19,785
+Vediamo perch  successo.
+
+219
+00:11:20,620 --> 00:11:22,440
+Abbiamo cercato il designer
+
+220
+00:11:22,440 --> 00:11:25,260
+nell'array, ma quell'elemento non  in realt
+
+221
+00:11:25,260 --> 00:11:27,810
+in quell'array, quindi restituir meno uno.
+
+222
+00:11:27,810 --> 00:11:29,940
+L'intera parte qui sar meno uno e
+
+223
+00:11:29,940 --> 00:11:32,310
+quindi testiamo meno uno uguale a meno uno?
+
+224
+00:11:32,310 --> 00:11:35,840
+S, davvero lo .
+
+225
+00:11:35,840 --> 00:11:36,803
+Verr assegnata la variabile
+
+226
+00:11:38,112 --> 00:11:40,250
+isDesigner che John NON  una stringa del designer.
+
+227
+00:11:40,250 --> 00:11:42,433
+Diciamo che ora lo cambiamo in
+
+228
+00:11:43,340 --> 00:11:46,450
+designer e quindi ora dovremmo vedere che John IS
+
+229
+00:11:46,450 --> 00:11:49,320
+ un designer perch ora restituir effettivamente questo indice.
+
+230
+00:11:49,320 --> 00:11:52,363
+Proviamolo nella console, quindi indexOf e
+
+231
+00:11:53,210 --> 00:11:54,910
+vedi che 
+
+232
+00:11:56,420 --> 00:11:59,650
+tre, quindi zero, uno, due e tre.
+
+233
+00:11:59,650 --> 00:12:03,430
+Tre , ovviamente, diverso da meno uno e
+
+234
+00:12:03,430 --> 00:12:06,600
+quindi ora abbiamo John IS un designer.
+
+235
+00:12:06,600 --> 00:12:09,730
+Questi sono solo un paio di metodi
+
+236
+00:12:09,730 --> 00:12:13,450
+sugli array e ti mostrer molti, molti, molti altri
+
+237
+00:12:13,450 --> 00:12:15,680
+durante il resto del corso.
+
+238
+00:12:15,680 --> 00:12:17,460
+Per ora sai come funzionano gli array e questo  fantastico.
+
+239
+00:12:17,460 --> 00:12:20,390
+ una struttura dati davvero potente
+
+240
+00:12:20,390 --> 00:12:22,580
+che possiamo usare in JavaScript.
+
+241
+00:12:22,580 --> 00:12:24,890
+Ora penso che hai gi imparato
+
+242
+00:12:24,890 --> 00:12:26,700
+abbastanza per affrontare un'altra sfida
+
+243
+00:12:26,700 --> 00:12:29,200
+di codifica, quindi facciamolo nel prossimo video.
+
+244
+00:12:29,200 --> 00:12:31,250
+&nbsp;
+

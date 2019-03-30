@@ -1,0 +1,820 @@
+1
+00:00:01,050 --> 00:00:02,300
+Jonas: Bem-vindo de volta.
+
+2
+00:00:02,300 --> 00:00:05,360
+Nesta palestra, darei uma introduo aos objetos,
+
+3
+00:00:05,360 --> 00:00:07,880
+que  o recurso mais importante
+
+4
+00:00:07,880 --> 00:00:09,430
+da linguagem JavaScript.
+
+5
+00:00:09,430 --> 00:00:10,593
+Ento vamos comear.
+
+6
+00:00:11,460 --> 00:00:13,700
+Ento, os arrays que estamos
+
+7
+00:00:13,700 --> 00:00:16,230
+aprendendo so muito teis e, 
+
+8
+00:00:16,230 --> 00:00:19,090
+claro, so muito usados na programao JavaScript.
+
+9
+00:00:19,090 --> 00:00:21,780
+Mas imagine que voc queria acessar um elemento
+
+10
+00:00:21,780 --> 00:00:25,700
+da matriz, no por seu ndice, mas por um nome especfico.
+
+11
+00:00:25,700 --> 00:00:28,350
+Ento, basicamente, nomeando cada um dos valores.
+
+12
+00:00:28,350 --> 00:00:30,690
+E com arrays,  claro, voc no pode
+
+13
+00:00:30,690 --> 00:00:32,580
+fazer isso, mas pode com objetos.
+
+14
+00:00:32,580 --> 00:00:35,280
+Assim, em objetos, definimos pares de valores-chave, o
+
+15
+00:00:35,280 --> 00:00:37,970
+que significa que cada valor tem um nome
+
+16
+00:00:37,970 --> 00:00:39,730
+que  chamado de chave.
+
+17
+00:00:39,730 --> 00:00:41,070
+Ento, em termos simples,
+
+18
+00:00:41,070 --> 00:00:44,290
+podemos usar objetos para agrupar diferentes variveis que pertencem
+
+19
+00:00:44,290 --> 00:00:47,530
+a elas e que no possuem uma ordem especfica.
+
+20
+00:00:47,530 --> 00:00:49,780
+Assim como, por exemplo, as propriedades de
+
+21
+00:00:49,780 --> 00:00:52,900
+John sobre as quais falamos em todas as palestras anteriores.
+
+22
+00:00:52,900 --> 00:00:55,810
+Assim, uma diferena fundamental entre arrays e objetos 
+
+23
+00:00:55,810 --> 00:00:58,320
+que em arrays, a ordem  muito importante,
+
+24
+00:00:58,320 --> 00:01:01,030
+enquanto que em objetos no importa de forma alguma.
+
+25
+00:01:01,030 --> 00:01:02,820
+Ok, deixe-me mostrar a
+
+26
+00:01:02,820 --> 00:01:05,250
+voc, como podemos criar um objeto.
+
+27
+00:01:05,250 --> 00:01:07,736
+Ento, comeamos novamente definindo uma varivel.
+
+28
+00:01:07,736 --> 00:01:10,980
+E agora a maneira mais fcil de criar um novo
+
+29
+00:01:10,980 --> 00:01:13,450
+objeto  com o chamado literal de objeto,
+
+30
+00:01:13,450 --> 00:01:15,410
+que  basicamente como um continer
+
+31
+00:01:15,410 --> 00:01:17,120
+que podemos preencher com variveis,
+
+32
+00:01:17,120 --> 00:01:18,670
+que so chamadas de propriedades.
+
+33
+00:01:18,670 --> 00:01:20,920
+Ento, o objeto literal, ns escrevemos assim.
+
+34
+00:01:20,920 --> 00:01:22,880
+Ento, apenas chaves.
+
+35
+00:01:22,880 --> 00:01:25,270
+Assim como nos arrays, temos os
+
+36
+00:01:25,270 --> 00:01:28,198
+colchetes, nos objetos voc tem as chaves.
+
+37
+00:01:28,198 --> 00:01:29,200
+OK?
+
+38
+00:01:29,200 --> 00:01:32,163
+E agora podemos comear a definir ou definir pares de valores-chave.
+
+39
+00:01:33,110 --> 00:01:38,110
+Ento, nome, por exemplo, agora John.
+
+40
+00:01:38,340 --> 00:01:39,940
+Ou podemos tambm dizer firstName,
+
+41
+00:01:39,940 --> 00:01:41,470
+assim como temos feito todo
+
+42
+00:01:41,470 --> 00:01:44,210
+esse tempo, para mantermos nossa nomenclatura consistente aqui.
+
+43
+00:01:44,210 --> 00:01:47,550
+Ento, aqui neste exemplo, firstName  agora uma chave e
+
+44
+00:01:47,550 --> 00:01:49,100
+john  o valor.
+
+45
+00:01:49,100 --> 00:01:52,180
+E assim chamamos tudo isso aqui de um par de valores-chave.
+
+46
+00:01:52,180 --> 00:01:55,947
+Tambm dizemos que firstName  uma propriedade do objeto john.
+
+47
+00:01:55,947 --> 00:01:56,870
+OK?
+
+48
+00:01:56,870 --> 00:01:58,380
+Mas um pouco mais sobre isso depois.
+
+49
+00:01:58,380 --> 00:01:59,780
+Ento, por enquanto, vamos continuar
+
+50
+00:01:59,780 --> 00:02:01,580
+definindo alguns pares de valores chave
+
+51
+00:02:01,580 --> 00:02:03,814
+aqui, para que eu possa mostrar a voc
+
+52
+00:02:03,814 --> 00:02:07,123
+como podemos acess-los e tambm alter-los, assim como mostrei em matrizes.
+
+53
+00:02:08,191 --> 00:02:09,791
+Vamos tambm definir o sobrenome.
+
+54
+00:02:12,700 --> 00:02:14,860
+Ento, Smith, e depois, assim como nos arrays,
+
+55
+00:02:14,860 --> 00:02:15,880
+como voc viu aqui,
+
+56
+00:02:15,880 --> 00:02:18,120
+temos que separar essas linhas diferentes, portanto, esses
+
+57
+00:02:18,120 --> 00:02:20,670
+pares de valores de chave diferentes com uma vrgula.
+
+58
+00:02:20,670 --> 00:02:22,040
+OK?
+
+59
+00:02:22,040 --> 00:02:25,360
+Ento birthYear e novamente 1990.
+
+60
+00:02:25,360 --> 00:02:27,010
+E voc v que podemos colocar
+
+61
+00:02:27,010 --> 00:02:29,740
+todos os tipos de dados diferentes aqui como antes.
+
+62
+00:02:29,740 --> 00:02:32,410
+Podemos at arrays aqui, ento porque no?
+
+63
+00:02:32,410 --> 00:02:34,453
+Vamos definir uma propriedade familiar e
+
+64
+00:02:35,360 --> 00:02:36,620
+agora podemos colocar uma
+
+65
+00:02:36,620 --> 00:02:39,000
+matriz aqui dizendo os membros da famlia.
+
+66
+00:02:39,000 --> 00:02:41,792
+Ento, digamos que alguns membros da
+
+67
+00:02:41,792 --> 00:02:46,517
+famlia de John so Jane, Mark, Bob e Emily.
+
+68
+00:02:50,640 --> 00:02:52,200
+Ento, como voc v dentro
+
+69
+00:02:52,200 --> 00:02:54,890
+do objeto, podemos ter outros elementos como esses, ento
+
+70
+00:02:54,890 --> 00:02:56,600
+podemos at ter um array.
+
+71
+00:02:56,600 --> 00:02:58,450
+Poderamos at mesmo colocar outro
+
+72
+00:02:58,450 --> 00:03:00,320
+objeto dentro do objeto, tudo bem?
+
+73
+00:03:00,320 --> 00:03:02,280
+E na verdade o mesmo  verdadeiro
+
+74
+00:03:02,280 --> 00:03:04,600
+para arrays, ento ns no falamos sobre isso
+
+75
+00:03:04,600 --> 00:03:07,570
+na conferncia de arrays, mas como um elemento de array,
+
+76
+00:03:07,570 --> 00:03:11,150
+voc pode ter um objeto ou outro array ou o que voc quiser.
+
+77
+00:03:11,150 --> 00:03:11,983
+Tudo bem?
+
+78
+00:03:11,983 --> 00:03:13,950
+E, claro, voc ver exemplos de tudo
+
+79
+00:03:13,950 --> 00:03:16,350
+isso durante o curso, ento no se preocupe.
+
+80
+00:03:16,350 --> 00:03:17,820
+Este  realmente apenas o cruzamento.
+
+81
+00:03:17,820 --> 00:03:20,020
+Ns vamos usar tudo isso mais tarde.
+
+82
+00:03:20,020 --> 00:03:20,930
+Ento podemos definir um trabalho.
+
+83
+00:03:20,930 --> 00:03:22,560
+E agora tambm
+
+84
+00:03:22,560 --> 00:03:26,843
+vamos definir o estado casado como antes.
+
+85
+00:03:28,800 --> 00:03:30,370
+Ento ns dizemos falso.
+
+86
+00:03:30,370 --> 00:03:31,203
+OK?
+
+87
+00:03:31,203 --> 00:03:34,330
+E o ltimo no tem vrgula ou ponto e vrgula,
+
+88
+00:03:34,330 --> 00:03:35,163
+e  isso.
+
+89
+00:03:35,163 --> 00:03:36,800
+Ento esse  o nosso objeto john.
+
+90
+00:03:36,800 --> 00:03:38,880
+Podemos agora, apenas para dar uma olhada em
+
+91
+00:03:38,880 --> 00:03:41,193
+como se parece no console, basta fazer o log.
+
+92
+00:03:44,010 --> 00:03:46,000
+Ok, e ento aqui vamos ns.
+
+93
+00:03:46,000 --> 00:03:47,090
+Ento esse  o nosso objetivo.
+
+94
+00:03:47,090 --> 00:03:48,810
+Podemos abri-lo e dar
+
+95
+00:03:48,810 --> 00:03:50,600
+uma olhada nas diferentes propriedades.
+
+96
+00:03:50,600 --> 00:03:51,670
+Ento, como
+
+97
+00:03:51,670 --> 00:03:55,780
+eu mencionei, estas so todas as propriedades do objeto john.
+
+98
+00:03:55,780 --> 00:03:57,070
+E talvez agora voc esteja
+
+99
+00:03:57,070 --> 00:03:58,659
+se perguntando como podemos realmente acess-los.
+
+100
+00:03:58,659 --> 00:04:00,490
+E essa  uma boa pergunta.
+
+101
+00:04:00,490 --> 00:04:01,400
+E  muito fcil.
+
+102
+00:04:01,400 --> 00:04:04,110
+Tudo o que temos a fazer  usar a notao de ponto.
+
+103
+00:04:04,110 --> 00:04:06,697
+Ento, ponto firstName, por exemplo.
+
+104
+00:04:06,697 --> 00:04:09,497
+E o editor de texto j sugere
+
+105
+00:04:09,497 --> 00:04:11,670
+que nome podemos escrever aqui.
+
+106
+00:04:11,670 --> 00:04:14,902
+E ento, vamos experimentar e aqui vamos ns, John.
+
+107
+00:04:14,902 --> 00:04:17,830
+Ento, tudo o que precisamos fazer para ler
+
+108
+00:04:17,830 --> 00:04:21,320
+o valor da chave do firstName  usar o ponto.
+
+109
+00:04:21,320 --> 00:04:22,153
+OK?
+
+110
+00:04:22,153 --> 00:04:24,000
+E assim firstName  uma propriedade de
+
+111
+00:04:24,000 --> 00:04:26,762
+john, e ns lemos isso usando a notao de ponto.
+
+112
+00:04:26,762 --> 00:04:27,810
+Tudo bem?
+
+113
+00:04:27,810 --> 00:04:30,440
+Ento essa  uma das maneiras em que podemos
+
+114
+00:04:30,440 --> 00:04:32,260
+fazer isso, mas na verdade  outra.
+
+115
+00:04:32,260 --> 00:04:34,330
+Ento, uma  a notao de
+
+116
+00:04:34,330 --> 00:04:36,090
+ponto, e deixe-me agora mostrar
+
+117
+00:04:36,090 --> 00:04:38,020
+outra, que est usando os colchetes.
+
+118
+00:04:38,020 --> 00:04:40,630
+Portanto, assim como recuperar um elemento de uma matriz,
+
+119
+00:04:40,630 --> 00:04:42,520
+tambm podemos usar os colchetes para recuperar
+
+120
+00:04:42,520 --> 00:04:44,130
+um elemento do objeto, mas, em
+
+121
+00:04:44,130 --> 00:04:47,210
+vez de usar um nmero, usamos o nome da chave.
+
+122
+00:04:47,210 --> 00:04:49,690
+Ok, e digamos que queremos o sobrenome agora.
+
+123
+00:04:49,690 --> 00:04:52,550
+E ns no tivemos que coloc-lo entre aspas.
+
+124
+00:04:52,550 --> 00:04:54,933
+Ento, basicamente, temos que colocar uma string aqui.
+
+125
+00:04:55,830 --> 00:04:57,257
+Ento, lastName.
+
+126
+00:04:58,330 --> 00:04:59,650
+E agora, vamos dar uma olhada.
+
+127
+00:04:59,650 --> 00:05:01,700
+E aqui vamos ns com o Smith.
+
+128
+00:05:01,700 --> 00:05:02,533
+OK?
+
+129
+00:05:02,533 --> 00:05:04,410
+Ento, isso  aqui uma string, lembre-se.
+
+130
+00:05:04,410 --> 00:05:06,610
+E assim, na verdade, podemos fazer ainda
+
+131
+00:05:06,610 --> 00:05:09,310
+melhor, no exatamente melhor, mas h uma coisa
+
+132
+00:05:09,310 --> 00:05:13,070
+que podemos fazer, por exemplo,  que podemos declarar uma varivel.
+
+133
+00:05:13,070 --> 00:05:16,503
+E vamos cham-lo x aqui para simplificar, e
+
+134
+00:05:17,830 --> 00:05:20,020
+ento vamos cham-lo de birthYear.
+
+135
+00:05:21,361 --> 00:05:24,504
+Ok, e agora, aqui, e isso tem que ser
+
+136
+00:05:24,504 --> 00:05:25,387
+uma string, claro,
+
+137
+00:05:25,387 --> 00:05:27,860
+e agora aqui podemos usar essa varivel.
+
+138
+00:05:27,860 --> 00:05:31,890
+Ento podemos dizer joo x, e este x ser ento birthYear.
+
+139
+00:05:31,890 --> 00:05:35,040
+E john birthYear ser 1990.
+
+140
+00:05:35,040 --> 00:05:35,873
+Tudo bem?
+
+141
+00:05:35,873 --> 00:05:36,706
+Ento vamos tentar isso.
+
+142
+00:05:36,706 --> 00:05:38,010
+E de fato funcionou.
+
+143
+00:05:38,010 --> 00:05:38,843
+OK?
+
+144
+00:05:38,843 --> 00:05:41,010
+E esse pequeno truque aqui pode ser til s vezes,
+
+145
+00:05:41,010 --> 00:05:42,730
+e  por isso que mostrei para voc.
+
+146
+00:05:42,730 --> 00:05:44,030
+Ok, ento tenha isso em mente.
+
+147
+00:05:44,030 --> 00:05:46,263
+s vezes isso pode ser til.
+
+148
+00:05:46,263 --> 00:05:49,400
+Ento,  assim que voc recupera dados de um objeto.
+
+149
+00:05:49,400 --> 00:05:51,320
+E agora tambm queremos alterar o
+
+150
+00:05:51,320 --> 00:05:53,050
+objeto, assim como fizemos com os
+
+151
+00:05:53,050 --> 00:05:55,600
+arrays, e isso funciona exatamente da mesma maneira.
+
+152
+00:05:55,600 --> 00:05:57,870
+Tudo bem, ento o que
+
+153
+00:05:57,870 --> 00:06:02,870
+podemos fazer agora  dizer john. trabalho, por exemplo, e podemos configur-lo para
+
+154
+00:06:03,220 --> 00:06:06,480
+o driver, ou para o designer, na verdade.
+
+155
+00:06:06,480 --> 00:06:07,637
+Por que no?
+
+156
+00:06:07,637 --> 00:06:10,620
+Ento tudo o que temos a fazer  dizer john. trabalho, e ento
+
+157
+00:06:10,620 --> 00:06:13,340
+podemos mudar os dados, ok?
+
+158
+00:06:13,340 --> 00:06:16,530
+E ento,  claro, tambm podemos fazer o contrrio.
+
+159
+00:06:16,530 --> 00:06:19,200
+Ento, com a notao de parnteses, ok?
+
+160
+00:06:19,200 --> 00:06:21,483
+Ento, nossas citaes e  casado.
+
+161
+00:06:23,140 --> 00:06:26,750
+E ento vamos definir isso agora, ok?
+
+162
+00:06:26,750 --> 00:06:28,590
+Ento, se voc fizer login
+
+163
+00:06:28,590 --> 00:06:31,163
+no console, ver que ele deve ser diferente.
+
+164
+00:06:35,410 --> 00:06:39,590
+Aqui vamos ns, e to bem, aqui vamos ns, ento John
+
+165
+00:06:39,590 --> 00:06:44,150
+agora  um designer e  casado agora  verdade, ok?
+
+166
+00:06:44,150 --> 00:06:46,620
+E assim podemos usar a notao de ponto
+
+167
+00:06:46,620 --> 00:06:49,160
+no apenas para acess-lo como fizemos antes, como
+
+168
+00:06:49,160 --> 00:06:51,140
+aqui, mas tambm podemos fazer isso para
+
+169
+00:06:51,140 --> 00:06:53,500
+alterar os dados, para alterar algumas dessas propriedades.
+
+170
+00:06:53,500 --> 00:06:57,260
+Ok, e o mesmo aqui com a notao de colchetes.
+
+171
+00:06:57,260 --> 00:06:58,777
+Tudo bem, e agora s
+
+172
+00:06:58,777 --> 00:07:00,650
+para terminar, ns tivemos duas maneiras
+
+173
+00:07:00,650 --> 00:07:02,900
+diferentes de inicializar uma nova matriz, certo?
+
+174
+00:07:02,900 --> 00:07:04,400
+Ento, para criar uma nova
+
+175
+00:07:04,400 --> 00:07:06,499
+matriz, e o mesmo acontece com o objeto.
+
+176
+00:07:06,499 --> 00:07:08,713
+Ento podemos fazer um objeto para Jane.
+
+177
+00:07:09,880 --> 00:07:12,763
+E assim como antes, podemos dizer, novo objeto.
+
+178
+00:07:13,980 --> 00:07:15,353
+Ento, na palestra de
+
+179
+00:07:15,353 --> 00:07:17,520
+matriz, dissemos nova matriz e agora podemos
+
+180
+00:07:17,520 --> 00:07:20,410
+dizer novo objeto para criar um novo objeto vazio.
+
+181
+00:07:20,410 --> 00:07:23,500
+E agora podemos apenas preencher alguns dados aqui:
+
+182
+00:07:23,500 --> 00:07:24,623
+jane. nome,
+
+183
+00:07:29,450 --> 00:07:30,957
+jane. birthYear e
+
+184
+00:07:37,010 --> 00:07:38,550
+apenas mais um.
+
+185
+00:07:38,550 --> 00:07:42,010
+Ento Jane, e desta vez vou usar os parnteses
+
+186
+00:07:42,010 --> 00:07:45,183
+novamente, e ento podemos dizer agora lastName tambm.
+
+187
+00:07:51,260 --> 00:07:53,060
+Ok, este vamos chamar firstName.
+
+188
+00:07:54,210 --> 00:07:56,010
+E agora podemos entrar no console.
+
+189
+00:08:00,220 --> 00:08:02,060
+Ok, ento s para voc
+
+190
+00:08:02,060 --> 00:08:04,707
+ver que vai funcionar no mesmo nome.
+
+191
+00:08:04,707 --> 00:08:05,980
+E aqui ns temos um
+
+192
+00:08:05,980 --> 00:08:07,760
+erro, ento voc v lastName no est
+
+193
+00:08:07,760 --> 00:08:10,963
+definido, e isso  porque no  uma string, o que deveria ser.
+
+194
+00:08:12,000 --> 00:08:13,430
+Ento vamos tentar de novo.
+
+195
+00:08:13,430 --> 00:08:16,140
+E assim, parece exatamente da mesma maneira como antes.
+
+196
+00:08:16,140 --> 00:08:19,890
+Ento, novamente, funciona exatamente como o literal do objeto.
+
+197
+00:08:19,890 --> 00:08:21,690
+Vamos realmente escrever isso aqui.
+
+198
+00:08:24,320 --> 00:08:27,080
+Ento, literal de objeto  uma maneira de
+
+199
+00:08:27,080 --> 00:08:30,623
+definir objetos usando esta sintaxe aqui, apenas com as chaves.
+
+200
+00:08:31,700 --> 00:08:35,373
+E aqui embaixo ns temos a sintaxe do novo objeto.
+
+201
+00:08:37,930 --> 00:08:42,000
+Ok, ento esse  o bsico de objetos e propriedades.
+
+202
+00:08:42,000 --> 00:08:43,800
+Ento, nesta palestra ns falamos
+
+203
+00:08:43,800 --> 00:08:46,590
+sobre propriedades, e a prxima, vamos falar sobre
+
+204
+00:08:46,590 --> 00:08:50,150
+mtodos, que tambm  algo muito importante relacionado a objetos.
+
+205
+00:08:50,150 --> 00:08:51,593
+Ento fique ligado para isso.
+

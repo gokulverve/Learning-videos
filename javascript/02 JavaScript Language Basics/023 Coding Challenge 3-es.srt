@@ -1,0 +1,136 @@
+1
+00:00:01,160 --> 00:00:03,580
+Instructor: Bienvenido al prximo desafo de codificacin.
+
+2
+00:00:03,580 --> 00:00:07,410
+En este, vas a construir una calculadora de propinas muy simple.
+
+3
+00:00:07,410 --> 00:00:09,920
+Entonces John y su familia se
+
+4
+00:00:09,920 --> 00:00:12,130
+fueron de vacaciones y fueron a
+
+5
+00:00:12,130 --> 00:00:17,130
+tres restaurantes diferentes, y los recibos fueron de 124, 48 y 268 dlares.
+
+6
+00:00:17,480 --> 00:00:20,090
+Ahora para darle una propina al mesero,
+
+7
+00:00:20,090 --> 00:00:23,660
+John cre una calculadora de propinas simple como una funcin.
+
+8
+00:00:23,660 --> 00:00:25,900
+Y la forma en que John calcula sus
+
+9
+00:00:25,900 --> 00:00:28,900
+consejos es que le gusta dar propina al 20 por ciento
+
+10
+00:00:28,900 --> 00:00:31,010
+de la factura cuando la factura es
+
+11
+00:00:31,010 --> 00:00:34,870
+menos de 50 dlares, el 15 por ciento cuando la factura es de entre
+
+12
+00:00:34,870 --> 00:00:39,290
+50 y 200 dlares y el 10 por ciento si es ms de 200 dlares, y
+
+13
+00:00:39,290 --> 00:00:40,900
+esto puede no tener mucho sentido,
+
+14
+00:00:40,900 --> 00:00:43,610
+pero esto es solo por este pequeo ejercicio, as que
+
+15
+00:00:43,610 --> 00:00:46,830
+tenemos algo ms que hacer en nuestra funcin, est bien.
+
+16
+00:00:46,830 --> 00:00:49,910
+Entonces, al final, a John le gustara tener dos
+
+17
+00:00:49,910 --> 00:00:51,450
+arreglos como resultado final.
+
+18
+00:00:51,450 --> 00:00:55,200
+Entonces uno que contiene los tres consejos, por lo que uno para
+
+19
+00:00:55,200 --> 00:00:58,690
+cada factura, y luego uno que contiene los tres montos finales
+
+20
+00:00:58,690 --> 00:01:02,640
+pagados, y con montos pagados, me refiero a la cuenta ms la paga.
+
+21
+00:01:02,640 --> 00:01:05,700
+De acuerdo, entonces queremos una funcin que calcule la propina,
+
+22
+00:01:05,700 --> 00:01:07,420
+y luego queremos dos matrices, una
+
+23
+00:01:07,420 --> 00:01:10,790
+con solo las puntas y otra con consejos ms la factura.
+
+24
+00:01:10,790 --> 00:01:13,730
+Est bien, y si no est seguro de cmo calcular un porcentaje, por
+
+25
+00:01:13,730 --> 00:01:16,450
+ejemplo, si desea tomar el 20 por ciento de un valor, simplemente
+
+26
+00:01:16,450 --> 00:01:19,440
+tiene que multiplicar ese valor por 0. 2, que es 20
+
+27
+00:01:19,440 --> 00:01:24,160
+dividido por 100, est bien, as que eso es muy simple.
+
+28
+00:01:24,160 --> 00:01:26,440
+De acuerdo, espero que consigas hacer esto,
+
+29
+00:01:26,440 --> 00:01:28,100
+ser un buen desafo para
+
+30
+00:01:28,100 --> 00:01:30,660
+ti usar la mayora de las cosas de
+
+31
+00:01:30,660 --> 00:01:32,070
+las que hablamos hasta este momento.
+
+32
+00:01:32,070 --> 00:01:34,190
+As que, dedcale tiempo, prubalo y luego
+
+33
+00:01:34,190 --> 00:01:37,210
+te ver en el siguiente video con la solucin.
+
+34
+00:01:37,210 --> 00:01:38,043
+Buena suerte.
+

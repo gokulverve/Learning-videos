@@ -1,0 +1,604 @@
+1
+00:00:01,440 --> 00:00:03,740
+Jonas: Nesneleri renmeye devam edelim,
+
+2
+00:00:03,740 --> 00:00:07,240
+bu sefer nesne yntemlerine daha derin dalma.
+
+3
+00:00:07,240 --> 00:00:09,840
+Bylece son derste bir nesnenin farkl
+
+4
+00:00:09,840 --> 00:00:12,590
+trde veri tutabileceini rendik, deil mi?
+
+5
+00:00:12,590 --> 00:00:15,710
+Bylece bir ykseltmeyi ve hatta baka nesneleri
+
+6
+00:00:15,710 --> 00:00:19,010
+de ekleyebiliriz, ancak ilevleri bile nesnelere ekleyebiliriz.
+
+7
+00:00:19,010 --> 00:00:21,810
+Ve bu ilevler daha sonra yntem olarak adlandrlr.
+
+8
+00:00:21,810 --> 00:00:25,310
+O zaman neden ve nasl yntemler oluturabileceimizi grelim.
+
+9
+00:00:25,310 --> 00:00:28,450
+Ve bunun iin, aslnda geri dnp John
+
+10
+00:00:28,450 --> 00:00:32,923
+neslimizi ele geirelim, bylece tekrar bir daha yazmaya gerek yok.
+
+11
+00:00:34,000 --> 00:00:36,200
+te burada nesneyimiz var.
+
+12
+00:00:36,200 --> 00:00:38,570
+yleyse burada yapmak istediimiz ey,
+
+13
+00:00:38,570 --> 00:00:41,540
+John'un yan hesaplamak iin bu John nesnesine
+
+14
+00:00:41,540 --> 00:00:43,960
+fonksiyon, yani bir yntem eklemektir.
+
+15
+00:00:43,960 --> 00:00:47,850
+Bu yzden, her yl deitii iin, nesnedeki ya sabit bir
+
+16
+00:00:47,850 --> 00:00:49,600
+ekilde kodlamak istemiyoruz ve
+
+17
+00:00:49,600 --> 00:00:51,680
+elbette, sabit olan ey, yl.
+
+18
+00:00:51,680 --> 00:00:54,692
+Ve bu nedenle, burada ya sk kodlanm olmak yerine,
+
+19
+00:00:54,692 --> 00:00:57,540
+bir nesneyi, o ya hesaplayan bir fonksiyona sahibiz.
+
+20
+00:00:57,540 --> 00:01:00,603
+Yani tek yapmamz gereken temelde baka bir anahtar tanmlamak.
+
+21
+00:01:01,760 --> 00:01:05,590
+Tabii ki hesaplamak iin duran calcAge, yani calcAge,
+
+22
+00:01:05,590 --> 00:01:09,280
+ve imdi daha nce olduu gibi, deeri tanmlarz.
+
+23
+00:01:09,280 --> 00:01:12,283
+Ve burada deer temelde bir ilev ifadesidir.
+
+24
+00:01:13,130 --> 00:01:15,973
+Bylece fonksiyonu ve doum yln yazyoruz.
+
+25
+00:01:19,040 --> 00:01:20,310
+Tamam, ite bu kadar.
+
+26
+00:01:20,310 --> 00:01:23,730
+imdi tek yapmamz gereken, ilevimizi onun tarafndan yazmak.
+
+27
+00:01:23,730 --> 00:01:26,050
+Ve imdi belki daha nce ilev ifadeleri
+
+28
+00:01:26,050 --> 00:01:28,940
+ve ilev bildirimleri hakknda rendik biraz daha mantkl.
+
+29
+00:01:28,940 --> 00:01:32,400
+Yani bu burada aka bir ilev ifadesi, doru mu?
+
+30
+00:01:32,400 --> 00:01:34,280
+Yani isminin olmad bir
+
+31
+00:01:34,280 --> 00:01:37,400
+fonksiyona sahip olduumuz gibi, sadece bir deikene
+
+32
+00:01:37,400 --> 00:01:39,800
+atadmz argman ile, bu durumda calcAge.
+
+33
+00:01:39,800 --> 00:01:43,253
+Ve ite buradaki ilev artk bir John metodu.
+
+34
+00:01:44,310 --> 00:01:47,330
+Yani imdi yapmamz gereken tek ey, yl geri
+
+35
+00:01:47,330 --> 00:01:50,740
+dnmek, tpk daha nce yaptmz gibi, doum yl hari.
+
+36
+00:01:50,740 --> 00:01:52,430
+Tamam, basit deil mi?
+
+37
+00:01:52,430 --> 00:01:54,943
+imdi bunu nasl arayacamz dnyorsun?
+
+38
+00:01:55,850 --> 00:01:58,510
+ey, yine ok basit.
+
+39
+00:01:58,510 --> 00:02:02,620
+Ve bu ilevi armann sonucunu kaydetmeye izin verelim.
+
+40
+00:02:02,620 --> 00:02:05,450
+Ve bylece, onu adlandrdmz yol,
+
+41
+00:02:05,450 --> 00:02:07,230
+zelliklerine erimemizin aynsdr.
+
+42
+00:02:07,230 --> 00:02:09,140
+yleyse, John ve sonra nokta.
+
+43
+00:02:09,140 --> 00:02:11,200
+zelliklerden birine erimek yerine,
+
+44
+00:02:11,200 --> 00:02:13,760
+basit eriim olarak calcAge.
+
+45
+00:02:13,760 --> 00:02:15,420
+Sonra sadece normal bir ilev ars.
+
+46
+00:02:15,420 --> 00:02:18,150
+yleyse calcAge ve sonra bu
+
+47
+00:02:18,150 --> 00:02:20,730
+yl 1990 geiyoruz, bu rnekte.
+
+48
+00:02:20,730 --> 00:02:25,730
+Ve imdi, 28 yanda byk olacak.
+
+49
+00:02:26,040 --> 00:02:30,020
+Yani bu yntemlerin ok temel bir ilevsellii.
+
+50
+00:02:30,020 --> 00:02:32,400
+Ve dizi dersinde size bir
+
+51
+00:02:32,400 --> 00:02:34,570
+dizi iin yntemler gsterdiimi
+
+52
+00:02:34,570 --> 00:02:38,420
+hatrlayn, ve bu da dizilerin aslnda nesneler olduu
+
+53
+00:02:38,420 --> 00:02:40,770
+anlamna gelir, nk bu yntemlerin
+
+54
+00:02:40,770 --> 00:02:44,040
+tek yolu, nk sadece nesnelerin yntemleri vardr.
+
+55
+00:02:44,040 --> 00:02:46,330
+Diziler, push ve pop gibi bunlar deitirmek
+
+56
+00:02:46,330 --> 00:02:48,423
+iin tm bu fonksiyonlara sahipler, hatrladn m?
+
+57
+00:02:48,423 --> 00:02:51,550
+lerin neden byle yrdne ve bu ilevselliklerimizi
+
+58
+00:02:51,550 --> 00:02:53,820
+kursta daha sonra nesnelerimiz iin
+
+59
+00:02:53,820 --> 00:02:56,450
+nasl oluturabileceimize daha ok ineceiz.
+
+60
+00:02:56,450 --> 00:02:59,510
+imdilik sadece yntem temellerinden bahsediyoruz.
+
+61
+00:02:59,510 --> 00:03:03,260
+Yani sadece yntemlerin gerekten nasl altn renmek iin.
+
+62
+00:03:03,260 --> 00:03:05,740
+imdi bizim John rneimizle
+
+63
+00:03:05,740 --> 00:03:08,490
+devam edersiniz, eminim ki, 1990'n
+
+64
+00:03:08,490 --> 00:03:11,050
+doum yl, buradaki buradaki,
+
+65
+00:03:11,050 --> 00:03:13,530
+ilevin bir argman olarak
+
+66
+00:03:13,530 --> 00:03:17,630
+getiimiz, aslnda John nesnesinin kendisinde zaten tanmlanmtr.
+
+67
+00:03:17,630 --> 00:03:19,640
+Doru, yani zaten burada.
+
+68
+00:03:19,640 --> 00:03:22,399
+yleyse, eer bu fonksiyonu buraya tekrar
+
+69
+00:03:22,399 --> 00:03:23,450
+aktarmak zorunda
+
+70
+00:03:23,450 --> 00:03:24,800
+kalsaydk, bu nesneye
+
+71
+00:03:24,800 --> 00:03:27,890
+bu nesnenin iinden doru olarak eriebilir miyiz?
+
+72
+00:03:27,890 --> 00:03:29,990
+ey, elimizden geleni yapyor, nk
+
+73
+00:03:29,990 --> 00:03:31,710
+her nesnede, JavaScript bize
+
+74
+00:03:31,710 --> 00:03:35,296
+"bu" ad verilen zel bir anahtar kelime veriyor.
+
+75
+00:03:35,296 --> 00:03:37,229
+O zaman deneyelim.
+
+76
+00:03:37,229 --> 00:03:40,220
+Burada zaten tanmlanm olan
+
+77
+00:03:40,220 --> 00:03:41,970
+doum yln gemek
+
+78
+00:03:41,970 --> 00:03:45,928
+yerine, bu nokta doum yln syleyebiliriz.
+
+79
+00:03:45,928 --> 00:03:50,707
+Yani "bu", bu balamda burada ne anlama geldiini John.
+
+80
+00:03:50,707 --> 00:03:54,688
+"Bu", bu nesneyi, u anki nesneyi ifade eder.
+
+81
+00:03:54,688 --> 00:03:58,870
+Yani bu yntemi burada ardmz zaman, bu nokta doum yl,
+
+82
+00:03:58,870 --> 00:04:01,374
+John dot doum yl anlamna gelecektir.
+
+83
+00:04:01,374 --> 00:04:06,000
+yleyse bir daha deneyelim ve onu burada
+
+84
+00:04:06,000 --> 00:04:08,860
+deitirelim, bylece kmz deiecek.
+
+85
+00:04:08,860 --> 00:04:11,620
+imdi 92'yi buraya koyalm, eer yeniden
+
+86
+00:04:11,620 --> 00:04:14,460
+yklerseniz, imdi 26 yanda olduunu grrz.
+
+87
+00:04:14,460 --> 00:04:17,300
+Bunun anlam "bu" aslnda ie yaryor.
+
+88
+00:04:17,300 --> 00:04:20,770
+imdi bu nokta doum ylna eriebiliriz, nk
+
+89
+00:04:20,770 --> 00:04:24,250
+"bu", tekrar, sadece mevcut nesneyi ifade eder.
+
+90
+00:04:24,250 --> 00:04:27,880
+Yani temelde, zerinde calcAge olan nesne.
+
+91
+00:04:27,880 --> 00:04:29,640
+Tamam, bu harika.
+
+92
+00:04:29,640 --> 00:04:32,270
+Ama aslnda bir adm daha ileri gidelim.
+
+93
+00:04:32,270 --> 00:04:34,970
+Peki bu sonucu gerekten doruca John
+
+94
+00:04:34,970 --> 00:04:37,250
+nesnesine saklamak istiyorsan ne olur?
+
+95
+00:04:37,250 --> 00:04:39,383
+Peki, bunu byle yapabiliriz.
+
+96
+00:04:39,383 --> 00:04:44,383
+Bu yzden nce ilk nce ya hesaplayabiliriz, yani bunun gibi.
+
+97
+00:04:46,750 --> 00:04:51,750
+Sonra, diyebiliriz ki, john dot ya yaa eittir.
+
+98
+00:04:52,870 --> 00:04:54,431
+Sa?
+
+99
+00:04:54,431 --> 00:04:55,630
+Ya da hepsini tek bir izgide yapabiliriz.
+
+100
+00:04:55,630 --> 00:04:57,283
+Yani byle bir ey.
+
+101
+00:04:59,850 --> 00:05:00,742
+Tamam, bu
+
+102
+00:05:00,742 --> 00:05:04,178
+yzden John Dot CalcAge' arn, ki bu
+
+103
+00:05:04,178 --> 00:05:08,680
+ya dnecek, ve sonra John Dot yan bu sonuca ayarladk.
+
+104
+00:05:08,680 --> 00:05:11,540
+yleyse, son derste rendiimiz gibi, bu
+
+105
+00:05:11,540 --> 00:05:14,710
+gibi zellikleri ayarlayabileceimizi unutmayn, deil mi?
+
+106
+00:05:14,710 --> 00:05:16,580
+Ama aslnda daha iyisini yapabiliriz.
+
+107
+00:05:16,580 --> 00:05:18,220
+Yani eer buradaki bir
+
+108
+00:05:18,220 --> 00:05:20,260
+nesnedeki bir zellie buradan eriebilecekseniz,
+
+109
+00:05:20,260 --> 00:05:23,560
+bu da onu ayarlayabileceimiz anlamna gelir, deil mi?
+
+110
+00:05:23,560 --> 00:05:26,430
+Ve buradaki rakam geri evirmek yerine,
+
+111
+00:05:26,430 --> 00:05:27,437
+bu nokta
+
+112
+00:05:27,437 --> 00:05:32,437
+yann bu nokta doum yl eksi 2018'e eit olmas gerektiini syleyebiliriz.
+
+113
+00:05:35,500 --> 00:05:39,250
+Yani imdi tek yapmamz gereken bu ilevi armak, doru mu?
+
+114
+00:05:39,250 --> 00:05:42,300
+Daha sonra, sonucun gerekten orada olup olmadn
+
+115
+00:05:42,300 --> 00:05:45,223
+grmek iin tm nesneyi konsola da kaydedebiliriz.
+
+116
+00:05:49,060 --> 00:05:50,690
+Ve hadi grelim.
+
+117
+00:05:50,690 --> 00:05:53,730
+Ve aslnda, burada 26 yandayz.
+
+118
+00:05:53,730 --> 00:05:56,140
+Ve bylece, bu alt.
+
+119
+00:05:56,140 --> 00:05:58,660
+Yani "bu" anahtar kelime, JavaScript'i renme
+
+120
+00:05:58,660 --> 00:06:01,300
+yolculuunuz boyunca uzmanlamanz gereken gerekten gl
+
+121
+00:06:01,300 --> 00:06:03,760
+ve gerekten nemli bir eydir.
+
+122
+00:06:03,760 --> 00:06:06,100
+Bu derste aslnda doum yln
+
+123
+00:06:06,100 --> 00:06:08,620
+fonksiyonun bir argman olarak geirmekten,
+
+124
+00:06:08,620 --> 00:06:10,040
+doum yln dorudan
+
+125
+00:06:10,040 --> 00:06:12,860
+"John" nesnesinden John nesnesinden okuyabilmek iin
+
+126
+00:06:12,860 --> 00:06:15,280
+gittiimizi hatrlayn ve oradan da
+
+127
+00:06:15,280 --> 00:06:18,080
+bir tane bile gittik. adm daha
+
+128
+00:06:18,080 --> 00:06:20,180
+ileriye ve ya sonucunu
+
+129
+00:06:20,180 --> 00:06:22,910
+dndrmek yerine, onu dorudan nesneye sakladk.
+
+130
+00:06:22,910 --> 00:06:24,340
+Ve bylece yapabileceimiz en
+
+131
+00:06:24,340 --> 00:06:27,550
+iyi ey bu ve bu ekilde almas gerekiyordu.
+
+132
+00:06:27,550 --> 00:06:30,240
+Bu nedenle, bu temel ilevsellik
+
+133
+00:06:30,240 --> 00:06:32,440
+ilevlerini ve "bu" anahtar
+
+134
+00:06:32,440 --> 00:06:33,720
+kelimeyi anlyorsanz, bu
+
+135
+00:06:33,720 --> 00:06:36,850
+kursun daha sonraki nesnelerine hakim olmann yolundasnz.
+
+136
+00:06:36,850 --> 00:06:39,350
+nk bu aslnda ok karmak bir konu
+
+137
+00:06:39,350 --> 00:06:40,820
+ve daha sonra kursumuzda
+
+138
+00:06:40,820 --> 00:06:42,230
+daha derinlere ineceiz.
+
+139
+00:06:42,230 --> 00:06:44,197
+Ama imdilik, sadece bir nesnenin
+
+140
+00:06:44,197 --> 00:06:47,240
+temel olarak kendisine iaret eden zel bir
+
+141
+00:06:47,240 --> 00:06:49,150
+"bu" anahtar kelimesi olduunu anlamam
+
+142
+00:06:49,150 --> 00:06:50,340
+isterim ve bunun
+
+143
+00:06:50,340 --> 00:06:52,560
+gibi yntemleri kullanabileceinizi anlamanz istiyorum.
+
+144
+00:06:52,560 --> 00:06:55,610
+Yani, size bu videoda gsterdiim gibi.
+
+145
+00:06:55,610 --> 00:06:57,330
+Tamam, mantkl m?
+
+146
+00:06:57,330 --> 00:06:58,630
+Yani imdi baka bir kodlama
+
+147
+00:06:58,630 --> 00:07:00,270
+meydan okuma iin hazr olduunu dnyorum.
+
+148
+00:07:00,270 --> 00:07:01,700
+Umarm bunlar seversin.
+
+149
+00:07:01,700 --> 00:07:04,610
+Becerilerinizi ve rendiklerinizi pratik yapabilmeniz iin
+
+150
+00:07:04,610 --> 00:07:05,740
+mkemmel olduklarn dnyorum.
+
+151
+00:07:05,740 --> 00:07:07,793
+Umarm bir an sonra orada grrz.
+

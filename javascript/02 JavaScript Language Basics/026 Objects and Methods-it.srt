@@ -1,0 +1,604 @@
+1
+00:00:01,440 --> 00:00:03,740
+Jonas: continuiamo a conoscere gli
+
+2
+00:00:03,740 --> 00:00:07,240
+oggetti, questa volta approfondendo i metodi degli oggetti.
+
+3
+00:00:07,240 --> 00:00:09,840
+Quindi abbiamo appreso nell'ultima lezione che un
+
+4
+00:00:09,840 --> 00:00:12,590
+oggetto pu contenere diversi tipi di dati, giusto?
+
+5
+00:00:12,590 --> 00:00:15,710
+Quindi includendo un rilancio e anche altri
+
+6
+00:00:15,710 --> 00:00:19,010
+oggetti, ma possiamo anche associare funzioni agli oggetti.
+
+7
+00:00:19,010 --> 00:00:21,810
+E queste funzioni sono quindi chiamate metodi.
+
+8
+00:00:21,810 --> 00:00:25,310
+Quindi vediamo perch e come possiamo creare metodi.
+
+9
+00:00:25,310 --> 00:00:28,450
+E per quello, torniamo indietro e prendiamo il
+
+10
+00:00:28,450 --> 00:00:32,923
+nostro oggetto John in modo da non dover riscrivere tutto di nuovo.
+
+11
+00:00:34,000 --> 00:00:36,200
+Quindi qui abbiamo il nostro obiettivo.
+
+12
+00:00:36,200 --> 00:00:38,570
+Quindi quello che vogliamo fare qui 
+
+13
+00:00:38,570 --> 00:00:41,540
+aggiungere la funzione, quindi un metodo, a questo
+
+14
+00:00:41,540 --> 00:00:43,960
+oggetto John per calcolare l'et di John.
+
+15
+00:00:43,960 --> 00:00:47,850
+Quindi non vogliamo avere un'et codificata nell'oggetto perch cambia ogni
+
+16
+00:00:47,850 --> 00:00:49,600
+anno, e ci che
+
+17
+00:00:49,600 --> 00:00:51,680
+rimane costante, naturalmente,  l'anno.
+
+18
+00:00:51,680 --> 00:00:54,692
+E cos invece di avere un'et codificata qui,
+
+19
+00:00:54,692 --> 00:00:57,540
+un oggetto, abbiamo una funzione che calcola quell'et.
+
+20
+00:00:57,540 --> 00:01:00,603
+Quindi tutto ci che dobbiamo fare  fondamentalmente definire un'altra chiave.
+
+21
+00:01:01,760 --> 00:01:05,590
+Quindi calcAge, che sta per calcolare naturalmente, quindi calcAge,
+
+22
+00:01:05,590 --> 00:01:09,280
+e ora proprio come prima, definiamo il valore.
+
+23
+00:01:09,280 --> 00:01:12,283
+E il valore qui  un'espressione di funzione, in pratica.
+
+24
+00:01:13,130 --> 00:01:15,973
+Quindi scriviamo la funzione e quindi l'anno di nascita.
+
+25
+00:01:19,040 --> 00:01:20,310
+Bene, e questo  tutto.
+
+26
+00:01:20,310 --> 00:01:23,730
+Ora tutto ci che dobbiamo fare  scrivere la nostra funzione.
+
+27
+00:01:23,730 --> 00:01:26,050
+E ora forse ha un po 'pi senso il motivo per cui
+
+28
+00:01:26,050 --> 00:01:28,940
+abbiamo imparato a conoscere le espressioni di funzione e le dichiarazioni di funzione prima.
+
+29
+00:01:28,940 --> 00:01:32,400
+Quindi questa qui  chiaramente un'espressione di funzione, giusto?
+
+30
+00:01:32,400 --> 00:01:34,280
+Quindi  come se avessimo una
+
+31
+00:01:34,280 --> 00:01:37,400
+funzione senza nome, solo con l'argomento che assegniamo a una
+
+32
+00:01:37,400 --> 00:01:39,800
+variabile, che in questo caso  calcAge.
+
+33
+00:01:39,800 --> 00:01:43,253
+E quindi questa funzione qui  ora un metodo di John.
+
+34
+00:01:44,310 --> 00:01:47,330
+Quindi ora tutto ci che dobbiamo fare  restituire
+
+35
+00:01:47,330 --> 00:01:50,740
+l'anno, proprio come abbiamo fatto prima, meno l'anno di nascita.
+
+36
+00:01:50,740 --> 00:01:52,430
+Ok, semplice vero?
+
+37
+00:01:52,430 --> 00:01:54,943
+Ora, come pensi che lo chiameremo?
+
+38
+00:01:55,850 --> 00:01:58,510
+Bene,  molto semplice di nuovo.
+
+39
+00:01:58,510 --> 00:02:02,620
+E cerchiamo di registrare il risultato della chiamata a quella funzione.
+
+40
+00:02:02,620 --> 00:02:05,450
+E cos, il modo in cui lo chiamiamo  allo
+
+41
+00:02:05,450 --> 00:02:07,230
+stesso modo in cui accediamo alle propriet.
+
+42
+00:02:07,230 --> 00:02:09,140
+Quindi, John e poi punto.
+
+43
+00:02:09,140 --> 00:02:11,200
+Invece di accedere a una
+
+44
+00:02:11,200 --> 00:02:13,760
+delle propriet, abbiamo accesso semplice calcAge.
+
+45
+00:02:13,760 --> 00:02:15,420
+Quindi  solo una normale chiamata di funzione.
+
+46
+00:02:15,420 --> 00:02:18,150
+Quindi calcAge e poi passiamo l'anno,
+
+47
+00:02:18,150 --> 00:02:20,730
+quindi 1990 in questo esempio.
+
+48
+00:02:20,730 --> 00:02:25,730
+E cos ora, otterremo l'et che  28, grande.
+
+49
+00:02:26,040 --> 00:02:30,020
+Questa  una funzionalit di base dei metodi.
+
+50
+00:02:30,020 --> 00:02:32,400
+E ricorda che nella conferenza dell'array ti
+
+51
+00:02:32,400 --> 00:02:34,570
+ho mostrato i metodi per un array,
+
+52
+00:02:34,570 --> 00:02:38,420
+e quindi questo significa che gli array sono in realt anche oggetti
+
+53
+00:02:38,420 --> 00:02:40,770
+perch  l'unico modo in cui possono
+
+54
+00:02:40,770 --> 00:02:44,040
+avere metodi, giusto, perch solo gli oggetti hanno metodi.
+
+55
+00:02:44,040 --> 00:02:46,330
+Gli array hanno tutte queste funzioni per
+
+56
+00:02:46,330 --> 00:02:48,423
+cambiarli, come push e pop, ricordi?
+
+57
+00:02:48,423 --> 00:02:51,550
+Ci addentreremo pi in profondit sul perch le cose funzionino cos
+
+58
+00:02:51,550 --> 00:02:53,820
+e su come possiamo creare questa stessa funzionalit
+
+59
+00:02:53,820 --> 00:02:56,450
+per i nostri oggetti pi avanti nel corso.
+
+60
+00:02:56,450 --> 00:02:59,510
+Per ora stiamo solo parlando delle basi del metodo.
+
+61
+00:02:59,510 --> 00:03:03,260
+Quindi, solo per sapere come funzionano davvero i metodi.
+
+62
+00:03:03,260 --> 00:03:05,740
+Ora continuando con il nostro esempio
+
+63
+00:03:05,740 --> 00:03:08,490
+di John qui, sono sicuro che avete
+
+64
+00:03:08,490 --> 00:03:11,050
+notato che l'anno di nascita del 1990,
+
+65
+00:03:11,050 --> 00:03:13,530
+questo qui, che abbiamo passato come
+
+66
+00:03:13,530 --> 00:03:17,630
+argomento della funzione  in realt gi definito nell'oggetto John stesso.
+
+67
+00:03:17,630 --> 00:03:19,640
+Giusto, quindi  gi qui, infatti.
+
+68
+00:03:19,640 --> 00:03:22,399
+Quindi, e se invece di doverlo passare di
+
+69
+00:03:22,399 --> 00:03:23,450
+nuovo in questa
+
+70
+00:03:23,450 --> 00:03:24,800
+funzione, potremmo accedere a
+
+71
+00:03:24,800 --> 00:03:27,890
+quella propriet direttamente da questo metodo all'interno di questo oggetto?
+
+72
+00:03:27,890 --> 00:03:29,990
+Bene, si scopre che possiamo ed
+
+73
+00:03:29,990 --> 00:03:31,710
+ perch in ogni oggetto,
+
+74
+00:03:31,710 --> 00:03:35,296
+JavaScript ci d una parola chiave speciale chiamata "questo".
+
+75
+00:03:35,296 --> 00:03:37,229
+Quindi proviamolo.
+
+76
+00:03:37,229 --> 00:03:40,220
+Invece di dover passare l'anno di nascita
+
+77
+00:03:40,220 --> 00:03:41,970
+che  gi definito
+
+78
+00:03:41,970 --> 00:03:45,928
+qui, possiamo dire questo anno di nascita del punto.
+
+79
+00:03:45,928 --> 00:03:50,707
+Quindi "questo", ci che significa qui in questo contesto  John.
+
+80
+00:03:50,707 --> 00:03:54,688
+"Questo" significa questo oggetto, il presente, l'oggetto corrente.
+
+81
+00:03:54,688 --> 00:03:58,870
+Quindi, quando chiamiamo questo metodo qui, questo anno di nascita del
+
+82
+00:03:58,870 --> 00:04:01,374
+punto, significher John punto anno di nascita.
+
+83
+00:04:01,374 --> 00:04:06,000
+Quindi proviamoci di nuovo e cambiamo semplicemente qui in modo
+
+84
+00:04:06,000 --> 00:04:08,860
+che il nostro output qui cambier.
+
+85
+00:04:08,860 --> 00:04:11,620
+Quindi mettiamo 92 qui ora, e se lo
+
+86
+00:04:11,620 --> 00:04:14,460
+ricarichi, ora vediamo che ora ha 26 anni.
+
+87
+00:04:14,460 --> 00:04:17,300
+Ci significa che "questo" funziona davvero.
+
+88
+00:04:17,300 --> 00:04:20,770
+Quindi ora possiamo accedere a questo anno di nascita
+
+89
+00:04:20,770 --> 00:04:24,250
+del punto, perch "questo", ancora, significa semplicemente l'oggetto corrente.
+
+90
+00:04:24,250 --> 00:04:27,880
+Quindi in pratica l'oggetto su cui abbiamo calcAge.
+
+91
+00:04:27,880 --> 00:04:29,640
+Ok,  fantastico.
+
+92
+00:04:29,640 --> 00:04:32,270
+Ma in realt facciamo un passo in pi.
+
+93
+00:04:32,270 --> 00:04:34,970
+Quindi, cosa succederebbe se volessi effettivamente archiviare
+
+94
+00:04:34,970 --> 00:04:37,250
+questo risultato direttamente nell'oggetto John?
+
+95
+00:04:37,250 --> 00:04:39,383
+Bene, potremmo farlo in questo modo.
+
+96
+00:04:39,383 --> 00:04:44,383
+Quindi dovremmo prima calcolare l'et, quindi proprio cos.
+
+97
+00:04:46,750 --> 00:04:51,750
+Quindi, diremmo, john dot age  uguale all'et.
+
+98
+00:04:52,870 --> 00:04:54,431
+Destra?
+
+99
+00:04:54,431 --> 00:04:55,630
+O potremmo effettivamente fare tutto in un'unica riga.
+
+100
+00:04:55,630 --> 00:04:57,283
+Quindi qualcosa di simile.
+
+101
+00:04:59,850 --> 00:05:00,742
+Ok, quindi
+
+102
+00:05:00,742 --> 00:05:04,178
+chiamiamo john dot calcAge, che restituir l'et,
+
+103
+00:05:04,178 --> 00:05:08,680
+e quindi settiamo john dot age a quel risultato.
+
+104
+00:05:08,680 --> 00:05:11,540
+Quindi ricorda che possiamo impostare propriet come
+
+105
+00:05:11,540 --> 00:05:14,710
+quelle che abbiamo appreso nell'ultima lezione, giusto?
+
+106
+00:05:14,710 --> 00:05:16,580
+Ma in realt possiamo fare ancora meglio.
+
+107
+00:05:16,580 --> 00:05:18,220
+Quindi se  possibile accedere
+
+108
+00:05:18,220 --> 00:05:20,260
+a una propriet in un oggetto corrente
+
+109
+00:05:20,260 --> 00:05:23,560
+come questo qui, beh, ci significa che possiamo anche impostarlo, giusto?
+
+110
+00:05:23,560 --> 00:05:26,430
+E cos invece di restituire questo numero qui, possiamo
+
+111
+00:05:26,430 --> 00:05:27,437
+semplicemente dire che
+
+112
+00:05:27,437 --> 00:05:32,437
+questa et punto dovrebbe essere uguale a 2018 meno questo anno di nascita del punto.
+
+113
+00:05:35,500 --> 00:05:39,250
+Quindi ora tutto ci che dobbiamo fare  chiamare questa funzione, giusto?
+
+114
+00:05:39,250 --> 00:05:42,300
+Quindi possiamo anche registrare l'intero oggetto sulla console, solo
+
+115
+00:05:42,300 --> 00:05:45,223
+per vedere se il risultato  davvero l.
+
+116
+00:05:49,060 --> 00:05:50,690
+E, vediamo
+
+117
+00:05:50,690 --> 00:05:53,730
+E infatti, qui abbiamo l'et di 26 anni.
+
+118
+00:05:53,730 --> 00:05:56,140
+E cos, questo ha funzionato.
+
+119
+00:05:56,140 --> 00:05:58,660
+Quindi la parola chiave "this"  qualcosa di
+
+120
+00:05:58,660 --> 00:06:01,300
+veramente potente e davvero importante che dovrai padroneggiare
+
+121
+00:06:01,300 --> 00:06:03,760
+durante il tuo percorso di apprendimento di JavaScript.
+
+122
+00:06:03,760 --> 00:06:06,100
+Quindi, ricorda in questa conferenza che siamo
+
+123
+00:06:06,100 --> 00:06:08,620
+passati dal dover passare l'anno della nascita
+
+124
+00:06:08,620 --> 00:06:10,040
+come argomento della funzione,
+
+125
+00:06:10,040 --> 00:06:12,860
+per poter leggere l'anno della nascita direttamente dall'oggetto
+
+126
+00:06:12,860 --> 00:06:15,280
+John usando il "questo", e poi da
+
+127
+00:06:15,280 --> 00:06:18,080
+l siamo andati anche solo uno fare un
+
+128
+00:06:18,080 --> 00:06:20,180
+passo avanti e invece di restituire
+
+129
+00:06:20,180 --> 00:06:22,910
+il risultato dell'et, lo abbiamo anche memorizzato direttamente nell'oggetto.
+
+130
+00:06:22,910 --> 00:06:24,340
+E cos questo  il meglio
+
+131
+00:06:24,340 --> 00:06:27,550
+che possiamo fare e questo  il modo in cui dovrebbe funzionare.
+
+132
+00:06:27,550 --> 00:06:30,240
+Quindi, se comprendi questa funzionalit di base dei
+
+133
+00:06:30,240 --> 00:06:32,440
+metodi e la parola chiave "this", allora
+
+134
+00:06:32,440 --> 00:06:33,720
+sei sulla buona strada
+
+135
+00:06:33,720 --> 00:06:36,850
+per padroneggiare gli oggetti pi avanti in questo corso.
+
+136
+00:06:36,850 --> 00:06:39,350
+Perch questo  in realt un argomento molto complesso e
+
+137
+00:06:39,350 --> 00:06:40,820
+ci immergeremo molto pi profondamente in
+
+138
+00:06:40,820 --> 00:06:42,230
+esso pi avanti nel corso.
+
+139
+00:06:42,230 --> 00:06:44,197
+Ma per ora, voglio solo che
+
+140
+00:06:44,197 --> 00:06:47,240
+tu capisca che un oggetto ha una speciale parola chiave
+
+141
+00:06:47,240 --> 00:06:49,150
+"this" che punta essenzialmente a se
+
+142
+00:06:49,150 --> 00:06:50,340
+stessa, e voglio che
+
+143
+00:06:50,340 --> 00:06:52,560
+tu capisca che puoi usare metodi come questo.
+
+144
+00:06:52,560 --> 00:06:55,610
+Quindi, proprio come ti ho mostrato in questo video.
+
+145
+00:06:55,610 --> 00:06:57,330
+Va bene, ha senso?
+
+146
+00:06:57,330 --> 00:06:58,630
+Quindi penso che tu sia
+
+147
+00:06:58,630 --> 00:07:00,270
+ora pronto per un'altra sfida di codifica.
+
+148
+00:07:00,270 --> 00:07:01,700
+Spero che ti piacciano questi.
+
+149
+00:07:01,700 --> 00:07:04,610
+Penso che siano perfetti per te per praticare le tue capacit e
+
+150
+00:07:04,610 --> 00:07:05,740
+ci che hai appena imparato.
+
+151
+00:07:05,740 --> 00:07:07,793
+Quindi spero di vederti l in un secondo.
+
